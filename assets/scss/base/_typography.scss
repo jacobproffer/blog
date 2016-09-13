@@ -13,3 +13,15 @@ h3 {
 h4 {
   @include font-size($h4-font-sizes);
 }
+
+h1,
+h2,
+p {
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  padding:0;
+  margin: 0;
+}

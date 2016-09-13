@@ -1,0 +1,15 @@
+body {
+  color: $gray;
+  background: $black;
+  font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;
+  @include line-height(16);
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+span {
+  color: $hit;
+}
