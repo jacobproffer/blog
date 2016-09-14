@@ -6,7 +6,8 @@ var gulp = require('gulp'),
   rename = require('gulp-rename'),
     sass = require('gulp-sass'),
     maps = require('gulp-sourcemaps'),
-     del = require('del');
+     del = require('del'),
+		 cleanCSS = require('gulp-clean-css');
 
 gulp.task("concatScripts", function() {
     return gulp.src([
@@ -38,12 +39,18 @@ gulp.task('watchSass', function() {
   gulp.watch('assets/scss/**/*.scss', ['compileSass']);
 })
 
+gulp.task('minify-css', function() {
+  return gulp.src('assets/css/*.css')
+    .pipe(cleanCSS({compatibility: 'ie8'}))
+    .pipe(gulp.dest('assets/css'));
+});
+
 gulp.task('clean', function() {
   del(['dist', 'assets/css/project-main.css*', 'assets/js/app*.js*']);
 });
 
-gulp.task("build", ['minifyScripts', 'compileSass'], function() {
-  return gulp.src(["assets/css/project-main.css", "assets/js/app.min.js", 'index.php'], { base: './'})
+gulp.task("build", ['minifyScripts', 'compileSass', 'minify-css'], function() {
+  return gulp.src(["assets/css/project-main.css", "assets/js/app.min.js", 'index.html'], { base: './'})
             .pipe(gulp.dest('dist'));
 });
 
