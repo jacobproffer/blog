@@ -7,7 +7,7 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     maps = require('gulp-sourcemaps'),
      del = require('del'),
-		 cleanCSS = require('gulp-clean-css');
+		 cleanCSS = require('gulp-clean-css')
 
 gulp.task("concatScripts", function() {
     return gulp.src([
@@ -41,7 +41,9 @@ gulp.task('watchSass', function() {
 
 gulp.task('minify-css', function() {
   return gulp.src('assets/css/*.css')
+		.pipe(maps.init())
     .pipe(cleanCSS({compatibility: 'ie8'}))
+		.pipe(maps.write('./'))
     .pipe(gulp.dest('assets/css'));
 });
 
