@@ -383,21 +383,21 @@ p {
 body {
   color: #8D8D8E;
   background: #302E31;
+  font-family: 'Roboto', sans-serif;
   line-height: 16px;
   line-height: 2rem; }
 
 a {
+  color: #B58A73;
   text-decoration: none; }
-
-a,
-span {
-  color: #B58A73; }
+  a:hover {
+    color: #c0c0c1; }
 
 .container {
-  width: 95%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 2.5%; }
+  padding: 0 5%; }
 
 html {
   position: relative;
@@ -409,7 +409,5 @@ html {
 .about {
   max-width: 570px;
   margin: 0 auto; }
-  .about h1 {
-    text-transform: uppercase; }
 
 /*# sourceMappingURL=project-main.css.map */

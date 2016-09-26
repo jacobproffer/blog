@@ -1,14 +1,14 @@
 body {
   color: $gray;
   background: $black;
+  font-family: 'Roboto', sans-serif;
   @include line-height(16);
 }
 
 a {
-  text-decoration: none;
-}
-
-a,
-span {
   color: $hit;
+  text-decoration: none;
+  &:hover {
+    color: lighten($gray, 20);
+  }
 }
