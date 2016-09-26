@@ -381,14 +381,14 @@ p {
       font-size: 1em; } }
 
 body {
-  color: #8D8D8E;
-  background: #302E31;
+  color: #EEF4F4;
+  background: #1E1E1E;
   font-family: 'Roboto', sans-serif;
   line-height: 16px;
   line-height: 2rem; }
 
 a {
-  color: #B58A73;
+  color: #FFCA50;
   text-decoration: none; }
   a:hover {
     color: #c0c0c1; }
