@@ -1,3 +1,12 @@
-.info {
-  padding: 5px 0;
+html {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  width: 50%;
+  margin: 0 auto;
 }
