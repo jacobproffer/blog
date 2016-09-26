@@ -10,3 +10,22 @@ html {
   max-width: 570px;
   margin: 0 auto;
 }
+
+.social-grid {
+	@include screen-below(320px) {
+		@include flexgrid(2, 1rem);
+	}
+  @include screen-above(320px) {
+    @include flexgrid(5, 1rem);
+  }
+}
+
+.social-links {
+	max-width: 200px;
+}
+
+.social-link {
+	img {
+		max-width: 30px;
+	}
+}
