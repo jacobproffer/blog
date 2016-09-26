@@ -1,2 +1,3 @@
-# jacobproffer.github.io
-Setting up my personal website on GitHub pages. Considering dropping web hosting.
+# Personal site
+
+Setting up my personal website on GitHub pages.
