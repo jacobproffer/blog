@@ -28,5 +28,9 @@ html {
     @include screen-above(768px) {
       max-width: 60px;
     }
+    @include transition(300ms ease-in-out);
+    &:hover {
+      @include opacity(0.5);
+    }
 	}
 }
