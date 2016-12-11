@@ -7,7 +7,7 @@ html {
 }
 
 .about {
-  max-width: 570px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -21,11 +21,17 @@ html {
 }
 
 .social-links {
-	max-width: 200px;
+	max-width: 250px;
+  @include screen-above(768px) {
+    max-width: 500px;
+  }
 }
 
 .social-link {
 	img {
 		max-width: 30px;
+    @include screen-above(768px) {
+      max-width: 60px;
+    }
 	}
 }
