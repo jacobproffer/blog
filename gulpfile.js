@@ -1,59 +1,60 @@
-"use strict";
+'use strict';
 
-var gulp = require('gulp'),
-  concat = require('gulp-concat'),
-  uglify = require('gulp-uglify'),
-  rename = require('gulp-rename'),
-    sass = require('gulp-sass'),
-    maps = require('gulp-sourcemaps'),
-     del = require('del'),
-		 cleanCSS = require('gulp-clean-css')
+var gulp        = require('gulp'),
+    sass        = require('gulp-sass'),
+    cssmin      = require('gulp-cssmin'),
+    rename      = require('gulp-rename'),
+    prefix      = require('gulp-autoprefixer'),
+    uglify      = require('gulp-uglify'),
+    concat      = require('gulp-concat'),
+    imagemin    = require('gulp-imagemin'),
+    browserSync = require('browser-sync').create();
 
-gulp.task("concatScripts", function() {
-    return gulp.src([
-        'assets/js/jquery-2.2.3.min.js',
-        'assets/js/main.js'
-        ])
-    .pipe(maps.init())
-    .pipe(concat('app.js'))
-    .pipe(maps.write('./'))
-    .pipe(gulp.dest('assets/js'));
+// Static Server + watching scss/html files
+gulp.task('serve', ['sass', 'js'], function() {
+
+    browserSync.init({
+        server: './',
+        browser: "google chrome"
+    });
+
+    gulp.watch('assets/scss/**/*.scss', ['sass']);
+    gulp.watch('assets/js/**/*.js', ['js']);
+    gulp.watch('./*.html').on('change', browserSync.reload);
 });
 
-gulp.task("minifyScripts", ["concatScripts"], function() {
-  return gulp.src("assets/js/app.js")
+// Configure CSS tasks.
+gulp.task('sass', function () {
+  return gulp.src('assets/scss/**/*.scss')
+    .pipe(sass.sync().on('error', sass.logError))
+    .pipe(prefix('last 2 versions'))
+    .pipe(cssmin())
+    .pipe(rename({suffix: '.min'}))
+    .pipe(gulp.dest('dist/css'))
+    .pipe(browserSync.stream());
+});
+
+// Configure JS.
+gulp.task('js', function() {
+  return gulp.src('assets/js/**/*.js')
     .pipe(uglify())
-    .pipe(rename('app.min.js'))
-    .pipe(gulp.dest('assets/js'));
+    .pipe(concat('app.js'))
+    .pipe(rename({suffix: '.min'}))
+    .pipe(gulp.dest('dist/js'))
+    .pipe(browserSync.stream());
 });
 
-gulp.task('compileSass', function() {
-  return gulp.src("assets/scss/project-main.scss")
-      .pipe(maps.init())
-      .pipe(sass())
-      .pipe(maps.write('./'))
-      .pipe(gulp.dest('assets/css'));
+// Configure image stuff.
+gulp.task('images', function () {
+  return gulp.src('assets/img/**/*.+(png|jpg|gif|svg)')
+    .pipe(imagemin())
+    .pipe(gulp.dest('dist/img'));
 });
 
-gulp.task('watchSass', function() {
-  gulp.watch('assets/scss/**/*.scss', ['compileSass']);
-})
-
-gulp.task('minify-css', function() {
-  return gulp.src('assets/css/*.css')
-		.pipe(maps.init())
-    .pipe(cleanCSS({compatibility: 'ie8'}))
-		.pipe(maps.write('./'))
-    .pipe(gulp.dest('assets/css'));
+gulp.task('watch', function () {
+  gulp.watch('dist/scss/**/*.scss', ['sass']);
+  gulp.watch('dist/js/**/*.js', ['js']);
+  gulp.watch('./*.html').on('change', browserSync.reload);
 });
 
-gulp.task('clean', function() {
-  del(['dist', 'assets/css/project-main.css*', 'assets/js/app*.js*']);
-});
-
-gulp.task("build", ['minifyScripts', 'compileSass', 'minify-css'], function() {
-  return gulp.src(["assets/css/project-main.css", "assets/js/app.min.js", 'index.html'], { base: './'})
-            .pipe(gulp.dest('dist'));
-});
-
-gulp.task("default", ["build"]);
+gulp.task('default', ['sass', 'js', 'images', 'serve']);
