@@ -6,10 +6,7 @@ body {
 }
 
 a {
-  color: $hit;
+  color: $white;
+  font-style:italic;
   text-decoration: none;
-  @include transition(300ms ease-in-out);
-  &:hover {
-    @include opacity(0.5);
-  }
 }
