@@ -8,7 +8,8 @@ body {
 a {
   color: $hit;
   text-decoration: none;
+  @include transition(300ms ease-in-out);
   &:hover {
-    color: lighten($gray, 20);
+    @include opacity(0.5);
   }
 }
