@@ -1,7 +1,7 @@
 body {
   color: $white;
   background: $black;
-  font-family: "mrs-eaves",sans-serif;
+  font-family: "mrs-eaves",helvetica,sans-serif;
   @include line-height(16);
 }
 
