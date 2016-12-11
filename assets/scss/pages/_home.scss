@@ -12,7 +12,7 @@ html {
 }
 
 .social-grid {
-  @include flexgrid(3, 1rem);
+  @include flexgrid(4, 1rem);
 }
 
 .social-links {
