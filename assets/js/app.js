@@ -6,14 +6,12 @@ if (hourNow > 18) {
   greeting = 'Good evening';
 } else if (hourNow > 12) {
   greeting = 'Good afternoon';
-} else if (hourNow > 0) {
-  greeting = 'Good morning';
 } else {
-  greeting = 'Welcome';
+  greeting = 'Good morning';
 }
 
 function updateMessage() {
-  var el = document.getElementById('greeting');
+  var el = document.querySelector('span');
   el.textContent = greeting;
 }
 
