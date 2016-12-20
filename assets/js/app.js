@@ -6,6 +6,8 @@ function message() {
     greeting = 'Good evening';
   } else if (hourNow > 11) {
     greeting = 'Good afternoon';
+  } else {
+    greeting = 'Good morning';
   }
   const el = document.querySelector('span');
   el.textContent = greeting;
