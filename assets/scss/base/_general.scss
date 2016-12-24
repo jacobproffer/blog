@@ -5,6 +5,18 @@ body {
   @include line-height(16);
 }
 
+.morning {
+  @include gradient-horizontal(#FFB068, #FF966C);
+}
+
+.day {
+  @include gradient-horizontal(#6300C2, #3D0078);
+}
+
+.night {
+  @include gradient-horizontal(#0C082B, #020006);
+}
+
 a {
   color: $white;
   font-style:italic;
