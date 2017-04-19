@@ -9,7 +9,7 @@ a {
   color: $orange;
   font-style: italic;
   text-decoration: none;
-  @include transition(all 300ms ease-in-out);
+  @include transition(color 300ms ease-in-out);
   &:hover {
     color: $brown;
   }
