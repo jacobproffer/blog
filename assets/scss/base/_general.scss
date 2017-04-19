@@ -1,12 +1,16 @@
 body {
-  color: $white;
-  background: $orange;
+  color: $brown;
+  background: $gray;
   font-family: 'Rosarivo', serif;
   @include line-height(16);
 }
 
 a {
-  color: $white;
+  color: $orange;
   font-style: italic;
   text-decoration: none;
+  @include transition(all 300ms ease-in-out);
+  &:hover {
+    color: $brown;
+  }
 }

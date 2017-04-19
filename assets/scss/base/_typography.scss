@@ -1,5 +1,5 @@
 h1 {
   @include font-size($h1-font-sizes);
-  line-height: 2em;
   margin-top: 0;
+  letter-spacing: 1px;
 }
