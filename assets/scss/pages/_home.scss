@@ -5,33 +5,3 @@ html {
   align-items: center;
   justify-content: center;
 }
-
-.about {
-  max-width: 1000px;
-  padding: 0 5%;
-  margin: 0 auto;
-}
-
-.social-grid {
-  @include flexgrid(4, 1rem);
-}
-
-.social-links {
-	max-width: 250px;
-  @include screen-above(768px) {
-    max-width: 500px;
-  }
-}
-
-.social-link {
-	img {
-		max-width: 30px;
-    @include screen-above(768px) {
-      max-width: 60px;
-    }
-    @include transition(300ms ease-in-out);
-    &:hover {
-      @include opacity(0.5);
-    }
-	}
-}

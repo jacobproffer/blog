@@ -1,24 +1,12 @@
 body {
   color: $white;
-  background: $black;
+  background: $orange;
   font-family: 'Rosarivo', serif;
   @include line-height(16);
 }
 
-.morning {
-  @include gradient-horizontal(#E2DADB, #AD90CA);
-}
-
-.day {
-  @include gradient-horizontal(#6300C2, #3D0078);
-}
-
-.night {
-  @include gradient-horizontal(#0C082B, #020006);
-}
-
 a {
   color: $white;
-  font-style:italic;
+  font-style: italic;
   text-decoration: none;
 }
