@@ -1,5 +1,3 @@
 # Personal site
 
-Setting up my personal website on GitHub pages.
-
-This is a test update.
+Need to come up with ideas for a new personal site.
