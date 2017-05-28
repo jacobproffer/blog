@@ -7,7 +7,6 @@ body {
 
 a {
   color: $orange;
-  font-style: italic;
   text-decoration: none;
   @include transition(color 300ms ease-in-out);
   &:hover {

@@ -1,11 +1,7 @@
 .work {
   position: relative;
-  padding: 0 0 60px;
   h1 {
     margin: 0;
-  }
-  @include screen-above(1281px) {
-    padding: 0 0 150px;
   }
 }
 
@@ -30,9 +26,6 @@
   -ms-flex-align: start;
   align-items: flex-start;
   border-bottom: 1px solid rgba(255, 255, 255, .5);
-  // &:last-child {
-  //   border-bottom: none;
-  // }
   @include screen-above(1024px) {
     padding: 2.5em 0;
   }
