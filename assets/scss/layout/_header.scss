@@ -1,5 +1,12 @@
 header {
-  text-align: center;
+  padding: 60px 0 30px;
+  h1,
+  h2 {
+    margin: 0;
+  }
+  @include screen-above(1281px) {
+    padding: 150px 0 75px;
+  }
 }
 
 .links {

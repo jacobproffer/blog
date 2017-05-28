@@ -1,6 +1,12 @@
 .work {
   position: relative;
-  padding: 90px 0;
+  padding: 0 0 60px;
+  h1 {
+    margin: 0;
+  }
+  @include screen-above(1281px) {
+    padding: 0 0 150px;
+  }
 }
 
 .work-row {
@@ -23,6 +29,10 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+  // &:last-child {
+  //   border-bottom: none;
+  // }
   @include screen-above(1024px) {
     padding: 2.5em 0;
   }
