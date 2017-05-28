@@ -26,6 +26,9 @@
   -ms-flex-align: start;
   align-items: flex-start;
   border-bottom: 1px solid rgba(255, 255, 255, .25);
+  &:first-of-type {
+    border-top: 1px solid rgba(255, 255, 255, .25);
+  }
   @include screen-above(1024px) {
     padding: 2.5em 0;
   }
