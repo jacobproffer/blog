@@ -1,7 +1,103 @@
-html {
+.work {
   position: relative;
-  height: 100%;
+  padding: 90px 0;
+}
+
+.work-row {
+  padding: 1.5em 0;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  @include screen-above(1024px) {
+    padding: 2.5em 0;
+  }
+}
+
+div[class^="project"] {
+  margin: 0;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  align-self: auto;
+  h2,
+  p,
+  span {
+    margin: 0;
+  }
+}
+
+.project-title {
+  -webkit-flex: 0 1 100%;
+  -ms-flex: 0 1 100%;
+  flex: 0 1 100%;
+  max-width: 100%;
+  @include screen-between(860px, 1024px) {
+    -webkit-flex: 0 1 17.5%;
+    -ms-flex: 0 1 17.5%;
+    flex: 0 1 17.5%;
+    max-width: 17.5%;
+    padding-right: 2.5%;
+  }
+  @include screen-above(1000px) {
+    -webkit-flex: 0 1 18%;
+    -ms-flex: 0 1 18%;
+    flex: 0 1 18%;
+    max-width: 18%;
+    padding-right: 2%;
+  }
+}
+
+.project-description {
+  -webkit-flex: 0 1 100%;
+  -ms-flex: 0 1 100%;
+  flex: 0 1 100%;
+  max-width: 100%;
+  @include screen-between(860px, 1024px) {
+    -webkit-flex: 0 1 40%;
+    -ms-flex: 0 1 40%;
+    flex: 0 1 40%;
+    max-width: 40%;
+  }
+  @include screen-above(1024px) {
+    -webkit-flex: 0 1 40%;
+    -ms-flex: 0 1 40%;
+    flex: 0 1 40%;
+    max-width: 40%;
+  }
+}
+
+.project-tags {
+  -webkit-flex: 0 1 100%;
+  -ms-flex: 0 1 100%;
+  flex: 0 1 100%;
+  max-width: 100%;
+  @include screen-between(860px, 1024px) {
+    -webkit-flex: 0 1 20%;
+    -ms-flex: 0 1 20%;
+    flex: 0 1 20%;
+    max-width: 20%;
+  }
+  @include screen-above(1024px) {
+    -webkit-flex: 0 1 20%;
+    -ms-flex: 0 1 20%;
+    flex: 0 1 20%;
+    max-width: 20%;
+  }
 }
