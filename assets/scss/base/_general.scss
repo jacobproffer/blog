@@ -1,15 +1,19 @@
-body {
-  color: $white;
-  background: $black;
-  font-family: 'Roboto', sans-serif;
-  @include line-height(16);
-}
+::-moz-selection { background: darken($background, .05); }
+::selection { background: darken($background, .05); }
 
-a {
-  color: $orange;
-  text-decoration: none;
-  @include transition(color 300ms ease-in-out);
-  &:hover {
-    color: $brown;
+body {
+  position: relative;
+  color: $black;
+  font-family: 'Open Sans', sans-serif;
+  background: $background;
+  @include line-height(16);
+  &:before {
+    position: absolute;
+    content: "";
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+    @include absolute(0, 0, 0, 0);
+    background: url('../img/grain.png');
   }
 }

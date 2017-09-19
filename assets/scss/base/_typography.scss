@@ -1,6 +1,13 @@
+h1,
+h2,
+h3 {
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+}
+
 h1 {
   @include font-size($h1-font-sizes);
-  margin-top: 0;
+  margin: 0;
   letter-spacing: 1px;
 }
 
@@ -10,8 +17,4 @@ h2 {
 
 p {
   @include font-size($p-font-sizes);
-}
-
-span {
-  @include font-size($span-font-sizes);
 }
