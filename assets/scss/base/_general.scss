@@ -1,5 +1,5 @@
-::-moz-selection { background: darken($background, .05); }
-::selection { background: darken($background, .05); }
+::-moz-selection { color: $white; background: darken($black, .05); }
+::selection { color: $white; background: darken($black, .05); }
 
 body {
   position: relative;
@@ -14,5 +14,26 @@ body {
     width: 100%;
     @include absolute(0, 0, 0, 0);
     background: url('../img/grain.png');
+  }
+}
+
+a {
+  position: relative;
+  color: $black;
+  text-decoration: none;
+  &:hover {
+    &:before {
+      content: '';
+      background: $black;
+      @include size(100%, 2px);
+      @include absolute(auto, 0, -10px, 0);
+    }
+  }
+  &:before {
+    content: '';
+    background: $white;
+    @include size(100%, 2px);
+    @include absolute(auto, 0, -10px, 0);
+    @include transition(all 500ms ease-in-out);
   }
 }
