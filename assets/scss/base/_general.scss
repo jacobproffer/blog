@@ -6,7 +6,6 @@ body {
   color: $black;
   font-family: 'Open Sans', sans-serif;
   background: $background;
-  @include line-height(16);
   &:before {
     position: absolute;
     content: "";

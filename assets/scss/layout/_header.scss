@@ -1,4 +1,8 @@
 .hero {
+  text-align: center;
+}
+
+.flex {
   min-height: 100vh;
   -ms-flex-align: stretch;
   align-items: stretch;
@@ -19,4 +23,10 @@
   flex-grow: 1;
   -ms-flex-negative: 0;
   flex-shrink: 0;
+}
+
+.info-content {
+  text-align: left;
+  max-width: 550px;
+  margin-left: auto;
 }
