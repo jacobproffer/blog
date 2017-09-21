@@ -9,6 +9,7 @@ var gulp        = require('gulp'),
     concat      = require('gulp-concat'),
     browserSync = require('browser-sync').create(),
     scripts = [
+      '../assets/js/lib/scroll/scrollreveal.min.js',
       '../assets/js/app.js'
     ];
 

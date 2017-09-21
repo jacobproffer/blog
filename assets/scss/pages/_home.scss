@@ -1,0 +1,42 @@
+.flex {
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.hero-content {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.info {
+  margin: 175px 0 350px;
+}
+
+.info-content {
+  text-align: left;
+  @include clearfix;
+  h2 {
+    float: right;
+    max-width: 550px;
+  }
+}
+
+.test {
+  margin: 0 0 350px;
+  h2 {
+    max-width: 550px;
+  }
+}
