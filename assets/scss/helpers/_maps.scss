@@ -5,12 +5,14 @@ $h1-font-sizes: (
   320px  : 2em,
   400px  : 2.5em,
   500px  : 4em,
-  768px  : 6em,
-  800px  : 8em,
-  960px  : 10em,
-  1024px : 12em,
-  1200px : 14em,
-  1440px : 16em
+  768px  : 8em,
+  800px  : 10.5em,
+  960px  : 12.5em,
+  1000px : 13.5em,
+  1080px : 14em,
+  1140px : 15.5em,
+  1210px : 17em,
+  1280px : 18em
 );
 
 $h2-font-sizes: (
@@ -22,10 +24,11 @@ $h2-font-sizes: (
 $h3-font-sizes: (
   null : 16px,
   320px : 1.125em,
-  768px : 1.5em
+  768px : 2em
 );
 
 $p-font-sizes: (
   null   : 16px,
-  320px  : 1.25em
+  320px  : 1.25em,
+  768px  : 2em
 );

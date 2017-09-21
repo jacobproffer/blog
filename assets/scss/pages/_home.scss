@@ -34,9 +34,16 @@
   }
 }
 
-.test {
+.work {
   margin: 0 0 350px;
-  h2 {
-    max-width: 550px;
+}
+
+.work-row {
+  @include clearfix;
+  h3 {
+    float: left;
+  }
+  p {
+    float: right;
   }
 }
