@@ -16,12 +16,12 @@ body {
 
 a {
   position: relative;
-  color: #776334;
+  color: $links;
   text-decoration: none;
   &:hover {
     &:before {
       content: '';
-      background: #776334;
+      background: $links;
       @include size(100%, 2px);
       @include absolute(auto, 0, -10px, 0);
     }
