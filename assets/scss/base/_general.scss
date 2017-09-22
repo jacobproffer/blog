@@ -1,5 +1,5 @@
-::-moz-selection { color: $white; background: darken($black, .05); }
-::selection { color: $white; background: darken($black, .05); }
+::-moz-selection { color: $links; background: darken($black, .05); }
+::selection { color: $links; background: darken($black, .05); }
 
 body {
   position: relative;
