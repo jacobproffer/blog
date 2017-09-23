@@ -25,7 +25,7 @@
   margin: 175px 0 350px;
 }
 
-.info-content {
+.content {
   text-align: left;
   @include clearfix;
   h2 {
@@ -34,7 +34,8 @@
   }
 }
 
-.work {
+.work,
+.social {
   margin: 0 0 350px;
 }
 
