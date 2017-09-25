@@ -9,11 +9,6 @@ body {
   @include transition(all 300ms ease-in-out);
 }
 
-.black {
-  color: $white;
-  background: $black;
-}
-
 a {
   position: relative;
   color: $links;

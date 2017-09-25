@@ -1,37 +1,5 @@
-.flex {
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  min-height: 100vh;
-}
-
-.hero-content {
-  -ms-flex-align: center;
-  align-items: center;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-}
-
 .info {
   margin: 175px 0 350px;
-}
-
-.content {
-  text-align: left;
-  @include clearfix;
-  h2 {
-    float: right;
-    max-width: 550px;
-  }
 }
 
 .work,
@@ -46,28 +14,5 @@
   }
   p {
     float: right;
-  }
-}
-
-.contact {
-  background: $white;
-  padding: 350px 0;
-  h2 {
-    color: $black;
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  ul {
-    margin: 50px 0 0;
-    padding: 0;
-    text-align: center;
-    li {
-      display: inline-block;
-      margin-right: 25px;
-      &:last-child {
-        margin-right: 0;
-      }
-    }
   }
 }
