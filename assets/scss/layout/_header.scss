@@ -1,3 +1,12 @@
+.hero {
+  @include screen-between(768px, 1024px) {
+    padding: 175px 0 0;
+  }
+  @include screen-above(1024px) {
+    min-height: 100vh;
+  }
+}
+
 .hero-content {
   -ms-flex-align: center;
   align-items: center;
