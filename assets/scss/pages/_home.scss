@@ -1,10 +1,16 @@
 .info {
-  margin: 175px 0 350px;
+  margin: 175px 0;
+  @include screen-above(1024px) {
+    margin: 175px 0 350px;
+  }
 }
 
 .work,
 .social {
-  margin: 0 0 350px;
+  margin: 0 0 175px;
+  @include screen-above(1024px) {
+    margin: 0 0 350px;
+  }
 }
 
 .work-row {

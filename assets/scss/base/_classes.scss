@@ -14,7 +14,9 @@
   text-align: left;
   @include clearfix;
   h2 {
-    float: right;
-    max-width: 550px;
+    @include screen-above(1024px) {
+      max-width: 550px;
+      float: right;
+    }
   }
 }
