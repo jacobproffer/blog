@@ -1,16 +1,14 @@
 .contact {
-  background: $white;
-  padding: 175px 0;
   h2 {
-    color: $black;
     max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
+    @include screen-above(1024px) {
+      text-align: center;
+      margin: 0 auto;
+    }
   }
   ul {
     margin: 50px 0 0;
     padding: 0;
-    text-align: center;
     li {
       display: inline-block;
       margin-right: 25px;
@@ -18,8 +16,8 @@
         margin-right: 0;
       }
     }
-  }
-  @include screen-above(1024px) {
-    padding: 350px 0;
+    @include screen-above(1024px) {
+      text-align: center;
+    }
   }
 }

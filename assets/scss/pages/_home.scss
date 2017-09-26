@@ -1,13 +1,20 @@
 .info {
-  margin: 175px 0;
+  margin: 100px 0;
+  @include screen-between(768px, 1024px) {
+    margin: 175px 0;
+  }
   @include screen-above(1024px) {
     margin: 175px 0 350px;
   }
 }
 
 .work,
-.social {
-  margin: 0 0 175px;
+.social,
+.contact {
+  margin: 0 0 100px;
+  @include screen-between(768px, 1024px) {
+    margin: 0 0 175px;
+  }
   @include screen-above(1024px) {
     margin: 0 0 350px;
   }
@@ -15,10 +22,12 @@
 
 .work-row {
   @include clearfix;
-  h3 {
-    float: left;
-  }
-  p {
-    float: right;
+  @include screen-above(1024px) {
+    h3 {
+      float: left;
+    }
+    p {
+      float: right;
+    }
   }
 }
