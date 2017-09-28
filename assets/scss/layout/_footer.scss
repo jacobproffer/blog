@@ -1,11 +1,4 @@
 .contact {
-  h2 {
-    max-width: 600px;
-    @include screen-above(1024px) {
-      text-align: center;
-      margin: 0 auto;
-    }
-  }
   ul {
     margin: 50px 0 0;
     padding: 0;
@@ -16,8 +9,12 @@
         margin-right: 0;
       }
     }
-    @include screen-above(1024px) {
-      text-align: center;
+  }
+  @include screen-above(768px) {
+    text-align: center;
+    h2 {
+      max-width: 600px;
+      margin: 0 auto;
     }
   }
 }
