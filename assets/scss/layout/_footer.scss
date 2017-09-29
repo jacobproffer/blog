@@ -10,7 +10,7 @@
       }
     }
   }
-  @include screen-above(768px) {
+  @include screen-above(1024px) {
     text-align: center;
     h2 {
       max-width: 600px;
