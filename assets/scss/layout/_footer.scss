@@ -11,10 +11,8 @@
     }
   }
   @include screen-above(1024px) {
-    text-align: center;
     h2 {
-      max-width: 600px;
-      margin: 0 auto;
+      max-width: 550px;
     }
   }
 }

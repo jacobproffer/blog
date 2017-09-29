@@ -1,7 +1,16 @@
 h1 {
   @include font-size($h1-font-sizes);
-  margin: 0;
+  margin: 0 0 0 -5px;
   line-height: 1;
+  @include screen-between(600px, 768px) {
+    margin: 0 0 0 -8px;
+  }
+  @include screen-between(768px, 1024px) {
+    margin: 0 0 0 -10px;
+  }
+  @include screen-above(1024px) {
+    margin: 0 0 0 -15px;
+  }
 }
 
 h2 {
