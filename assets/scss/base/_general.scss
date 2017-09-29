@@ -11,27 +11,5 @@ body {
 
 a {
   position: relative;
-  color: $links;
   text-decoration: none;
-  &:hover {
-    &:before {
-      content: '';
-      background: $links;
-      @include size(100%, 2px);
-      @include absolute(auto, 0, -5px, 0);
-      @include screen-above(768px) {
-        @include absolute(auto, 0, -10px, 0);
-      }
-    }
-  }
-  &:before {
-    content: '';
-    background: $white;
-    @include size(100%, 2px);
-    @include absolute(auto, 0, -5px, 0);
-    @include transition(all 500ms ease-in-out);
-    @include screen-above(768px) {
-      @include absolute(auto, 0, -10px, 0);
-    }
-  }
 }
