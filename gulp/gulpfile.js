@@ -10,7 +10,6 @@ var gulp        = require('gulp'),
     browserSync = require('browser-sync').create(),
     scripts = [
       '../assets/js/lib/scroll/scrollreveal.min.js',
-      '../assets/js/lib/fittext/jquery.fittext.js',
       '../assets/js/app.js'
     ];
 

@@ -1,7 +1,5 @@
 h1 {
   @include font-size($h1-font-sizes);
-  font-family: 'Anton', sans-serif;
-  text-transform: uppercase;
   margin: 0;
   line-height: 1;
 }
@@ -18,4 +16,10 @@ h3 {
 p {
   @include font-size($p-font-sizes);
   line-height: 1.8;
+}
+
+h2,
+h3,
+p {
+  font-weight: 300;
 }
