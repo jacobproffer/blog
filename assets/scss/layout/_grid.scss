@@ -3,4 +3,8 @@
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 5%;
+	@include screen-above(1024px) {
+		width: 80%;
+		padding: 0 10%;
+	}
 }
