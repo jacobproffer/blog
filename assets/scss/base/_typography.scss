@@ -15,6 +15,7 @@ h1 {
 
 h2 {
   @include font-size($header-font-sizes);
+  margin-bottom: 0;
   line-height: 1.8;
 }
 
