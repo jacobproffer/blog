@@ -1,3 +1,3 @@
-# Personal site
+# jacobproffer.com
 
-Need to come up with ideas for a new personal site.
+This is the source code for my current personal site. 

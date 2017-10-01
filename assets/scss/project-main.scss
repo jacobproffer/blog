@@ -1,7 +1,6 @@
 // Helpers
 
 @import "helpers/variables";
-@import "helpers/functions";
 @import "helpers/maps";
 @import "helpers/mixins";
 
@@ -10,6 +9,7 @@
 @import "base/reset";
 @import "base/typography";
 @import "base/general";
+@import "base/classes";
 @import "base/animate";
 
 // Layout

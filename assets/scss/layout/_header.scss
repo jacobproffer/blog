@@ -1,23 +1,25 @@
-header {
-  padding: 60px 0 30px;
-  h1,
-  h2 {
+.hero {
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  text-align: left;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  .container {
     margin: 0;
   }
-  @include screen-above(1281px) {
-    padding: 120px 0 60px;
+  @include screen-below(768px) {
+    padding: 100px 0 0;
   }
-}
-
-.links {
-  margin: 0;
-  padding: 0;
-  li {
-    display: inline-block;
-    line-height: 1;
-    &:nth-child(-n+2) {
-      border-right: 1px solid lighten($brown, 50%);
-      padding-right: 5px;
-    }
+  @include screen-between(768px, 1024px) {
+    padding: 175px 0 0;
+  }
+  @include screen-above(1024px) {
+    min-height: 100vh;
+    height: 100px;
   }
 }

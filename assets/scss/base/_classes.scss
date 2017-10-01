@@ -1,0 +1,34 @@
+.content {
+  text-align: left;
+  @include clearfix;
+  h2 {
+    @include screen-above(1024px) {
+      max-width: 550px;
+      float: right;
+    }
+  }
+}
+
+.link-hover {
+  position: relative;
+  color: $links;
+  &:hover {
+    &:before {
+      content: '';
+      border-bottom: 2px solid $links;
+      @include absolute(auto, 0, -5px, 0);
+      @include screen-above(768px) {
+        @include absolute(auto, 0, -10px, 0);
+      }
+    }
+  }
+  &:before {
+    content: '';
+    border-bottom: 2px solid $white;
+    @include absolute(auto, 0, -5px, 0);
+    @include transition(all 500ms ease-in-out);
+    @include screen-above(768px) {
+      @include absolute(auto, 0, -10px, 0);
+    }
+  }
+}
