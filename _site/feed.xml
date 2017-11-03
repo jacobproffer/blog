@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+    <channel>
+        <title>Jacob Proffer</title>
+        <link>http://localhost:4000</link>
+        <description>Jacob Proffer is a designer &amp; developer working at Elegant Seagulls in Marquette, Michigan.</description>
+        <lastBuildDate>Fri, 03 Nov 2017 13:44:00 -0400</lastBuildDate>
+        
+        <item>
+            <description>
+                &lt;h2 id=&quot;this-is-a-test&quot;&gt;This is a test!&lt;/h2&gt;
+
+&lt;p&gt;Hey, hey, hey. This is my first blog post using Jekyll.&lt;/p&gt;
+
+            </description>
+            <pubDate>Fri, 03 Nov 2017 00:00:00 -0400</pubDate>
+            <guid>
+                http://localhost:4000/2017/11/03/test.html
+            </guid>
+        </item>
+        
+    </channel>
+</rss>

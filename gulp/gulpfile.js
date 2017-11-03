@@ -15,15 +15,20 @@ var gulp        = require('gulp'),
 
 // Static Server + watching scss/html files
 gulp.task('serve', ['sass', 'js'], function() {
-
+    var siteRoot = '../_site';
     browserSync.init({
-        server: '../',
+        files: [siteRoot + '/**'],
+        // server: '../_site',
+        port: 4000,
+        server: {
+          baseDir: siteRoot
+        },
         browser: "google chrome"
     });
 
     gulp.watch('../assets/scss/**/*.scss', ['sass']);
     gulp.watch('../assets/js/**/*.js', ['js']);
-    gulp.watch('../*.html').on('change', browserSync.reload);
+    gulp.watch('../_site/*.html').on('change', browserSync.reload);
 });
 
 // Configure CSS tasks.
@@ -50,7 +55,7 @@ gulp.task('js', function() {
 gulp.task('watch', function () {
   gulp.watch('../dist/scss/**/*.scss', ['sass']);
   gulp.watch('../dist/js/**/*.js', ['js']);
-  gulp.watch('../*.html').on('change', browserSync.reload);
+  gulp.watch('../_site/*.html').on('change', browserSync.reload);
 });
 
 gulp.task('default', ['sass', 'js', 'serve']);
