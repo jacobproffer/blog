@@ -1,0 +1,8 @@
+.blog {
+  @include screen-below(768px) {
+    padding: 100px 0 0;
+  }
+  @include screen-above(1024px) {
+    padding: 175px 0 0;
+  }
+}

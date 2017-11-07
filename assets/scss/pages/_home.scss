@@ -1,3 +1,29 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  text-align: left;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  .container {
+    margin: 0;
+  }
+  @include screen-below(768px) {
+    padding: 100px 0 0;
+  }
+  @include screen-between(768px, 1024px) {
+    padding: 175px 0 0;
+  }
+  @include screen-above(1024px) {
+    min-height: 100vh;
+    height: 100px;
+  }
+}
+
 .info {
   margin: 100px 0 75px;
   @include screen-between(768px, 1024px) {

@@ -1,23 +1,15 @@
 .contact {
-  margin: 0 0 115px;
   ul {
-    margin: 50px 0 0;
+    margin: 25px 0 50px;
     padding: 0;
+    text-align: center;
     li {
+      color: $links;
       display: inline-block;
       margin-right: 25px;
       &:last-child {
         margin-right: 0;
       }
-    }
-  }
-  @include screen-between(768px, 1024px) {
-    margin: 0 0 200px;
-  }
-  @include screen-above(1024px) {
-    margin: 0 0 200px;
-    h2 {
-      max-width: 550px;
     }
   }
 }
