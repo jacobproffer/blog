@@ -66,6 +66,9 @@
       text-decoration: none;
       display: block;
       text-transform: lowercase;
+			&:hover {
+				color: $lightBlack;
+			}
       @include transition(color 300ms ease-in-out);
       @include screen-below(1025px) {
         padding: 32px 0;
