@@ -1,23 +1,12 @@
 // Maps
 
-$h1-font-sizes: (
-  null   : 32px,
-  320px  : 2em,
-  375px  : 3em,
-  400px  : 4em,
-  600px  : 5em,
-  768px  : 6em,
-  1024px : 8em
+$font-sizes: (
+  null   : 16px,
+  320px  : 1em
 );
 
 $header-font-sizes: (
   null   : 18px,
   375px  : 1.25em,
-  768px  : 2em
-);
-
-$p-font-sizes: (
-  null   : 16px,
-  320px  : 1.25em,
   768px  : 2em
 );

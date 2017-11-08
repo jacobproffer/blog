@@ -1,6 +1,12 @@
 .contact {
+  background: $background;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid $black;
+  @include size(100%, auto);
   ul {
-    margin: 25px 0 50px;
+    margin: 17px 0px;
     padding: 0;
     text-align: center;
     li {

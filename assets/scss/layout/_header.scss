@@ -1,40 +1,47 @@
 .main-header {
-	padding: 34px 0;
+	padding: 17px 0;
   position: fixed;
-  background: transparent;
-  width: 100%;
-  height: 33px;
+  background: $background;
   overflow-y: visible;
   z-index: 9;
-  @include transition(all 300ms ease-in-out);
+  border-bottom: 1px solid $black;
+  @include size(100%, 17px);
+  @include transition(transform 300ms ease-in-out);
   will-change:transform;
-  &.unpinned,
+  &.unpinned {
+    @include transform(translateY(-100px));
+  }
   &.pinned {
-    padding: 17px 0;
-    height: 17px;
-    background: $black;
+    @include transform(translateY(0));
   }
 }
 
 .open {
   height: 100%;
-  background: rgba(0, 0, 0, .90);
+  background: $background;
 }
 
 .logo {
-  color: white;
+  color: $hit;
   display: inline-block;
   margin-top: 0;
   margin-bottom: 0;
   @include transition(color 300ms ease-in-out);
   &:hover {
-    color: $links;
+    color: $lightBlack;
+		&:before {
+			content: '';
+			background: $hit;
+			@include size(3px, 3px);
+			@include absolute(auto, -5px, 5px, auto);
+		}
   }
   &:before {
     content: '';
-    background: $links;
+    background: $lightBlack;
     @include size(3px, 3px);
     @include absolute(auto, -5px, 5px, auto);
+		@include transition(background 300ms ease-in-out);
   }
 }
 
@@ -55,14 +62,11 @@
       position: relative;
       cursor: pointer;
       margin: 0 32px 0 0;
-      color: $white;
+      color: $lightBlack;
       text-decoration: none;
       display: block;
       text-transform: lowercase;
       @include transition(color 300ms ease-in-out);
-      &:hover {
-        color: $links;
-      }
       @include screen-below(1025px) {
         padding: 32px 0;
         margin: 0;
@@ -95,31 +99,26 @@
 }
 
 .mobile-nav-button {
-  color: white;
+  color: $lightBlack;
   display: block;
   position: absolute;
-  width: 30px;
   height: 20px;
-  top: 33px;
-  right: 50px;
+  top: 17px;
+  right: 45px;
   background: none;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 0;
-  text-transform: uppercase;
   @include transition(color 300ms ease-in-out);
   @include screen-between(600px, 768px) {
-    right: 50px;
+    right: 75px;
   }
   @include screen-between(768px, 1025px) {
-    right: 75px;
+    right: 90px;
   }
   @include screen-above(1025px) {
     display: none;
-  }
-  &:hover {
-    color: rgba(255, 255, 255, 0.5);
   }
   &.navOpen,
   &.close {

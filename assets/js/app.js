@@ -5,7 +5,7 @@ var body = $('html, body'),
 		mainHeader = $('.main-header'),
 		links = $('a[href*="#"]'),
 		headerHeight = mainHeader.outerHeight(),
-    sections = ['.hero', '.info', '.work-row', '.social'];
+    sections = ['.info', '.work'];
 
 // Set reset to true for ScrollReveal
 window.sr = ScrollReveal({ reset: true });

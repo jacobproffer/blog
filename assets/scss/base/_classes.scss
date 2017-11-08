@@ -1,34 +1,55 @@
-.content {
-  text-align: left;
-  @include clearfix;
-  h2 {
-    @include screen-above(1024px) {
-      max-width: 550px;
-      float: right;
-    }
-  }
-}
-
 .link-hover {
   position: relative;
   color: $links;
   &:hover {
     &:before {
       content: '';
-      border-bottom: 1px solid $links;
+      border-bottom: 1px solid $hit;
       @include absolute(auto, 0, -5px, 0);
-      @include screen-above(768px) {
-        @include absolute(auto, 0, -10px, 0);
-      }
     }
   }
   &:before {
     content: '';
-    border-bottom: 1px solid $white;
+    border-bottom: 1px solid $black;
     @include absolute(auto, 0, -5px, 0);
     @include transition(all 500ms ease-in-out);
-    @include screen-above(768px) {
-      @include absolute(auto, 0, -10px, 0);
+  }
+}
+
+.list {
+  margin: 25px 0 0;
+  padding: 0;
+  li {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid $black;
+    &:first-of-type {
+      border-top: 1px solid $black;
+    }
+    &:last-of-type {
+      border-bottom: 0;
+    }
+    a {
+      color: $hit;
+      @include transition(color 300ms ease-in-out);
+      &:hover {
+        color: $black;
+        &:after {
+          content: "\2192";
+          font-size: 0.8rem;
+          color: $hit;
+          display: inline-block;
+          margin: 0.512rem;
+        }
+      }
+      &:after {
+        content: "\2192";
+        font-size: 0.8rem;
+        color: $black;
+        display: inline-block;
+        margin: 0.512rem;
+        @include transition(color 300ms ease-in-out);
+      }
     }
   }
 }
