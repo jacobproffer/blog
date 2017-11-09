@@ -2,7 +2,7 @@ name: Jacob Proffer
 title: Jacob Proffer
 url: http://jacobproffer.com
 baseurl: /
-description: Jacob Proffer is a designer &amp; developer working at Elegant Seagulls in Marquette, Michigan.
+description: Jacob Proffer is a Front-End Developer working at Elegant Seagulls in Marquette, Michigan.
 exclude:
   - assets/
   - gulp/package.json
