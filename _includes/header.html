@@ -1,12 +1,11 @@
     <header class="main-header" role="banner">
       <nav role="navigation">
         <div class="container">
-          <a class="logo" href="{{ "index.html" | absolute_url }}">jacobproffer</a>
-          <span class="mobile-nav-button link-hover">
-            menu
-          </span>
+          {% if page.layout == 'blog' %}
+          <a class="logo" href="{{ "index.html" | absolute_url }}">&lt;</a>
+          {% endif %}
           <ul class="main-nav">
-            <li><a class="link-hover" href="/blog.html">Blog</a></li>
+            <li><a href="/blog.html">Blog</a></li>
           </ul>
         </div>
       </nav>

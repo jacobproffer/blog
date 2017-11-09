@@ -1,9 +1,9 @@
-::-moz-selection { color: $links; background: darken($black, .05); }
-::selection { color: $links; background: darken($black, .05); }
+::-moz-selection { color: white; background: black; }
+::selection { color: white; background: black; }
 
 body {
   position: relative;
-  color: $white;
+  color: #000000;
   font-family: 'Open Sans', sans-serif;
   background: $background;
   @include transition(all 300ms ease-in-out);

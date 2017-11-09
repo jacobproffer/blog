@@ -35,7 +35,7 @@ links.click(function() {
 // Headroom.js settings and functions
 mainHeader.headroom({
   offset    : headerHeight,
-  tolerance   : { up:0, down:0 },
+  tolerance   : 0,
   classes : {
     pinned   : "pinned",
     unpinned : "unpinned",

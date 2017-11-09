@@ -1,12 +1,21 @@
-h2 {
+h1 {
   margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1;
+  @include font-size($h1-font-sizes);
 }
 
-h1,
-h2,
-h3,
-p {
+h2 {
+  margin-bottom: 0;
+  @include font-size($h2-font-sizes);
+}
+
+h3 {
   font-weight: 300;
+}
+
+p {
+  font-weight: 400;
   line-height: 1.8;
-  @include font-size($font-sizes);
+  @include font-size($p-font-sizes);
 }

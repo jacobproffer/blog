@@ -1,13 +1,15 @@
 .info {
-  padding: 100px 0 25px;
+  padding: 100px 0 50px;
+  text-align: center;
   @include screen-above(768px) {
-    padding: 150px 0 75px;
+    padding: 200px 0 100px;
   }
 }
 
 .work {
-  padding: 0 0 109px;
+  padding: 0 0 100px;
+  text-align: center;
   @include screen-above(768px) {
-    padding: 0 0 184px;
+    padding: 0 0 200px;
   }
 }

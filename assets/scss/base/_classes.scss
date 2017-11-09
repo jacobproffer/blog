@@ -21,36 +21,36 @@
 .list {
   margin: 25px 0 0;
   padding: 0;
+  text-align: center;
   li {
     width: 100%;
     display: inline-block;
-    border-bottom: 1px solid $black;
-    &:first-of-type {
-      border-top: 1px solid $black;
-    }
+    margin-bottom: 40px;
     &:last-of-type {
-      border-bottom: 0;
+      margin-bottom: 0;
     }
     a {
-      color: $hit;
-      @include transition(color 300ms ease-in-out);
+      color: black;
+      font-weight: 700;
+      @include font-size($h2-font-sizes);
       &:hover {
-        color: $black;
-        &:after {
-          content: "\2192";
-          font-size: 0.8rem;
-          color: $hit;
-          display: inline-block;
-          margin: 0.512rem;
+        &:before {
+          content: '';
+          background: black;
+          opacity: 1;
+          @include size(100%, 10px);
+          @include absolute(50%, auto, auto, 50%);
+          @include transform(translate(-50%, -50%));
         }
       }
-      &:after {
-        content: "\2192";
-        font-size: 0.8rem;
-        color: $black;
-        display: inline-block;
-        margin: 0.512rem;
-        @include transition(color 300ms ease-in-out);
+      &:before {
+        content: '';
+        opacity: 0;
+        background: black;
+        @include transition(opacity 300ms ease-in-out);
+        @include size(100%, 10px);
+        @include absolute(50%, auto, auto, 50%);
+        @include transform(translate(-50%, -50%));
       }
     }
   }

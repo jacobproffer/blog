@@ -1,11 +1,9 @@
 .main-header {
-	padding: 17px 0;
+	padding: 50px 0;
   position: fixed;
-  background: $background;
   overflow-y: visible;
   z-index: 9;
-  border-bottom: 1px solid $black;
-  @include size(100%, 17px);
+  @include size(100%, 50px);
   @include transition(transform 300ms ease-in-out);
   will-change:transform;
   &.unpinned {
@@ -22,27 +20,11 @@
 }
 
 .logo {
-  color: $links;
+  color: black;
   display: inline-block;
   margin-top: 0;
   margin-bottom: 0;
-  @include transition(color 300ms ease-in-out);
-  &:hover {
-    color: $lightBlack;
-		&:before {
-			content: '';
-			background: $hit;
-			@include size(3px, 3px);
-			@include absolute(auto, -5px, 5px, auto);
-		}
-  }
-  &:before {
-    content: '';
-    background: $lightBlack;
-    @include size(3px, 3px);
-    @include absolute(auto, -5px, 5px, auto);
-		@include transition(background 300ms ease-in-out);
-  }
+	font-size: 1.5rem;
 }
 
 .main-nav {
@@ -62,14 +44,18 @@
       position: relative;
       cursor: pointer;
       margin: 0 32px 0 0;
-      color: $links;
+			border-radius: 2rem;
+			border: 1px solid black;
+      color: black;
+			padding: 13px 50px;
       text-decoration: none;
       display: block;
       text-transform: lowercase;
 			&:hover {
-				color: $lightBlack;
+				color: $white;
+				background: black;
 			}
-      @include transition(color 300ms ease-in-out);
+      @include transition(all 300ms ease-in-out);
       @include screen-below(1025px) {
         padding: 32px 0;
         margin: 0;
