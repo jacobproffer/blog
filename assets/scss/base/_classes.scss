@@ -1,20 +1,25 @@
 .link-hover {
   position: relative;
-  color: $links;
-  @include transition(color 300ms ease-in-out);
+  color: black;
+  @include transition(opacity 300ms ease-in-out);
   &:hover {
-    color: $lightBlack;
     &:before {
       content: '';
-      border-bottom: 1px solid $hit;
-      @include absolute(auto, 0, -5px, 0);
+      background: black;
+      opacity: 1;
+      @include size(100%, 4px);
+      @include absolute(50%, auto, auto, 50%);
+      @include transform(translate(-50%, -50%));
     }
   }
   &:before {
     content: '';
-    border-bottom: 1px solid $black;
-    @include absolute(auto, 0, -5px, 0);
-    @include transition(all 300ms ease-in-out);
+    opacity: 0;
+    background: black;
+    @include transition(opacity 300ms ease-in-out);
+    @include size(100%, 4px);
+    @include absolute(50%, auto, auto, 50%);
+    @include transform(translate(-50%, -50%));
   }
 }
 
