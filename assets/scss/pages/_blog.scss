@@ -1,5 +1,5 @@
 .blog {
-  padding: 150px 0;
+  padding: 150px 0 50px;
   @include screen-above(768px) {
     padding: 200px 0;
   }
