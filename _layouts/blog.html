@@ -8,7 +8,7 @@ layout: default
           <h1>Journal</h1>
         {% else %}
           <h1>{{ page.title }}</h1>
-          <h3>{{ page.date | date: '%B %d, %Y' }}</h3>
+          <h4>{{ page.date | date: '%B %d, %Y' }}</h4>
         {% endif %}
         </div>
         {% if page.path contains '_posts' %}

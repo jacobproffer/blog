@@ -1,20 +1,19 @@
-// .contact {
-//   background: $background;
-//   position: fixed;
-//   bottom: 0;
-//   left: 0;
-//   border-top: 1px solid $black;
-//   @include size(100%, auto);
-//   ul {
-//     margin: 17px 0px;
-//     padding: 0;
-//     text-align: center;
-//     li {
-//       display: inline-block;
-//       margin-right: 25px;
-//       &:last-child {
-//         margin-right: 0;
-//       }
-//     }
-//   }
-// }
+.footer {
+  background: white;
+  padding: 25px 0;
+  text-align: center;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      margin-right: 25px;
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+  }
+  @include screen-above(768px) {
+    padding: 50px 0;
+  }
+}
