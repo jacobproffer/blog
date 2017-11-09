@@ -1,7 +1,11 @@
 [class^="container"] {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
-	padding: 0 10%;
+	padding: 0 5%;
+	@include screen-above(768px) {
+		width: 80%;
+		padding: 0 10%;
+	}
 }
 
 .container-small {
