@@ -82,3 +82,10 @@
     padding: 200px 0;
   }
 }
+
+.text {
+  margin-top: 25px;
+  @include screen-above(768px) {
+    margin-top: 50px;
+  }
+}
