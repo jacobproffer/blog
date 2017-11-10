@@ -18,8 +18,11 @@ layout: default
         {% endif %}
         <ul class="list">
         {% for post in site.posts %}
-            <li><a href="{{ post.url }}">{{ post.title}} / {{ post.date | date: "%b %-d, %Y" }}</a>
-            </li>
+        {% if post.url == page.url %}
+            <li><a class="active-link" href="{{ post.url }}">{{ post.title}} / {{ post.date | date: "%b %-d, %Y" }}</a></li>
+        {% else %}
+            <li><a href="{{ post.url }}">{{ post.title}} / {{ post.date | date: "%b %-d, %Y" }}</a></li>
+        {% endif %}
         {% endfor %}
         </ul>
       </div>

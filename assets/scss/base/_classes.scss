@@ -64,6 +64,32 @@
         }
       }
     }
+    .active-link {
+      color: white;
+      &:hover {
+        color: black;
+        &:before {
+          content: '';
+          background: black;
+          z-index: -1;
+          @include transition(all 300ms ease-in-out);
+          @include size(100%, 5px);
+          @include absolute(auto, auto, 0, 50%);
+          @include transform(translate(-50%, 0));
+          @include screen-above(768px) {
+            @include size(100%, 10px);
+          }
+        }
+      }
+      &:before {
+        content: '';
+        z-index: -1;
+        background: black;
+        @include size(100%, 100%);
+        @include absolute(auto, auto, 0, 50%);
+        @include transform(translate(-50%, 0));
+      }
+    }
   }
 }
 
