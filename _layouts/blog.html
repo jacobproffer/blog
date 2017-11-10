@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-    <section class="blog">
+    <section class="blog spacing">
       <div class="container-small">
-        <div class="blog-header">
+        <div class="header">
         {% if page.url == "/blog.html" %}
           <h1>Journal</h1>
         {% else %}
@@ -12,7 +12,7 @@ layout: default
         {% endif %}
         </div>
         {% if page.path contains '_posts' %}
-        <div class="blog-content">
+        <div class="content">
           {{ content }}
         </div>
         {% endif %}

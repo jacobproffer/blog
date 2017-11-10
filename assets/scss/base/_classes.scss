@@ -60,3 +60,25 @@
     }
   }
 }
+
+.header {
+  text-align: center;
+  margin-bottom: 50px;
+  @include screen-above(768px) {
+    margin-bottom: 100px;
+  }
+}
+
+.content {
+  padding-bottom: 25px;
+  @include screen-above(768px) {
+    padding-bottom: 75px;
+  }
+}
+
+.spacing {
+  padding: 150px 0 50px;
+  @include screen-above(768px) {
+    padding: 200px 0;
+  }
+}
