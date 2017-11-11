@@ -5,7 +5,7 @@ layout: default
       <div class="container-small">
         <div class="header">
         {% if page.url == "/blog.html" %}
-          <h1>Journal</h1>
+          <h1>{{ page.title }}</h1>
         {% else %}
           <h1>{{ page.title }}</h1>
           <h4>{{ page.date | date: '%B %d, %Y' }}</h4>
