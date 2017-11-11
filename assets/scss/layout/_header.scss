@@ -63,8 +63,7 @@
 			&:last-of-type {
 				margin: 0;
 			}
-			&.current,
-			&.contact {
+			&.current {
 				color: $background;
 				background: black;
 				&:hover {
