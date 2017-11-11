@@ -47,13 +47,6 @@
 
     
     <url>
-        <loc>/2017/11/10/second-post.html</loc>
-        <lastmod>2017-11-10</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
         <loc>/2017/11/07/first-post.html</loc>
         <lastmod>2017-11-10</lastmod>
         <changefreq>daily</changefreq>
