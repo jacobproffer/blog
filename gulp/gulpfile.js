@@ -20,7 +20,6 @@ gulp.task('serve', ['sass', 'js'], function() {
     var siteRoot = '../_site';
     browserSync.init({
         files: [siteRoot + '/**'],
-        // server: '../_site',
         port: 4000,
         server: {
           baseDir: siteRoot
