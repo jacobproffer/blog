@@ -4,42 +4,42 @@
     
     <url>
         <loc>/404.html</loc>
-        <lastmod>2017-11-13</lastmod>
+        <lastmod>2017-11-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/about.html</loc>
-        <lastmod>2017-11-13</lastmod>
+        <lastmod>2017-11-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/blog.html</loc>
-        <lastmod>2017-11-13</lastmod>
+        <lastmod>2017-11-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/feed.xml</loc>
-        <lastmod>2017-11-13</lastmod>
+        <lastmod>2017-11-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/</loc>
-        <lastmod>2017-11-13</lastmod>
+        <lastmod>2017-11-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/sitemap.xml</loc>
-        <lastmod>2017-11-13</lastmod>
+        <lastmod>2017-11-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
@@ -47,8 +47,15 @@
 
     
     <url>
+        <loc>/2017/11/28/japan-blog-01.html</loc>
+        <lastmod>2017-11-28</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>/2017/11/13/japan-blog-00.html</loc>
-        <lastmod>2017-11-13</lastmod>
+        <lastmod>2017-11-28</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
