@@ -9,7 +9,6 @@ var gulp        = require('gulp'),
     concat      = require('gulp-concat'),
     browserSync = require('browser-sync').create(),
     scripts = [
-      '../assets/js/lib/scroll/scrollreveal.min.js',
       '../assets/js/lib/headroom/headroom.min.js',
       '../assets/js/lib/headroom/jQuery.headroom.js',
       '../assets/js/app.js'
