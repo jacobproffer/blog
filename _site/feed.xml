@@ -5,7 +5,18 @@
         <title>Jacob Proffer</title>
         <link>http://localhost:4000</link>
         <description>Jacob Proffer is a Front-End Developer working at Elegant Seagulls in Marquette, Michigan.</description>
-        <lastBuildDate>Thu, 28 Dec 2017 21:19:09 -0500</lastBuildDate>
+        <lastBuildDate>Sat, 30 Dec 2017 20:05:51 -0500</lastBuildDate>
+        
+        <item>
+            <description>
+                &lt;p&gt;It was pitch black when the train pulled out of Narita. I did not expect this. In my mind, I had hopes to make it to Shinjuku and locate my hotel before nightfall. But apparently it gets dark in Japan a lot earlier than back home. It was only six in the evening but it felt much later.&lt;/p&gt;
+
+            </description>
+            <pubDate>Sat, 30 Dec 2017 09:00:00 -0500</pubDate>
+            <guid>
+                http://localhost:4000/2017/12/30/japan-blog-03.html
+            </guid>
+        </item>
         
         <item>
             <description>
