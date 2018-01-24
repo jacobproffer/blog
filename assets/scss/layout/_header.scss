@@ -20,7 +20,7 @@
 }
 
 .logo {
-  color: black;
+  color: $black;
   display: inline-block;
 	font-size: 1.5rem;
 	line-height: 1;
@@ -51,23 +51,23 @@
       margin: 0 32px 0 0;
 			line-height: 1;
 			border-radius: 1.125rem;
-			border: 1px solid black;
-      color: black;
+			border: 1px solid $black;
+      color: $black;
 			padding: 13px 15px;
       text-decoration: none;
       display: block;
 			&:hover {
 				color: $background;
-				background: black;
+				background: $black;
 			}
 			&:last-of-type {
 				margin: 0;
 			}
 			&.current {
 				color: $background;
-				background: black;
+				background: $black;
 				&:hover {
-					color: black;
+					color: $black;
 					background: $background;
 				}
 			}
