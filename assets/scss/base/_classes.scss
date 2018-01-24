@@ -6,7 +6,7 @@
     color: white;
     &:before {
       content: '';
-      background: black;
+      background: $black;
       z-index: -1;
       @include size(100%, 100%);
       @include absolute(auto, auto, -2px, 50%);
@@ -15,7 +15,7 @@
   }
   &:before {
     content: '';
-    background: black;
+    background: $black;
     z-index: -1;
     @include transition(all 300ms ease-in-out);
     @include size(100%, 2px);
@@ -36,16 +36,16 @@
       margin-bottom: 0;
     }
     a {
-      color: black;
+      color: $black;
       font-weight: 700;
       @include font-size($h2-font-sizes);
       @include transition(all 300ms ease-in-out);
       &:hover {
-        color: white;
+        color: $white;
         &:before {
           content: '';
           z-index: -1;
-          background: black;
+          background: $black;
           @include size(100%, 100%);
           @include absolute(auto, auto, 0, 50%);
           @include transform(translate(-50%, 0));
@@ -65,12 +65,12 @@
       }
     }
     .active-link {
-      color: white;
+      color: $white;
       &:hover {
-        color: black;
+        color: $black;
         &:before {
           content: '';
-          background: black;
+          background: $black;
           z-index: -1;
           @include transition(all 300ms ease-in-out);
           @include size(100%, 5px);
@@ -84,7 +84,7 @@
       &:before {
         content: '';
         z-index: -1;
-        background: black;
+        background: $black;
         @include size(100%, 100%);
         @include absolute(auto, auto, 0, 50%);
         @include transform(translate(-50%, 0));

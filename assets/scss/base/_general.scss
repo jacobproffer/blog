@@ -3,7 +3,7 @@
 
 body {
   position: relative;
-  color: #000000;
+  color: $black;
   font-family: 'Open Sans', sans-serif;
   background: $background;
   @include transition(all 300ms ease-in-out);
