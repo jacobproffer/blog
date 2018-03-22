@@ -4,11 +4,10 @@
   overflow-y: visible;
 	will-change:transform;
   z-index: 9;
-  @include size(100%, 25px);
+  @include size(100%, auto);
   @include transition(all 300ms ease-in-out);
 	@include screen-above(768px) {
 		padding: 50px 0;
-		@include size(100%, 50px);
 	}
 	&.unpinned {
 		@include transform(translateY(-100px));
@@ -19,12 +18,16 @@
 	}
 }
 
-.logo {
+.back {
   color: $black;
   display: inline-block;
 	font-size: 1.5rem;
 	line-height: 1;
 	padding-top: 10px;
+	@include transition(color 300ms ease-in-out);
+	&:hover {
+		color: $gray;
+	}
 }
 
 .main-nav {
@@ -45,37 +48,27 @@
     list-style-type: none;
     text-align: center;
 		display: inline-block;
+		margin: 0 32px 0 0;
+		&:last-of-type {
+			margin: 0;
+		}
     a {
       position: relative;
       cursor: pointer;
-      margin: 0 32px 0 0;
 			line-height: 1;
-			border-radius: 1.125rem;
-			border: 1px solid $black;
-      color: $black;
-			padding: 13px 15px;
+      color: $gray;
       text-decoration: none;
       display: block;
 			&:hover {
-				color: $background;
-				background: $black;
-			}
-			&:last-of-type {
-				margin: 0;
+				color: $black;
 			}
 			&.current {
-				color: $background;
-				background: $black;
+				color: $black;
 				&:hover {
-					color: $black;
-					background: $background;
+					color: $gray;
 				}
 			}
       @include transition(all 300ms ease-in-out);
-			@include screen-above(768px) {
-				padding: 13px 50px;
-				border-radius: 2rem;
-			}
     }
   }
 }

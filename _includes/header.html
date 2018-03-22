@@ -2,7 +2,7 @@
       <nav role="navigation">
         <div class="container-mid">
           {% if page.layout == 'blog' or page.layout == 'about' or page.layout == 'missing' %}
-          <a class="logo" href="{{ "index.html" | absolute_url }}">&lt;</a>
+          <a class="back" href="{{ "index.html" | absolute_url }}">&lt;</a>
           {% endif %}
           {% assign current = page.url | downcase | split: '/' %}
           <ul class="main-nav">
