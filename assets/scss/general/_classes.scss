@@ -52,8 +52,8 @@
   -ms-flex-item-align: auto;
   align-self: auto;
   text-align: left;
-  // box-shadow: 0 1px 6px rgba(0, 0, 0, 0.20);
   margin-bottom: 10px;
+  color: $black;
   background-color: #f9f9fa;
   @include transition(box-shadow 300ms ease-in-out);
   @include screen-between(768px, 1024px) {
@@ -62,6 +62,7 @@
     flex: 0 1 calc(50% - 10px);
     max-width: calc(50% - 10px);
     margin-right: 10px;
+
     &:nth-of-type(2n) {
       -webkit-flex: 0 1 50%;
       -ms-flex: 0 1 50%;
@@ -85,12 +86,15 @@
       margin-right: 0;
     }
   }
+
   small {
     color: $gray;
   }
+
   &.project-active {
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.40);
   }
+
   &:hover {
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.40);
   }
