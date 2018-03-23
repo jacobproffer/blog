@@ -1,22 +1,12 @@
 .info {
-  padding: 60px 0 30px;
   text-align: center;
-  a {
-    color: $gray;
-    @include transition(color 300ms ease-in-out);
-    &:hover {
-      color: $black;
+  h4 {
+    a {
+      color: $gray;
+      @include transition(color 300ms ease-in-out);
+      &:hover {
+        color: $black;
+      }
     }
-  }
-  @include screen-above(768px) {
-    padding: 120px 0 60px;
-  }
-}
-
-.work {
-  padding: 0 0 100px;
-  text-align: center;
-  @include screen-above(768px) {
-    padding: 0 0 200px;
   }
 }

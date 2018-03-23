@@ -1,4 +1,7 @@
-::selection { color: white; background: black; }
+::selection {
+  color: $white;
+  background: $black;
+}
 
 body {
   position: relative;
@@ -20,9 +23,9 @@ a {
 
 hr {
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, .10);
+  border-top: 1px solid rgba(0, 0, 0, .1);
   display: block;
-  height: 1px;
   margin: 2em 0;
   padding: 0;
+  @include size(100%, 1px);
 }
