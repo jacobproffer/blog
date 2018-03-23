@@ -1,8 +1,8 @@
 .header {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   @include screen-above(768px) {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
   }
 }
 
@@ -14,7 +14,7 @@
 }
 
 .spacing {
-  padding: 150px 0 50px;
+  padding: 60px 0 30px;
   @include screen-above(768px) {
     padding: 120px 0 60px;
   }
@@ -59,8 +59,9 @@
   -ms-flex-item-align: auto;
   align-self: auto;
   text-align: left;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+  // box-shadow: 0 1px 6px rgba(0, 0, 0, 0.20);
   margin-bottom: 10px;
+  background-color: #f9f9fa;
   @include transition(box-shadow 300ms ease-in-out);
   @include screen-between(768px, 1024px) {
     -webkit-flex: 0 1 calc(50% - 10px);
@@ -95,10 +96,10 @@
     color: $gray;
   }
   &.project-active {
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.40);
   }
   &:hover {
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.40);
   }
 }
 

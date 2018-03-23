@@ -1,6 +1,13 @@
 .info {
-  padding: 150px 0 50px;
+  padding: 60px 0 30px;
   text-align: center;
+  a {
+    color: $gray;
+    @include transition(color 300ms ease-in-out);
+    &:hover {
+      color: $black;
+    }
+  }
   @include screen-above(768px) {
     padding: 120px 0 60px;
   }

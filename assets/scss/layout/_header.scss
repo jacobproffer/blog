@@ -13,7 +13,7 @@
 		@include transform(translateY(-100px));
 	}
 	&.pinned {
-		background: $background;
+		background: $white;
 		@include transform(translateY(0));
 	}
 }

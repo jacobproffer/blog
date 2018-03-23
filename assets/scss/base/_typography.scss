@@ -1,5 +1,5 @@
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', serif;
   margin-bottom: 0;
   padding-bottom: 0;
   line-height: 1;
@@ -19,6 +19,7 @@ h3 {
 h4 {
   color: $gray;
   font-weight: 300;
+  margin-bottom: 0;
   @include font-size($h4-font-sizes);
 }
 
