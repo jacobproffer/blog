@@ -21,35 +21,17 @@
 }
 
 .projects {
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-align-content: flex-start;
-  -ms-flex-line-pack: start;
   align-content: flex-start;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
   align-items: stretch;
 }
 
 .project-card {
-  -webkit-order: 0;
-  -ms-flex-order: 0;
   order: 0;
-  -webkit-flex: 0 1 100%;
-  -ms-flex: 0 1 100%;
   flex: 0 1 100%;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
   align-self: auto;
   text-align: left;
   margin-bottom: 10px;
@@ -57,30 +39,23 @@
   background-color: #f9f9fa;
   @include transition(box-shadow 300ms ease-in-out);
   @include screen-between(768px, 1024px) {
-    -webkit-flex: 0 1 calc(50% - 10px);
-    -ms-flex: 0 1 calc(50% - 10px);
     flex: 0 1 calc(50% - 10px);
     max-width: calc(50% - 10px);
     margin-right: 10px;
 
     &:nth-of-type(2n) {
-      -webkit-flex: 0 1 50%;
-      -ms-flex: 0 1 50%;
       flex: 0 1 50%;
       max-width: 50%;
       margin-right: 0;
     }
   }
   @include screen-above(1024px) {
-    -webkit-flex: 0 1 calc(33.333% - 10px);
-    -ms-flex: 0 1 calc(33.333% - 10px);
     flex: 0 1 calc(33.333% - 10px);
     max-width: calc(33.333% - 10px);
     margin-bottom: 10px;
     margin-right: 10px;
+
     &:nth-of-type(3n) {
-      -webkit-flex: 0 1 33.333%;
-      -ms-flex: 0 1 33.333%;
       flex: 0 1 33.333%;
       max-width: 33.333%;
       margin-right: 0;
@@ -92,11 +67,11 @@
   }
 
   &.project-active {
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.40);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .4);
   }
 
   &:hover {
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.40);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .4);
   }
 }
 
