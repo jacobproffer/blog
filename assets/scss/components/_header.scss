@@ -2,7 +2,7 @@
 	padding: 25px 0 50px;
   position: fixed;
   overflow-y: visible;
-	will-change:transform;
+	will-change: transform;
   z-index: 9;
   @include size(100%, auto);
   @include transition(all 300ms ease-in-out);
@@ -34,13 +34,12 @@
 }
 
 .main-nav {
-  will-change:transform;
+  will-change: transform;
   display: block;
   padding: 0;
   margin: 0;
   z-index: 9;
-	pointer-events: none;
-	border-bottom: none;
+	border-bottom: 0;
 	opacity: 1;
 	background: none;
 	float: right;
@@ -72,7 +71,7 @@
 
 			&.current {
 				color: $black;
-				
+
 				&:hover {
 					color: $gray;
 				}

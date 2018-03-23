@@ -6,7 +6,7 @@
 body {
   position: relative;
   color: $black;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background: $white;
   @include transition(all 300ms ease-in-out);
 }
@@ -19,6 +19,7 @@ a {
   color: $gray;
   text-decoration: none;
   @include transition(color 300ms ease-in-out);
+
   &:hover {
     color: $black;
   }
@@ -26,7 +27,7 @@ a {
 
 hr {
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, .1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   display: block;
   margin: 2em 0;
   padding: 0;
