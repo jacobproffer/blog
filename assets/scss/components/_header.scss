@@ -21,7 +21,7 @@
 }
 
 .back {
-  color: $black;
+  color: $gray;
   display: inline-block;
 	font-size: 1.5rem;
 	line-height: 1;
@@ -29,7 +29,7 @@
 	@include transition(color 300ms ease-in-out);
 
 	&:hover {
-		color: $gray;
+		color: $black;
 	}
 }
 
