@@ -1,0 +1,35 @@
+::selection {
+  color: $white;
+  background: $black;
+}
+
+body {
+  position: relative;
+  color: $black;
+  font-family: "Roboto", sans-serif;
+  background: $white;
+  @include transition(all 300ms ease-in-out);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: $gray;
+  text-decoration: none;
+  @include transition(color 300ms ease-in-out);
+
+  &:hover {
+    color: $black;
+  }
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  display: block;
+  margin: 2em 0;
+  padding: 0;
+  @include size(100%, 1px);
+}

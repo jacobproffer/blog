@@ -1,24 +1,19 @@
 // Helpers
 
-@import "helpers/variables";
-@import "helpers/maps";
-@import "helpers/mixins";
+@import 'helpers/variables';
+@import 'helpers/maps';
+@import 'helpers/mixins';
 
 // Base
 
-@import "base/reset";
-@import "base/typography";
-@import "base/general";
-@import "base/classes";
-@import "base/animate";
+@import 'general/reset';
+@import 'general/typography';
+@import 'general/global';
+@import 'general/classes';
+@import 'general/animate';
 
-// Layout
+// Components
 
-@import "layout/grid";
-@import "layout/header";
-@import "layout/footer";
-
-// Pages
-
-@import "pages/home";
-@import "pages/blog";
+@import 'components/grid';
+@import 'components/header';
+@import 'components/footer';

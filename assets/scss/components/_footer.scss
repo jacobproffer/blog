@@ -1,0 +1,23 @@
+.footer {
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  padding: 80px 0;
+  @include screen-below(768px) {
+    padding: 40px 0;
+  }
+}
+
+.social-links {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.social-link {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}

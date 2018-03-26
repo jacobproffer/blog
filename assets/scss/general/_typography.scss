@@ -1,7 +1,8 @@
 h1 {
-  margin-bottom: 0;
+  font-family: 'Roboto', serif;
+  margin: 0;
   padding-bottom: 0;
-  line-height: 1;
+  line-height: 1.5;
   @include font-size($h1-font-sizes);
 }
 
@@ -16,7 +17,9 @@ h3 {
 }
 
 h4 {
+  color: $gray;
   font-weight: 300;
+  margin: 0;
   @include font-size($h4-font-sizes);
 }
 
