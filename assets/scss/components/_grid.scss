@@ -20,7 +20,7 @@
 
 .col {
   @include make-flex(12);
-  @include screen-above(768px) {
+  @include screen-above(960px) {
     @include update-flex(6);
   }
   padding: 0 1rem;
