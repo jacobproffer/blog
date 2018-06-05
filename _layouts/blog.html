@@ -2,15 +2,18 @@
 layout: default
 ---
     <section class="blog spacing">
-      <div class="container-small">
+      <div class="container">
         <div class="header">
         {% if page.url == "/blog.html" %}
           <h1>{{ page.title }}</h1>
         {% else %}
+        <div class="header centered">
           <h1>{{ page.title }}</h1>
           <h4>{{ page.date | date: '%B %d, %Y' }}</h4>
         {% endif %}
         </div>
+      </div>
+      <div class="container-small">
         {% if page.path contains '_posts' %}
         <div class="content">
           {{ content }}
