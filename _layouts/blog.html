@@ -20,23 +20,16 @@ layout: default
       <div class="container-mid">
         <div class="cols">
         {% for post in site.posts %}
-        {% if post.url == page.url %}
           <a class="col project-card" href="{{ post.url }}">
-            <div class="project project-active">
-              <h2>{{ post.title}}</h2>
-              <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-              <h5>{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </h5>
+            <div class="project-content {% if post.url == page.url %}project-active{% endif %}">
+              <div class="thumbnail" {% if post.image %} style="background-image:url('{{ post.image | absolute_url }}');" {% endif %}></div>
+              <div class="project">
+                <h2>{{ post.title}}</h2>
+                <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+                <h5>{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </h5>
+              </div>
             </div>
           </a>
-        {% else %}
-          <a class="col project-card" href="{{ post.url }}">
-            <div class="project">
-              <h2>{{ post.title}}</h2>
-              <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-              <h5>{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </h5>
-            </div>
-          </a>
-        {% endif %}
         {% endfor %}
         </div>
       </div>

@@ -4,10 +4,6 @@
   width: 90%;
   margin: 0 auto;
   padding: 0 5%;
-  @include screen-above(768px) {
-    width: 80%;
-    padding: 0 10%;
-  }
 }
 
 .container-mid {
@@ -30,4 +26,5 @@
   @include screen-above(1024px) {
     @include update-flex(4);
   }
+  padding: 0 1rem;
 }

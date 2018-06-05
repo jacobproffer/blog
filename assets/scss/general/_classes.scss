@@ -30,22 +30,31 @@
   }
 }
 
+.project-content {
+  @include size(100%, auto);
+  @include transition(opacity 300ms ease-in-out);
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &.project-active {
+    opacity: 0.5;
+  }
+}
+
 .project {
-  @include transition(box-shadow 300ms ease-in-out);
-  padding: 10px 20px;
+  padding: 10px 0;
   color: $black;
-  background-color: #f9f9fa;
   text-align: left;
 
   small {
     color: $gray;
   }
+}
 
-  &.project-active {
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
-  }
-
-  &:hover {
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
-  }
+.thumbnail {
+  @include ratio(16, 9);
+  @include background-cover;
+  pointer-events: none;
 }
