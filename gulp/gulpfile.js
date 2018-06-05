@@ -34,7 +34,12 @@ gulp.task("serve", ["sass", "js"], function() {
 gulp.task("sass", function() {
   return gulp
     .src("../assets/scss/**/*.scss")
-    .pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
+    .pipe(
+      sass({
+        outputStyle: "compressed",
+        includePaths: ["node_modules/superior-scss/src"]
+      }).on("error", sass.logError)
+    )
     .pipe(prefix("last 2 versions"))
     .pipe(rename({ suffix: ".min" }))
     .pipe(gulp.dest("../dist/css"))

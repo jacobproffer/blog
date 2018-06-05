@@ -1,17 +1,23 @@
-[class^='container'] {
-	width: 90%;
-	margin: 0 auto;
-	padding: 0 5%;
-	@include screen-above(768px) {
-		width: 80%;
-		padding: 0 10%;
-	}
+@import "superior";
+
+[class^="container"] {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 5%;
+  @include screen-above(768px) {
+    width: 80%;
+    padding: 0 10%;
+  }
 }
 
 .container-mid {
-	max-width: 1200px;
+  max-width: 1200px;
 }
 
 .container-small {
-	max-width: 670px;
+  max-width: 670px;
+}
+
+.cols {
+  @include cols;
 }
