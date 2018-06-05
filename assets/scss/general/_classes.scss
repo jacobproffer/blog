@@ -58,3 +58,15 @@
   @include background-cover;
   pointer-events: none;
 }
+
+.page-navigation {
+  @include clearfix;
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}

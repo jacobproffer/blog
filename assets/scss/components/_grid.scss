@@ -1,9 +1,13 @@
 @import "superior";
 
 [class^="container"] {
-  width: 95%;
+  @include screen-above(670px) {
+    width: 95%;
+    padding: 0 2.5%;
+  }
+  width: 90%;
   margin: 0 auto;
-  padding: 0 2.5%;
+  padding: 0 5%;
 }
 
 .container-mid {
