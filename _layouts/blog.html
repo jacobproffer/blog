@@ -18,18 +18,18 @@ layout: default
         {% endif %}
       </div>
       <div class="container-mid">
-        <div class="projects">
+        <div class="cols">
         {% for post in site.posts %}
         {% if post.url == page.url %}
-          <a class="project-card project-active" href="{{ post.url }}">
-            <div class="project">
+          <a class="col project-card" href="{{ post.url }}">
+            <div class="project project-active">
               <h2>{{ post.title}}</h2>
               <small>{{ post.date | date: "%b %-d, %Y" }}</small>
               <h5>{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </h5>
             </div>
           </a>
         {% else %}
-          <a class="project-card" href="{{ post.url }}">
+          <a class="col project-card" href="{{ post.url }}">
             <div class="project">
               <h2>{{ post.title}}</h2>
               <small>{{ post.date | date: "%b %-d, %Y" }}</small>

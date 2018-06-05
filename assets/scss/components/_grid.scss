@@ -21,3 +21,13 @@
 .cols {
   @include cols;
 }
+
+.col {
+  @include make-flex(12);
+  @include screen-between(768px, 1024px) {
+    @include update-flex(6);
+  }
+  @include screen-above(1024px) {
+    @include update-flex(4);
+  }
+}
