@@ -20,68 +20,41 @@
   }
 }
 
-.projects {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-content: flex-start;
-  align-items: stretch;
-}
-
 .project-card {
-  order: 0;
-  flex: 0 1 100%;
-  align-self: auto;
-  text-align: left;
   margin-bottom: 10px;
-  color: $black;
-  background-color: #f9f9fa;
-  @include transition(box-shadow 300ms ease-in-out);
-  @include screen-between(768px, 1024px) {
-    flex: 0 1 calc(50% - 10px);
-    max-width: calc(50% - 10px);
-    margin-right: 10px;
-
-    &:nth-of-type(2n) {
-      flex: 0 1 50%;
-      max-width: 50%;
-      margin-right: 0;
-    }
-  }
-  @include screen-above(1024px) {
-    flex: 0 1 calc(33.333% - 10px);
-    max-width: calc(33.333% - 10px);
-    margin-bottom: 10px;
-    margin-right: 10px;
-
-    &:nth-of-type(3n) {
-      flex: 0 1 33.333%;
-      max-width: 33.333%;
-      margin-right: 0;
-    }
-  }
-
-  small {
-    color: $gray;
-  }
-
-  &.project-active {
-    box-shadow: 0 1px 6px rgba(0, 0, 0, .4);
-  }
-
-  &:hover {
-    box-shadow: 0 1px 6px rgba(0, 0, 0, .4);
-  }
 }
 
 .about {
-  
   .content {
     padding-bottom: 0;
   }
 }
 
+.project-content {
+  @include size(100%, auto);
+  @include transition(opacity 300ms ease-in-out);
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &.project-active {
+    opacity: 0.5;
+  }
+}
+
 .project {
-  padding: 0 20px;
+  padding: 10px 0;
+  color: $black;
+  text-align: left;
+
+  small {
+    color: $gray;
+  }
+}
+
+.thumbnail {
+  @include ratio(16, 9);
+  @include background-cover;
+  pointer-events: none;
 }
