@@ -54,7 +54,7 @@
 }
 
 .thumbnail {
-  @include ratio(16, 9);
+  @include ratio(12, 8);
   @include background-cover;
   pointer-events: none;
 }
