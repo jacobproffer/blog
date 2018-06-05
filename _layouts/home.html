@@ -13,13 +13,13 @@ layout: default
         {% endif %}
         </div>
       </div>
+      {% if page.path contains '_posts' %}
       <div class="container-small">
-        {% if page.path contains '_posts' %}
         <div class="content">
           {{ content }}
         </div>
-        {% endif %}
       </div>
+      {% endif %}
       <div class="container-mid">
         <div class="cols">
         {% for post in site.posts %}
