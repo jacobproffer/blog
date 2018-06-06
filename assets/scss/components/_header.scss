@@ -16,7 +16,7 @@
 
   &.pinned {
     @include transform(translateY(0));
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: $yellow;
   }
 }
 
@@ -51,14 +51,6 @@
       text-decoration: none;
       display: block;
       font-weight: 900;
-
-      // &.nav-item-home {
-      //   color: $white;
-      //
-      //   &:hover {
-      //     color: $yellow;
-      //   }
-      // }
 
       @include transition(all 300ms ease-in-out);
     }
