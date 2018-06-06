@@ -12,7 +12,7 @@ layout: default
       </div>
     </header>
     <section class="blog spacing">
-      <div class="container-small">
+      <div class="container container-small">
         {% if page.path contains '_posts' %}
         <div class="content">
           {{ content }}
@@ -28,7 +28,7 @@ layout: default
         {% endif %}
       </div>
       {% if page.url == "/blog.html" %}
-      <div class="container-mid">
+      <div class="container container-mid">
         <div class="cols">
         {% for post in site.posts %}
           <a class="col project-card" href="{{ post.url }}">

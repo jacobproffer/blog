@@ -2,7 +2,7 @@
 layout: default
 ---
     <header class="header header-home">
-      <div class="container-mid">
+      <div class="container container-mid">
         <h1>Jacob Proffer</h1>
         <h4 id="curve">Travel Blogs From Far Places</h4>
       </div>
@@ -10,13 +10,13 @@ layout: default
     </header>
     <section class="blog spacing">
       {% if page.path contains '_posts' %}
-      <div class="container-small">
+      <div class="container container-small">
         <div class="content">
           {{ content }}
         </div>
       </div>
       {% endif %}
-      <div class="container-mid">
+      <div class="container container-mid">
         <div class="cols">
         {% for post in site.posts %}
           <a class="col project-card" href="{{ post.url }}">
