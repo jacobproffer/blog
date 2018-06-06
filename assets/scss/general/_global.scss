@@ -6,9 +6,14 @@
 body {
   position: relative;
   color: $black;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', serif;
   background: $white;
   @include transition(all 300ms ease-in-out);
+}
+
+h1,
+h2 {
+  font-family: 'Cormorant Garamond', serif;
 }
 
 img {
@@ -16,7 +21,7 @@ img {
 }
 
 a {
-  color: $gray;
+  color: $yellow;
   text-decoration: none;
   @include transition(color 300ms ease-in-out);
 

@@ -1,9 +1,32 @@
 .header {
-  text-align: center;
-  margin-bottom: 30px;
+  @include background-cover;
   @include screen-above(768px) {
+    padding: 150px 0 75px;
+  }
+  position: relative;
+  text-align: center;
+  padding: 75px 0 38px;
+  background-position: center;
+
+  &::before {
+    content: '';
+    background-image: url('../img/img-noise.png');
+    background-repeat: repeat;
+    pointer-events: none;
+    @include size(100%);
+    @include absolute(0, 0, 0, 0);
+  }
+}
+
+.header-home {
+  @include screen-above(768px) {
+    padding: 150px 0;
     margin-bottom: 60px;
   }
+  padding: 75px 0;
+  margin-bottom: 30px;
+  color: $white;
+  background-image: url('../img/header.jpg');
 }
 
 .content {
@@ -14,14 +37,30 @@
 }
 
 .spacing {
-  padding: 80px 0 40px;
+  padding: 0 0 40px;
   @include screen-above(768px) {
-    padding: 120px 0 60px;
+    padding: 0 0 60px;
   }
 }
 
 .project-card {
-  margin-bottom: 10px;
+  @include screen-below(768px) {
+    &:not(:first-of-type) {
+      .project-content {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        padding-top: 30px;
+      }
+    }
+  }
+  @include screen-above(768px) {
+    &:nth-of-type(n+3) {
+      .project-content {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        padding-top: 30px;
+      }
+    }
+  }
+  margin-bottom: 20px;
 }
 
 .about {
@@ -49,7 +88,11 @@
   text-align: left;
 
   small {
-    color: $gray;
+    color: $yellow;
+  }
+
+  h5 {
+    margin-bottom: 0;
   }
 }
 
