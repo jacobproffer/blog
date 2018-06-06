@@ -2,13 +2,11 @@
       <nav role="navigation">
         <div class="container-mid">
           {% if page.layout == 'blog' or page.layout == 'about' or page.layout == 'missing' %}
-          <a class="back" href="{{ "index.html" | absolute_url }}">&lt;</a>
+          <a class="back" href="{{ "/" | absolute_url }}">Home</a>
           {% endif %}
           {% assign current = page.url | downcase | split: '/' %}
           <ul class="main-nav">
             <li><a href="/about.html" {% if current[1] == 'about.html' %}class='current'{% endif %}>About</a></li>
-            <li><a href="/blog.html" {% if current[1] == 'blog.html' %}class='current'{% endif %}>Blog</a></li>
-            <li><a href="mailto:hello@jacobproffer.com">Contact</a></li>
           </ul>
         </div>
       </nav>

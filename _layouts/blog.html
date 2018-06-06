@@ -2,7 +2,7 @@
 layout: default
 ---
     <section class="blog spacing">
-      <div class="container-small">
+      <div class="container">
         <div class="header">
         {% if page.url == "/blog.html" %}
           <h1>{{ page.title }}</h1>
@@ -11,33 +11,38 @@ layout: default
           <h4>{{ page.date | date: '%B %d, %Y' }}</h4>
         {% endif %}
         </div>
+      </div>
+      <div class="container-small">
         {% if page.path contains '_posts' %}
         <div class="content">
           {{ content }}
         </div>
+        <div class="page-navigation">
+          {% if page.previous.url %}
+            <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+          {% endif %}
+          {% if page.next.url %}
+            <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+          {% endif %}
+        </div>
         {% endif %}
       </div>
+      {% if page.url == "/blog.html" || page.url == "/" %}
       <div class="container-mid">
-        <div class="projects">
+        <div class="cols">
         {% for post in site.posts %}
-        {% if post.url == page.url %}
-          <a class="project-card project-active" href="{{ post.url }}">
-            <div class="project">
-              <h2>{{ post.title}}</h2>
-              <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-              <h5>{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </h5>
+          <a class="col project-card" href="{{ post.url }}">
+            <div class="project-content {% if post.url == page.url %}project-active{% endif %}">
+              <div class="thumbnail" {% if post.image %} style="background-image:url('{{ post.image | absolute_url }}');" {% endif %}></div>
+              <div class="project">
+                <h2>{{ post.title}}</h2>
+                <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+                <h5>{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </h5>
+              </div>
             </div>
           </a>
-        {% else %}
-          <a class="project-card" href="{{ post.url }}">
-            <div class="project">
-              <h2>{{ post.title}}</h2>
-              <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-              <h5>{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </h5>
-            </div>
-          </a>
-        {% endif %}
         {% endfor %}
         </div>
       </div>
+      {% endif %}
     </section>
