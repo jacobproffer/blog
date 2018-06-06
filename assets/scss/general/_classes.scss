@@ -9,12 +9,12 @@
   overflow: hidden;
 
   &::before {
+    @include size(100%);
+    @include absolute(0, 0, 0, 0);
     content: "";
     background-image: url("../img/img-noise.png");
     background-repeat: repeat;
     pointer-events: none;
-    @include size(100%);
-    @include absolute(0, 0, 0, 0);
     z-index: 1;
   }
 }
@@ -40,17 +40,17 @@
 }
 
 .content {
-  padding-bottom: 25px;
   @include screen-above(768px) {
     padding-bottom: 75px;
   }
+  padding-bottom: 25px;
 }
 
 .spacing {
-  padding: 0 0 40px;
   @include screen-above(768px) {
     padding: 0 0 60px;
   }
+  padding: 0 0 40px;
 }
 
 .project-card {
