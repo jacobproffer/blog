@@ -3,11 +3,14 @@ layout: default
 ---
     <header class="header header-home">
       <div class="container container-mid">
-        <h1>Jacob Proffer</h1>
-        <h4 id="curve">Travel Blogs From Far Places</h4>
+        {% for post in site.posts %}
+        {% if post.featured %}
+        <h1>{{ post.title}}</h1>
+        <h5>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</h5>
+        <a href="{{ post.url }}" class="button button-black">Read More</a>
+        {% endif %}
+        {% endfor %}
       </div>
-      <div class="main-header-background"></div>
-      <div class="main-header-border"></div>
     </header>
     <section class="blog spacing">
       {% if page.path contains '_posts' %}
@@ -20,9 +23,10 @@ layout: default
       <div class="container container-mid">
         <div class="cols">
         {% for post in site.posts %}
+        {% if post.featured %}
+        {% else if %}
           <a class="col project-card" href="{{ post.url }}">
             <div class="project-content {% if post.url == page.url %}project-active{% endif %}">
-              <div class="thumbnail" {% if post.image %} style="background-image:url('{{ post.image | absolute_url }}');" {% endif %}></div>
               <div class="project">
                 <h2>{{ post.title}}</h2>
                 <small>{{ post.date | date: "%b %-d, %Y" }}</small>
@@ -30,6 +34,7 @@ layout: default
               </div>
             </div>
           </a>
+        {% endif %}
         {% endfor %}
         </div>
       </div>

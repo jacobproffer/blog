@@ -48,31 +48,35 @@
       position: relative;
       cursor: pointer;
       line-height: 1;
-      color: $yellow;
       text-decoration: none;
       display: block;
+      font-weight: 900;
 
-      &:hover {
-        color: $black;
-      }
-
-      &.current {
-        color: $black;
-
-        &:hover {
-          color: $gray;
-        }
-      }
-
-      &.nav-item-home {
-        color: $white;
-
-        &:hover {
-          color: $yellow;
-        }
-      }
+      // &.nav-item-home {
+      //   color: $white;
+      //
+      //   &:hover {
+      //     color: $yellow;
+      //   }
+      // }
 
       @include transition(all 300ms ease-in-out);
+    }
+  }
+}
+
+a {
+  color: $black;
+
+  &:hover {
+    color: $red;
+  }
+
+  &.current {
+    color: $red;
+
+    &:hover {
+      color: $black;
     }
   }
 }
