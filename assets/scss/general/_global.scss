@@ -17,22 +17,17 @@ body {
   background: $white;
 }
 
-h1,
-h2 {
-  font-family: "Cormorant Garamond", serif;
-}
-
 img {
   max-width: 100%;
 }
 
 a {
   @include transition(color 300ms ease-in-out);
-  color: $yellow;
+  color: $black;
   text-decoration: none;
 
   &:hover {
-    color: $black;
+    color: $red;
   }
 }
 
@@ -61,19 +56,4 @@ input {
 
 textarea {
   @include size(100%, 200px);
-}
-
-button {
-  @include transition(background-color 300ms ease-in-out);
-  color: $white;
-  background-color: $yellow;
-  padding: 13px 18px;
-  outline: none;
-  border: 0;
-  border-radius: 0;
-  -webkit-appearance: none;
-
-  &:hover {
-    background-color: $black;
-  }
 }

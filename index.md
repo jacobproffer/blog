@@ -1,5 +1,5 @@
 ---
-title: Travel Blogs From Far Places
+title: Front-End Developer
 layout: home
 order: 1
 ---
