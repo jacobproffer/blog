@@ -6,15 +6,16 @@
   position: relative;
   text-align: center;
   padding: 75px 0 38px;
-  background-position: center;
+  overflow: hidden;
 
   &::before {
-    content: '';
-    background-image: url('../img/img-noise.png');
+    content: "";
+    background-image: url("../img/img-noise.png");
     background-repeat: repeat;
     pointer-events: none;
     @include size(100%);
     @include absolute(0, 0, 0, 0);
+    z-index: 1;
   }
 }
 
@@ -26,7 +27,16 @@
   padding: 75px 0;
   margin-bottom: 30px;
   color: $white;
-  background-image: url('../img/header.jpg');
+}
+
+.main-header-background {
+  @include size(100%);
+  @include absolute(0, 0, 0, 0);
+  @include background-cover;
+  will-change: auto;
+  background-position: center;
+  background-image: url("../img/header.jpg");
+  z-index: -1;
 }
 
 .content {
@@ -53,7 +63,7 @@
     }
   }
   @include screen-above(768px) {
-    &:nth-of-type(n+3) {
+    &:nth-of-type(n + 3) {
       .project-content {
         border-top: 1px solid rgba(0, 0, 0, 0.1);
         padding-top: 30px;
