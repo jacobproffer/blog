@@ -1,12 +1,13 @@
     <header class="main-header" role="banner">
       <nav role="navigation">
         <div class="container-mid">
-          {% if page.layout == 'blog' or page.layout == 'about' or page.layout == 'missing' %}
+          {% if page.layout == 'blog' or page.layout == 'about' or page.layout == 'missing' or page.layout == 'contact' %}
           <a class="back" href="{{ "/" | absolute_url }}">Home</a>
           {% endif %}
           {% assign current = page.url | downcase | split: '/' %}
           <ul class="main-nav">
             <li><a href="/about.html" {% if current[1] == 'about.html' %}class='current'{% endif %}>About</a></li>
+            <li><a href="/contact.html" {% if current[1] == 'about.html' %}class='current'{% endif %}>Contact</a></li>
           </ul>
         </div>
       </nav>

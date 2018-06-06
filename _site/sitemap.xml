@@ -24,6 +24,13 @@
     </url>
     
     <url>
+        <loc>/contact.html</loc>
+        <lastmod>2018-06-06</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>/feed.xml</loc>
         <lastmod>2018-06-06</lastmod>
         <changefreq>daily</changefreq>
