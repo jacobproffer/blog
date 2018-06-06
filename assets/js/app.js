@@ -22,3 +22,7 @@ mainHeader.headroom({
     mainHeader.removeClass('pinned');
   }
 });
+
+// Circle Type
+
+new CircleType(document.getElementById('curve')).radius(400);

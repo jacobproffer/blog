@@ -1,18 +1,13 @@
 ---
 layout: default
 ---
-    <section class="blog spacing">
-      <div class="container">
-        <div class="header">
-        {% if page.url == "/" %}
-          <h1>Jacob Proffer</h1>
-          <h4>Front End Developer at Elegant Seagulls</h4>
-        {% else %}
-          <h1>{{ page.title }}</h1>
-          <h4>{{ page.date | date: '%B %d, %Y' }}</h4>
-        {% endif %}
-        </div>
+    <header class="header header-home">
+      <div class="container-mid">
+        <h1>Jacob Proffer</h1>
+        <h4 id="curve">Travels Blogs From Far Places</h4>
       </div>
+    </header>
+    <section class="blog spacing">
       {% if page.path contains '_posts' %}
       <div class="container-small">
         <div class="content">
