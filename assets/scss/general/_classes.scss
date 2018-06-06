@@ -129,6 +129,11 @@
   @include size(auto);
   border: 10px solid $yellow;
   @include screen-below(768px) {
+    @include absolute(5px, 5px, 5px, 5px);
     border: 5px solid $yellow;
   }
+}
+
+.post-date {
+  color: $yellow;
 }
