@@ -109,12 +109,12 @@
 }
 
 .next {
-  text-align: right;
   float: right;
 }
 
 .pagination-item {
   @include size(50%, auto);
+  text-align: center;
   padding: 90px 0;
   font-weight: 900;
 }
@@ -125,7 +125,7 @@
 
 .button {
   @include transition(all 300ms ease-in-out);
-  @include screen-above(760px) {
+  @include screen-above(768px) {
     padding: 25px 35px;
   }
   padding: 20px;
