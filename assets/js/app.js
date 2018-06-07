@@ -23,21 +23,3 @@ mainHeader.headroom({
     mainHeader.removeClass("pinned");
   }
 });
-
-// Circle Type
-
-new CircleType(document.getElementById("curve")).radius(400);
-
-// Header
-
-$(window).scroll(function() {
-  var scroll = $(window).scrollTop();
-  if (scroll < 1000) {
-    scroll = $(window).scrollTop();
-  } else {
-    scroll = 1000;
-  }
-  background.css({
-    transform: "scale(" + (100 + scroll / 5) / 100 + ")"
-  });
-});
