@@ -89,24 +89,34 @@
   }
 }
 
-.page-navigation {
-  @include clearfix;
-}
-
-.prev {
-  float: left;
-}
-
-.next {
-  float: right;
-}
-
 .yellow {
   color: $yellow;
 }
 
 .red {
   color: $red;
+}
+
+.pagination {
+  @include size(100%, auto);
+  @include clearfix;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.prev {
+  float: left;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.next {
+  text-align: right;
+  float: right;
+}
+
+.pagination-item {
+  @include size(50%, auto);
+  padding: 90px 0;
+  font-weight: 900;
 }
 
 .back {
