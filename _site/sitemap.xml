@@ -54,6 +54,13 @@
 
     
     <url>
+        <loc>/travel/iceland-01.html</loc>
+        <lastmod>2018-06-07</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>/travel/iceland-00.html</loc>
         <lastmod>2018-06-07</lastmod>
         <changefreq>daily</changefreq>
