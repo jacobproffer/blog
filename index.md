@@ -1,5 +1,5 @@
 ---
-title: Front-End Developer
+title: Home
 layout: home
 order: 1
 ---
