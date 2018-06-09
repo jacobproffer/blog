@@ -4,8 +4,8 @@
           {% assign current = page.url | downcase | split: '/' %}
           <a class="back {% if page.url == '/' %}current{% endif %}" href="{{ "/" | absolute_url }}">Home</a>
           <ul class="main-nav">
-            <li><a href="/about" {% if current[1] == 'about.html' %}class='current'{% elsif page.url == '/' %}class='nav-item-home'{% endif %}>About</a></li>
-            <li><a href="/contact" {% if current[1] == 'contact.html' %}class='current'{% elsif page.url == '/' %}class='nav-item-home'{% endif %}>Contact</a></li>
+            <li><a href="/about" {% if current[1] == 'about' %}class='current'{% elsif page.url == '/' %}class='nav-item-home'{% endif %}>About</a></li>
+            <li><a href="/contact" {% if current[1] == 'contact' %}class='current'{% elsif page.url == '/' %}class='nav-item-home'{% endif %}>Contact</a></li>
           </ul>
         </div>
       </nav>
