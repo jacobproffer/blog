@@ -54,13 +54,6 @@
 
     
     <url>
-        <loc>/travel/iceland-blog-01/</loc>
-        <lastmod>2018-06-08</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-    </url>
-    
-    <url>
         <loc>/travel/iceland-blog-00/</loc>
         <lastmod>2018-06-08</lastmod>
         <changefreq>daily</changefreq>
