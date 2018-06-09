@@ -49,3 +49,5 @@ It was a stark contrast in traffic once we reached Reykjavik. There was a rush o
 ![Road near Þorlákshöfn]({{ "dist/img/road.jpg" | absolute_url }})
 
 ---
+
+Part of me wanted to shower and then sleep. I'd been up for over 24 hours. But it was still early afternoon in Iceland, so I didn't want to waste the day. I also didn't want to truly mess up my sleep schedule so quickly.
