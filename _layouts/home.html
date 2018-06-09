@@ -6,6 +6,7 @@ layout: default
         {% for post in site.posts %}
         {% if post.featured %}
         <h1><a href="{{ post.url }}">{{ post.title}}</a></h1>
+        <h4 class="red">{{ post.date | date: "%b %-d, %Y" }}</h4>
         <h5>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</h5>
         <a href="{{ post.url }}" class="button button-black">Read More</a>
         {% endif %}
