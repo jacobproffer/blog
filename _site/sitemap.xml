@@ -4,49 +4,49 @@
     
     <url>
         <loc>/404/</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/about/</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/blog/</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/contact/</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/feed.xml</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/sitemap.xml</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
@@ -54,71 +54,78 @@
 
     
     <url>
+        <loc>/travel/iceland-blog-01/</loc>
+        <lastmod>2018-06-10</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
         <loc>/travel/iceland-blog-00/</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/travel/japan-blog-08/</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/travel/japan-blog-07/</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/travel/japan-blog-06/</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/travel/japan-blog-05/</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/travel/japan-blog-04/</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/travel/japan-blog-03/</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/travel/japan-blog-02/</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/travel/japan-blog-01/</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     
     <url>
         <loc>/travel/japan-blog-00/</loc>
-        <lastmod>2018-06-08</lastmod>
+        <lastmod>2018-06-10</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
