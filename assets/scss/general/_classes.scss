@@ -64,14 +64,15 @@
 
 .project-content {
   @include size(100%, auto);
-  @include transition(opacity 300ms ease-in-out);
 
-  &:hover {
-    opacity: 0.5;
+  h2 {
+    @include transition(color 300ms ease-in-out);
   }
 
-  &.project-active {
-    opacity: 0.5;
+  &:hover {
+    h2 {
+      color: $red;
+    }
   }
 }
 
