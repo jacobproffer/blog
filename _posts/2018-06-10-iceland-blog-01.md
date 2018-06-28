@@ -5,7 +5,6 @@ layout: blog
 description: First day in Iceland.
 image: dist/img/iceland_blog_01_social.jpg
 categories: travel
-featured: true
 ---
 
 The Boeing 757 touched down in Iceland around six thirty in the morning on Tuesday, May 15th. Off the plane, I was corralled towards the main terminal with the rest of the passengers. But unlike in Tokyo, Japan, I didn't have to immediately go through customs. I was able to link-up with Myles, my travel partner for the trip, near a small cafe in the airport. We attempted to get some coffee but all of the stores past security required an outgoing boarding pass.
