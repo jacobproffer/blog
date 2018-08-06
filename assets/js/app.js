@@ -1,10 +1,6 @@
-// Variables
-var mainHeader = $(".main-header");
-var headerHeight = mainHeader.outerHeight();
-var background = $(".main-header-background");
-
-// Headroom.js settings and functions
-mainHeader.headroom({
+var mainHeader = document.querySelector(".main-header");
+var headerHeight = mainHeader.offsetHeight;
+var headroom = new Headroom(mainHeader, {
   offset: 0,
   tolerance: 0,
   classes: {
@@ -15,11 +11,12 @@ mainHeader.headroom({
     notTop: "scrolled"
   },
   onUnpin: function() {
-    if (mainHeader.hasClass("open")) {
-      mainHeader.removeClass("unpinned");
+    if( mainHeader.classList.contains("open") ) {
+      mainHeader.classList.remove("unpinned");
     }
   },
   onTop: function() {
-    mainHeader.removeClass("pinned");
+    mainHeader.classList.remove("pinned");
   }
 });
+headroom.init();
