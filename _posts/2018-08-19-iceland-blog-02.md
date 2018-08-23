@@ -14,12 +14,23 @@ As planned, we left the hotel by eight. Our first stop for the day was Seljaland
 
 Near the middle of the lot is an automated payment booth for parking. There didn't seem to be any apparent enforcement for paying. But Myles made a payment and received a paper ticket. From there, we went on foot towards the base of the waterfall. Once close, the mist along with the rain coated my belongings, along with my camera bag. So it was a mad dash to get underneath the waterfall. The entire time I felt I was on the verge of slipping on a rock.
 
-Myles and I spent about a half hour at Seljalandsfoss before we moved onto the next location. Hot chocolate and coffee was considered but I didn't want to spend króna until lunch time. Though it was tempting, as the wind and rain chilled me to the bone. The mistake I made was to not wear my Under Armour thermals. We got back into the car to warm up and drove along Route 1 towards Skógafoss, another waterfall. The drive was only twenty-six minutes to the east.
+Myles and I spent about a half hour at Seljalandsfoss before we moved onto the next location. Hot chocolate and coffee was considered but I didn't want to spend króna until lunch time. Though I was tempted, as the wind and rain chilled me to the bone. The mistake I made was to not wear my Under Armour thermals. We got back into the car to warm up and drove along Route 1 towards Skógafoss, another waterfall. The drive was only twenty-six minutes to the east.
 
 ---
 
 ![Near Seljalandsfoss]({{ "dist/img/near_seljalandsfoss.jpg" | absolute_url }})
 ![Seljalandsfoss]({{ "dist/img/seljalandsfoss.jpg" | absolute_url }})
+
+---
+
+Skógafoss had more foot traffic. There were large tour buses and a vast number of rental cars. Most people gathered at the base of the waterfall. Myles and I took the steps to the top of the waterfall first, which is to the right of the parking lot. In total, we climbed over five hundred steps to reach the overlook platform above. Once at the top, we had a grand view of the waterfall and the dozens, if not hundreds, of seagulls that nested on nearby ridges.
+
+Though cluttered with people, the base of Skógafoss is still an impressive sight.
+
+---
+
+![Skógafoss]({{ "dist/img/skogafoss_1.jpg" | absolute_url }})
+![Steps to the top of Skógafoss]({{ "dist/img/skogafoss_2.jpg" | absolute_url }})
 
 ---
 
