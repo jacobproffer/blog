@@ -23,9 +23,9 @@ Myles and I spent about a half hour at Seljalandsfoss before we moved onto the n
 
 ---
 
-Skógafoss had more foot traffic. There were large tour buses and a vast number of rental cars. Most people gathered at the base of the waterfall. Myles and I took the steps to the top of the waterfall first, which is to the right of the parking lot. In total, we climbed over five hundred steps to reach the overlook platform above. Once at the top, we had a grand view of the waterfall and the dozens, if not hundreds, of seagulls that nested on nearby ridges.
+Skógafoss had more foot traffic. There were large tour buses and a vast number of rental cars. Most people gathered at the base of the waterfall. Myles and I took the steps to the top of Skógafoss first, which is to the right of the parking lot. In total, we climbed over five hundred steps to reach the overlook platform above. Once at the top, we had a grand view of the waterfall and the dozens, if not hundreds, of seagulls that nested on nearby ridges.
 
-Though cluttered with people, the base of Skógafoss is still an impressive sight.
+With an almost two hundred foot drop from the top, the base of Skógafoss is an impressive sight as well. From a short distance, the spray coated Myles and I's clothes and gear. We took in the sight, snapped a few photographs and walked back to the vehicle. It was early still but we decided to see if any food was available in the nearby village of Skógar. Luckily, a restaurant called Fossbúð was open. Myles and I both had burgers with complimentary water.
 
 ---
 
@@ -34,8 +34,15 @@ Though cluttered with people, the base of Skógafoss is still an impressive sigh
 
 ---
 
-<!--- Skógafoss -->
-<!--- Lunch at Fossbud restaurant -->
+The Sólheimasandur plane crash was next on the list. Similar to the drive from Seljalandsfoss to Skógafoss, the drive to the destination took Myles and I twenty minutes further along Route 1 to the east.
+
+---
+
+![Sólheimasandur plane crash]({{ "dist/img/plane_wreck_1.jpg" | absolute_url }})
+![Sólheimasandur plane crash]({{ "dist/img/plane_wreck_2.jpg" | absolute_url }})
+
+---
+
 <!--- Solheimafjara (Plane crash) -->
 <!--- Dyrhólaey (Peninsula/Lighthouse) -->
 <!--- Cave -->
