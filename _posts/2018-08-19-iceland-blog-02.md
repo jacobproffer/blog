@@ -18,7 +18,6 @@ Myles and I spent about a half hour at Seljalandsfoss before we moved onto the n
 
 ---
 
-![Near Seljalandsfoss]({{ "dist/img/near_seljalandsfoss.jpg" | absolute_url }})
 ![Seljalandsfoss]({{ "dist/img/seljalandsfoss.jpg" | absolute_url }})
 
 ---
@@ -34,16 +33,17 @@ With an almost two hundred foot drop from the top, the base of Skógafoss is an 
 
 ---
 
-The Sólheimasandur plane crash was next on the list. Similar to the drive from Seljalandsfoss to Skógafoss, the drive to the destination took Myles and I twenty minutes further along Route 1 to the east.
+The Sólheimasandur plane wreck was next on the list. Similar to the drive from Seljalandsfoss to Skógafoss, Sólheimasandur took Myles and I twenty minutes further along Route 1 to the east. From the parking lot, the beach is visible in the far distance. But it is deceiving, as it took Myles and I roughly fifty minutes on foot to reach the wreck sight. As the landscape is barren, the crosswinds mixed with light rain made the walk seem endless. The plane was a welcome sight.
+
+Myles and I both raced down to the plane, as at that point and time, we were the only two people in the area. In the distance, we could see a group of people headed towards the crash. We hurried to take pictures and explore the plane inside and out. The hull of the plane was battered from the years of abuse from the environment, mixed with graffiti. There wasn't much to look at inside. All of the seats and parts appeared to be gutted many years ago.
 
 ---
 
 ![Sólheimasandur plane crash]({{ "dist/img/plane_wreck_1.jpg" | absolute_url }})
-![Sólheimasandur plane crash]({{ "dist/img/plane_wreck_2.jpg" | absolute_url }})
+![Path to Sólheimasandur plane crash]({{ "dist/img/plane_wreck_2.jpg" | absolute_url }})
 
 ---
 
-<!--- Solheimafjara (Plane crash) -->
 <!--- Dyrhólaey (Peninsula/Lighthouse) -->
 <!--- Cave -->
 <!--- Go to Reynisfjara (Black beach) -->
