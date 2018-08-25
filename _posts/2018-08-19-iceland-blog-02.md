@@ -35,7 +35,7 @@ With an almost two hundred foot drop from the top, the base of Skógafoss is an 
 
 The Sólheimasandur plane wreck was next on the list. Similar to the drive from Seljalandsfoss to Skógafoss, Sólheimasandur took Myles and I twenty minutes further along Route 1 to the east. From the parking lot, the beach is visible in the far distance. But it is deceiving, as it took Myles and I roughly fifty minutes on foot to reach the wreck sight. As the landscape is barren, the crosswinds mixed with light rain made the walk seem endless. The plane was a welcome sight.
 
-Myles and I both raced down to the plane, as at that point and time, we were the only two people in the area. In the distance, we could see a group of people headed towards the crash. We hurried to take pictures and explore the plane inside and out. The hull of the plane was battered from the years of abuse from the environment, mixed with graffiti. There wasn't much to look at inside. All of the seats and parts appeared to be gutted many years ago.
+Myles and I both raced down to the plane, as at that point and time, we were the only two people in the area. In the distance, we could see a group of people headed towards the crash. So we hurried to take pictures and explore the plane inside and out. The hull of the plane was battered from the years of abuse from the environment, mixed with graffiti. There wasn't much to look at inside. All of the seats and parts appeared to be gutted many years ago.
 
 ---
 
@@ -44,7 +44,16 @@ Myles and I both raced down to the plane, as at that point and time, we were the
 
 ---
 
-<!--- Dyrhólaey (Peninsula/Lighthouse) -->
+The walk back was cold and uneventful. Once at the vehicle, Myles and I pushed on towards Dyrhólaey. The peninsula is located nearby, another twenty minutes to the east along Route 1. The first turn off is road 218, which snakes down towards the southern point of Iceland. The path for Dyrhólaey is located towards the end and is unpaved, marked as a 4x4 only path. We drove in the direction of the lighthouse, which is situated on-top of a large cliff.
+
+To get up to the lighthouse, Myles had to slowly drive up the winding path that leads to the parking lot. The path is narrow and difficult to fit two vehicles side by side. Each corner was a slight concern but traffic was light at the time. Once at the top, Myles and I could feel the gale-force winds. I made the mistake of leaving a few pages of the itinerary on the dashboard, which immediately got sucked out when I opened the door and blown around the parking lot.
+
+---
+
+![Dyrhólaey]({{ "dist/img/dyrholaey_2.jpg" | absolute_url }})
+
+---
+
 <!--- Cave -->
 <!--- Go to Reynisfjara (Black beach) -->
 <!--- Dinner at Black Beach restaurant -->
