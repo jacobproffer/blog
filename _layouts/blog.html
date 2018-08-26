@@ -19,10 +19,10 @@ layout: default
         </div>
         <div class="pagination">
           {% if page.previous.url %}
-            <a class="prev pagination-item" href="{{page.previous.url}}">&lt; {{page.previous.title}}</a>
+            <a class="prev pagination-item" href="{{page.previous.url}}">{{page.previous.title}}</a>
           {% endif %}
           {% if page.next.url %}
-            <a class="next pagination-item" href="{{page.next.url}}">{{page.next.title}} &gt;</a>
+            <a class="next pagination-item" href="{{page.next.url}}">{{page.next.title}}</a>
           {% endif %}
         </div>
         {% endif %}

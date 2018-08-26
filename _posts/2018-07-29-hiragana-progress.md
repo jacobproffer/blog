@@ -1,11 +1,10 @@
 ---
-title: "Language Progression"
+title: "Hiragana Progress"
 date: 2018-07-29 14:00:00
 layout: blog
 description: Progress with Hiragana and Russian.
 categories: education
 image: dist/img/hiragana_social.jpg
-featured: true
 ---
 
 Another month has passed, which marks my second month of study with Japanese. Throughout the month of July, I made steady progress with the first Japanese From Zero! book. Currently, I'm on lesson five. The lesson covers a few more Hiragana characters and likes and dislikes. Out of all of the words I currently know, my favorite word is みみ (耳). It means 'ear' and is pronounced, 'mi-mi'. The word reminds me of the Road Runner's, "Beep beep (Meep meep)".
