@@ -28,3 +28,9 @@
     @include update-flex(6);
   }
 }
+
+.col--about-image {
+  @include screen-below(768px) {
+    margin-top: 25px;
+  }
+}
