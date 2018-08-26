@@ -1,0 +1,10 @@
+.about {
+  padding: 60px 0;
+  background-color: #ffb507;
+}
+
+.about__content {
+  @include screen-above(768px) {
+    padding-right: 50px;
+  }
+}

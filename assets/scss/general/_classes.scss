@@ -1,89 +1,8 @@
-.header {
-  @include background-cover;
-  @include screen-above(768px) {
-    padding: 110px 0 75px;
-  }
-  position: relative;
-  text-align: center;
-  padding: 75px 0 38px;
-  overflow: hidden;
-}
-
-.header-home {
-  @include screen-above(768px) {
-    margin-bottom: 60px;
-  }
-  margin-bottom: 5px;
-  text-align: left;
-  background-color: #ffb507;
-
-  h5 {
-    max-width: 560px;
-  }
-}
-
-.content {
-  @include screen-above(768px) {
-    padding-bottom: 75px;
-  }
-  padding-bottom: 25px;
-}
-
 .spacing {
   @include screen-above(768px) {
     padding: 0 0 60px;
   }
   padding: 0 0 40px;
-}
-
-.project-card {
-  @include screen-below(768px) {
-    &:not(:first-of-type) {
-      .project-content {
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-        padding-top: 30px;
-      }
-    }
-  }
-  @include screen-above(768px) {
-    &:nth-of-type(n + 3) {
-      .project-content {
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-        padding-top: 30px;
-      }
-    }
-  }
-  margin-bottom: 20px;
-}
-
-.about {
-  .content {
-    padding-bottom: 0;
-  }
-}
-
-.project-content {
-  @include size(100%, auto);
-
-  h2 {
-    @include transition(color 300ms ease-in-out);
-  }
-
-  &:hover {
-    h2 {
-      color: $red;
-    }
-  }
-}
-
-.project {
-  padding: 10px 0;
-  color: $black;
-  text-align: left;
-
-  h5 {
-    margin-bottom: 0;
-  }
 }
 
 .yellow {
@@ -113,33 +32,4 @@
   @include size(50%, auto);
   text-align: center;
   padding: 90px 20px;
-}
-
-.back {
-  font-weight: 900;
-}
-
-.button {
-  @include transition(all 300ms ease-in-out);
-  @include screen-above(768px) {
-    padding: 25px 35px;
-  }
-  padding: 20px;
-  outline: none;
-  border: 0;
-  border-radius: 0;
-  -webkit-appearance: none;
-  display: inline-block;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.button-black {
-  color: $white;
-  background-color: $black;
-
-  &:hover {
-    color: $black;
-    background-color: $red;
-  }
 }

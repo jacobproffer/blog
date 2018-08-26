@@ -41,26 +41,7 @@ hr {
   padding: 0;
 }
 
-input,
-textarea {
-  display: block;
-  outline: none;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 0;
-  padding: 25px 35px;
-  margin-bottom: 20px;
-  box-shadow: none;
-}
-
 small {
   color: $red;
   font-weight: 400;
-}
-
-input {
-  @include size(100%, auto);
-}
-
-textarea {
-  @include size(100%, 200px);
 }
