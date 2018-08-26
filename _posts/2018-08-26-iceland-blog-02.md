@@ -1,9 +1,9 @@
 ---
 title: "Iceland Blog 02"
-date: 2018-08-18 14:00:00
+date: 2018-08-26 14:00:00
 layout: blog
 description: Second day in Iceland.
-image: dist/img/iceland_blog_01_social.jpg
+image: dist/img/iceland_blog_02_social.jpg
 categories: travel
 featured: true
 ---
@@ -40,21 +40,41 @@ Myles and I both raced down to the plane, as at that point and time, we were the
 ---
 
 ![Sólheimasandur plane crash]({{ "dist/img/plane_wreck_1.jpg" | absolute_url }})
-![Path to Sólheimasandur plane crash]({{ "dist/img/plane_wreck_2.jpg" | absolute_url }})
 
 ---
 
 The walk back was cold and uneventful. Once at the vehicle, Myles and I pushed on towards Dyrhólaey. The peninsula is located nearby, another twenty minutes to the east along Route 1. The first turn off is road 218, which snakes down towards the southern point of Iceland. The path for Dyrhólaey is located towards the end and is unpaved, marked as a 4x4 only path. We drove in the direction of the lighthouse, which is situated on-top of a large cliff.
 
-To get up to the lighthouse, Myles had to slowly drive up the winding path that leads to the parking lot. The path is narrow and difficult to fit two vehicles side by side. Each corner was a slight concern but traffic was light at the time. Once at the top, Myles and I could feel the gale-force winds. I made the mistake of leaving a few pages of the itinerary on the dashboard, which immediately got sucked out when I opened the door and blown around the parking lot.
+To get up to the lighthouse, Myles had to slowly drive up the winding path that leads to the parking lot. The path is narrow and difficult to fit two vehicles side by side. Each corner was a concern but traffic was light. Once at the top, Myles and I could feel the gale-force winds against the vehicle. I made the mistake of leaving a few pages of the itinerary on the dashboard, which immediately got sucked out when I opened the door and blown around the parking lot.
+
+We walked towards the cliff edge near the right side of the lighthouse, which provides a wide view of the ocean and a beach of black sand. The winds were strong and turbulent, which made it difficult to steady my camera. But there was no rain, so the weather was bearable. Myles and I walked in a loop around the lighthouse and then took a questionable dirt path down towards another cliff far to the left of the parking left. The rocks along the path were damp, which made it difficult to move quickly with the wind on our backs.
 
 ---
 
+![Dyrhólaey]({{ "dist/img/dyrholaey_1.jpg" | absolute_url }})
 ![Dyrhólaey]({{ "dist/img/dyrholaey_2.jpg" | absolute_url }})
 
 ---
 
-<!--- Cave -->
-<!--- Go to Reynisfjara (Black beach) -->
-<!--- Dinner at Black Beach restaurant -->
-<!--- Return to hotel -->
+Myles and I returned to the vehicle not long after and made the slow drive down from the cliff. We wanted to move onward to Reynisfjara to see the black beach up close. But along the way, near Dyrhólaey, we spotted a cave. There is a turn off and an apparent parking spot, though no other vehicles or people were around. We got out of the vehicle and trekked up to the mouth of the cave. But there wasn't much to explore from within. As we were about to walk down back to the vehicle, I spotted footprints that snaked around the cave and up a ridgeline to the right.
+
+The worn path was stable and easy to traverse. Though as we got higher, the wind picked up and became a concern. When I crossed the highest ridge, I stuck close to the ground and crawled forward. I felt too exposed and unstable on the rocks. But I made it to a flat surface and had a decent view of the surrounding area. Myles and I took a few photographs and decided it was best to return to the vehicle. It was time to go to our last location for the day.
+
+---
+
+![Myles Kedrowski along a sketchy ridge]({{ "dist/img/ridge.jpg" | absolute_url }})
+
+---
+
+Reynisfjara, as with every other location that day, was twenty minutes further to the east along Route 1. The parking lot for the Black Beach Restaurant and the beach was nearly full. There were tour buses, SUVs and smaller cars. Myles parked us near the entrance and we walked out towards the left side of the beach along a small foot path. Along the way, Myles spotted a few goats high up along a cliff to our left. The highest goat called out to the others as they climbed upward.
+
+Out along the beach, the waves crashed along the shoreline as a light rain fell. The wind wasn't as extreme as it had been at Dyrhólaey, though it was colder this close to the ocean. Myles and I walked along the beach for twenty minutes, from left to right. We were mindful of the tide, as the water began to come more inward with the force of the waves. Once we were cold enough, we decided to call the day and have dinner at the nearby restaurant. I ordered pasta with a large slice of cake. By paying for our food, we were able to use the washroom without additional payment.
+
+---
+
+![Myles Kedrowski at Reynisfjara]({{ "dist/img/reynisfjara_1.jpg" | absolute_url }})
+![Reynisfjara]({{ "dist/img/reynisfjara_2.jpg" | absolute_url }})
+
+---
+
+Myles and I finished dinner and returned to Reykjavik. We arrived back at the hotel around six in the evening. It had been a long day, with lots of walking but we had went to every planned location in the south center of Iceland. Though early, I took a long shower and stretched my legs. The heated towel rack was a real treat. Afterwards, I listed to music and an audio book for about an hour before I fell asleep. In the morning, we'd hit Þingvellir.
