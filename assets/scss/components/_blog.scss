@@ -48,3 +48,24 @@
     margin-bottom: 0;
   }
 }
+
+.blog__pagination {
+  @include size(100%, auto);
+  @include clearfix;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.blog__pagination-item--prev {
+  float: left;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.blog__pagination-item--next {
+  float: right;
+}
+
+.blog__pagination-item {
+  @include size(50%, auto);
+  text-align: center;
+  padding: 90px 20px;
+}
