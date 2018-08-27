@@ -12,24 +12,3 @@
 .red {
   color: $red;
 }
-
-.pagination {
-  @include size(100%, auto);
-  @include clearfix;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.prev {
-  float: left;
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.next {
-  float: right;
-}
-
-.pagination-item {
-  @include size(50%, auto);
-  text-align: center;
-  padding: 90px 20px;
-}
