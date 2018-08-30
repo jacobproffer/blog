@@ -8,6 +8,7 @@ categories: travel
 featured: true
 ---
 
+<!--- Breakfast/leave hotel --->
 <!--- Þingvellir --->
 
 ---
@@ -16,8 +17,16 @@ featured: true
 ![Þingvellir]({{ "dist/img/thingvellir_2.jpg" | absolute_url }})
 
 ---
+
 <!--- Lunch at Lindin --->
 <!--- Geysir --->
+
+---
+
+![Geysir]({{ "dist/img/geysir.jpg" | absolute_url }})
+
+---
+
 <!--- Gullfoss --->
 ---
 
