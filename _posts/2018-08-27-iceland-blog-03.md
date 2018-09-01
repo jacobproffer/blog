@@ -14,9 +14,7 @@ From the start of the day, Myles and I made a mistake. We forgot to get gas for 
 
 Once at Þingvellir, Myles and I paid to park. The fee was cheap, less than one thousand Icelandic Króna. Our first stop in the park was to the Öxarárfoss waterfall. Through signage, we learned that the water flows from the Öxará river and that the waterfall is slightly human-made. The nearby footpath trails through one of the many valleys in Þingvellir. Within well shaded areas, ice and snow were present. Though for the most part, it was all safe to walk on.
 
-Myles and I ventured through Almannagja next. The fault line marks the eastern boundary of the North American plate and is over four miles long. We spent a good deal of time along the trail, which provided a range of overlooks near the welcome center for Þingvellir. Off in the distance, Myles and I could see the rift valley lake of Þingvallavatn. The walk back to the vehicle took a bit of time out of our morning, around forty-five minutes, so we decided to move onto Geysir.
-
-Myles and I stopped for food at Restaurant Lindin in Laugarvatn along the way. Down the road is the Laugarvatn Fontana, one of the thermal spas in Iceland with outdoor mineral pools. The restaurant is located between Þingvellir and Gullfoss, well within the Golden Circle. The staff were extremely friendly, spoke English and offered us seats immediately. For lunch, I ordered a cheeseburger with frites. Myles had the reindeer burger, which is well known in Iceland.
+Myles and I ventured through Almannagja next. The fault line marks the eastern boundary of the North American plate and is over four miles long. With sizable cliffs bordering the left and right sides of the marked foot path, it's the largest and most popular tectonic fissure in the park. Near the welcome center for Þingvellir are a few overlooks. From these wooden platforms, Myles and I could see the rift valley lake of Þingvallavatn to our right. We left Þingvellir around ten in the morning and made the drive back to the outskirts of Reykjavik to get gas. Although necessary, the detour cost us a bit of time, around an hour total.
 
 ---
 
@@ -25,11 +23,13 @@ Myles and I stopped for food at Restaurant Lindin in Laugarvatn along the way. D
 
 ---
 
-<!--- Geysir --->
+On the way to Bláskógabyggð, Myles and I stopped for food at Restaurant Lindin in Laugarvatn. Down the road is the Laugarvatn Fontana, one of the thermal spas in Iceland with outdoor mineral pools. The restaurant is located between Þingvellir and Gullfoss, well within the Golden Circle. The staff were extremely friendly, spoke English and offered us seats immediately. For lunch, I ordered a cheeseburger with frites. Myles had the reindeer burger, which is well known in Iceland.
+
+<!--- Bláskógabyggð --->
 
 ---
 
-![Geysir]({{ "dist/img/geysir.jpg" | absolute_url }})
+![Bláskógabyggð]({{ "dist/img/geysir.jpg" | absolute_url }})
 
 ---
 
@@ -40,6 +40,6 @@ Myles and I stopped for food at Restaurant Lindin in Laugarvatn along the way. D
 ![Gullfoss]({{ "dist/img/gullfoss_2.jpg" | absolute_url }})
 
 ---
-<!--- More hiking at Geysir --->
+<!--- More hiking at Bláskógabyggð --->
 <!--- Kerið --->
 <!--- Pizza at Eld's --->
