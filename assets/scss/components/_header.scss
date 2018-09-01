@@ -76,17 +76,18 @@ a {
 .header {
   @include background-cover;
   @include screen-above(768px) {
-    padding: 110px 0;
+    padding: 110px 0 55px;
   }
   position: relative;
   text-align: center;
-  padding: 75px 0;
+  padding: 75px 0 50px;
   overflow: hidden;
 }
 
 .header--home {
   @include screen-above(768px) {
     margin-bottom: 60px;
+    padding: 110px 0;
   }
   margin-bottom: 5px;
   text-align: left;

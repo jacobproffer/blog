@@ -20,10 +20,11 @@
 
 .cols {
   @include cols;
-}
 
-.cols--header {
-  align-items: center;
+  &--header,
+  &--about {
+    align-items: center;
+  }
 }
 
 .col {
@@ -31,10 +32,10 @@
   @include screen-above(768px) {
     @include update-flex(6);
   }
-}
 
-.col--about-image {
-  @include screen-below(768px) {
-    margin-top: 25px;
+  &--about-image {
+    @include screen-below(768px) {
+      margin-top: 25px;
+    }
   }
 }
