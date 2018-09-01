@@ -4,6 +4,8 @@ date: 2018-08-27 14:00:00
 layout: blog
 description: Third day in Iceland.
 image: dist/img/iceland_blog_02_social.jpg
+thumbnail: dist/img/thingvellir_2.jpg
+thumbnail-caption: Þingvellir
 categories: travel
 featured: true
 ---

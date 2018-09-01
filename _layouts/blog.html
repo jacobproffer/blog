@@ -3,17 +3,17 @@ layout: default
 ---
     <header class="header">
       <div class="container">
-      {% if page.url == "/blog.html" %}
-        <h1>{{ page.title }}</h1>
-      {% else %}
+      {% if page.path contains '_posts' %}
         <h1>{{ page.title }}</h1>
         <h4 class="red">{{ page.date | date: '%B %d, %Y' }}</h4>
+      {% else %}
+        <h1>{{ page.title }}</h1>
       {% endif %}
       </div>
     </header>
-    <section class="blog {% if page.url == '/blog.html' %}spacing{% endif %}">
+    <section class="blog {% if page.url == '/blog' %}spacing{% endif %}">
+      {% if page.path contains '_posts' %}
       <div class="container container-small">
-        {% if page.path contains '_posts' %}
         <div class="blog__content">
           {{ content }}
         </div>
@@ -25,9 +25,8 @@ layout: default
             <a class="blog__pagination-item blog__pagination-item--next" href="{{page.next.url}}">{{page.next.title}}</a>
           {% endif %}
         </div>
-        {% endif %}
       </div>
-      {% if page.url == "/blog.html" %}
+      {% else %}
       <div class="container container-mid">
         <div class="cols">
         {% for post in site.posts %}

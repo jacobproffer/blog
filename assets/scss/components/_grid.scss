@@ -7,7 +7,7 @@
 }
 
 .container-mid {
-  max-width: 1200px;
+  max-width: 1240px;
 }
 
 .container-small {
@@ -20,6 +20,10 @@
 
 .cols {
   @include cols;
+}
+
+.cols--header {
+  align-items: center;
 }
 
 .col {
