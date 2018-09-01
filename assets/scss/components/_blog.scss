@@ -21,6 +21,14 @@
         padding-top: 30px;
       }
     }
+
+    &:nth-of-type(odd) {
+      padding-right: 1.5rem;
+    }
+
+    &:nth-of-type(even) {
+      padding-left: 1.5rem;
+    }
   }
   margin-bottom: 20px;
 }
@@ -52,20 +60,23 @@
 .blog__pagination {
   @include size(100%, auto);
   @include clearfix;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.blog__pagination-item--prev {
-  float: left;
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.blog__pagination-item--next {
-  float: right;
+  background-color: $yellow;
 }
 
 .blog__pagination-item {
   @include size(50%, auto);
+  @include screen-above(768px) {
+    padding: 90px 20px;
+  }
+  padding: 45px 10px;
   text-align: center;
-  padding: 90px 20px;
+
+  &--prev {
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  &--next {
+    float: right;
+  }
 }
