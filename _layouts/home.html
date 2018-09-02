@@ -36,7 +36,7 @@ layout: default
         {% for post in site.posts %}
         {% if post.featured %}
         {% else if %}
-          <a class="col blog__card" href="{{ post.url }}">
+          <a class="col col--blog__card blog__card" href="{{ post.url }}">
             <div class="blog__card-content {% if post.url == page.url %}blog_card-content--active{% endif %}">
               <div class="blog__card-info">
                 <h2>{{ post.title}}</h2>
@@ -53,13 +53,13 @@ layout: default
     <section class="about">
       <div class="container container-mid">
         <div class="cols cols--about">
-          <div class="col">
+          <div class="col col--about">
             <div class="about__content">
               <p>I'm Jacob. I'm a Front-End Developer at <a href="https://www.elegantseagulls.com/" target="_blank">Elegant Seagulls</a> in Marquette, Michigan. With a keen eye for detail and a passion for quality assurance, I deliver products that adapt to all modern screen sizes and browsers. You can view some of my current and past open source projects on <a class="link-hover" href="https://github.com/jacobproffer" target="_blank">GitHub</a>.
               <p>In my free time, when I can, I travel. Within the past year, I've been to Tokyo, Japan and Iceland. With plans to one day return to Japan, I'm currently studying two components of Japanese, Hiragana and Kanji. Soon enough, I'll get around to the third component, Katakana. I also am learning Russian when I have the time. This fall, I hope to travel to South Korea to further explore Asian culture.</p>
             </div>
           </div>
-          <div class="col col--about-image">
+          <div class="col col--about col--about-image">
             <img src="{{ "/dist/img/jacob.jpg" | absolute_url }}" alt="Jacob Proffer">
           </div>
         </div>

@@ -29,13 +29,22 @@
 
 .col {
   @include make-flex(12);
-  @include screen-above(768px) {
-    @include update-flex(6);
+
+  &--blog__card {
+    @include screen-above(768px) {
+      @include update-flex(6);
+    }
   }
 
   &--about-image {
-    @include screen-below(768px) {
-      margin-top: 25px;
+    @include screen-below(1024px) {
+      display: none;
+    }
+  }
+
+  &--about {
+    @include screen-above(1024px) {
+      @include update-flex(6);
     }
   }
 }
