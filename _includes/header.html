@@ -1,6 +1,6 @@
     <header class="main-header" role="banner">
       <nav role="navigation">
-        <div class="container container-mid">
+        <div class="container container--wide">
           {% assign current = page.url | downcase | split: '/' %}
           <a class="back {% if page.url == '/' %}current{% endif %}" href="{{ "/" | absolute_url }}">Home</a>
           <ul class="main-header__nav">

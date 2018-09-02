@@ -13,13 +13,13 @@ layout: default
     </header>
     <section class="blog {% if page.url == '/blog' %}spacing{% endif %}">
       {% if page.path contains '_posts' %}
-      <div class="container container-small">
+      <div class="container container--small">
         <div class="blog__content">
           {{ content }}
         </div>
       </div>
       <div class="blog__pagination">
-        <div class="container container-small">
+        <div class="container container--small">
           {% if page.previous.url %}
             <a class="blog__pagination-item blog__pagination-item--prev" href="{{page.previous.url}}">Prev Post</a>
           {% endif %}
@@ -29,7 +29,7 @@ layout: default
         </div>
       </div>
       {% else %}
-      <div class="container container-mid">
+      <div class="container container--mid">
         <div class="cols">
         {% for post in site.posts %}
           <a class="col blog__card" href="{{ post.url }}">

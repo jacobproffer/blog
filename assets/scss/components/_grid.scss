@@ -4,18 +4,22 @@
   width: 95%;
   margin: 0 auto;
   padding: 0 2.5%;
-}
 
-.container-mid {
-  max-width: 1240px;
-}
-
-.container-small {
-  @include screen-above(1024px) {
-    @include size(100%, auto);
-    padding: 0;
+  &--small {
+    @include screen-above(1024px) {
+      @include size(100%, auto);
+      padding: 0;
+    }
+    max-width: 670px;
   }
-  max-width: 670px;
+
+  &--mid {
+    max-width: 1024px;
+  }
+
+  &--wide {
+    max-width: 1240px;
+  }
 }
 
 .cols {
