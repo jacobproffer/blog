@@ -1,10 +1,10 @@
     <header class="main-header" role="banner">
       <nav role="navigation">
-        <div class="container container-mid">
+        <div class="container container--wide">
           {% assign current = page.url | downcase | split: '/' %}
           <a class="back {% if page.url == '/' %}current{% endif %}" href="{{ "/" | absolute_url }}">Home</a>
-          <ul class="main-nav">
-            <li><a href="/contact" {% if current[1] == 'contact' %}class='current'{% elsif page.url == '/' %}class='nav-item-home'{% endif %}>Contact</a></li>
+          <ul class="main-header__nav">
+            <li class="main-header__nav-item"><a href="/contact" {% if current[1] == 'contact' %}class='current'{% elsif page.url == '/' %}class='main-header__nav-item-link'{% endif %}>Contact</a></li>
           </ul>
         </div>
       </nav>

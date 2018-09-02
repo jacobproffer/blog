@@ -1,34 +1,35 @@
 ---
 layout: default
 ---
-    <header class="header">
+    <section class="header">
       <div class="container">
-      {% if page.url == "/blog.html" %}
-        <h1>{{ page.title }}</h1>
-      {% else %}
+      {% if page.path contains '_posts' %}
         <h1>{{ page.title }}</h1>
         <h4 class="red">{{ page.date | date: '%B %d, %Y' }}</h4>
+      {% else %}
+        <h1>{{ page.title }}</h1>
       {% endif %}
       </div>
-    </header>
-    <section class="blog {% if page.url == '/blog.html' %}spacing{% endif %}">
-      <div class="container container-small">
-        {% if page.path contains '_posts' %}
+    </section>
+    <section class="blog {% if page.url == '/blog' %}spacing{% endif %}">
+      {% if page.path contains '_posts' %}
+      <div class="container container--small">
         <div class="blog__content">
           {{ content }}
         </div>
-        <div class="blog__pagination">
+      </div>
+      <div class="blog__pagination">
+        <div class="container container--small">
           {% if page.previous.url %}
-            <a class="blog__pagination-item blog__pagination-item--prev" href="{{page.previous.url}}">{{page.previous.title}}</a>
+            <a class="blog__pagination-item blog__pagination-item--prev" href="{{page.previous.url}}">Prev Post</a>
           {% endif %}
           {% if page.next.url %}
-            <a class="blog__pagination-item blog__pagination-item--next" href="{{page.next.url}}">{{page.next.title}}</a>
+            <a class="blog__pagination-item blog__pagination-item--next" href="{{page.next.url}}">Next Post</a>
           {% endif %}
         </div>
-        {% endif %}
       </div>
-      {% if page.url == "/blog.html" %}
-      <div class="container container-mid">
+      {% else %}
+      <div class="container container--mid">
         <div class="cols">
         {% for post in site.posts %}
           <a class="col blog__card" href="{{ post.url }}">

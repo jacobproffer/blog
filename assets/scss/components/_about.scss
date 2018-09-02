@@ -1,6 +1,9 @@
 .about {
-  padding: 60px 0;
-  background-color: #ffb507;
+  @include screen-above(1024px) {
+    padding: 110px 0;
+  }
+  padding: 43px 0 23px;
+  background-color: $yellow;
 }
 
 .about__content {

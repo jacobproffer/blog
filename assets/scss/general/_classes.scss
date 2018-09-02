@@ -1,8 +1,8 @@
 .spacing {
-  @include screen-above(768px) {
-    padding: 0 0 60px;
+  @include screen-above(1024px) {
+    padding: 0 0 74px;
   }
-  padding: 0 0 40px;
+  padding: 0 0 14px;
 }
 
 .yellow {
