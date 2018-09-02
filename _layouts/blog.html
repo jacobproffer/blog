@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-    <header class="header">
+    <section class="header">
       <div class="container">
       {% if page.path contains '_posts' %}
         <h1>{{ page.title }}</h1>
@@ -10,7 +10,7 @@ layout: default
         <h1>{{ page.title }}</h1>
       {% endif %}
       </div>
-    </header>
+    </section>
     <section class="blog {% if page.url == '/blog' %}spacing{% endif %}">
       {% if page.path contains '_posts' %}
       <div class="container container--small">
