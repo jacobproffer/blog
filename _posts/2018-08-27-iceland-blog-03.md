@@ -51,7 +51,10 @@ Unlike waterfalls such as Seljalandsfoss, there's an overlook for Gullfoss. The 
 
 ---
 
-Initially, Myles and I were set on driving from Gullfoss to the volcanic crater called Kerið. But along the drive back through Bláskógabyggð, we spotted a trail up in the hills above the Geysir and Strokkur area.
+Initially, Myles and I were set on driving to a volcanic crater called Kerið. But along the drive back through Bláskógabyggð, we spotted a trail up in the hills above the Geysir and Strokkur area. The foot path is accessible down the road from the lot we had parked in earlier. The highest point above offers a panoramic view, which is unobstructed for many miles to the north and north east. We only encountered two other people up top, which made the ascent and descent quick and personal.
 
-<!--- Kerið --->
-<!--- Pizza at Eld's --->
+The drive from Bláskógabyggð to Kerið took around a half hour. The weather worsened on our arrival, with light rain and high wind. Parking was free but entry to the crater cost four hundred Icelandic Króna. Myles and I paid and made the walk down the wooden steps towards the bottom of the crater, which is nearly two hundred feet deep. At almost nine hundred feet across, the crater has it's own shallow lake. We walked around the bottom for a short time and returned to the vehicle. The rain and wind made it hard to enjoy the experience.
+
+But with Kerið crossed off the list, the itinerary was complete for the day. Myles and I started to make the drive back to Reykjavik. Though we didn't make it far along Route 1. A cop car was parked horizontally across the road not too far from the turn off from Road 35. For reasons unknown, the road was closed and we were pointed down a long gravel path. The detour made the drive back to Reykjavik a lot longer than the calculated fifty minutes from Kerið.
+
+Once back at the hotel, Myles and I decided to have dinner at Eldsmiðjan, a stone oven pizzeria attached to the hotel. I ordered a small pepperoni pizza with pineapples on top and Myles ordered a similar mixed blend pizza. I also ordered a fountain drink, with the idea that I'd just use the cup for water. But the fountain machine did not serve water, which caused to end my long streak of no soda. Fanta, which is wildly popular in Iceland, tasted very good and sweet.
