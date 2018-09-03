@@ -1,9 +1,9 @@
 ---
 title: "Iceland Blog 03"
-date: 2018-08-27 14:00:00
+date: 2018-09-03 14:00:00
 layout: blog
 description: Third day in Iceland.
-image: dist/img/iceland_blog_02_social.jpg
+image: dist/img/iceland_blog_03_social.jpg
 thumbnail: dist/img/thingvellir_2.jpg
 thumbnail-caption: Þingvellir
 thumbnail-coordinates: 64.2558&deg; N, 21.1299&deg; W
@@ -57,4 +57,4 @@ The drive from Bláskógabyggð to Kerið took around a half hour. The weather w
 
 But with Kerið crossed off the list, the itinerary was complete for the day. Myles and I started to make the drive back to Reykjavik. Though we didn't make it far along Route 1. A cop car was parked horizontally across the road not too far from the turn off from Road 35. For reasons unknown, the road was closed and we were pointed down a long gravel path. The detour made the drive back to Reykjavik a lot longer than the calculated fifty minutes from Kerið.
 
-Once back at the hotel, Myles and I decided to have dinner at Eldsmiðjan, a stone oven pizzeria attached to the hotel. I ordered a small pepperoni pizza with pineapples on top and Myles ordered a similar mixed blend pizza. I also ordered a fountain drink, with the idea that I'd just use the cup for water. But the fountain machine did not serve water, which caused to end my long streak of no soda. Fanta, which is wildly popular in Iceland, tasted very good and sweet.
+Once back at the hotel, Myles and I decided to have dinner at Eldsmiðjan, a stone oven pizzeria attached to the hotel. I ordered a small pepperoni pizza with pineapples on top and Myles ordered a similar mixed blend pizza. I also ordered a fountain drink, with the idea that I'd just use the cup for water. But the fountain machine did not serve water, which caused to end my long streak of no soda. Fanta, which is wildly popular in Iceland, tasted tangy and sweet.
