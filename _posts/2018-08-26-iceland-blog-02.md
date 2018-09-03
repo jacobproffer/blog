@@ -8,7 +8,6 @@ thumbnail: dist/img/plane_wreck_1.jpg
 thumbnail-caption: Sólheimasandur plane wreck
 thumbnail-coordinates: 63.459523&deg; N, -19.364618&deg; W
 categories: travel
-featured: true
 ---
 
 Wednesday was the most well-thought out and detailed day of the trip. It started with breakfast at the hotel at around seven thirty, with the goal to leave the hotel by eight. For the half-hour breakfast, I enjoyed three waffles, sausages and baked beans. The coffee was great with no sugar and the orange juice just sweet enough. There also was a wide range of pastry offered, including croissants. But I refrained from overeating, as Myles and I had a lot of ground to cover that day.
