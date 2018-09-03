@@ -38,13 +38,20 @@ Strokkur erupts every eight minutes, an impressive sight. The spout can shoot up
 
 ---
 
-<!--- Gullfoss --->
+After Myles and I did a loop around the park, we moved onto Gullfoss. The waterfall is an eighteen minute drive from Bláskógabyggð via Road 35. Similar to Bláskógabyggð, there were a range of tour buses and other vehicles in the parking lot. We saw a few unique vehicles, such as a smaller tour bus with monster truck tires. These were the type of vehicles that could pass through F-roads, roads that required a 4x4 vehicle, with no issue.
+
+Parking was free but the washrooms were not. The entry fee for the washroom was two hundred Icelandic Króna per person. There were card machines between the metal barrier gates, similar to a subway system. My guess is that the generated revenue from the bathrooms goes towards maintaining the area, as it's completely free to view the waterfall. Near the washrooms is a metal staircase that leads down towards the dirt path that trails out to Gullfoss.
+
+Unlike waterfalls such as Seljalandsfoss, there's an overlook for Gullfoss. The overlook provides an impressive view of the waterfall. At a height of over one hundred feet, Gullfoss has two drops with the longest being sixty eight feet. Although not visible from above, the water falls into a deep crevice below. From a distance, the mist from the waterfall coated Myles and I from head to toe. We spent ten minutes out at the overlook and then trekked back up to the vehicle.
+
 ---
 
 ![Gullfoss]({{ "dist/img/gullfoss_1.jpg" | absolute_url }})
 ![Gullfoss]({{ "dist/img/gullfoss_2.jpg" | absolute_url }})
 
 ---
-<!--- More hiking at Bláskógabyggð --->
+
+Initially, Myles and I were set on driving from Gullfoss to the volcanic crater called Kerið. But along the drive back through Bláskógabyggð, we spotted a trail up in the hills above the Geysir and Strokkur area.
+
 <!--- Kerið --->
 <!--- Pizza at Eld's --->
