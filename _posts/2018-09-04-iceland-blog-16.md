@@ -1,10 +1,10 @@
 ---
 title: "Iceland Blog 04"
-date: 2018-09-04 14:00:00
+date: 2018-09-16 14:00:00
 layout: blog
 description: Fourth day in Iceland.
 image: dist/img/iceland_blog_03_social.jpg
-thumbnail: dist/img/near_skaftafell.jpg
+thumbnail: dist/img/sjonarsker_2.jpg
 thumbnail-caption: Near Skaftafell
 thumbnail-coordinates: 64.2558&deg; N, 21.1299&deg; W
 categories: travel
@@ -23,6 +23,7 @@ Myles and I took a few photographs and proceed on a trail to higher elevation. W
 
 ![Sjónarsker]({{ "dist/img/sjonarsker_1.jpg" | absolute_url }})
 ![Sjónarsker]({{ "dist/img/sjonarsker_2.jpg" | absolute_url }})
+![Sjónarsker]({{ "dist/img/sjonarsker_3.jpg" | absolute_url }})
 
 ---
 
@@ -30,7 +31,17 @@ After Myles and I descended back to the visitor center, we bought lunch from a f
 
 With lunch completed, Myles and I proceeded out to the Skaftafellsjökull glacier tongue. From the visitor center, the hike took around forty minutes. Oddly, we passed few people along the trail. The area seemed to be less popular, which I still don't understand why. Near the glacier is a massive hill, which overlooks the field, lagoon and surrounding mountains. It truly is a fantastic view. Though it is hard to fathom the true size of the glacier from afar.
 
-<!-- Hike out into nowhere -->
-<!-- Dinner at visitor center -->
-<!-- Vik -->
-<!-- Return to hotel -->
+Without the appropriate gear or experience for glacier walks, Myles and I could only walk up to the edge of the glacier. The left side was the most approachable, which is butted up to a cliff. From up close, I could see that portions of the ice were melting. Large slabs of black mud covered a range of nearby ice caps. Even the ground was muddy, which sucked my boots in with each step. But there wasn't any water runoff that we could see.
+
+We explored the terrain to the east of the glacier for another hour, with an extended walk out towards the base of a nearby mountain. We were completely alone in this area, with no real sense of direction. There weren't any designated paths either, which meant walking on top of boulders and baseball sized rocks. I had boots on but it was truly uncomfortable to walk on after awhile. I half expected to twist an ankle on one of the many rocky hills we climbed.
+
+---
+
+![Skaftafellsjökull]({{ "dist/img/skaftafellsjokull.jpg" | absolute_url }})
+![Glacier Field]({{ "dist/img/iceland_terrain.jpg" | absolute_url }})
+
+---
+
+The hike back was long and tedious. Both Myles and I were worn out by the time we arrived back at the visitor center. My feet were sore and I was hungry. We hit the center's cafeteria for lunch. I had a pizza panini with a slice of chocolate cake. Prices weren't the best but beggars can't be choosers this far out in Iceland. Though I was happy that the weather held out the entire afternoon. There wasn't even a drop of rain and the temperature stayed in the fifties.
+
+Along the drive back to Reykjavik, Myles and I stopped in the village of Vík í Mýrdal for gas. Though it began to rain, we walked along the beach afterwards. Towards the right side of the beach, we spotted hundreds of seagulls up in the cliffs. Most of the birds were nested under overhangs, with cover from the weather. Afterwards, we got back onto the road for the long drive back to the capital. We arrived a little after nine at night with enough time for more pizza at Eldsmiðjan.
