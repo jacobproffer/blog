@@ -121,7 +121,7 @@ a {
 
 .header__item--left {
   @include screen-above(1240px) {
-    @include update-flex(4.5, 10);
+    @include update-flex(4.1, 10);
   }
 }
 
@@ -130,7 +130,12 @@ a {
     display: none;
   }
   @include screen-above(1240px) {
-    @include update-flex(5.5, 10);
+    @include update-flex(5.9, 10);
+  }
+
+  img {
+    display: block;
+    margin: auto 0 auto auto;
   }
 }
 
