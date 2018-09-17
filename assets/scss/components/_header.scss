@@ -132,6 +132,9 @@ a {
   @include screen-above(1240px) {
     @include update-flex(5.9, 10);
   }
+  @include screen-above(1640px) {
+    padding: 0;
+  }
 
   img {
     display: block;
