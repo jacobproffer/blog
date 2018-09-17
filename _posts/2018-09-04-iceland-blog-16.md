@@ -3,10 +3,10 @@ title: "Iceland Blog 04"
 date: 2018-09-16 14:00:00
 layout: blog
 description: Fourth day in Iceland.
-image: dist/img/iceland_blog_03_social.jpg
+image: dist/img/iceland_blog_04_social.jpg
 thumbnail: dist/img/sjonarsker_2.jpg
-thumbnail-caption: Near Skaftafell
-thumbnail-coordinates: 64.2558&deg; N, 21.1299&deg; W
+thumbnail-caption: Skaftafell
+thumbnail-coordinates: 64.13954&deg; N, 16.5864&deg; W
 categories: travel
 featured: true
 ---
