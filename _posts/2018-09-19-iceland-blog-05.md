@@ -11,7 +11,7 @@ categories: travel
 featured: true
 ---
 
-First and foremost, I should mention that I travel light. For the past year of travel, even to Japan, I've packed one pair of pants to cut down on space in my backpack. But Iceland taught me a valuable lesson about how denim does not survive in a wet environment. It started with a hike up to a waterfall called Glymur. Myles and I started the hike at ten in the morning. From the time of our arrival, the rain had been consistent for hours. We decided to go anyway. Within a few minutes, my gloves and jeans were soaked through. Only my jacket was waterproof.
+First and foremost, I should mention that I travel light. For the past year of travel, even to Japan, I've packed one pair of pants to cut down on space in my backpack. But Iceland taught me a valuable lesson about how denim does not survive in a wet environment. It started with a hike up to a waterfall called Glymur. Myles and I started the hike at ten in the morning. From the time of our arrival, the rain had been consistent for hours. Within a few minutes of the hike, my gloves and jeans were soaked through. Only my jacket was waterproof.
 
 To make matters worse, there was a river crossing along the path to the waterfall. The rocks were small and far apart from one side to the other. The smart idea would have been to take my socks and boots off. I tried without doing so, which ended with my boots and socks soaked through and through. Thankfully, there was a cave to take refuge in half way to the waterfall. But although the cave offered protection from the wind and rain, it did nothing to stop the cold.
 
@@ -33,4 +33,6 @@ Even with the temperature in the fifties, there were dozens of people bathing in
 
 ---
 
-By that point, I was fed up with wet pants. I told Myles to drive me straight to Fjallakofinn, which is an outdoor store located in Reykjavik. From their sales rack, I found a pair of Marmot pants for over sixty percent off. Even though the pants still cost a little, the fit was perfect. It felt phenomenal to slip out of my soaked jeans into those new pants. I even asked if it was okay to wear the pants out of the store. The jeans were placed in a plastic bag for the remainder of the trip.
+By that point, I was fed up with wet pants. I told Myles to drive me straight to Fjallakofinn, which is an outdoor store located in Reykjavik. From their sales rack, I found a pair of Marmot pants for over sixty percent off. Even though the pants still cost a little, the fit was perfect. It felt phenomenal to slip out of my soaked jeans into those new pants. I even asked if it was okay to wear the pants out of the store. The jeans went into a laundry bag for the rest of the trip.
+
+We spent the remainder of the evening at Eldsmiðjan for a late dinner. Myles ended up with two pizzas, as the first pie was meant for a man who sat directly behind us. The waiter realized the mistake after Myles had already ate a slice. Myles devoured both pizzas with no complaints. Though I don't believe the man cared for Myles too much. He stayed in the room next to us and had been woken up early in the morning by Myle's alarm clock. Myles was in the shower and forgot to turn it off. But the pizza was delicious. A great way to end another day in Iceland.
