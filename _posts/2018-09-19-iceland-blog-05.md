@@ -4,7 +4,7 @@ date: 2018-09-19 14:00:00
 layout: blog
 description: Fifth day in Iceland.
 image: dist/img/iceland_blog_05_social.jpg
-thumbnail: dist/img/reykjadalur_1.jpg
+thumbnail: dist/img/reykjadalur_2.jpg
 thumbnail-caption: Reykjadalur valley
 thumbnail-coordinates: 64.0327873&deg; N, 21.2180098&deg; W
 categories: travel
