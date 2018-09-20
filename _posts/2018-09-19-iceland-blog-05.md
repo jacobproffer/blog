@@ -1,12 +1,12 @@
 ---
 title: "Iceland Blog 05"
-date: 2018-09-17 14:00:00
+date: 2018-09-19 14:00:00
 layout: blog
 description: Fifth day in Iceland.
-image: dist/img/iceland_blog_04_social.jpg
-thumbnail: dist/img/sjonarsker_2.jpg
-thumbnail-caption: Skaftafell
-thumbnail-coordinates: 64.13954&deg; N, 16.5864&deg; W
+image: dist/img/iceland_blog_05_social.jpg
+thumbnail: dist/img/reykjadalur_1.jpg
+thumbnail-caption: Reykjadalur valley
+thumbnail-coordinates: 64.0327873&deg; N, 21.2180098&deg; W
 categories: travel
 featured: true
 ---
@@ -24,5 +24,13 @@ On the drive to Reykjavik, Myles and I drove through the Hvalfjörður Tunnel. T
 We left the hotel close to six in the evening for Hveragerði. The town is located forty minutes from Reykjavik. In the vicinity of Hveragerði is the Reykjadalur valley. The valley has a range of hot springs and even a heated river. We parked near the Dalakaffi restaurant to hike Reykjadalur. From the restaurant, the hike is over two miles uphill. The trail up to the top is steep and narrow. But the scenery is gorgeous with high banks of grass and rocky cliffs.
 
 Even with the temperature in the fifties, there were dozens of people bathing in the river at the top. As the river is naturally heated, no one seemed to care. We even saw a few people run over to the river naked. Myles and I considered going in but the snow began to fall. Within minutes, the clouds opened up with a heavy rain. We immediately began our descent but were soaked for the second time that day. It was an absolute miserable hike down to the vehicle.
+
+---
+
+![Reykjadalur valley]({{ "dist/img/reykjadalur_1.jpg" | absolute_url }})
+![Reykjadalur valley]({{ "dist/img/reykjadalur_2.jpg" | absolute_url }})
+![Reykjadalur valley]({{ "dist/img/reykjadalur_3.jpg" | absolute_url }})
+
+---
 
 By that point, I was fed up with wet pants. I told Myles to drive me straight to Fjallakofinn, which is an outdoor store located in Reykjavik. From their sales rack, I found a pair of Marmot pants for over sixty percent off. Even though the pants still cost a little, the fit was perfect. It felt phenomenal to slip out of my soaked jeans into those new pants. I even asked if it was okay to wear the pants out of the store. The jeans were placed in a plastic bag for the remainder of the trip.
