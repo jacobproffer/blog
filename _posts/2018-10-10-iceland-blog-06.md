@@ -8,7 +8,6 @@ thumbnail: dist/img/blafjallavegur_3.jpg
 thumbnail-caption: Blafjallavegur
 thumbnail-coordinates: 64.0010927&deg; N, 21.7532809&deg; W
 categories: travel
-featured: true
 ---
 
 Myles and I did not have a lot planned for the final day in Iceland. It was a lazy day. We slept in and had breakfast at the hotel at eight. The only item on our itinerary was to go to the movies in the afternoon. We wanted to watch Deadpool 2, which had just been released. To kill time, we drove out to the south east of Reykjavik. From Route 1, we took a right onto Road 417, which snakes around a beautiful volcanic landscape with mossy hills.
