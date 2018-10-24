@@ -8,7 +8,6 @@ thumbnail: dist/img/myles.jpg
 thumbnail-caption: Myles next to rental vehicle
 thumbnail-coordinates: 63.528968&deg; N, 19.603832&deg; W
 categories: travel
-featured: true
 ---
 
 After a quick breakfast at Reykjavik Lights on Monday morning, Myles and I checked out of the hotel. The drive to the airport, which is in Keflavik, took around forty minutes from the capital. Once at the Keflavik Airport, I refueled the car at a nearby gas station and returned it to the designated parking lot for Europcar. An employee then inspected the vehicle while I signed paperwork. Afterwards, the same man drove Myles and I to the entrance of the airport.
