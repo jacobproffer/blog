@@ -35,7 +35,11 @@
   @include make-flex(12);
 
   &--blog__card {
-    @include screen-above(768px) {
+    @include screen-above(1024px) {
+      @include update-flex(4);
+    }
+
+    @include screen-between(768px, 1024px) {
       @include update-flex(6);
     }
   }

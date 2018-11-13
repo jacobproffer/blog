@@ -2,7 +2,6 @@ h1 {
   @include font-size($h1-font-sizes);
   margin: 0;
   padding-bottom: 0;
-  line-height: 1.5;
 }
 
 h2 {
@@ -34,6 +33,16 @@ p {
 }
 
 h1,
-h2 {
-  text-transform: uppercase;
+h2,
+h3 {
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
 }

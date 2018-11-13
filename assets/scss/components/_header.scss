@@ -86,10 +86,8 @@ a {
 
 .header--home {
   @include screen-above(1024px) {
-    margin-bottom: 110px;
-    padding: 110px 0;
+    padding: 110px 0 74px;
   }
-  margin-bottom: 18px;
   text-align: left;
 
   &:before {
@@ -102,13 +100,13 @@ a {
     @include transition(width 300ms ease-in-out);
     @include size(78%, 100%);
     @include absolute(0, 0, 0, 0);
-    content: '';
     background-color: #ffb507;
+    content: '';
     z-index: -1;
   }
 
-  h5 {
-    max-width: 560px;
+  p {
+    max-width: 443px;
   }
 }
 
@@ -121,7 +119,7 @@ a {
 
 .header__item--left {
   @include screen-above(1240px) {
-    @include update-flex(4, 10);
+    @include update-flex(4.6, 10);
   }
 }
 
@@ -130,7 +128,7 @@ a {
     display: none;
   }
   @include screen-above(1240px) {
-    @include update-flex(6, 10);
+    @include update-flex(5.4, 10);
   }
 
   img {
@@ -142,9 +140,6 @@ a {
 .header__content {
   @include screen-between(1024px, 1240px) {
     padding-right: 40px;
-  }
-  @include screen-above(1240px) {
-    max-width: 443px;
   }
 }
 
