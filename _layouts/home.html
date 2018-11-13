@@ -28,7 +28,7 @@ layout: default
         <span class="red">Read All Stories</span>
         <h2>Travel</h2>
         <div class="cols">
-        {% for post in site.categories.travel limit:4 %}
+        {% for post in site.categories.travel limit:7 %}
         {% if post.featured %}
         {% else if %}
           <a class="col col--blog__card blog__card" href="{{ post.url }}">
@@ -37,7 +37,7 @@ layout: default
                 <img src="{{ post.thumbnail }}" alt="{{ post.thumbnail-caption }}">
                 <small class="red">{{ post.date | date: "%B %-d, %Y" }}</small>
                 <h3>{{ post.title}}</h3>
-                <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 220 }}</p>
+                <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
               </div>
             </div>
           </a>
