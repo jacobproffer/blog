@@ -44,15 +44,25 @@
     }
   }
 
-  &--about-image {
-    @include screen-below(1024px) {
-      display: none;
-    }
-  }
-
-  &--about {
+  &-about {
     @include screen-above(1024px) {
       @include update-flex(6);
+    }
+
+    @include screen-between(768px, 1024px) {
+      &--image {
+        @include update-flex(4, 10);
+      }
+
+      &--content {
+        @include update-flex(6, 10);
+      }
+    }
+
+    &--image {
+      @include screen-below(768px) {
+        margin-bottom: 33px;
+      }
     }
   }
 }

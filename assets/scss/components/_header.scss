@@ -91,14 +91,14 @@ a {
   text-align: left;
 
   &:before {
-    @include screen-below(1024px) {
+    @include screen-below(768px) {
       @include size(100%);
     }
     @include screen-above(1240px) {
       @include size(68%, 100%);
     }
     @include transition(width 300ms ease-in-out);
-    @include size(78%, 100%);
+    @include size(65%, 100%);
     @include absolute(0, 0, 0, 0);
     background-color: #ffb507;
     content: '';
@@ -121,14 +121,23 @@ a {
   @include screen-above(1240px) {
     @include update-flex(4.6, 10);
   }
+
+  @include screen-between(768px, 1024px) {
+    @include update-flex(6, 10);
+  }
 }
 
 .header__item--right {
-  @include screen-below(1024px) {
-    display: none;
-  }
   @include screen-above(1240px) {
     @include update-flex(5.4, 10);
+  }
+
+  @include screen-between(768px, 1024px) {
+    @include update-flex(4, 10);
+  }
+
+  @include screen-below(768px) {
+    display: none;
   }
 
   img {

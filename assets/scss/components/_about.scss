@@ -1,14 +1,42 @@
 .about {
   @include screen-above(1024px) {
-    padding: 110px 0;
+    padding: 104px 0;
   }
-  padding: 43px 0 23px;
-  background-color: $yellow;
+  position: relative;
+  padding: 52px 0 32px;
+
+  &::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 43%;
+    height: 70%;
+    background-color: $yellow;
+    content: '';
+    z-index: -1;
+
+    @include screen-between(768px, 1024px) {
+      width: 35%;
+      height: 50%;
+    }
+
+    @include screen-below(768px) {
+      width: 100%;
+    }
+  }
 }
 
 .about__content {
-  @include screen-above(768px) {
-    padding-right: 50px;
+  @include screen-above(1024px) {
+    padding-left: 51px;
+  }
+
+  @include screen-between(768px, 1024px) {
+    padding-left: 25px;
+  }
+
+  h2 {
+    margin-top: 0;
   }
 
   p {
