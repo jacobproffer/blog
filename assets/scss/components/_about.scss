@@ -40,6 +40,8 @@
   }
 
   p {
+    @include font-size($p-font-sizes);
+    
     &:first-of-type {
       margin-top: 0;
     }
