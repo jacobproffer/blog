@@ -29,11 +29,11 @@
       background-color: $yellow;
       z-index: -1;
 
-      @include screen-between(768px, 1024px) {
+      @include screen-between(640px, 1024px) {
         height: 85%;
       }
 
-      @include screen-below(768px) {
+      @include screen-below(640px) {
         height: 92%;
       }
     }
@@ -52,7 +52,7 @@
 }
 
 .blog__card {
-  @include screen-below(768px) {
+  @include screen-below(640px) {
     &:not(:first-of-type) {
       .blog__card-content {
         border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -60,7 +60,7 @@
       }
     }
   }
-  @include screen-between(768px, 1024px) {
+  @include screen-between(640px, 1024px) {
     &:nth-of-type(n + 3) {
       .blog__card-content {
         border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -113,12 +113,24 @@
 .blog__pagination {
   @include size(100%, auto);
   @include clearfix;
+  position: relative;
   background-color: $yellow;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
 }
 
 .blog__pagination-item {
   @include size(50%, auto);
-  @include screen-above(768px) {
+  @include screen-above(1024px) {
     padding: 90px 20px;
   }
   padding: 45px 10px;
@@ -126,7 +138,6 @@
 
   &--prev {
     float: left;
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   &--next {

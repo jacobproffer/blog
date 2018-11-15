@@ -27,6 +27,13 @@
 
   &--header,
   &--about {
+    @include screen-above(1024px) {
+      align-items: center;
+    }
+  }
+
+  &--footer {
+    justify-content: flex-end;
     align-items: center;
   }
 }
@@ -39,8 +46,22 @@
       @include update-flex(4);
     }
 
-    @include screen-between(768px, 1024px) {
+    @include screen-between(640px, 1024px) {
       @include update-flex(6);
+    }
+  }
+
+  &--footer {
+    @include screen-above(1280px) {
+      @include update-flex(4);
+    }
+
+    @include screen-below(1280px) {
+      @include update-flex(6);
+
+      &:nth-of-type(2) {
+        display: none;
+      }
     }
   }
 
