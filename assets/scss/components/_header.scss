@@ -108,10 +108,6 @@ a {
   p {
     max-width: 443px;
 
-    @include screen-between(1024px, 1280px) {
-      max-width: 475px;
-    }
-
     @include screen-between(768px, 1024px) {
       max-width: 400px;
     }
@@ -130,20 +126,12 @@ a {
   @include screen-above(1240px) {
     @include update-flex(4.6, 10);
   }
-
-  // @include screen-between(768px, 1024px) {
-  //   @include update-flex(6, 10);
-  // }
 }
 
 .header__item--right {
   @include screen-above(1240px) {
     @include update-flex(5.4, 10);
   }
-
-  // @include screen-between(768px, 1024px) {
-  //   @include update-flex(4, 10);
-  // }
 
   @include screen-below(768px) {
     display: none;
