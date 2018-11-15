@@ -123,6 +123,7 @@ a {
   @include screen-between(768px, 1240px) {
     @include update-flex(6);
   }
+  padding: 0 1rem;
 }
 
 .header__item--left {
