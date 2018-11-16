@@ -82,34 +82,38 @@ a {
   text-align: center;
   padding: 75px 0 50px;
   overflow: hidden;
-}
 
-.header--home {
-  @include screen-above(1024px) {
-    padding: 110px 0 74px;
-  }
-  text-align: left;
-
-  &:before {
-    @include screen-below(768px) {
-      @include size(100%);
-    }
-    @include screen-above(1240px) {
-      @include size(68%, 100%);
-    }
-    @include transition(width 300ms ease-in-out);
-    @include size(65%, 100%);
-    @include absolute(0, 0, 0, 0);
-    background-color: #ffb507;
-    content: '';
-    z-index: -1;
+  &--post {
+    padding: 110px 0 0;
   }
 
-  p {
-    max-width: 443px;
+  &--home {
+    @include screen-above(1024px) {
+      padding: 110px 0 74px;
+    }
+    text-align: left;
 
-    @include screen-between(768px, 1024px) {
-      max-width: 400px;
+    &:before {
+      @include screen-below(768px) {
+        @include size(100%);
+      }
+      @include screen-above(1240px) {
+        @include size(68%, 100%);
+      }
+      @include transition(width 300ms ease-in-out);
+      @include size(65%, 100%);
+      @include absolute(0, 0, 0, 0);
+      background-color: #ffb507;
+      content: '';
+      z-index: -1;
+    }
+
+    p {
+      max-width: 443px;
+
+      @include screen-between(768px, 1024px) {
+        max-width: 400px;
+      }
     }
   }
 }

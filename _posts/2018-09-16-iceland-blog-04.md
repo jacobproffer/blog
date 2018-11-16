@@ -1,7 +1,7 @@
 ---
 title: "Iceland Blog 04"
 date: 2018-09-16 14:00:00
-layout: blog
+layout: post
 description: Fourth day in Iceland.
 image: dist/img/iceland_blog_04_social.jpg
 thumbnail: dist/img/sjonarsker_2.jpg

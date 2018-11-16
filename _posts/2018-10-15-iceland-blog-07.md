@@ -1,7 +1,7 @@
 ---
 title: "Iceland Blog 07"
 date: 2018-10-15 14:00:00
-layout: blog
+layout: post
 description: Leaving Iceland.
 image: dist/img/iceland_blog_07_social.jpg
 thumbnail: dist/img/myles.jpg

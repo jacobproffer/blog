@@ -26,7 +26,7 @@ layout: default
     <section class="blog blog--home">
       <div class="container container--wide">
         <span class="red">Read All Stories</span>
-        <h2>Travel</h2>
+        <h2>Recent Posts</h2>
         <div class="cols">
         {% for post in site.categories.travel limit:7 %}
         {% if post.featured %}
@@ -44,7 +44,7 @@ layout: default
         {% endif %}
         {% endfor %}
         </div>
-        <a class="button button-black" href="/blog">View All Entries</a>
+        <a class="button button-black" href="/archive">View All Entries</a>
       </div>
     </section>
     <section class="about">

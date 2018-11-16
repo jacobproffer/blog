@@ -1,10 +1,12 @@
 ---
 title: "Learning Hiragana"
 date: 2018-06-27 14:00:00
-layout: blog
+layout: post
 description: Learning Hiragana, a component of the Japanese writing system.
 categories: education
 image: dist/img/hiragana_social.jpg
+thumbnail: dist/img/hiragana_thumbnail.jpg
+thumbnail-caption: Japanese From Zero book
 ---
 
 There was a time where I could speak Russian. I also had the ability to read Cyrillic script, while also being able to write it in cursive. All of which I learned to do from a Russian professor in 2011. But once I completed the course, I abandoned the language. Within the last year, I regained interest. Solely because I thought my first international trip was to be to Moscow, Russia. Unfortunately, the trip was scrapped after an incident in Saint Petersburg and so was my interest in the language.

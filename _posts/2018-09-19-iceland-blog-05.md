@@ -1,7 +1,7 @@
 ---
 title: "Iceland Blog 05"
 date: 2018-09-19 14:00:00
-layout: blog
+layout: post
 description: Fifth day in Iceland.
 image: dist/img/iceland_blog_05_social.jpg
 thumbnail: dist/img/reykjadalur_1.jpg

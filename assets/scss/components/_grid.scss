@@ -40,6 +40,7 @@
 
 .col {
   @include make-flex(12);
+  padding: 0 1rem;
 
   &--blog__card {
     @include screen-above(1024px) {
@@ -49,6 +50,10 @@
     @include screen-between(640px, 1024px) {
       @include update-flex(6);
     }
+  }
+
+  &--navigation {
+    @include update-flex(6);
   }
 
   &--footer {
