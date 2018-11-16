@@ -1,7 +1,7 @@
 ---
 title: "Iceland Blog 06"
 date: 2018-10-10 14:00:00
-layout: blog
+layout: post
 description: Sixth day in Iceland.
 image: dist/img/iceland_blog_06_social.jpg
 thumbnail: dist/img/blafjallavegur_3.jpg

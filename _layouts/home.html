@@ -8,9 +8,9 @@ layout: default
           {% if post.featured %}
           <div class="header__item header__item--left">
             <div class="header__content">
+              <small class="red">{{ post.date | date: "%B %-d, %Y" }}</small>
               <h1><a href="{{ post.url }}">{{ post.title}}</a></h1>
-              <h4 class="red">{{ post.date | date: "%B %-d, %Y" }}</h4>
-              <h5>{{ post.excerpt | strip_html | strip_newlines | truncate: 225 }}</h5>
+              <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 225 }}</p>
               <a href="{{ post.url }}" class="button button-black">Read Post</a>
             </div>
           </div>
@@ -23,44 +23,43 @@ layout: default
         </div>
       </div>
     </section>
-    <section class="blog spacing">
-      {% if page.path contains '_posts' %}
-      <div class="container container--small">
-        <div class="blog__content">
-          {{ content }}
-        </div>
-      </div>
-      {% endif %}
-      <div class="container container--mid">
+    <section class="blog blog--home">
+      <div class="container container--wide">
+        <span class="red">Read All Stories</span>
+        <h2>Recent Posts</h2>
         <div class="cols">
-        {% for post in site.posts %}
+        {% for post in site.categories.travel limit:7 %}
         {% if post.featured %}
         {% else if %}
           <a class="col col--blog__card blog__card" href="{{ post.url }}">
             <div class="blog__card-content {% if post.url == page.url %}blog_card-content--active{% endif %}">
               <div class="blog__card-info">
-                <h2>{{ post.title}}</h2>
-                <small>{{ post.date | date: "%B %-d, %Y" }}</small>
-                <h5>{{ post.excerpt | strip_html | strip_newlines | truncate: 220 }} </h5>
+                <img src="{{ post.thumbnail }}" alt="{{ post.thumbnail-caption }}">
+                <small class="red">{{ post.date | date: "%B %-d, %Y" }}</small>
+                <h3>{{ post.title}}</h3>
+                <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
               </div>
             </div>
           </a>
         {% endif %}
         {% endfor %}
         </div>
+        <a class="button button-black" href="/archive">View All Entries</a>
       </div>
     </section>
     <section class="about">
       <div class="container container--wide">
         <div class="cols cols--about">
-          <div class="col col--about">
-            <div class="about__content">
-              <p>I'm Jacob. I'm a Front-End Developer at <a href="https://www.elegantseagulls.com/" target="_blank">Elegant Seagulls</a> in Marquette, Michigan. With a keen eye for detail and a passion for quality assurance, I deliver products that adapt to all modern screen sizes and browsers. You can view some of my current and past open source projects on <a class="link-hover" href="https://github.com/jacobproffer" target="_blank">GitHub</a>.
-              <p>I travel in my free time when I can. Within the past year, I've been to Tokyo, Japan and Iceland. With plans to one day return to Japan, I'm studying two components of Japanese, Hiragana and Kanji. Soon enough, I'll get around to the third component, Katakana. I also am learning Russian when I have the time.</p>
-            </div>
-          </div>
-          <div class="col col--about col--about-image">
+          <div class="col col-about col-about--image">
             <img src="{{ "/dist/img/jacob.jpg" | absolute_url }}" alt="Jacob Proffer">
+          </div>
+          <div class="col col-about col-about--content">
+            <div class="about__content">
+              <small class="red">A Few Words</small>
+              <h2>From the Editor</h2>
+              <p>I'm Jacob. I'm a Front-End Developer at <a href="https://www.elegantseagulls.com/" target="_blank">Elegant Seagulls</a> in Marquette, Michigan. With a keen eye for detail and a passion for quality assurance, I deliver websites that adapt to all modern screen sizes and browsers. You can view some of my current and past open source projects on <a class="link-hover" href="https://github.com/jacobproffer" target="_blank">GitHub</a>.
+              <p>I travel in my free time when I can. Within the past year, I've been to Tokyo, Japan, Iceland and Norway. With plans to one day return to Japan, I'm studying Japanese.</p>
+            </div>
           </div>
         </div>
       </div>

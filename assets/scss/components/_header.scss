@@ -82,55 +82,63 @@ a {
   text-align: center;
   padding: 75px 0 50px;
   overflow: hidden;
-}
 
-.header--home {
-  @include screen-above(1024px) {
-    margin-bottom: 110px;
-    padding: 110px 0;
-  }
-  margin-bottom: 18px;
-  text-align: left;
-
-  &:before {
-    @include screen-below(1024px) {
-      @include size(100%);
-    }
-    @include screen-above(1240px) {
-      @include size(68%, 100%);
-    }
-    @include transition(width 300ms ease-in-out);
-    @include size(78%, 100%);
-    @include absolute(0, 0, 0, 0);
-    content: '';
-    background-color: #ffb507;
-    z-index: -1;
+  &--post {
+    padding: 110px 0 0;
   }
 
-  h5 {
-    max-width: 560px;
+  &--home {
+    @include screen-above(1024px) {
+      padding: 110px 0 74px;
+    }
+    text-align: left;
+
+    &:before {
+      @include screen-below(768px) {
+        @include size(100%);
+      }
+      @include screen-above(1240px) {
+        @include size(68%, 100%);
+      }
+      @include transition(width 300ms ease-in-out);
+      @include size(65%, 100%);
+      @include absolute(0, 0, 0, 0);
+      background-color: #ffb507;
+      content: '';
+      z-index: -1;
+    }
+
+    p {
+      max-width: 443px;
+
+      @include screen-between(768px, 1024px) {
+        max-width: 400px;
+      }
+    }
   }
 }
 
 .header__item {
   @include make-flex(12);
-  @include screen-between(1024px, 1240px) {
+  @include screen-between(768px, 1240px) {
     @include update-flex(6);
   }
+  padding: 0 1rem;
 }
 
 .header__item--left {
   @include screen-above(1240px) {
-    @include update-flex(4, 10);
+    @include update-flex(4.6, 10);
   }
 }
 
 .header__item--right {
-  @include screen-below(1024px) {
-    display: none;
-  }
   @include screen-above(1240px) {
-    @include update-flex(6, 10);
+    @include update-flex(5.4, 10);
+  }
+
+  @include screen-below(768px) {
+    display: none;
   }
 
   img {
@@ -142,9 +150,6 @@ a {
 .header__content {
   @include screen-between(1024px, 1240px) {
     padding-right: 40px;
-  }
-  @include screen-above(1240px) {
-    max-width: 443px;
   }
 }
 

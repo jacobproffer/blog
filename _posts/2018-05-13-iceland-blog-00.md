@@ -1,9 +1,11 @@
 ---
 title: "Iceland Blog 00"
 date: 2018-05-13 14:00:00
-layout: blog
+layout: post
 description: The night before my trip to Iceland.
 image: dist/img/iceland_blog_00_social.jpg
+thumbnail: dist/img/iceland_blog_00.jpg
+thumbnail-caption: Myles Kedrowski
 categories: travel
 ---
 

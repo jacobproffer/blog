@@ -1,11 +1,17 @@
     <header class="main-header" role="banner">
       <nav role="navigation">
         <div class="container container--wide">
-          {% assign current = page.url | downcase | split: '/' %}
-          <a class="back {% if page.url == '/' %}current{% endif %}" href="{{ "/" | absolute_url }}">Home</a>
-          <ul class="main-header__nav">
-            <li class="main-header__nav-item"><a href="/contact" {% if current[1] == 'contact' %}class='current'{% elsif page.url == '/' %}class='main-header__nav-item-link'{% endif %}>Contact</a></li>
-          </ul>
+          <div class="cols">
+            {% assign current = page.url | downcase | split: '/' %}
+            <div class="col col--navigation">
+              <a class="back {% if page.url == '/' %}current{% endif %}" href="{{ "/" | absolute_url }}">Home</a>
+            </div>
+            <div class="col col--navigation">
+              <ul class="main-header__nav">
+                <li class="main-header__nav-item"><a href="/archive" {% if current[1] == 'archive' %}class='current'{% elsif page.url == '/' %}class='main-header__nav-item-link'{% endif %}>Archive</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </nav>
     </header>

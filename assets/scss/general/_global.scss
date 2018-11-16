@@ -5,8 +5,8 @@
 }
 
 ::selection {
-  color: $white;
-  background: $black;
+  color: $black;
+  background: $yellow;
 }
 
 body {
@@ -15,6 +15,7 @@ body {
   color: $black;
   font-family: "Roboto", serif;
   background: $white;
+  font-size: 16px;
 }
 
 img {
@@ -44,4 +45,5 @@ hr {
 small {
   color: $red;
   font-weight: 400;
+  font-size: .875rem;
 }
