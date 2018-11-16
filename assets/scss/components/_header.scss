@@ -84,7 +84,10 @@ a {
   overflow: hidden;
 
   &--post {
-    padding: 110px 0 0;
+    @include screen-above(1024px) {
+      padding: 110px 0 0;
+    }
+    padding: 75px 0 0;
   }
 
   &--home {
