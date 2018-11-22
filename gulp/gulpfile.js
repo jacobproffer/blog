@@ -21,7 +21,7 @@ gulp.task("serve", ["sass", "js"], function() {
     server: {
       baseDir: siteRoot
     },
-    browser: "Google"
+    browser: "Google Chrome"
   });
 
   gulp.watch("../assets/scss/**/*.scss", ["sass"]);
