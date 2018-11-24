@@ -17,46 +17,46 @@
     display: block;
     text-align: right;
   }
-}
 
-.footer__list {
-  margin: 0;
-  padding: 0;
-  text-align: left;
-}
-
-.footer__list-item {
-  display: inline-block;
-  list-style-type: none;
-  margin-right: 20px;
-
-  &:last-of-type {
-    margin-right: 0;
-  }
-}
-
-.footer__list-link {
-  display: inline-block;
-
-  &--twitter,
-  &--github {
-    @include size(24px);
+  &__list {
+    margin: 0;
+    padding: 0;
+    text-align: left;
   }
 
-  &--dribbble {
-    @include size(29px, 24px);
-  }
+  &__list-item {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
 
-  &:hover {
-    svg {
-      fill: $red;
+    &:last-of-type {
+      margin-right: 0;
     }
   }
 
-  svg {
-    @include size(100%);
-    @include transition(fill 300ms ease-in-out);
+  &__list-link {
+    display: inline-block;
 
-    fill: $black;
+    &--twitter,
+    &--github {
+      @include size(24px);
+    }
+
+    &--dribbble {
+      @include size(29px, 24px);
+    }
+
+    &:hover {
+      svg {
+        fill: $red;
+      }
+    }
+
+    svg {
+      @include size(100%);
+      @include transition(fill 300ms ease-in-out);
+
+      fill: $black;
+    }
   }
 }

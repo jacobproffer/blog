@@ -15,14 +15,14 @@
   display: inline-block;
   text-transform: uppercase;
   cursor: pointer;
-}
 
-.button-black {
-  color: $white;
-  background-color: $black;
+  &--black {
+    color: $white;
+    background-color: $black;
 
-  &:hover {
-    color: $black;
-    background-color: $red;
+    &:hover {
+      color: $black;
+      background-color: $red;
+    }
   }
 }
