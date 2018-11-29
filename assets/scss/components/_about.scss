@@ -24,26 +24,26 @@
       width: 100%;
     }
   }
-}
 
-.about__content {
-  @include screen-above(1024px) {
-    padding-left: 51px;
-  }
+  &__content {
+    @include screen-above(1024px) {
+      padding-left: 51px;
+    }
 
-  @include screen-between(768px, 1024px) {
-    padding-left: 25px;
-  }
+    @include screen-between(768px, 1024px) {
+      padding-left: 25px;
+    }
 
-  h2 {
-    margin-top: 0;
-  }
-
-  p {
-    @include font-size($p-font-sizes);
-    
-    &:first-of-type {
+    h2 {
       margin-top: 0;
+    }
+
+    p {
+      @include font-size($p-font-sizes);
+
+      &:first-of-type {
+        margin-top: 0;
+      }
     }
   }
 }

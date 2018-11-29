@@ -11,7 +11,7 @@ layout: default
               <small class="red">{{ post.date | date: "%B %-d, %Y" }}</small>
               <h1><a href="{{ post.url }}">{{ post.title}}</a></h1>
               <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 225 }}</p>
-              <a href="{{ post.url }}" class="button button-black">Read Post</a>
+              <a href="{{ post.url }}" class="button button--black">Read Post</a>
             </div>
           </div>
           <div class="header__item header__item--right">
@@ -33,27 +33,25 @@ layout: default
         {% else if %}
           <a class="col col--blog__card blog__card" href="{{ post.url }}">
             <div class="blog__card-content {% if post.url == page.url %}blog_card-content--active{% endif %}">
-              <div class="blog__card-info">
-                <img src="{{ post.thumbnail }}" alt="{{ post.thumbnail-caption }}">
-                <small class="red">{{ post.date | date: "%B %-d, %Y" }}</small>
-                <h3>{{ post.title}}</h3>
-                <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
-              </div>
+              <img src="{{ post.thumbnail }}" alt="{{ post.thumbnail-caption }}">
+              <small class="red">{{ post.date | date: "%B %-d, %Y" }}</small>
+              <h3>{{ post.title}}</h3>
+              <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
             </div>
           </a>
         {% endif %}
         {% endfor %}
         </div>
-        <a class="button button-black" href="/archive">View All Entries</a>
+        <a class="button button--black" href="/archive">View All Entries</a>
       </div>
     </section>
     <section class="about">
       <div class="container container--wide">
         <div class="cols cols--about">
-          <div class="col col-about col-about--image">
+          <div class="col col--about col--about-image">
             <img src="{{ "/dist/img/jacob.jpg" | absolute_url }}" alt="Jacob Proffer">
           </div>
-          <div class="col col-about col-about--content">
+          <div class="col col--about col--about-content">
             <div class="about__content">
               <small class="red">A Few Words</small>
               <h2>From the Editor</h2>
