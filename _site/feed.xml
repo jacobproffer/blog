@@ -5,7 +5,28 @@
         <title>Jacob Proffer</title>
         <link>http://localhost:4000</link>
         <description>Jacob Proffer is a Front-End Developer working at Elegant Seagulls in Marquette, Michigan.</description>
-        <lastBuildDate>Thu, 29 Nov 2018 18:37:23 -0500</lastBuildDate>
+        <lastBuildDate>Mon, 03 Dec 2018 17:50:04 -0500</lastBuildDate>
+        
+        <item>
+            <description>
+                &lt;!--- Ferry crossing ---&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/dist/img/ferry_01.jpg&quot; alt=&quot;Abandoned cabin by Tvindefossen&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/dist/img/ferry_02.jpg&quot; alt=&quot;Abandoned cabin by Tvindefossen&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;!--- Hiking Åkrafjorden / Langfoss ---&gt;
+
+&lt;!--- Pizza in Bergen...
+            </description>
+            <pubDate>Sun, 02 Dec 2018 09:00:00 -0500</pubDate>
+            <guid>
+                http://localhost:4000/travel/norway-blog-03/
+            </guid>
+        </item>
         
         <item>
             <description>
