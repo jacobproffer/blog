@@ -68,11 +68,13 @@
   overflow: hidden;
 
   &--blog {
-    padding: 110px 0 30px;
+    @include screen-above(768px) {
+      padding: 110px 0 30px;
+    }
   }
 
   &--post {
-    @include screen-above(1024px) {
+    @include screen-above(768px) {
       padding: 110px 0 0;
     }
     padding: 75px 0 0;
