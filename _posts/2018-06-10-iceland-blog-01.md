@@ -5,7 +5,7 @@ layout: post
 description: First day in Iceland.
 image: dist/img/iceland_blog_01_social.jpg
 thumbnail: dist/img/iceland_blog_01.jpg
-thumbnail-caption: Grindavík
+thumbnail-caption: Grindavík.
 categories: travel
 ---
 
