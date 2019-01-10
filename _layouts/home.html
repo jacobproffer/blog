@@ -45,3 +45,18 @@ layout: default
         <a class="button button--black" href="/archive">View All Entries</a>
       </div>
     </section>
+    {% assign author = site.data.about %}
+    <section class="about">
+      <div class="container container--wide">
+        <div class="cols cols--about">
+          <div class="col col--about">
+            <div class="about__content">
+              <p>{{ author.bio }}</p>
+            </div>
+          </div>
+          <div class="col col--about col--about-image">
+            <img src="{{ author.image | absolute_url }}" alt="{{ author.alt }}">
+          </div>
+        </div>
+      </div>
+    </section>

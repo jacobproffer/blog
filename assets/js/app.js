@@ -20,3 +20,4 @@ var headroom = new Headroom(mainHeader, {
   }
 });
 headroom.init();
+console.log('JavaScript is working');
