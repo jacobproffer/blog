@@ -8,10 +8,10 @@ layout: default
           {% if post.featured %}
           <div class="header__item header__item--left">
             <div class="header__content">
+              <small class="red">{{ post.date | date: "%B %-d, %Y" }}</small>
               <h1><a href="{{ post.url }}">{{ post.title}}</a></h1>
-              <h4 class="red">{{ post.date | date: "%B %-d, %Y" }}</h4>
-              <h5>{{ post.excerpt | strip_html | strip_newlines | truncate: 225 }}</h5>
-              <a href="{{ post.url }}" class="button button-black">Read Post</a>
+              <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 225 }}</p>
+              <a href="{{ post.url }}" class="button button--black">Read Post</a>
             </div>
           </div>
           <div class="header__item header__item--right">
@@ -23,30 +23,25 @@ layout: default
         </div>
       </div>
     </section>
-    <section class="blog spacing">
-      {% if page.path contains '_posts' %}
-      <div class="container container--small">
-        <div class="blog__content">
-          {{ content }}
-        </div>
-      </div>
-      {% endif %}
-      <div class="container container--mid">
+    <section class="blog blog--home">
+      <div class="container container--wide">
+        <span class="red">Read All Stories</span>
+        <h2>Recent Posts</h2>
         <div class="cols">
-        {% for post in site.posts %}
+        {% for post in site.categories.travel limit:7 %}
         {% if post.featured %}
         {% else if %}
           <a class="col col--blog__card blog__card" href="{{ post.url }}">
             <div class="blog__card-content {% if post.url == page.url %}blog_card-content--active{% endif %}">
-              <div class="blog__card-info">
-                <h2>{{ post.title}}</h2>
-                <small>{{ post.date | date: "%B %-d, %Y" }}</small>
-                <h5>{{ post.excerpt | strip_html | strip_newlines | truncate: 220 }} </h5>
-              </div>
+              <img src="{{ post.thumbnail }}" alt="{{ post.thumbnail-caption }}">
+              <small class="red">{{ post.date | date: "%B %-d, %Y" }}</small>
+              <h3>{{ post.title}}</h3>
+              <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
             </div>
           </a>
         {% endif %}
         {% endfor %}
         </div>
+        <a class="button button--black" href="/archive">View All Entries</a>
       </div>
     </section>

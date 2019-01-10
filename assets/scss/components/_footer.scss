@@ -1,23 +1,62 @@
 .footer {
-  border-top: 1px solid rgba(0, 0, 0, .1);
-  padding: 80px 0;
-  @include screen-below(768px) {
-    padding: 40px 0;
+  padding: 104px 0;
+
+  @include screen-below(1024px) {
+    padding: 52px 0;
   }
-}
 
-.footer__list {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
+  &__date {
+    margin: 0;
+    padding: 0;
+    color: $red;
+    line-height: 1;
+    text-align: center;
+  }
 
-.footer__list-item {
-  display: inline-block;
-  list-style-type: none;
-  margin-right: 20px;
+  &__repo-link {
+    display: block;
+    text-align: right;
+  }
 
-  &:last-of-type {
-    margin-right: 0;
+  &__list {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  &__list-item {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  &__list-link {
+    display: inline-block;
+
+    &--twitter,
+    &--github {
+      @include size(24px);
+    }
+
+    &--dribbble {
+      @include size(29px, 24px);
+    }
+
+    &:hover {
+      svg {
+        fill: $red;
+      }
+    }
+
+    svg {
+      @include size(100%);
+      @include transition(fill 300ms ease-in-out);
+
+      fill: $black;
+    }
   }
 }

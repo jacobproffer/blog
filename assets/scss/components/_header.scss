@@ -18,57 +18,41 @@
     @include transform(translateY(0));
     background-color: $yellow;
   }
-}
 
-.main-header__nav {
-  will-change: transform;
-  display: block;
-  padding: 0;
-  margin: 0;
-  z-index: 9;
-  border-bottom: 0;
-  opacity: 1;
-  background: none;
-  float: right;
-  position: relative;
-  pointer-events: auto;
-}
-
-.main-header__nav-item {
-  position: relative;
-  list-style-type: none;
-  text-align: center;
-  display: inline-block;
-  margin: 0 32px 0 0;
-
-  &:last-of-type {
-    margin: 0;
-  }
-
-  a {
-    position: relative;
-    cursor: pointer;
-    line-height: 1;
-    text-decoration: none;
+  &__nav {
+    will-change: transform;
     display: block;
-    font-weight: 900;
-
-    @include transition(all 300ms ease-in-out);
-  }
-}
-
-a {
-  color: $black;
-
-  &:hover {
-    color: $red;
+    padding: 0;
+    margin: 0;
+    z-index: 9;
+    border-bottom: 0;
+    opacity: 1;
+    background: none;
+    float: right;
+    position: relative;
+    pointer-events: auto;
   }
 
-  &.current {
-    color: $red;
+  &__nav-item {
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    margin: 0 32px 0 0;
 
-    &:hover {
-      color: $black;
+    &:last-of-type {
+      margin: 0;
+    }
+
+    a {
+      position: relative;
+      cursor: pointer;
+      line-height: 1;
+      text-decoration: none;
+      display: block;
+      font-weight: 900;
+
+      @include transition(all 300ms ease-in-out);
     }
   }
 }
@@ -82,74 +66,88 @@ a {
   text-align: center;
   padding: 75px 0 50px;
   overflow: hidden;
-}
 
-.header--home {
-  @include screen-above(1024px) {
-    margin-bottom: 110px;
-    padding: 110px 0;
-  }
-  margin-bottom: 18px;
-  text-align: left;
-
-  &:before {
-    @include screen-below(1024px) {
-      @include size(100%);
+  &--blog {
+    @include screen-above(768px) {
+      padding: 110px 0 30px;
     }
-    @include screen-above(1240px) {
-      @include size(68%, 100%);
+  }
+
+  &--post {
+    @include screen-above(768px) {
+      padding: 110px 0 0;
     }
-    @include transition(width 300ms ease-in-out);
-    @include size(78%, 100%);
-    @include absolute(0, 0, 0, 0);
-    content: '';
-    background-color: #ffb507;
-    z-index: -1;
+    padding: 75px 0 0;
   }
 
-  h5 {
-    max-width: 560px;
-  }
-}
+  &--home {
+    @include screen-above(1024px) {
+      padding: 110px 0 74px;
+    }
+    text-align: left;
 
-.header__item {
-  @include make-flex(12);
-  @include screen-between(1024px, 1240px) {
-    @include update-flex(6);
-  }
-}
+    &:before {
+      @include screen-below(768px) {
+        @include size(100%);
+      }
+      @include screen-above(1240px) {
+        @include size(68%, 100%);
+      }
+      @include transition(width 300ms ease-in-out);
+      @include size(65%, 100%);
+      @include absolute(0, 0, 0, 0);
+      background-color: #ffb507;
+      content: '';
+      z-index: -1;
+    }
 
-.header__item--left {
-  @include screen-above(1240px) {
-    @include update-flex(4.5, 10);
-  }
-}
+    p {
+      max-width: 443px;
 
-.header__item--right {
-  @include screen-below(1024px) {
-    display: none;
-  }
-  @include screen-above(1240px) {
-    @include update-flex(5.5, 10);
+      @include screen-between(768px, 1024px) {
+        max-width: 400px;
+      }
+    }
   }
 
-  img {
+  &__item {
+    @include make-flex(12);
+    @include screen-between(768px, 1240px) {
+      @include update-flex(6);
+    }
+    padding: 0 1rem;
+
+    &--left {
+      @include screen-above(1240px) {
+        @include update-flex(4.6, 10);
+      }
+    }
+
+    &--right {
+      @include screen-above(1240px) {
+        @include update-flex(5.4, 10);
+      }
+
+      @include screen-below(768px) {
+        display: none;
+      }
+
+      img {
+        display: block;
+        margin: auto 0 auto auto;
+      }
+    }
+  }
+
+  &__content {
+    @include screen-between(1024px, 1240px) {
+      padding-right: 40px;
+    }
+  }
+
+  &__coordinates {
     display: block;
-    margin: auto 0 auto auto;
+    text-align: right;
+    margin-top: 20px;
   }
-}
-
-.header__content {
-  @include screen-between(1024px, 1240px) {
-    padding-right: 40px;
-  }
-  @include screen-above(1240px) {
-    max-width: 443px;
-  }
-}
-
-.header__coordinates {
-  display: block;
-  text-align: right;
-  margin-top: 20px;
 }

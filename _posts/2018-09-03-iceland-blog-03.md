@@ -1,7 +1,7 @@
 ---
 title: "Iceland Blog 03"
 date: 2018-09-03 14:00:00
-layout: blog
+layout: post
 description: Third day in Iceland.
 image: dist/img/iceland_blog_03_social.jpg
 thumbnail: dist/img/thingvellir_2.jpg

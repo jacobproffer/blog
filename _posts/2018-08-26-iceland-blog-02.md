@@ -1,7 +1,7 @@
 ---
 title: "Iceland Blog 02"
 date: 2018-08-26 14:00:00
-layout: blog
+layout: post
 description: Second day in Iceland.
 image: dist/img/iceland_blog_02_social.jpg
 thumbnail: dist/img/plane_wreck_1.jpg
