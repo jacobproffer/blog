@@ -10,16 +10,26 @@ layout: default
     <section class="blog blog--post">
       <div class="container container--wide">
         <div class="cols">
+
         {% for post in site.posts %}
           <a class="col col--blog__card blog__card" href="{{ post.url }}">
             <div class="blog__card-content {% if post.url == page.url %}blog_card-content--active{% endif %}">
-              <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}">
+
+              {% if post.thumbnail %}
+                <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}">
+              {% endif %}
+
               <small class="red">{{ post.date | date: "%B %-d, %Y" }}</small>
               <h3>{{ post.title}}</h3>
-              <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
+
+              {% if post.excerpt %}
+                <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
+              {% endif %}
+              
             </div>
           </a>
         {% endfor %}
+
         </div>
       </div>
     </section>

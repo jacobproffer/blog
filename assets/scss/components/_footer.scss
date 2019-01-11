@@ -6,10 +6,10 @@
   }
 
   &__date {
-    margin: 0;
     padding: 0;
-    color: $red;
+    margin: 0;
     line-height: 1;
+    color: $red;
     text-align: center;
   }
 
@@ -19,15 +19,15 @@
   }
 
   &__list {
-    margin: 0;
     padding: 0;
+    margin: 0;
     text-align: left;
   }
 
   &__list-item {
     display: inline-block;
-    list-style-type: none;
     margin-right: 20px;
+    list-style-type: none;
 
     &:last-of-type {
       margin-right: 0;

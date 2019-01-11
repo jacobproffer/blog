@@ -5,7 +5,7 @@ layout: post
 description: Second day in Iceland.
 image: dist/img/iceland_blog_02_social.jpg
 thumbnail: dist/img/plane_wreck_1.jpg
-thumbnail-caption: Sólheimasandur plane wreck
+thumbnail-caption: Sólheimasandur plane wreck.
 thumbnail-coordinates: 63.459523&deg; N, -19.364618&deg; W
 categories: travel
 ---

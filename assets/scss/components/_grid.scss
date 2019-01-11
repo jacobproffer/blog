@@ -1,9 +1,9 @@
-@import "superior";
+@import 'superior';
 
 .container {
   width: 95%;
-  margin: 0 auto;
   padding: 0 2.5%;
+  margin: 0 auto;
 
   &--small {
     @include screen-above(1024px) {

@@ -5,7 +5,7 @@ layout: post
 description: The night before my trip to Iceland.
 image: dist/img/iceland_blog_00_social.jpg
 thumbnail: dist/img/iceland_blog_00.jpg
-thumbnail-caption: Myles Kedrowski
+thumbnail-caption: Myles Kedrowski.
 categories: travel
 ---
 
