@@ -17,8 +17,15 @@ layout: default
                 </div>
               </div>
               <div class="header__item header__item--right">
-                <img src="{% if post.thumbnail %}{{ post.thumbnail | absolute_url }}{% endif %}" alt="{{ post.thumbnail-caption }}" />
-                <small class="header__coordinates">{{ post.thumbnail-coordinates }}</small>
+
+                {% if post.thumbnail %}
+                  <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}" />
+                {% endif %}
+
+                {% if post.thumbnail-coordinates %}
+                  <small class="header__coordinates">{{ post.thumbnail-coordinates }}</small>
+                {% endif %}
+                
               </div>
             {% endif %}
 

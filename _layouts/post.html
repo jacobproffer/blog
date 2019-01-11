@@ -17,12 +17,19 @@ layout: default
       </div>
       <div class="post__pagination">
         <div class="container container--small">
+
           {% if page.previous.url %}
-            <a class="post__pagination-item post__pagination-item--prev" href="{{page.previous.url}}">Prev Post</a>
+            <a class="post__pagination-item post__pagination-item--prev" href="{{page.previous.url}}">
+              Prev Post
+            </a>
           {% endif %}
+
           {% if page.next.url %}
-            <a class="post__pagination-item post__pagination-item--next" href="{{page.next.url}}">Next Post</a>
+            <a class="post__pagination-item post__pagination-item--next" href="{{page.next.url}}">
+              Next Post
+            </a>
           {% endif %}
+
         </div>
       </div>
     </section>
