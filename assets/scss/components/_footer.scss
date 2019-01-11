@@ -1,10 +1,6 @@
 .footer {
   padding: 104px 0;
 
-  @include screen-below(1024px) {
-    padding: 52px 0;
-  }
-
   &__date {
     padding: 0;
     margin: 0;
@@ -58,5 +54,9 @@
 
       fill: $black;
     }
+  }
+
+  @include screen-below(1024px) {
+    padding: 52px 0;
   }
 }

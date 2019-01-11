@@ -1,7 +1,4 @@
 .about {
-  @include screen-above(1024px) {
-    padding: 104px 0;
-  }
   position: relative;
   padding: 52px 0 32px;
 
@@ -26,14 +23,6 @@
   }
 
   &__content {
-    @include screen-above(1024px) {
-      padding-left: 51px;
-    }
-
-    @include screen-between(768px, 1024px) {
-      padding-left: 25px;
-    }
-
     h2 {
       margin-top: 0;
     }
@@ -45,5 +34,17 @@
         margin-top: 0;
       }
     }
+
+    @include screen-above(1024px) {
+      padding-left: 51px;
+    }
+
+    @include screen-between(768px, 1024px) {
+      padding-left: 25px;
+    }
+  }
+
+  @include screen-above(1024px) {
+    padding: 104px 0;
   }
 }

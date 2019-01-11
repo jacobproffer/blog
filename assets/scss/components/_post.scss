@@ -1,12 +1,13 @@
 .post {
   &__content {
-    @include screen-above(1024px) {
-      padding-bottom: 75px;
-    }
     padding-bottom: 25px;
 
     p {
       @include font-size($p-font-sizes);
+    }
+
+    @include screen-above(1024px) {
+      padding-bottom: 75px;
     }
   }
 
@@ -30,9 +31,6 @@
 
   &__pagination-item {
     @include size(50%, auto);
-    @include screen-above(1024px) {
-      padding: 90px 20px;
-    }
     padding: 45px 10px;
     text-align: center;
 
@@ -42,6 +40,10 @@
 
     &--next {
       float: right;
+    }
+
+    @include screen-above(1024px) {
+      padding: 90px 20px;
     }
   }
 }

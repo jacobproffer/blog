@@ -6,11 +6,12 @@
   margin: 0 auto;
 
   &--small {
+    max-width: 670px;
+
     @include screen-above(1024px) {
       @include size(100%, auto);
       padding: 0;
     }
-    max-width: 670px;
   }
 
   &--mid {
