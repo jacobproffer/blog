@@ -7,11 +7,24 @@ var rename = require("gulp-rename");
 var prefix = require("gulp-autoprefixer");
 var uglify = require("gulp-uglify");
 var concat = require("gulp-concat");
+var eslint = require("gulp-eslint");
 var browserSync = require("browser-sync").create();
 var scripts = [
-    "../assets/js/lib/headroom/headroom.min.js",
-    "../assets/js/app.js"
-  ];
+  "../assets/js/lib/headroom/headroom.min.js",
+  "../assets/js/app.js"
+];
+
+gulp.task("sass-lint", function() {
+  return gulp
+    .src("../assets/**/*.scss")
+    .pipe(
+      sassLint({
+        configFile: ".scss-lint-config.yml"
+      })
+    )
+    .pipe(sassLint.format())
+    .pipe(sassLint.failOnError());
+});
 
 // Configure CSS tasks.
 gulp.task("sass", ["sass-lint"], function() {
@@ -29,17 +42,21 @@ gulp.task("sass", ["sass-lint"], function() {
     .pipe(browserSync.stream());
 });
 
-gulp.task('sass-lint', function() {
-  return gulp.src('../assets/**/*.scss')
-    .pipe(sassLint({
-      configFile: '.scss-lint-config.yml'
-    }))
-    .pipe(sassLint.format())
-    .pipe(sassLint.failOnError())
+gulp.task("js-lint", function() {
+  return gulp
+    .src(scripts)
+    .pipe(
+      eslint({
+        configFile: ".eslintrc",
+        fix: true
+      })
+    )
+    .pipe(eslint.format())
+    .pipe(eslint.failAfterError());
 });
 
 // Configure JS.
-gulp.task("js", function() {
+gulp.task("js", ["js-lint"], function() {
   return gulp
     .src(scripts)
     .pipe(uglify())

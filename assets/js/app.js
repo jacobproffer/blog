@@ -1,5 +1,6 @@
 var mainHeader = document.querySelector(".main-header");
 var headerHeight = mainHeader.offsetHeight;
+/* eslint-disable no-undef */
 var headroom = new Headroom(mainHeader, {
   offset: 0,
   tolerance: 0,
@@ -11,7 +12,7 @@ var headroom = new Headroom(mainHeader, {
     notTop: "scrolled"
   },
   onUnpin: function() {
-    if( mainHeader.classList.contains("open") ) {
+    if (mainHeader.classList.contains("open")) {
       mainHeader.classList.remove("unpinned");
     }
   },
@@ -19,5 +20,5 @@ var headroom = new Headroom(mainHeader, {
     mainHeader.classList.remove("pinned");
   }
 });
+/* eslint-enable no-undef */
 headroom.init();
-console.log('JavaScript is working');
