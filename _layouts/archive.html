@@ -1,35 +1,50 @@
 ---
 layout: default
 ---
-    <section class="header header--blog">
-      <div class="container">
-        <span class="red">Read All Stories</span>
-        <h1>{{ page.title }}</h1>
-      </div>
-    </section>
-    <section class="blog blog--post">
-      <div class="container container--wide">
-        <div class="cols">
+{% if page.title %}
+<section class="header header--blog">
+  <div class="container">
 
-        {% for post in site.posts %}
-          <a class="col col--blog__card blog__card" href="{{ post.url }}">
-            <div class="blog__card-content {% if post.url == page.url %}blog_card-content--active{% endif %}">
+    {% if page.sub-title %}
+      <span class="red">{{ page.sub-title }}</span>
+    {% endif %}
 
-              {% if post.thumbnail %}
-                <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}">
-              {% endif %}
+    {% if page.title %}
+      <h1>{{ page.title }}</h1>
+    {% endif %}
+    
+  </div>
+</section>
+{% endif %}
 
-              <small class="red">{{ post.date | date: "%B %-d, %Y" }}</small>
-              <h3>{{ post.title}}</h3>
+<section class="blog blog--post">
+  <div class="container container--wide">
+    <div class="cols">
 
-              {% if post.excerpt %}
-                <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
-              {% endif %}
-              
-            </div>
-          </a>
-        {% endfor %}
+    {% for post in site.posts %}
+      <a class="col col--blog__card blog__card" href="{{ post.url }}">
+        <div class="blog__card-content {% if post.url == page.url %}blog_card-content--active{% endif %}">
 
+          {% if post.thumbnail %}
+            <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}">
+          {% endif %}
+
+          {% if post.date %}
+            <small class="red">{{ post.date | date: "%B %-d, %Y" }}</small>
+          {% endif %}
+
+          {% if post.title%}
+            <h3>{{ post.title}}</h3>
+          {% endif %}
+
+          {% if post.excerpt %}
+            <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
+          {% endif %}
+          
         </div>
-      </div>
-    </section>
+      </a>
+    {% endfor %}
+
+    </div>
+  </div>
+</section>
