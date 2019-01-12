@@ -153,8 +153,4 @@
     margin-top: 20px;
     text-align: right;
   }
-
-  @include screen-above(768px) {
-    padding: 110px 0 55px;
-  }
 }
