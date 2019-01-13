@@ -1,20 +1,21 @@
 ---
 layout: default
 ---
+
 {% if page.title %}
-<section class="header header--blog">
-  <div class="container">
+  <section class="header header--blog">
+    <div class="container">
 
-    {% if page.sub-title %}
-      <span class="red">{{ page.sub-title }}</span>
-    {% endif %}
+      {% if page.sub-title %}
+        <span class="red">{{ page.sub-title }}</span>
+      {% endif %}
 
-    {% if page.title %}
-      <h1>{{ page.title }}</h1>
-    {% endif %}
-    
-  </div>
-</section>
+      {% if page.title %}
+        <h1>{{ page.title }}</h1>
+      {% endif %}
+      
+    </div>
+  </section>
 {% endif %}
 
 <section class="blog blog--post">

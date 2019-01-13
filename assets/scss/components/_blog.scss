@@ -3,7 +3,7 @@
 
   h2 {
     margin-top: 0;
-    margin-bottom: 33px;
+    margin-bottom: 48px;
   }
 
   .button {
@@ -47,14 +47,6 @@
 
     @include screen-below(1024px) {
       padding: 52px 0;
-    }
-  }
-
-  &--post {
-    padding: 0 0 104px;
-
-    @include screen-below(1024px) {
-      padding: 0 0 52px;
     }
   }
 
