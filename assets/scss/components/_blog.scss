@@ -50,14 +50,6 @@
     }
   }
 
-  &--post {
-    padding: 0 0 104px;
-
-    @include screen-below(1024px) {
-      padding: 0 0 52px;
-    }
-  }
-
   &__card {
     padding: 0 1rem;
     margin-bottom: 20px;
