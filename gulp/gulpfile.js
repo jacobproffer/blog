@@ -26,7 +26,6 @@ gulp.task("sass-lint", function() {
     .pipe(sassLint.failOnError());
 });
 
-// Configure CSS tasks.
 gulp.task("sass", ["sass-lint"], function() {
   return gulp
     .src("../assets/scss/**/*.scss")
@@ -55,7 +54,6 @@ gulp.task("js-lint", function() {
     .pipe(eslint.failAfterError());
 });
 
-// Configure JS.
 gulp.task("js", ["js-lint"], function() {
   return gulp
     .src(scripts)
@@ -66,7 +64,6 @@ gulp.task("js", ["js-lint"], function() {
     .pipe(browserSync.stream());
 });
 
-// Static Server + watching scss/html files
 gulp.task("serve", ["sass", "js"], function() {
   var siteRoot = "../_site";
   browserSync.init({
