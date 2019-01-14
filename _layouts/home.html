@@ -108,13 +108,6 @@ layout: default
 <article class="about">
   <div class="container container--wide">
     <div class="cols cols--about">
-
-      {% if author.image %}
-        <aside class="col col--about col--about-image">
-          <img src="{{ author.image | absolute_url }}" alt="{{ author.alt }}">
-        </aside>
-      {% endif %}
-
       <div class="col col--about">
         <div class="about__content">
 
@@ -138,6 +131,15 @@ layout: default
 
         </div>
       </div>
+
+      {% if author.image %}
+        <div class="col col--about col--about-image">
+          <aside>
+            <img src="{{ author.image | absolute_url }}" alt="{{ author.alt }}">
+          </aside>
+        </div>
+      {% endif %}
+
     </div>
   </div>
 </article>
