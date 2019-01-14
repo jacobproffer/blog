@@ -1,87 +1,122 @@
 ---
 layout: default
 ---
-    <section class="header header--home">
-      <div class="container container--wide">
-        <div class="cols cols--header">
 
-          {% for post in site.posts %}
+<section class="header header--home">
+  <div class="container container--wide">
+    <div class="cols cols--header">
 
-            {% if post.featured %}
-              <div class="header__item header__item--left">
-                <div class="header__content">
-                  <small class="red">{{ post.date | date: "%B %-d, %Y" }}</small>
-                  <h1><a href="{{ post.url }}">{{ post.title}}</a></h1>
-                  <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 225 }}</p>
-                  <a href="{{ post.url }}" class="button button--black">Read Post</a>
-                </div>
-              </div>
-              <div class="header__item header__item--right">
+      {% for post in site.posts %}
 
-                {% if post.thumbnail %}
-                  <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}" />
-                {% endif %}
+        {% if post.featured %}
+          <div class="header__item header__item--left">
+            <div class="header__content">
 
-                {% if post.thumbnail-coordinates %}
-                  <small class="header__coordinates">{{ post.thumbnail-coordinates }}</small>
-                {% endif %}
-                
-              </div>
-            {% endif %}
-
-          {% endfor %}
-
-        </div>
-      </div>
-    </section>
-    <section class="blog blog--home">
-      <div class="container container--wide">
-        <span class="red">Read All Stories</span>
-        <h2>Recent Posts</h2>
-        <div class="cols">
-          
-        {% for post in site.categories.travel limit:7 %}
-
-          {% if post.featured %}
-          {% else if %}
-            <a class="col col--blog__card blog__card" href="{{ post.url }}">
-              <div class="blog__card-content {% if post.url == page.url %}blog_card-content--active{% endif %}">
-                <img src="{{ post.thumbnail }}" alt="{{ post.thumbnail-caption }}">
+              {% if post.date %}
                 <small class="red">{{ post.date | date: "%B %-d, %Y" }}</small>
-                <h3>{{ post.title}}</h3>
-                <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
-              </div>
-            </a>
-          {% endif %}
-
-        {% endfor %}
-
-        </div>
-        <a class="button button--black" href="/archive">View All Entries</a>
-      </div>
-    </section>
-    {% assign author = site.data.about %}
-    <section class="about">
-      <div class="container container--wide">
-        <div class="cols cols--about">
-
-          {% if author.image %}
-            <div class="col col--about col--about-image">
-              <img src="{{ author.image | absolute_url }}" alt="{{ author.alt }}">
-            </div>
-          {% endif %}
-
-          <div class="col col--about">
-            <div class="about__content">
-              <small class="red">A Few Words</small>
-              <h2>From the Editor</h2>
-
-              {% if author.bio %}
-                <p>{{ author.bio }}</p>
               {% endif %}
 
+              {% if post.title %}
+                <h1><a href="{{ post.url }}">{{ post.title}}</a></h1>
+              {% endif%}
+
+              {% if post.excerpt %}
+                <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 225 }}</p>
+              {% endif %}
+              
+              {% if post.url %}
+                <a href="{{ post.url }}" class="button button--black">Read Post</a>
+              {% endif %}
+              
             </div>
           </div>
+          <div class="header__item header__item--right">
+
+            {% if post.thumbnail %}
+              <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}" />
+            {% endif %}
+
+            {% if post.thumbnail-coordinates %}
+              <small class="header__coordinates">{{ post.thumbnail-coordinates }}</small>
+            {% endif %}
+            
+          </div>
+        {% endif %}
+
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
+
+<section class="blog blog--home">
+  <div class="container container--wide">
+    <span class="red">Fresh Stories</span>
+    <h2>Recent Posts</h2>
+    <div class="cols">
+      
+    {% for post in site.categories.travel limit:7 %}
+
+      {% if post.featured %}
+      {% else if %}
+        <a class="col col--blog__card blog__card" href="{{ post.url }}">
+          <div class="blog__card-content {% if post.url == page.url %}blog_card-content--active{% endif %}">
+
+            {% if post.thumbnail %}
+              <img src="{{ post.thumbnail }}" alt="{{ post.thumbnail-caption }}">
+            {% endif %}
+
+            {% if post.date %}
+              <small class="red">{{ post.date | date: "%B %-d, %Y" }}</small>
+            {% endif %}
+
+            {% if post.title %}
+              <h3>{{ post.title}}</h3>
+            {% endif %}
+
+            {% if post.excerpt %}
+              <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
+            {% endif %}
+
+          </div>
+        </a>
+      {% endif %}
+
+    {% endfor %}
+
+    </div>
+    <a class="button button--black" href="/archive">View All Entries</a>
+  </div>
+</section>
+
+{% assign author = site.data.about %}
+<section class="about">
+  <div class="container container--wide">
+    <div class="cols cols--about">
+
+      {% if author.image %}
+        <div class="col col--about col--about-image">
+          <img src="{{ author.image | absolute_url }}" alt="{{ author.alt }}">
+        </div>
+      {% endif %}
+
+      <div class="col col--about">
+        <div class="about__content">
+
+          {% if author.sub-heading %}
+            <small class="red">{{ author.sub-heading }}</small>
+          {% endif %}
+
+          {% if author.heading %}
+            <h2>{{ author.heading }}</h2>
+          {% endif %}
+
+          {% if author.bio %}
+            <p>{{ author.bio }}</p>
+          {% endif %}
+
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>

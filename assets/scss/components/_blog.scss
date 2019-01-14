@@ -3,7 +3,7 @@
 
   h2 {
     margin-top: 0;
-    margin-bottom: 33px;
+    margin-bottom: 48px;
   }
 
   .button {
@@ -17,17 +17,8 @@
     left: 0;
     z-index: -1;
     width: 100%;
-    height: 97%;
     background-color: $yellow;
     content: '';
-
-    @include screen-between(640px, 1024px) {
-      height: 97.5%;
-    }
-
-    @include screen-below(640px) {
-      height: 98.5%;
-    }
   }
 
   &--home {
@@ -35,7 +26,15 @@
     text-align: center;
 
     &::before {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+      width: 100%;
       height: 75%;
+      background-color: $yellow;
+      content: '';
 
       @include screen-between(640px, 1024px) {
         height: 85%;
@@ -48,14 +47,6 @@
 
     @include screen-below(1024px) {
       padding: 52px 0;
-    }
-  }
-
-  &--post {
-    padding: 0 0 104px;
-
-    @include screen-below(1024px) {
-      padding: 0 0 52px;
     }
   }
 
