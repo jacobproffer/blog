@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="header header--home">
+<article class="header header--home">
   <div class="container container--wide">
     <div class="cols cols--header">
 
@@ -10,7 +10,7 @@ layout: default
 
         {% if post.featured %}
           <div class="header__item header__item--left">
-            <div class="header__content">
+            <header class="header__content">
 
               {% if post.date %}
                 <small class="red">{{ post.date | date: "%B %-d, %Y" }}</small>
@@ -20,26 +20,30 @@ layout: default
                 <h1><a href="{{ post.url }}">{{ post.title}}</a></h1>
               {% endif%}
 
-              {% if post.excerpt %}
-                <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 225 }}</p>
-              {% endif %}
-              
-              {% if post.url %}
-                <a href="{{ post.url }}" class="button button--black">Read Post</a>
-              {% endif %}
-              
-            </div>
+            </header>
+
+            {% if post.excerpt %}
+              <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 225 }}</p>
+            {% endif %}
+            
+            {% if post.url %}
+              <a href="{{ post.url }}" class="button button--black">Read Post</a>
+            {% endif %}
+
           </div>
           <div class="header__item header__item--right">
 
-            {% if post.thumbnail %}
-              <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}" />
-            {% endif %}
+            <aside>
 
-            {% if post.thumbnail-coordinates %}
-              <small class="header__coordinates">{{ post.thumbnail-coordinates }}</small>
-            {% endif %}
-            
+              {% if post.thumbnail %}
+                <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}" />
+              {% endif %}
+
+              {% if post.thumbnail-coordinates %}
+                <small class="header__coordinates">{{ post.thumbnail-coordinates }}</small>
+              {% endif %}
+
+            </aside>
           </div>
         {% endif %}
 
@@ -47,39 +51,49 @@ layout: default
 
     </div>
   </div>
-</section>
+</article>
 
 <section class="blog blog--home">
   <div class="container container--wide">
-    <span class="red">Fresh Stories</span>
-    <h2>Recent Posts</h2>
+
+    <header>
+      <span class="red">Fresh Stories</span>
+      <h2>Recent Posts</h2>
+    </header>
+
     <div class="cols">
       
     {% for post in site.categories.travel limit:7 %}
 
-      {% if post.featured %}
-      {% else if %}
-        <a class="col col--blog__card blog__card" href="{{ post.url }}">
+      {% if post.featured != true %}
+        <article class="col col--blog__card blog__card">
           <div class="blog__card-content {% if post.url == page.url %}blog_card-content--active{% endif %}">
 
             {% if post.thumbnail %}
-              <img src="{{ post.thumbnail }}" alt="{{ post.thumbnail-caption }}">
+              <aside>
+                <a href="{{ post.url }}">
+                  <img src="{{ post.thumbnail }}" alt="{{ post.thumbnail-caption }}">
+                </a>
+              </aside>
             {% endif %}
 
-            {% if post.date %}
-              <small class="red">{{ post.date | date: "%B %-d, %Y" }}</small>
-            {% endif %}
+            <header>
+              
+              {% if post.date %}
+                <small class="red">{{ post.date | date: "%B %-d, %Y" }} | {{ post.content | number_of_words }} words</small>
+              {% endif %}
 
-            {% if post.title %}
-              <h3>{{ post.title}}</h3>
-            {% endif %}
+              <h3>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </h3>
+            </header>
 
             {% if post.excerpt %}
               <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
             {% endif %}
 
           </div>
-        </a>
+        </article>
       {% endif %}
 
     {% endfor %}
@@ -90,25 +104,32 @@ layout: default
 </section>
 
 {% assign author = site.data.about %}
-<section class="about">
+
+<article class="about">
   <div class="container container--wide">
     <div class="cols cols--about">
 
       {% if author.image %}
-        <div class="col col--about col--about-image">
+        <aside class="col col--about col--about-image">
           <img src="{{ author.image | absolute_url }}" alt="{{ author.alt }}">
-        </div>
+        </aside>
       {% endif %}
 
       <div class="col col--about">
         <div class="about__content">
 
-          {% if author.sub-heading %}
-            <small class="red">{{ author.sub-heading }}</small>
-          {% endif %}
+          {% if author.sub-heading or author.heading %}
+            <header>
 
-          {% if author.heading %}
-            <h2>{{ author.heading }}</h2>
+              {% if author.sub-heading %}
+                <small class="red">{{ author.sub-heading }}</small>
+              {% endif %}
+
+              {% if author.heading %}
+                <h2>{{ author.heading }}</h2>
+              {% endif %}
+
+            </header>
           {% endif %}
 
           {% if author.bio %}
@@ -119,4 +140,4 @@ layout: default
       </div>
     </div>
   </div>
-</section>
+</article>

@@ -59,16 +59,17 @@
 }
 
 .header {
-  @include background-cover;
   position: relative;
   padding: 75px 0 50px;
   overflow: hidden;
   text-align: center;
 
   &--blog {
+    padding: 75px 0 14px;
+
     @include screen-above(768px) {
-      padding: 110px 0 30px;
-    }
+      padding: 110px 0 28px;
+    }   
   }
 
   &--post {

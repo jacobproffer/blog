@@ -1,17 +1,25 @@
 <header class="main-header">
-  <nav>
-    <div class="container container--wide">
-      <div class="cols">
-        {% assign current = page.url | downcase | split: '/' %}
-        <div class="col col--navigation">
-          <a class="back {% if page.url == '/' %}current{% endif %}" href="{{ "/" | absolute_url }}">Home</a>
-        </div>
-        <div class="col col--navigation">
+  <div class="container container--wide">
+    <div class="cols">
+      {% assign current = page.url | downcase | split: '/' %}
+      <div class="col col--navigation">
+        <a class="back {% if page.url == '/' %}current{% endif %}" href="{{ "/" | absolute_url }}">Home</a>
+      </div>
+      <div class="col col--navigation">
+        <nav>
           <ul class="main-header__nav">
-            <li class="main-header__nav-item"><a href="/archive" {% if current[1] == 'archive' %}class='current'{% elsif page.url == '/' %}class='main-header__nav-item-link'{% endif %}>Archive</a></li>
+
+            {% for item in site.data.navigation.navigation-links %}
+              <li class="main-header__nav-item">
+                <a href="{{ item.url }}" {% if current[1] == item.title-lowercase %}class='current'{% elsif page.url == '/' %}class='main-header__nav-item-link'{% endif %}>
+                  {{ item.title }}
+                </a>
+              </li>
+            {% endfor %}
+
           </ul>
-        </div>
+        </nav>
       </div>
     </div>
-  </nav>
+  </div>
 </header>
