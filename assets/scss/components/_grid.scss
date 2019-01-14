@@ -72,6 +72,12 @@
   }
 
   &--about {
+    &-image {
+      @include screen-below(768px) {
+        margin-bottom: 33px;
+      }
+    }
+    
     @include screen-above(1024px) {
       @include update-flex(6);
     }
@@ -83,12 +89,6 @@
 
       &-content {
         @include update-flex(6, 10);
-      }
-    }
-
-    &-image {
-      @include screen-below(768px) {
-        margin-bottom: 33px;
       }
     }
   }
