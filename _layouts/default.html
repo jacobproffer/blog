@@ -4,7 +4,7 @@ layout: compress
 
 {% include head.html %}
 {% include header.html %}
-    <main>
+    <main {% if page.url == '/404.html' or page.url == '/404' %} class="four-oh-four"{% endif %}>
         {{ content }}
     </main>
 {% include footer.html %}

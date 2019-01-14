@@ -11,3 +11,24 @@
   color: $red;
   text-transform: uppercase;
 }
+
+.four-oh-four {
+  text-align: center;
+  padding: 75px 0 0;
+
+  p {
+    margin: 0;
+  }
+
+  span {
+    color: $red;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  @include screen-above(768px) {
+    padding: 110px 0 0;
+  }
+}
