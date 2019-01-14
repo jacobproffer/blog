@@ -1,4 +1,4 @@
-@import 'superior';
+@import "superior";
 
 .container {
   width: 95%;
@@ -72,6 +72,20 @@
   }
 
   &--about {
+    &-image {
+      @include screen-below(768px) {
+        margin-bottom: 33px;
+      }
+    }
+
+    &:first-of-type {
+      order: 2;
+    }
+
+    &:last-of-type {
+      order: 1;
+    }
+
     @include screen-above(1024px) {
       @include update-flex(6);
     }
@@ -83,12 +97,6 @@
 
       &-content {
         @include update-flex(6, 10);
-      }
-    }
-
-    &-image {
-      @include screen-below(768px) {
-        margin-bottom: 33px;
       }
     }
   }

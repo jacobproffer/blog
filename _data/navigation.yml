@@ -1,2 +1,5 @@
-- title: Blog
-  url: blog.html
+navigation-links:
+
+- title: Archive
+  title-lowercase: archive
+  url: /archive
