@@ -66,7 +66,7 @@ layout: default
 
         {% if post.featured != true %}
           <article class="col col--blog__card blog__card">
-            <a href="{{ post.url }}">
+            <a class="blog__post-link" href="{{ post.url }}">
               <div class="blog__card-content {% if post.url == page.url %}blog_card-content--active{% endif %}">
 
                 {% if post.thumbnail %}
