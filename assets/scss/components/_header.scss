@@ -48,7 +48,6 @@
       display: block;
       font-weight: 900;
       line-height: 1;
-      text-decoration: none;
       cursor: pointer;
     }
   }
@@ -68,8 +67,8 @@
     padding: 75px 0 14px;
 
     @include screen-above(768px) {
-      padding: 110px 0 28px;
-    }   
+      padding: 110px 0 20px;
+    }
   }
 
   &--post {
