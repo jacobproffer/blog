@@ -4,20 +4,21 @@ layout: default
 
 <article class="header header--home">
   <div class="container container--wide">
-    <div class="cols cols--header">
+    <div class="grid grid--header">
 
       {% for post in site.posts %}
 
         {% if post.featured %}
-          <div class="header__item header__item--left">
-            <header class="header__content">
+          <div class="header__content">
+            
+            <header>
 
               {% if post.date %}
                 <small class="red">{{ post.date | date: "%B %-d, %Y" }} | {{ post.content | number_of_words }} words</small>
               {% endif %}
 
               {% if post.title %}
-                <h1><a href="{{ post.url }}">{{ post.title}}</a></h1>
+                <h1>{{ post.title}}</h1>
               {% endif%}
 
             </header>
@@ -31,19 +32,17 @@ layout: default
             {% endif %}
 
           </div>
-          <div class="header__item header__item--right">
-            <aside>
+          <aside>
 
-              {% if post.thumbnail %}
-                <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}" />
-              {% endif %}
+            {% if post.thumbnail %}
+              <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}" />
+            {% endif %}
 
-              {% if post.thumbnail-coordinates %}
-                <small class="header__coordinates">{{ post.thumbnail-coordinates }}</small>
-              {% endif %}
+            {% if post.thumbnail-coordinates %}
+              <small class="header__coordinates">{{ post.thumbnail-coordinates }}</small>
+            {% endif %}
 
-            </aside>
-          </div>
+          </aside>
         {% endif %}
 
       {% endfor %}
@@ -60,12 +59,12 @@ layout: default
       <h2>Recent Posts</h2>
     </header>
 
-    <div class="cols">
+    <div class="grid grid--posts">
       
       {% for post in site.categories.travel limit:6 %}
 
         {% if post.featured != true %}
-          <article class="col col--blog__card blog__card">
+          <article class="blog__card">
             <a class="blog__post-link" href="{{ post.url }}">
               <div class="blog__card-content {% if post.url == page.url %}blog_card-content--active{% endif %}">
 
@@ -109,37 +108,33 @@ layout: default
 
 <article class="about">
   <div class="container container--wide">
-    <div class="cols cols--about">
-      <div class="col col--about">
-        <div class="about__content">
+    <div class="grid grid--about">
+      <div class="about__content">
 
-          {% if author.sub-heading or author.heading %}
-            <header>
+        {% if author.sub-heading or author.heading %}
+          <header>
 
-              {% if author.sub-heading %}
-                <small class="red">{{ author.sub-heading }}</small>
-              {% endif %}
+            {% if author.sub-heading %}
+              <small class="red">{{ author.sub-heading }}</small>
+            {% endif %}
 
-              {% if author.heading %}
-                <h2>{{ author.heading }}</h2>
-              {% endif %}
+            {% if author.heading %}
+              <h2>{{ author.heading }}</h2>
+            {% endif %}
 
-            </header>
-          {% endif %}
+          </header>
+        {% endif %}
 
-          {% if author.bio %}
-            <p>{{ author.bio }}</p>
-          {% endif %}
+        {% if author.bio %}
+          <p>{{ author.bio }}</p>
+        {% endif %}
 
-        </div>
       </div>
 
       {% if author.image %}
-        <div class="col col--about col--about-image">
-          <aside>
-            <img src="{{ author.image | absolute_url }}" alt="{{ author.alt }}">
-          </aside>
-        </div>
+        <aside class="about__image">
+          <img src="{{ author.image | absolute_url }}" alt="{{ author.alt }}">
+        </aside>
       {% endif %}
 
     </div>

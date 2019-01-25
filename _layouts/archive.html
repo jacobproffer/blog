@@ -19,10 +19,10 @@ layout: default
       </header>
     {% endif %}
 
-    <div class="cols">
+    <div class="grid grid--posts">
 
       {% for post in site.posts %}
-        <article class="col col--blog__card blog__card">
+        <article class="blog__card">
           <a class="blog__post-link" href="{{ post.url }}">
             <div class="blog__card-content {% if post.url == page.url %}blog_card-content--active{% endif %}">
 

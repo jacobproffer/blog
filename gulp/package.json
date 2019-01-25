@@ -29,8 +29,5 @@
   },
   "eslintIgnore": [
     "../assets/js/lib/**/*.js"
-  ],
-  "dependencies": {
-    "superior-scss": "^3.0.2"
-  }
+  ]
 }

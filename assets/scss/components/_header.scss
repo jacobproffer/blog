@@ -100,7 +100,7 @@
     }
 
     p {
-      max-width: 443px;
+      max-width: 560px;
 
       @include screen-between(768px, 1024px) {
         max-width: 400px;
@@ -109,36 +109,6 @@
 
     @include screen-above(1024px) {
       padding: 110px 0 74px;
-    }
-  }
-
-  &__item {
-    @include make-flex(12);
-    padding: 0 1rem;
-
-    @include screen-between(768px, 1240px) {
-      @include update-flex(6);
-    }
-
-    &--left {
-      @include screen-above(1240px) {
-        @include update-flex(4.6, 10);
-      }
-    }
-
-    &--right {
-      img {
-        display: block;
-        margin: auto 0 auto auto;
-      }
-
-      @include screen-above(1240px) {
-        @include update-flex(5.4, 10);
-      }
-
-      @include screen-below(768px) {
-        display: none;
-      }
     }
   }
 

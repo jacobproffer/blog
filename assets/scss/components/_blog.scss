@@ -58,9 +58,6 @@
   }
 
   &__card {
-    padding: 0 1rem;
-    margin-bottom: 20px;
-
     @include screen-below(640px) {
       &:not(:first-of-type) {
         .blog__card-content {

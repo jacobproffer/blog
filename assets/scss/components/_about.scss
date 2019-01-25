@@ -23,6 +23,9 @@
   }
 
   &__content {
+    grid-area: content;
+    align-self: center;
+
     h2 {
       margin-top: 0;
     }
@@ -42,6 +45,10 @@
     @include screen-between(768px, 1024px) {
       padding-left: 25px;
     }
+  }
+
+  &__image {
+    grid-area: image;
   }
 
   @include screen-above(1024px) {
