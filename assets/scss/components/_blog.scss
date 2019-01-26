@@ -1,15 +1,20 @@
 .blog {
   position: relative;
+  overflow: hidden;
 
   h2 {
     margin-top: 0;
   }
 
   &--home {
-    padding: 104px 0;
+    padding: 52px 0;
 
-    @include screen-below(1024px) {
-      padding: 52px 0;
+    @include screen-between(1280px, 1440px) {
+      padding: 66px 0;
+    }
+
+    @include screen-above(1440px) {
+      padding: 88px 0;
     }
   }
 
@@ -34,7 +39,7 @@
         bottom: -20px;
         width: 100%;
         height: 1px;
-        background-color: #d2d4d7;
+        background-color: $light-gray;
         content: '';
       }
     }
@@ -50,8 +55,29 @@
 }
 
 .featured-post {
-  grid-column: 1 / span 2;
-  grid-row: 1 / span 5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row: 1 / span 6;
   align-self: start;
   justify-self: start;
+
+  header {
+    margin-top: 24px;
+  }
+
+  & > * {
+    grid-column: 1 / -1;
+  }
+
+  @include screen-below(890px) {
+    grid-column: 1 / -1;
+  }
+
+  @include screen-above(890px) {
+    grid-column: 1 / span 2;
+
+    p {
+      grid-column: 1 / span 2;
+    }
+  }
 }

@@ -2,12 +2,28 @@
 layout: default
 ---
 
+{% assign author = site.data.about %}
+
+<section class="intro">
+  <div class="container container--wide">
+    <div class="grid grid--intro">
+
+      {% if author.bio %}
+        <header class="intro__content">
+          <h1>{{ author.bio }}</h1>
+        </header>
+      {% endif %}
+
+    </div>
+  </div>
+</section>
+
 <section class="blog blog--home">
   <div class="container container--wide">
 
     <div class="grid grid--posts">
       
-      {% for post in site.posts limit:5 %}
+      {% for post in site.posts limit:6 %}
 
         {% if post.featured == true %}
 
@@ -19,15 +35,19 @@ layout: default
               </figure>
             {% endif %}
 
-            {% if post.title %}
+            {% if post.url and post.title %}
               <header>
-                <h1>{{ post.title}}</h1>
+                <h2>
+                  <a href="{{ post.url }}">
+                    {{ post.title}}
+                  </a>
+                </h2>
               </header>
             {% endif%}
 
             {% if post.date %}
               <time datetime="{{ post.date }}">
-                {{ post.date | date: "%B %-d, %Y" }}
+                Published on {{ post.date | date: "%B %-d, %Y" }}
               </time>
             {% endif %}
 
@@ -53,7 +73,7 @@ layout: default
 
             {% if post.date %}
               <time datetime="{{ post.date }}">
-                {{ post.date | date: "%B %-d, %Y" }}
+                Published on {{ post.date | date: "%B %-d, %Y" }}
               </time>
             {% endif %}
 
@@ -68,43 +88,5 @@ layout: default
       {% endfor %}
 
     </div>
-    <a class="button button--black" href="/archive">View the Post Archive</a>
   </div>
 </section>
-
-{% assign author = site.data.about %}
-
-<!-- <section class="about">
-  <div class="container container--wide">
-    <div class="grid grid--about">
-      <div class="about__content">
-
-        {% if author.sub-heading or author.heading %}
-          <header>
-
-            {% if author.sub-heading %}
-              <small class="red">{{ author.sub-heading }}</small>
-            {% endif %}
-
-            {% if author.heading %}
-              <h2>{{ author.heading }}</h2>
-            {% endif %}
-
-          </header>
-        {% endif %}
-
-        {% if author.bio %}
-          <p>{{ author.bio }}</p>
-        {% endif %}
-
-      </div>
-
-      {% if author.image %}
-        <figure class="about__image">
-          <img src="{{ author.image | absolute_url }}" alt="{{ author.alt }}">
-        </figure>
-      {% endif %}
-
-    </div>
-  </div>
-</section> -->

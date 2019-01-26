@@ -26,8 +26,7 @@
   grid-gap: 40px;
 
   &--navigation,
-  &--header,
-  &--posts {
+  &--header {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -35,16 +34,19 @@
     align-items: center;
   }
 
+  &--intro,
+  &--posts,
   &--footer {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  &--posts {
-    grid-gap: 40px;
-    grid-template-columns: repeat(3, 1fr);
+  &--intro {
+    grid-gap: 0;
   }
 
-  &--about {
-    grid-template-areas: 'image image content';
+  &--posts {
+    @include screen-below(890px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 }
