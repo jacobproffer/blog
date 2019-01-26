@@ -8,6 +8,10 @@
     line-height: 1;
     color: $red;
     text-align: center;
+
+    @include screen-below(890px) {
+      display: none;
+    }
   }
 
   &__repo-link {
