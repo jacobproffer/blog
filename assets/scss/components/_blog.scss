@@ -5,47 +5,38 @@
     margin-top: 0;
   }
 
-  .button {
-    margin-top: 14px;
-  }
-
-  &::before {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    background-color: $yellow;
-    content: '';
-  }
-
   &--home {
     padding: 104px 0;
-    text-align: center;
-
-    &::before {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: -1;
-      width: 100%;
-      height: 75%;
-      background-color: $yellow;
-      content: '';
-
-      @include screen-between(640px, 1024px) {
-        height: 85%;
-      }
-
-      @include screen-below(640px) {
-        height: 92%;
-      }
-    }
 
     @include screen-below(1024px) {
       padding: 52px 0;
+    }
+  }
+
+  &__card {
+    @include size(100%, auto);
+    position: relative;
+    text-align: left;
+
+    h3 {
+      @include transition(color 300ms ease-in-out);
+    }
+
+    p {
+      margin-bottom: 0;
+      font-weight: 400;
+      color: $black;
+    }
+
+    &:not(:last-of-type) {
+      &::before {
+        position: absolute;
+        bottom: -20px;
+        width: 100%;
+        height: 1px;
+        background-color: #d2d4d7;
+        content: '';
+      }
     }
   }
 
@@ -56,52 +47,11 @@
       }
     }
   }
+}
 
-  &__card {
-    @include screen-below(640px) {
-      &:not(:first-of-type) {
-        .blog__card-content {
-          padding-top: 30px;
-          border-top: 1px solid rgba(0, 0, 0, .1);
-        }
-      }
-    }
-
-    @include screen-between(640px, 1024px) {
-      &:nth-of-type(n + 3) {
-        .blog__card-content {
-          padding-top: 30px;
-          border-top: 1px solid rgba(0, 0, 0, .1);
-        }
-      }
-    }
-
-    @include screen-above(1024px) {
-      &:nth-of-type(n + 4) {
-        .blog__card-content {
-          padding-top: 30px;
-          border-top: 1px solid rgba(0, 0, 0, .1);
-        }
-      }
-    }
-  }
-
-  &__card-content {
-    @include size(100%, auto);
-    text-align: left;
-
-    h3 {
-      @include transition(color 300ms ease-in-out);
-    }
-
-    img {
-      margin-bottom: 26px;
-    }
-
-    p {
-      margin-bottom: 0;
-      font-weight: 400;
-      color: $black;
-    }
-  }
+.featured-post {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 5;
+  align-self: start;
+  justify-self: start;
 }

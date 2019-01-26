@@ -22,9 +22,12 @@ img {
   max-width: 100%;
 }
 
+figure {
+  margin: 0;
+}
+
 a {
   @include transition(color 300ms ease-in-out);
-  font-weight: 900;
   color: $black;
   text-decoration: none;
 
@@ -54,4 +57,14 @@ small {
   font-size: .875rem;
   font-weight: 400;
   color: $red;
+}
+
+small,
+span,
+time {
+  display: block;
+}
+
+time {
+  color: $gray;
 }

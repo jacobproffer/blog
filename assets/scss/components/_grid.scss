@@ -26,7 +26,8 @@
   grid-gap: 40px;
 
   &--navigation,
-  &--header {
+  &--header,
+  &--posts {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -34,8 +35,12 @@
     align-items: center;
   }
 
-  &--posts,
   &--footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &--posts {
+    grid-gap: 40px;
     grid-template-columns: repeat(3, 1fr);
   }
 
