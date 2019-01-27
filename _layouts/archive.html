@@ -4,18 +4,17 @@ layout: default
 
 <section class="blog blog--post">
   <div class="container container--wide">
+    <div class="grid grid--archive">
 
-    {% if page.sub-title or page.title %}
-      <header class="header header--blog">
+      {% if page.sub-title or page.title %}
+        <header class="header header--blog">
 
-        {% if page.title %}
-          <h1>{{ page.title }}</h1>
-        {% endif %}
+          {% if page.title %}
+            <h1>{{ page.title }}</h1>
+          {% endif %}
 
-      </header>
-    {% endif %}
-
-    <div class="grid grid--posts">
+        </header>
+      {% endif %}
 
       {% for post in site.posts %}
         <article class="blog__card">
@@ -30,20 +29,16 @@ layout: default
 
               {% if post.date or post.title %}
                 <header>
-                    
-                  {% if post.date %}
-                    <small class="red">{{ post.date | date: "%B %-d, %Y" }} | {{ post.content | number_of_words }} words</small>
-                  {% endif %}
 
                   {% if post.title %}
-                    <h3>{{ post.title }}</h3>
+                    <h2>{{ post.title }}</h2>
+                  {% endif %}
+
+                  {% if post.date %}
+                    <time datetime="{{ post.date }}">{{ post.date | date: "%B %-d, %Y" }}</time>
                   {% endif %}
 
                 </header>
-              {% endif %}
-
-              {% if post.excerpt %}
-                <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
               {% endif %}
               
             </div>
