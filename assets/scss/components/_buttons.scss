@@ -11,11 +11,11 @@
 
   &--black {
     color: $white;
-    background-color: $black;
+    background-color: $blue;
 
     &:hover {
       color: $black;
-      background-color: $red;
+      background-color: $light-blue;
     }
   }
 

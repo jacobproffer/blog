@@ -6,7 +6,7 @@
 
 ::selection {
   color: $black;
-  background: $yellow;
+  background: $light-blue;
 }
 
 body {
@@ -24,6 +24,10 @@ img {
 
 figure {
   margin: 0;
+
+  img {
+    border-radius: 5px;
+  }
 }
 
 a {
@@ -32,11 +36,11 @@ a {
   text-decoration: none;
 
   &:hover {
-    color: $red;
+    color: $blue;
   }
 
   &.current {
-    color: $red;
+    color: $blue;
 
     &:hover {
       color: $black;
@@ -48,6 +52,7 @@ hr {
   @include size(100%, 1px);
   display: block;
   padding: 0;
+  margin: 2rem 0;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, .1);
 }
@@ -55,7 +60,6 @@ hr {
 small {
   font-size: .875rem;
   font-weight: 400;
-  color: $red;
 }
 
 small,
@@ -64,5 +68,5 @@ time {
 }
 
 time {
-  color: $gray;
+  color: $purple;
 }

@@ -3,8 +3,7 @@ layout: default
 ---
 
 <article class="post">
-  <div class="container container--wide">
-    <div class="grid grid--post">
+  <div class="container container--small">
 
       {% if page.title or page.date %}
         <header>
@@ -25,25 +24,28 @@ layout: default
       {% if content %}
         {{ content }}
       {% endif %}
-  
-    </div>
+      
   </div>
 </article>
 
 <div class="post__pagination">
-  <div class="container container--small">
+  <div class="container container--wide">
+    <div class="grid grid--pagination">
 
-    {% if page.previous.url %}
-      <a class="post__pagination-item post__pagination-item--prev" href="{{page.previous.url}}">
-        Prev Post
-      </a>
-    {% endif %}
+      {% if page.previous.url %}
+        <a class="post__pagination-item post__pagination-item--prev" href="{{page.previous.url}}">
+          Previous Post
+          <span>{{ page.previous.title }}</span>
+        </a>
+      {% endif %}
 
-    {% if page.next.url %}
-      <a class="post__pagination-item post__pagination-item--next" href="{{page.next.url}}">
-        Next Post
-      </a>
-    {% endif %}
+      {% if page.next.url %}
+        <a class="post__pagination-item post__pagination-item--next" href="{{page.next.url}}">
+          Next Post
+          <span>{{ page.next.title }}</span>
+        </a>
+      {% endif %}
 
+    </div>
   </div>
 </div>

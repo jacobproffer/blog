@@ -1,5 +1,5 @@
 ---
-title: "Dedicated to Learn Japanese"
+title: "日本語が大好きです"
 date: 2019-01-23 14:00:00
 layout: post
 description: Eigth month progress report of studying Japanese.

@@ -14,7 +14,7 @@
 
   &.pinned {
     @include transform(translateY(0));
-    background-color: $yellow;
+    background-color: $white;
   }
 
   &__nav {

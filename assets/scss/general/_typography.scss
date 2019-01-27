@@ -1,7 +1,8 @@
 h1 {
   @include font-size($h1-font-sizes);
   padding-bottom: 0;
-  margin: 0;
+  margin: 0 0 20px;
+  line-height: 1.2;
 }
 
 h2 {
@@ -13,6 +14,7 @@ h2 {
 h3 {
   @include font-size($h3-font-sizes);
   margin: 0;
+  line-height: 1.5;
 }
 
 h4 {
@@ -30,11 +32,6 @@ h5 {
 p {
   font-weight: 400;
   line-height: 1.8;
-}
-
-h1,
-h3 {
-  line-height: 1.5;
 }
 
 h1,

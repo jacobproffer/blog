@@ -1,11 +1,18 @@
 .post {
   padding: 118px 0;
 
+  header {
+    margin-bottom: 34px;
+  }
+
+  p {
+    font-size: 1.125rem;
+  }
+
   &__pagination {
-    @include size(100%, auto);
-    @include clearfix;
     position: relative;
-    background-color: $yellow;
+    background-color: $light-gray;
+    border-top: 1px solid $light-blue;
 
     &::before {
       position: absolute;
@@ -13,27 +20,26 @@
       left: 50%;
       width: 1px;
       height: 100%;
-      background-color: rgba(0, 0, 0, .1);
+      background-color: $light-blue;
       content: '';
       transform: translateX(-50%);
     }
   }
 
   &__pagination-item {
-    @include size(50%, auto);
-    padding: 45px 10px;
-    text-align: center;
-
-    &--prev {
-      float: left;
-    }
+    padding: 45px 0;
+    font-size: 1.25rem;
+    font-weight: 700;
 
     &--next {
-      float: right;
+      text-align: right;
+      justify-self: end;
     }
 
-    @include screen-above(1024px) {
-      padding: 90px 20px;
+    span {
+      display: block;
+      font-size: 1rem;
+      font-weight: 400;
     }
   }
 }

@@ -25,7 +25,8 @@
   display: grid;
   grid-gap: 40px;
 
-  &--navigation {
+  &--navigation,
+  &--pagination {
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -42,19 +43,6 @@
   &--posts {
     @include screen-below(890px) {
       grid-template-columns: 1fr;
-    }
-  }
-
-  &--post {
-    grid-gap: 30px;
-    grid-template-columns: repeat(3, 1fr);
-
-    & > * {
-      grid-column: 1 / span 2;
-    }
-
-    p {
-      margin: 0;
     }
   }
 

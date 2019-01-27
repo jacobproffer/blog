@@ -1,12 +1,12 @@
 .footer {
   padding: 54px 0;
-  background-color: $yellow;
+  border-top: 1px solid $light-blue;
 
   &__date {
     padding: 0;
     margin: 0;
     line-height: 1;
-    color: $red;
+    color: $purple;
     text-align: center;
 
     @include screen-below(890px) {
@@ -49,7 +49,7 @@
 
     &:hover {
       svg {
-        fill: $red;
+        fill: $blue;
       }
     }
 
