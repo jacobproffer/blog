@@ -2,24 +2,23 @@
   @include transition(all 300ms ease-in-out);
   display: inline-block;
   padding: 20px;
+  line-height: 1;
   text-transform: uppercase;
   cursor: pointer;
   border: 0;
-  border-radius: 0;
+  border-radius: 5px;
   outline: none;
+  justify-self: start;
+  align-self: center;
   -webkit-appearance: none; // sass-lint:disable-line no-vendor-prefixes
 
-  &--black {
+  &--blue {
     color: $white;
     background-color: $blue;
 
     &:hover {
       color: $black;
-      background-color: $light-blue;
+      background-color: $light-gray;
     }
-  }
-
-  @include screen-above(768px) {
-    padding: 25px 35px;
   }
 }

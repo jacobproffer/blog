@@ -23,7 +23,7 @@ layout: default
 
     <div class="grid grid--posts">
       
-      {% for post in site.posts limit:7 %}
+      {% for post in site.posts limit:6 %}
 
         {% if post.featured == true %}
 
@@ -86,6 +86,8 @@ layout: default
         {% endif %}
 
       {% endfor %}
+
+      <a class="button button--blue" href="/archive">View All Posts</a>
 
     </div>
   </div>

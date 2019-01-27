@@ -7,7 +7,7 @@
   }
 
   &--home {
-    padding: 52px 0 82px;
+    padding: 25px 0 82px;
 
     @include screen-between(890px, 1440px) {
       padding: 66px 0 148px;
@@ -39,14 +39,16 @@
       color: $black;
     }
 
-    &:not(:last-of-type) {
-      &::before {
-        position: absolute;
-        bottom: -20px;
-        width: 100%;
-        height: 1px;
-        background-color: $light-blue;
-        content: '';
+    &::before {
+      position: absolute;
+      bottom: -20px;
+      width: 100%;
+      height: 1px;
+      background-color: $light-blue;
+      content: '';
+
+      @include screen-above(1440px) {
+        bottom: -14px;
       }
     }
   }
