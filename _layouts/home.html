@@ -18,7 +18,7 @@ layout: default
   </div>
 </section>
 
-<section class="blog blog--home">
+<section class="blog">
   <div class="container container--wide">
 
     <div class="grid grid--posts">
@@ -52,7 +52,13 @@ layout: default
             {% endif %}
 
             {% if post.excerpt %}
-              <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
+              <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+            {% endif %}
+
+            {% if post.categories %}
+              <footer>
+                <span class="category">{{ post.categories }}</span>
+              </footer>
             {% endif %}
 
           </article>

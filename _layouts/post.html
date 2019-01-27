@@ -24,6 +24,12 @@ layout: default
       {% if content %}
         {{ content }}
       {% endif %}
+
+      {% if page.categories %}
+        <footer>
+          <span class="category">{{ page.categories }}</span>
+        </footer>
+      {% endif %}
       
   </div>
 </article>

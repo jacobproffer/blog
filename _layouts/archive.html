@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<section class="blog blog--post">
+<section class="archive">
   <div class="container container--wide">
     <div class="grid grid--archive">
 
       {% if page.sub-title or page.title %}
-        <header class="header header--blog">
+        <header class="archive__header">
 
           {% if page.title %}
             <h1>{{ page.title }}</h1>
@@ -17,32 +17,38 @@ layout: default
       {% endif %}
 
       {% for post in site.posts %}
-        <article class="blog__card">
-          <a class="blog__post-link" href="{{ post.url }}">
-            <div class="blog__card-content {% if post.url == page.url %}blog_card-content--active{% endif %}">
+        <article class="archive__card">
 
-              {% if post.thumbnail %}
-                <aside>
-                  <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}">
-                </aside>
+          {% if post.thumbnail %}
+            <figure>
+              <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}">
+            </figure>
+          {% endif %}
+
+          {% if post.date or post.title %}
+            <header>
+
+              {% if post.title %}
+                <h3>{{ post.title }}</h3>
               {% endif %}
 
-              {% if post.date or post.title %}
-                <header>
-
-                  {% if post.title %}
-                    <h2>{{ post.title }}</h2>
-                  {% endif %}
-
-                  {% if post.date %}
-                    <time datetime="{{ post.date }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-                  {% endif %}
-
-                </header>
+              {% if post.date %}
+                <time datetime="{{ post.date }}">{{ post.date | date: "%B %-d, %Y" }}</time>
               {% endif %}
-              
-            </div>
-          </a>
+
+            </header>
+          {% endif %}
+
+          {% if post.excerpt %}
+            <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
+          {% endif %}
+
+          {% if post.categories %}
+            <footer>
+              <span class="category">{{ post.categories }}</span>
+            </footer>
+          {% endif %}          
+
         </article>
       {% endfor %}
 

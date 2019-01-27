@@ -9,6 +9,10 @@
     font-size: 1.125rem;
   }
 
+  footer {
+    margin-top: 40px;
+  }
+
   &__pagination {
     position: relative;
     background-color: $light-gray;
@@ -40,6 +44,7 @@
       display: block;
       font-size: 1rem;
       font-weight: 400;
+      color: $purple;
     }
   }
 }

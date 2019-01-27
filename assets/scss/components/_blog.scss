@@ -1,21 +1,10 @@
 .blog {
   position: relative;
+  padding: 25px 0 82px;
   overflow: hidden;
 
   h2 {
     margin: 0 0 16px;
-  }
-
-  &--home {
-    padding: 25px 0 82px;
-
-    @include screen-between(890px, 1440px) {
-      padding: 66px 0 148px;
-    }
-
-    @include screen-above(1440px) {
-      padding: 88px 0 148px;
-    }
   }
 
   &__card {
@@ -51,6 +40,10 @@
         bottom: -14px;
       }
     }
+  }
+
+  @include screen-above(890px) {
+    padding: 66px 0 148px;
   }
 }
 
