@@ -1,15 +1,5 @@
 .post {
-  &__content {
-    padding-bottom: 25px;
-
-    p {
-      @include font-size($p-font-sizes);
-    }
-
-    @include screen-above(1024px) {
-      padding-bottom: 75px;
-    }
-  }
+  padding: 118px 0;
 
   &__pagination {
     @include size(100%, auto);

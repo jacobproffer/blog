@@ -48,7 +48,6 @@ hr {
   @include size(100%, 1px);
   display: block;
   padding: 0;
-  margin: 2em 0;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, .1);
 }
@@ -60,7 +59,6 @@ small {
 }
 
 small,
-span,
 time {
   display: block;
 }
