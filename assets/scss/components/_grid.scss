@@ -12,10 +12,6 @@
     }
   }
 
-  &--mid {
-    max-width: 1024px;
-  }
-
   &--wide {
     max-width: 1440px;
   }
@@ -30,15 +26,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  &--intro,
   &--archive,
   &--posts,
   &--footer {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  &--intro {
-    grid-gap: 0;
   }
 
   &--posts {
