@@ -11,19 +11,6 @@
   transform: #{$args};
 }
 
-@mixin gradient-horizontal($from-color: #0090cd, $to-color: #dd5cf1) {
-  background: linear-gradient(to right, $from-color 0%, $to-color 100%); // W3C
-}
-
-@mixin gradient-vertical($from-color: #0090cd, $to-color: #dd5cf1) {
-  background: linear-gradient(to bottom, $from-color 0%, $to-color 100%); // W3C
-}
-
-@mixin background-cover {
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 @mixin absolute($top: auto, $right: auto, $bottom: auto, $left: auto) {
   position: absolute;
   top: $top;
@@ -32,47 +19,8 @@
   left: $left;
 }
 
-@mixin ratio($width: 1, $height: 1) {
-  position: relative;
-
-  &::before {
-    display: block;
-    width: 100%;
-    padding-top: ($height / $width) * 100%;
-    content: '';
-  }
-
-  > .content,
-  > .inside {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-}
-
-@mixin clearfix {
-  &::after {
-    display: table;
-    clear: both;
-    content: '';
-  }
-}
-
 @mixin transition($args) {
   transition: #{$args};
-}
-
-@mixin vertical-align {
-  position: absolute;
-  top: 50%;
-  @include transform(translateY(-50%));
-}
-@mixin horizontal-align {
-  position: absolute;
-  left: 50%;
-  @include transform(translateX(-50%));
 }
 
 @mixin screen-above($screen-size) {
