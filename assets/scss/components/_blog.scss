@@ -1,6 +1,5 @@
 .blog {
   position: relative;
-  padding: 118px 0;
   overflow: hidden;
 
   .button {
@@ -10,12 +9,17 @@
   }
 
   &__header {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     grid-column: 1 / -1;
 
     h1 {
-      grid-column: 1 / span 2;
+      @include screen-above(890px) {
+        grid-column: 1 / span 2;
+      }
+    }
+
+    @include screen-above(890px) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 
