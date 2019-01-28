@@ -1,8 +1,8 @@
 .spacing {
-  padding: 0 0 14px;
+  padding: 90px 0;
 
-  @include screen-above(1024px) {
-    padding: 0 0 74px;
+  @include screen-above(768px) {
+    padding: 118px 0;
   }
 }
 
