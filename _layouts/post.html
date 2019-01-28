@@ -13,8 +13,8 @@ layout: default
           {% endif %}
 
           {% if page.date %}
-            <time datetime="{{ page.date }}">
-              Published on {{ page.date | date: '%B %d, %Y' }}
+            <time datetime="{{ page.date | date: '%Y-%m-%d' }}">
+              {{ page.date | date: '%B %d, %Y' }}
             </time>
           {% endif %}
             

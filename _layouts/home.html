@@ -38,8 +38,8 @@ layout: default
             {% endif%}
 
             {% if post.date %}
-              <time datetime="{{ post.date }}">
-                Published on {{ post.date | date: "%B %-d, %Y" }}
+              <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
+                {{ post.date | date: "%B %-d, %Y" }}
               </time>
             {% endif %}
 
@@ -70,8 +70,8 @@ layout: default
             {% endif %}
 
             {% if post.date %}
-              <time datetime="{{ post.date }}">
-                Published on {{ post.date | date: "%B %-d, %Y" }}
+              <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
+                {{ post.date | date: "%B %-d, %Y" }}
               </time>
             {% endif %}
 

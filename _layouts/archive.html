@@ -36,7 +36,7 @@ layout: default
               {% endif %}
 
               {% if post.date %}
-                <time datetime="{{ post.date }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+                <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time>
               {% endif %}
 
             </header>
