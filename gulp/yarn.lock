@@ -4414,10 +4414,6 @@ strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
 
-superior-scss@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/superior-scss/-/superior-scss-3.0.2.tgz#53c14249259d3bc57ce578b523356b8393ef1aaf"
-
 supports-color@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-0.2.0.tgz#d92de2694eb3f67323973d7ae3d8b55b4c22190a"
