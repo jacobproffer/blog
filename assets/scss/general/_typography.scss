@@ -1,24 +1,26 @@
 h1 {
   @include font-size($h1-font-sizes);
   padding-bottom: 0;
-  margin: 0;
+  margin: 0 0 20px;
+  line-height: 1.2;
 }
 
 h2 {
   @include font-size($h2-font-sizes);
-  margin-bottom: 32px;
+  margin: 0 0 16px;
   line-height: 1;
 }
 
 h3 {
   @include font-size($h3-font-sizes);
   margin: 0;
+  line-height: 1.5;
 }
 
 h4 {
   @include font-size($h4-font-sizes);
   margin: 0;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h5 {
@@ -33,15 +35,10 @@ p {
 }
 
 h1,
-h3 {
-  line-height: 1.5;
-}
-
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Source Sans Pro', serif;
 }

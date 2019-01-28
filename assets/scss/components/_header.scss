@@ -14,7 +14,7 @@
 
   &.pinned {
     @include transform(translateY(0));
-    background-color: $yellow;
+    background-color: $white;
   }
 
   &__nav {
@@ -46,7 +46,6 @@
       @include transition(all 300ms ease-in-out);
       position: relative;
       display: block;
-      font-weight: 900;
       line-height: 1;
       cursor: pointer;
     }
@@ -54,103 +53,5 @@
 
   @include screen-above(768px) {
     padding: 50px 0;
-  }
-}
-
-.header {
-  position: relative;
-  padding: 75px 0 50px;
-  overflow: hidden;
-  text-align: center;
-
-  &--blog {
-    padding: 75px 0 14px;
-
-    @include screen-above(768px) {
-      padding: 110px 0 20px;
-    }
-  }
-
-  &--post {
-    padding: 75px 0 0;
-
-    @include screen-above(768px) {
-      padding: 110px 0 0;
-    }
-  }
-
-  &--home {
-    text-align: left;
-
-    &::before {
-      @include transition(width 300ms ease-in-out);
-      @include size(65%, 100%);
-      @include absolute(0, 0, 0, 0);
-      z-index: -1;
-      background-color: #ffb507;
-      content: '';
-
-      @include screen-below(768px) {
-        @include size(100%);
-      }
-
-      @include screen-above(1240px) {
-        @include size(68%, 100%);
-      }
-    }
-
-    p {
-      max-width: 443px;
-
-      @include screen-between(768px, 1024px) {
-        max-width: 400px;
-      }
-    }
-
-    @include screen-above(1024px) {
-      padding: 110px 0 74px;
-    }
-  }
-
-  &__item {
-    @include make-flex(12);
-    padding: 0 1rem;
-
-    @include screen-between(768px, 1240px) {
-      @include update-flex(6);
-    }
-
-    &--left {
-      @include screen-above(1240px) {
-        @include update-flex(4.6, 10);
-      }
-    }
-
-    &--right {
-      img {
-        display: block;
-        margin: auto 0 auto auto;
-      }
-
-      @include screen-above(1240px) {
-        @include update-flex(5.4, 10);
-      }
-
-      @include screen-below(768px) {
-        display: none;
-      }
-    }
-  }
-
-  &__content {
-    @include screen-between(1024px, 1240px) {
-      padding-right: 40px;
-    }
-  }
-
-  &__coordinates {
-    display: block;
-    margin-top: 20px;
-    text-align: right;
   }
 }

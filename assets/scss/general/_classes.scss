@@ -6,22 +6,12 @@
   }
 }
 
-.red {
-  line-height: 1.5;
-  color: $red;
-  text-transform: uppercase;
-}
-
 .four-oh-four {
   padding: 75px 0 0;
   text-align: center;
 
   p {
     margin: 0;
-  }
-
-  span {
-    color: $red;
   }
 
   h1 {
@@ -31,4 +21,10 @@
   @include screen-above(768px) {
     padding: 110px 0 0;
   }
+}
+
+.category {
+  padding: 5px 10px;
+  background-color: $light-blue;
+  border-radius: 5px;
 }

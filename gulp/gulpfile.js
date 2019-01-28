@@ -31,8 +31,7 @@ gulp.task("sass", ["sass-lint"], function() {
     .src("../assets/scss/**/*.scss")
     .pipe(
       sass({
-        outputStyle: "compressed",
-        includePaths: ["node_modules/superior-scss/src"]
+        outputStyle: "compressed"
       }).on("error", sass.logError)
     )
     .pipe(prefix("last 2 versions"))
@@ -72,7 +71,7 @@ gulp.task("serve", ["sass", "js"], function() {
     server: {
       baseDir: siteRoot
     },
-    browser: "Google Chrome"
+    browser: "Firefox"
   });
 
   gulp.watch("../assets/scss/**/*.scss", ["sass"]);
