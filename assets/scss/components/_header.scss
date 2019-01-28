@@ -55,23 +55,3 @@
     padding: 50px 0;
   }
 }
-
-.header {
-  position: relative;
-  padding: 75px 0 50px;
-  overflow: hidden;
-
-  &--blog {
-    padding: 75px 0 14px;
-
-    @include screen-above(768px) {
-      padding: 110px 0 20px;
-    }
-  }
-
-  &__content {
-    @include screen-between(1024px, 1240px) {
-      padding-right: 40px;
-    }
-  }
-}

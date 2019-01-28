@@ -7,7 +7,7 @@ h1 {
 
 h2 {
   @include font-size($h2-font-sizes);
-  margin-bottom: 32px;
+  margin: 0 0 16px;
   line-height: 1;
 }
 

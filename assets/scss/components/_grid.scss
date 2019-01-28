@@ -47,6 +47,13 @@
     }
   }
 
+  &--archive {
+    @include screen-below(670px) {
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+    }
+  }
+
   &--footer {
     @include screen-below(890px) {
       grid-template-columns: 1fr 1fr;

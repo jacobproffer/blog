@@ -3,8 +3,10 @@
   padding: 25px 0 82px;
   overflow: hidden;
 
-  h2 {
-    margin: 0 0 16px;
+  .button {
+    @include screen-below(890px) {
+      margin-top: 10px;
+    }
   }
 
   &__card {
@@ -36,14 +38,18 @@
       background-color: $light-blue;
       content: '';
 
+      @include screen-between(890px, 1440px) {
+        bottom: -15px;
+      }
+
       @include screen-above(1440px) {
-        bottom: -14px;
+        bottom: -10px;
       }
     }
   }
 
   @include screen-above(890px) {
-    padding: 66px 0 148px;
+    padding: 40px 0 148px;
   }
 }
 
@@ -55,7 +61,7 @@
   justify-self: start;
 
   header {
-    margin-top: 24px;
+    margin-top: 40px;
   }
 
   & > * {

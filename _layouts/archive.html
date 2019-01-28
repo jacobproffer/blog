@@ -4,32 +4,35 @@ layout: default
 
 <section class="archive">
   <div class="container container--wide">
-    <div class="grid grid--archive">
 
-      {% if page.sub-title or page.title %}
-        <header class="archive__header">
+    {% if page.sub-title or page.title %}
+      <header class="archive__header">
 
-          {% if page.title %}
-            <h1>{{ page.title }}</h1>
-          {% endif %}
+        {% if page.title %}
+          <h1>{{ page.title }}</h1>
+        {% endif %}
 
-        </header>
-      {% endif %}
+      </header>
+    {% endif %}
 
-      {% for post in site.posts %}
-        <article class="archive__card">
+    {% for post in site.posts %}
+      <article class="archive__card grid grid--archive">
 
-          {% if post.thumbnail %}
-            <figure>
-              <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}">
-            </figure>
-          {% endif %}
+        {% if post.thumbnail %}
+          <figure>
+            <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}">
+          </figure>
+        {% endif %}
+
+        <div class="archive__card-content">
 
           {% if post.date or post.title %}
             <header>
 
-              {% if post.title %}
-                <h3>{{ post.title }}</h3>
+              {% if post.url and post.title %}
+                <h2>
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                </h2>
               {% endif %}
 
               {% if post.date %}
@@ -40,18 +43,19 @@ layout: default
           {% endif %}
 
           {% if post.excerpt %}
-            <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 100 }}</p>
+            <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 220 }}</p>
           {% endif %}
 
           {% if post.categories %}
             <footer>
               <span class="category">{{ post.categories }}</span>
             </footer>
-          {% endif %}          
+          {% endif %}
 
-        </article>
-      {% endfor %}
+        </div>
 
-    </div>
+      </article>
+    {% endfor %}
+
   </div>
 </section>

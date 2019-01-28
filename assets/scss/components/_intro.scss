@@ -1,5 +1,5 @@
 .intro {
-  padding: 66px 0 0;
+  padding: 118px 0 0;
 
   &__content {
     grid-column: 1 / -1;
@@ -7,9 +7,5 @@
     @include screen-above(768px) {
       grid-column: 1 / span 2;
     }
-  }
-
-  @include screen-above(768px) {
-    padding: 118px 0 0;
   }
 }
