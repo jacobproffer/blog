@@ -4,24 +4,16 @@ layout: default
 
 {% assign author = site.data.about %}
 
-<section class="intro">
-  <div class="container container--wide">
-    <div class="grid grid--intro">
-
-      {% if author.bio %}
-        <header class="intro__content">
-          <h1>{{ author.bio }}</h1>
-        </header>
-      {% endif %}
-
-    </div>
-  </div>
-</section>
-
 <section class="blog">
   <div class="container container--wide">
 
     <div class="grid grid--posts">
+
+      {% if author.bio %}
+        <header class="blog__header">
+          <h1>{{ author.bio }}</h1>
+        </header>
+      {% endif %}
       
       {% for post in site.posts limit:6 %}
 
