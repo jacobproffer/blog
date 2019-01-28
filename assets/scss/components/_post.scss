@@ -5,6 +5,16 @@
     margin-bottom: 34px;
   }
 
+  a {
+    color: $blue;
+    text-decoration: underline;
+    transition: color 300ms ease-in-out;
+
+    &:hover {
+      color: $purple;
+    }
+  }
+
   p {
     font-size: 1.125rem;
   }
