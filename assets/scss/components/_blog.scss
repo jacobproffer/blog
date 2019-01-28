@@ -1,11 +1,25 @@
 .blog {
   position: relative;
-  padding: 25px 0 82px;
   overflow: hidden;
 
   .button {
     @include screen-below(890px) {
       margin-top: 10px;
+    }
+  }
+
+  &__header {
+    grid-column: 1 / -1;
+
+    h1 {
+      @include screen-above(890px) {
+        grid-column: 1 / span 2;
+      }
+    }
+
+    @include screen-above(890px) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 
@@ -47,16 +61,12 @@
       }
     }
   }
-
-  @include screen-above(890px) {
-    padding: 40px 0 148px;
-  }
 }
 
 .featured-post {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-row: 1 / span 6;
+  grid-row: 2 / span 6;
   align-self: start;
   justify-self: start;
 
