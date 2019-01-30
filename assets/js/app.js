@@ -1,6 +1,7 @@
+/* eslint-disable no-undef */
+var bLazy = new Blazy();
 var mainHeader = document.querySelector(".main-header");
 var headerHeight = mainHeader.offsetHeight;
-/* eslint-disable no-undef */
 var headroom = new Headroom(mainHeader, {
   offset: 0,
   tolerance: 0,
