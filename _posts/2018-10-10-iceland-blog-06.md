@@ -18,9 +18,9 @@ Towards the middle of Road 417, Myles and I came across a weathered neon orange 
 
 ---
 
-![Blafjallavegur]({{ "dist/img/blafjallavegur_1.jpg" | absolute_url }})
-![View from shelter in Blafjallavegur]({{ "dist/img/blafjallavegur_2.jpg" | absolute_url }})
-![Blafjallavegur]({{ "dist/img/blafjallavegur_3.jpg" | absolute_url }})
+![Blafjallavegur.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/blafjallavegur_1.jpg"}
+![Blafjallavegur.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/blafjallavegur_2.jpg"}
+![Blafjallavegur.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/blafjallavegur_3.jpg"}
 
 ---
 

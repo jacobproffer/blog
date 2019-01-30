@@ -20,9 +20,9 @@ Myles and I took a few photographs and proceed on a trail to higher elevation. W
 
 ---
 
-![Sjónarsker]({{ "dist/img/sjonarsker_1.jpg" | absolute_url }})
-![Sjónarsker]({{ "dist/img/sjonarsker_2.jpg" | absolute_url }})
-![Sjónarsker]({{ "dist/img/sjonarsker_3.jpg" | absolute_url }})
+![Sjónarsker.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/sjonarsker_1.jpg"}
+![Sjónarsker.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/sjonarsker_2.jpg"}
+![Sjónarsker.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/sjonarsker_3.jpg"}
 
 ---
 

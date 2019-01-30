@@ -20,7 +20,7 @@ Myles and I spent about a half hour at Seljalandsfoss before we moved onto the n
 
 ---
 
-![Seljalandsfoss]({{ "dist/img/seljalandsfoss.jpg" | absolute_url }})
+![Seljalandsfoss.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/seljalandsfoss.jpg"}
 
 ---
 
@@ -30,8 +30,8 @@ With an almost two hundred foot drop from the top, the base of Skógafoss is an 
 
 ---
 
-![Skógafoss]({{ "dist/img/skogafoss_1.jpg" | absolute_url }})
-![Steps to the top of Skógafoss]({{ "dist/img/skogafoss_2.jpg" | absolute_url }})
+![Skógafoss.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/skogafoss_1.jpg"}
+![Steps to the top of Skógafoss.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/skogafoss_2.jpg"}
 
 ---
 
@@ -41,7 +41,7 @@ Myles and I both raced down to the plane, as at that point and time, we were the
 
 ---
 
-![Sólheimasandur plane crash]({{ "dist/img/plane_wreck_1.jpg" | absolute_url }})
+![Sólheimasandur plane crash.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/plane_wreck_1.jpg"}
 
 ---
 
@@ -53,8 +53,8 @@ We walked towards the cliff edge near the right side of the lighthouse, which pr
 
 ---
 
-![Dyrhólaey]({{ "dist/img/dyrholaey_1.jpg" | absolute_url }})
-![Dyrhólaey]({{ "dist/img/dyrholaey_2.jpg" | absolute_url }})
+![Dyrhólaey.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/dyrholaey_1.jpg"}
+![Dyrhólaey.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/dyrholaey_2.jpg"}
 
 ---
 
@@ -64,7 +64,7 @@ The worn path was stable and easy to traverse. Though as we got higher, the wind
 
 ---
 
-![Myles Kedrowski along a sketchy ridge]({{ "dist/img/ridge.jpg" | absolute_url }})
+![Myles Kedrowski along a narrow ridge.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/ridge.jpg"}
 
 ---
 
@@ -74,8 +74,8 @@ Out along the beach, the waves crashed along the shoreline as a light rain fell.
 
 ---
 
-![Myles Kedrowski at Reynisfjara]({{ "dist/img/reynisfjara_1.jpg" | absolute_url }})
-![Reynisfjara]({{ "dist/img/reynisfjara_2.jpg" | absolute_url }})
+![Myles Kedrowski at Reynisfjara.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/reynisfjara_1.jpg"}
+![Reynisfjara.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/reynisfjara_2.jpg"}
 
 ---
 
