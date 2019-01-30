@@ -20,7 +20,12 @@ layout: default
 
         {% if post.thumbnail %}
           <figure>
-            <img src="{{ post.thumbnail | absolute_url }}" alt="{{ post.thumbnail-caption }}">
+            <img
+              class="b-lazy"
+              src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+              data-src="{{ post.thumbnail | absolute_url }}"
+              alt="{{ post.thumbnail-caption }}"
+            >
           </figure>
         {% endif %}
 

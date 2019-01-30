@@ -11,6 +11,7 @@ var eslint = require("gulp-eslint");
 var browserSync = require("browser-sync").create();
 var scripts = [
   "../assets/js/lib/headroom/headroom.min.js",
+  "../assets/js/lib/blazy/blazy.min.js",
   "../assets/js/app.js"
 ];
 
