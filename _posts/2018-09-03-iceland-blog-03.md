@@ -20,8 +20,8 @@ Myles and I ventured through Almannagja next. The fault line marks the eastern b
 
 ---
 
-![Þingvellir]({{ "dist/img/thingvellir_1.jpg" | absolute_url }})
-![Þingvellir]({{ "dist/img/thingvellir_2.jpg" | absolute_url }})
+![Þingvellir.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/thingvellir_1.jpg"}
+![Þingvellir.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/thingvellir_2.jpg"}
 
 ---
 
@@ -33,7 +33,7 @@ Strokkur erupts every eight minutes, an impressive sight. The spout can shoot up
 
 ---
 
-![Bláskógabyggð]({{ "dist/img/geysir.jpg" | absolute_url }})
+![Bláskógabyggð.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/geysir.jpg"}
 
 ---
 
@@ -45,8 +45,8 @@ Unlike waterfalls such as Seljalandsfoss, there's an overlook for Gullfoss. The 
 
 ---
 
-![Gullfoss]({{ "dist/img/gullfoss_1.jpg" | absolute_url }})
-![Gullfoss]({{ "dist/img/gullfoss_2.jpg" | absolute_url }})
+![Gullfoss.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/gullfoss_1.jpg"}
+![Gullfoss.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/dist/img/gullfoss_2.jpg"}
 
 ---
 
