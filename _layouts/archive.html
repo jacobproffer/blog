@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<section class="archive spacing">
+<section class="archive spacing" role="region" aria-labelledby="archive-title">
   <div class="container container--wide">
 
     {% if page.sub-title or page.title %}
       <header class="archive__header">
 
         {% if page.title %}
-          <h1>{{ page.title }}</h1>
+          <h1 id="archive-title">{{ page.title }}</h1>
         {% endif %}
 
       </header>
