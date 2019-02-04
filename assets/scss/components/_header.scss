@@ -59,11 +59,9 @@
     }
 
     a {
-      @include transition(all 300ms ease-in-out);
       position: relative;
       display: block;
       line-height: 1;
-      cursor: pointer;
     }
   }
 

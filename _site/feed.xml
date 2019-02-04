@@ -3,9 +3,9 @@
 
     <channel>
         <title>Jacob Proffer</title>
-        <link>http://localhost:4000</link>
+        <link>http://localhost:3000</link>
         <description>Jacob Proffer is a Front-End Developer working at Elegant Seagulls in Marquette, Michigan.</description>
-        <lastBuildDate>Mon, 04 Feb 2019 14:51:33 -0500</lastBuildDate>
+        <lastBuildDate>Mon, 04 Feb 2019 18:12:57 -0500</lastBuildDate>
         
         <item>
             <description>
@@ -13,7 +13,7 @@
             </description>
             <pubDate>Sun, 27 Jan 2019 09:00:00 -0500</pubDate>
             <guid>
-                http://localhost:4000/education/i-love-japanese/
+                http://localhost:3000/education/i-love-japanese/
             </guid>
         </item>
         
@@ -23,7 +23,7 @@
             </description>
             <pubDate>Thu, 06 Dec 2018 09:00:00 -0500</pubDate>
             <guid>
-                http://localhost:4000/travel/norway-blog-03/
+                http://localhost:3000/travel/norway-blog-03/
             </guid>
         </item>
         
@@ -33,7 +33,7 @@
             </description>
             <pubDate>Thu, 29 Nov 2018 09:00:00 -0500</pubDate>
             <guid>
-                http://localhost:4000/travel/norway-blog-02/
+                http://localhost:3000/travel/norway-blog-02/
             </guid>
         </item>
         
@@ -43,7 +43,7 @@
             </description>
             <pubDate>Thu, 22 Nov 2018 09:00:00 -0500</pubDate>
             <guid>
-                http://localhost:4000/travel/norway-blog-01/
+                http://localhost:3000/travel/norway-blog-01/
             </guid>
         </item>
         
@@ -53,7 +53,7 @@
             </description>
             <pubDate>Wed, 24 Oct 2018 10:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/travel/norway-blog-00/
+                http://localhost:3000/travel/norway-blog-00/
             </guid>
         </item>
         
@@ -63,7 +63,7 @@
             </description>
             <pubDate>Mon, 15 Oct 2018 10:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/travel/iceland-blog-07/
+                http://localhost:3000/travel/iceland-blog-07/
             </guid>
         </item>
         
@@ -73,7 +73,7 @@
             </description>
             <pubDate>Wed, 10 Oct 2018 10:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/travel/iceland-blog-06/
+                http://localhost:3000/travel/iceland-blog-06/
             </guid>
         </item>
         
@@ -83,7 +83,7 @@
             </description>
             <pubDate>Wed, 19 Sep 2018 10:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/travel/iceland-blog-05/
+                http://localhost:3000/travel/iceland-blog-05/
             </guid>
         </item>
         
@@ -93,7 +93,7 @@
             </description>
             <pubDate>Sun, 16 Sep 2018 10:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/travel/iceland-blog-04/
+                http://localhost:3000/travel/iceland-blog-04/
             </guid>
         </item>
         
@@ -103,7 +103,7 @@
             </description>
             <pubDate>Mon, 03 Sep 2018 10:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/travel/iceland-blog-03/
+                http://localhost:3000/travel/iceland-blog-03/
             </guid>
         </item>
         
@@ -113,7 +113,7 @@
             </description>
             <pubDate>Sun, 26 Aug 2018 10:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/travel/iceland-blog-02/
+                http://localhost:3000/travel/iceland-blog-02/
             </guid>
         </item>
         
@@ -123,7 +123,7 @@
             </description>
             <pubDate>Sun, 29 Jul 2018 10:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/education/hiragana-progress/
+                http://localhost:3000/education/hiragana-progress/
             </guid>
         </item>
         
@@ -133,7 +133,7 @@
             </description>
             <pubDate>Wed, 27 Jun 2018 10:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/education/learning-hiragana/
+                http://localhost:3000/education/learning-hiragana/
             </guid>
         </item>
         
@@ -143,7 +143,7 @@
             </description>
             <pubDate>Sun, 10 Jun 2018 10:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/travel/iceland-blog-01/
+                http://localhost:3000/travel/iceland-blog-01/
             </guid>
         </item>
         
@@ -153,7 +153,7 @@
             </description>
             <pubDate>Sun, 13 May 2018 10:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/travel/iceland-blog-00/
+                http://localhost:3000/travel/iceland-blog-00/
             </guid>
         </item>
         
@@ -163,7 +163,7 @@
             </description>
             <pubDate>Mon, 07 May 2018 10:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/travel/japan-blog-08/
+                http://localhost:3000/travel/japan-blog-08/
             </guid>
         </item>
         
@@ -173,7 +173,7 @@
             </description>
             <pubDate>Sun, 29 Apr 2018 10:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/travel/japan-blog-07/
+                http://localhost:3000/travel/japan-blog-07/
             </guid>
         </item>
         
@@ -183,7 +183,7 @@
             </description>
             <pubDate>Tue, 10 Apr 2018 10:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/travel/japan-blog-06/
+                http://localhost:3000/travel/japan-blog-06/
             </guid>
         </item>
         
@@ -193,7 +193,7 @@
             </description>
             <pubDate>Sun, 01 Apr 2018 10:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/travel/japan-blog-05/
+                http://localhost:3000/travel/japan-blog-05/
             </guid>
         </item>
         
@@ -205,7 +205,7 @@
             </description>
             <pubDate>Sun, 25 Mar 2018 10:00:00 -0400</pubDate>
             <guid>
-                http://localhost:4000/travel/japan-blog-04/
+                http://localhost:3000/travel/japan-blog-04/
             </guid>
         </item>
         
@@ -215,7 +215,7 @@
             </description>
             <pubDate>Mon, 08 Jan 2018 09:00:00 -0500</pubDate>
             <guid>
-                http://localhost:4000/travel/japan-blog-03/
+                http://localhost:3000/travel/japan-blog-03/
             </guid>
         </item>
         
@@ -225,7 +225,7 @@
             </description>
             <pubDate>Thu, 28 Dec 2017 09:00:00 -0500</pubDate>
             <guid>
-                http://localhost:4000/travel/japan-blog-02/
+                http://localhost:3000/travel/japan-blog-02/
             </guid>
         </item>
         
@@ -237,7 +237,7 @@
             </description>
             <pubDate>Tue, 12 Dec 2017 09:00:00 -0500</pubDate>
             <guid>
-                http://localhost:4000/travel/japan-blog-01/
+                http://localhost:3000/travel/japan-blog-01/
             </guid>
         </item>
         
@@ -249,7 +249,7 @@
             </description>
             <pubDate>Mon, 13 Nov 2017 16:00:00 -0500</pubDate>
             <guid>
-                http://localhost:4000/travel/japan-blog-00/
+                http://localhost:3000/travel/japan-blog-00/
             </guid>
         </item>
         
