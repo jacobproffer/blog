@@ -51,6 +51,7 @@ a {
 
   &.current {
     color: $blue;
+    text-decoration: underline;
 
     &:hover {
       color: $black;
