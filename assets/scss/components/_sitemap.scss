@@ -1,0 +1,15 @@
+.site-map {
+  header {
+    margin-bottom: 54px;
+  }
+
+  h2 {
+    margin-bottom: 46px;
+  }
+
+  li {
+    &:not(:first-of-type) {
+      margin-top: 15px;
+    }
+  }
+}

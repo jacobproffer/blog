@@ -4,13 +4,7 @@
   }
 
   a {
-    color: $blue;
     text-decoration: underline;
-    transition: color 300ms ease-in-out;
-
-    &:hover {
-      color: $purple;
-    }
   }
 
   p {

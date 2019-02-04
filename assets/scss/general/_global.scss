@@ -36,12 +36,12 @@ figure {
 }
 
 a {
-  color: $black;
+  color: $blue;
   text-decoration: none;
   transition: color 300ms ease-in-out, outline 300ms ease-in-out;
 
   &:hover {
-    color: $blue;
+    color: $black;
     outline: dotted 1px $blue;
   }
 
