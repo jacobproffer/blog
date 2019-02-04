@@ -6,7 +6,6 @@
   cursor: pointer;
   border: 0;
   border-radius: 5px;
-  outline: none;
   justify-self: start;
   align-self: center;
   -webkit-appearance: none; // sass-lint:disable-line no-vendor-prefixes
@@ -18,6 +17,10 @@
     &:hover {
       color: $black;
       background-color: $light-blue;
+    }
+
+    &:active {
+      background-color: $purple;
     }
   }
 }

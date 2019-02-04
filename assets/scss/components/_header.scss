@@ -17,6 +17,22 @@
     background-color: $white;
   }
 
+  &__skip-link {
+    position: fixed;
+    top: -2.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: top 300ms ease-in-out;
+
+    &:focus {
+      top: 0;
+    }
+  }
+
+  &__home-link {
+    justify-self: start;
+  }
+
   &__nav {
     position: relative;
     z-index: 9;
