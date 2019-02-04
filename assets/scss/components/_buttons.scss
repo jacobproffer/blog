@@ -18,5 +18,9 @@
       color: $black;
       background-color: $light-blue;
     }
+
+    &:active {
+      background-color: $purple;
+    }
   }
 }

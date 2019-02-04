@@ -17,6 +17,10 @@
     background-color: $white;
   }
 
+  &__home-link {
+    justify-self: start;
+  }
+
   &__nav {
     position: relative;
     z-index: 9;
