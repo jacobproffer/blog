@@ -44,6 +44,10 @@ a {
     color: $blue;
   }
 
+  &:active {
+    color: $purple;
+  }
+
   &.current {
     color: $blue;
     text-decoration: underline;
