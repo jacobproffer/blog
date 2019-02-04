@@ -1,5 +1,6 @@
 <div class="main-header">
   <div class="container container--wide">
+    <a class="main-header__skip-link" href="#content">Skip to Main Content</a>
     <div class="grid grid--navigation">
       {% assign current = page.url | downcase | split: '/' %}
       <a class="main-header__home-link {% if page.url == '/' %}current{% endif %}" href="{{ "/" | absolute_url }}">Home</a>
