@@ -4,7 +4,7 @@
     <div class="grid grid--navigation">
       {% assign current = page.url | downcase | split: '/' %}
       <a class="main-header__home-link {% if page.url == '/' %}current{% endif %}" href="{{ "/" | absolute_url }}">Home</a>
-      <nav role="navigation">
+      <nav>
         <ul class="main-header__nav">
 
           {% for item in site.data.navigation.navigation-links %}
