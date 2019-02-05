@@ -32,28 +32,6 @@
 
   &__list-link {
     display: inline-block;
-
-    &--twitter,
-    &--github {
-      @include size(24px);
-    }
-
-    &--dribbble {
-      @include size(29px, 24px);
-    }
-
-    &:hover {
-      svg {
-        fill: $blue;
-      }
-    }
-
-    svg {
-      @include size(100%);
-      @include transition(fill 300ms ease-in-out);
-
-      fill: $black;
-    }
   }
 
   @include screen-below(1024px) {
