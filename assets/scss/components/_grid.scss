@@ -42,7 +42,7 @@
 
   &--footer {
     @include screen-below(890px) {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 3fr 1fr;
     }
   }
 }
