@@ -39,6 +39,8 @@
     }
 
     @include screen-below(890px) {
+      padding-bottom: 55px;
+      border-bottom: 1px solid $light-blue;
       grid-column: 1 / -1;
     }
 

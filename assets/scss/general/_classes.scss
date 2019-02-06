@@ -6,23 +6,6 @@
   }
 }
 
-.four-oh-four {
-  padding: 75px 0 0;
-  text-align: center;
-
-  p {
-    margin: 0;
-  }
-
-  h1 {
-    margin-top: 0;
-  }
-
-  @include screen-above(768px) {
-    padding: 110px 0 0;
-  }
-}
-
 .category {
   padding: 5px 10px;
   background-color: $light-blue;

@@ -50,12 +50,7 @@ a {
   }
 
   &.current {
-    color: $blue;
     text-decoration: underline;
-
-    &:hover {
-      color: $black;
-    }
   }
 }
 
@@ -68,16 +63,7 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
-small {
-  font-size: .875rem;
-  font-weight: 400;
-}
-
-small,
 time {
   display: block;
-}
-
-time {
   color: $purple;
 }
