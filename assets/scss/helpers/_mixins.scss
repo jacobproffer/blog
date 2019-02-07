@@ -7,22 +7,6 @@
   height: $height;
 }
 
-@mixin transform($args) {
-  transform: #{$args};
-}
-
-@mixin absolute($top: auto, $right: auto, $bottom: auto, $left: auto) {
-  position: absolute;
-  top: $top;
-  right: $right;
-  bottom: $bottom;
-  left: $left;
-}
-
-@mixin transition($args) {
-  transition: #{$args};
-}
-
 @mixin screen-above($screen-size) {
   @media screen and (min-width: $screen-size) {
     @content;
