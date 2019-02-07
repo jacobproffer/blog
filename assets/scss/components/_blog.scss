@@ -65,7 +65,7 @@
     }
 
     h3 {
-      @include transition(color 300ms ease-in-out);
+      transition: color 300ms ease-in-out;
     }
 
     p {
