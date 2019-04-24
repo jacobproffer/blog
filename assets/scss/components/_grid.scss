@@ -5,6 +5,11 @@
 
   &--small {
     max-width: 670px;
+
+    @include screen-above(1280px) {
+      width: 100%;
+      padding: 0;
+    }
   }
 
   &--wide {
