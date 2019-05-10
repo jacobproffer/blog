@@ -1,0 +1,5 @@
+navigation-links:
+
+- title: Post Archive
+  title-lowercase: archive
+  url: /archive
