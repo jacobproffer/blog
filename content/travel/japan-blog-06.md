@@ -17,7 +17,7 @@ To get to the coffee shop, I had to cross the intersection myself. Which at nine
 
 ---
 
-![Shibuya Crossing.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/shibuya_crossing.jpg"}
+{{< figure src="/images/shibuya_crossing.jpg" alt="Shibuya Crossing." >}}
 
 ---
 
@@ -29,7 +29,7 @@ With a backpack on, it was difficult to navigate through an aisle. This is becau
 
 ---
 
-![Xenomorph toy in Mandarake.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/mandarake_xenomorph.jpg"}
+{{< figure src="/images/mandarake_xenomorph.jpg" alt="Xenomorph toy in Mandarake." >}}
 
 ---
 
@@ -41,7 +41,7 @@ But the great aspect of the Shibuya ward is that the majority of the sights arou
 
 ---
 
-![Hachikō Memorial Statue.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/mandarake_xenomorph.jpg"}
+{{< figure src="/images/shibuya_hachiko.jpg" alt="Hachikō Memorial Statue." >}}
 
 ---
 

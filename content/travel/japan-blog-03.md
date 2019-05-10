@@ -23,7 +23,7 @@ The train made it to Shinjuku station in roughly twenty-two minutes. I had read 
 
 ---
 
-![Kabukicho Sign.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/kabukicho_sign.jpg"}
+{{< figure src="/images/kabukicho_sign.jpg" alt="Kabukicho Sign." >}}
 
 ---
 
@@ -37,7 +37,7 @@ I road the elevator alone. My hotel room was to the direct left of the elevator 
 
 ---
 
-![Hotel Gracery Hotel Room.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/hotel_room.jpg"}
+{{< figure src="/images/hotel_room.jpg" alt="Hotel Gracery Hotel Room." >}}
 
 ---
 

@@ -17,7 +17,7 @@ By far one of the nicest people I'd met in awhile, Vic had also been traveling t
 
 ---
 
-![Selfie at the Hotel Gracery.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/selfie_hotel_gracery.jpg"}
+{{< figure src="/images/selfie_hotel_gracery.jpg" alt="Selfie at the Hotel Gracery." >}}
 
 ---
 
@@ -29,7 +29,7 @@ For the next six hours, I sat in a somewhat luxurious lobby. There were individu
 
 ---
 
-![Narita Airport.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/narita_airport.jpg"}
+{{< figure src="/images/narita_airport.jpg" alt="Narita Airport." >}}
 
 ---
 

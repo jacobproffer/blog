@@ -1,1 +1,182 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>http://jacobproffer.com/archive/</loc><lastmod>2019-05-10T14:48:52-04:00</lastmod></url><url><loc>http://jacobproffer.com/categories/</loc><lastmod>2019-04-23T14:00:00+00:00</lastmod><priority>0</priority></url><url><loc>http://jacobproffer.com/</loc><lastmod>2019-04-23T14:00:00+00:00</lastmod><priority>0</priority></url><url><loc>http://jacobproffer.com/travel/japan-blog-09/</loc><lastmod>2019-04-23T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/</loc><lastmod>2019-04-23T14:00:00+00:00</lastmod><priority>0</priority></url><url><loc>http://jacobproffer.com/categories/featured/</loc><lastmod>2019-04-23T14:00:00+00:00</lastmod><priority>0</priority></url><url><loc>http://jacobproffer.com/categories/travel/</loc><lastmod>2019-04-23T14:00:00+00:00</lastmod><priority>0</priority></url><url><loc>http://jacobproffer.com/education/</loc><lastmod>2019-01-27T14:00:00+00:00</lastmod><priority>0</priority></url><url><loc>http://jacobproffer.com/categories/education/</loc><lastmod>2019-01-27T14:00:00+00:00</lastmod><priority>0</priority></url><url><loc>http://jacobproffer.com/education/i-love-japanese/</loc><lastmod>2019-01-27T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/norway-blog-03/</loc><lastmod>2018-12-06T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/norway-blog-02/</loc><lastmod>2018-11-29T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/norway-blog-01/</loc><lastmod>2018-11-22T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/norway-blog-00/</loc><lastmod>2018-10-24T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/iceland-blog-07/</loc><lastmod>2018-10-15T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/iceland-blog-06/</loc><lastmod>2018-10-10T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/iceland-blog-05/</loc><lastmod>2018-09-19T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/iceland-blog-04/</loc><lastmod>2018-09-16T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/iceland-blog-03/</loc><lastmod>2018-09-03T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/iceland-blog-02/</loc><lastmod>2018-08-26T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/education/hiragana-progress/</loc><lastmod>2018-07-29T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/education/learning-hiragana/</loc><lastmod>2018-06-27T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/iceland-blog-01/</loc><lastmod>2018-06-10T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/iceland-blog-00/</loc><lastmod>2018-05-13T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/japan-blog-08/</loc><lastmod>2018-05-07T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/japan-blog-07/</loc><lastmod>2018-04-29T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/japan-blog-06/</loc><lastmod>2018-04-10T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/japan-blog-05/</loc><lastmod>2018-04-01T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/japan-blog-04/</loc><lastmod>2018-03-25T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/japan-blog-03/</loc><lastmod>2018-01-08T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/japan-blog-02/</loc><lastmod>2017-12-28T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/japan-blog-01/</loc><lastmod>2017-12-12T14:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/travel/japan-blog-00/</loc><lastmod>2017-11-13T21:00:00+00:00</lastmod></url><url><loc>http://jacobproffer.com/tags/</loc><priority>0</priority></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://jacobproffer.com/archive/</loc>
+    <lastmod>2019-05-10T14:48:52-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/categories/</loc>
+    <lastmod>2019-04-23T14:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/</loc>
+    <lastmod>2019-04-23T14:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/japan-blog-09/</loc>
+    <lastmod>2019-04-23T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/</loc>
+    <lastmod>2019-04-23T14:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/categories/featured/</loc>
+    <lastmod>2019-04-23T14:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/categories/travel/</loc>
+    <lastmod>2019-04-23T14:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/education/</loc>
+    <lastmod>2019-01-27T14:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/categories/education/</loc>
+    <lastmod>2019-01-27T14:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/education/i-love-japanese/</loc>
+    <lastmod>2019-01-27T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/norway-blog-03/</loc>
+    <lastmod>2018-12-06T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/norway-blog-02/</loc>
+    <lastmod>2018-11-29T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/norway-blog-01/</loc>
+    <lastmod>2018-11-22T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/norway-blog-00/</loc>
+    <lastmod>2018-10-24T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/iceland-blog-07/</loc>
+    <lastmod>2018-10-15T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/iceland-blog-06/</loc>
+    <lastmod>2018-10-10T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/iceland-blog-05/</loc>
+    <lastmod>2018-09-19T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/iceland-blog-04/</loc>
+    <lastmod>2018-09-16T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/iceland-blog-03/</loc>
+    <lastmod>2018-09-03T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/iceland-blog-02/</loc>
+    <lastmod>2018-08-26T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/education/hiragana-progress/</loc>
+    <lastmod>2018-07-29T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/education/learning-hiragana/</loc>
+    <lastmod>2018-06-27T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/iceland-blog-01/</loc>
+    <lastmod>2018-06-10T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/iceland-blog-00/</loc>
+    <lastmod>2018-05-13T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/japan-blog-08/</loc>
+    <lastmod>2018-05-07T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/japan-blog-07/</loc>
+    <lastmod>2018-04-29T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/japan-blog-06/</loc>
+    <lastmod>2018-04-10T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/japan-blog-05/</loc>
+    <lastmod>2018-04-01T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/japan-blog-04/</loc>
+    <lastmod>2018-03-25T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/japan-blog-03/</loc>
+    <lastmod>2018-01-08T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/japan-blog-02/</loc>
+    <lastmod>2017-12-28T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/japan-blog-01/</loc>
+    <lastmod>2017-12-12T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/travel/japan-blog-00/</loc>
+    <lastmod>2017-11-13T21:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://jacobproffer.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -20,7 +20,7 @@ Myles and I spent about a half hour at Seljalandsfoss before we moved onto the n
 
 ---
 
-![Seljalandsfoss.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/seljalandsfoss.jpg"}
+{{< figure src="/images/seljalandsfoss.jpg" alt="Seljalandsfoss." >}}
 
 ---
 
@@ -30,8 +30,8 @@ With an almost two hundred foot drop from the top, the base of Skógafoss is an 
 
 ---
 
-![Skógafoss.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/skogafoss_1.jpg"}
-![Steps to the top of Skógafoss.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/skogafoss_2.jpg"}
+{{< figure src="/images/skogafoss_1.jpg" alt="Seljalandsfoss." >}}
+{{< figure src="/images/skogafoss_2.jpg" alt="Steps to the top of Skógafoss." >}}
 
 ---
 
@@ -41,7 +41,7 @@ Myles and I both raced down to the plane, as at that point and time, we were the
 
 ---
 
-![Sólheimasandur plane crash.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/plane_wreck_1.jpg"}
+{{< figure src="/images/plane_wreck_1.jpg" alt="Sólheimasandur plane crash." >}}
 
 ---
 
@@ -53,8 +53,8 @@ We walked towards the cliff edge near the right side of the lighthouse, which pr
 
 ---
 
-![Dyrhólaey.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/dyrholaey_1.jpg"}
-![Dyrhólaey.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/dyrholaey_2.jpg"}
+{{< figure src="/images/dyrholaey_1.jpg" alt="Dyrhólaey." >}}
+{{< figure src="/images/dyrholaey_2.jpg" alt="Dyrhólaey." >}}
 
 ---
 
@@ -64,18 +64,18 @@ The worn path was stable and easy to traverse. Though as we got higher, the wind
 
 ---
 
-![Myles Kedrowski along a narrow ridge.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/ridge.jpg"}
+{{< figure src="/images/ridge.jpg" alt="Myles Kedrowski along a narrow ridge." >}}
 
 ---
 
-Reynisfjara, as with every other location that day, was twenty minutes further to the east along Route 1. The parking lot for the Black Beach Restaurant and the beach was nearly full. There were tour buses, SUVs and smaller cars. Myles parked us near the entrance and we walked out towards the left side of the beach along a small foot path. Along the way, Myles spotted a few goats high up along a cliff to our left. The highest goat called out to the others as they climbed upward.
+Reynisfjara, as with every other location that day, was twenty minutes further to the east along Route 1. The parking lot for the Black Beach Restaurant and the beach was nearly full. There were tour buses, w manSUVs and smaller cars. Myles parked us near the entrance and we walked out towards the left side of the beach along a small foot path. Along the way, Myles spotted a few goats high up along a cliff to our left. The highest goat called out to the others as they climbed upward.
 
 Out along the beach, the waves crashed along the shoreline as a light rain fell. The wind wasn't as extreme as it had been at Dyrhólaey, though it was colder this close to the ocean. Myles and I walked along the beach for twenty minutes, from left to right. We were mindful of the tide, as the water began to come more inward with the force of the waves. Once we were cold enough, we decided to call the day and have dinner at the nearby restaurant. I ordered pasta with a large slice of cake. By paying for our food, we were able to use the washroom without additional payment.
 
 ---
 
-![Myles Kedrowski at Reynisfjara.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/reynisfjara_1.jpg"}
-![Reynisfjara.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/reynisfjara_2.jpg"}
+{{< figure src="/images/reynisfjara_1.jpg" alt="Myles Kedrowski at Reynisfjara." >}}
+{{< figure src="/images/reynisfjara_2.jpg" alt="Reynisfjara." >}}
 
 ---
 

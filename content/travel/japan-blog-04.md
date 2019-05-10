@@ -15,7 +15,7 @@ I laid back in bed and listened to the few songs that I had on my iPhone. There 
 
 ---
 
-![Shinjuku Sunrise.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/shinjuku_sunrise.jpg"}
+{{< figure src="/images/shinjuku_sunrise.jpg" alt="Shinjuku Sunrise." >}}
 
 ---
 
@@ -25,7 +25,7 @@ I took a side street back towards the front of the hotel. To my left, two younge
 
 ---
 
-![Ravens in Shinjuku.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/shinjuku_ravens.jpg"}
+{{< figure src="/images/shinjuku_ravens.jpg" alt="Ravens in Shinjuku." >}}
 
 ---
 
@@ -39,7 +39,7 @@ After breakfast I headed down a side street in the direction of the hotel. A wom
 
 ---
 
-![Sign in Shinjuku.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/shinjuku_sign.jpg"}
+{{< figure src="/images/shinjuku_sign.jpg" alt="Sign in Shinjuku." >}}
 
 ---
 
@@ -49,7 +49,7 @@ I spent the next few hours around the hotel. Near the Hotel Gracery is a tax fre
 
 ---
 
-![Godzilla Road.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/shinjuku_street.jpg"}
+{{< figure src="/images/shinjuku_street.jpg" alt="Godzilla Road." >}}
 
 ---
 
