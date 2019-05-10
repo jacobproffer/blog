@@ -1,5 +1,0 @@
-baseURL = "http://jacobproffer.com"
-languageCode = "en-us"
-title = "Jacob Proffer's Blog Site"
-theme = "jacobproffer"
-publishDir = "docs"
