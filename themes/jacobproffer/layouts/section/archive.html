@@ -1,0 +1,32 @@
+{{ define "main" }}
+<section class="archive spacing">
+  <div class="container container--wide">
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+    {{ range .Site.RegularPages }}
+    <article class="archive__card grid grid--archive">
+      <!-- <figure>
+        <img
+          class="b-lazy"
+          src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+          data-src="{{ .Params.thumbnail }}"
+          alt="{{ .Params.thumbnailCaption }}"
+        />
+      </figure> -->
+      <img src="{{ .Params.thumbnail }}" alt="" />
+      <p>{{ .Params.thumbnail }}</p>
+      <div class="archive__card-content">
+        <header>
+          <h2>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </h2>
+          <time>{{ .PublishDate.Format "January 2, 2006" }}</time>
+        </header>
+        <p>{{ .Summary | truncate 220 }}</p>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
