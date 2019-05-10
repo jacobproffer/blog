@@ -1,21 +1,19 @@
 {{ define "main" }}
 <section class="archive spacing">
   <div class="container container--wide">
-    <header>
+    <header class="archive__header">
       <h1>{{ .Title }}</h1>
     </header>
     {{ range .Site.RegularPages }}
     <article class="archive__card grid grid--archive">
-      <!-- <figure>
+      <figure>
         <img
           class="b-lazy"
           src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-          data-src="{{ .Params.thumbnail }}"
+          data-src="{{ .Site.BaseURL }}{{ .Params.thumbnail }}"
           alt="{{ .Params.thumbnailCaption }}"
         />
-      </figure> -->
-      <img src="{{ .Params.thumbnail }}" alt="" />
-      <p>{{ .Params.thumbnail }}</p>
+      </figure>
       <div class="archive__card-content">
         <header>
           <h2>

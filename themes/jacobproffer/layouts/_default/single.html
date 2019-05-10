@@ -8,4 +8,27 @@
     {{ .Content }}
   </div>
 </article>
+
+<div class="post__pagination">
+  <div class="container container--small">
+    <div class="grid grid--pagination">
+
+      {{ with .Prev }}
+      <a class="post__pagination-item post__pagination-item--prev" href="{{ .Permalink }}">
+        Previous Post
+        <span>{{ .Title }}</span>
+      </a>
+      {{ end }}
+
+      {{ with .Next }}
+      <a class="post__pagination-item post__pagination-item--next" href="{{ .Permalink }}">
+        Next Post
+        <span>{{ .Title }}</span>
+      </a>
+      {{ end }}
+
+    </div>
+  </div>
+</div>
+
 {{- end }}

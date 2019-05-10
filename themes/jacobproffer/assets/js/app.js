@@ -1,14 +1,5 @@
 /* eslint-disable no-undef */
-var bLazy = new Blazy({
-  error: function(ele, msg) {
-    if(msg === 'missing') {
-      console.log('Data-src is missing');
-    } else if (msg === 'invalid') {
-      console.log('Data-src is invalid');
-      console.log(ele);
-    }
-  }
-});
+var bLazy = new Blazy();
 var mainHeader = document.querySelector(".main-header");
 var headerHeight = mainHeader.offsetHeight;
 var headroom = new Headroom(mainHeader, {

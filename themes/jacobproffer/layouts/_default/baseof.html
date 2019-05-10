@@ -9,6 +9,7 @@
         {{ $headroomJS := resources.Get "js/lib/headroom/headroom.min.js" }}
         {{ $appJS := resources.Get "js/app.js" }}
         {{ $js := slice $imageJS $headroomJS $appJS | resources.Concat "js/bundled.js" }}
-        <script src="{{ $js.Permalink }}"></script>
+        {{ $minify := $js | resources.Minify }}
+        <script src="{{ $minify.Permalink }}"></script>
     </body>
 </html>
