@@ -1,0 +1,15 @@
+<section class="loop">
+  <div class="container">
+    <header>
+      <h2>Recent Posts</h2>
+    </header>
+    <div class="grid">
+      {{ range .Data.Pages }}
+      <a class="grid-item" href="{{ .Permalink }}">
+        <h3>{{ .Title }}</h3>
+        {{ .Summary }}
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
