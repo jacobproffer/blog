@@ -21,8 +21,8 @@ Our first stop was the Blue Lagoon. We originally considered going into the geot
 
 ---
 
-![Grindavikurbaer.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/grindavikurbaer_1.jpg"}
-![Grindavikurbaer.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/grindavikurbaer_2.jpg"}
+{{< figure src="/images/grindavikurbaer_1.jpg" alt="Grindavikurbaer." >}}
+{{< figure src="/images/grindavikurbaer_2.jpg" alt="Grindavikurbaer." >}}
 
 ---
 
@@ -32,8 +32,8 @@ Spread between the rocks and dirt were pieces of trash, kelp and driftwood. Ther
 
 ---
 
-![Landscape of Grindavikurbaer.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/grindavikurbaer_3.jpg"}
-![Beach near Grindavikurbaer.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/grindavikurbaer_4.jpg"}
+{{< figure src="/images/grindavikurbaer_3.jpg" alt="Landscape of Grindavikurbaer." >}}
+{{< figure src="/images/grindavikurbaer_4.jpg" alt="Beach near Grindavikurbaer." >}}
 
 ---
 
@@ -45,7 +45,7 @@ It was a stark contrast in traffic once we reached Reykjavik. There was a rush o
 
 ---
 
-![Road near Þorlákshöfn.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/road.jpg"}
+{{< figure src="/images/road.jpg" alt="Road near Þorlákshöfn." >}}
 
 ---
 

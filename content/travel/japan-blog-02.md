@@ -23,7 +23,7 @@ After I cleared customs, I entered the airport lobby. This was the moment where 
 
 ---
 
-![Skyliner Ticket.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/skyliner_ticket.jpg"}
+{{< figure src="/images/skyliner_ticket.jpg" alt="Skyliner Ticket." >}}
 
 ---
 

@@ -16,9 +16,8 @@ Our goal for the day was to hike the Åkrafjorden. The fjord is located over thr
 
 ---
 
-![Image of the ferry from Tørvikbygd to Jondal.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/ferry_01.jpg"}
-![Myles Kedrowski on a ferry.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/ferry_02.jpg"}
-
+{{< figure src="/images/ferry_01.jpg" alt="Image of the ferry from Tørvikbygd to Jondal." >}}
+{{< figure src="/images/ferry_02.jpg" alt="Myles Kedrowski on a ferry." >}}
 ___
 
 Weather wise, the temperature was steady in the high thirties. High wind created a chill at the base of the fjord but became less of an issue as Myles and I began the ascent. From the parking lot, it is a complete incline to the top. We found the majority of the climb to involve navigating boulders and narrow ledges. As expected, most of the rocks had layers of ice and snow. When necessary, Myles and I had to find alternative routes. This involved awkward scrambles and belly crawls.
@@ -31,9 +30,9 @@ Once at the top, Myles and I were greeted by an older couple who rested on the g
 
 ---
 
-![Abandoned cabin by Tvindefossen](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/akrafjorden_1.jpg"}
-![Abandoned cabin by Tvindefossen](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/akrafjorden_2.jpg"}
-![Abandoned cabin by Tvindefossen](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/akrafjorden_3.jpg"}
+{{< figure src="/images/akrafjorden_1.jpg" alt="Abandoned cabin by Tvindefossen." >}}
+{{< figure src="/images/akrafjorden_2.jpg" alt="Abandoned cabin by Tvindefossen." >}}
+{{< figure src="/images/akrafjorden_3.jpg" alt="Abandoned cabin by Tvindefossen." >}}
 
 ---
 

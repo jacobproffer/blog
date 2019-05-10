@@ -17,7 +17,7 @@ Once off the train at Akihabara Station, I was able to immediately spot a sign f
 
 ---
 
-![Akihabara Drug Store.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/akihabara_drug_store.jpg"}
+{{< figure src="/images/akihabara_drug_store.jpg" alt="Akihabara Drug Store." >}}
 
 ---
 
@@ -27,7 +27,7 @@ Throughout some of the other stores in the Cultures Zone, I spotted Zoid models.
 
 ---
 
-![Akihabara DVD advertisement.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/liger_zero.jpg"}
+{{< figure src="/images/liger_zero.jpg" alt="Liger Zero Zoid." >}}
 
 ---
 
@@ -39,7 +39,7 @@ Down the street from Mandarake is Super Potato, a store that specializes in used
 
 ---
 
-![GoldenEye for N64.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/goldeneye.jpg"}
+{{< figure src="/images/goldeneye.jpg" alt="GoldenEye for N64." >}}
 
 ---
 
@@ -49,7 +49,7 @@ After I finished my food, I entered a shop called Mulan Akiba. A densely packed 
 
 ---
 
-![Akihabara DVD advertisement.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/akihabara_ad.jpg"}
+{{< figure src="/images/akihabara_ad.jpg" alt="Ad in Akihabara." >}}
 
 ---
 
@@ -61,7 +61,7 @@ I explored a few more stores and arcades in the area and decided to return to Sh
 
 ---
 
-![Shinjuku Station.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/shinjuku_station.jpg"}
+{{< figure src="/images/shinjuku_station.jpg" alt="Shinjuku Station." >}}
 
 ---
 

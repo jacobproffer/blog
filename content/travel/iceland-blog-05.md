@@ -26,9 +26,9 @@ Even with the temperature in the fifties, there were dozens of people bathing in
 
 ---
 
-![Reykjadalur valley.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/reykjadalur_1.jpg"}
-![Reykjadalur valley.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/reykjadalur_2.jpg"}
-![Reykjadalur valley.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/reykjadalur_3.jpg"}
+{{< figure src="/images/reykjadalur_1.jpg" alt="Reykjadalur valley." >}}
+{{< figure src="/images/reykjadalur_2.jpg" alt="Reykjadalur valley." >}}
+{{< figure src="/images/reykjadalur_3.jpg" alt="Reykjadalur valley." >}}
 
 ---
 

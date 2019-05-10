@@ -18,7 +18,7 @@ Temperature wise, it was a cold morning. I threw on my down jacket and gloves be
 
 ---
 
-![Abandoned cabin by Tvindefossen](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/tvindefossen.jpg"}
+{{< figure src="/images/tvindefossen.jpg" alt="Abandoned cabin by Tvindefossen." >}}
 
 ---
 
@@ -30,10 +30,10 @@ Two hours into the hike, we came across a waterfall coated with slabs of ice and
 
 ---
 
-![Myles Kedrowski in Aurlandsdalen.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/aurlandsdalen_4.jpg"}
-![Myles Kedrowski in Aurlandsdalen.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/aurlandsdalen_1.jpg"}
-![Myles Kedrowski in Aurlandsdalen.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/aurlandsdalen_2.jpg"}
-![Icy waterfall in Aurlandsdalen.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/aurlandsdalen_3.jpg"}
+{{< figure src="/images/aurlandsdalen_4.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
+{{< figure src="/images/aurlandsdalen_1.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
+{{< figure src="/images/aurlandsdalen_2.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
+{{< figure src="/images/aurlandsdalen_3.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
 
 ---
 

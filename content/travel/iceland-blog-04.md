@@ -20,9 +20,9 @@ Myles and I took a few photographs and proceed on a trail to higher elevation. W
 
 ---
 
-![Sjónarsker.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/sjonarsker_1.jpg"}
-![Sjónarsker.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/sjonarsker_2.jpg"}
-![Sjónarsker.](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==){:class="b-lazy" data-src="/images/sjonarsker_3.jpg"}
+{{< figure src="/images/sjonarsker_1.jpg" alt="Sjónarsker." >}}
+{{< figure src="/images/sjonarsker_2.jpg" alt="Sjónarsker." >}}
+{{< figure src="/images/sjonarsker_3.jpg" alt="Sjónarsker." >}}
 
 ---
 
@@ -36,8 +36,8 @@ We explored the terrain to the east of the glacier for another hour, with an ext
 
 ---
 
-![Skaftafellsjökull]({{ "images/skaftafellsjokull.jpg" | absolute_url }})
-![Glacier Field]({{ "images/iceland_terrain.jpg" | absolute_url }})
+{{< figure src="/images/skaftafellsjokull.jpg" alt="Skaftafellsjökull." >}}
+{{< figure src="/images/iceland_terrain.jpg" alt="Glacier Field." >}}
 
 ---
 
