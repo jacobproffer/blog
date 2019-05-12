@@ -3,7 +3,7 @@ title: "Iceland Blog 01"
 date: 2018-06-10 14:00:00
 description: First day in Iceland.
 image: images/iceland_blog_01_social.jpg
-thumbnail: images/iceland_blog_01.jpg
+thumbnail: /images/iceland_blog_01.jpg
 categories: ["travel"]
 ---
 

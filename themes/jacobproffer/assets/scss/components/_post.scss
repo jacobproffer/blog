@@ -1,6 +1,6 @@
 .post {
   header {
-    margin-bottom: 34px;
+    margin-bottom: 20px;
   }
 
   a {
@@ -13,41 +13,5 @@
 
   footer {
     margin-top: 40px;
-  }
-
-  &__pagination {
-    position: relative;
-    background-color: $light-gray;
-    border-top: 1px solid $light-blue;
-
-    &::before {
-      position: absolute;
-      top: 0;
-      left: 50%;
-      width: 1px;
-      height: 100%;
-      background-color: $light-blue;
-      content: '';
-      transform: translateX(-50%);
-    }
-  }
-
-  &__pagination-item {
-    padding: 45px 0;
-    font-size: 1.25rem;
-    font-weight: 700;
-    justify-self: start;
-
-    &--next {
-      text-align: right;
-      justify-self: end;
-    }
-
-    span {
-      display: block;
-      font-size: 1rem;
-      font-weight: 400;
-      color: $purple;
-    }
   }
 }

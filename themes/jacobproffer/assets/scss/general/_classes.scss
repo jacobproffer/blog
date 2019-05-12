@@ -11,3 +11,68 @@
   background-color: $light-blue;
   border-radius: 5px;
 }
+
+.pagination {
+  position: relative;
+  background-color: $light-gray;
+  border-top: 1px solid $light-blue;
+
+  &--numbers {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  &--post {
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 1px;
+      height: 100%;
+      background-color: $light-blue;
+      content: '';
+      transform: translateX(-50%);
+    }
+  }
+
+  &__numbers {
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline-block;
+      list-style-type: none;
+
+      &:not(:first-of-type) {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  &__number {
+    padding: 5px 10px;
+    
+    &--current {
+      background-color: $light-blue;
+    }
+  }
+}
+
+.pagination-item {
+  padding: 45px 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  justify-self: start;
+
+  &--next {
+    text-align: right;
+    justify-self: end;
+  }
+
+  span {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    color: $purple;
+  }
+}

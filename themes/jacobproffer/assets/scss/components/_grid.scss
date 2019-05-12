@@ -26,13 +26,14 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  &--archive,
-  &--posts,
-  &--footer {
+  &--archive {
     grid-template-columns: repeat(3, 1fr);
   }
 
+  &--footer,
   &--posts {
+    grid-template-columns: repeat(2, 1fr);
+    
     @include screen-below(890px) {
       grid-template-columns: 1fr;
     }
