@@ -3,3 +3,5 @@ languageCode = "en-us"
 title = "Jacob Proffer"
 theme = "jacobproffer"
 publishDir = "docs"
+paginate = 8
+paginatePath = "posts"
