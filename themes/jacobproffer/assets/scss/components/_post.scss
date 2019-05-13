@@ -11,6 +11,12 @@
     font-size: 1.125rem;
   }
 
+  img {
+    &:not(:first-of-type) {
+      margin-top: 40px;
+    }
+  }
+
   footer {
     margin-top: 40px;
   }
