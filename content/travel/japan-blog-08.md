@@ -17,7 +17,7 @@ By far one of the nicest people I'd met in awhile, Vic had also been traveling t
 
 ---
 
-{{< figure src="/images/selfie_hotel_gracery.jpg" alt="Selfie at the Hotel Gracery." >}}
+{{< figure src="/images/selfie_hotel_gracery.jpg" alt="Selfie at the Hotel Gracery." caption="Selfie at the Hotel Gracery." >}}
 
 ---
 
@@ -29,7 +29,7 @@ For the next six hours, I sat in a somewhat luxurious lobby. There were individu
 
 ---
 
-{{< figure src="/images/narita_airport.jpg" alt="Narita Airport." >}}
+{{< figure src="/images/narita_airport.jpg" alt="Narita Airport." caption="Narita Airport." >}}
 
 ---
 

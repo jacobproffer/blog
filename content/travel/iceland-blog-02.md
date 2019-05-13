@@ -19,7 +19,7 @@ Myles and I spent about a half hour at Seljalandsfoss before we moved onto the n
 
 ---
 
-{{< figure src="/images/seljalandsfoss.jpg" alt="Seljalandsfoss." >}}
+{{< figure src="/images/seljalandsfoss.jpg" alt="Seljalandsfoss." caption="Seljalandsfoss." >}}
 
 ---
 
@@ -29,8 +29,8 @@ With an almost two hundred foot drop from the top, the base of Skógafoss is an 
 
 ---
 
-{{< figure src="/images/skogafoss_1.jpg" alt="Seljalandsfoss." >}}
-{{< figure src="/images/skogafoss_2.jpg" alt="Steps to the top of Skógafoss." >}}
+{{< figure src="/images/skogafoss_1.jpg" alt="Steps to the top of Skógafoss." >}}
+{{< figure src="/images/skogafoss_2.jpg" alt="Skógafoss." caption="Skógafoss." >}}
 
 ---
 
@@ -40,7 +40,7 @@ Myles and I both raced down to the plane, as at that point and time, we were the
 
 ---
 
-{{< figure src="/images/plane_wreck_1.jpg" alt="Sólheimasandur plane crash." >}}
+{{< figure src="/images/plane_wreck_1.jpg" alt="Sólheimasandur plane crash." caption="Sólheimasandur plane crash." >}}
 
 ---
 
@@ -53,7 +53,7 @@ We walked towards the cliff edge near the right side of the lighthouse, which pr
 ---
 
 {{< figure src="/images/dyrholaey_1.jpg" alt="Dyrhólaey." >}}
-{{< figure src="/images/dyrholaey_2.jpg" alt="Dyrhólaey." >}}
+{{< figure src="/images/dyrholaey_2.jpg" alt="Dyrhólaey." caption="Dyrhólaey." >}}
 
 ---
 
@@ -63,7 +63,7 @@ The worn path was stable and easy to traverse. Though as we got higher, the wind
 
 ---
 
-{{< figure src="/images/ridge.jpg" alt="Myles Kedrowski along a narrow ridge." >}}
+{{< figure src="/images/ridge.jpg" alt="Myles Kedrowski along a narrow ridge." caption="Myles Kedrowski along a narrow ridge." >}}
 
 ---
 
@@ -74,7 +74,7 @@ Out along the beach, the waves crashed along the shoreline as a light rain fell.
 ---
 
 {{< figure src="/images/reynisfjara_1.jpg" alt="Myles Kedrowski at Reynisfjara." >}}
-{{< figure src="/images/reynisfjara_2.jpg" alt="Reynisfjara." >}}
+{{< figure src="/images/reynisfjara_2.jpg" alt="Reynisfjara." caption="Reynisfjara." >}}
 
 ---
 

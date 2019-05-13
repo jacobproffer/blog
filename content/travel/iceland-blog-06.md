@@ -19,7 +19,7 @@ Towards the middle of Road 417, Myles and I came across a weathered neon orange 
 
 {{< figure src="/images/blafjallavegur_1.jpg" alt="Blafjallavegur." >}}
 {{< figure src="/images/blafjallavegur_2.jpg" alt="Blafjallavegur." >}}
-{{< figure src="/images/blafjallavegur_3.jpg" alt="Blafjallavegur." >}}
+{{< figure src="/images/blafjallavegur_3.jpg" alt="Blafjallavegur." caption="Blafjallavegur." >}}
 
 ---
 
