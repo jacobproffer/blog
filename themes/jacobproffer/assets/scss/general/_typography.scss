@@ -1,18 +1,5 @@
-@font-face {
-  font-family: 'eurostile';
-  src: url('/fonts/eurostile-bold.woff2') format('woff2'),
-       url('/fonts/eurostile-bold.woff') format('woff'),
-       url('/fonts/eurostile-bold.ttf') format('truetype');
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'eurostile';
-  text-transform: uppercase;
+body {
+  font-family: 'Asap', sans-serif;
 }
 
 h1 {
