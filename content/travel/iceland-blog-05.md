@@ -6,7 +6,6 @@ description: Fifth day in Iceland.
 image: images/iceland_blog_05_social.jpg
 thumbnail: /images/reykjadalur_1.jpg
 thumbnailCaption: Reykjadalur valley.
-thumbnail-coordinates: 64.0327873&deg; N, 21.2180098&deg; W
 categories: ["travel"]
 ---
 

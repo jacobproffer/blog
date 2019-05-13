@@ -60,7 +60,14 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
+span,
 time {
   display: block;
-  color: $purple;
+  color: $gray;
+}
+
+header {
+  h1 {
+    margin-bottom: 50px;
+  }
 }

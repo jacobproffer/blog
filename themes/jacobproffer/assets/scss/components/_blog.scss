@@ -2,23 +2,6 @@
   position: relative;
   overflow: hidden;
 
-  &__header {
-    position: relative;
-    height: 150px;
-    overflow: hidden;
-
-    &:last-of-type {
-      height: 100px;
-      margin-bottom: 90px;
-    }
-
-    h1 {
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  }
-
   &__post {
     @include size(100%, auto);
     position: relative;
