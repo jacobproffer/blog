@@ -2,12 +2,12 @@
   <div class="container container--wide">
     <a class="main-header__skip-link" href="#content">Skip to Main Content</a>
     <div class="grid grid--navigation">
-      <a class="main-header__home-link" href="{{ .Site.BaseURL }}">Jacob Proffer</a>
+      <a class="main-header__home-link" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
       <nav>
         <ul class="main-header__nav">
           {{ $currentPage := . }}
           {{ range .Site.Menus.main }}
-          <li class="main-header__nav-item">
+          <li class="mian-header__nav-item">
             <a {{ if $currentPage.IsMenuCurrent "main" . }}class="active"{{ end }} href="{{ .URL }}">{{ .Name }}</a>
           </li>
           {{ end }}
