@@ -5,7 +5,7 @@ layout: post
 description: Eighth month progress report of studying Japanese.
 image: images/i_love_japanese_social.jpg
 thumbnail: /images/tofugu_stickers.jpg
-thumbnail-caption: Vinyl stickers from Tofogu.
+thumbnailCaption: Vinyl stickers from Tofogu.
 categories: ["education"]
 ---
 

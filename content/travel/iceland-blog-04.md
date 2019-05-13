@@ -5,7 +5,7 @@ layout: post
 description: Fourth day in Iceland.
 image: images/iceland_blog_04_social.jpg
 thumbnail: /images/sjonarsker_2.jpg
-thumbnail-caption: Skaftafell.
+thumbnailCaption: Skaftafell.
 thumbnail-coordinates: 64.13954&deg; N, 16.5864&deg; W
 categories: ["travel"]
 ---

@@ -5,7 +5,7 @@ layout: post
 description: Jacob Proffer's time in Shibuya, Tokyo, Japan.
 image: images/shibuya_social.jpg
 thumbnail: /images/shibuya_thumbnail.jpg
-thumbnail-caption: Shibuya crossing.
+thumbnailCaption: Shibuya crossing.
 categories: ["travel"]
 ---
 

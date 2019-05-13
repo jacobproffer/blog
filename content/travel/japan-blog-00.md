@@ -5,7 +5,7 @@ layout: post
 description: The night before leaving for Tokyo, Japan.
 image: images/japan_blog_00_social.jpg
 thumbnail: /images/japan_blog_00_thumbnail.jpg
-thumbnail-caption: Narita International Airport.
+thumbnailCaption: Narita International Airport.
 categories: ["travel"]
 ---
 

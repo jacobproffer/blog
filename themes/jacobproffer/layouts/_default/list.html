@@ -5,7 +5,7 @@
       {{ range $index, $page := $paginator.Pages }}
         <article class="blog__post grid grid--posts">
           <figure>
-            <img src="{{ .Params.thumbnail }}" alt="Test" />
+            <img src="{{ .Params.thumbnail }}" alt="{{ .Params.thumbnailCaption }}" />
           </figure>
           <header>
             <time>{{ .PublishDate.Format "January 2, 2006" }}</time>

@@ -5,7 +5,7 @@ layout: post
 description: The night before my trip to Norway.
 image: images/norway_blog_00_social.jpg
 thumbnail: /images/norway_00_thumbnail.jpg
-thumbnail-caption: Near the small lake of Leirvogsvatn.
+thumbnailCaption: Near the small lake of Leirvogsvatn.
 thumbnail-coordinates: 60.878486&deg; N, 6.843065&deg; E
 categories: ["travel"]
 ---

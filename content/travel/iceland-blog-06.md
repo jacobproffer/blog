@@ -5,7 +5,7 @@ layout: post
 description: Sixth day in Iceland.
 image: images/iceland_blog_06_social.jpg
 thumbnail: /images/blafjallavegur_3.jpg
-thumbnail-caption: Blafjallavegur.
+thumbnailCaption: Blafjallavegur.
 thumbnail-coordinates: 64.0010927&deg; N, 21.7532809&deg; W
 categories: ["travel"]
 ---

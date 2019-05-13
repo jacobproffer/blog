@@ -5,7 +5,7 @@ layout: post
 description: Hiking up the Åkrafjorden.
 image: images/norway_blog_03_social.jpg
 thumbnail: /images/ferry_01.jpg
-thumbnail-caption: The ferry from Tørvikbygd to Jondal.
+thumbnailCaption: The ferry from Tørvikbygd to Jondal.
 thumbnail-coordinates: 60.3008882&deg; N, 6.1717273&deg; E
 categories: ["travel"]
 ---
