@@ -22,7 +22,8 @@
   <meta name="twitter:title" content="{{ .Title }}" />
   <meta name="twitter:image" content="{{if .IsHome}}{{ $.Site.Params.socialImage }}{{else}}{{.Params.image}}{{end}}" />
 
-  <link href="https://fonts.googleapis.com/css?family=Asap:400,700" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Asap:400,700" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Karla:700" rel="stylesheet">
 
   {{ $sass := resources.Get "scss/project-main.scss" }}
   {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice)) }}
