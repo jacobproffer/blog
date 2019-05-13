@@ -19,9 +19,9 @@ Myles and I took a few photographs and proceed on a trail to higher elevation. W
 
 ---
 
-{{< figure src="/images/sjonarsker_1.jpg" alt="Sjónarsker." >}}
-{{< figure src="/images/sjonarsker_2.jpg" alt="Sjónarsker." >}}
-{{< figure src="/images/sjonarsker_3.jpg" alt="Sjónarsker." >}}
+{{< figure src="/images/sjonarsker_1.jpg" alt="Sjónarsker inside of Skaftafell." >}}
+{{< figure src="/images/sjonarsker_2.jpg" alt="Sjónarsker inside of Skaftafell." >}}
+{{< figure src="/images/sjonarsker_3.jpg" alt="Sjónarsker inside of Skaftafell." caption="Sjónarsker inside of Skaftafell." >}}
 
 ---
 
@@ -35,8 +35,7 @@ We explored the terrain to the east of the glacier for another hour, with an ext
 
 ---
 
-{{< figure src="/images/skaftafellsjokull.jpg" alt="Skaftafellsjökull." >}}
-{{< figure src="/images/iceland_terrain.jpg" alt="Glacier Field." >}}
+{{< figure src="/images/skaftafellsjokull.jpg" alt="Skaftafellsjökull." caption="Skaftafellsjökull." >}}
 
 ---
 

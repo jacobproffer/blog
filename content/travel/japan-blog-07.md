@@ -17,7 +17,7 @@ But I had to exit the station eventually to get to Sunshine City, a shopping mal
 
 ---
 
-{{< figure src="/images/ikebukuro_city.jpg" alt="The City of Ikebukuro." >}}
+{{< figure src="/images/ikebukuro_city.jpg" alt="The city of Ikebukuro." caption="The city of Ikebukuro." >}}
 
 ---
 
@@ -27,7 +27,7 @@ The walk back took me across a multi-lane highway, which was almost bare. A lone
 
 ---
 
-{{< figure src="/images/ikebukuro_street.jpg" alt="Street in Ikebukuro." >}}
+{{< figure src="/images/ikebukuro_street.jpg" alt="Street in Ikebukuro." caption="Street in Ikebukuro." >}}
 
 ---
 
@@ -39,7 +39,7 @@ The train ride from Ikebukuro Station to Akihabara Station took around forty min
 
 ---
 
-{{< figure src="/images/akihabara_alley.jpg" alt="Alley in Akihabara." >}}
+{{< figure src="/images/akihabara_alley.jpg" alt="Alley in Akihabara." caption="Alley in Akihabara." >}}
 
 ---
 
@@ -49,7 +49,7 @@ On another floor, I found a store that had a wide range of trading cards. From P
 
 ---
 
-{{< figure src="/images/black_lotus.jpg" alt="Black Lotus card." >}}
+{{< figure src="/images/black_lotus.jpg" alt="Black Lotus card." caption="Black Lotus card." >}}
 
 ---
 
@@ -61,7 +61,7 @@ It was truly an awkward experience for me but the man and camera crew seemed ple
 
 ---
 
-{{< figure src="/images/john_matrix.jpg" alt="Hot Toys John Matrix." >}}
+{{< figure src="/images/john_matrix.jpg" alt="Hot Toys John Matrix." caption="Hot Toys John Matrix." >}}
 
 ---
 
@@ -71,7 +71,7 @@ The ride back to Shinjuku was a sober one. It occurred to me that it'd be my las
 
 ---
 
-{{< figure src="/images/chuo_dori.jpg" alt="Chuo Dori in Akihabara." >}}
+{{< figure src="/images/chuo_dori.jpg" alt="Chuo Dori in Akihabara." caption="Chuo Dori in Akihabara." >}}
 
 ---
 

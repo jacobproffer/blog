@@ -23,7 +23,7 @@ For the next few hours, we explored Bergen on foot. The city is well dated with 
 ---
 
 {{< figure src="/images/bergen_01.jpg" alt="Group of young men in Bergen, Norway." >}}
-{{< figure src="/images/bergen_02.jpg" alt="Fluffy dog in Bergen, Norway." >}}
+{{< figure src="/images/bergen_02.jpg" alt="Dog in Bergen, Norway." >}}
 
 ---
 
