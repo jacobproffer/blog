@@ -5,7 +5,7 @@ layout: post
 description: The night before my 2019 trip to Japan.
 image: images/narita_social.jpg
 thumbnail: /images/narita_social.jpg
-thumbnail-caption: Narita International Airport.
+thumbnailCaption: Narita International Airport.
 categories: ["travel"]
 featured: true
 ---

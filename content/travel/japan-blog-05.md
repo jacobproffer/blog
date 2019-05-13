@@ -5,7 +5,7 @@ layout: post
 description: Jacob Proffer's time in Akihabara.
 image: images/japan_blog_05_social.jpg
 thumbnail: /images/akihabara_drug_store.jpg
-thumbnail-caption: Drug store in Akihabara.
+thumbnailCaption: Drug store in Akihabara.
 categories: ["travel"]
 ---
 

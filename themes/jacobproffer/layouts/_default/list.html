@@ -1,11 +1,15 @@
 {{ define "main" }}
   <section class="blog spacing">
     <div class="container container--small">
+      <header>
+        <span lang="ja">旅行と日本語</span>
+        <h1>Journal</h1>
+      </header>
       {{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") }}
       {{ range $index, $page := $paginator.Pages }}
         <article class="blog__post grid grid--posts">
           <figure>
-            <img src="{{ .Params.thumbnail }}" alt="Test" />
+            <img src="{{ .Params.thumbnail }}" alt="{{ .Params.thumbnailCaption }}" />
           </figure>
           <header>
             <time>{{ .PublishDate.Format "January 2, 2006" }}</time>

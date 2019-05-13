@@ -5,7 +5,7 @@ layout: post
 description: Jacob Proffer's time in Ikebukuro and Akihabara, Tokyo, Japan.
 image: images/akihabara_social.jpg
 thumbnail: /images/akihabara_thumbnail.jpg
-thumbnail-caption: Alley in Akihabara.
+thumbnailCaption: Alley in Akihabara.
 categories: ["travel"]
 ---
 

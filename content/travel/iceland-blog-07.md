@@ -5,8 +5,7 @@ layout: post
 description: Leaving Iceland.
 image: images/iceland_blog_07_social.jpg
 thumbnail: /images/myles.jpg
-thumbnail-caption: Myles next to rental vehicle.
-thumbnail-coordinates: 63.528968&deg; N, 19.603832&deg; W
+thumbnailCaption: Myles next to rental vehicle.
 categories: ["travel"]
 ---
 

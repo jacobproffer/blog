@@ -5,7 +5,7 @@ layout: post
 description: Jacob Proffer's time in Shinjuku, Tokyo, Japan.
 image: images/japan_blog_03_social.jpg
 thumbnail: /images/kabukicho_sign.jpg
-thumbnail-caption: Sign for Kabukicho.
+thumbnailCaption: Sign for Kabukicho.
 categories: ["travel"]
 ---
 

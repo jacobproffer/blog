@@ -5,7 +5,7 @@ layout: post
 description: First full day in Norway, exploring Tvindefossen, Aurlandsdalen and Nærøyfjord.
 image: /images/norway_blog_02_social.jpg
 thumbnail: /images/tvindefossen.jpg
-thumbnail-caption: Abandoned cabin in Tvindefossen.
+thumbnailCaption: Abandoned cabin in Tvindefossen.
 thumbnail-coordinates: 60.726594&deg; N, 6.488324&deg; E
 categories: ["travel"]
 ---

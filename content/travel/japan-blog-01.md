@@ -5,7 +5,7 @@ layout: post
 description: Getting to Tokyo, Japan.
 image: images/japan_blog_01_social.jpg
 thumbnail: /images/japan_01.jpg
-thumbnail-caption: American Airlines Boeing 787 in Chicago.
+thumbnailCaption: American Airlines Boeing 787 in Chicago.
 categories: ["travel"]
 ---
 

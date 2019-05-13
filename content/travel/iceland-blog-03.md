@@ -5,8 +5,7 @@ layout: post
 description: Third day in Iceland.
 image: images/iceland_blog_03_social.jpg
 thumbnail: /images/thingvellir_2.jpg
-thumbnail-caption: Þingvellir.
-thumbnail-coordinates: 64.2558&deg; N, 21.1299&deg; W
+thumbnailCaption: Þingvellir.
 categories: ["travel"]
 ---
 

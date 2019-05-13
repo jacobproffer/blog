@@ -5,7 +5,7 @@ layout: post
 description: Jacob Proffer's time in Shinjuku, Tokyo, Japan.
 image: images/japan_blog_04_social.jpg
 thumbnail: /images/shinjuku_sunrise.jpg
-thumbnail-caption: Sunrise in Shinjuku.
+thumbnailCaption: Sunrise in Shinjuku.
 categories: ["travel"]
 ---
 

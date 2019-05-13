@@ -5,7 +5,7 @@ layout: post
 description: Immigration and the train ride to Tokyo, Japan.
 image: images/japan_blog_02_social.jpg
 thumbnail: /images/shinjuku_sign.jpg
-thumbnail-caption: Sign in Shinjuku.
+thumbnailCaption: Sign in Shinjuku.
 categories: ["travel"]
 ---
 

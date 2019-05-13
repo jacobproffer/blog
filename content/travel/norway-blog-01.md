@@ -5,7 +5,7 @@ layout: post
 description: Traveling to Norway and exploring Bergen.
 image: images/norway_blog_01_social.jpg
 thumbnail: /images/bergen_01.jpg
-thumbnail-caption: Group of young men in Bergen, Norway.
+thumbnailCaption: Group of young men in Bergen, Norway.
 thumbnail-coordinates: 60.394275&deg; N, 5.3261278&deg; E
 categories: ["travel"]
 ---
