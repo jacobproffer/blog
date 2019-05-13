@@ -4,9 +4,9 @@ date: 2018-03-25 14:00:00
 layout: post
 description: Jacob Proffer's time in Shinjuku, Tokyo, Japan.
 image: images/japan_blog_04_social.jpg
-thumbnail: images/shinjuku_sunrise.jpg
+thumbnail: /images/shinjuku_sunrise.jpg
 thumbnail-caption: Sunrise in Shinjuku.
-categories: travel
+categories: ["travel"]
 ---
 
 I woke around three in the morning. Through the window in the hotel room, I could see that the night life was still active down the block. A group of people crossed the street, off to a hostess club or karaoke bar. A lone taxi cab weaved past them. An ambulance and firetruck were parked on a corner to their right with the sirens on but I couldn't see what for.

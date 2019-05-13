@@ -5,7 +5,7 @@
   height: auto;
   padding: 25px 0;
   overflow-y: visible;
-  transition: transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out, background-color 300ms ease-in-out;
   will-change: transform;
 
   &.unpinned {
@@ -30,6 +30,10 @@
   }
 
   &__home-link {
+    font-family: 'eurostile', san-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
     justify-self: start;
   }
 

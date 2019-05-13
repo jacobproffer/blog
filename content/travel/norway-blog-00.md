@@ -4,10 +4,10 @@ date: 2018-10-24 14:00:00
 layout: post
 description: The night before my trip to Norway.
 image: images/norway_blog_00_social.jpg
-thumbnail: images/norway_00_thumbnail.jpg
+thumbnail: /images/norway_00_thumbnail.jpg
 thumbnail-caption: Near the small lake of Leirvogsvatn.
 thumbnail-coordinates: 60.878486&deg; N, 6.843065&deg; E
-categories: travel
+categories: ["travel"]
 ---
 
 This is it. The final night before I commence my trip to the beautiful country of Norway. For the next week, Myles Kedrowski and I will be staying in the city of Bergen. Similar to our venture to Iceland, Myles and I will fly separate flights but meet up at the airport. He should arrive a few hours after I do on Friday afternoon. Our itinerary consists of nearly non-stop hiking throughout the north and south west of Norway. Thankfully, we'll cover the great distances between locations by car.

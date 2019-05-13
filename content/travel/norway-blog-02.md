@@ -3,11 +3,11 @@ title: "Norway Blog 02"
 date: 2018-11-29 14:00:00
 layout: post
 description: First full day in Norway, exploring Tvindefossen, Aurlandsdalen and Nærøyfjord.
-image: images/norway_blog_02_social.jpg
-thumbnail: images/tvindefossen.jpg
+image: /images/norway_blog_02_social.jpg
+thumbnail: /images/tvindefossen.jpg
 thumbnail-caption: Abandoned cabin in Tvindefossen.
 thumbnail-coordinates: 60.726594&deg; N, 6.488324&deg; E
-categories: travel
+categories: ["travel"]
 ---
 
 Norway has a lot of tunnels. The majority are short, between a half mile to a few miles long. There are a few that surpass ten with the longest being fifteen miles long. The length depends on the location and the span of the fjord. The majority of these tunnels are two lane, fully lit with emergency telephones. Yet there are also tunnels that are so narrow that only one vehicle can pass through at a time. In these cases, a stop-light alerts drivers from either side when it's safe to pass through.

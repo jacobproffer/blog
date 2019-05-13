@@ -1,8 +1,25 @@
+@font-face {
+  font-family: 'eurostile';
+  src: url('/fonts/eurostile-bold.woff2') format('woff2'),
+       url('/fonts/eurostile-bold.woff') format('woff'),
+       url('/fonts/eurostile-bold.ttf') format('truetype');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'eurostile';
+  text-transform: uppercase;
+}
+
 h1 {
   @include font-size($h1-font-sizes);
   padding-bottom: 0;
   margin: 0 0 20px;
-  line-height: 1.2;
+  line-height: 1.8;
 }
 
 h2 {
@@ -14,7 +31,7 @@ h2 {
 h3 {
   @include font-size($h3-font-sizes);
   margin: 0;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 p {

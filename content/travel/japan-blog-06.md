@@ -4,9 +4,9 @@ date: 2018-04-10 14:00:00
 layout: post
 description: Jacob Proffer's time in Shibuya, Tokyo, Japan.
 image: images/shibuya_social.jpg
-thumbnail: images/shibuya_thumbnail.jpg
+thumbnail: /images/shibuya_thumbnail.jpg
 thumbnail-caption: Shibuya crossing.
-categories: travel
+categories: ["travel"]
 ---
 
 Saturday in Tokyo was unique. I slept in for once, which provided an opportunity to seek breakfast somewhere other than Burger King. I tried out the breakfast buffet at the Bonsalute Kabuki, which was located on the ground floor of the hotel. The restaurant served Italian food throughout the day. But in the morning, there was a choice of Western or Japanese breakfast foods. I enjoyed a meal of potatoes, sausages and croissants with second helpings.

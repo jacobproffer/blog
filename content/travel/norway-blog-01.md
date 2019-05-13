@@ -4,10 +4,10 @@ date: 2018-11-22 14:00:00
 layout: post
 description: Traveling to Norway and exploring Bergen.
 image: images/norway_blog_01_social.jpg
-thumbnail: images/bergen_01.jpg
+thumbnail: /images/bergen_01.jpg
 thumbnail-caption: Group of young men in Bergen, Norway.
 thumbnail-coordinates: 60.394275&deg; N, 5.3261278&deg; E
-categories: travel
+categories: ["travel"]
 ---
 
 I touched down in Norway to a sunny view of distant fjords, islands and a fleet of helicopters. It was nine in the morning, four hours before Myles was due to fly in. Since I didn't have any luggage to claim, I bought a cup of coffee and relaxed in the main lounge. The Bergen airport is small in size, which left little to explore. But the nearby gates seemed to be busy. There were a range of flights going in and out for the first few hours and then it got real quiet.
