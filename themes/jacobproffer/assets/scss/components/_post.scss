@@ -11,6 +11,10 @@
     font-size: 1.125rem;
   }
 
+  figure + figure {
+    margin-top: 20px;
+  }
+
   img {
     &:not(:first-of-type) {
       margin-top: 40px;
