@@ -19,12 +19,12 @@
                 {{ .Title }}
               </a>
             </h3>
-            <footer>
-            {{ range .Params.categories }}
-              <small class="category">{{ . }}</small>
-            {{ end }}
-            </footer>
           </header>
+          <footer>
+          {{ range .Params.categories }}
+            <small class="category">{{ . }}</small>
+          {{ end }}
+          </footer>
         </article>
       {{ end }}
     </div>
