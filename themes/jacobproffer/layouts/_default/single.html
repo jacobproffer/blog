@@ -2,33 +2,17 @@
 <article class="post spacing">
   <div class="container container--small">
     <header>
-      <time datetime={{ .Date.Format "2006-01-02T15:04:05Z0700" }}>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+      <time datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
+      <span>- {{ .ReadingTime }} min read</span>
       <h1>{{ .Title }}</h1>
     </header>
     {{ .Content }}
+    {{ range .Params.categories }}
+    <footer>
+      <small class="category">{{ . }}</small>
+    </footer>
+    {{ end }}
   </div>
 </article>
-
-<div class="pagination pagination--post">
-  <div class="container container--small">
-    <div class="grid grid--pagination">
-
-      {{ with .Prev }}
-      <a class="pagination-item pagination-item--prev" href="{{ .Permalink }}">
-        Previous Post
-        <span>{{ .Title }}</span>
-      </a>
-      {{ end }}
-
-      {{ with .Next }}
-      <a class="pagination-item pagination-item--next" href="{{ .Permalink }}">
-        Next Post
-        <span>{{ .Title }}</span>
-      </a>
-      {{ end }}
-
-    </div>
-  </div>
-</div>
-
+{{ partial "pagination/post-pagination.html" . }}
 {{- end }}

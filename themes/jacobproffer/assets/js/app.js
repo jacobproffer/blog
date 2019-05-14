@@ -1,5 +1,3 @@
-/* eslint-disable no-undef */
-var bLazy = new Blazy();
 var mainHeader = document.querySelector(".main-header");
 var headerHeight = mainHeader.offsetHeight;
 var headroom = new Headroom(mainHeader, {
@@ -21,5 +19,4 @@ var headroom = new Headroom(mainHeader, {
     mainHeader.classList.remove("pinned");
   }
 });
-/* eslint-enable no-undef */
 headroom.init();
