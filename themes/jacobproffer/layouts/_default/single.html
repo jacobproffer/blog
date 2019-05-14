@@ -2,10 +2,15 @@
 <article class="post spacing">
   <div class="container container--small">
     <header>
-      <time datetime={{ .Date.Format "2006-01-02T15:04:05Z0700" }}>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+      <time datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
       <h1>{{ .Title }}</h1>
     </header>
     {{ .Content }}
+    {{ range .Params.categories }}
+    <footer>
+      <small class="category">{{ . }}</small>
+    </footer>
+    {{ end }}
   </div>
 </article>
 

@@ -8,4 +8,18 @@ paginatePath = "posts"
 
 [params]
   description = "Jacob Proffer is a Front-End Developer working at Elegant Seagulls in Marquette, Michigan."
-  socialImage = "/images/jacobproffer-social.jpg"
+  socialImage = "images/jacobproffer-social.jpg"
+
+[menu]
+
+  [[menu.social]]
+    identifier = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/jacobproffer"
+    weight = 1
+
+  [[menu.social]]
+    identifier = "instagram"
+    name = "Instagram"
+    url = "https://www.instagram.com/jacobproffer_/"
+    weight = 2

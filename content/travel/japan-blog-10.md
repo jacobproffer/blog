@@ -2,7 +2,7 @@
 title: "Japan Blog 10"
 date: 2019-05-13T18:41:26-04:00
 description: Traveling back to Japan.
-image: /images/narita_social.jpg
+image: images/narita_social.jpg
 thumbnail: /images/japan_airlines.jpg
 thumbnailCaption: O'Hare International Airport.
 categories: ["travel"]
@@ -19,4 +19,4 @@ The airlines changed my seat last minute and I ended up in premium economy, righ
 
 ---
 
-After I deboarded the plane, I made my way to the monorail connected to the airport. It was my first taste of the subway system within Osaka. From Osaka International Airport, I took the monorail to Senri-Chūō Station. From that station, I purchased a ticket on another subway line to Namba Station. The whole process took around an hour, with stops at various stations along the way.
+After I deboarded the plane, I decided to take the monorail to my hotel in Nippombashi. Compared to the prices of buses and taxis, the train is a much cheaper option. The only drawback is that it is a much slower option due to all of the stops at various stations. From Osaka International Airport, I had to make a transfer to a subway line at Senri-Chūō Station. Then from Senri-Chūō, I was able to ride straight to Namba Station, which is a short walk away from Nippombashi.

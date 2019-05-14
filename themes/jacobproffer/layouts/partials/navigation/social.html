@@ -1,0 +1,9 @@
+<ul class="footer__list">
+  {{ range .Site.Menus.social }}
+  <li class="footer__list-item">
+    <a class="footer__list-link" href="{{ .URL }}" target="_blank" rel="noopener">
+      {{ .Name }}
+    </a>
+  </li>
+  {{ end }}
+</ul>

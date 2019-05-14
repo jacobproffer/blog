@@ -3,16 +3,9 @@
     <a class="main-header__skip-link" href="#content">Skip to Main Content</a>
     <div class="grid grid--navigation">
       <a class="main-header__home-link" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-      <nav>
-        <ul class="main-header__nav">
-          {{ $currentPage := . }}
-          {{ range .Site.Menus.main }}
-          <li class="mian-header__nav-item">
-            <a {{ if $currentPage.IsMenuCurrent "main" . }}class="active"{{ end }} href="{{ .URL }}">{{ .Name }}</a>
-          </li>
-          {{ end }}
-        </ul>
-      </nav>
+      {{ if .Site.Menus.main }}
+        {{ partial "navigation/main-navigation" . }}
+      {{ end }}
     </div>
   </div>
 </div>
