@@ -1,0 +1,21 @@
+<div class="pagination pagination--post">
+  <div class="container container--small">
+    <div class="grid grid--pagination">
+
+      {{ with .Prev }}
+      <a class="pagination-item pagination-item--prev" href="{{ .Permalink }}">
+        Previous Post
+        <span>{{ .Title }}</span>
+      </a>
+      {{ end }}
+
+      {{ with .Next }}
+      <a class="pagination-item pagination-item--next" href="{{ .Permalink }}">
+        Next Post
+        <span>{{ .Title }}</span>
+      </a>
+      {{ end }}
+
+    </div>
+  </div>
+</div>

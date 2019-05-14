@@ -8,6 +8,7 @@ paginatePath = "posts"
 
 [params]
   description = "Jacob Proffer is a Front-End Developer working at Elegant Seagulls in Marquette, Michigan."
+  subTitle = "旅行と日本語"
   socialImage = "images/jacobproffer-social.jpg"
 
 [menu]
