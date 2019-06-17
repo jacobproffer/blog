@@ -12,6 +12,8 @@ My interest with Osaka started with an action-adventure game called Yakuza 0. Th
 
 That's where I began Friday in Japan, Dōtonbori. As a central central hub for food in Osaka, there are a wide variety of dishes to try throughout the area. I recommend to try street food. Takoyaki is the most common, which is a ball-shaped snack with diced octopus. There are also dangos, which are Japanese dumplings served on a skewer. I tried mitarashi dangos, which were doused with a sweet soy sauce.
 
+After lunch, I purchased a cocktail from a nearby Lawson. As it is legal to consume alcohol in public in Japan, I had to try it out. My choice was a can of Suntory Holdings' Strong Zero. Popular with young adults, the cocktail only costs around one hundred yen. The taste is similar to lemonade but with a high alcohol percentage. I should note that it is a cultural norm to not walk and drink. Find a bench or stand.
+
 ---
 
 {{< figure src="/images/dotonbori_01.jpg" alt="Canals of Dotonbori." caption="Canals of Dotonbori." >}}
@@ -27,7 +29,3 @@ For anyone with an interest in anime or manga, Mandarake Grand Chaos is a short 
 {{< figure src="/images/mandarake_grand_chaos.jpg" alt="Mandarake Grand Chaos advertisements." caption="Mandarake Grand Chaos advertisements." >}}
 
 ---
-
-When compared to the United States, Japan is more permissive when it comes to alcohol. The drinking age is lower and there are vending machines that sell beer and liquor. It is also legal to consume in public, right on the street. Though it is a cultural norm to not walk and drink. Find a bench or stand outside a Lawson. I experienced this freedom with a can of Suntory Holdings' Strong Zero. The cocktail is popular throughout Japan and only costs around one hundred yen.
-
-<!-- Cop -->
