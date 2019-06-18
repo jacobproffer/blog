@@ -1,31 +1,35 @@
 ---
 title: "Japan Blog 11"
-date: 2019-05-28T21:04:26-04:00
-description: Post description
-image: Social media image
-thumbnail: Image
+date: 2019-06-17T21:20:22-04:00
+description: Jacob Proffer's time in the area of Dōtonbori.
+image: images/japan_blog_11_social.jpg
+thumbnail: /images/dotonbori_01.jpg
+thumbnailCaption: Canals of Dōtonbori.
 categories: ["travel"]
-draft: true
 ---
 
-My interest with Osaka started with an action-adventure game called Yakuza 0. The game takes place in 1988 and is set in Tokyo's Kabukichō and Osaka's Dōtonbori. The attention to detail in the game is superb, with stores such as Don Quijote, stray cats and the canals of Dōtonbori. There is even a mission that spans the length of the Ebisu bridge in Osaka, where you help defend a teen from thugs.
+My interest with Osaka started with an action-adventure game called Yakuza 0. The game takes place in 1988 and is set in Tokyo's Kabukichō and Osaka's Dōtonbori. The attention to detail in the game is superb, with stores such as Don Quijote, stray cats and the Tombori River walk. There is even a mission that spans the length of the Ebisu bridge, where you help defend a teen from thugs.
 
-That's where I began Friday in Japan, Dōtonbori. As a central central hub for food in Osaka, there are a wide variety of dishes to try throughout the area. I recommend to try street food. Takoyaki is the most common, which is a ball-shaped snack with diced octopus. There are also dangos, which are Japanese dumplings served on a skewer. I tried mitarashi dangos, which were doused with a sweet soy sauce.
+That's where I spent Friday in Japan, with a full day in Dōtonbori. As a central hub for food in Osaka, there are a wide variety of dishes to try. Takoyaki and dangos are the most common. Takoyaki is a ball-shaped snack with diced octopus. It most often is doused with various sauces and tempura scraps. Dangos are Japanese dumplings served on a skewer. Out of the two, I prefer dangos for the overall taste. I found the taste of octopus to be too spongy and hard on the stomach.
 
-After lunch, I purchased a cocktail from a nearby Lawson. As it is legal to consume alcohol in public in Japan, I had to try it out. My choice was a can of Suntory Holdings' Strong Zero. Popular with young adults, the cocktail only costs around one hundred yen. The taste is similar to lemonade but with a high alcohol percentage. I should note that it is a cultural norm to not walk and drink. Find a bench or stand.
-
----
-
-{{< figure src="/images/dotonbori_01.jpg" alt="Canals of Dotonbori." caption="Canals of Dotonbori." >}}
+As it is legal to consume alcohol publicly in Japan, I enjoyed a drink by the canals after lunch. My choice was Suntory Holdings' Strong Zero, which I had purchased from a nearby Lawson. The cocktail is similar to a Mike's Hard Lemonade. At a low cost of around one hundred yen, it is popular with young adults throughout Japan. It's the type of drink where the alcohol is hard to taste and can sneak up on you.
 
 ---
 
-Dōtonbori also has stores for sweets and souvenirs. Glico-ya and Ichibirian are a must to check-out, with Glico and Kuidaore Taro merchandise. I purchaded a yellow tin from Ichibirian. More so to collect the tin than for the delicious Kuidaore Taro shaped crackers inside. Be warned though that these shops are popular with young school children, even early in the day. The lines can wrap around the store.
+{{< figure src="/images/dotonbori_01.jpg" alt="Canals of Dōtonbori." caption="Canals of Dōtonbori." >}}
 
-For anyone with an interest in anime or manga, Mandarake Grand Chaos is a short walk from Dōtonbori. There are floors of comics, toys and collectibles. I was on the hunt for Yotsuba&!. The manga series depicts the adventures of a young girl as she grows up. It's a recommended choice for anyone learning Japanese. The book features a reading aid called furigana, which are small kana characters next to complex kanji.
+---
+
+For sweets and souvenirs in Dōtonbori, I visited Glico-ya and Ichibirian. Both shops carry Glico and Kuidaore Taro merchandise. I purchased a yellow tin from Ichibirian. More so to collect the tin than for the delicious Kuidaore Taro shaped crackers inside. Be warned though that these shops are crammed with young school children, even early in the day. The lines can be long but are worth the wait.
+
+Anyone with an interest in anime or manga should check out Mandarake Grand Chaos. It is a short walk from Dōtonbori. There are floors of comics, toys and collectibles. I was on the hunt for Yotsuba&!. The manga series depicts the adventures of a young girl as she grows up. It's a recommended choice for anyone learning Japanese. The book features a reading aid called furigana, which are small kana characters next to complex kanji.
 
 ---
 
 {{< figure src="/images/mandarake_grand_chaos.jpg" alt="Mandarake Grand Chaos advertisements." caption="Mandarake Grand Chaos advertisements." >}}
 
 ---
+
+I spent the remainder of the day in Shinsaibashi, which is located north of Dōtonbori. It is a fully roofed shopping district, which spans multiple streets. There are a number of fashion and drug stores, restaurants, pachinko parlors and even a Tohoe Cinemas. The area is also known for wagyu beef and beef cutlets. Due to the high cost of wagyu beef, I chose a beef cutlet for dinner. The meal was served with white rice, wasabi, Japanese salt &amp; pepper and a rich soy sauce. By far one of the best meals I've had in my life. Well worth the thousand yen I paid.
+
+On my way back to the hotel in Namba, I was stopped by the police. The officer pulled their bike in front of me and asked a question in Japanese. Luckily, I knew enough Japanese to ask for them to translate in English. At which point, I was asked to show my passport. The officer took a few notes, apologized and then road off. From prior research, I had learned that this is a common occurrence. It's so common that it's even mocked in the game Yakuza 0. Though I'm curious how the encounter would have ended if I had left my passport at the hotel.
