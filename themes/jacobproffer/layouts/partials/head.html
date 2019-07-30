@@ -1,13 +1,21 @@
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{{ if .IsHome -}}{{ .Site.Title }} | {{ .Site.Params.subTitle }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-  <meta name="description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{.Description}}{{end}}" />
-  {{ partial "head/seo/open-graph.html" . }}
-  {{ partial "head/seo/twitter-card.html" . }}
+
+  {{ partial "head/meta.html" }}
+
+  {{ partial "head/title.html" . }}
+
+  {{ partial "head/description.html" . }}  
+
+  {{ template "_internal/opengraph.html" . }}
+
+  {{ template "_internal/twitter_cards.html" . }}
+
   {{ partial "head/rss.html" }}
-  <link href="https://fonts.googleapis.com/css?family=Inconsolata%7CPTKarla:700" rel="stylesheet">
+
+  {{ partial "head/fonts.html" }}
+
   {{ partial "head/stylesheet.html" . }}
-  {{ partial "head/google-analytics.html" }}
+
+  {{ template "_internal/google_analytics.html" . }}
+
 </head>

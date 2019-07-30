@@ -1,12 +1,13 @@
 ---
 title: "Japan Blog 05"
 date: 2018-04-01 14:00:00
-layout: post
 description: Jacob Proffer's time in Akihabara.
-image: images/japan_blog_05_social.jpg
+images:
+  - images/japan_blog_05_social.jpg
 thumbnail: /images/akihabara_drug_store.jpg
 thumbnailCaption: Drug store in Akihabara.
 categories: ["travel"]
+series: ["japan"]
 ---
 
 Friday morning, I was out the door by seven. Breakfast was at Burger King, my new usual spot in Shinjuku. It was cheap, familiar and no one bothered me. I finished my food and walked over to Shinjuku Station, where I attempted to use one of the JR Line ticket booths. There was an English translation but I couldn't figure out what ticket I needed. Thankfully, there was a service center. The staff all spoke English and helped me purchase a round-trip ticket for Akihabara. The ticket cost me less than one-thousand yen, which I paid with the coins I had.

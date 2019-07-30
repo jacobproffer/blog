@@ -1,11 +1,16 @@
 <div class="main-header">
   <div class="container container--wide">
-    <a class="main-header__skip-link" href="#content">Skip to Main Content</a>
+
+    {{ partial "navigation/main/skip-to-content.html" }}
+    
     <div class="grid grid--navigation">
-      <a class="main-header__home-link" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+
+      {{ partial "navigation/main/home-link.html" . }}
+
       {{ if .Site.Menus.main }}
-        {{ partial "navigation/main-navigation" . }}
+        {{ partial "navigation/main/main-navigation" . }}
       {{ end }}
+
     </div>
   </div>
 </div>

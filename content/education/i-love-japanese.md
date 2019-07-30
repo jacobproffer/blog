@@ -1,9 +1,9 @@
 ---
 title: "日本語が大好きです"
 date: 2019-01-27 14:00:00
-layout: post
 description: Eighth month progress report of studying Japanese.
-image: images/i_love_japanese_social.jpg
+images:
+  - images/i_love_japanese_social.jpg
 thumbnail: /images/tofugu_stickers.jpg
 thumbnailCaption: Vinyl stickers from Tofogu.
 categories: ["education"]

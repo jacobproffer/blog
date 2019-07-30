@@ -1,12 +1,13 @@
 ---
 title: "Iceland Blog 02"
 date: 2018-08-26 14:00:00
-layout: post
 description: Second day in Iceland.
-image: images/iceland_blog_02_social.jpg
+images:
+  - images/iceland_blog_02_social.jpg
 thumbnail: /images/plane_wreck_1.jpg
 thumbnailCaption: Sólheimasandur plane wreck.
 categories: ["travel"]
+series: ["iceland"]
 ---
 
 Wednesday was the most well-thought out and detailed day of the trip. It started with breakfast at the hotel at around seven thirty, with the goal to leave the hotel by eight. For the half-hour breakfast, I enjoyed three waffles, sausages and baked beans. The coffee was great with no sugar and the orange juice just sweet enough. There also was a wide range of pastry offered, including croissants. But I refrained from overeating, as Myles and I had a lot of ground to cover that day.

@@ -1,10 +1,10 @@
 ---
 title: "Hiragana Progress"
 date: 2018-07-29 14:00:00
-layout: post
 description: Progress with Hiragana and Russian.
 categories: ["education"]
-image: images/hiragana_social.jpg
+images:
+  - images/hiragana_social.jpg
 thumbnail: /images/hiragana_thumbnail.jpg
 thumbnailCaption: Japanese From Zero book.
 ---

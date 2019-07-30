@@ -5,6 +5,12 @@ theme = "jacobproffer"
 publishDir = "docs"
 paginate = 8
 paginatePath = "posts"
+googleAnalytics = "UA-57480521-1"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
 
 [params]
   description = "Jacob Proffer is a Front-End Developer working at Elegant Seagulls in Marquette, Michigan."

@@ -1,12 +1,13 @@
 ---
 title: "Japan Blog 00"
 date: 2017-11-13 21:00:00
-layout: post
 description: The night before leaving for Tokyo, Japan.
-image: images/japan_blog_00_social.jpg
+images:
+  - images/japan_blog_00_social.jpg
 thumbnail: /images/japan_blog_00_thumbnail.jpg
 thumbnailCaption: Narita International Airport.
 categories: ["travel"]
+series: ["japan"]
 ---
 
 This is it. Tonight is my last full night within the United States, at least for the next week. As of Wednesday morning, I will touch down at Narita International Airport. Which, if you didn't know, is in Tokyo, Japan.
