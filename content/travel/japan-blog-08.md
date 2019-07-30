@@ -1,12 +1,13 @@
 ---
 title: "Japan Blog 08"
 date: 2018-05-07 14:00:00
-layout: post
 description: Leaving Tokyo, Japan.
-image: images/narita_social.jpg
+images:
+  - images/narita_social.jpg
 thumbnail: /images/narita_social.jpg
 thumbnailCaption: Narita International Airport.
 categories: ["travel"]
+series: ["japan"]
 ---
 
 As much I hated to return the room key, I checked out of the Hotel Gracery on Monday morning around eight. I considered breakfast at the Bonsalute Kabuki on the ground floor on my way out but decided to head to the Shinjuku Station instead. Although my flight wasn't until six at night, I wanted to have plenty of time for the train ride, security and customs. I also planned to have a few hours to walk around the airport before the thirteen hour flight.

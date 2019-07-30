@@ -1,0 +1,27 @@
+<article class="blog__post grid grid--posts">
+
+  <figure>
+    <img
+      src="{{ .Params.thumbnail }}"
+      alt="{{ .Params.thumbnailCaption }}"
+    />
+  </figure>
+
+  <header>
+    <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
+      {{ .PublishDate.Format "January 2, 2006" }}
+    </time>
+    <span>- {{ .ReadingTime }} min read</span>
+    <h3>
+      <a class="blog__post-link" href="{{ .Permalink }}">
+        {{ .Title }}
+      </a>
+    </h3>
+
+    {{ range .Params.categories }}
+      <small class="category">{{ . }}</small>
+    {{ end }}
+
+  </header>
+  
+</article>

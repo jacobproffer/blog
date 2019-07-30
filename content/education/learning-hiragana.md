@@ -1,10 +1,10 @@
 ---
 title: "Learning Hiragana"
 date: 2018-06-27 14:00:00
-layout: post
 description: Learning Hiragana, a component of the Japanese writing system.
 categories: ["education"]
-image: images/hiragana_social.jpg
+images: 
+  - images/hiragana_social.jpg
 thumbnail: /images/hiragana_thumbnail.jpg
 thumbnailCaption: Japanese From Zero book.
 ---

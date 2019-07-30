@@ -2,10 +2,12 @@
 title: "Japan Blog 10"
 date: 2019-05-13T18:41:26-04:00
 description: Back in Japan.
-image: images/japan_blog_10_social.jpg
+images:
+  - images/japan_blog_10_social.jpg
 thumbnail: /images/japan_airlines.jpg
 thumbnailCaption: Japan Airlines Boeing 787-9.
 categories: ["travel"]
+series: ["japan"]
 ---
 
 I've never flown domestically within another country before this trip to Japan. I was unsure of what the process would be like. But it's the same as it is within the United States. After immigration and customs, I only had to go through security. Though I didn't realize until I was in the domestic terminal that I was not flying American Airlines to Osaka. I would fly Japan Airlines, which I had never flown before.

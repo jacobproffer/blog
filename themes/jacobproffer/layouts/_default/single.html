@@ -1,18 +1,17 @@
-{{ define "main" -}}
-<article class="post spacing">
-  <div class="container container--small">
-    <header>
-      <time datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
-      <span>- {{ .ReadingTime }} min read</span>
-      <h1>{{ .Title }}</h1>
-    </header>
-    {{ .Content }}
-    {{ range .Params.categories }}
-    <footer>
-      <small class="category">{{ . }}</small>
-    </footer>
-    {{ end }}
-  </div>
-</article>
-{{ partial "pagination/post-pagination.html" . }}
-{{- end }}
+{{ define "main" }}
+
+  <article class="post spacing">
+    <div class="container container--small">
+
+      {{ partial "single/header.html" . }}
+
+      {{ .Content }}
+
+      {{ partial "single/footer.html" . }}
+
+    </div>
+  </article>
+
+  {{ partial "pagination/post-pagination.html" . }}
+
+{{ end }}

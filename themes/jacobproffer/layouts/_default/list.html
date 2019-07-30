@@ -1,43 +1,36 @@
 {{ define "main" }}
+
   <section class="blog spacing">
     <div class="container container--small">
-      <header>
-        <span lang="ja">旅行と日本語</span>
-        <h1>Journal</h1>
-      </header>
+
+      {{ partial "list/header.html" . }}
+
       {{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") }}
+
       {{ range $index, $page := $paginator.Pages }}
-        <article class="blog__post grid grid--posts">
-          <figure>
-            <img src="{{ .Params.thumbnail }}" alt="{{ .Params.thumbnailCaption }}" />
-          </figure>
-          <header>
-            <time datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "January 2, 2006" }}</time>
-            <span>- {{ .ReadingTime }} min read</span>
-            <h3>
-              <a class="blog__post-link" href="{{ .Permalink }}">
-                {{ .Title }}
-              </a>
-            </h3>
-            {{ range .Params.categories }}
-              <small class="category">{{ . }}</small>
-            {{ end }}
-          </header>
-        </article>
+        {{ partial "list/article.html" . }}
       {{ end }}
+
     </div>
   </section>
+
   <div class="pagination pagination--numbers">
     <div class="container container--small">
       <ul class="pagination__numbers">
+
         {{ range $paginator.Pagers }}
-        <li>
-          <a class="pagination__number{{ if eq . $paginator }} pagination__number--current{{ end }}" href="{{ .URL }}">
-            {{ .PageNumber }}
-          </a>
-        </li>
+          <li>
+            <a
+              class="pagination__number{{ if eq . $paginator }} pagination__number--current{{ end }}"
+              href="{{ .URL }}"
+            >
+              {{ .PageNumber }}
+            </a>
+          </li>
         {{ end }}
+
       </ul>
     </div>
   </div>
+
 {{ end }}
