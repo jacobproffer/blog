@@ -12,11 +12,11 @@
       {{ .PublishDate.Format "January 2, 2006" }}
     </time>
     <span>- {{ .ReadingTime }} min read</span>
-    <h3>
+    <h2>
       <a class="blog__post-link" href="{{ .Permalink }}">
         {{ .Title }}
       </a>
-    </h3>
+    </h2>
 
     {{ range .Params.categories }}
       <small class="category">{{ . }}</small>
