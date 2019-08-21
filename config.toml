@@ -14,7 +14,7 @@ googleAnalytics = "UA-57480521-1"
 
 [params]
   description = "Jacob Proffer is a Front-End Developer working at Elegant Seagulls in Marquette, Michigan."
-  subTitle = "旅行と日本語"
+  subTitle = "Front-End Developer"
   socialImage = "images/jacobproffer-social.jpg"
 
 [menu]
