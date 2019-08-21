@@ -10,15 +10,18 @@
   </figure>
 
   <header>
-    <time datetime="{{ .PublishDate.Format "2006-01-02" }}" itemprop="datePublished">
-      {{ .PublishDate.Format "January 2, 2006" }}
-    </time>
-    <span>- {{ .ReadingTime }} min read</span>
     <h2 itemprop="headline">
       <a class="blog__post-link" href="{{ .Permalink }}">
         {{ .Title }}
       </a>
     </h2>
+
+    <span class="blog__post-published">
+      Published on
+      <time datetime="{{ .PublishDate.Format "2006-01-02" }}" itemprop="datePublished">
+        {{ .PublishDate.Format "January 2, 2006" }}
+      </time>
+    </span>
 
     {{ range .Params.categories }}
       <small class="category">{{ . }}</small>

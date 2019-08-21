@@ -1,18 +1,12 @@
 .blog {
-  position: relative;
-  overflow: hidden;
-
   &__post {
-    @include size(100%, auto);
-    position: relative;
-    text-align: left;
-
     &:not(:first-of-type) {
       margin-top: 40px;
     }
+  }
 
-    h3 {
-      transition: color 300ms ease-in-out;
-    }
+  &__post-published {
+    display: block;
+    margin-bottom: 20px;
   }
 }
