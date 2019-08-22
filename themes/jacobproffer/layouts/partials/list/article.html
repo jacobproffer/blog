@@ -9,32 +9,38 @@
     />
   </figure>
 
-  <header>
-    <h2 itemprop="headline">
-      <a class="blog__post-link" href="{{ .Permalink }}">
-        {{ .Title }}
-      </a>
-    </h2>
+  <div>
 
-    <span class="blog__post-published">
-      Published on
-      <time datetime="{{ .PublishDate.Format "2006-01-02" }}" itemprop="datePublished">
-        {{ .PublishDate.Format "January 2, 2006" }}
-      </time>
-    </span>
+    <header>
+      <h2 itemprop="headline">
+        <a class="blog__post-link" href="{{ .Permalink }}">
+          {{ .Title }}
+        </a>
+      </h2>
 
-    {{ range .Params.categories }}
-      <small class="category">{{ . }}</small>
-    {{ end }}
+      <span class="blog__post-published">
+        Published on
+        <time datetime="{{ .PublishDate.Format "2006-01-02" }}" itemprop="datePublished">
+          {{ .PublishDate.Format "January 2, 2006" }}
+        </time>
+      </span>
 
-  </header>
+    </header>
 
-  <footer>
+    <p itemprop="articleBody">{{ .Summary }}</p>
 
-    {{ partial "seo/author.html" . }}
+    <footer>
 
-    {{ partial "seo/publisher.html" . }}
+      {{ range .Params.categories }}
+        <small class="category" itemprop="genre">{{ . }}</small>
+      {{ end }}
 
-  </footer>
+      {{ partial "seo/author.html" . }}
+
+      {{ partial "seo/publisher.html" . }}
+
+    </footer>
+
+  </div>
   
 </article>
