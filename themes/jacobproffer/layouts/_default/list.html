@@ -1,10 +1,11 @@
 {{ define "main" }}
 
-  <section class="blog spacing">
+  <section class="blog spacing" itemscope itemtype="https://schema.org/Blog">
     <div class="container container--small">
 
       <header>
         <h1>Journal</h1>
+        <meta itemprop="name" content="Journal of Jacob Proffer" />
       </header>
 
       {{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") }}
