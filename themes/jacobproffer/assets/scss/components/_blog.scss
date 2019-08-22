@@ -6,7 +6,21 @@
     }
 
     &:not(:first-of-type) {
+      padding-top: 50px;
       margin-top: 50px;
+      border-top: 1px solid $border;
+    }
+  }
+
+  &__post-image {
+    @include screen-below(670px) {
+      order: 1;
+    }
+  }
+
+  &__post-content {
+    @include screen-below(670px) {
+      order: 2;
     }
   }
 
