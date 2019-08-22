@@ -33,6 +33,10 @@
 
   &--posts {
     grid-template-columns: repeat(2, 1fr);
+
+    @include screen-between(670px, 1024px) {
+      grid-template-columns: 1fr 2fr;
+    }
     
     @include screen-below(670px) {
       grid-template-columns: 1fr;

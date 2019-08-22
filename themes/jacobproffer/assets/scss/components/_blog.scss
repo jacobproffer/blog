@@ -1,7 +1,12 @@
 .blog {
   &__post {
+    h2 {
+      margin-bottom: .5em;
+      line-height: 1;
+    }
+
     &:not(:first-of-type) {
-      margin-top: 40px;
+      margin-top: 50px;
     }
   }
 
