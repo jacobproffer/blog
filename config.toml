@@ -15,7 +15,7 @@ summaryLength = 14
   tag = "tags"
 
 [params]
-  description = "Travel and language study journal of Jacob Proffer."
+  description = "Travel and language study blog of Jacob Proffer."
   subTitle = "Front-End Developer and Traveler"
   socialImage = "images/jacobproffer-social.jpg"
 

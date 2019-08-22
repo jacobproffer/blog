@@ -4,8 +4,8 @@
     <div class="container container--list">
 
       <header>
-        <h1>Travel &amp; Linguistics</h1>
-        <meta itemprop="name" content="Journal of Jacob Proffer" />
+        <h1 itemprop="name">Travel &amp; Linguistics</h1>
+        <meta itemprop="description" content="Travel and language study blog of Jacob Proffer" />
       </header>
 
       {{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") }}
