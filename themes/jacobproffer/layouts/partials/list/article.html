@@ -2,14 +2,7 @@
 
   {{ partial "seo/meta.html" . }}
 
-  <figure>
-    <img
-      src="{{ .Params.thumbnail }}"
-      alt="{{ .Params.thumbnailCaption }}"
-    />
-  </figure>
-
-  <div>
+  <div class="blog__post-content">
 
     <header>
       <h2 itemprop="headline">
@@ -42,5 +35,12 @@
     </footer>
 
   </div>
+
+  <figure class="blog__post-image">
+    <img
+      src="{{ .Params.thumbnail }}"
+      alt="{{ .Params.thumbnailCaption }}"
+    />
+  </figure>
   
 </article>
