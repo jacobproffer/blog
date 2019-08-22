@@ -6,6 +6,7 @@ publishDir = "docs"
 paginate = 8
 paginatePath = "posts"
 googleAnalytics = "UA-57480521-1"
+enableRobotsTXT = true
 
 [taxonomies]
   category = "categories"
