@@ -13,4 +13,8 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Thumbnail", name: "thumbnail", widget: "image"}
+      - {label: "Categories", name: "categories", widget: "list"}
+      - {label: "Series", name: "series", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
