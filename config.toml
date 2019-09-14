@@ -2,7 +2,6 @@ baseURL = "https://jacobproffer.com/"
 languageCode = "en-us"
 title = "Jacob Proffer"
 theme = "jacobproffer"
-publishDir = "docs"
 paginate = 8
 paginatePath = "posts"
 googleAnalytics = "UA-57480521-1"
