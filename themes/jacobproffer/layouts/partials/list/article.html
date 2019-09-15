@@ -1,46 +1,26 @@
-<article class="blog__post grid grid--posts" itemscope itemtype="https://schema.org/BlogPosting">
+<article class="blog__post grid grid--post">
 
-  {{ partial "seo/meta.html" . }}
+  <header>
+    <h2>
+      <a class="blog__post-link" href="{{ .Permalink }}">
+        {{ .Title }}
+      </a>
+    </h2>
+  </header>
 
-  <div class="blog__post-content">
+  <span>
+    Published on
+    <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
+      {{ .PublishDate.Format "January 2, 2006" }}
+    </time>
+  </span>
 
-    <header>
-      <h2 itemprop="headline">
-        <a class="blog__post-link" href="{{ .Permalink }}">
-          {{ .Title }}
-        </a>
-      </h2>
+  <footer class="blog__post-footer">
 
-      <span class="blog__post-published">
-        Published on
-        <time datetime="{{ .PublishDate.Format "2006-01-02" }}" itemprop="datePublished">
-          {{ .PublishDate.Format "January 2, 2006" }}
-        </time>
-      </span>
+    {{ range .Params.categories }}
+      <small class="category">{{ . }}</small>
+    {{ end }}
 
-    </header>
-
-    <p itemprop="articleBody">{{ .Summary }}</p>
-
-    <footer>
-
-      {{ range .Params.categories }}
-        <small class="category" itemprop="genre">{{ . }}</small>
-      {{ end }}
-
-      {{ partial "seo/author.html" . }}
-
-      {{ partial "seo/publisher.html" . }}
-
-    </footer>
-
-  </div>
-
-  <figure class="blog__post-image">
-    <img
-      src="{{ .Params.thumbnail }}"
-      alt="{{ .Params.thumbnailCaption }}"
-    />
-  </figure>
+  </footer>
   
 </article>

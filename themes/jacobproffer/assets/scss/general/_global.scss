@@ -1,3 +1,11 @@
+:root {
+  --black: #0c0c0c;
+  --white: #fff;
+  --gray: #b4c7d2;
+  --yellow: #f8cf61;
+  --border: rgba(255, 255, 255, .1);
+}
+
 *,
 *::after,
 *::before {
@@ -11,15 +19,15 @@
 
 * {
   &:focus {
-    outline: 1px dotted $blue;
+    outline: 1px dotted var(--yellow);
   }
 }
 
 body {
   position: relative;
   font-size: 18px;
-  color: $black;
-  background-color: $white;
+  color: var(--white);
+  background-color: var(--black);
 }
 
 img {
@@ -31,13 +39,13 @@ figure {
 }
 
 a {
-  color: $blue;
+  color: var(--yellow);
   text-decoration: none;
   transition: color 300ms ease-in-out, outline 300ms ease-in-out;
 
   &:hover {
-    color: $black;
-    outline: dotted 1px $blue;
+    color: var(--white);
+    outline: dotted 1px var(--yellow);
   }
 
   &:active {
@@ -52,16 +60,10 @@ a {
 hr {
   margin: 2rem 0;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, .1);
+  border-top: 1px solid var(--border);
 }
 
 span,
 time {
-  color: $gray;
-}
-
-header {
-  h1 {
-    margin-bottom: 50px;
-  }
+  color: var(--gray);
 }

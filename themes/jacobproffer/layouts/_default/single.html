@@ -1,34 +1,26 @@
 {{ define "main" }}
 
-  <article class="post spacing" itemscope itemtype="https://schema.org/BlogPosting">
-
-    {{ partial "seo/meta.html" . }}
+  <article class="post spacing">
 
     <div class="container container--small">
 
       <header>
-        <h1 itemprop="headline">{{ .Title }}</h1>
+        <h1>{{ .Title }}</h1>
         <span class="post__information">
           Published on
-          <time datetime="{{ .PublishDate.Format "2006-01-02" }}" itemprop="datePublished">
+          <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
             {{ .PublishDate.Format "January 2, 2006" }}
           </time>
         </span>
       </header>
 
-      <div itemprop="articleBody">
-        {{ .Content }}
-      </div>
+      {{ .Content }}
 
       <footer>
 
         {{ range .Params.categories }}
           <small class="category">{{ . }}</small>
         {{ end }}
-
-        {{ partial "seo/author.html" . }}
-
-        {{ partial "seo/publisher.html" . }}
       
       </footer>
 

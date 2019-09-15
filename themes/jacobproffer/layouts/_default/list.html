@@ -1,39 +1,21 @@
 {{ define "main" }}
 
-  <section class="blog spacing" itemscope itemtype="https://schema.org/Blog">
-    <div class="container container--list">
+  <section class="blog">
 
-      <header>
-        <h1 itemprop="name">Travel &amp; Linguistics</h1>
-        <meta itemprop="description" content="Travel and language study blog of Jacob Proffer" />
-      </header>
+    <header class="blog__header">
+      <div class="container container--wide">
+        <h1>I'm, Jacob Proffer.</h1>
+        <span>I write about travel and Japanese.</span>
+      </div>
+    </header>
 
-      {{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") }}
+    <div class="container container--wide blog__post-container">
 
-      {{ range $index, $page := $paginator.Pages }}
+      {{ range .Pages }}
         {{ partial "list/article.html" . }}
       {{ end }}
 
     </div>
   </section>
-
-  <div class="pagination pagination--numbers">
-    <div class="container container--small">
-      <ul class="pagination__numbers">
-
-        {{ range $paginator.Pagers }}
-          <li>
-            <a
-              class="pagination__number{{ if eq . $paginator }} pagination__number--current{{ end }}"
-              href="{{ .URL }}"
-            >
-              {{ .PageNumber }}
-            </a>
-          </li>
-        {{ end }}
-
-      </ul>
-    </div>
-  </div>
 
 {{ end }}

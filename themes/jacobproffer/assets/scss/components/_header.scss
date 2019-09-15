@@ -14,7 +14,7 @@
 
   &.pinned {
     padding: 12px 0;
-    background-color: $white;
+    background-color: var(--black);
     transform: translateY(0);
   }
 
