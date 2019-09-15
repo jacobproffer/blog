@@ -1,31 +1,88 @@
 .blog {
+  &__header {
+    position: relative;
+    padding: 150px 0;
+    margin-bottom: 100px;
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+
+    img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+    }
+
+    &::before,
+    &::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: "";
+    }
+
+    &::before {
+      background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .5), black);
+    }
+
+    &::after {
+      background-image: url('/images/noise.png');
+    }
+
+    @include screen-below(1024px) {
+      padding: 113px 0;
+      margin-bottom: 75px;
+    }
+
+    @include screen-below(768px) {
+      margin-bottom: 50px;
+    }
+
+    @include screen-below(480px) {
+      margin-bottom: 25px;
+    }
+  }
+
+  &__post-container {
+    margin-bottom: 100px;
+
+    @include screen-below(1024px) {
+      margin-bottom: 75px;
+    }
+
+    @include screen-below(768px) {
+      margin-bottom: 50px;
+    }
+
+    @include screen-below(480px) {
+      margin-bottom: 25px;
+    }
+  }
+
   &__post {
+    padding: 25px 0;
+    
     h2 {
-      margin-bottom: .5em;
       line-height: 1;
     }
 
+    footer {
+      @include screen-above(768px) {
+        justify-self: end;
+      }
+    }
+
     &:not(:first-of-type) {
-      padding-top: 50px;
-      margin-top: 50px;
-      border-top: 1px solid $border;
+      border-top: 1px solid var(--border);
     }
-  }
-
-  &__post-image {
-    @include screen-below(670px) {
-      order: 1;
-    }
-  }
-
-  &__post-content {
-    @include screen-below(670px) {
-      order: 2;
-    }
-  }
-
-  &__post-published {
-    display: block;
-    margin-bottom: 20px;
   }
 }

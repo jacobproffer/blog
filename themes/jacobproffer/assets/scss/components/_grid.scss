@@ -31,6 +31,15 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  &--post {
+    grid-gap: 10px;
+    
+    @include screen-above(768px) {
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: space-between;
+    }
+  }
+
   &--posts {
     grid-template-columns: 2fr 1fr;
     

@@ -6,21 +6,9 @@
   }
 }
 
-.category {
-  padding: 5px 10px;
-  background-color: $light-blue;
-  border-radius: 5px;
-}
-
 .pagination {
   position: relative;
-  background-color: $light-gray;
-  border-top: 1px solid $light-blue;
-
-  &--numbers {
-    padding: 50px 0;
-    text-align: center;
-  }
+  border-top: 1px solid var(--border);
 
   &--post {
     &::before {
@@ -29,31 +17,9 @@
       left: 50%;
       width: 1px;
       height: 100%;
-      background-color: $light-blue;
+      background-color: var(--border);
       content: '';
       transform: translateX(-50%);
-    }
-  }
-
-  &__numbers {
-    padding: 0;
-    margin: 0;
-
-    li {
-      display: inline-block;
-      list-style-type: none;
-
-      &:not(:first-of-type) {
-        margin-left: 20px;
-      }
-    }
-  }
-
-  &__number {
-    padding: 5px 10px;
-    
-    &--current {
-      background-color: $light-blue;
     }
   }
 }
@@ -75,7 +41,7 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 2;
-    color: $purple;
+    color: var(--gray);
   }
 }
 
