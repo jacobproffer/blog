@@ -3,6 +3,7 @@
   --white: #fff;
   --gray: #b4c7d2;
   --yellow: #f8cf61;
+  --red: #ff572b;
   --border: rgba(255, 255, 255, .1);
 }
 
@@ -13,13 +14,13 @@
 }
 
 ::selection {
-  color: $black;
-  background: $light-blue;
+  color: var(--white);
+  background: var(--red);
 }
 
 * {
   &:focus {
-    outline: 1px dotted var(--yellow);
+    outline: 1px dotted var(--red);
   }
 }
 
@@ -39,17 +40,17 @@ figure {
 }
 
 a {
-  color: var(--yellow);
+  color: var(--red);
   text-decoration: none;
   transition: color 300ms ease-in-out, outline 300ms ease-in-out;
 
   &:hover {
     color: var(--white);
-    outline: dotted 1px var(--yellow);
+    outline: dotted 1px var(--red);
   }
 
   &:active {
-    color: $purple;
+    color: var(--gray);
   }
 
   &.current {
