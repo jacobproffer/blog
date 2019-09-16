@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Generals on Jacob Proffer</title>
+    <link>https://jacobproffer.com/general/</link>
+    <description>Recent content in Generals on Jacob Proffer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Sep 2019 23:52:16 +0000</lastBuildDate>
+    
+	<atom:link href="https://jacobproffer.com/general/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test</title>
+      <link>https://jacobproffer.com/general/test/</link>
+      <pubDate>Sun, 15 Sep 2019 23:52:16 +0000</pubDate>
+      
+      <guid>https://jacobproffer.com/general/test/</guid>
+      <description>Hey ya&amp;rsquo;ll, this is a test post.</description>
+    </item>
+    
+  </channel>
+</rss>
