@@ -1,0 +1,23 @@
+.profile {
+  &__articles {
+    margin-top: 50px;
+  }
+
+  &__article {
+    padding: 10px 20px;
+    border: 1px solid var(--border);
+
+    ul {
+      padding: 0;
+      list-style-position: inside;
+
+      ul {
+        margin-left: 15px;
+      }
+
+      li {
+        margin-top: 10px;
+      }
+    }
+  }
+}

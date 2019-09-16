@@ -1,0 +1,75 @@
+{{ define "main" }}
+
+<section class="profile spacing">
+  <div class="container container--wide">
+    <div class="grid grid--two-column">
+      <header>
+        <h1>A Little About Me.</h1>
+      </header>
+      {{ .Content }}
+    </div>
+    <div class="grid grid--three-column profile__articles">
+      <article class="profile__article">
+        <header>
+          <h2>Where I've Traveled</h2>
+        </header>
+        <ul>
+          <li>Tokyo, Japan (2017)</li>
+          <li>Reykjavík, Iceland (2018)</li>
+          <li>Bergen, Norway (2018)</li>
+          <li>Osaka, Japan (2019)
+            <ul>
+              <li>Kyoto, Japan</li>
+              <li>Nara, Japan</li>
+            </ul>
+          </li>
+        </ul>
+      </article>
+      <article class="profile__article">
+        <header>
+          <h2>Bucket List</h2>
+        </header>
+        <ul>
+          <li>Learn 1,000 kanji</li>
+          <li>Read a novel in Japanese</li>
+          <li>Make a friend in Japan</li>
+          <li>Try karaoke</li>
+          <li>Experience cherry blossom season</li>
+          <li>Hike Mount Fuji</li>
+          <li>Drink Sapporo beer in Sapporo</li>
+        </ul>
+      </article>
+      <article class="profile__article">
+        <header>
+          <h2>Japanese Resources I Use</h2>
+        </header>
+        <ul>
+          <li>
+            Books
+            <ul>
+              <li>
+                <a href="https://omgjapan.com/products/japanese-from-zero-1" target="_blank">Japanese From Zero! 1</a>
+              </li>
+              <li>
+                <a href="https://omgjapan.com/products/japanese-from-zero-2" target="_blank">Japanese From Zero! 2</a>
+              </li>
+              <li>
+                <a href="https://omgjapan.com/products/basic-kanji-book-vol-1" target="_blank">Basic Kanji Book Vol. 1</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Misc.
+            <ul>
+              <li>
+                <a href="https://omgjapan.com/products/kana-flashcards" target="_blank">Kana Flashcards by WRP</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+{{ end }}

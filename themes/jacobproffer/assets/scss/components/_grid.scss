@@ -48,6 +48,29 @@
     }
   }
 
+  &--two-column {
+    grid-template-columns: repeat(2, 1fr);
+
+    @include screen-between(768px, 1024px) {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+
+  &--three-column {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &--two-column,
+  &--three-column {
+    @include screen-below(1280px) {
+      grid-gap: 20px;
+    }
+
+    @include screen-below(768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
   @include screen-below(670px) {
     grid-gap: 20px;
   }
