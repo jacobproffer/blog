@@ -14,7 +14,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Images", name: "images", widget: "image"}
+      - {label: "Images", name: "images", widget: "list" field: {label: Image, name: image, widget: image}}
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "travel"
@@ -26,7 +26,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Images", name: "images", widget: "image"}
+      - {label: "Images", name: "images", widget: "list" field: {label: Image, name: image, widget: image}}
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Series", name: "series", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
@@ -39,7 +39,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
-      - {label: "Images", name: "images", widget: "image"}
+      - {label: "Images", name: "images", widget: "list" field: {label: Image, name: image, widget: image}}
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Series", name: "series", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
