@@ -51,13 +51,17 @@
   &--two-column {
     grid-template-columns: repeat(2, 1fr);
 
-    @include screen-between(768px, 1024px) {
-      grid-template-columns: 1fr 2fr;
+    @include screen-below(1024px) {
+      grid-template-columns: 1fr;
     }
   }
 
   &--three-column {
     grid-template-columns: repeat(3, 1fr);
+
+    @include screen-between(768px, 1024px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   &--two-column,

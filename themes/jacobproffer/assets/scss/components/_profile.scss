@@ -1,6 +1,14 @@
 .profile {
+  p {
+    margin-top: 0;
+  }
+
   &__articles {
     margin-top: 50px;
+
+    @include screen-below(768px) {
+      margin-top: 25px;
+    }
   }
 
   &__article {
