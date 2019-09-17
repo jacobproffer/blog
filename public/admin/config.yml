@@ -30,9 +30,9 @@ collections:
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Series", name: "series", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "education"
-    label: "Education"
-    folder: "content/education"
+  - name: "japanese"
+    label: "Japanese"
+    folder: "content/japanese"
     create: true
     slug: "{{slug}}"
     fields:
