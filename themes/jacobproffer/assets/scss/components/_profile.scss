@@ -6,7 +6,7 @@
   &__articles {
     margin-top: 50px;
 
-    @include screen-below(768px) {
+    @include screen-below(1280px) {
       margin-top: 25px;
     }
   }
