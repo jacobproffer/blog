@@ -1,1 +1,10 @@
-<a class="main-header__home-link" href="{{ .Site.BaseURL }}">Home</a>
+<a
+  {{ if .IsHome }}
+    class="main--header__home-link active"
+  {{ else }}
+    class="main-header__home-link"
+  {{ end }}
+  href="{{ .Site.BaseURL }}"
+>
+  Home
+</a>

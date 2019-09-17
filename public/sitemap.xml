@@ -3,32 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jacobproffer.com/categories/</loc>
-    <lastmod>2019-09-15T23:52:16+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://jacobproffer.com/profile/</loc>
+    <lastmod>2019-09-16T13:26:30-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jacobproffer.com/categories/general/</loc>
-    <lastmod>2019-09-15T23:52:16+00:00</lastmod>
+    <loc>https://jacobproffer.com/categories/</loc>
+    <lastmod>2019-09-16T00:34:48+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jacobproffer.com/general/</loc>
-    <lastmod>2019-09-15T23:52:16+00:00</lastmod>
+    <lastmod>2019-09-16T00:34:48+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://jacobproffer.com/</loc>
-    <lastmod>2019-09-15T23:52:16+00:00</lastmod>
+    <lastmod>2019-09-16T00:34:48+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jacobproffer.com/general/test/</loc>
-    <lastmod>2019-09-15T23:52:16+00:00</lastmod>
+    <loc>https://jacobproffer.com/general/status-update/</loc>
+    <lastmod>2019-09-16T00:34:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jacobproffer.com/categories/general/</loc>
+    <lastmod>2019-09-16T00:34:48+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -71,19 +76,19 @@
   </url>
   
   <url>
-    <loc>https://jacobproffer.com/education/</loc>
+    <loc>https://jacobproffer.com/japanese/</loc>
     <lastmod>2019-01-27T14:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jacobproffer.com/categories/education/</loc>
+    <loc>https://jacobproffer.com/categories/japanese/</loc>
     <lastmod>2019-01-27T14:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://jacobproffer.com/education/i-love-japanese/</loc>
+    <loc>https://jacobproffer.com/japanese/i-love-japanese/</loc>
     <lastmod>2019-01-27T14:00:00+00:00</lastmod>
   </url>
   
@@ -150,12 +155,12 @@
   </url>
   
   <url>
-    <loc>https://jacobproffer.com/education/hiragana-progress/</loc>
+    <loc>https://jacobproffer.com/japanese/hiragana-progress/</loc>
     <lastmod>2018-07-29T14:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://jacobproffer.com/education/learning-hiragana/</loc>
+    <loc>https://jacobproffer.com/japanese/learning-hiragana/</loc>
     <lastmod>2018-06-27T14:00:00+00:00</lastmod>
   </url>
   
