@@ -20,6 +20,12 @@ summaryLength = 14
 
 [menu]
 
+  [[menu.main]]
+    identifier = "profile"
+    name = "Profile"
+    url = "/profile/"
+    weight = 1
+
   [[menu.social]]
     identifier = "twitter"
     name = "Twitter"

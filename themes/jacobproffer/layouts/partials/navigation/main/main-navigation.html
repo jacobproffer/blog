@@ -4,7 +4,7 @@
     {{ $currentPage := . }}
 
     {{ range .Site.Menus.main }}
-      <li class="mian-header__nav-item">
+      <li class="main-header__nav-item">
         <a
           {{ if $currentPage.IsMenuCurrent "main" . }}
             class="active"

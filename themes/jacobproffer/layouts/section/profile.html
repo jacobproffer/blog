@@ -1,0 +1,97 @@
+{{ define "main" }}
+
+<section class="profile spacing">
+  <div class="container container--wide">
+    <div class="grid grid--two-column">
+      <header>
+        <h1>A Little About Me.</h1>
+      </header>
+      {{ .Content }}
+    </div>
+    <div class="grid grid--three-column profile__articles">
+      <article class="profile__article">
+        <header>
+          <h2>Where I've Traveled</h2>
+        </header>
+        <ul>
+          <li>Tokyo, Japan (2017)</li>
+          <li>Reykjavík, Iceland (2018)</li>
+          <li>Bergen, Norway (2018)</li>
+          <li>Osaka, Japan (2019)
+            <ul>
+              <li>Kyoto, Japan</li>
+              <li>Nara, Japan</li>
+            </ul>
+          </li>
+        </ul>
+      </article>
+      <article class="profile__article">
+        <header>
+          <h2>Favorite Memories</h2>
+        </header>
+        <ul>
+          <li>Being propositioned in Kabuchiko</li>
+          <li>Forgetting my bank pin in Shibuya</li>
+          <li>The Capcom Bar in Shinjuku</li>
+          <li>Driving in Iceland</li>
+          <li>Listening to Icelandic reggae on Route 1</li>
+          <li>Pizza at Eld's with Myles Kedrowski</li>
+          <li>Climbing Åkrafjorden</li>
+          <li>Narrow one lane roads in Norway</li>
+          <li>Ginger ale Red Bulls for breakfast</li>
+          <li>Trying octopus in Dōtonbori</li>
+          <li>Universal Studios Japan</li>
+          <li>Feeding deer in Nara Park</li>
+        </ul>
+      </article>
+      <article class="profile__article">
+        <header>
+          <h2>Japanese Resources I Use</h2>
+        </header>
+        <ul>
+          <li>
+            Books
+            <ul>
+              <li>
+                <a href="https://omgjapan.com/products/japanese-from-zero-1" target="_blank">Japanese From Zero! 1</a>
+              </li>
+              <li>
+                <a href="https://omgjapan.com/products/japanese-from-zero-2" target="_blank">Japanese From Zero! 2</a>
+              </li>
+              <li>
+                <a href="https://omgjapan.com/products/1000-essential-vocabulary-for-the-jlpt-n5" target="_blank">1000 Essential Vocabulary</a>
+              </li>
+              <li>
+                <a href="https://omgjapan.com/products/nihongo-fun-easy-for-beginners-w-cd" target="_blank">Nihongo Fun &amp; Easy</a>
+              </li>
+              <li>
+                <a href="https://omgjapan.com/products/basic-kanji-book-vol-1" target="_blank">Basic Kanji Book Vol. 1</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Websites
+            <ul>
+              <li>
+                <a href="https://www.wanikani.com/" target="_blank">WaniKani</a>
+              </li>
+              <li>
+                <a href="https://jisho.org/" target="_blank">Jisho.org</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Misc.
+            <ul>
+              <li>
+                <a href="https://omgjapan.com/products/kana-flashcards" target="_blank">Kana Flashcards by WRP</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+{{ end }}
