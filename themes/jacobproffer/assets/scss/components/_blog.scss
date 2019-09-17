@@ -1,7 +1,6 @@
 .blog {
   &__header {
     position: relative;
-    padding: 150px 0;
     margin-bottom: 100px;
     background-image: url('/images/background.jpg');
     background-size: cover;
@@ -40,7 +39,6 @@
     }
 
     @include screen-below(1024px) {
-      padding: 113px 0;
       margin-bottom: 75px;
     }
 
