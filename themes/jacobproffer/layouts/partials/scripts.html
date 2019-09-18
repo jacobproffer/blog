@@ -3,3 +3,4 @@
 {{ $js := slice $headroomJS $appJS | resources.Concat "js/bundled.js" }}
 {{ $minify := $js | resources.Minify }}
 <script src="{{ $minify.Permalink }}"></script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
