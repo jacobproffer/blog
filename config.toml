@@ -31,9 +31,3 @@ summaryLength = 14
     name = "Twitter"
     url = "https://twitter.com/jacobproffer"
     weight = 1
-
-  [[menu.social]]
-    identifier = "instagram"
-    name = "Instagram"
-    url = "https://www.instagram.com/jacobproffer_/"
-    weight = 2
