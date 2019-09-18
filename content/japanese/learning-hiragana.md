@@ -10,7 +10,7 @@ thumbnailCaption: Japanese From Zero book.
 series:
   - japanese
 aliases:
-  - "/education/hiragana-progress/"
+  - /education/hiragana-progress/
 ---
 
 There was a time where I could speak Russian. I also had the ability to read Cyrillic script, while also being able to write it in cursive. All of which I learned to do from a Russian professor in 2011. But once I completed the course, I abandoned the language. Within the last year, I regained interest. Solely because I thought my first international trip was to be to Moscow, Russia. Unfortunately, the trip was scrapped after an incident in Saint Petersburg and so was my interest in the language.

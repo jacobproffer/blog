@@ -8,7 +8,7 @@ images:
 thumbnail: /images/hiragana_thumbnail.jpg
 thumbnailCaption: Japanese From Zero book.
 aliases:
-  - "/education/hiragana-progress/"
+  - /education/hiragana-progress/
 series:
   - japanese
 ---
