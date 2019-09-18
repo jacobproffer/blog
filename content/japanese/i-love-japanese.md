@@ -8,7 +8,7 @@ thumbnail: /images/tofugu_stickers.jpg
 thumbnailCaption: Vinyl stickers from Tofogu.
 categories: ["japanese"]
 aliases:
-  - /education/hiragana-progress/
+  - /education/i-love-japanese/
 series:
   - japanese
 ---
