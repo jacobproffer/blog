@@ -1,5 +1,5 @@
 ---
-title: よく and あんまり.
+title: よく and あんまり
 date: 2019-09-25T20:13:51.839Z
 description: 'How to express, "Often" and "Not often," in Japanese.'
 images:
