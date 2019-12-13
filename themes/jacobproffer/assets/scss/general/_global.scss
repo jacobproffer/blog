@@ -1,10 +1,15 @@
 :root {
-  --black: #0c0c0c;
-  --white: #fff;
-  --gray: #b4c7d2;
-  --yellow: #f8cf61;
-  --red: #ff572b;
-  --border: rgba(255, 255, 255, .1);
+  --black: #232625;
+  --white: #f2f2f2;
+  --lightGray: #d9d8d7;
+  --midGray: #8c8c8b;
+  --gray: #3c403f;
+  --border: var(--midGray);
+  --spacing: 150px;
+
+  @include screen-below(768px) {
+    --spacing: 90px;
+  }
 }
 
 *,
@@ -14,8 +19,8 @@
 }
 
 ::selection {
-  color: var(--white);
-  background: var(--red);
+  color: var(--lightGray);
+  background: var(--black);
 }
 
 * {
@@ -27,8 +32,8 @@
 body {
   position: relative;
   font-size: 18px;
-  color: var(--white);
-  background-color: var(--black);
+  color: var(--black);
+  background-color: var(--lightGray);
 }
 
 img {
@@ -40,17 +45,17 @@ figure {
 }
 
 a {
-  color: var(--red);
+  color: var(--black);
   text-decoration: none;
   transition: color 300ms ease-in-out, outline 300ms ease-in-out;
 
   &:hover {
-    color: var(--white);
-    outline: dotted 1px var(--red);
+    color: var(--gray);
+    outline: dotted 1px var(--black);
   }
 
   &:active {
-    color: var(--gray);
+    color: var(--black);
   }
 
   &.current {
@@ -62,9 +67,4 @@ hr {
   margin: 2rem 0;
   border: 0;
   border-top: 1px solid var(--border);
-}
-
-span,
-time {
-  color: var(--gray);
 }
