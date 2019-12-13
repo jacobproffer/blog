@@ -4,6 +4,7 @@
   width: 100%;
   height: auto;
   padding: 25px 0;
+  border-bottom: 1px solid var(--border);
   overflow-y: visible;
   transition: padding 300ms ease-in-out, transform 300ms ease-in-out;
   will-change: transform;
@@ -14,7 +15,7 @@
 
   &.pinned {
     padding: 12px 0;
-    background-color: var(--lightGray);
+    background-color: var(--midGray);
     transform: translateY(0);
   }
 
@@ -64,9 +65,5 @@
       display: block;
       line-height: 1;
     }
-  }
-
-  @include screen-above(768px) {
-    padding: 50px 0;
   }
 }
