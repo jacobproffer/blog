@@ -1,56 +1,6 @@
 .blog {
-  &__header {
-    position: relative;
-    margin-bottom: 100px;
-    background-image: url('/images/background.jpg');
-    background-size: cover;
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    border-bottom: 1px solid var(--border);
-
-    img {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .container {
-      position: relative;
-      z-index: 1;
-    }
-
-    &::before,
-    &::after {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      content: "";
-    }
-
-    &::before {
-      background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .5), black);
-    }
-
-    &::after {
-      background-image: url('/images/noise.png');
-    }
-
-    @include screen-below(1024px) {
-      margin-bottom: 75px;
-    }
-
-    @include screen-below(768px) {
-      margin-bottom: 50px;
-    }
-
-    @include screen-below(480px) {
-      margin-bottom: 25px;
-    }
-  }
-
+  padding-top: var(--spacing);
+  
   &__post-container {
     margin-bottom: 100px;
 

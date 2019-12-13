@@ -4,7 +4,6 @@
   width: 100%;
   height: auto;
   padding: 25px 0;
-  background: linear-gradient(180deg, rgba(12, 12, 12, 1) 0%, transparent 100%);
   overflow-y: visible;
   transition: padding 300ms ease-in-out, transform 300ms ease-in-out;
   will-change: transform;
@@ -15,7 +14,7 @@
 
   &.pinned {
     padding: 12px 0;
-    background-color: var(--black);
+    background-color: var(--lightGray);
     transform: translateY(0);
   }
 
