@@ -1,9 +1,5 @@
 .spacing {
-  padding: 90px 0;
-
-  @include screen-above(768px) {
-    padding: 150px 0;
-  }
+  padding: var(--spacing) 0;
 }
 
 .pagination {
