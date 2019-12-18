@@ -22,6 +22,14 @@
     --container: 900px;
   }
 
+  @include screen-below(1024px) {
+    --container: 768px;
+  }
+
+  @include screen-below(880px) {
+    --container: 640px;
+  }
+
   @include screen-below(768px) {
     --spacing: 90px;
   }
@@ -34,13 +42,13 @@
 }
 
 ::selection {
-  color: var(--lightGray);
-  background: var(--black);
+  color: var(--white);
+  background: var(--gray);
 }
 
 * {
   &:focus {
-    outline: 1px dotted var(--red);
+    outline: 2px dotted var(--black);
   }
 }
 
@@ -66,10 +74,6 @@ a {
 
   &:hover {
     outline: dotted 1px var(--black);
-  }
-
-  &:active {
-    color: var(--black);
   }
 
   &.current {
