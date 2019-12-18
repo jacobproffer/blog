@@ -1,12 +1,10 @@
 name = "Jacob Proffer"
-license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
 description = "This is the source code for Jacob Proffer's Blog."
 homepage = "http://jacobproffer.com/"
 tags = ["blog"]
-features = []
+features = ["blog", "posts"]
 min_version = "0.41"
 
 [author]
   name = "Jacob Proffer"
-  homepage = "http://jacobproffer.com"
+  homepage = "http://proffer.dev/"

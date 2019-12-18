@@ -31,7 +31,16 @@
   }
 
   @include screen-below(768px) {
+    --container: 480px;
     --spacing: 90px;
+  }
+
+  @include screen-below(540px) {
+    --container: 345px;
+  }
+
+  @include screen-below(375px) {
+    --container: 300px;
   }
 }
 
