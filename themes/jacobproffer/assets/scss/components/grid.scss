@@ -51,10 +51,6 @@
       grid-template-columns: repeat(2, 1fr);
     }
   }
-
-  @include screen-below(670px) {
-    grid-gap: 20px;
-  }
 }
 
 .justify-start {
