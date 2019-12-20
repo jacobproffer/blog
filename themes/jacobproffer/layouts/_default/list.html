@@ -9,7 +9,7 @@
     </div>
 
     {{ range .Pages }}
-        
+
       <article class="list__post">
 
         <a class="list__permalink" href="{{ .Permalink }}">
@@ -21,7 +21,7 @@
             </header>
 
             {{ $t := .Site.GetPage "/series/" }}
-          
+
             {{ if isset .Params "description" }}
               <span>
                 Published on
@@ -30,21 +30,21 @@
                 </time>
               </span>
             {{ end }}
-          
+
             {{ if .Params.categories }}
               <footer class="list__post-footer">
-            
+
                 {{ range .Params.categories }}
                   <small class="category">{{ . }}</small>
                 {{ end }}
-            
+
               </footer>
             {{ end }}
 
           </div>
 
         </a>
-        
+
       </article>
 
     {{ end }}

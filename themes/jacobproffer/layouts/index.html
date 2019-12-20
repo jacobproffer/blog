@@ -17,7 +17,7 @@
         {{ else }}
           {{ $class = "home__post" }}
         {{ end }}
-        
+
         <article class="{{ $class }}">
 
           <a href="{{ .Permalink }}">
@@ -27,26 +27,26 @@
               <header>
                 <h2>{{ .Title }}</h2>
               </header>
-            
+
               <span>
                 Published on
                 <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
                   {{ .PublishDate.Format "January 2, 2006" }}
                 </time>
               </span>
-            
+
               <footer class="home__post-footer">
-            
+
                 {{ range .Params.categories }}
                   <small class="category">{{ . }}</small>
                 {{ end }}
-            
+
               </footer>
 
             </div>
 
           </a>
-          
+
         </article>
 
       {{ end }}
