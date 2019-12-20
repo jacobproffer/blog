@@ -19,8 +19,10 @@
             <header>
               <h2>{{ .Title }}</h2>
             </header>
+
+            {{ $t := .Site.GetPage "/series/" }}
           
-            {{ if .PublishDate }}
+            {{ if isset .Params "description" }}
               <span>
                 Published on
                 <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
