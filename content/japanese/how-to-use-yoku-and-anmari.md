@@ -7,7 +7,7 @@ images:
 categories:
   - japanese
 series:
-  - japanese
+  - Japanese
 ---
 {{< japanese >}}よく{{< /japanese >}} and {{< japanese >}}あんまり{{< /japanese >}} are two useful words in Japanese. {{< japanese >}}よく{{< /japanese >}} is used to say, "Often," when placed in front of positive verbs. {{< japanese >}}あんまり{{< /japanese >}} is used to express, "Not often," when used with negative verbs.
 

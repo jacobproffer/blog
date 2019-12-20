@@ -7,7 +7,7 @@ images:
 thumbnail: /images/thingvellir_2.jpg
 thumbnailCaption: Þingvellir.
 categories: ["travel"]
-series: ["iceland"]
+series: ["Iceland"]
 ---
 
 There were still plenty of sites to see in Iceland, far too many. Thursday was dedicated to locations that Myles and I wanted to see towards the north east of Reykjavik. We got up around seven and were on the road again by eight. Though unlike Wednesday, we would not spend much time on Route 1 but a road called Road 36. The road is the main route from Reykjavik to a national park called Þingvellir, which was the first stop listed on our itinerary.

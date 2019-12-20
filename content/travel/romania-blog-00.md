@@ -7,7 +7,7 @@ images:
 categories:
   - travel
 series:
-  - romania
+  - Romania
 featured: true
 weight: 1
 ---

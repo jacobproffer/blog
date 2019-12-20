@@ -1,20 +1,3 @@
-.container {
-  margin: 0 auto;
-
-  &--small {
-    max-width: 670px;
-
-    @include screen-above(1280px) {
-      width: 100%;
-      padding: 0;
-    }
-  }
-
-  &--wide {
-    max-width: var(--container);
-  }
-}
-
 .grid {
   display: grid;
   grid-gap: 40px;

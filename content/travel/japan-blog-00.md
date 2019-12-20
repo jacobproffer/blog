@@ -7,7 +7,7 @@ images:
 thumbnail: /images/japan_blog_00_thumbnail.jpg
 thumbnailCaption: Narita International Airport.
 categories: ["travel"]
-series: ["japan"]
+series: ["Japan"]
 ---
 
 This is it. Tonight is my last full night within the United States, at least for the next week. As of Wednesday morning, I will touch down at Narita International Airport. Which, if you didn't know, is in Tokyo, Japan.

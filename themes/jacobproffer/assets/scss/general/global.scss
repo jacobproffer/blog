@@ -24,6 +24,7 @@
 
   @include screen-below(1024px) {
     --container: 768px;
+    --spacing: 90px;
   }
 
   @include screen-below(880px) {
@@ -32,7 +33,6 @@
 
   @include screen-below(768px) {
     --container: 480px;
-    --spacing: 90px;
   }
 
   @include screen-below(540px) {

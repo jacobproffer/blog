@@ -57,7 +57,9 @@
       }
 
       &--span-two {
-        padding-top: 75px;
+        a {
+          padding-top: var(--spacing);
+        }
       }
     }
   }
