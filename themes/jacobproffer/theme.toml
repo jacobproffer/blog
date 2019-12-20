@@ -1,10 +1,12 @@
 name = "Jacob Proffer"
-description = "This is the source code for Jacob Proffer's Blog."
-homepage = "http://jacobproffer.com/"
+license = "Apache 2.0"
+licenselink = "https://github.com/jacobproffer/blog/blob/master/LICENSE"
+description = "Source code for Jacob Proffer's blog."
+homepage = "https://jacobproffer.com/"
 tags = ["blog"]
 features = ["blog", "posts"]
 min_version = "0.41"
 
 [author]
   name = "Jacob Proffer"
-  homepage = "http://proffer.dev/"
+  homepage = "https://proffer.dev/"
