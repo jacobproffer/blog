@@ -10,11 +10,14 @@
 
   &__list-item {
     display: inline-block;
-    margin-right: 20px;
     list-style-type: none;
 
-    &:last-of-type {
-      margin-right: 0;
+    &:not(:last-of-type) {
+      margin-right: 20px;
+
+      @include screen-below(768px) {
+        margin-right: 10px;
+      }
     }
   }
 
