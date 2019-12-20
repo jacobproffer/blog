@@ -7,7 +7,7 @@ images:
 categories:
   - japanese
 series:
-  - japanese
+  - Japanese
 ---
 Yesterday, I started to learn about the different uses of {{< japanese >}}もう{{< /japanese >}}. The word {{<japanese>}}もう{{< /japanese >}} can be used to say, "already", "more" or "anymore." Depending upon what the word is placed in front of determines that meaning.
 

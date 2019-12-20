@@ -7,7 +7,7 @@ images:
 thumbnail: /images/shibuya_thumbnail.jpg
 thumbnailCaption: Shibuya crossing.
 categories: ["travel"]
-series: ["japan"]
+series: ["Japan"]
 ---
 
 Saturday in Tokyo was unique. I slept in for once, which provided an opportunity to seek breakfast somewhere other than Burger King. I tried out the breakfast buffet at the Bonsalute Kabuki, which was located on the ground floor of the hotel. The restaurant served Italian food throughout the day. But in the morning, there was a choice of Western or Japanese breakfast foods. I enjoyed a meal of potatoes, sausages and croissants with second helpings.

@@ -1,0 +1,57 @@
+{{ define "main" }}
+
+  <section class="home">
+
+    <header class="home__header visually-hide">
+      <h1>I'm Jacob Proffer.</h1>
+    </header>
+
+    <div class="grid grid--two-column">
+
+      {{ range .Site.RegularPages }}
+
+        {{ $class := "" }}
+
+        {{ if eq .Params.featured true }}
+          {{ $class = "home__post home__post--span-two" }}
+        {{ else }}
+          {{ $class = "home__post" }}
+        {{ end }}
+        
+        <article class="{{ $class }}">
+
+          <a href="{{ .Permalink }}">
+
+            <div class="home__post-content">
+
+              <header>
+                <h2>{{ .Title }}</h2>
+              </header>
+            
+              <span>
+                Published on
+                <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
+                  {{ .PublishDate.Format "January 2, 2006" }}
+                </time>
+              </span>
+            
+              <footer class="home__post-footer">
+            
+                {{ range .Params.categories }}
+                  <small class="category">{{ . }}</small>
+                {{ end }}
+            
+              </footer>
+
+            </div>
+
+          </a>
+          
+        </article>
+
+      {{ end }}
+
+    </div>
+  </section>
+
+{{ end }}

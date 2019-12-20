@@ -4,9 +4,8 @@
   width: 100%;
   height: auto;
   padding: 25px 0;
-  border-bottom: 1px solid var(--border);
   overflow-y: visible;
-  transition: padding 300ms ease-in-out, transform 300ms ease-in-out;
+  transition: padding 300ms ease-in-out, transform 300ms ease-in-out, color 300ms ease-in-out;
   will-change: transform;
 
   &.unpinned {
@@ -15,7 +14,8 @@
 
   &.pinned {
     padding: 12px 0;
-    background-color: var(--midGray);
+    color: var(--white);
+    background-color: var(--black);
     transform: translateY(0);
   }
 
@@ -29,10 +29,6 @@
     &:focus {
       top: 0;
     }
-  }
-
-  &__home-link {
-    justify-self: start;
   }
 
   &__nav {

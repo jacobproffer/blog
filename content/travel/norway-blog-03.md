@@ -8,7 +8,7 @@ thumbnail: /images/ferry_01.jpg
 thumbnailCaption: The ferry from Tørvikbygd to Jondal.
 thumbnail-coordinates: 60.3008882&deg; N, 6.1717273&deg; E
 categories: ["travel"]
-series: ["norway"]
+series: ["Norway"]
 ---
 
 The ferry from Tørvikbygd to Jondal is a short but pleasant experience. With an average time of twenty minutes to cross, Myles and I were able to use the bathroom, take pictures and even grab food from the onboard deli. The only downside is that the ferry crosses once per hour. We arrived early Sunday morning to an empty dock with a single employee present. Although patient, Myles and I were concerned that the delay would cost us sunlight. Thankfully, we only had to wait a half hour.

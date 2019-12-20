@@ -1,0 +1,66 @@
+.home {
+  &__post {
+    background-color: transparent;
+    transition: background-color 300ms ease-in-out;
+
+    a {
+      display: flex;
+      padding: 100px;
+      height: 100%;
+      align-items: center;
+
+      @include screen-below(1280px) {
+        padding: 100px 50px;
+      }
+
+      @include screen-below(1024px) {
+        padding: 50px var(--container-gutter);
+      }
+    }
+
+    &:hover {
+      background-color: var(--midGray);
+    }
+
+    @include screen-above(1024px) {
+      &:nth-of-type(n+3) {
+        border-top: 1px solid var(--border);
+      }
+  
+      &:nth-of-type(n+3):nth-of-type(even) {
+        border-right: 1px solid var(--border);
+      }
+  
+      &:first-of-type,
+      &:nth-of-type(n+3):nth-of-type(even) {
+        a {
+          padding-left: var(--container-gutter);
+        }
+      }
+  
+      &:nth-of-type(2),
+      &:nth-of-type(n+3):nth-of-type(odd) {
+        a {
+          padding-right: var(--container-gutter);
+        }
+      }
+  
+      &--span-two {
+        grid-row: span 2;
+        border-right: 1px solid var(--border);
+      }
+    }
+
+    @include screen-below(1024px) {
+      &:not(:first-of-type) {
+        border-top: 1px solid var(--border);
+      }
+
+      &--span-two {
+        a {
+          padding-top: var(--spacing);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.post {
+  a {
+    text-decoration: underline;
+  }
+
+  figure + figure {
+    margin-top: 20px;
+  }
+
+  img {
+    &:not(:first-of-type) {
+      margin-top: 40px;
+    }
+  }
+
+  &__information {
+    margin-bottom: 40px;
+  }
+}

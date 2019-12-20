@@ -1,18 +1,52 @@
 {{ define "main" }}
 
-  <section class="blog">
+  <section class="list">
 
-    <header class="blog__header visually-hide">
-      <h1>I'm Jacob Proffer.</h1>
-    </header>
-
-    <div class="container container--wide blog__post-container">
-
-      {{ range .Site.RegularPages }}
-        {{ partial "list/article.html" . }}
-      {{ end }}
-
+    <div class="container">
+      <header class="list__header spacing">
+        <h1>{{ .Title | humanize }}</h1>
+      </header>
     </div>
+
+    {{ range .Pages }}
+        
+      <article class="list__post">
+
+        <a class="list__permalink" href="{{ .Permalink }}">
+
+          <div class="list__post-content">
+
+            <header>
+              <h2>{{ .Title }}</h2>
+            </header>
+          
+            {{ if .PublishDate }}
+              <span>
+                Published on
+                <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
+                  {{ .PublishDate.Format "January 2, 2006" }}
+                </time>
+              </span>
+            {{ end }}
+          
+            {{ if .Params.categories }}
+              <footer class="list__post-footer">
+            
+                {{ range .Params.categories }}
+                  <small class="category">{{ . }}</small>
+                {{ end }}
+            
+              </footer>
+            {{ end }}
+
+          </div>
+
+        </a>
+        
+      </article>
+
+    {{ end }}
+
   </section>
 
 {{ end }}

@@ -1,0 +1,20 @@
+.list {
+  &__post {
+    &:first-of-type {
+      border-top: 1px solid var(--border);
+    }
+    
+    &:not(:last-of-type) {
+      border-bottom: 1px solid var(--border);
+    }
+  }
+
+  &__permalink {
+    display: block;
+    padding: 100px var(--container-gutter);
+
+    @include screen-below(1024px) {
+      padding: 50px var(--container-gutter);
+    }
+  }
+}

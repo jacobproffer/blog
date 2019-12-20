@@ -21,9 +21,9 @@ summaryLength = 14
 [menu]
 
   [[menu.main]]
-    identifier = "profile"
-    name = "Profile"
-    url = "/profile/"
+    identifier = "series"
+    name = "Series"
+    url = "/series/"
     weight = 1
 
   [[menu.social]]
@@ -31,3 +31,9 @@ summaryLength = 14
     name = "Twitter"
     url = "https://twitter.com/jacobproffer"
     weight = 1
+
+  [[menu.social]]
+    identifier = "instagram"
+    name = "Instagram"
+    url = "https://www.instagram.com/jacobproffer_/"
+    weight = 2
