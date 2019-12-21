@@ -6,16 +6,16 @@
       <h1>I'm Jacob Proffer.</h1>
     </header>
 
-    <div class="grid grid--two-column">
+    <div class="grid grid--two-column grid--list">
 
       {{ range .Site.RegularPages }}
 
         {{ $class := "" }}
 
         {{ if eq .Params.featured true }}
-          {{ $class = "home__post home__post--span-two" }}
+          {{ $class = "home__post home__post--span-two gray-hover" }}
         {{ else }}
-          {{ $class = "home__post" }}
+          {{ $class = "home__post gray-hover" }}
         {{ end }}
 
         <article class="{{ $class }}">

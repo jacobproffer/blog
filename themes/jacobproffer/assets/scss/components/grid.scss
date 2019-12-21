@@ -1,26 +1,15 @@
 .grid {
   display: grid;
 
-  &--navigation,
-  &--pagination,
-  &--footer {
+  &--two-column {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  &--two-column {
-    grid-template-columns: repeat(2, 1fr);
+  &--list {
     grid-auto-flow: dense;
 
     @include screen-below(1024px) {
       grid-template-columns: 1fr;
     }
   }
-}
-
-.justify-start {
-  justify-self: start;
-}
-
-.justify-end {
-  justify-self: end;
 }

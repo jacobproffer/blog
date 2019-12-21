@@ -9,6 +9,8 @@
   --border: var(--midGray);
   --orange: #ff572b;
   --spacing: 150px;
+  --sans-serif: 'Karla', sans-serif;
+  --mono: 'Inconsolata', monospace;
 
   @include screen-below(1680px) {
     --container: 1280px;
