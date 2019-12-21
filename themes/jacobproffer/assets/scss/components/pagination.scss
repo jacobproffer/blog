@@ -1,0 +1,42 @@
+.pagination {
+  position: relative;
+  border-top: 1px solid var(--border);
+
+  &--post {
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 1px;
+      height: 100%;
+      background-color: var(--border);
+      content: '';
+      transform: translateX(-50%);
+    }
+  }
+}
+
+.pagination-item {
+  padding: 45px 0;
+  font-family: var(--sans-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+
+  &--prev {
+    padding-left: var(--container-gutter);
+  }
+
+  &--next {
+    padding-right: var(--container-gutter);
+    text-align: right;
+  }
+
+  span {
+    display: block;
+    font-family: var(--mono);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2;
+    color: var(--gray);
+  }
+}

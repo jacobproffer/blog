@@ -1,10 +1,10 @@
 body {
-  font-family: 'Inconsolata', monospace;
+  font-family: var(--mono);
 }
 
 h1,
 h2 {
-  font-family: 'Karla', sans-serif;
+  font-family: var(--sans-serif);
   margin: 0;
 }
 
