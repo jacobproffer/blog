@@ -1,9 +1,17 @@
 .list {
+  &__header {
+    padding: var(--spacing) 0 100px;
+
+    @include screen-below(1024px) {
+      padding-bottom: 50px;
+    }
+  }
+
   &__post {
     &:first-of-type {
       border-top: 1px solid var(--border);
     }
-    
+
     &:not(:last-of-type) {
       border-bottom: 1px solid var(--border);
     }
