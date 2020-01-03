@@ -3,7 +3,7 @@ title: Romania 01
 date: 2020-01-01T14:27:41.434Z
 description: 'Getting into Bucharest, Romania.'
 images:
-  - /images/uploads/background.jpg
+  - /images/uploads/img_0205.jpg
 categories:
   - travel
 series:
