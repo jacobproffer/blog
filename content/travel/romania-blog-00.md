@@ -8,8 +8,7 @@ categories:
   - travel
 series:
   - Romania
-featured: true
-weight: 1
+featured: false
 ---
 Tomorrow night, I leave for Romania. My friend Myles and I will be in Bucharest for a week. We have a few day trips planned, with the most extensive being a border crossing into Bulgaria. I honestly know little about Romania or Bulgaria but am excited nonetheless. I'll get to explore new cultures and be around more languages. I also get to fly a few new airlines, such as Air France.
 
