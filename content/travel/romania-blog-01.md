@@ -1,5 +1,5 @@
 ---
-title: Romania 01
+title: Romania Blog 01
 date: 2020-01-01T14:27:41.434Z
 description: 'Getting into Bucharest, Romania.'
 images:
