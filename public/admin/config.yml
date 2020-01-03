@@ -29,6 +29,7 @@ collections:
       - {label: "Images", name: "images", widget: "list", field: {label: Image, name: image, widget: image}}
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Series", name: "series", widget: "list"}
+      - {label: "Featured", name: "featured", widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "japanese"
     label: "Japanese"
@@ -42,4 +43,5 @@ collections:
       - {label: "Images", name: "images", widget: "list", field: {label: Image, name: image, widget: image}}
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Series", name: "series", widget: "list"}
+      - {label: "Featured", name: "featured", widget: "boolean"}
       - {label: "Body", name: "body", widget: "markdown"}
