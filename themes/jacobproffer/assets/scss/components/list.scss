@@ -1,4 +1,9 @@
 .list {
+  &__header {
+    padding: var(--spacing) var(--container-gutter) calc(var(--spacing) / 2);
+    border-bottom: 1px solid var(--border);
+  }
+
   &__post {
     background-color: var(--white);
 
