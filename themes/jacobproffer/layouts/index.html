@@ -1,8 +1,8 @@
 {{ define "main" }}
 
-  <section class="home">
+  <section class="list">
 
-    <header class="home__header visually-hide">
+    <header class="list__header visually-hide">
       <h1>I'm Jacob Proffer.</h1>
     </header>
 
@@ -13,16 +13,16 @@
         {{ $class := "" }}
 
         {{ if eq .Params.featured true }}
-          {{ $class = "home__post home__post--span-two gray-hover" }}
+          {{ $class = "list__post list__post-home list__post-home--span-two gray-hover" }}
         {{ else }}
-          {{ $class = "home__post gray-hover" }}
+          {{ $class = "list__post list__post-home gray-hover" }}
         {{ end }}
 
         <article class="{{ $class }}">
 
-          <a href="{{ .Permalink }}">
+          <a class="list__permalink" href="{{ .Permalink }}">
 
-            <div class="home__post-content">
+            <div class="list__post-content">
 
               <header>
                 <h2>{{ .Title }}</h2>
@@ -35,7 +35,7 @@
                 </time>
               </span>
 
-              <footer class="home__post-footer">
+              <footer class="list__post-footer">
 
                 {{ range .Params.categories }}
                   <small class="category">{{ . }}</small>

@@ -3,51 +3,55 @@
   <section class="list">
 
     <div class="container">
-      <header class="list__header">
+      <header class="list__header visually-hide">
         <h1>{{ .Title | humanize }}</h1>
       </header>
     </div>
 
-    {{ range .Pages }}
+    <div class="grid grid--two-column grid--list">
 
-      <article class="list__post gray-hover">
+      {{ range .Pages }}
 
-        <a class="list__permalink" href="{{ .Permalink }}">
+        <article class="list__post list__post-list gray-hover">
 
-          <div class="list__post-content">
+          <a class="list__permalink" href="{{ .Permalink }}">
 
-            <header>
-              <h2>{{ .Title }}</h2>
-            </header>
+            <div class="list__post-content">
 
-            {{ $t := .Site.GetPage "/series/" }}
+              <header>
+                <h2>{{ .Title }}</h2>
+              </header>
 
-            {{ if isset .Params "description" }}
-              <span>
-                Published on
-                <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
-                  {{ .PublishDate.Format "January 2, 2006" }}
-                </time>
-              </span>
-            {{ end }}
+              {{ $t := .Site.GetPage "/series/" }}
 
-            {{ if .Params.categories }}
-              <footer class="list__post-footer">
+              {{ if isset .Params "description" }}
+                <span>
+                  Published on
+                  <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
+                    {{ .PublishDate.Format "January 2, 2006" }}
+                  </time>
+                </span>
+              {{ end }}
 
-                {{ range .Params.categories }}
-                  <small class="category">{{ . }}</small>
-                {{ end }}
+              {{ if .Params.categories }}
+                <footer class="list__post-footer">
 
-              </footer>
-            {{ end }}
+                  {{ range .Params.categories }}
+                    <small class="category">{{ . }}</small>
+                  {{ end }}
 
-          </div>
+                </footer>
+              {{ end }}
 
-        </a>
+            </div>
 
-      </article>
+          </a>
 
-    {{ end }}
+        </article>
+
+      {{ end }}
+
+    </div>
 
   </section>
 
