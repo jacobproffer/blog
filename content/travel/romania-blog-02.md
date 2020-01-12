@@ -16,6 +16,4 @@ The first location Myles and I visited after breakfast was Pasajul Victoria, a p
 \
 The Cărturești Carusel bookstore is located in the heart of Old Town. Spanning six floors, the store is painted white with curved balconies and spiral staircases. There is a tea house on the top floor and a plethora of books to be found below it. There is even a basement level with movies, games and vinyl records. The majority of the books in the store are in Romanian but there are a number of titles in English. I was on the lookout for a miniature Romanian phrase book. I found a few phrase books on the second floor but none were in the size that I sought.
 
-Myles and I spent the next few hours walking around Old Town. We came across an abundance of stray cats, mostly near restaurants.
-
-For lunch, Myles and I had dishes of goulash mixed with meat and potatoes. If I have to be honest, the goulash did not taste great. The meat and potatoes, however, were incredible. Though I have no idea what type of meat it was. I do not remember the exact cost of the meal but it was extremely cheap for the amount of food we received.
+For lunch, Myles and I had dishes of goulash mixed with meat and potatoes. If I have to be honest, the goulash did not taste great. The meat and potatoes, however, were incredible. I do not remember the exact cost of the meal but it was extremely cheap for the amount of food we received.
