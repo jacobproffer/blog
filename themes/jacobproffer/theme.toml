@@ -5,7 +5,7 @@ description = "Source code for Jacob Proffer's blog."
 homepage = "https://jacobproffer.com/"
 tags = ["blog"]
 features = ["blog", "posts"]
-min_version = "0.41"
+min_version = "0.54.0"
 
 [author]
   name = "Jacob Proffer"

@@ -2,12 +2,28 @@
   <div class="container">
     <div class="grid grid--two-column">
 
-      {{ partial "navigation/social.html" . }}
+      <ul class="unstyled-list">
+
+        {{ range .Site.Menus.social }}
+          <li class="footer__list-item">
+            <a
+              class="footer__list-link"
+              href="{{ .URL }}"
+              target="_blank"
+              rel="noopener"
+            >
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+
+      </ul>
 
       <a
         class="justify-end"
         href="https://github.com/jacobproffer/blog"
         target="_blank"
+        rel="noopener"
       >
         Repository
       </a>

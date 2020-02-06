@@ -1,11 +1,30 @@
+{{ $sass := resources.Get "scss/main.scss" }}
+{{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice)) }}
+{{ $style := $sass | resources.ToCSS $options }}
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  {{ partial "head/title.html" . }}
+  <title>
+    {{ if .IsHome }}
+      {{ .Site.Title }} | {{ .Site.Params.subTitle }}
+    {{ else }}
+      {{ .Title }} | {{ .Site.Title }}
+    {{ end }}
+  </title>
 
-  {{ partial "head/description.html" . }}
+  <meta
+    name="description"
+    content="
+      {{ if .IsHome }}
+        {{ .Site.Params.description }}
+      {{ else }}
+        {{ .Description }}
+      {{ end }}
+    "
+  />
 
   {{ template "_internal/opengraph.html" . }}
 
@@ -22,8 +41,7 @@
   <meta name="theme-color" content="#ffffff">
   <link rel="alternate" type="application/rss+xml" title="RSS for Jacob Proffer: Traveler, Linguist" href="{{ "/index.xml" | absURL }}">
   <link href="https://fonts.googleapis.com/css?family=Inconsolata%7CPTKarla:700" rel="stylesheet">
-
-  {{ partial "head/stylesheet.html" . }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
 
   {{ template "_internal/google_analytics.html" . }}
 

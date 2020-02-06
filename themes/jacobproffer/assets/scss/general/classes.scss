@@ -19,10 +19,6 @@
   border-radius: 2px;
 }
 
-.active {
-  text-decoration: underline;
-}
-
 .gray-hover {
   transition: background-color 300ms ease-in-out;
 
@@ -42,4 +38,8 @@
 .unstyled-list {
   padding: 0;
   margin: 0;
+
+  li {
+    list-style: none;
+  }
 }

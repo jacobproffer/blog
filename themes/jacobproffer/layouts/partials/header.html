@@ -1,16 +1,41 @@
-<div class="main-header">
+<header class="main-header">
   <div class="container">
 
     <a class="main-header__skip-link" href="#content">Skip to Main Content</a>
 
-    <div class="grid grid--two-column">
+    {{ if .Site.Menus.main }}
+      <nav>
+        <ul class="main-header__nav grid grid--two-column unstyled-list">
 
-      {{ partial "navigation/main/home-link.html" . }}
+          <li class="justify-start">
+            <a
+              href="{{ .Site.BaseURL }}"
+              {{ if .IsHome }}
+                aria-current="page"
+              {{ end }}
+            >
+              Home
+            </a>
+          </li>
 
-      {{ if .Site.Menus.main }}
-        {{ partial "navigation/main/main-navigation" . }}
-      {{ end }}
+          {{ $currentPage := . }}
 
-    </div>
+          {{ range .Site.Menus.main }}
+            <li class="main-header__nav-item justify-end">
+              <a
+                href="{{ .URL }}"
+                {{ if $currentPage.IsMenuCurrent "main" . }}
+                  aria-current="page"
+                {{ end }}
+              >
+                {{ .Name }}
+              </a>
+            </li>
+          {{ end }}
+
+        </ul>
+      </nav>
+    {{ end }}
+
   </div>
-</div>
+</header>
