@@ -7,6 +7,14 @@
   transition: padding 300ms ease-in-out, transform 300ms ease-in-out, color 300ms ease-in-out;
   will-change: transform;
 
+  a {
+    display: block;
+
+    &[aria-current="page"] {
+      text-decoration: underline;
+    }
+  }
+
   &.unpinned {
     transform: translateY(-100px);
   }
@@ -27,19 +35,6 @@
 
     &:focus {
       top: 0;
-    }
-  }
-
-  &__nav-item {
-    display: inline-block;
-    margin: 0 32px 0 0;
-
-    &:last-of-type {
-      margin: 0;
-    }
-
-    a {
-      display: block;
     }
   }
 }

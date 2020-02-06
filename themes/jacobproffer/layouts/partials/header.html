@@ -7,16 +7,13 @@
       <nav>
         <ul class="main-header__nav grid grid--two-column unstyled-list">
 
-          {{ $class := "" }}
-
-          {{ if .IsHome }}
-            {{ $class = "justify-start active" }}
-          {{ else }}
-            {{ $class = "justify-start" }}
-          {{ end }}
-
-          <li>
-            <a class="{{ $class }}" href="{{ .Site.BaseURL }}">
+          <li class="justify-start">
+            <a
+              href="{{ .Site.BaseURL }}"
+              {{ if .IsHome }}
+                aria-current="page"
+              {{ end }}
+            >
               Home
             </a>
           </li>
@@ -26,10 +23,10 @@
           {{ range .Site.Menus.main }}
             <li class="main-header__nav-item justify-end">
               <a
-                {{ if $currentPage.IsMenuCurrent "main" . }}
-                  class="active"
-                {{ end }}
                 href="{{ .URL }}"
+                {{ if $currentPage.IsMenuCurrent "main" . }}
+                  aria-current="page"
+                {{ end }}
               >
                 {{ .Name }}
               </a>
