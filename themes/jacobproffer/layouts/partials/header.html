@@ -3,14 +3,42 @@
 
     <a class="main-header__skip-link" href="#content">Skip to Main Content</a>
 
-    <div class="grid grid--two-column">
+    {{ if .Site.Menus.main }}
+      <nav>
+        <ul class="main-header__nav grid grid--two-column unstyled-list">
 
-      {{ partial "navigation/main/home-link.html" . }}
+          {{ $class := "" }}
 
-      {{ if .Site.Menus.main }}
-        {{ partial "navigation/main/main-navigation" . }}
-      {{ end }}
+          {{ if .IsHome }}
+            {{ $class = "justify-start active" }}
+          {{ else }}
+            {{ $class = "justify-start" }}
+          {{ end }}
 
-    </div>
+          <li>
+            <a class="{{ $class }}" href="{{ .Site.BaseURL }}">
+              Home
+            </a>
+          </li>
+
+          {{ $currentPage := . }}
+
+          {{ range .Site.Menus.main }}
+            <li class="main-header__nav-item justify-end">
+              <a
+                {{ if $currentPage.IsMenuCurrent "main" . }}
+                  class="active"
+                {{ end }}
+                href="{{ .URL }}"
+              >
+                {{ .Name }}
+              </a>
+            </li>
+          {{ end }}
+
+        </ul>
+      </nav>
+    {{ end }}
+
   </div>
 </div>
