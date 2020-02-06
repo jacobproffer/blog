@@ -1,7 +1,3 @@
-body {
-  font-family: var(--mono);
-}
-
 h1,
 h2 {
   font-family: var(--sans-serif);
@@ -10,8 +6,6 @@ h2 {
 
 h1 {
   @include font-size($h1-font-sizes);
-  padding-bottom: 0;
-  color: var(--yellow);
 
   & + span {
     display: block;
@@ -25,5 +19,6 @@ h2 {
 }
 
 p {
+  max-width: 80ch;
   line-height: 1.8;
 }
