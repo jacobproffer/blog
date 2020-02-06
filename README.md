@@ -1,19 +1,19 @@
-# jacobproffer.com
+# Blog
 
 Source code for my personal blog.
 
-### Compile public folder
+## Compile public folder
 
 `hugo`
 
-### Compile public folder with minification
+## Compile public folder with minification
 
 `hugo --minify`
 
-### Run Hugo server
+## Run Hugo server
 
 `hugo server`
 
-### Run Hugo server with drafts
+## Run Hugo server with drafts
 
 `hugo server -D`
