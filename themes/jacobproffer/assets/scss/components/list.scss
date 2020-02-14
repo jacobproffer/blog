@@ -7,6 +7,10 @@
   &__post {
     background-color: var(--white);
 
+    h2 {
+      margin: 0;
+    }
+
     a {
       display: flex;
       padding: 100px;
