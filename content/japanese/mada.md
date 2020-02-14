@@ -1,7 +1,7 @@
 ---
 title: "まだ: To Say Not Yet or Still"
 date: 2020-02-13T20:45:02-05:00
-description: "Post description"
+description: "Mada means not yet or still depending upon whether the word is used along with negative or positive words."
 image:
   - /images/uploads/img_0205.jpg
 categories:
