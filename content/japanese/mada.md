@@ -1,7 +1,7 @@
 ---
-title: "まだ: To Say Not Yet or Still"
+title: "まだ: Not Yet or Still"
 date: 2020-02-13T20:45:02-05:00
-description: "Mada means not yet or still depending upon whether the word is used along with negative or positive words."
+description: "Mada means not yet or still depending upon if the word is used with negative or positive words."
 image:
   - /images/uploads/img_0205.jpg
 categories:
@@ -15,4 +15,12 @@ featured: true
 
 ## {{< japanese >}}まだ{{< /japanese >}} With Negative Words
 
+{{< japanese >}}大阪に行きますか。{{< /japanese >}} (Are you going to Osaka?)
+
+{{< japanese >}}まだ行きません。{{< /japanese >}} (Not yet.)
+
 ## {{< japanese >}}まだ{{< /japanese >}} With Positive Words
+
+{{< japanese >}}あそこにゾンビがあります。{{< /japanese >}} (There are zombies over there.)
+
+{{< japanese >}}まだ行きます。{{< /japanese >}} (I'm still going.)
