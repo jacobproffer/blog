@@ -2,8 +2,8 @@
 title: "Romania Blog 02"
 date: 2020-02-17T19:04:27-05:00
 description: "Post description"
-image:
-  - /images/uploads/background.jpg
+images:
+  - /images/romania-blog-02-social.jpg
 categories:
   - travel
 series:
