@@ -1,0 +1,23 @@
+.related {
+  h2 {
+    margin-top: 0;
+  }
+
+  h3 {
+    margin: 0 0 10px;
+  }
+
+  ul {
+    grid-gap: 20px;
+  }
+
+  li {
+    border: 1px solid var(--border);
+  }
+
+  a {
+    display: block;
+    padding: 20px 20px 30px;
+    text-decoration: none;
+  }
+}

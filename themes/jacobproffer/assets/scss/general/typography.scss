@@ -19,6 +19,10 @@ h2 {
   line-height: 1.5;
 }
 
+h3 {
+  @include font-size($h3-font-sizes);
+}
+
 p {
   max-width: 80ch;
   line-height: 1.8;

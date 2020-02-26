@@ -31,6 +31,10 @@
   }
 }
 
+.align-end {
+  align-self: end;
+}
+
 .justify-start {
   justify-self: start;
 }
@@ -46,4 +50,10 @@
   li {
     list-style: none;
   }
+}
+
+.border-top {
+  padding-top: 40px;
+  margin-top: 60px;
+  border-top: 1px solid var(--border);
 }

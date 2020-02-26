@@ -14,4 +14,10 @@
       grid-template-columns: 1fr;
     }
   }
+
+  &--author {
+    grid-template-columns: 80px 1fr;
+    align-items: center;
+    grid-gap: 20px;
+  }
 }

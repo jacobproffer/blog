@@ -17,13 +17,11 @@
 
       {{ .Content }}
 
-      <footer>
+      {{ range (.GetTerms "categories") }}
+        <a class="category" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+      {{ end }}
 
-        {{ range (.GetTerms "categories") }}
-          <small class="category">{{ .LinkTitle }}</small>
-        {{ end }}
-
-      </footer>
+      {{ partial "author.html" }}
 
       {{ partial "related.html" . }}
 

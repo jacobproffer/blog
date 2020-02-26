@@ -2,26 +2,18 @@
   <article>
     <a class="gray-hover" href="{{ .Permalink }}">
 
-      <header>
-        <h3>{{ .Title }}</h3>
-      </header>
+      <div class="grid grid--two-column">
 
-      <span>
-        Published on
-        <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
-          {{ .PublishDate.Format "January 2, 2006" }}
-        </time>
-      </span>
+        <header>
+          <h3>{{ .Title }}</h3>
+          <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
+            {{ .PublishDate.Format "January 2, 2006" }}
+          </time>
+        </header>
 
-      {{ if .Params.categories }}
-        <footer class="list__post-footer">
+        <small class="align-end justify-end">{{ .ReadingTime }} minute read</small>
 
-          {{ range .Params.categories }}
-            <small class="category">{{ . }}</small>
-          {{ end }}
-
-        </footer>
-      {{ end }}
+      </div>
 
     </a>
   </article>
