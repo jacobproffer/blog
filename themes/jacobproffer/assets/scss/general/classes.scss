@@ -57,3 +57,12 @@
   margin-top: 60px;
   border-top: 1px solid var(--border);
 }
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    margin-right: .5rem;
+  }
+}

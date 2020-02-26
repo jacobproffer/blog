@@ -35,13 +35,15 @@
                 </time>
               </span>
 
-              <footer class="list__post-footer">
-
-                {{ range .Params.categories }}
-                  <small class="category">{{ . }}</small>
-                {{ end }}
-
-              </footer>
+              {{ if (.GetTerms "tags") }}
+                <ul class="tags unstyled-list">
+                  {{ range (.GetTerms "tags") }}
+                    <li>
+                      <span class="category">{{ .LinkTitle }}</span>
+                    </li>
+                  {{ end }}
+                </ul>
+              {{ end }}
 
             </div>
 

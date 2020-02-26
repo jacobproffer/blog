@@ -11,14 +11,20 @@
             {{ .PublishDate.Format "January 2, 2006" }}
           </time>
           -
-          {{ .WordCount }} words
+          {{ .ReadingTime }} minute read
         </span>
       </header>
 
       {{ .Content }}
 
-      {{ range (.GetTerms "categories") }}
-        <a class="category" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+      {{ if (.GetTerms "tags") }}
+        <ul class="tags unstyled-list">
+          {{ range (.GetTerms "tags") }}
+            <li>
+              <a class="category" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+            </li>
+          {{ end }}
+        </ul>
       {{ end }}
 
       {{ partial "author.html" }}
