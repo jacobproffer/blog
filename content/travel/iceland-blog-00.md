@@ -1,11 +1,10 @@
 ---
 title: "Iceland Blog 00"
 date: 2018-05-13 14:00:00
-description: The night before my trip to Iceland.
-images:
-  - images/iceland_blog_00_social.jpg
-thumbnail: /images/iceland_blog_00.jpg
+description: "The night before my trip to Iceland."
+images: ["/images/iceland_blog_00_social.jpg"]
 categories: ["travel"]
+tags: ["iceland", "travel"]
 series: ["Iceland"]
 ---
 

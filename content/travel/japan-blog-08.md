@@ -1,12 +1,10 @@
 ---
 title: "Japan Blog 08"
 date: 2018-05-07 14:00:00
-description: Leaving Tokyo, Japan.
-images:
-  - images/narita_social.jpg
-thumbnail: /images/narita_social.jpg
-thumbnailCaption: Narita International Airport.
+description: "Leaving Tokyo, Japan."
+images: ["/images/narita_social.jpg"]
 categories: ["travel"]
+tags: ["japan", "travel"]
 series: ["Japan"]
 ---
 

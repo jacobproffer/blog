@@ -1,12 +1,10 @@
 ---
 title: "Japan Blog 06"
 date: 2018-04-10 14:00:00
-description: Jacob Proffer's time in Shibuya, Tokyo, Japan.
-images:
-  - images/shibuya_social.jpg
-thumbnail: /images/shibuya_thumbnail.jpg
-thumbnailCaption: Shibuya crossing.
+description: "Jacob Proffer's time in Shibuya, Tokyo, Japan."
+images: ["/images/shibuya_social.jpg"]
 categories: ["travel"]
+tags: ["japan", "travel"]
 series: ["Japan"]
 ---
 

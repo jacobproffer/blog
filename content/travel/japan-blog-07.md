@@ -1,12 +1,10 @@
 ---
 title: "Japan Blog 07"
 date: 2018-04-29 14:00:00
-description: Jacob Proffer's time in Ikebukuro and Akihabara, Tokyo, Japan.
-images:
-  - images/akihabara_social.jpg
-thumbnail: /images/akihabara_thumbnail.jpg
-thumbnailCaption: Alley in Akihabara.
+description: "Jacob Proffer's time in Ikebukuro and Akihabara, Tokyo, Japan."
+images: ["/images/akihabara_social.jpg"]
 categories: ["travel"]
+tags: ["japan", "travel"]
 series: ["Japan"]
 ---
 

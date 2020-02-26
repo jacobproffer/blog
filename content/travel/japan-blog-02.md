@@ -1,12 +1,10 @@
 ---
 title: "Japan Blog 02"
 date: 2017-12-28 14:00:00
-description: Immigration and the train ride to Tokyo, Japan.
-images:
-  - images/japan_blog_02_social.jpg
-thumbnail: /images/shinjuku_sign.jpg
-thumbnailCaption: Sign in Shinjuku.
+description: "Immigration and the train ride to Tokyo, Japan."
+images: ["/images/japan_blog_02_social.jpg"]
 categories: ["travel"]
+tags: ["japan", "travel"]
 series: ["Japan"]
 ---
 

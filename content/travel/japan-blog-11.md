@@ -1,12 +1,10 @@
 ---
 title: "Japan Blog 11"
 date: 2019-06-17T21:20:22-04:00
-description: Jacob Proffer's time in the area of Dōtonbori.
-images:
-  - images/japan_blog_11_social.jpg
-thumbnail: /images/dotonbori_01.jpg
-thumbnailCaption: Canals of Dōtonbori.
+description: "Jacob Proffer's time in the area of Dōtonbori."
+images: ["/images/japan_blog_11_social.jpg"]
 categories: ["travel"]
+tags: ["japan", "travel"]
 series: ["Japan"]
 ---
 

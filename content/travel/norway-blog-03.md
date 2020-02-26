@@ -1,13 +1,10 @@
 ---
 title: "Norway Blog 03"
 date: 2018-12-06 14:00:00
-description: Hiking up the Åkrafjorden.
-images:
-  - images/norway_blog_03_social.jpg
-thumbnail: /images/ferry_01.jpg
-thumbnailCaption: The ferry from Tørvikbygd to Jondal.
-thumbnail-coordinates: 60.3008882&deg; N, 6.1717273&deg; E
+description: "Hiking up the Åkrafjorden."
+images: ["/images/norway_blog_03_social.jpg"]
 categories: ["travel"]
+tags: ["norway", "travel"]
 series: ["Norway"]
 ---
 

@@ -1,0 +1,21 @@
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+
+{{ with $related }}
+
+  <div class="post-related">
+
+    <header>
+      <h2 id="related-posts">Related Posts</h2>
+    </header>
+
+    <ul aria-labelledby="related-posts">
+      {{ range . }}
+        <li>
+          {{ .Title }}
+        </li>
+      {{ end }}
+    </ul>
+
+  </div>
+
+{{ end }}

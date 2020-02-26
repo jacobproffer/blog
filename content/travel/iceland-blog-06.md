@@ -1,12 +1,10 @@
 ---
 title: "Iceland Blog 06"
 date: 2018-10-10 14:00:00
-description: Sixth day in Iceland.
-images:
-  - images/iceland_blog_06_social.jpg
-thumbnail: /images/blafjallavegur_3.jpg
-thumbnailCaption: Blafjallavegur.
+description: "Sixth day in Iceland."
+images: ["/images/iceland_blog_06_social.jpg"]
 categories: ["travel"]
+tags: ["iceland", "travel"]
 series: ["Iceland"]
 ---
 

@@ -1,13 +1,10 @@
 ---
 title: "Norway Blog 02"
 date: 2018-11-29 14:00:00
-description: First full day in Norway, exploring Tvindefossen, Aurlandsdalen and Nærøyfjord.
-images:
-  - images/norway_blog_02_social.jpg
-thumbnail: /images/tvindefossen.jpg
-thumbnailCaption: Abandoned cabin in Tvindefossen.
-thumbnail-coordinates: 60.726594&deg; N, 6.488324&deg; E
+description: "First full day in Norway, exploring Tvindefossen, Aurlandsdalen and Nærøyfjord."
+images: ["/images/norway_blog_02_social.jpg"]
 categories: ["travel"]
+tags: ["norway", "travel"]
 series: ["Norway"]
 ---
 

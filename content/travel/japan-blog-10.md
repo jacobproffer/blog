@@ -1,12 +1,10 @@
 ---
 title: "Japan Blog 10"
 date: 2019-05-13T18:41:26-04:00
-description: Back in Japan.
-images:
-  - images/japan_blog_10_social.jpg
-thumbnail: /images/japan_airlines.jpg
-thumbnailCaption: Japan Airlines Boeing 787-9.
+description: "Back in Japan."
+images: ["/images/japan_blog_10_social.jpg"]
 categories: ["travel"]
+tags: ["japan", "travel"]
 series: ["Japan"]
 ---
 

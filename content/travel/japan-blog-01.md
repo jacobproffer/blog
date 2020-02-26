@@ -1,12 +1,10 @@
 ---
 title: "Japan Blog 01"
 date: 2017-12-12 14:00:00
-description: Getting to Tokyo, Japan.
-images:
-  - images/japan_blog_01_social.jpg
-thumbnail: /images/japan_01.jpg
-thumbnailCaption: American Airlines Boeing 787 in Chicago.
+description: "Getting to Tokyo, Japan."
+images: ["/images/japan_blog_01_social.jpg"]
 categories: ["travel"]
+tags: ["japan", "travel"]
 series: ["Japan"]
 ---
 

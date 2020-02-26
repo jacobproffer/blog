@@ -1,13 +1,10 @@
 ---
 title: "Norway Blog 01"
 date: 2018-11-22 14:00:00
-description: Traveling to Norway and exploring Bergen.
-images:
-  - images/norway_blog_01_social.jpg
-thumbnail: /images/bergen_01.jpg
-thumbnailCaption: Group of young men in Bergen, Norway.
-thumbnail-coordinates: 60.394275&deg; N, 5.3261278&deg; E
+description: "Traveling to Norway and exploring Bergen."
+images: ["/images/norway_blog_01_social.jpg"]
 categories: ["travel"]
+tags: ["norway", "travel"]
 series: ["Norway"]
 ---
 

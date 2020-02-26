@@ -1,12 +1,10 @@
 ---
 title: "Japan Blog 05"
 date: 2018-04-01 14:00:00
-description: Jacob Proffer's time in Akihabara.
-images:
-  - images/japan_blog_05_social.jpg
-thumbnail: /images/akihabara_drug_store.jpg
-thumbnailCaption: Drug store in Akihabara.
+description: "Jacob Proffer's time in Akihabara."
+images: ["/images/japan_blog_05_social.jpg"]
 categories: ["travel"]
+tags: ["japan", "travel"]
 series: ["Japan"]
 ---
 

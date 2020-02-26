@@ -1,12 +1,10 @@
 ---
 title: "Japan Blog 04"
 date: 2018-03-25 14:00:00
-description: Jacob Proffer's time in Shinjuku, Tokyo, Japan.
-images:
-  - images/japan_blog_04_social.jpg
-thumbnail: /images/shinjuku_sunrise.jpg
-thumbnailCaption: Sunrise in Shinjuku.
+description: "Jacob Proffer's time in Shinjuku, Tokyo, Japan."
+images: ["/images/japan_blog_04_social.jpg"]
 categories: ["travel"]
+tags: ["japan", "travel"]
 series: ["Japan"]
 ---
 

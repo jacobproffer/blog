@@ -1,12 +1,10 @@
 ---
 title: "Iceland Blog 04"
 date: 2018-09-16 14:00:00
-description: Fourth day in Iceland.
-images:
-  - images/iceland_blog_04_social.jpg
-thumbnail: /images/sjonarsker_2.jpg
-thumbnailCaption: Skaftafell.
+description: "Fourth day in Iceland."
+images: ["/images/iceland_blog_04_social.jpg"]
 categories: ["travel"]
+tags: ["iceland", "travel"]
 series: ["Iceland"]
 ---
 

@@ -2,11 +2,9 @@
 title: "Iceland Blog 03"
 date: 2018-09-03 14:00:00
 description: Third day in Iceland.
-images:
-  - images/iceland_blog_03_social.jpg
-thumbnail: /images/thingvellir_2.jpg
-thumbnailCaption: Þingvellir.
+images: ["/images/iceland_blog_03_social.jpg"]
 categories: ["travel"]
+tags: ["iceland", "travel"]
 series: ["Iceland"]
 ---
 

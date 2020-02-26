@@ -1,12 +1,10 @@
 ---
 title: "Iceland Blog 05"
 date: 2018-09-19 14:00:00
-description: Fifth day in Iceland.
-images:
-  - images/iceland_blog_05_social.jpg
-thumbnail: /images/reykjadalur_1.jpg
-thumbnailCaption: Reykjadalur valley.
+description: "Fifth day in Iceland."
+images: ["/images/iceland_blog_05_social.jpg"]
 categories: ["travel"]
+tags: ["iceland", "travel"]
 series: ["Iceland"]
 ---
 
