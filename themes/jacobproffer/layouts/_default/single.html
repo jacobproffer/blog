@@ -19,41 +19,15 @@
 
       <footer>
 
-        {{ range .Params.categories }}
-          <small class="category">{{ . }}</small>
+        {{ range (.GetTerms "categories") }}
+          <a class="category" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
         {{ end }}
 
       </footer>
 
+      {{ partial "related.html" . }}
+
     </div>
   </article>
-
-  {{ partial "related.html" . }}
-
-  <div class="pagination pagination--post">
-    <div class="grid grid--two-column">
-
-      {{ with .PrevInSection }}
-        <a
-          class="pagination-item pagination-item--prev gray-hover"
-          href="{{ .Permalink }}"
-        >
-          Previous Post
-          <span>{{ .Title }}</span>
-        </a>
-      {{ end }}
-
-      {{ with .NextInSection }}
-        <a
-          class="pagination-item pagination-item--next gray-hover"
-          href="{{ .Permalink }}"
-        >
-          Next Post
-          <span>{{ .Title }}</span>
-        </a>
-      {{ end }}
-
-    </div>
-  </div>
 
 {{ end }}
