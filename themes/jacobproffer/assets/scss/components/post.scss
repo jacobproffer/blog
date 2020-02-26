@@ -16,4 +16,28 @@
   &__information {
     margin-bottom: 40px;
   }
+
+  &__related {
+    padding-top: 40px;
+    margin-top: 60px;
+    border-top: 1px solid var(--border);
+
+    h2 {
+      margin-top: 0;
+    }
+
+    ul {
+      grid-gap: 20px;
+    }
+
+    li {
+      border: 1px solid var(--border);
+    }
+
+    a {
+      display: block;
+      padding: 20px 20px 30px;
+      text-decoration: none;
+    }
+  }
 }

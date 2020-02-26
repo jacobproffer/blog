@@ -20,7 +20,7 @@
       <footer>
 
         {{ range (.GetTerms "categories") }}
-          <a class="category" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+          <small class="category">{{ .LinkTitle }}</small>
         {{ end }}
 
       </footer>

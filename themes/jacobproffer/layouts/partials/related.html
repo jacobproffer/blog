@@ -1,19 +1,19 @@
-{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ $related := .Site.RegularPages.Related . | first 4 }}
 
 {{ with $related }}
 
-  <div class="post-related">
+  <div class="post__related">
 
     <header>
       <h2 id="related-posts">Related Posts</h2>
     </header>
 
-    <ul aria-labelledby="related-posts">
+    <ul class="grid unstyled-list" aria-labelledby="related-posts">
+
       {{ range . }}
-        <li>
-          {{ .Title }}
-        </li>
+        {{ .Render "li" }}
       {{ end }}
+
     </ul>
 
   </div>
