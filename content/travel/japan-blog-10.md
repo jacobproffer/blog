@@ -14,7 +14,7 @@ The airlines changed my seat last minute and I ended up in premium economy, righ
 
 ---
 
-{{< figure src="/images/japan_airlines.jpg" alt="Japan Airlines Boeing 787-9." caption="Japan Airlines Boeing 787-9" >}}
+{{< lazy src="/images/japan_airlines.jpg" alt="Japan Airlines Boeing 787-9." >}}
 
 ---
 

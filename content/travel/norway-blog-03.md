@@ -14,7 +14,7 @@ Our goal for the day was to hike the Åkrafjorden. The fjord is located over thr
 
 ---
 
-{{< figure src="/images/ferry_02.jpg" alt="Myles Kedrowski on the ferry from Tørvikbygd to Jondal." caption="Myles Kedrowski on the ferry from Tørvikbygd to Jondal." >}}
+{{< lazy src="/images/ferry_02.jpg" alt="Myles Kedrowski on the ferry from Tørvikbygd to Jondal." >}}
 
 ---
 
@@ -28,7 +28,7 @@ Once at the top, Myles and I were greeted by an older couple who rested on the g
 
 ---
 
-{{< figure src="/images/akrafjorden_1.jpg" alt="View from the top of Åkrafjorden." caption="View from the top of Åkrafjorden." >}}
+{{< lazy src="/images/akrafjorden_1.jpg" alt="View from the top of Åkrafjorden." >}}
 
 ---
 

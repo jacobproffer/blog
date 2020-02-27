@@ -16,7 +16,7 @@ As it is legal to consume alcohol publicly in Japan, I enjoyed a drink by the ca
 
 ---
 
-{{< figure src="/images/dotonbori_01.jpg" alt="Canals of Dōtonbori." caption="Canals of Dōtonbori." >}}
+{{< lazy src="/images/dotonbori_01.jpg" alt="Canals of Dōtonbori." >}}
 
 ---
 
@@ -26,7 +26,7 @@ Anyone with an interest in anime or manga should check out Mandarake Grand Chaos
 
 ---
 
-{{< figure src="/images/mandarake_grand_chaos.jpg" alt="Mandarake Grand Chaos advertisements." caption="Mandarake Grand Chaos advertisements." >}}
+{{< lazy src="/images/mandarake_grand_chaos.jpg" alt="Mandarake Grand Chaos advertisements." >}}
 
 ---
 

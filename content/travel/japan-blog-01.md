@@ -14,7 +14,7 @@ I remember walking up to my designated gate, K5. The plane was about to reach th
 
 ---
 
-{{< figure src="/images/japan_01.jpg" alt="Boeing 787 Dreamliner in ORD." caption="Boeing 787 Dreamliner in ORD." >}}
+{{< lazy src="/images/japan_01.jpg" alt="Boeing 787 Dreamliner in ORD." >}}
 
 ---
 
@@ -22,7 +22,7 @@ As boarding commenced, I was anxious. I was curious how I would fair on a long-h
 
 ---
 
-{{< figure src="/images/japan_02.jpg" alt="Boeing 787 Dreamliner Flight Map." caption="Boeing 787 Dreamliner Flight Map." >}}
+{{< lazy src="/images/japan_02.jpg" alt="Boeing 787 Dreamliner Flight Map." >}}
 
 ---
 

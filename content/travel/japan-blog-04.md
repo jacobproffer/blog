@@ -14,7 +14,7 @@ I laid back in bed and listened to the few songs that I had on my iPhone. There 
 
 ---
 
-{{< figure src="/images/shinjuku_sunrise.jpg" alt="Sunrise in Shinjuku." caption="Sunrise in Shinjuku." >}}
+{{< lazy src="/images/shinjuku_sunrise.jpg" alt="Sunrise in Shinjuku." >}}
 
 ---
 
@@ -24,7 +24,7 @@ I took a side street back towards the front of the hotel. To my left, two younge
 
 ---
 
-{{< figure src="/images/shinjuku_ravens.jpg" alt="Ravens in Shinjuku." caption="Ravens in Shinjuku." >}}
+{{< lazy src="/images/shinjuku_ravens.jpg" alt="Ravens in Shinjuku." >}}
 
 ---
 
@@ -38,7 +38,7 @@ After breakfast I headed down a side street in the direction of the hotel. A wom
 
 ---
 
-{{< figure src="/images/shinjuku_sign.jpg" alt="Sign in Shinjuku." caption="Sign in Shinjuku." >}}
+{{< lazy src="/images/shinjuku_sign.jpg" alt="Sign in Shinjuku." >}}
 
 ---
 
@@ -48,7 +48,7 @@ I spent the next few hours around the hotel. Near the Hotel Gracery is a tax fre
 
 ---
 
-{{< figure src="/images/shinjuku_street.jpg" alt="Exterior shot of Hotel Gracery." caption="Exterior shot of Hotel Gracery." >}}
+{{< lazy src="/images/shinjuku_street.jpg" alt="Exterior shot of Hotel Gracery." >}}
 
 ---
 

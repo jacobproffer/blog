@@ -7,6 +7,7 @@ categories: ["travel"]
 tags: ["romania", "travel"]
 series: ["Romania"]
 ---
+
 I touched down at Henri Coandă International Airport, Bucharest's primary airport, late on the fifth of November. We deplaned on the tarmac and boarded a shuttle bus. The shuttle took the passengers and I to a terminal nearby. As I was near the exit of the bus, I was one of the first to arrive at the immigration and customs station. A young agent took my passport and my boarding pass from Heathrow. Along with a superior, she went over my documents. With no questions asked, she stamped my passport.
 
 I found Myles in the lobby of the airport. He had arrived in the afternoon and had spent the day on his laptop relaxing. I placed a call to the hotel to see if a shuttle was available. There wasn't. Our only option was to take a taxi. Within the lobby of Henri Coandă, Myles and I located a ticket machine for taxi cabs. We were able to choose the brand of taxi, based upon the rate per kilometer. Myles and I chose a taxi within the medium fare range. With the ticket printed, we exited the airport in search for our specific taxi.

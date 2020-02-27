@@ -16,7 +16,7 @@ Temperature wise, it was a cold morning. I threw on my down jacket and gloves be
 
 ---
 
-{{< figure src="/images/tvindefossen.jpg" alt="Abandoned cabin by Tvindefossen." caption="Abandoned cabin by Tvindefossen." >}}
+{{< lazy src="/images/tvindefossen.jpg" alt="Abandoned cabin by Tvindefossen." >}}
 
 ---
 
@@ -28,10 +28,10 @@ Two hours into the hike, we came across a waterfall coated with slabs of ice and
 
 ---
 
-{{< figure src="/images/aurlandsdalen_4.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
-{{< figure src="/images/aurlandsdalen_1.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
-{{< figure src="/images/aurlandsdalen_2.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
-{{< figure src="/images/aurlandsdalen_3.jpg" alt="Myles Kedrowski in Aurlandsdalen." caption="Myles Kedrowski in Aurlandsdalen." >}}
+{{< lazy src="/images/aurlandsdalen_4.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
+{{< lazy src="/images/aurlandsdalen_1.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
+{{< lazy src="/images/aurlandsdalen_2.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
+{{< lazy src="/images/aurlandsdalen_3.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
 
 ---
 

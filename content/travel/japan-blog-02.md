@@ -22,7 +22,7 @@ After I cleared customs, I entered the airport lobby. This was the moment where 
 
 ---
 
-{{< figure src="/images/skyliner_ticket.jpg" alt="Skyliner Ticket." caption="Skyliner Ticket." >}}
+{{< lazy src="/images/skyliner_ticket.jpg" alt="Skyliner Ticket." >}}
 
 ---
 

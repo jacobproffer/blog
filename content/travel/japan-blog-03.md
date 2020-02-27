@@ -22,7 +22,7 @@ The train made it to Shinjuku station in roughly twenty-two minutes. I had read 
 
 ---
 
-{{< figure src="/images/kabukicho_sign.jpg" alt="Exit sign for Kabukicho." caption="Exit sign for Kabukicho." >}}
+{{< lazy src="/images/kabukicho_sign.jpg" alt="Exit sign for Kabukicho." >}}
 
 ---
 
@@ -36,7 +36,7 @@ I road the elevator alone. My hotel room was to the direct left of the elevator 
 
 ---
 
-{{< figure src="/images/hotel_room.jpg" alt="Hotel Gracery hotel room." caption="Hotel Gracery hotel room." >}}
+{{< lazy src="/images/hotel_room.jpg" alt="Hotel Gracery hotel room." >}}
 
 ---
 
