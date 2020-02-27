@@ -6,5 +6,5 @@ images: ["/images/romania-blog-02-social.jpg"]
 categories: ["travel"]
 tags: ["romania", "travel"]
 series: ["Romania"]
-featured: true
+draft: true
 ---

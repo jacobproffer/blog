@@ -4,10 +4,6 @@
   }
 
   img {
-    &:not(:first-of-type) {
-      margin-top: 40px;
-    }
-
     + image {
       margin-top: 20px;
     }
