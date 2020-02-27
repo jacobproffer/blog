@@ -37,3 +37,9 @@ summaryLength = 14
     name = "Instagram"
     url = "https://www.instagram.com/jacobproffer_/"
     weight = 2
+
+  [[menu.social]]
+    identifier = "repository"
+    name = "Repository"
+    url = "https://github.com/jacobproffer/blog"
+    weight = 3

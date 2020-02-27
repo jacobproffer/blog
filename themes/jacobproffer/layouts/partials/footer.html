@@ -1,35 +1,9 @@
 <footer class="footer">
   <div class="container">
-    <div class="grid grid--two-column">
 
-      <nav aria-label="social-navigation">
-        <ul class="unstyled-list">
+    {{ if .Site.Menus.social }}
+      {{ partial "navigation/social.html" . }}
+    {{ end }}
 
-          {{ range .Site.Menus.social }}
-            <li class="footer__list-item">
-              <a
-                class="footer__list-link"
-                href="{{ .URL }}"
-                target="_blank"
-                rel=”noopener”
-              >
-                {{ .Name }}
-              </a>
-            </li>
-          {{ end }}
-
-        </ul>
-      </nav>
-
-      <a
-        class="justify-end"
-        href="https://github.com/jacobproffer/blog"
-        target="_blank"
-        rel=”noopener”
-      >
-        Repository
-      </a>
-
-    </div>
   </div>
 </footer>

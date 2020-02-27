@@ -85,7 +85,7 @@ a {
   transition: color 300ms ease-in-out, outline 300ms ease-in-out;
 
   &:hover {
-    outline: dotted 1px var(--black);
+    outline: dotted 1px var(--orange);
   }
 
   &.current {
