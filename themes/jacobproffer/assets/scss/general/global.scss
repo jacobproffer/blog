@@ -75,17 +75,13 @@ img {
   max-width: 100%;
 }
 
-figure {
-  margin: 0;
-}
-
 a {
   color: inherit;
   text-decoration: none;
   transition: color 300ms ease-in-out, outline 300ms ease-in-out;
 
   &:hover {
-    outline: dotted 1px var(--black);
+    outline: dotted 1px var(--orange);
   }
 
   &.current {

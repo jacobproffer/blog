@@ -1,13 +1,10 @@
 ---
 title: "Norway Blog 00"
 date: 2018-10-24 14:00:00
-description: The night before my trip to Norway.
-images:
-  - images/norway_blog_00_social.jpg
-thumbnail: /images/norway_00_thumbnail.jpg
-thumbnailCaption: Near the small lake of Leirvogsvatn.
-thumbnail-coordinates: 60.878486&deg; N, 6.843065&deg; E
+description: "The night before my trip to Norway."
+images: ["/images/norway_blog_00_social.jpg"]
 categories: ["travel"]
+tags: ["norway", "travel"]
 series: ["Norway"]
 ---
 

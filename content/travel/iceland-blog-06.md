@@ -1,12 +1,10 @@
 ---
 title: "Iceland Blog 06"
 date: 2018-10-10 14:00:00
-description: Sixth day in Iceland.
-images:
-  - images/iceland_blog_06_social.jpg
-thumbnail: /images/blafjallavegur_3.jpg
-thumbnailCaption: Blafjallavegur.
+description: "Sixth day in Iceland."
+images: ["/images/iceland_blog_06_social.jpg"]
 categories: ["travel"]
+tags: ["iceland", "travel"]
 series: ["Iceland"]
 ---
 
@@ -18,9 +16,9 @@ Towards the middle of Road 417, Myles and I came across a weathered neon orange 
 
 ---
 
-{{< figure src="/images/blafjallavegur_1.jpg" alt="Blafjallavegur." >}}
-{{< figure src="/images/blafjallavegur_2.jpg" alt="Blafjallavegur." >}}
-{{< figure src="/images/blafjallavegur_3.jpg" alt="Blafjallavegur." caption="Blafjallavegur." >}}
+{{< lazy src="/images/blafjallavegur_1.jpg" alt="Blafjallavegur." >}}
+{{< lazy src="/images/blafjallavegur_2.jpg" alt="Blafjallavegur." >}}
+{{< lazy src="/images/blafjallavegur_3.jpg" alt="Blafjallavegur." >}}
 
 ---
 

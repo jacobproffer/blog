@@ -2,11 +2,9 @@
 title: "Iceland Blog 03"
 date: 2018-09-03 14:00:00
 description: Third day in Iceland.
-images:
-  - images/iceland_blog_03_social.jpg
-thumbnail: /images/thingvellir_2.jpg
-thumbnailCaption: Þingvellir.
+images: ["/images/iceland_blog_03_social.jpg"]
 categories: ["travel"]
+tags: ["iceland", "travel"]
 series: ["Iceland"]
 ---
 
@@ -20,8 +18,8 @@ Myles and I ventured through Almannagja next. The fault line marks the eastern b
 
 ---
 
-{{< figure src="/images/thingvellir_1.jpg" alt="Þingvellir." >}}
-{{< figure src="/images/thingvellir_2.jpg" alt="Þingvellir." caption="Þingvellir." >}}
+{{< lazy src="/images/thingvellir_1.jpg" alt="Þingvellir." >}}
+{{< lazy src="/images/thingvellir_2.jpg" alt="Þingvellir." >}}
 
 ---
 
@@ -33,7 +31,7 @@ Strokkur erupts every eight minutes, an impressive sight. The spout can shoot up
 
 ---
 
-{{< figure src="/images/geysir.jpg" alt="Bláskógabyggð." caption="Bláskógabyggð." >}}
+{{< lazy src="/images/geysir.jpg" alt="Bláskógabyggð." >}}
 
 ---
 
@@ -45,8 +43,8 @@ Unlike waterfalls such as Seljalandsfoss, there's an overlook for Gullfoss. The 
 
 ---
 
-{{< figure src="/images/gullfoss_1.jpg" alt="Gullfoss." >}}
-{{< figure src="/images/gullfoss_2.jpg" alt="Gullfoss." caption="Gullfoss." >}}
+{{< lazy src="/images/gullfoss_1.jpg" alt="Gullfoss." >}}
+{{< lazy src="/images/gullfoss_2.jpg" alt="Gullfoss." >}}
 
 ---
 

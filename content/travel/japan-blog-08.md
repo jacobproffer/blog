@@ -1,12 +1,10 @@
 ---
 title: "Japan Blog 08"
 date: 2018-05-07 14:00:00
-description: Leaving Tokyo, Japan.
-images:
-  - images/narita_social.jpg
-thumbnail: /images/narita_social.jpg
-thumbnailCaption: Narita International Airport.
+description: "Leaving Tokyo, Japan."
+images: ["/images/narita_social.jpg"]
 categories: ["travel"]
+tags: ["japan", "travel"]
 series: ["Japan"]
 ---
 
@@ -18,7 +16,7 @@ By far one of the nicest people I'd met in awhile, Vic had also been traveling t
 
 ---
 
-{{< figure src="/images/selfie_hotel_gracery.jpg" alt="Selfie at the Hotel Gracery." caption="Selfie at the Hotel Gracery." >}}
+{{< lazy src="/images/selfie_hotel_gracery.jpg" alt="Selfie at the Hotel Gracery." >}}
 
 ---
 
@@ -30,7 +28,7 @@ For the next six hours, I sat in a somewhat luxurious lobby. There were individu
 
 ---
 
-{{< figure src="/images/narita_airport.jpg" alt="Narita Airport." caption="Narita Airport." >}}
+{{< lazy src="/images/narita_airport.jpg" alt="Narita Airport." >}}
 
 ---
 

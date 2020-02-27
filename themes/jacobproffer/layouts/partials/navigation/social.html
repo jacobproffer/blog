@@ -1,0 +1,18 @@
+<nav aria-label="social-navigation">
+  <ul class="unstyled-list navigation-list">
+
+    {{ range .Site.Menus.social }}
+      <li class="footer__list-item">
+        <a
+          class="footer__list-link"
+          href="{{ .URL }}"
+          target="_blank"
+          rel=”noopener”
+        >
+          {{ .Name }}
+        </a>
+      </li>
+    {{ end }}
+
+  </ul>
+</nav>

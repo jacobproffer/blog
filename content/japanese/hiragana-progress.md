@@ -1,16 +1,12 @@
 ---
 title: "Hiragana Progress"
 date: 2018-07-29 14:00:00
-description: Progress with Hiragana and Russian.
+description: "Progress with Hiragana and Russian."
+images: ["images/hiragana_social.jpg"]
+series: ["Japanese"]
 categories: ["japanese"]
-images:
-  - images/hiragana_social.jpg
-thumbnail: /images/hiragana_thumbnail.jpg
-thumbnailCaption: Japanese From Zero book.
-aliases:
-  - /education/hiragana-progress/
-series:
-  - Japanese
+tags: ["japanese", "education"]
+aliases: ["/education/hiragana-progress/"]
 ---
 
 Another month has passed, which marks my second month of study with Japanese. Throughout the month of July, I made steady progress with the first Japanese From Zero! book. Currently, I'm on lesson five. The lesson covers a few more Hiragana characters and likes and dislikes. Out of all of the words I currently know, my favorite word is みみ (耳). It means 'ear' and is pronounced, 'mi-mi'. The word reminds me of the Road Runner's, "Beep beep (Meep meep)".

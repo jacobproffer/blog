@@ -1,11 +1,10 @@
 ---
-title: Status Update
+title: "Status Update"
 date: 2019-09-16T00:34:48.914Z
-description: Status update for the blog.
-images:
-  - /images/uploads/background.jpg
-categories:
-  - general
+description: "Status update for the blog."
+images: ["/images/uploads/background.jpg"]
+categories: ["general"]
+tags: ["general", "announcements"]
 ---
 Hello everyone, it's been a few months. I've been busy with personal projects, work and studying Japanese. The plan is to start catching up with the blog this week. I have a number of Japan posts to write and I'm anxious to do so. I also intend to write more occassional posts to let everyone know what exactly I am learning with Japanese.
 

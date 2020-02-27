@@ -1,0 +1,31 @@
+<nav aria-label="primary-navigation">
+  <ul class="unstyled-list navigation-list grid grid--two-column">
+
+    <li class="justify-start">
+      <a
+        href="{{ .Site.BaseURL }}"
+        {{ if .IsHome }}
+          aria-current="page"
+        {{ end }}
+      >
+        Home
+      </a>
+    </li>
+
+    {{ $currentPage := . }}
+
+    {{ range .Site.Menus.main }}
+      <li class="main-header__nav-item justify-end">
+        <a
+          href="{{ .URL }}"
+          {{ if $currentPage.IsMenuCurrent "main" . }}
+            aria-current="page"
+          {{ end }}
+        >
+          {{ .Name }}
+        </a>
+      </li>
+    {{ end }}
+
+  </ul>
+</nav>

@@ -3,17 +3,10 @@
   color: var(--white);
   background-color: var(--black);
 
-  &__list-item {
-    display: inline-block;
-    list-style-type: none;
-
-    &:not(:last-of-type) {
-      margin-right: 20px;
-
-      @include screen-below(768px) {
-        margin-right: 10px;
-      }
-    }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   @include screen-below(1024px) {

@@ -1,12 +1,10 @@
 ---
 title: "Japan Blog 11"
 date: 2019-06-17T21:20:22-04:00
-description: Jacob Proffer's time in the area of Dōtonbori.
-images:
-  - images/japan_blog_11_social.jpg
-thumbnail: /images/dotonbori_01.jpg
-thumbnailCaption: Canals of Dōtonbori.
+description: "Jacob Proffer's time in the area of Dōtonbori."
+images: ["/images/japan_blog_11_social.jpg"]
 categories: ["travel"]
+tags: ["japan", "travel"]
 series: ["Japan"]
 ---
 
@@ -18,7 +16,7 @@ As it is legal to consume alcohol publicly in Japan, I enjoyed a drink by the ca
 
 ---
 
-{{< figure src="/images/dotonbori_01.jpg" alt="Canals of Dōtonbori." caption="Canals of Dōtonbori." >}}
+{{< lazy src="/images/dotonbori_01.jpg" alt="Canals of Dōtonbori." >}}
 
 ---
 
@@ -28,7 +26,7 @@ Anyone with an interest in anime or manga should check out Mandarake Grand Chaos
 
 ---
 
-{{< figure src="/images/mandarake_grand_chaos.jpg" alt="Mandarake Grand Chaos advertisements." caption="Mandarake Grand Chaos advertisements." >}}
+{{< lazy src="/images/mandarake_grand_chaos.jpg" alt="Mandarake Grand Chaos advertisements." >}}
 
 ---
 

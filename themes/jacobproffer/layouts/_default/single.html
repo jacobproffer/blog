@@ -1,57 +1,44 @@
 {{ define "main" }}
 
-  <article class="post spacing">
+  <div class="spacing">
+    <article class="post">
 
-    <div class="container container--small">
+      <div class="container container--small">
 
-      <header>
-        <h1>{{ .Title }}</h1>
-        <span class="post__information">
-          <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
-            {{ .PublishDate.Format "January 2, 2006" }}
-          </time>
-          -
-          {{ .WordCount }} words
-        </span>
-      </header>
+        <header>
+          <h1>{{ .Title }}</h1>
+          <span class="post__information">
+            <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
+              {{ .PublishDate.Format "January 2, 2006" }}
+            </time>
+            -
+            {{ .ReadingTime }} minute read
+          </span>
+        </header>
 
-      {{ .Content }}
+        {{ .Content }}
 
-      <footer>
+        {{ if (.GetTerms "tags") }}
+          <ul class="tags unstyled-list">
 
-        {{ range .Params.categories }}
-          <small class="category">{{ . }}</small>
+            {{ range (.GetTerms "tags") }}
+              <li>
+                <a class="category" href="{{ .Permalink }}">
+                  {{ .LinkTitle }}
+                </a>
+              </li>
+            {{ end }}
+
+          </ul>
         {{ end }}
 
-      </footer>
+        {{ partial "author.html" }}
 
-    </div>
-  </article>
+      </div>
+    </article>
 
-  <div class="pagination pagination--post">
-    <div class="grid grid--two-column">
+    {{ partial "related.html" . }}
 
-      {{ with .PrevInSection }}
-        <a
-          class="pagination-item pagination-item--prev gray-hover"
-          href="{{ .Permalink }}"
-        >
-          Previous Post
-          <span>{{ .Title }}</span>
-        </a>
-      {{ end }}
-
-      {{ with .NextInSection }}
-        <a
-          class="pagination-item pagination-item--next gray-hover"
-          href="{{ .Permalink }}"
-        >
-          Next Post
-          <span>{{ .Title }}</span>
-        </a>
-      {{ end }}
-
-    </div>
   </div>
 
 {{ end }}

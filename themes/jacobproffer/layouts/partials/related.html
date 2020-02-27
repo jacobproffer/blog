@@ -1,0 +1,19 @@
+{{ $related := .Site.RegularPages.Related . | first 4 }}
+
+{{ with $related }}
+
+  <aside class="related">
+
+    <div class="container container--small border-top">
+      <ul class="grid unstyled-list">
+
+        {{ range . }}
+          {{ .Render "li" }}
+        {{ end }}
+
+      </ul>
+    </div>
+
+  </aside>
+
+{{ end }}

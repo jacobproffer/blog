@@ -2,11 +2,9 @@
 title: "Japan Blog 00"
 date: 2017-11-13 21:00:00
 description: The night before leaving for Tokyo, Japan.
-images:
-  - images/japan_blog_00_social.jpg
-thumbnail: /images/japan_blog_00_thumbnail.jpg
-thumbnailCaption: Narita International Airport.
+images: ["/images/japan_blog_00_social.jpg"]
 categories: ["travel"]
+tags: ["japan", "travel"]
 series: ["Japan"]
 ---
 

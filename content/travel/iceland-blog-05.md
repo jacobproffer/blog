@@ -1,12 +1,10 @@
 ---
 title: "Iceland Blog 05"
 date: 2018-09-19 14:00:00
-description: Fifth day in Iceland.
-images:
-  - images/iceland_blog_05_social.jpg
-thumbnail: /images/reykjadalur_1.jpg
-thumbnailCaption: Reykjadalur valley.
+description: "Fifth day in Iceland."
+images: ["/images/iceland_blog_05_social.jpg"]
 categories: ["travel"]
+tags: ["iceland", "travel"]
 series: ["Iceland"]
 ---
 
@@ -26,8 +24,8 @@ Even with the temperature in the fifties, there were dozens of people bathing in
 
 ---
 
-{{< figure src="/images/reykjadalur_1.jpg" alt="Reykjadalur valley." >}}
-{{< figure src="/images/reykjadalur_2.jpg" alt="Reykjadalur valley." caption="Reykjadalur valley." >}}
+{{< lazy src="/images/reykjadalur_1.jpg" alt="Reykjadalur valley." >}}
+{{< lazy src="/images/reykjadalur_2.jpg" alt="Reykjadalur valley." >}}
 
 ---
 

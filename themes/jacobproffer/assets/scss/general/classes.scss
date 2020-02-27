@@ -25,6 +25,14 @@
   &:hover {
     background-color: var(--midGray);
   }
+
+  &:active {
+    background-color: var(--orange);
+  }
+}
+
+.align-end {
+  align-self: end;
 }
 
 .justify-start {
@@ -41,5 +49,28 @@
 
   li {
     list-style: none;
+  }
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+
+  li {
+    margin-right: .5rem;
+  }
+}
+
+.border-top {
+  padding-top: 40px;
+  margin-top: 40px;
+  border-top: 1px solid var(--border);
+}
+
+.navigation-list {
+  margin: auto -10px;
+
+  a {
+    padding: 10px;
   }
 }

@@ -2,12 +2,10 @@
 title: "Romania Blog 02"
 date: 2020-02-17T19:04:27-05:00
 description: "My first full day in Bucharest, Romania. A day of goulash, walking and more walking."
-images:
-  - /images/romania-blog-02-social.jpg
-categories:
-  - travel
-series:
-  - romania
+images: ["/images/romania-blog-02-social.jpg"]
+categories: ["travel"]
+tags: ["romania", "travel"]
+series: ["Romania"]
 featured: true
 ---
 
@@ -17,7 +15,7 @@ The first location Myles and I visited after breakfast was Pasajul Victoria, a p
 
 ---
 
-{{< figure src="/images/romania-building.jpg" alt="Yellow, Soviet-era apartment building in Bucharest, Romania." caption="Apartment building in Bucharest, Romania." >}}
+{{< lazy src="/images/romania-building.jpg" alt="Yellow, Soviet-era apartment building in Bucharest, Romania." >}}
 
 ---
 
@@ -27,7 +25,7 @@ From Cărturești Carusel, Myles and I looped around the Palace of the Parliamen
 
 ---
 
-{{< figure src="/images/romania-palace.jpg" alt="Palace of the Parliament in Bucharest, Romania." caption="The heaviest building in the world, the Palace of the Parliament." >}}
+{{< lazy src="/images/romania-palace.jpg" alt="Palace of the Parliament in Bucharest, Romania." >}}
 
 ---
 

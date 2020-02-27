@@ -1,12 +1,10 @@
 ---
 title: "Iceland Blog 04"
 date: 2018-09-16 14:00:00
-description: Fourth day in Iceland.
-images:
-  - images/iceland_blog_04_social.jpg
-thumbnail: /images/sjonarsker_2.jpg
-thumbnailCaption: Skaftafell.
+description: "Fourth day in Iceland."
+images: ["/images/iceland_blog_04_social.jpg"]
 categories: ["travel"]
+tags: ["iceland", "travel"]
 series: ["Iceland"]
 ---
 
@@ -20,9 +18,9 @@ Myles and I took a few photographs and proceed on a trail to higher elevation. W
 
 ---
 
-{{< figure src="/images/sjonarsker_1.jpg" alt="Sjónarsker inside of Skaftafell." >}}
-{{< figure src="/images/sjonarsker_2.jpg" alt="Sjónarsker inside of Skaftafell." >}}
-{{< figure src="/images/sjonarsker_3.jpg" alt="Sjónarsker inside of Skaftafell." caption="Sjónarsker inside of Skaftafell." >}}
+{{< lazy src="/images/sjonarsker_1.jpg" alt="Sjónarsker inside of Skaftafell." >}}
+{{< lazy src="/images/sjonarsker_2.jpg" alt="Sjónarsker inside of Skaftafell." >}}
+{{< lazy src="/images/sjonarsker_3.jpg" alt="Sjónarsker inside of Skaftafell." >}}
 
 ---
 
@@ -36,7 +34,7 @@ We explored the terrain to the east of the glacier for another hour, with an ext
 
 ---
 
-{{< figure src="/images/skaftafellsjokull.jpg" alt="Skaftafellsjökull." caption="Skaftafellsjökull." >}}
+{{< lazy src="/images/skaftafellsjokull.jpg" alt="Skaftafellsjökull." >}}
 
 ---
 

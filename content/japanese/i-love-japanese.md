@@ -1,16 +1,12 @@
 ---
 title: "日本語が大好きです"
 date: 2019-01-27 14:00:00
-description: Eighth month progress report of studying Japanese.
-images:
-  - images/i_love_japanese_social.jpg
-thumbnail: /images/tofugu_stickers.jpg
-thumbnailCaption: Vinyl stickers from Tofogu.
+description: "Eighth month progress report of studying Japanese."
+images: ["images/i_love_japanese_social.jpg"]
 categories: ["japanese"]
-aliases:
-  - /education/i-love-japanese/
-series:
-  - Japanese
+tags: ["japanese", "education"]
+series: ["Japanese"]
+aliases: ["/education/i-love-japanese/"]
 ---
 
 Regarded as one of the most difficult languages to learn, I never thought I'd study Japanese. But as of today, the language has been part of my daily life for eight months. I thought it would be a hobby for a short time and then I'd get bored or too frustrated. As of now, I've learned hiragana (ひりがな), katakana (カタカナ) and a vast number of kanji (漢字) characters and vocabulary. I can carry basic conversations, write, type and even read a little. It's a constant process but I absolutely love the language. I just take it a day at a time.

@@ -3,14 +3,14 @@
     text-decoration: underline;
   }
 
-  figure + figure {
-    margin-top: 20px;
+  img {
+    + image {
+      margin-top: 20px;
+    }
   }
 
-  img {
-    &:not(:first-of-type) {
-      margin-top: 40px;
-    }
+  .category {
+    text-decoration: none;
   }
 
   &__information {

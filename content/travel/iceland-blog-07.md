@@ -1,12 +1,10 @@
 ---
 title: "Iceland Blog 07"
 date: 2018-10-15 14:00:00
-description: Leaving Iceland.
-images:
-  - images/iceland_blog_07_social.jpg
-thumbnail: /images/myles.jpg
-thumbnailCaption: Myles next to rental vehicle.
+description: "Leaving Iceland."
+images: ["/images/iceland_blog_07_social.jpg"]
 categories: ["travel"]
+tags: ["iceland", "travel"]
 series: ["Iceland"]
 ---
 

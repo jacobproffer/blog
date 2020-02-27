@@ -1,13 +1,11 @@
 ---
-title: How to Use もう
+title: "How to Use もう"
 date: 2019-09-17T22:58:20.608Z
-description: Learning about the different uses of もう.
-images:
-  - /images/uploads/background.jpg
-categories:
-  - japanese
-series:
-  - Japanese
+description: "Learning about the different uses of もう."
+images: ["/images/uploads/background.jpg"]
+categories: ["japanese"]
+tags: ["japanese", "education"]
+series: ["Japanese"]
 ---
 Yesterday, I started to learn about the different uses of {{< japanese >}}もう{{< /japanese >}}. The word {{<japanese>}}もう{{< /japanese >}} can be used to say, "already", "more" or "anymore." Depending upon what the word is placed in front of determines that meaning.
 

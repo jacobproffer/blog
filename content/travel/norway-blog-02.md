@@ -1,13 +1,10 @@
 ---
 title: "Norway Blog 02"
 date: 2018-11-29 14:00:00
-description: First full day in Norway, exploring Tvindefossen, Aurlandsdalen and Nærøyfjord.
-images:
-  - images/norway_blog_02_social.jpg
-thumbnail: /images/tvindefossen.jpg
-thumbnailCaption: Abandoned cabin in Tvindefossen.
-thumbnail-coordinates: 60.726594&deg; N, 6.488324&deg; E
+description: "First full day in Norway, exploring Tvindefossen, Aurlandsdalen and Nærøyfjord."
+images: ["/images/norway_blog_02_social.jpg"]
 categories: ["travel"]
+tags: ["norway", "travel"]
 series: ["Norway"]
 ---
 
@@ -19,7 +16,7 @@ Temperature wise, it was a cold morning. I threw on my down jacket and gloves be
 
 ---
 
-{{< figure src="/images/tvindefossen.jpg" alt="Abandoned cabin by Tvindefossen." caption="Abandoned cabin by Tvindefossen." >}}
+{{< lazy src="/images/tvindefossen.jpg" alt="Abandoned cabin by Tvindefossen." >}}
 
 ---
 
@@ -31,10 +28,10 @@ Two hours into the hike, we came across a waterfall coated with slabs of ice and
 
 ---
 
-{{< figure src="/images/aurlandsdalen_4.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
-{{< figure src="/images/aurlandsdalen_1.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
-{{< figure src="/images/aurlandsdalen_2.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
-{{< figure src="/images/aurlandsdalen_3.jpg" alt="Myles Kedrowski in Aurlandsdalen." caption="Myles Kedrowski in Aurlandsdalen." >}}
+{{< lazy src="/images/aurlandsdalen_4.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
+{{< lazy src="/images/aurlandsdalen_1.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
+{{< lazy src="/images/aurlandsdalen_2.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
+{{< lazy src="/images/aurlandsdalen_3.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
 
 ---
 

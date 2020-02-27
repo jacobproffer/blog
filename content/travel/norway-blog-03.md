@@ -1,13 +1,10 @@
 ---
 title: "Norway Blog 03"
 date: 2018-12-06 14:00:00
-description: Hiking up the Åkrafjorden.
-images:
-  - images/norway_blog_03_social.jpg
-thumbnail: /images/ferry_01.jpg
-thumbnailCaption: The ferry from Tørvikbygd to Jondal.
-thumbnail-coordinates: 60.3008882&deg; N, 6.1717273&deg; E
+description: "Hiking up the Åkrafjorden."
+images: ["/images/norway_blog_03_social.jpg"]
 categories: ["travel"]
+tags: ["norway", "travel"]
 series: ["Norway"]
 ---
 
@@ -17,7 +14,7 @@ Our goal for the day was to hike the Åkrafjorden. The fjord is located over thr
 
 ---
 
-{{< figure src="/images/ferry_02.jpg" alt="Myles Kedrowski on the ferry from Tørvikbygd to Jondal." caption="Myles Kedrowski on the ferry from Tørvikbygd to Jondal." >}}
+{{< lazy src="/images/ferry_02.jpg" alt="Myles Kedrowski on the ferry from Tørvikbygd to Jondal." >}}
 
 ---
 
@@ -31,7 +28,7 @@ Once at the top, Myles and I were greeted by an older couple who rested on the g
 
 ---
 
-{{< figure src="/images/akrafjorden_1.jpg" alt="View from the top of Åkrafjorden." caption="View from the top of Åkrafjorden." >}}
+{{< lazy src="/images/akrafjorden_1.jpg" alt="View from the top of Åkrafjorden." >}}
 
 ---
 

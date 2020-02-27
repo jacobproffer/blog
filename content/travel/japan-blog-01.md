@@ -1,12 +1,10 @@
 ---
 title: "Japan Blog 01"
 date: 2017-12-12 14:00:00
-description: Getting to Tokyo, Japan.
-images:
-  - images/japan_blog_01_social.jpg
-thumbnail: /images/japan_01.jpg
-thumbnailCaption: American Airlines Boeing 787 in Chicago.
+description: "Getting to Tokyo, Japan."
+images: ["/images/japan_blog_01_social.jpg"]
 categories: ["travel"]
+tags: ["japan", "travel"]
 series: ["Japan"]
 ---
 
@@ -16,7 +14,7 @@ I remember walking up to my designated gate, K5. The plane was about to reach th
 
 ---
 
-{{< figure src="/images/japan_01.jpg" alt="Boeing 787 Dreamliner in ORD." caption="Boeing 787 Dreamliner in ORD." >}}
+{{< lazy src="/images/japan_01.jpg" alt="Boeing 787 Dreamliner in ORD." >}}
 
 ---
 
@@ -24,7 +22,7 @@ As boarding commenced, I was anxious. I was curious how I would fair on a long-h
 
 ---
 
-{{< figure src="/images/japan_02.jpg" alt="Boeing 787 Dreamliner Flight Map." caption="Boeing 787 Dreamliner Flight Map." >}}
+{{< lazy src="/images/japan_02.jpg" alt="Boeing 787 Dreamliner Flight Map." >}}
 
 ---
 

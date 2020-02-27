@@ -1,5 +1,6 @@
 h1,
-h2 {
+h2,
+h3 {
   font-family: var(--sans-serif);
 }
 
@@ -16,6 +17,10 @@ h1 {
 h2 {
   @include font-size($h2-font-sizes);
   line-height: 1.5;
+}
+
+h3 {
+  @include font-size($h3-font-sizes);
 }
 
 p {

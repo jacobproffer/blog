@@ -1,12 +1,10 @@
 ---
 title: "Japan Blog 10"
 date: 2019-05-13T18:41:26-04:00
-description: Back in Japan.
-images:
-  - images/japan_blog_10_social.jpg
-thumbnail: /images/japan_airlines.jpg
-thumbnailCaption: Japan Airlines Boeing 787-9.
+description: "Back in Japan."
+images: ["/images/japan_blog_10_social.jpg"]
 categories: ["travel"]
+tags: ["japan", "travel"]
 series: ["Japan"]
 ---
 
@@ -16,7 +14,7 @@ The airlines changed my seat last minute and I ended up in premium economy, righ
 
 ---
 
-{{< figure src="/images/japan_airlines.jpg" alt="Japan Airlines Boeing 787-9." caption="Japan Airlines Boeing 787-9" >}}
+{{< lazy src="/images/japan_airlines.jpg" alt="Japan Airlines Boeing 787-9." >}}
 
 ---
 
