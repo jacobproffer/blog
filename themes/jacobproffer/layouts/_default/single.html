@@ -1,37 +1,40 @@
 {{ define "main" }}
 
-  <article class="post spacing">
+  <div class="spacing">
+    <article class="post">
 
-    <div class="container container--small">
+      <div class="container container--small">
 
-      <header>
-        <h1>{{ .Title }}</h1>
-        <span class="post__information">
-          <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
-            {{ .PublishDate.Format "January 2, 2006" }}
-          </time>
-          -
-          {{ .ReadingTime }} minute read
-        </span>
-      </header>
+        <header>
+          <h1>{{ .Title }}</h1>
+          <span class="post__information">
+            <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
+              {{ .PublishDate.Format "January 2, 2006" }}
+            </time>
+            -
+            {{ .ReadingTime }} minute read
+          </span>
+        </header>
 
-      {{ .Content }}
+        {{ .Content }}
 
-      {{ if (.GetTerms "tags") }}
-        <ul class="tags unstyled-list">
-          {{ range (.GetTerms "tags") }}
-            <li>
-              <a class="category" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
-            </li>
-          {{ end }}
-        </ul>
-      {{ end }}
+        {{ if (.GetTerms "tags") }}
+          <ul class="tags unstyled-list">
+            {{ range (.GetTerms "tags") }}
+              <li>
+                <a class="category" href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
 
-      {{ partial "author.html" }}
+        {{ partial "author.html" }}
 
-      {{ partial "related.html" . }}
+      </div>
+    </article>
 
-    </div>
-  </article>
+    {{ partial "related.html" . }}
+
+  </div>
 
 {{ end }}

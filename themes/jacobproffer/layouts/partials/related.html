@@ -2,20 +2,18 @@
 
 {{ with $related }}
 
-  <section class="related border-top">
+  <aside class="related">
 
-    <header>
-      <h2 id="related-posts">Related Posts</h2>
-    </header>
+    <div class="container container--small border-top">
+      <ul class="grid unstyled-list">
 
-    <ul class="grid unstyled-list" aria-labelledby="related-posts">
+        {{ range . }}
+          {{ .Render "li" }}
+        {{ end }}
 
-      {{ range . }}
-        {{ .Render "li" }}
-      {{ end }}
+      </ul>
+    </div>
 
-    </ul>
-
-  </section>
+  </aside>
 
 {{ end }}
