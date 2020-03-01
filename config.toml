@@ -16,7 +16,7 @@ summaryLength = 14
 [params]
   description = "Travel and language study blog of Jacob Proffer."
   subTitle = "Front-End Developer and Traveler"
-  socialImage = "images/jacobproffer-social.jpg"
+  images = ["images/jacobproffer-social.jpg"]
 
 [menu]
 
