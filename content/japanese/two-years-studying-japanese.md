@@ -1,7 +1,7 @@
 ---
 title: "Two Years Studying Japanese"
 date: 2020-05-08T19:45:02-04:00
-description: "As of May, I've now been studying Japanese for over two years!"
+description: "After two years of Japanese, I'm anxious to see what three years bring."
 images: ["/images/hiragana_social.jpg"]
 categories: ["japanese"]
 tags: ["japanese", "education"]
