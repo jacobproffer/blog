@@ -4,7 +4,7 @@
   }
 
   h3 {
-    margin: 0 0 10px;
+    margin: 0;
   }
 
   ul {
@@ -17,7 +17,11 @@
 
   a {
     display: block;
-    padding: 20px 20px 30px;
+    padding: 20px;
     text-decoration: none;
+  }
+
+  .grid {
+    align-items: center;
   }
 }

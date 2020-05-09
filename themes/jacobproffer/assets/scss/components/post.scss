@@ -3,9 +3,23 @@
     text-decoration: underline;
   }
 
+  h2 {
+    margin-bottom: 20px;
+  }
+
   img {
     + image {
       margin-top: 20px;
+    }
+  }
+
+  ul,
+  ol {
+    padding: 0;
+
+    li {
+      list-style-position: inside;
+      line-height: 2;
     }
   }
 

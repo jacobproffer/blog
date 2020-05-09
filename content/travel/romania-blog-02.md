@@ -6,7 +6,6 @@ images: ["/images/romania-blog-02-social.jpg"]
 categories: ["travel"]
 tags: ["romania", "travel"]
 series: ["Romania"]
-featured: true
 ---
 
 Pancakes and orange juice. That's how Myles and I started our first day in Bucharest, Romania. We heard about the Grand Cafe Van Gogh prior to our trip and wanted to give it a try. Located within Old Town, the cafe is a mile from the Labirint Hotel. True to the name, there are a vast number of Van Gogh paintings throughout the restaurant. Their pancakes were thick and the orange juice freshly squeezed. Better yet, the prices were beyond reasonable. A fantastic way start to our morning.
