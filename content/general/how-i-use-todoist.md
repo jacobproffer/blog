@@ -29,6 +29,10 @@ I'm an avid user of the [Todoist](https://addons.mozilla.org/en-US/firefox/addon
 
 ### Work Project
 
+The Work project is where I add my tasks for the work-week. There are currently only two sections for the primary Work project, Meetings and Miscellaneous. The Miscellaenous section is where I add one-off tasks, such as updating a food menu for a client or looking into a PHP error. These tasks typically take anywhere from five minutes to a half hour.
+
+For more robust projects, such as a full website or page build, I create individual projects. I also have a project for Accessibility experimentation, documemntation and research.
+
 * Work
   * Accessibility
   * Client 1
@@ -45,8 +49,8 @@ Whenever I create a new task with Todoist, I ask myself three questions:
 
 Those three questions help me decide what labels to add to the task. For example, for a stand-up meeting at work every Monday morning at the office, I add the following labels:
 
-- 15min
-- morning
-- at_work
+* 15min (15 minutes)
+* morning
+* at_work
 
 ## Filters
