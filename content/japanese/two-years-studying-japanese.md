@@ -6,7 +6,6 @@ images: ["/images/hiragana_social.jpg"]
 categories: ["japanese"]
 tags: ["japanese", "education"]
 series: ["japanese"]
-featured: true
 ---
 
 Two years later and I'm still studying Japanese. In that time, I've learned hiragana, katakana and I'm deep into the wild world of kanji. I've also completed two textbooks in the Japanese From Zero series and covered over one thousand vocabulary words through Memrise. I'm currently almost through Nihongo Fun and Easy but also am going through Genki 1 for review. I've had an absolute blast studying Japanese thus far and I look forward to what year three brings.
