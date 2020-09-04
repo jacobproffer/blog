@@ -13,13 +13,13 @@ Four years ago, I was introduced to [Todoist](https://todoist.com/) by [Bugsy Sa
 
 ## Projects and Sections
 
-I have two primary projects with Todoist, Personal and Work. By only having these two parent projects, I can visualize and organize sub-projects.
+I have two primary projects with Todoist, Personal and Work. By only having two parent projects, I can easily visualize and organize sub-projects.
 
 ### Personal Project
 
-The Personal project contains a number of sections to keep general tasks organized. There is a section labeled Apartment and another section labeled Errands. Personal hobbies, such as learning Japanese or reading, are marked up as individual projects since both contain their own topic-related sections. For my Japanese project, I have sections for current-year goals, tools to research, daily study tasks and immersion related tasks. The Reading project contains sections for different mediums with articles or books that I'd like to read.
+The Personal project contains a number of sections to keep general tasks organized. There is a section labeled Apartment and another section labeled Errands. Personal hobbies, such as learning Japanese or reading, are set as individual projects since both contain their own topic-related sections. For my Japanese project, I have sections for yearly goals, tools to research, daily study tasks and immersion. The Reading project contains sections for different mediums with articles or books that I'd like to read.
 
-I'm an avid user of the [Todoist](https://addons.mozilla.org/en-US/firefox/addon/todoist/) extension for Firefox. The extension allows me to quickly add articles to my Articles section, so that I can come back and read an article when I have time.
+I'm also an avid user of the [Todoist](https://addons.mozilla.org/en-US/firefox/addon/todoist/) extension for Firefox. The extension allows me to quickly add articles to my Articles section, so that I can come back and read an article when I have time.
 
 * Personal
   * Finances
@@ -29,12 +29,11 @@ I'm an avid user of the [Todoist](https://addons.mozilla.org/en-US/firefox/addon
 
 ### Work Project
 
-The Work project is where I add my tasks for the work-week. There are currently only two sections for the primary Work project, Meetings and Miscellaneous. The Miscellaenous section is where I add one-off tasks, such as updating a food menu for a client or looking into a PHP error. These tasks typically take anywhere from five minutes to a half hour.
+There are currently two sections for the primary Work project, Meetings and Miscellaneous. The Miscellaenous section is where I add one-off tasks, such as updating a food menu for a client or looking into a PHP error. These tasks typically take anywhere from five minutes to a half hour.
 
-For more robust projects, such as a full website or page build, I create individual projects. I also have a project for Accessibility experimentation, documemntation and research.
+For clients with robust projects, such as a website build, I create individual projects.
 
 * Work
-  * Accessibility
   * Client 1
   * Client 2
   * Client 3
