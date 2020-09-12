@@ -11,30 +11,34 @@ featured: true
 
 Four years ago, I was introduced to [Todoist](https://todoist.com/) by [Bugsy Sailor](https://bugsy.me/).
 
+Note that tags and filters are both part of the Premium subscription of Todoist.
+
 ## Projects and Sections
 
-I have two primary projects with Todoist, Personal and Work. By only having two parent projects, I can easily visualize and organize sub-projects.
+I have two primary projects with Todoist, Personal and Work. By having only two parent projects, I can visualize and organize sub-projects, which are projects nested under the parent projects.
 
 ### Personal Project
 
-The Personal project contains a number of sections to keep general tasks organized. There is a section labeled Apartment and another section labeled Errands. Personal hobbies, such as learning Japanese or reading, are set as individual projects since both contain their own topic-related sections. For my Japanese project, I have sections for yearly goals, tools to research, daily study tasks and immersion. The Reading project contains sections for different mediums with articles or books that I'd like to read.
-
-I'm also an avid user of the [Todoist](https://addons.mozilla.org/en-US/firefox/addon/todoist/) extension for Firefox. The extension allows me to quickly add articles to my Articles section, so that I can come back and read an article when I have time.
+The Personal project contains a number of sections for general tasks. For example, there is a section labeled Apartment and another section labeled Errands. Personal hobbies, such as learning Japanese or reading, are set as sub-projects since both contain topic-related sections. For my Japanese project, I have sections for yearly goals, tools to research, daily study tasks and immersion. The Reading project contains sections for different mediums with articles or books that I'd like to read.
 
 * Personal
   * Finances
   * Japanese
+    * Goals (Year 3)
+    * Immersion
+    * Tools
+    * Study
   * Reading
   * Routines
 
 ### Work Project
 
-There are currently two sections for the primary Work project, Meetings and Miscellaneous. The Miscellaenous section is where I add one-off tasks, such as updating a food menu for a client or looking into a PHP error. These tasks typically take anywhere from five minutes to a half hour.
-
-For clients with robust projects, such as a website build, I create individual projects.
+There are currently two sections for the Work project, Meetings and Miscellaneous. The Miscellaenous section is where I add small tasks such as updating a food menu for a client or looking into the occassional site error. These tasks typically take anywhere from five minutes to an hour. For clients with robust projects, such as a website build, I create individual projects with kanban style sections.
 
 * Work
   * Client 1
+    * Action Items
+    * In Progress
   * Client 2
   * Client 3
 
@@ -42,14 +46,26 @@ For clients with robust projects, such as a website build, I create individual p
 
 Whenever I create a new task with Todoist, I ask myself three questions:
 
-* How much time do I think the task will take to complete
-* What time of the day makes sense to complete the task
-* Where does the task need to be completed
+* How much time will it take to complete the task?
+* What time of the day makes sense to complete the task?
+* Where does the task need to be completed?
 
-Those three questions help me decide what labels to add to the task. For example, for a stand-up meeting at work every Monday morning at the office, I add the following labels:
+Those three questions help me decide what labels to add to the task. For example, I add the following labels for a stand-up meeting at work in the morning at the office:
 
 * 15min (15 minutes)
 * morning
 * at_work
 
 ## Filters
+
+Filters allow me to view tasks based upon a specific date, tag or even a combination of dates and tags. I set-up a number of filters to help me quickly few tasks for certain times of the day at home or at work.
+
+Note that `@` denotes a label.
+
+### Work: Today
+
+Query: `@at_work & today`
+
+### Work: Morning
+
+Query: `(@at_work & @morning) & today`

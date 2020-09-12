@@ -94,3 +94,10 @@ hr {
   border: 0;
   border-top: 1px solid var(--border);
 }
+
+code {
+  padding: 10px;
+  color: var(--white);
+  background-color: var(--black);
+  border-radius: 2px;
+}

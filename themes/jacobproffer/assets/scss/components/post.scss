@@ -20,11 +20,11 @@
     li {
       list-style-position: inside;
       line-height: 2;
-    }
-  }
 
-  .category {
-    text-decoration: none;
+      > ul {
+        padding-left: 20px;
+      }
+    }
   }
 
   &__information {
