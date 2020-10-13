@@ -12,6 +12,14 @@
   --sans-serif: 'Karla', sans-serif;
   --mono: 'Inconsolata', monospace;
 
+  --color-scheme-text-color: var(--black);
+  --color-scheme-background: var(--white);
+
+  @media (prefers-color-scheme: dark) {
+    --color-scheme-text-color: var(--white);
+    --color-scheme-background: var(--black);
+  }
+
   @include screen-below(1680px) {
     --container: 1280px;
   }
@@ -67,8 +75,8 @@ body {
   position: relative;
   font-family: var(--mono);
   font-size: 18px;
-  color: var(--black);
-  background-color: var(--white);
+  color: var(--color-scheme-text-color);
+  background-color: var(--color-scheme-background);
 }
 
 img {

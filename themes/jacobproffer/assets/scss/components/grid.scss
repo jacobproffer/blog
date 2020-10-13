@@ -7,8 +7,9 @@
 
   &--list {
     grid-auto-flow: dense;
-    grid-gap: 1px;
-    background-color: var(--border);
+    grid-gap: 20px;
+    max-width: 80ch;
+    margin: auto;
 
     @include screen-below(1024px) {
       grid-template-columns: 1fr;

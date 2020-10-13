@@ -1,75 +1,21 @@
 .list {
   &__header {
-    padding: var(--spacing) var(--container-gutter) calc(var(--spacing) / 2);
-    border-bottom: 1px solid var(--border);
+    padding: 0 var(--container-gutter) calc(var(--spacing) / 2);
+    text-align: center;
   }
 
   &__post {
-    background-color: var(--white);
+    border: 1px solid var(--color-scheme-text-color);
 
     h2 {
-      margin: 0;
+      margin-top: 0;
+      margin: 0 0 10px;
     }
 
     a {
-      display: flex;
-      padding: 100px;
+      display: block;
+      padding: 40px;
       height: 100%;
-      align-items: center;
-
-      @include screen-below(1280px) {
-        padding: 100px 50px;
-      }
-
-      @include screen-below(1024px) {
-        padding: 50px var(--container-gutter);
-      }
-    }
-  }
-
-  &__post-home {
-    @include screen-above(1024px) {
-      &:first-of-type,
-      &:nth-of-type(n+3):nth-of-type(even) {
-        a {
-          padding-left: var(--container-gutter);
-        }
-      }
-
-      &:nth-of-type(2),
-      &:nth-of-type(n+3):nth-of-type(odd) {
-        a {
-          padding-right: var(--container-gutter);
-        }
-      }
-
-      &--span-two {
-        grid-row: span 2;
-      }
-    }
-
-    @include screen-below(1024px) {
-      &--span-two {
-        a {
-          padding-top: var(--spacing);
-        }
-      }
-    }
-  }
-
-  &__post-list {
-    @include screen-above(1024px) {
-      &:nth-of-type(odd) {
-        a {
-          padding-left: var(--container-gutter);
-        }
-      }
-
-      &:nth-of-type(even) {
-        a {
-          padding-right: var(--container-gutter);
-        }
-      }
     }
   }
 }

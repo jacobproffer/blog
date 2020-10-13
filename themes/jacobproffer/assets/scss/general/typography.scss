@@ -16,7 +16,6 @@ h1 {
 
 h2 {
   @include font-size($h2-font-sizes);
-  line-height: 1.2;
 }
 
 h3 {

@@ -1,15 +1,9 @@
 .footer {
-  padding: 54px 0;
-  color: var(--white);
-  background-color: var(--black);
+  padding-bottom: 54px;
 
   ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
-
-  @include screen-below(1024px) {
-    padding: 52px 0;
   }
 }

@@ -1,47 +1,49 @@
 {{ define "main" }}
 
-  <section class="list">
+  <div class="spacing">
+    <section class="list">
 
-    <header class="list__header spacing">
-      <h1>{{ .Title | humanize }}</h1>
-    </header>
+      <header class="list__header">
+        <h1>{{ .Title | humanize }}</h1>
+      </header>
 
-    <div class="grid grid--two-column grid--list">
+      <div class="grid grid--list">
 
-      {{ range .Pages }}
+        {{ range .Pages }}
 
-        <article class="list__post list__post-list gray-hover">
+          <article class="list__post list__post-list gray-hover">
 
-          <a class="list__permalink" href="{{ .Permalink }}">
+            <a class="list__permalink" href="{{ .Permalink }}">
 
-            <div class="list__post-content">
+              <div class="list__post-content">
 
-              <header>
-                <h2>{{ .Title }}</h2>
-              </header>
+                <header>
+                  <h2>{{ .Title }}</h2>
+                </header>
 
-              {{ $t := .Site.GetPage "/series/" }}
+                {{ $t := .Site.GetPage "/series/" }}
 
-              {{ if (.GetTerms "tags") }}
-                <ul class="tags unstyled-list">
-                  {{ range (.GetTerms "tags") }}
-                    <li>
-                      <span class="category">{{ .LinkTitle }}</span>
-                    </li>
-                  {{ end }}
-                </ul>
-              {{ end }}
+                {{ if (.GetTerms "tags") }}
+                  <ul class="tags unstyled-list">
+                    {{ range (.GetTerms "tags") }}
+                      <li>
+                        <span class="category">{{ .LinkTitle }}</span>
+                      </li>
+                    {{ end }}
+                  </ul>
+                {{ end }}
 
-            </div>
+              </div>
 
-          </a>
+            </a>
 
-        </article>
+          </article>
 
-      {{ end }}
+        {{ end }}
 
-    </div>
+      </div>
 
-  </section>
+    </section>
+  </div>
 
 {{ end }}
