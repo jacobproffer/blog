@@ -1,52 +1,54 @@
 {{ define "main" }}
 
-  <section class="list">
+  <div class="spacing">
+    <section class="list container">
 
-    <header class="list__header visually-hide">
-      <h1>{{ .Title }}</h1>
-    </header>
+      <header class="list__header">
+        <h1>All Posts</h1>
+      </header>
 
-    <div class="grid grid--two-column grid--list">
+      <ul class="unstyled-list grid grid--list">
 
-      {{ range .Site.RegularPages }}
+        {{ range .Site.RegularPages }}
 
-        {{ $class := "" }}
+          {{ $class := "" }}
 
-        {{ if eq .Params.featured true }}
-          {{ $class = "list__post list__post-home list__post-home--span-two gray-hover" }}
-        {{ else }}
-          {{ $class = "list__post list__post-home gray-hover" }}
+          {{ if eq .Params.featured true }}
+            {{ $class = "list__post list__post-home list__post-home--span-two gray-hover" }}
+          {{ else }}
+            {{ $class = "list__post list__post-home gray-hover" }}
+          {{ end }}
+
+          <li class="{{ $class }}">
+
+            <article>
+
+              <a class="list__permalink" href="{{ .Permalink }}">
+
+                <header>
+                  <h2>{{ .Title }}</h2>
+                </header>
+
+                {{ if (.GetTerms "tags") }}
+                  <ul class="tags unstyled-list">
+                    {{ range (.GetTerms "tags") }}
+                      <li>
+                        <span class="category">{{ .LinkTitle }}</span>
+                      </li>
+                    {{ end }}
+                  </ul>
+                {{ end }}
+
+              </a>
+
+            </article>
+
+          </li>
+
         {{ end }}
 
-        <article class="{{ $class }}">
-
-          <a class="list__permalink" href="{{ .Permalink }}">
-
-            <div class="list__post-content">
-
-              <header>
-                <h2>{{ .Title }}</h2>
-              </header>
-
-              {{ if (.GetTerms "tags") }}
-                <ul class="tags unstyled-list">
-                  {{ range (.GetTerms "tags") }}
-                    <li>
-                      <span class="category">{{ .LinkTitle }}</span>
-                    </li>
-                  {{ end }}
-                </ul>
-              {{ end }}
-
-            </div>
-
-          </a>
-
-        </article>
-
-      {{ end }}
-
-    </div>
-  </section>
+      </ul>
+    </section>
+  </div>
 
 {{ end }}

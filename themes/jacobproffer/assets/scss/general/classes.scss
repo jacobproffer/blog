@@ -17,17 +17,26 @@
   color: var(--white);
   background-color: var(--black);
   border-radius: 2px;
+
+  @media (prefers-color-scheme: dark) {
+    color: var(--black);
+    background-color: var(--white);
+  }
 }
 
 .gray-hover {
   transition: background-color 300ms ease-in-out;
 
-  &:hover {
-    background-color: var(--midGray);
+  @include hover {
+    background-color: var(--orange);
   }
 
   &:active {
     background-color: var(--orange);
+  }
+
+  &:visited {
+    border: 1px dashed var(--orange);
   }
 }
 
