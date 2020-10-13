@@ -22,7 +22,6 @@ I have two primary projects with Todoist, Personal and Work. By having only two 
 The Personal project contains a number of sections for general tasks. For example, there is a section labeled Apartment and another section labeled Errands. Personal hobbies, such as learning Japanese or reading, are set as sub-projects since both contain topic-related sections. For my Japanese project, I have sections for yearly goals, tools to research, daily study tasks and immersion. The Reading project contains sections for different mediums with articles or books that I'd like to read.
 
 * Personal
-  * Finances
   * Japanese
     * Goals (Year 3)
     * Immersion
