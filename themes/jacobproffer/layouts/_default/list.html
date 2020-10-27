@@ -1,49 +1,29 @@
 {{ define "main" }}
 
   <div class="spacing">
-    <section class="list">
+    <main id="content">
+      <section class="list">
 
-      <header class="list__header">
-        <h1>{{ .Title | humanize }}</h1>
-      </header>
+        <header class="list__header">
+          <h1>{{ .Title }}</h1>
+        </header>
 
-      <div class="grid grid--list">
+        <ul class="unstyled-list grid grid--list">
 
-        {{ range .Pages }}
+          {{ range .Pages }}
 
-          <article class="list__post list__post-list gray-hover">
+            <li class="list__post gray-hover">
 
-            <a class="list__permalink" href="{{ .Permalink }}">
+              {{ .Render "article" }}
 
-              <div class="list__post-content">
+            </li>
 
-                <header>
-                  <h2>{{ .Title }}</h2>
-                </header>
+          {{ end }}
 
-                {{ $t := .Site.GetPage "/series/" }}
+        </ul>
 
-                {{ if (.GetTerms "tags") }}
-                  <ul class="tags unstyled-list">
-                    {{ range (.GetTerms "tags") }}
-                      <li>
-                        <span class="category">{{ .LinkTitle }}</span>
-                      </li>
-                    {{ end }}
-                  </ul>
-                {{ end }}
-
-              </div>
-
-            </a>
-
-          </article>
-
-        {{ end }}
-
-      </div>
-
-    </section>
+      </section>
+    </main>
   </div>
 
 {{ end }}

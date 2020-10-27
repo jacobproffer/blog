@@ -1,9 +1,8 @@
 {{ define "main" }}
 
   <div class="spacing">
-    <article class="post">
-
-      <div class="container container--small">
+    <main id="content">
+      <article class="post container container--small">
 
         <header class="post__information">
           <h1>{{ .Title }}</h1>
@@ -11,26 +10,49 @@
 
         {{ .Content }}
 
-        {{ if (.GetTerms "tags") }}
-          <ul class="tags unstyled-list">
+        <footer class="post__footer">
 
-            {{ range (.GetTerms "tags") }}
-              <li>
-                <a class="category" href="{{ .Permalink }}">
-                  {{ .LinkTitle }}
-                </a>
-              </li>
-            {{ end }}
+          <h2 class="subheading">Tags</h2>
 
-          </ul>
-        {{ end }}
+          {{ if (.GetTerms "tags") }}
+            <ul class="tags unstyled-list">
 
-        {{ partial "author.html" }}
+              {{ range (.GetTerms "tags") }}
+                <li>
+                  <a class="category" href="{{ .Permalink }}">
+                    {{ .LinkTitle }}
+                  </a>
+                </li>
+              {{ end }}
 
-      </div>
-    </article>
+            </ul>
+          {{ end }}
 
-    {{ partial "related.html" . }}
+
+        </footer>
+
+      </article>
+    </main>
+
+    <aside class="container container--small">
+      {{ $related := .Site.RegularPages.Related . | first 4 }}
+
+      {{ with $related }}
+
+        <h2 class="subheading">Related Posts</h2>
+
+        <ul class="unstyled-list grid grid--list">
+
+          {{ range . }}
+            <li class="list__post gray-hover">
+              {{ .Render "article-related" }}
+            </li>
+          {{ end }}
+
+        </ul>
+
+      {{ end }}
+    </aside>
 
   </div>
 

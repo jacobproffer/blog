@@ -1,54 +1,28 @@
 {{ define "main" }}
 
   <div class="spacing">
-    <section class="list container">
+    <main id="content">
+      <section class="list container">
 
-      <header class="list__header">
-        <h1>All Posts</h1>
-      </header>
+        <header class="list__header">
+          <h1>All Posts</h1>
+        </header>
 
-      <ul class="unstyled-list grid grid--list">
+        <ul class="unstyled-list grid grid--list">
 
-        {{ range .Site.RegularPages }}
+          {{ range .Site.RegularPages }}
 
-          {{ $class := "" }}
+            <li class="list__post gray-hover">
 
-          {{ if eq .Params.featured true }}
-            {{ $class = "list__post list__post-home list__post-home--span-two gray-hover" }}
-          {{ else }}
-            {{ $class = "list__post list__post-home gray-hover" }}
+              {{ .Render "article" }}
+
+            </li>
+
           {{ end }}
 
-          <li class="{{ $class }}">
-
-            <article>
-
-              <a class="list__permalink" href="{{ .Permalink }}">
-
-                <header>
-                  <h2>{{ .Title }}</h2>
-                </header>
-
-                {{ if (.GetTerms "tags") }}
-                  <ul class="tags unstyled-list">
-                    {{ range (.GetTerms "tags") }}
-                      <li>
-                        <span class="category">{{ .LinkTitle }}</span>
-                      </li>
-                    {{ end }}
-                  </ul>
-                {{ end }}
-
-              </a>
-
-            </article>
-
-          </li>
-
-        {{ end }}
-
-      </ul>
-    </section>
+        </ul>
+      </section>
+    </main>
   </div>
 
 {{ end }}
