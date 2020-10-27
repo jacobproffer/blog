@@ -4,7 +4,6 @@ title = "Jacob Proffer"
 theme = "jacobproffer"
 paginate = 8
 paginatePath = "posts"
-googleAnalytics = "UA-57480521-1"
 enableRobotsTXT = true
 summaryLength = 14
 

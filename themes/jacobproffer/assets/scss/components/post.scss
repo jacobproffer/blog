@@ -1,14 +1,14 @@
 .post {
-  a {
-    text-decoration: underline;
-  }
-
   h2 {
     margin-bottom: 20px;
   }
 
+  a {
+    text-decoration: underline;
+  }
+
   img {
-    + image {
+    + img {
       margin-top: 20px;
     }
   }
@@ -25,6 +25,12 @@
 
   .category {
     text-decoration: none;
+  }
+
+  &__footer {
+    a {
+      text-decoration: none;
+    }
   }
 
   &__information {

@@ -1,0 +1,11 @@
+<article>
+  <a class="list__permalink" href="{{ .Permalink }}">
+
+    <h2>{{ .Title }}</h2>
+
+    {{ if .IsPage }}
+      <small>{{ .ReadingTime }} minute read</small>
+    {{ end }}
+
+  </a>
+</article>

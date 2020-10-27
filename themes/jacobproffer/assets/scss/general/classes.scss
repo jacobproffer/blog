@@ -13,7 +13,6 @@
 .category {
   display: inline-block;
   padding: 4px 8px;
-  margin-top: 20px;
   color: var(--white);
   background-color: var(--black);
   border-radius: 2px;
@@ -82,4 +81,8 @@
   a {
     padding: 10px;
   }
+}
+
+.subheading {
+  margin-top: 50px;
 }
