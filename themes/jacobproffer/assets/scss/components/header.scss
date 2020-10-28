@@ -1,6 +1,8 @@
 .main-header {
   @include size(100%, auto);
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 9;
   padding: 25px 0;
   overflow-y: visible;
