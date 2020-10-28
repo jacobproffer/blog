@@ -4,7 +4,10 @@
     <h2>{{ .Title }}</h2>
 
     {{ if .IsPage }}
-      <small>{{ .ReadingTime }} minute read</small>
+      <p>
+        <strong>Posted: </strong>
+        <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+      </p>
     {{ end }}
 
   </a>
