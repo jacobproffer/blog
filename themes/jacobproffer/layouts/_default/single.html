@@ -4,9 +4,14 @@
     <main id="content">
       <article class="post container container--small">
 
-        <header class="post__information">
+        <header>
           <h1>{{ .Title }}</h1>
         </header>
+
+        <p class="post__date">
+          <strong>Posted: </strong>
+          <time class="post__date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+        </p>
 
         {{ .Content }}
 

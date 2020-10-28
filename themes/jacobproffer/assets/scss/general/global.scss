@@ -3,7 +3,6 @@
   --container-gutter: calc((100vw - var(--container)) / 2);
   --black: #131415;
   --white: #f5f5f5;
-  --lightGray: #d9d8d7;
   --midGray: #a6a8aa;
   --gray: #3c403f;
   --border: var(--midGray);
@@ -57,17 +56,12 @@
 *,
 *::after,
 *::before {
-  @include box-sizing(border-box);
-}
-
-::selection {
-  color: var(--white);
-  background: var(--gray);
+  box-sizing: border-bnox;
 }
 
 * {
   &:focus {
-    outline: 2px dotted var(--black);
+    outline: 2px dotted var(--color-scheme-text-color);
   }
 }
 
@@ -88,12 +82,12 @@ a {
   text-decoration: none;
   transition: color 300ms ease-in-out, outline 300ms ease-in-out;
 
-  &:hover {
-    outline: dotted 1px var(--orange);
-  }
-
   &.current {
     text-decoration: underline;
+  }
+
+  @include hover {
+    outline: dotted 1px var(--orange);
   }
 }
 

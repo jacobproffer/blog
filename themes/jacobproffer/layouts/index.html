@@ -2,7 +2,7 @@
 
   <div class="spacing">
     <main id="content">
-      <section class="list container">
+      <article class="list container">
 
         <header class="list__header">
           <h1>All Posts</h1>
@@ -10,7 +10,9 @@
 
         <ul class="unstyled-list grid grid--list">
 
-          {{ range .Site.RegularPages }}
+          {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
+
+          {{ range $index, $page := $paginator.Pages }}
 
             <li class="list__post gray-hover">
 
@@ -21,7 +23,37 @@
           {{ end }}
 
         </ul>
-      </section>
+
+        <footer>
+          <nav aria-label="pagination">
+            <ul class="unstyled-list list__pagination" class="unstyled-list">
+
+              {{ range $paginator.Pagers }}
+
+                {{ if eq . $paginator}}
+                  <li aria-current="page">
+                    <span class="visually-hide">Page</span>
+                    {{ .PageNumber }}
+                  </li>
+                {{ else }}
+                  <li>
+                    <a
+                      class="list__pagination-number"
+                      href="{{ .URL }}"
+                      aria-label="Go to page {{ .PageNumber }}."
+                    >
+                      {{ .PageNumber }}
+                    </a>
+                  </li>
+                {{ end }}
+
+              {{ end }}
+
+            </ul>
+          </nav>
+        </footer>
+
+      </article>
     </main>
   </div>
 
