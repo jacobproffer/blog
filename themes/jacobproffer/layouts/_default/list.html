@@ -1,29 +1,27 @@
 {{ define "main" }}
 
-  <div class="spacing">
-    <main id="content">
-      <section class="list container">
+<main id="content">
+  <section class="list container">
 
-        <header class="list__header">
-          <h1>{{ .Title }}</h1>
-        </header>
+    <div class="list__header">
+      <h1>{{ .Title }}</h1>
+    </div>
 
-        <ul class="unstyled-list grid grid--list">
+    <ul class="unstyled-list grid grid--list">
 
-          {{ range .Pages }}
+      {{ range .Pages }}
 
-            <li class="list__post gray-hover">
+        <li class="list__post gray-hover">
 
-              {{ .Render "article" }}
+          {{ .Render "article" }}
 
-            </li>
+        </li>
 
-          {{ end }}
+      {{ end }}
 
-        </ul>
+    </ul>
 
-      </section>
-    </main>
-  </div>
+  </section>
+</main>
 
 {{ end }}

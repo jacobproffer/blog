@@ -3,54 +3,6 @@
   --container-gutter: calc((100vw - var(--container)) / 2);
   --black: #131415;
   --white: #f5f5f5;
-  --midGray: #a6a8aa;
-  --gray: #3c403f;
-  --border: var(--midGray);
-  --orange: #ff572b;
-  --spacing: 150px;
-  --sans-serif: 'Karla', sans-serif;
-  --mono: 'Inconsolata', monospace;
-
-  --color-scheme-text-color: var(--black);
-  --color-scheme-background: var(--white);
-
-  @media (prefers-color-scheme: dark) {
-    --color-scheme-text-color: var(--white);
-    --color-scheme-background: var(--black);
-  }
-
-  @include screen-below(1680px) {
-    --container: 1280px;
-  }
-
-  @include screen-below(1440px) {
-    --container: 1080px;
-  }
-
-  @include screen-below(1280px) {
-    --container: 900px;
-  }
-
-  @include screen-below(1024px) {
-    --container: 768px;
-    --spacing: 90px;
-  }
-
-  @include screen-below(880px) {
-    --container: 640px;
-  }
-
-  @include screen-below(768px) {
-    --container: 480px;
-  }
-
-  @include screen-below(540px) {
-    --container: 345px;
-  }
-
-  @include screen-below(375px) {
-    --container: 300px;
-  }
 }
 
 *,
@@ -61,16 +13,13 @@
 
 * {
   &:focus {
-    outline: 2px dotted var(--color-scheme-text-color);
+    outline: 2px dotted var(--black);
   }
 }
 
 body {
   position: relative;
-  font-family: var(--mono);
   font-size: 18px;
-  color: var(--color-scheme-text-color);
-  background-color: var(--color-scheme-background);
 }
 
 img {
@@ -85,14 +34,4 @@ a {
   &.current {
     text-decoration: underline;
   }
-
-  @include hover {
-    outline: dotted 1px var(--orange);
-  }
-}
-
-hr {
-  margin: 2rem 0;
-  border: 0;
-  border-top: 1px solid var(--border);
 }

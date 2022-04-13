@@ -1,64 +1,62 @@
+{{ define "title" }}
+  {{ .Title }} - {{ .Site.Title }}
+{{ end }}
+
 {{ define "main" }}
 
-  <div class="spacing">
-    <main id="content">
-      <article class="post container container--small">
+<main id="content">
+  <article class="post container container--small">
 
-        <header>
-          <h1>{{ .Title }}</h1>
-        </header>
+    <h1>{{ .Title }}</h1>
 
-        <p class="post__date">
-          <strong>Posted: </strong>
-          <time class="post__date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-        </p>
+    <p class="post__date">
+      <strong>Posted: </strong>
+      <time class="post__date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+    </p>
 
-        {{ .Content }}
+    {{ .Content }}
 
-        <footer class="post__footer">
+    <footer class="post__footer">
 
-          <h2 class="subheading">Tags</h2>
+      <h2 class="subheading">Tags</h2>
 
-          {{ if (.GetTerms "tags") }}
-            <ul class="tags unstyled-list">
+      {{ if (.GetTerms "tags") }}
+        <ul class="tags unstyled-list">
 
-              {{ range (.GetTerms "tags") }}
-                <li>
-                  <a class="category" href="{{ .Permalink }}">
-                    {{ .LinkTitle }}
-                  </a>
-                </li>
-              {{ end }}
-
-            </ul>
-          {{ end }}
-
-
-        </footer>
-
-      </article>
-    </main>
-
-    <aside class="container container--small">
-      {{ $related := .Site.RegularPages.Related . | first 4 }}
-
-      {{ with $related }}
-
-        <h2 class="subheading">Related Posts</h2>
-
-        <ul class="unstyled-list grid grid--list">
-
-          {{ range . }}
-            <li class="list__post gray-hover">
-              {{ .Render "article-related" }}
+          {{ range (.GetTerms "tags") }}
+            <li>
+              <a class="category" href="{{ .Permalink }}">
+                {{ .LinkTitle }}
+              </a>
             </li>
           {{ end }}
 
         </ul>
-
       {{ end }}
-    </aside>
 
-  </div>
+
+    </footer>
+
+</main>
+
+<aside class="container container--small">
+  {{ $related := .Site.RegularPages.Related . | first 4 }}
+
+  {{ with $related }}
+
+    <h2 class="subheading">Related Posts</h2>
+
+    <ul class="unstyled-list grid grid--list">
+
+      {{ range . }}
+        <li class="list__post gray-hover">
+          {{ .Render "article-related" }}
+        </li>
+      {{ end }}
+
+    </ul>
+
+  {{ end }}
+</aside>
 
 {{ end }}

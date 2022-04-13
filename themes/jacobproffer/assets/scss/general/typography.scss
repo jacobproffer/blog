@@ -1,33 +1,16 @@
 h1,
 h2,
 h3 {
-  font-family: var(--sans-serif);
+  margin: 0;
 }
 
 h1 {
-  @include font-size($h1-font-sizes);
-  margin: 0;
-
   & + span {
     display: block;
     margin-top: 10px;
   }
 }
 
-h2,
-.h2 {
-  @include font-size($h2-font-sizes);
-}
-
-.h2 {
-  margin: 0;
-}
-
-h3 {
-  @include font-size($h3-font-sizes);
-}
-
 p {
-  max-width: 80ch;
   line-height: 1.8;
 }

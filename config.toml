@@ -5,7 +5,6 @@ theme = "jacobproffer"
 paginate = 8
 paginatePath = "posts"
 enableRobotsTXT = true
-summaryLength = 14
 
 [taxonomies]
   category = "categories"
@@ -15,14 +14,14 @@ summaryLength = 14
 [params]
   description = "Travel and language study blog of Jacob Proffer."
   subTitle = "Front-End Developer and Traveler"
-  socialImage = "images/jacobproffer-social.jpg"
+  images = ["images/jacobproffer-social.jpg"]
 
 [menu]
 
   [[menu.main]]
     identifier = "series"
     name = "Series"
-    url = "/series/"
+    pageRef = "/series/"
     weight = 1
 
   [[menu.social]]

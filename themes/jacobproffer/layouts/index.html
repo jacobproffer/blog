@@ -1,60 +1,23 @@
 {{ define "main" }}
 
-  <div class="spacing">
-    <main id="content">
-      <article class="list container">
+  <main id="content">
 
-        <header class="list__header">
-          <h1>All Posts</h1>
-        </header>
+    <h1>All Posts</h1>
 
-        <ul class="unstyled-list grid grid--list">
+    <ul class="unstyled-list grid grid--list">
 
-          {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
+      {{ range .RegularPages }}
 
-          {{ range $index, $page := $paginator.Pages }}
+        <li class="list__post gray-hover">
 
-            <li class="list__post gray-hover">
+          {{ .Render "article" }}
 
-              {{ .Render "article" }}
+        </li>
 
-            </li>
+      {{ end }}
 
-          {{ end }}
+    </ul>
 
-        </ul>
-
-        <footer>
-          <nav aria-label="pagination">
-            <ul class="unstyled-list list__pagination" class="unstyled-list">
-
-              {{ range $paginator.Pagers }}
-
-                {{ if eq . $paginator}}
-                  <li aria-current="page">
-                    <span class="visually-hide">Page</span>
-                    {{ .PageNumber }}
-                  </li>
-                {{ else }}
-                  <li>
-                    <a
-                      class="list__pagination-number"
-                      href="{{ .URL }}"
-                      aria-label="Go to page {{ .PageNumber }}."
-                    >
-                      {{ .PageNumber }}
-                    </a>
-                  </li>
-                {{ end }}
-
-              {{ end }}
-
-            </ul>
-          </nav>
-        </footer>
-
-      </article>
-    </main>
-  </div>
+  </main>
 
 {{ end }}

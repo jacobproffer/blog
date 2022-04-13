@@ -1,12 +1,14 @@
+{{ define "title" }}
+  Page Not Found - {{ .Site.Title }}
+{{ end }}
+
 {{ define "main" }}
 
   <main id="content">
-    <section class="four-oh-four spacing">
-      <div class="container container--small">
+    <section class="four-oh-four">
+      <div class="container">
 
-        <header>
-          <h1>404</h1>
-        </header>
+        <h1>404</h1>
 
         <p>The page was not found. <a href="{{ .Site.BaseURL }}">Go home</a>?</p>
 

@@ -1,14 +1,14 @@
 <article>
-  <a class="list__permalink" href="{{ .Permalink }}">
 
-    <h2>{{ .Title }}</h2>
+  <h2>{{ .Title }}</h2>
 
-    {{ if .IsPage }}
-      <p>
-        <strong>Posted: </strong>
-        <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-      </p>
-    {{ end }}
+  {{ if .IsPage }}
+    <p>
+      <strong>Posted: </strong>
+      <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+    </p>
+  {{ end }}
 
-  </a>
+  <a href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
+
 </article>

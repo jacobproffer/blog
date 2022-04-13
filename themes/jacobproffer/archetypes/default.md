@@ -6,6 +6,7 @@ images:
   -
 thumbnail:
   -
-categories: []
+categories:
+  -
 draft: true
 ---
