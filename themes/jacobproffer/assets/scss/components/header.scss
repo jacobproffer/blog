@@ -5,6 +5,7 @@
   left: 0;
   z-index: 9;
   padding: 25px 0;
+  background-color: var(--black);
   overflow-y: visible;
   transition: padding 300ms ease-in-out, transform 300ms ease-in-out, color 300ms ease-in-out;
   will-change: transform;
@@ -26,6 +27,15 @@
     color: var(--white);
     background-color: var(--black);
     transform: translateY(0);
+  }
+
+  &__grid {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-family: 'Germania One', cursive;
   }
 
   &__skip-link {

@@ -28,3 +28,19 @@
     }
   }
 }
+
+@mixin ratio($width, $height) {
+  position: relative;
+
+  &::before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+
+  > .content {
+    position: absolute;
+    inset: 0;
+  }
+}

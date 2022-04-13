@@ -2,21 +2,25 @@
 
   <main id="content">
 
-    <h1>All Posts</h1>
+    <section class="container">
 
-    <ul class="unstyled-list grid grid--list">
+      <h1 class="list-heading">Travel</h1>
 
-      {{ range .RegularPages }}
+      <ul class="unstyled-list list">
 
-        <li class="list__post gray-hover">
+        {{ range where .Site.RegularPages "Type" "travel" }}
 
-          {{ .Render "article" }}
+          <li class="list__post gray-hover list-item">
 
-        </li>
+            {{ .Render "article" }}
 
-      {{ end }}
+          </li>
 
-    </ul>
+        {{ end }}
+
+      </ul>
+
+    </section>
 
   </main>
 

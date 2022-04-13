@@ -1,13 +1,34 @@
-<article>
+<article class="grid article">
 
-  <h2>{{ .Title }}</h2>
+  <div class="info">
 
-  {{ if .IsPage }}
-    <p>
-      <strong>Posted: </strong>
-      <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-    </p>
-  {{ end }}
+    <h2 class="h1">{{ .Title }}</h2>
+
+    {{ if .IsPage }}
+
+      <time class="article__date">{{ .Date.Format "2006" }}</time>
+
+    {{ end }}
+
+    <div class="copy">
+      {{ .Summary }}
+    </div>
+
+  </div>
+
+  <div class="image">
+
+    <div class="content">
+
+      {{ range .Params.images }}
+
+        <img src="{{ . }}" alt="">
+
+      {{ end }}
+
+    </div>
+
+  </div>
 
   <a href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
 
