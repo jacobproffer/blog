@@ -6,11 +6,11 @@
 
       <h1 class="list-heading">Travel</h1>
 
-      <ul class="unstyled-list list">
+      <ul class="unstyled-list list grid">
 
         {{ range where .Site.RegularPages "Type" "travel" }}
 
-          <li class="list__post gray-hover list-item">
+          <li class="list__item grid relative">
 
             {{ .Render "article" }}
 

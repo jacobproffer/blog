@@ -2,7 +2,7 @@ h1,
 h2,
 h3 {
   margin: 0;
-  font-family: 'Germania One', cursive;
+  font-family: var(--display-font);
 }
 
 h1,
@@ -16,7 +16,7 @@ h1,
 }
 
 h2 {
-  --h2-sizes: clamp(1.00rem, calc(0.93rem + 0.28vw), 1.25rem);
+  --h2-sizes: clamp(2.00rem, calc(1.47rem + 2.25vw), 4.00rem);
   font-size: var(--h2-sizes);
 }
 
