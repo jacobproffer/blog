@@ -7,7 +7,7 @@
   {{ end }}
 >
   {{ $sass := resources.Get "scss/main.scss" }}
-  {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice)) }}
+  {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "includePaths" (slice)) }}
   {{ $style := $sass | resources.ToCSS $options }}
 
   <head>
@@ -55,12 +55,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Germania+One&family=Open+Sans&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="{{ $style.Permalink }}">
 
   </head>
   <body class="animated fade-in">
+    {{ partial "header" . }}
     {{ block "main" . }}{{ end }}
-    {{ partial "footer.html" . }}
-    {{ partial "scripts.html" . }}
+    {{ partial "scripts" . }}
   </body>
 </html>

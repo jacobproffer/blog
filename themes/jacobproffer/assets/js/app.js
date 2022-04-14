@@ -1,28 +1,24 @@
-var mainHeader = document.querySelector(".main-header");
-var headerHeight = mainHeader.offsetHeight;
+const fadeIns = document.querySelectorAll('.gsap-fade-in');
 
-var headroom = new Headroom(mainHeader, {
+gsap.registerPlugin(ScrollTrigger);
 
-  offset: 0,
-  tolerance: 0,
-  classes: {
-    pinned: "pinned",
-    unpinned: "unpinned",
-    top: "onTop",
-    bottom: "onBottom",
-    notTop: "scrolled"
-  },
-
-  onUnpin: function() {
-    if (mainHeader.classList.contains("open")) {
-      mainHeader.classList.remove("unpinned");
-    }
-  },
-
-  onTop: function() {
-    mainHeader.classList.remove("pinned");
-  }
-
+ScrollTrigger.create({
+  trigger: 'main',
+  start: 'top top',
+  end: 'max',
 });
 
-headroom.init();
+if (fadeIns.length > 0) {
+  fadeIns.forEach((fadeIn) => {
+    gsap.from(fadeIn, {
+      y: 30,
+      autoAlpha: 0,
+      scrollTrigger: {
+        trigger: fadeIn,
+        start: 'top 85%',
+        end: 'bottom top',
+        once: true,
+      }
+    })
+  });
+}

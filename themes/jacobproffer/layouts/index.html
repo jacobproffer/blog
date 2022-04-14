@@ -10,9 +10,11 @@
 
         <ul class="unstyled-list list grid">
 
-          {{ range .Site.RegularPages }}
+          {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
 
-            <li class="list__item grid relative">
+          {{ range $index, $page := $paginator.Pages }}
+
+            <li class="list__item grid relative gsap-fade-in">
 
               {{ .Render "article" }}
 
@@ -21,6 +23,33 @@
           {{ end }}
 
         </ul>
+
+        <nav aria-label="pagination">
+          <ul class="unstyled-list pagination">
+
+            {{ range $paginator.Pagers }}
+
+              {{ if eq . $paginator}}
+                <li class="link-styling" aria-current="page">
+                  <span class="visually-hide">Page</span>
+                  {{ .PageNumber }}
+                </li>
+              {{ else }}
+                <li>
+                  <a
+                    class="link-styling"
+                    href="{{ .URL }}"
+                    aria-label="Go to page {{ .PageNumber }}."
+                  >
+                    {{ .PageNumber }}
+                  </a>
+                </li>
+              {{ end }}
+
+            {{ end }}
+
+          </ul>
+        </nav>
 
       </div>
 
