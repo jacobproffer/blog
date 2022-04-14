@@ -18,12 +18,8 @@ After we checked into the hotel, Myles and I walked over to see the Hanseatic bu
 
 For the next few hours, we explored Bergen on foot. The city is well dated with old buildings and churches. Some streets are made of cobblestone, which reminded me of Boston. Graffiti is common to see, with a mix of tags and murals. Along a side street near the city square, Myles and I came across a monstrous dog tied to a rail. The dog had a heavy coat of hair and was focused on someone in a nearby store. I tried to get it's attention but it paid me no mind.
 
----
-
 {{< lazy src="/images/bergen_01.jpg" alt="Group of young men in Bergen, Norway." >}}
 {{< lazy src="/images/bergen_02.jpg" alt="Dog in Bergen, Norway." >}}
-
----
 
 For dinner, Myles and I went to the Rock and Roll Diner. We spotted the joint after walking through one of the many side streets in Bergen. Themed after the 1950s, the restaurant has a full-size New York City taxi-cab out front. Their waitresses wore vintage skirts and dresses. Well known for burgers and milkshakes, the food was absolutely delicious. I ordered a large platter of pancakes which came with a side dish of ice cream. Myles ordered a burger and french fries.
 
