@@ -24,3 +24,12 @@
   font-size: var(--list-heading-size);
   text-align: center;
 }
+
+.border {
+  border: 1px solid var(--purple);
+}
+
+.list-template {
+  padding: 20px;
+  margin: 20px;
+}

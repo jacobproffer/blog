@@ -1,5 +1,5 @@
 :root {
-  --container: 1440px;
+  --container: 1420px;
   --container-gutter: calc((100vw - var(--container)) / 2);
   --black: #151515;
   --white: #f5f5f5;
@@ -10,12 +10,20 @@
   --dark-green: #535547;
 
   --display-font: 'Germania One', cursive;
+
+  @include screen-below($desktopSm) {
+    --container: 1200px;
+  }
+
+  @include screen-below($laptop) {
+    --container: 1110px;
+  }
 }
 
 *,
 *::after,
 *::before {
-  box-sizing: border-bnox;
+  box-sizing: border-box;
 }
 
 * {
@@ -26,7 +34,8 @@
 
 body {
   position: relative;
-  color: var(--light);
+  margin: 0;
+  color: var(--white);
   background-color: var(--black);
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;

@@ -2,23 +2,27 @@
 
   <main id="content">
 
-    <section class="container">
+    <section class="list-template border">
 
-      <h1 class="list-heading">Travel</h1>
+      <div class="container">
 
-      <ul class="unstyled-list list grid">
+        <h1 class="list-heading">Travel</h1>
 
-        {{ range where .Site.RegularPages "Type" "travel" }}
+        <ul class="unstyled-list list grid">
 
-          <li class="list__item grid relative">
+          {{ range where .Site.RegularPages "Type" "travel" }}
 
-            {{ .Render "article" }}
+            <li class="list__item grid relative">
 
-          </li>
+              {{ .Render "article" }}
 
-        {{ end }}
+            </li>
 
-      </ul>
+          {{ end }}
+
+        </ul>
+
+      </div>
 
     </section>
 

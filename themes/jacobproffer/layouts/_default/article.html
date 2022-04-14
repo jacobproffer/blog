@@ -1,18 +1,24 @@
 <article class="list__item-article grid">
 
-  <div class="list__item-copy relative">
+  <div class="list__item-copy">
 
-    <h2>{{ .Title }}</h2>
+    <div class="relative">
 
-    {{ if .IsPage }}
+      <h2>{{ .Title }}</h2>
 
-      <time>{{ .Date.Format "2006" }}</time>
+      {{ if .IsPage }}
 
-    {{ end }}
+        <time>{{ .Date.Format "2006" }}</time>
+
+      {{ end }}
+
+    </div>
 
     <p>
       {{ .Summary }}
     </p>
+
+    <a class="list__item-link" href="{{ .Permalink }}">View article</a>
 
   </div>
 
@@ -29,7 +35,5 @@
     </div>
 
   </div>
-
-  <a class="list__item-link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
 
 </article>

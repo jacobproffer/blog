@@ -5,9 +5,13 @@
 
   &__item {
     --image-opacity: 1;
+    --link-border-color: var(--purple);
+    --link-border-radius: 49% 51% 54% 46% / 59% 44% 56% 41%;
 
     @include hover {
       --image-opacity: 0;
+      --link-border-color: var(--light);
+      --link-border-radius: 29% 71% 54% 46% / 64% 39% 61% 36% ;
     }
 
     &:nth-of-type(odd) {
@@ -43,11 +47,24 @@
   }
 
   &__item-link {
-    @include size(100%);
-    position: absolute;
-    top: 0;
-    left: 0;
-	  z-index: 2;
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    margin-top: 1.2rem;
+    font-family: var(--display-font);
+    font-size: 1.2rem;
+    border-radius: var(--link-border-radius);
+    border: 1px solid var(--link-border-color);
+    transition: border-color 250ms ease-in-out, border-radius 250ms ease-in-out;
+    text-transform: capitalize;
+
+    &::before {
+      @include size(100%);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      content: "";
+    }
   }
 
   &__item-copy {
