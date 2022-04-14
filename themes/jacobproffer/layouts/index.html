@@ -2,11 +2,11 @@
 
   <main id="content">
 
-    <section class="list-template border">
+    <section class="spacing border">
 
       <div class="container">
 
-        <h1 class="list-heading">Travel</h1>
+        <h1 class="list-heading">Latest</h1>
 
         <ul class="unstyled-list list grid">
 
@@ -24,32 +24,36 @@
 
         </ul>
 
-        <nav aria-label="pagination">
-          <ul class="unstyled-list pagination">
+        {{ if gt (len $paginator.Pagers) 1  }}
 
-            {{ range $paginator.Pagers }}
+          <nav aria-label="pagination">
+            <ul class="unstyled-list pagination">
 
-              {{ if eq . $paginator}}
-                <li class="link-styling" aria-current="page">
-                  <span class="visually-hide">Page</span>
-                  {{ .PageNumber }}
-                </li>
-              {{ else }}
-                <li>
-                  <a
-                    class="link-styling"
-                    href="{{ .URL }}"
-                    aria-label="Go to page {{ .PageNumber }}."
-                  >
+              {{ range $paginator.Pagers }}
+
+                {{ if eq . $paginator}}
+                  <li class="link-styling" aria-current="page">
+                    <span class="visually-hide">Page</span>
                     {{ .PageNumber }}
-                  </a>
-                </li>
+                  </li>
+                {{ else }}
+                  <li>
+                    <a
+                      class="link-styling"
+                      href="{{ .URL }}"
+                      aria-label="Go to page {{ .PageNumber }}."
+                    >
+                      {{ .PageNumber }}
+                    </a>
+                  </li>
+                {{ end }}
+
               {{ end }}
 
-            {{ end }}
+            </ul>
+          </nav>
 
-          </ul>
-        </nav>
+        {{ end }}
 
       </div>
 

@@ -8,7 +8,7 @@
 
       {{ if .IsPage }}
 
-        <time>{{ .Date.Format "2006" }}</time>
+        <time class="list__item-date">{{ .Date.Format "2006" }}</time>
 
       {{ end }}
 
@@ -18,7 +18,23 @@
       {{ .Summary }}
     </p>
 
-    <a class="list__item-link" href="{{ .Permalink }}">View article</a>
+    {{ $linkText := "" }}
+
+    {{ if eq .Type "series" }}
+
+      {{ $linkText = "View series" }}
+
+    {{ else if or (eq .Type "tags") (eq .Type "categories") }}
+
+      {{ $linkText = "View articles" }}
+
+    {{ else }}
+
+      {{ $linkText = "View article" }}
+
+    {{ end }}
+
+    <a class="list__item-link" href="{{ .Permalink }}">{{ $linkText }}</a>
 
   </div>
 

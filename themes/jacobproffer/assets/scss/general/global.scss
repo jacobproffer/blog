@@ -55,13 +55,14 @@ a {
 }
 
 time {
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: var(--purple);
   font-family: var(--display-font);
-  line-height: 1;
-  opacity: .25;
-  font-size: 10rem;
-  z-index: -1;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+
+  li {
+    list-style: none;
+  }
 }

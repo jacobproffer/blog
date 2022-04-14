@@ -1,15 +1,16 @@
 .main-header {
   --pagination-item-padding: 20px;
-  padding: 20px;
+  padding: 20px 10px;
   margin: 20px;
   border: 1px solid var(--purple);
   background-color: var(--black);
 
   a {
     display: block;
+    font-size: 1.5rem;
 
     &[aria-current="page"] {
-      text-decoration: underline;
+      border: 1px solid var(--light);
     }
   }
 
@@ -19,9 +20,13 @@
     justify-content: space-between;
   }
 
-  &__title {
-    font-size: 1.25rem;
-    font-family: var(--display-font);
+  &__logo {
+    max-width: 50px;
+    color: var(--white);
+
+    @include hover {
+      color: var(--light);
+    }
   }
 
   &__skip-link {

@@ -1,6 +1,6 @@
 baseURL = "https://jacobproffer.com/"
 languageCode = "en-us"
-title = "Jacob Proffer"
+title = "Wonk"
 theme = "jacobproffer"
 paginate = 8
 paginatePath = "posts"
@@ -13,7 +13,6 @@ enableRobotsTXT = true
 
 [params]
   description = "Travel and language study blog of Jacob Proffer."
-  subTitle = "Front-End Developer and Traveler"
   images = ["images/jacobproffer-social.jpg"]
 
 [menu]

@@ -8,7 +8,9 @@ h3 {
 
 h1,
 .h1 {
-  font-size: 4rem;
+  --h1-sizes: clamp(2.00rem, calc(1.47rem + 2.25vw), 4.00rem);
+  color: var(--white);
+  font-size: var(--h1-sizes);
 
   & + span {
     display: block;
@@ -17,7 +19,7 @@ h1,
 }
 
 h2 {
-  --h2-sizes: clamp(2.00rem, calc(1.47rem + 2.25vw), 4.00rem);
+  --h2-sizes: clamp(1.50rem, calc(1.11rem + 1.68vw), 3.00rem);
   font-size: var(--h2-sizes);
 }
 
