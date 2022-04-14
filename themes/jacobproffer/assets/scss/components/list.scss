@@ -1,6 +1,6 @@
 .list {
-  // 120px at 1800px to 30px at 375px
-  --list-gap: clamp(7.50rem, calc(0.39rem + 6.32vw), 1.88rem);
+  // 120px at 1800px to 20px at 768px
+  --list-gap: clamp(2rem, calc(2rem + ((1vw - 0.48rem) * 9.6899)), 7.5rem);
   row-gap: var(--list-gap);
 
   &__item {
@@ -38,12 +38,16 @@
   }
 
   &__item-article {
-    // 120px at 1800px to 30px at 375px
-    --article-gap: clamp(7.50rem, calc(0.39rem + 6.32vw), 1.88rem);
+    // 120px at 1800px to 20px at 768px
+    --article-gap: clamp(2rem, calc(2rem + ((1vw - 0.48rem) * 9.6899)), 7.5rem);
     padding: 20px;
     align-items: center;
     grid-template-columns: var(--article-columns);
-    column-gap: var(--article-gap);
+    gap: var(--article-gap);
+
+    @include screen-below($tablet) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &__item-link {
@@ -76,6 +80,10 @@
       font-size: var(--copy-font-size);
       line-height: 1.8;
     }
+
+    @include screen-below($tablet) {
+      order: 2;
+    }
   }
 
   &__item-image {
@@ -84,6 +92,10 @@
     overflow: hidden;
     border-radius: var(--image-border-radius);
     transition: border-radius 250ms ease-in-out;
+
+    @include screen-below($tablet) {
+      order: 1;
+    }
 
     &::after {
       @include size(100%);
