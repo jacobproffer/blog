@@ -4,7 +4,6 @@ title = "Wonk"
 theme = "jacobproffer"
 paginate = 8
 paginatePath = "posts"
-enableRobotsTXT = true
 
 [taxonomies]
   category = "categories"

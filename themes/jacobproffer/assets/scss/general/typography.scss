@@ -2,20 +2,15 @@ h1,
 h2,
 h3 {
   margin: 0;
-  color: var(--light);
-  font-family: var(--display-font);
+  font-family: var(--headline-font);
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 h1,
 .h1 {
   --h1-sizes: clamp(2.00rem, calc(1.47rem + 2.25vw), 4.00rem);
-  color: var(--white);
   font-size: var(--h1-sizes);
-
-  & + span {
-    display: block;
-    margin-top: 10px;
-  }
 }
 
 h2 {
