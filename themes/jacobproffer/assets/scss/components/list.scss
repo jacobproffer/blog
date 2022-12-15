@@ -1,0 +1,17 @@
+.list {
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px solid var(--black);
+  border-bottom: 1px solid var(--black);
+
+  &__item {
+    align-items: start;
+
+    &:nth-of-type(odd) {
+      border-right: 1px solid var(--black);
+    }
+
+    &:not(:nth-child(-1n+2)) {
+      border-top: 1px solid var(--black);
+    }
+  }
+}
