@@ -2,7 +2,7 @@
 
   <main id="content">
 
-    <section class="spacing border">
+    <section class="spacing border b-radius-30">
 
       <div class="container">
 
@@ -32,14 +32,14 @@
               {{ range $paginator.Pagers }}
 
                 {{ if eq . $paginator}}
-                  <li class="link-styling" aria-current="page">
+                  <li class="pagination__item flex-center border" aria-current="page">
                     <span class="visually-hide">Page</span>
                     {{ .PageNumber }}
                   </li>
                 {{ else }}
-                  <li>
+                  <li class="pagination__item flex-center">
                     <a
-                      class="link-styling"
+                      class="pagination__link link-hover flex-center"
                       href="{{ .URL }}"
                       aria-label="Go to page {{ .PageNumber }}."
                     >

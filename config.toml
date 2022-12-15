@@ -1,6 +1,6 @@
 baseURL = "https://jacobproffer.com/"
 languageCode = "en-us"
-title = "Wonk"
+title = "Jacob Proffer"
 theme = "jacobproffer"
 paginate = 8
 paginatePath = "posts"
@@ -17,10 +17,29 @@ paginatePath = "posts"
 [menu]
 
   [[menu.main]]
-    identifier = "series"
-    name = "Series"
-    pageRef = "/series/"
-    weight = 1
+    identifier = "iceland"
+    name = "Iceland"
+    pageRef = "/series/iceland/"
+
+  [[menu.main]]
+    identifier = "japan"
+    name = "Japan"
+    pageRef = "/series/japan/"
+
+  [[menu.main]]
+    identifier = "japanese"
+    name = "Japanese"
+    pageRef = "/series/japanese/"
+
+  [[menu.main]]
+    identifier = "romania"
+    name = "Romania"
+    pageRef = "/series/romania/"
+
+  [[menu.main]]
+    identifier = "norway"
+    name = "Norway"
+    pageRef = "/series/norway/"
 
   [[menu.social]]
     identifier = "twitter"

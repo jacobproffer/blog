@@ -1,5 +1,5 @@
 <nav aria-label="primary">
-  <ul class="unstyled-list navigation-list">
+  <ul class="unstyled-list main-header__nav-list">
 
     {{ $currentPage := . }}
 
@@ -7,7 +7,7 @@
 
       <li class="main-header__nav-item justify-end">
         <a
-          class="link-styling"
+          class="link-styling link-hover main-header__nav-link"
           href="{{ .URL }}"
           {{ if $currentPage.IsMenuCurrent "main" . }}
             aria-current="page"

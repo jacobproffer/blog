@@ -1,10 +1,11 @@
 :root {
   --container: 1440px;
   --container-gutter: calc((100vw - var(--container)) / 2);
-  --black: #321e1e;
-  --light: #d9d9d9;
+  --black: #231f20;
+  --gray: #c8cbcd;
+  --yellow: #ffd931;
 
-  --body-copy-font: "Archivo", sans-serif;
+  --body-copy-font: "Roboto Slab", sans-serif;
   --headline-font: "Roboto Condensed", sans-serif;
 
   @include screen-below($desktopSm) {
@@ -32,7 +33,7 @@ body {
   position: relative;
   margin: 0;
   color: var(--black);
-  background-color: var(--light);
+  background-color: var(--gray);
   font-family: var(--body-copy-font);
   font-size: 16px;
 }

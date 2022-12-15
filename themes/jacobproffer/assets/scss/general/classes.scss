@@ -34,3 +34,39 @@
 .center {
   text-align: center;
 }
+
+.bg-yellow {
+  background-color: var(--yellow);
+}
+
+.b-radius-30 {
+  border-radius: 30px;
+}
+
+.pseudo-link {
+	text-decoration: none;
+
+	&::before {
+		@include size(100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+		content: "";
+	}
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-hover {
+  transition: color 300ms ease-in-out, background-color 300ms ease-in-out;
+
+  @include hover {
+    color: var(--yellow);
+    background-color: var(--black);
+  }
+}

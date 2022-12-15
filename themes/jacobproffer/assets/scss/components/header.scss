@@ -1,0 +1,49 @@
+.main-header {
+  &__logo {
+    display: block;
+    max-width: 75px;
+    padding: 10px;
+    margin: auto;
+    transition: transform 150ms ease-in-out;
+
+    &:focus {
+      outline: 1px dashed var(--black);
+      outline-offset: -2px;
+    }
+
+    @include hover {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid var(--black);
+    border-bottom: 1px solid var(--black);
+  }
+
+  &__nav-item {
+    flex: 1 1 0;
+    text-align: center;
+
+    &:not(:last-of-type) {
+      border-right: 1px solid var(--black);
+    }
+  }
+
+  &__nav-link {
+    display: block;
+    padding: 10px 20px;
+
+    &[aria-current="page"] {
+      color: var(--yellow);
+      background-color: var(--black);
+    }
+
+    &:focus {
+      outline: 1px dashed var(--black);
+      outline-offset: -2px;
+    }
+  }
+}

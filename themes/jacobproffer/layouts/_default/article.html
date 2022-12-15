@@ -1,6 +1,6 @@
-<article class="list__item-article grid">
+<article class="article grid relative">
 
-  <div class="list__item-copy">
+  <div class="article__copy">
 
     <div class="relative">
 
@@ -8,7 +8,7 @@
 
       {{ if .IsPage }}
 
-        <time class="list__item-date">{{ .Date.Format "2006" }}</time>
+        <time class="article__date">{{ .Date.Format "2006" }}</time>
 
       {{ end }}
 
@@ -34,11 +34,11 @@
 
     {{ end }}
 
-    <a class="list__item-link" href="{{ .Permalink }}">{{ $linkText }}</a>
+    <a class="article__link border b-radius-30 bg-yellow link-hover pseudo-link" href="{{ .Permalink }}">{{ $linkText }}</a>
 
   </div>
 
-  <div class="list__item-image">
+  <div class="article__thumbnail border b-radius-30">
 
     <div class="content">
 
