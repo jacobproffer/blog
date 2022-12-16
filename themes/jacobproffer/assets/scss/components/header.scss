@@ -10,10 +10,6 @@
       outline: 1px dashed var(--black);
       outline-offset: -2px;
     }
-
-    @include hover {
-      transform: rotate(180deg);
-    }
   }
 
   &__nav-list {

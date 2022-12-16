@@ -4,85 +4,91 @@
 
 {{ define "main" }}
 
-<main>
+  <main>
 
-  <article class="single page-spacing spacing border b-radius-30">
+    <article class="single page-spacing spacing">
 
-    <div class="container">
+      <div class="container">
 
-      <div class="single__container grid single__content">
+        <div class="single__container grid single__content">
 
-        <div class="center">
+          <div class="center">
 
-          <h1 class="text-shadow">{{ .Title }}</h1>
+            <h1 class="text-shadow">{{ .Title }}</h1>
 
-          <time class="single__date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+            <time class="single__date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+
+          </div>
+
+          <div>
+
+            {{ .Content }}
+
+          </div>
+
+          <footer class="post__footer">
+
+            <h2>Tags</h2>
+
+            {{ if (.GetTerms "tags") }}
+
+              <ul class="tags unstyled-list">
+
+                {{ range (.GetTerms "tags") }}
+
+                  <li>
+                    <a class="category" href="{{ .Permalink }}">
+                      {{ .LinkTitle }}
+                    </a>
+                  </li>
+
+                {{ end }}
+
+              </ul>
+
+            {{ end }}
+
+
+          </footer>
 
         </div>
 
-        <div>
+      </div>
 
-          {{ .Content }}
+    </article>
 
-        </div>
+  </main>
 
-        <footer class="post__footer">
+  {{ $related := .Site.RegularPages.Related . | first 4 }}
 
-          <h2>Tags</h2>
+  {{ if gt (len $related) 1 }}
 
-          {{ if (.GetTerms "tags") }}
+    <aside class="spacing page-spacing">
+      <div class="container">
+        <div class="single__container">
 
-            <ul class="tags unstyled-list">
+          {{ $related := .Site.RegularPages.Related . | first 4 }}
 
-              {{ range (.GetTerms "tags") }}
+          {{ with $related }}
 
-                <li>
-                  <a class="category" href="{{ .Permalink }}">
-                    {{ .LinkTitle }}
-                  </a>
+            <h2 class="subheading">Related Posts</h2>
+
+            <ul class="unstyled-list grid grid--list">
+
+              {{ range . }}
+                <li class="list__post gray-hover">
+                  {{ .Render "article-related" }}
                 </li>
-
               {{ end }}
 
             </ul>
 
           {{ end }}
 
-
-        </footer>
-
+        </div>
       </div>
+    </aside>
 
-    </div>
-
-  </article>
-
-</main>
-
-<aside class="spacing page-spacing border b-radius-30">
-  <div class="container">
-    <div class="single__container">
-
-      {{ $related := .Site.RegularPages.Related . | first 4 }}
-
-      {{ with $related }}
-
-        <h2 class="subheading">Related Posts</h2>
-
-        <ul class="unstyled-list grid grid--list">
-
-          {{ range . }}
-            <li class="list__post gray-hover">
-              {{ .Render "article-related" }}
-            </li>
-          {{ end }}
-
-        </ul>
-
-      {{ end }}
-
-    </div>
-  </div>
-</aside>
+  {{ end }}
 
 {{ end }}

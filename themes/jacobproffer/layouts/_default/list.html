@@ -1,61 +1,83 @@
+{{ define "title" }}
+
+  {{ if eq .Title "Japaneses" }}
+    Japanese - {{ .Site.Title }}
+  {{ else }}
+    {{ .Title | singularize  }} - {{ .Site.Title }}
+  {{ end }}
+
+{{ end }}
+
 {{ define "main" }}
 
-  <main id="content">
+{{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") }}
 
-    <section class="spacing border b-radius-30">
+  <main>
 
-      <div class="container">
+    <section>
 
-        <h1>{{ .Title }}</h1>
+      {{ if not $paginator.HasPrev }}
 
-        <ul class="unstyled-list list grid">
+        <div class="bg-yellow border-bottom">
 
-          {{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") }}
+          <div class="container">
 
-          {{ range $index, $page := $paginator.Pages }}
+            {{ if eq .Title "Japaneses" }}
+              <h1 class="list-heading">Japanese</h1>
+            {{ else }}
+              <h1 class="list-heading">{{ .Title | singularize }}</h1>
+            {{ end }}
 
-            <li class="list__item grid relative gsap-fade-in">
+          </div>
 
-              {{ .Render "article" }}
+        </div>
 
-            </li>
+      {{ end }}
 
-          {{ end }}
+      <ul class="unstyled-list list grid">
 
-        </ul>
+        {{ range $index, $page := $paginator.Pages }}
 
-        {{ if gt (len $paginator.Pagers) 1  }}
+          <li class="list__item grid relative">
 
-          <nav aria-label="pagination">
-            <ul class="unstyled-list pagination">
+            {{ .Render "article" }}
 
-              {{ range $paginator.Pagers }}
-
-                {{ if eq . $paginator}}
-                  <li class="link-styling" aria-current="page">
-                    <span class="visually-hide">Page</span>
-                    {{ .PageNumber }}
-                  </li>
-                {{ else }}
-                  <li>
-                    <a
-                      class="link-styling"
-                      href="{{ .URL }}"
-                      aria-label="Go to page {{ .PageNumber }}."
-                    >
-                      {{ .PageNumber }}
-                    </a>
-                  </li>
-                {{ end }}
-
-              {{ end }}
-
-            </ul>
-          </nav>
+          </li>
 
         {{ end }}
 
-      </div>
+      </ul>
+
+      {{ if gt (len $paginator.Pagers) 1  }}
+
+        <nav class="border-bottom" aria-label="pagination">
+          <ul class="unstyled-list pagination">
+
+            {{ range $paginator.Pagers }}
+
+              {{ if eq . $paginator}}
+                <li class="pagination__item flex-center border" aria-current="page">
+                  <span class="visually-hide">Page</span>
+                  {{ .PageNumber }}
+                </li>
+              {{ else }}
+                <li class="pagination__item flex-center">
+                  <a
+                    class="pagination__link link-hover flex-center"
+                    href="{{ .URL }}"
+                    aria-label="Go to page {{ .PageNumber }}."
+                  >
+                    {{ .PageNumber }}
+                  </a>
+                </li>
+              {{ end }}
+
+            {{ end }}
+
+          </ul>
+        </nav>
+
+      {{ end }}
 
     </section>
 

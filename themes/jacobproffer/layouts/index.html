@@ -1,8 +1,12 @@
+{{ define "title" }}
+  {{ .Site.Title }} - Blog
+{{ end }}
+
 {{ define "main" }}
 
 {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
 
-  <main id="content">
+  <main>
 
     <section>
 

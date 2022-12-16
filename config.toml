@@ -17,29 +17,19 @@ paginatePath = "posts"
 [menu]
 
   [[menu.main]]
-    identifier = "iceland"
-    name = "Iceland"
-    pageRef = "/series/iceland/"
-
-  [[menu.main]]
-    identifier = "japan"
-    name = "Japan"
-    pageRef = "/series/japan/"
+    identifier = "general"
+    name = "General"
+    pageRef = "/general/"
 
   [[menu.main]]
     identifier = "japanese"
     name = "Japanese"
-    pageRef = "/series/japanese/"
+    pageRef = "/japanese/"
 
   [[menu.main]]
-    identifier = "romania"
-    name = "Romania"
-    pageRef = "/series/romania/"
-
-  [[menu.main]]
-    identifier = "norway"
-    name = "Norway"
-    pageRef = "/series/norway/"
+    identifier = "travel"
+    name = "Travel"
+    pageRef = "/travel/"
 
   [[menu.social]]
     identifier = "twitter"

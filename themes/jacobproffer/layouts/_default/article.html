@@ -6,17 +6,7 @@
 
       <h2>{{ .Title }}</h2>
 
-      {{ if .IsPage }}
-
-        <time class="article__date">{{ .Date.Format "2006" }}</time>
-
-      {{ end }}
-
     </div>
-
-    <p>
-      {{ .Summary }}
-    </p>
 
     {{ $linkText := "" }}
 
