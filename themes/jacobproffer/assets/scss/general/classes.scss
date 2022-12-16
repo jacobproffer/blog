@@ -11,13 +11,17 @@
 }
 
 .list-heading {
-  --list-heading-size: clamp(6.25rem, calc(-0.33rem + 28.07vw), 31.25rem);
-  font-size: var(--list-heading-size);
+  --font-size: #{createFluidValue(50px, 200px)};
+  font-size: var(--font-size);
   text-align: center;
 }
 
 .border {
   border: 1px solid var(--black);
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--black);
 }
 
 .spacing {

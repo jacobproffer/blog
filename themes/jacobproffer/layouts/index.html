@@ -1,16 +1,24 @@
 {{ define "main" }}
 
+{{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
+
   <main id="content">
 
     <section>
 
-      <div class="container">
-        <h1 class="list-heading">Latest</h1>
-      </div>
+      {{ if not $paginator.HasPrev }}
+
+        <div class="bg-yellow border-bottom">
+
+          <div class="container">
+            <h1 class="list-heading">Latest Posts</h1>
+          </div>
+
+        </div>
+
+      {{ end }}
 
       <ul class="unstyled-list list grid">
-
-        {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
 
         {{ range $index, $page := $paginator.Pages }}
 
@@ -26,7 +34,7 @@
 
       {{ if gt (len $paginator.Pagers) 1  }}
 
-        <nav aria-label="pagination">
+        <nav class="border-bottom" aria-label="pagination">
           <ul class="unstyled-list pagination">
 
             {{ range $paginator.Pagers }}
