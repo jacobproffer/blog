@@ -17,11 +17,6 @@ paginatePath = "posts"
 [menu]
 
   [[menu.main]]
-    identifier = "general"
-    name = "General"
-    pageRef = "/general/"
-
-  [[menu.main]]
     identifier = "japanese"
     name = "Japanese"
     pageRef = "/japanese/"

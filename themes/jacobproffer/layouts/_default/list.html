@@ -16,22 +16,10 @@
 
     <section>
 
-      {{ if not $paginator.HasPrev }}
-
-        <div class="bg-yellow border-bottom">
-
-          <div class="container">
-
-            {{ if eq .Title "Japaneses" }}
-              <h1 class="list-heading">Japanese</h1>
-            {{ else }}
-              <h1 class="list-heading">{{ .Title | singularize }}</h1>
-            {{ end }}
-
-          </div>
-
-        </div>
-
+      {{ if eq .Title "Japaneses" }}
+        <h1 class="visually-hide">Japanese</h1>
+      {{ else }}
+        <h1 class="visually-hide">{{ .Title | singularize }}</h1>
       {{ end }}
 
       <ul class="unstyled-list list grid">

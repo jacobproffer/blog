@@ -2,9 +2,18 @@
 
   <div class="article__copy">
 
-    <div class="relative">
+    <div class="relative grid article__info-grid">
 
-      <h2>{{ .Title }}</h2>
+      <div class="article__info-grid-item article__headline">
+
+        <h2>{{ .Title }}</h2>
+
+      </div>
+
+      <div class="article__info-grid-item article__type">
+        <h3>Type</h3>
+        <span>{{ .Type | title }}</span>
+      </div>
 
     </div>
 
@@ -24,7 +33,7 @@
 
     {{ end }}
 
-    <a class="article__link border b-radius-30 bg-yellow link-hover pseudo-link" href="{{ .Permalink }}">{{ $linkText }}</a>
+    <a class="article__link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
 
   </div>
 

@@ -1,9 +1,10 @@
-<header class="main-header bg-yellow">
+<header class="main-header bg-yellow border-bottom">
   <div class="container">
-    <a class="main-header__logo" href="/" aria-label="Go to home">
-      {{ partial "logo" }}
-    </a>
+    <div class="main-header__grid">
+      <a class="main-header__logo" href="/" aria-label="Go to home">
+        {{ partial "logo" }}
+      </a>
+      {{ partial "navigation/main.html" . }}
+    </div>
   </div>
-
-  {{ partial "navigation/main.html" . }}
 </header>

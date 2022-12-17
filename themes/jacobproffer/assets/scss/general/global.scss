@@ -3,10 +3,13 @@
   --container-gutter: calc((100vw - var(--container)) / 2);
   --black: #231f20;
   --gray: #c8cbcd;
-  --yellow: #c0ba95;
+  --yellow: #fbf9f3;
 
-  --body-copy-font: "Roboto Slab", sans-serif;
-  --headline-font: "Roboto Condensed", sans-serif;
+  --body-copy-font: "Work Sans", sans-serif;
+
+  --weight-bold: 700;
+  --weight-medium: 500;
+  --weight-normal: 400;
 
   @include screen-below($desktopSm) {
     --container: 1280px;
@@ -14,6 +17,10 @@
 
   @include screen-below($laptop) {
     --container: 1080px;
+  }
+
+  @include screen-below(1120px) {
+    --container: calc(100% - 40px);
   }
 }
 

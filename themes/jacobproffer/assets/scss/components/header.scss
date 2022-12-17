@@ -1,45 +1,58 @@
 .main-header {
-  &__logo {
-    display: block;
-    max-width: 75px;
-    padding: 10px;
-    margin: auto;
-    transition: transform 150ms ease-in-out;
+  padding: 20px 0;
 
-    &:focus {
-      outline: 1px dashed var(--black);
-      outline-offset: -2px;
-    }
+  &__grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    @include size(50px);
+    display: block;
   }
 
   &__nav-list {
     display: flex;
-    justify-content: space-evenly;
-    border-top: 1px solid var(--black);
-    border-bottom: 1px solid var(--black);
   }
 
   &__nav-item {
-    flex: 1 1 0;
-    text-align: center;
-
     &:not(:last-of-type) {
-      border-right: 1px solid var(--black);
+      margin-right: #{createFluidValue(20px, 40px)};
     }
   }
 
   &__nav-link {
+    --underline-opacity: 0;
+    --underline-color: rgba(0, 0, 0, 0);
+    position: relative;
     display: block;
-    padding: 10px 20px;
+    font-size: #{createFluidValue(18px, 32px)};
+
+    &::before {
+      @include size(100%, 2px);
+      position: absolute;
+      left: 0;
+      bottom: -4px;
+      opacity: var(--underline-opacity);
+      background-color: var(--underline-color);
+      transition: background-color 300ms ease-in-out, opacity 300ms ease-in-out;
+      content: "";
+    }
 
     &[aria-current="page"] {
-      color: var(--yellow);
-      background-color: var(--black);
+      --underline-opacity: 1;
+      --underline-color: var(--black);
     }
 
     &:focus {
       outline: 1px dashed var(--black);
       outline-offset: -2px;
+    }
+
+    @include hover {
+      --underline-opacity: 1;
+      --underline-color: #ac8c64;
     }
   }
 }
