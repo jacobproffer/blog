@@ -35,6 +35,11 @@
     position: absolute;
     top: 0;
     left: 0;
+
+    &:focus {
+      outline: 2px dashed var(--black);
+      outline-offset: -4px;
+    }
   }
 
   &__headline {
@@ -43,19 +48,15 @@
 
   &__type {
     order: 1;
-    display: flex;
     justify-content: space-between;
   }
 
   &__info-grid {
-    row-gap: 1px;
-    background-color: var(--black);
     border-top: 2px solid var(--black);
     border-bottom: 2px solid var(--black);
   }
 
   &__info-grid-item {
-    padding: 10px 0;
     background-color: var(--background);
     transition: background-color 300ms ease-in-out;
   }

@@ -10,15 +10,9 @@
 
       <div class="container">
 
-        <div class="single__container grid single__content">
+        <h1 class="text-shadow">{{ .Title }}</h1>
 
-          <div class="center">
-
-            <h1 class="text-shadow">{{ .Title }}</h1>
-
-            <time class="single__date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-
-          </div>
+        <div class="single__grid grid">
 
           <div>
 
@@ -26,28 +20,39 @@
 
           </div>
 
-          <footer class="post__footer">
+          <footer class="single__footer grid border-grid">
 
-            <h2>Tags</h2>
+            <div class="single__footer-item border-grid-item flex">
 
-            {{ if (.GetTerms "tags") }}
+              <h3>Date</h3>
 
-              <ul class="tags unstyled-list">
+              <time class="single__date">{{ .Date.Format "Jan 2, 2006" }}</time>
 
-                {{ range (.GetTerms "tags") }}
+            </div>
 
-                  <li>
-                    <a class="category" href="{{ .Permalink }}">
-                      {{ .LinkTitle }}
-                    </a>
-                  </li>
+            <div class="single__footer-item border-grid-item flex">
 
-                {{ end }}
+              <h3>Tags</h3>
 
-              </ul>
+              {{ if (.GetTerms "tags") }}
 
-            {{ end }}
+                <ul class="tags unstyled-list">
 
+                  {{ range (.GetTerms "tags") }}
+
+                    <li>
+                      <a class="category" href="{{ .Permalink }}">
+                        {{ .LinkTitle }}
+                      </a>
+                    </li>
+
+                  {{ end }}
+
+                </ul>
+
+              {{ end }}
+
+            </div>
 
           </footer>
 

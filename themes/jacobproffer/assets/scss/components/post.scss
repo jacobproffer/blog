@@ -1,0 +1,28 @@
+.single {
+  p {
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  &__grid {
+    grid-template-columns: 2fr 1fr;
+    column-gap: #{createFluidValue(20px, 40px)};
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 2px solid var(--black);
+  }
+
+  &__footer {
+    align-content: start;
+    height: max-content;
+  }
+
+  &__footer-item {
+    justify-content: space-between;
+  }
+}

@@ -78,3 +78,17 @@
     background-color: var(--black);
   }
 }
+
+.flex {
+  display: flex;
+}
+
+.border-grid {
+  row-gap: 1px;
+  background-color: var(--black);
+}
+
+.border-grid-item {
+  padding: 10px 0;
+  background-color: var(--background, var(--gray));
+}

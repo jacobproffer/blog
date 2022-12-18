@@ -46,8 +46,8 @@
     }
 
     &:focus {
-      outline: 1px dashed var(--black);
-      outline-offset: -2px;
+      outline: 2px dashed var(--black);
+      outline-offset: -4px;
     }
 
     @include hover {
