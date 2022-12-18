@@ -1,8 +1,8 @@
-<nav aria-label="social">
-  <ul class="unstyled-list footer__list">
+<nav class="border-top-bottom gsap-fade-in" aria-label="social">
+  <ul class="unstyled-list footer__list grid border-grid">
 
     {{ range .Site.Menus.social }}
-      <li class="footer__list-item">
+      <li class="footer__list-item border-grid-item">
         <a
           class="footer__list-link link-styling"
           href="{{ .URL }}"

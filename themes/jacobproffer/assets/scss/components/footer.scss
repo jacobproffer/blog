@@ -1,10 +1,4 @@
 .footer {
+  --background: var(--yellow);
   padding: 40px 0;
-
-  &__list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
 }

@@ -1,5 +1,18 @@
 .main-header {
-  padding: 20px 0;
+  --logo-size: 50px;
+  --header-padding: 20px;
+  @include size(100%, auto);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  padding: var(--header-padding) 0;
+  transition: padding 300ms ease-in-out;
+
+  &--pinned {
+    --logo-size: 35px;
+    --header-padding: 10px;
+  }
 
   &__grid {
     display: flex;
@@ -8,9 +21,9 @@
   }
 
   &__logo {
-    @include size(50px);
+    @include size(var(--logo-size));
     display: block;
-    transition: color 300ms ease-in-out;
+    transition: width 300ms ease-in-out, height 300ms ease-in-out, color 300ms ease-in-out;
 
     @include hover {
       color: var(--hit);

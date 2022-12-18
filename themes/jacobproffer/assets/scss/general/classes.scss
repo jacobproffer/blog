@@ -98,3 +98,8 @@
   padding: 10px 0;
   background-color: var(--background, var(--gray));
 }
+
+.border-top-bottom {
+  border-top: 2px solid var(--black);
+  border-bottom: 2px solid var(--black);
+}
