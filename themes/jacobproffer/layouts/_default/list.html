@@ -22,7 +22,7 @@
         <h1 class="visually-hide">{{ .Title | singularize }}</h1>
       {{ end }}
 
-      <ul class="unstyled-list list grid">
+      <ul class="unstyled-list list grid gsap-fade-in">
 
         {{ range $index, $page := $paginator.Pages }}
 
@@ -39,7 +39,7 @@
       {{ if gt (len $paginator.Pagers) 1  }}
 
         <nav class="border-bottom" aria-label="pagination">
-          <ul class="unstyled-list pagination">
+          <ul class="unstyled-list pagination gsap-stagger-in">
 
             {{ range $paginator.Pagers }}
 

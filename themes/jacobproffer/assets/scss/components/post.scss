@@ -9,10 +9,6 @@
     }
   }
 
-  img {
-    border-radius: 15px;
-  }
-
   &__grid {
     --single-grid: 70ch 1fr;
     grid-template-columns: var(--single-grid);
@@ -27,6 +23,12 @@
   }
 
   &__content {
+    font-size: rem(18);
+
+    @include screen-below($tablet) {
+      font-size: rem(16);
+    }
+
     li {
       list-style: disc;
       list-style-position: inside;
@@ -35,10 +37,21 @@
 
   &__footer {
     align-content: start;
-    height: max-content;
+  }
+
+  &__footer-list {
+    @include screen-above($tablet) {
+      position: sticky;
+      top: 76px;
+    }
   }
 
   &__footer-item {
     justify-content: space-between;
+    padding: 10px 0;
+
+    &:not(:last-of-type) {
+      border-bottom: 1px solid var(--black);
+    }
   }
 }

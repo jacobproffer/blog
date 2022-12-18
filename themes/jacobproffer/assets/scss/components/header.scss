@@ -1,6 +1,7 @@
 .main-header {
   --logo-size: 50px;
   --header-padding: 20px;
+  --nav-font-size: #{createFluidValue(18px, 32px)};
   @include size(100%, auto);
   position: fixed;
   top: 0;
@@ -12,6 +13,7 @@
   &--pinned {
     --logo-size: 35px;
     --header-padding: 10px;
+    --nav-font-size: #{createFluidValue(18px, 24px)};
   }
 
   &__grid {
@@ -45,7 +47,8 @@
     --underline-color: rgba(0, 0, 0, 0);
     position: relative;
     display: block;
-    font-size: #{createFluidValue(18px, 32px)};
+    font-size: var(--nav-font-size);
+    transition: font-size 300ms ease-in-out;
 
     &::before {
       @include size(100%, 2px);

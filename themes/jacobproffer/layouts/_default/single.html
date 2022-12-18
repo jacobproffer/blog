@@ -8,7 +8,7 @@
 
     <article class="single page-spacing spacing">
 
-      <div class="container">
+      <div class="container gsap-fade-in">
 
         <h1 class="text-shadow">{{ .Title }}</h1>
 
@@ -20,39 +20,43 @@
 
           </div>
 
-          <footer class="single__footer grid border-grid">
+          <footer class="single__footer">
 
-            <div class="single__footer-item border-grid-item flex">
+            <ul class="unstyled-list single__footer-list">
 
-              <h3>Date</h3>
+              <li class="single__footer-item flex">
 
-              <time class="single__date">{{ .Date.Format "Jan 2, 2006" }}</time>
+                <h3>Date</h3>
 
-            </div>
+                <time class="single__date">{{ .Date.Format "Jan 2, 2006" }}</time>
 
-            <div class="single__footer-item border-grid-item flex">
+              </li>
 
-              <h3>Series</h3>
+              <li class="single__footer-item flex">
 
-              {{ if (.GetTerms "series") }}
+                <h3>Series</h3>
 
-                <ul class="single__tags unstyled-list">
+                {{ if (.GetTerms "series") }}
 
-                  {{ range (.GetTerms "series") }}
+                  <ul class="single__tags unstyled-list">
 
-                    <li class="single__tag">
-                      <a class="category" href="{{ .Permalink }}">
-                        {{ .LinkTitle }}
-                      </a>
-                    </li>
+                    {{ range (.GetTerms "series") }}
 
-                  {{ end }}
+                      <li class="single__tag">
+                        <a class="category" href="{{ .Permalink }}">
+                          {{ .LinkTitle }}
+                        </a>
+                      </li>
 
-                </ul>
+                    {{ end }}
 
-              {{ end }}
+                  </ul>
 
-            </div>
+                {{ end }}
+
+              </li>
+
+            </ul>
 
           </footer>
 
