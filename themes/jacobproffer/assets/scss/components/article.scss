@@ -7,11 +7,15 @@
   transition: background-color 300ms ease-in-out;
 
   @include hover {
-    --background: #ac8c64;
+    --background: var(--hit);
 
     img {
       filter: blur(2px);
     }
+  }
+
+  &__headline {
+    margin: 0;
   }
 
   &__copy {
@@ -31,11 +35,6 @@
   }
 
   &__link {
-    @include size(100%);
-    position: absolute;
-    top: 0;
-    left: 0;
-
     &:focus {
       outline: 2px dashed var(--black);
       outline-offset: -4px;

@@ -10,6 +10,11 @@
   &__logo {
     @include size(50px);
     display: block;
+    transition: color 300ms ease-in-out;
+
+    @include hover {
+      color: var(--hit);
+    }
   }
 
   &__nav-list {
@@ -52,7 +57,7 @@
 
     @include hover {
       --underline-opacity: 1;
-      --underline-color: #ac8c64;
+      --underline-color: var(--hit);
     }
   }
 }

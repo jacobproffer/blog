@@ -9,12 +9,28 @@
     }
   }
 
+  img {
+    border-radius: 15px;
+  }
+
   &__grid {
-    grid-template-columns: 2fr 1fr;
-    column-gap: #{createFluidValue(20px, 40px)};
+    --single-grid: 70ch 1fr;
+    grid-template-columns: var(--single-grid);
+    gap: #{createFluidValue(45px, 90px)};
     padding-top: 20px;
     margin-top: 20px;
     border-top: 2px solid var(--black);
+
+    @include screen-below($tablet) {
+      --single-grid: 1fr;
+    }
+  }
+
+  &__content {
+    li {
+      list-style: disc;
+      list-style-position: inside;
+    }
   }
 
   &__footer {

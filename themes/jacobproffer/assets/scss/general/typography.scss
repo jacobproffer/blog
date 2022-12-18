@@ -1,7 +1,6 @@
 h1,
 h2,
 h3 {
-  margin: 0;
   font-weight: var(--weight-medium);
 }
 
@@ -13,7 +12,13 @@ h1,
 
 h2 {
   --h2-sizes: clamp(1.50rem, calc(1.11rem + 1.68vw), 3.00rem);
+  margin: 1rem 0;
   font-size: var(--h2-sizes);
+}
+
+h1,
+h3 {
+  margin: 0;
 }
 
 p {

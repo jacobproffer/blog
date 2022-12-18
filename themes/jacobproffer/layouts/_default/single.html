@@ -14,7 +14,7 @@
 
         <div class="single__grid grid">
 
-          <div>
+          <div class="single__content">
 
             {{ .Content }}
 
@@ -32,15 +32,15 @@
 
             <div class="single__footer-item border-grid-item flex">
 
-              <h3>Tags</h3>
+              <h3>Series</h3>
 
-              {{ if (.GetTerms "tags") }}
+              {{ if (.GetTerms "series") }}
 
-                <ul class="tags unstyled-list">
+                <ul class="single__tags unstyled-list">
 
-                  {{ range (.GetTerms "tags") }}
+                  {{ range (.GetTerms "series") }}
 
-                    <li>
+                    <li class="single__tag">
                       <a class="category" href="{{ .Permalink }}">
                         {{ .LinkTitle }}
                       </a>
@@ -68,7 +68,7 @@
 
   {{ if gt (len $related) 1 }}
 
-    <aside class="spacing page-spacing">
+    <aside class="related page-spacing border-bottom">
       <div class="container">
         <div class="single__container">
 
@@ -76,12 +76,12 @@
 
           {{ with $related }}
 
-            <h2 class="subheading">Related Posts</h2>
+            <h2 class="related__headline">Related Posts</h2>
 
-            <ul class="unstyled-list grid grid--list">
+            <ul class="unstyled-list grid border-grid related__grid">
 
               {{ range . }}
-                <li class="list__post gray-hover">
+                <li class="border-grid-item">
                   {{ .Render "article-related" }}
                 </li>
               {{ end }}

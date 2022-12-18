@@ -26,11 +26,10 @@
 
 .spacing {
   padding: 20px;
-  margin: 20px;
 }
 
 .page-spacing {
-  --page-spacing: clamp(2.50rem, calc(1.84rem + 2.81vw), 5.00rem);
+  --page-spacing: #{createFluidValue(30px, 60px)};
   padding-top: var(--page-spacing);
   padding-bottom: var(--page-spacing);
 }
@@ -62,6 +61,13 @@
     z-index: 2;
 		content: "";
 	}
+}
+
+.absolute-link {
+  @include size(100%);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .flex-center {

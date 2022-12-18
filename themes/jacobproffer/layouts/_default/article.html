@@ -6,12 +6,12 @@
 
       <div class="article__info-grid-item border-grid-item article__headline">
 
-        <h2>{{ .Title }}</h2>
+        <h2 class="article__headline">{{ .Title }}</h2>
 
       </div>
 
       <div class="article__info-grid-item border-grid-item flex article__type">
-        <h3>Type</h3>
+        <h3>Series</h3>
         <span>{{ .Type | title }}</span>
       </div>
 
@@ -33,7 +33,7 @@
 
     {{ end }}
 
-    <a class="article__link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
+    <a class="article__link absolute-link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
 
   </div>
 
