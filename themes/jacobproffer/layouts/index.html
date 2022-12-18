@@ -28,8 +28,8 @@
 
       {{ if gt (len $paginator.Pagers) 1  }}
 
-        <nav class="border-bottom gsap-fade-in" aria-label="pagination">
-          <ul class="unstyled-list pagination">
+        <nav class="border-bottom" aria-label="pagination">
+          <ul class="unstyled-list pagination gsap-stagger-in">
 
             {{ range $paginator.Pagers }}
 

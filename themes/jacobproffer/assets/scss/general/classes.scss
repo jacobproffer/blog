@@ -103,3 +103,13 @@
   border-top: 2px solid var(--black);
   border-bottom: 2px solid var(--black);
 }
+
+.gsap-fade-in {
+  visibility: hidden;
+}
+
+.gsap-stagger-in {
+  > * {
+    visibility: hidden;
+  }
+}
