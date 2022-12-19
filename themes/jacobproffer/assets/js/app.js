@@ -39,7 +39,7 @@ if (staggerIn.length > 0) {
         onEnter: batch => gsap.from(batch, {
           y: 30,
           autoAlpha: 0,
-          stagger: 0.2,
+          stagger: 0.1,
         }),
       });
     }

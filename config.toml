@@ -4,6 +4,7 @@ title = "Jacob Proffer"
 theme = "jacobproffer"
 paginate = 8
 paginatePath = "posts"
+copyright = "2022"
 
 [taxonomies]
   category = "categories"
@@ -27,19 +28,11 @@ paginatePath = "posts"
     pageRef = "/travel/"
 
   [[menu.social]]
-    identifier = "twitter"
-    name = "Twitter"
-    url = "https://twitter.com/jacobproffer"
-    weight = 1
+    identifier = "dribbble"
+    name = "Dribbble"
+    url = "https://dribbble.com/jacobproffer/"
 
   [[menu.social]]
-    identifier = "instagram"
-    name = "Instagram"
-    url = "https://www.instagram.com/jacobproffer_/"
-    weight = 2
-
-  [[menu.social]]
-    identifier = "repository"
-    name = "Repository"
-    url = "https://github.com/jacobproffer/blog"
-    weight = 3
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/jacobproffer/"

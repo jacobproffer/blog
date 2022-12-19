@@ -113,3 +113,30 @@
     visibility: hidden;
   }
 }
+
+.border-hover {
+  --underline-opacity: 0;
+  --underline-color: rgba(0, 0, 0, 0);
+  --underline-focus: var(--yellow);
+
+  &::before {
+    @include size(100%, 2px);
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    opacity: var(--underline-opacity);
+    background-color: var(--underline-color);
+    transition: background-color 300ms ease-in-out, opacity 300ms ease-in-out;
+    content: "";
+  }
+
+  &:focus {
+    outline: 2px dashed var(--underline-focus);
+    outline-offset: -4px;
+  }
+
+  @include hover {
+    --underline-opacity: 1;
+    --underline-color: var(--hit);
+  }
+}

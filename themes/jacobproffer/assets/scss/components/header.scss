@@ -43,37 +43,15 @@
   }
 
   &__nav-link {
-    --underline-opacity: 0;
-    --underline-color: rgba(0, 0, 0, 0);
+    --underline-focus: var(--black);
     position: relative;
     display: block;
     font-size: var(--nav-font-size);
     transition: font-size 300ms ease-in-out;
 
-    &::before {
-      @include size(100%, 2px);
-      position: absolute;
-      left: 0;
-      bottom: -4px;
-      opacity: var(--underline-opacity);
-      background-color: var(--underline-color);
-      transition: background-color 300ms ease-in-out, opacity 300ms ease-in-out;
-      content: "";
-    }
-
     &[aria-current="page"] {
       --underline-opacity: 1;
       --underline-color: var(--black);
-    }
-
-    &:focus {
-      outline: 2px dashed var(--black);
-      outline-offset: -4px;
-    }
-
-    @include hover {
-      --underline-opacity: 1;
-      --underline-color: var(--hit);
     }
   }
 }
