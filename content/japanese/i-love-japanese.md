@@ -2,7 +2,7 @@
 title: "I Love Japanese"
 date: 2019-01-27 14:00:00
 description: "Eighth month progress report of studying Japanese."
-images: ["images/i_love_japanese_social.jpg"]
+images: ["/images/i_love_japanese_social.jpg"]
 categories: ["japanese"]
 tags: ["japanese", "education"]
 series: ["Japanese"]

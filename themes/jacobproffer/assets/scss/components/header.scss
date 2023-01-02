@@ -16,6 +16,10 @@
     --nav-font-size: #{createFluidValue(18px, 24px)};
   }
 
+  @include screen-below($mobile) {
+    --logo-size: 35px;
+  }
+
   &__grid {
     display: flex;
     align-items: center;

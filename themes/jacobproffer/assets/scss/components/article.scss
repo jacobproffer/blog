@@ -25,13 +25,18 @@
   &__thumbnail {
     @include ratio(3, 2);
     order: 1;
+    border-radius: #{createFluidValue(15px, 30px)};
     overflow: hidden;
 
-    img {
-      @include size(100%);
-      object-fit: cover;
-      transition: filter 300ms ease-in-out;
+    .content {
+      inset: -1px;
     }
+  }
+
+  &__thumbnail-image {
+    @include size(100%);
+    object-fit: cover;
+    transition: filter 300ms ease-in-out;
   }
 
   &__link {

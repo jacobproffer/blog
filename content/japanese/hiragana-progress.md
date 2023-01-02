@@ -2,7 +2,7 @@
 title: "Hiragana Progress"
 date: 2018-07-29 14:00:00
 description: "Progress with Hiragana and Russian."
-images: ["images/hiragana_social.jpg"]
+images: ["/images/hiragana_social.jpg"]
 series: ["Japanese"]
 categories: ["japanese"]
 tags: ["japanese", "education"]

@@ -5,6 +5,11 @@
 
   &__grid {
     justify-content: space-evenly;
+    row-gap: 20px;
+
+    @include screen-below($mobile) {
+      flex-direction: column;
+    }
   }
 
   &__copyright {

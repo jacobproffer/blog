@@ -2,7 +2,7 @@
 title: "Learning Hiragana"
 date: 2018-06-27 14:00:00
 description: "Learning Hiragana, a component of the Japanese writing system."
-images: ["images/hiragana_social.jpg"]
+images: ["/images/hiragana_social.jpg"]
 categories: ["japanese"]
 tags: ["japanese", "education"]
 series: ["Japanese"]

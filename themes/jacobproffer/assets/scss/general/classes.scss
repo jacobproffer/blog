@@ -46,6 +46,10 @@
   background-color: var(--gray);
 }
 
+.bg-black {
+  background-color: var(--black);
+}
+
 .b-radius-30 {
   border-radius: 30px;
 }
@@ -84,6 +88,11 @@
     background-color: var(--black);
   }
 }
+
+.grid {
+  display: grid;
+}
+
 
 .flex {
   display: flex;

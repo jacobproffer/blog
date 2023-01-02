@@ -6,7 +6,7 @@
 
   <main>
 
-    <article class="single page-spacing spacing">
+    <article class="single page-spacing">
 
       <div class="container gsap-fade-in">
 
@@ -28,7 +28,7 @@
 
                 <h3>Date</h3>
 
-                <time class="single__date">{{ .Date.Format "Jan 2, 2006" }}</time>
+                <time class="single__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
 
               </li>
 

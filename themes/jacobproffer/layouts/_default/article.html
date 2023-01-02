@@ -37,18 +37,27 @@
 
   </div>
 
-  <div class="article__thumbnail border b-radius-30">
+  {{ if isset .Params "images" }}
 
-    <div class="content">
+    <div class="article__thumbnail border">
 
-      {{ range .Params.images }}
+      <div class="content bg-black">
 
-        <img src="{{ . }}" alt="" loading="lazy">
+          {{ range .Params.images }}
 
-      {{ end }}
+            <img
+              class="article__thumbnail-image"
+              src="{{ . }}"
+              alt=""
+              loading="lazy"
+            >
+
+          {{ end }}
+
+      </div>
 
     </div>
 
-  </div>
+  {{ end }}
 
 </article>
