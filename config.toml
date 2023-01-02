@@ -2,7 +2,7 @@ baseURL = "https://jacobproffer.com/"
 languageCode = "en-us"
 title = "Jacob Proffer"
 theme = "jacobproffer"
-paginate = 8
+paginate = 10
 paginatePath = "posts"
 copyright = "2023"
 
