@@ -9,6 +9,13 @@
     }
   }
 
+  &__container {
+    @include screen-below($tablet) {
+      max-width: 67ch;
+      margin: auto;
+    }
+  }
+
   &__grid {
     --single-grid: 70ch 1fr;
     grid-template-columns: var(--single-grid);

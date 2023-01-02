@@ -10,55 +10,59 @@
 
       <div class="container gsap-fade-in">
 
-        <h1 class="text-shadow">{{ .Title }}</h1>
+        <div class="single__container">
 
-        <div class="single__grid grid">
+          <h1 class="text-shadow">{{ .Title }}</h1>
 
-          <div class="single__content">
+          <div class="single__grid grid">
 
-            {{ .Content }}
+            <div class="single__content">
+
+              {{ .Content }}
+
+            </div>
+
+            <footer class="single__footer">
+
+              <ul class="unstyled-list single__footer-list">
+
+                <li class="single__footer-item flex">
+
+                  <h3>Date</h3>
+
+                  <time class="single__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+
+                </li>
+
+                <li class="single__footer-item flex">
+
+                  <h3>Series</h3>
+
+                  {{ if (.GetTerms "series") }}
+
+                    <ul class="single__tags unstyled-list">
+
+                      {{ range (.GetTerms "series") }}
+
+                        <li class="single__tag">
+                          <a class="category" href="{{ .Permalink }}">
+                            {{ .LinkTitle }}
+                          </a>
+                        </li>
+
+                      {{ end }}
+
+                    </ul>
+
+                  {{ end }}
+
+                </li>
+
+              </ul>
+
+            </footer>
 
           </div>
-
-          <footer class="single__footer">
-
-            <ul class="unstyled-list single__footer-list">
-
-              <li class="single__footer-item flex">
-
-                <h3>Date</h3>
-
-                <time class="single__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-
-              </li>
-
-              <li class="single__footer-item flex">
-
-                <h3>Series</h3>
-
-                {{ if (.GetTerms "series") }}
-
-                  <ul class="single__tags unstyled-list">
-
-                    {{ range (.GetTerms "series") }}
-
-                      <li class="single__tag">
-                        <a class="category" href="{{ .Permalink }}">
-                          {{ .LinkTitle }}
-                        </a>
-                      </li>
-
-                    {{ end }}
-
-                  </ul>
-
-                {{ end }}
-
-              </li>
-
-            </ul>
-
-          </footer>
 
         </div>
 
