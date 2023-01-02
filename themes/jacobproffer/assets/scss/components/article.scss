@@ -26,6 +26,7 @@
     @include ratio(3, 2);
     order: 1;
     border-radius: #{createFluidValue(15px, 30px)};
+    pointer-events: none;
     overflow: hidden;
 
     .content {
