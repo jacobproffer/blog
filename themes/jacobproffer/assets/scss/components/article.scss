@@ -1,9 +1,12 @@
 .article {
   --offset: -15px;
   --background: var(--gray);
-  background-color: var(--background);
+  @include size(100%);
+  z-index: 1;
   row-gap: 20px;
   padding: 20px;
+  background-color: var(--background);
+  overflow: hidden;
   transition: background-color 300ms ease-in-out;
 
   @include hover {
