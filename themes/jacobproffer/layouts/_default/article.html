@@ -10,28 +10,16 @@
 
       </div>
 
-      <div class="article__info-grid-item border-grid-item flex article__type">
-        <h3>Series</h3>
-        <span>{{ .Type | title }}</span>
-      </div>
+      {{ if isset .Params "categories" }}
+
+        <div class="article__info-grid-item border-grid-item flex article__type">
+          <h3>Series</h3>
+          <span>{{ .Type | title }}</span>
+        </div>
+
+      {{ end }}
 
     </div>
-
-    {{ $linkText := "" }}
-
-    {{ if eq .Type "series" }}
-
-      {{ $linkText = "View series" }}
-
-    {{ else if or (eq .Type "tags") (eq .Type "categories") }}
-
-      {{ $linkText = "View articles" }}
-
-    {{ else }}
-
-      {{ $linkText = "View article" }}
-
-    {{ end }}
 
     <a class="article__link absolute-link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
 
