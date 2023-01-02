@@ -12,11 +12,7 @@ I've never flown domestically within another country before this trip to Japan. 
 
 The airlines changed my seat last minute and I ended up in premium economy, right before business. I am unsure if it was an upgrade or to balance out the plane. In any case, the Boeing 787-9 is fantastic. My seat had a few buttons, which turned the chair into a recliner. There also was a slide out tablet, but I fell asleep quickly. I woke up a few minutes prior to touchdown at Osaka International Airport.
 
----
-
 {{< lazy src="/images/japan_airlines.jpg" alt="Japan Airlines Boeing 787-9." >}}
-
----
 
 After I deboarded the plane, I took the monorail into the city. Compared to the prices of buses and taxis, the train is a much cheaper option. The only drawback is that it is much slower due to all of the stops at various stations. That and there's also the complex structure of the Osaka subway system. But from Osaka International Airport, only two steps are required to reach Namba Station. First, take the monorail to Senri-Chūō Station. Then from Senri-Chūō, purchase a ticket to Namba Station.
 

@@ -1,9 +1,11 @@
-<footer class="footer">
-  <div class="container">
+<footer class="footer page-spacing bg-yellow">
 
-    {{ if .Site.Menus.social }}
-      {{ partial "navigation/social.html" . }}
-    {{ end }}
+  <div class="container footer__grid flex">
+
+    <p class="footer__copyright">&copy; Jacob Proffer {{ .Site.Copyright }}</p>
+
+    {{ partial "navigation/social" . }}
 
   </div>
+
 </footer>

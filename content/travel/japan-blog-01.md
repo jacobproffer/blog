@@ -12,19 +12,11 @@ series: ["Japan"]
 
 I remember walking up to my designated gate, K5. The plane was about to reach the jet bridge as I took a seat in the lounge. The engines alone told me that this was a larger aircraft than the CRJs in the area.
 
----
-
 {{< lazy src="/images/japan_01.jpg" alt="Boeing 787 Dreamliner in ORD." >}}
-
----
 
 As boarding commenced, I was anxious. I was curious how I would fair on a long-haul flight. My longest flight duration up to that point was under three hours. But as soon as I figured out the seat-back touchscreen, I was set. I brought up the flight information, which provides a range of in-flight data. You can see distance traveled, distance to destination, air speed, temperature, etc. I then dug into the in-flight entertainment. I started the flight with Baby Driver, my favorite movie of 2017. I also had a celebratory Jack &amp; Coke.
 
----
-
 {{< lazy src="/images/japan_02.jpg" alt="Boeing 787 Dreamliner Flight Map." >}}
-
----
 
 After the credits rolled, I checked the flight information and noticed we were at an altitude of 41,000 feet. It was only around two in the afternoon but it looked dark outside. This was due to the automatic window dim of the Boeing 787. Which I have to say was a comfort. It put me at ease and even made me tired. But I was far too wired to sleep. I watched Shaun of the Dead, A Christmas Story and Guardians of the Galaxy. I also watched Aliens, by far my favorite movie.
 

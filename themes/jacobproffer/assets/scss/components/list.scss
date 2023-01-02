@@ -1,46 +1,23 @@
 .list {
-  &__header {
-    padding: 0 var(--container-gutter) calc(var(--spacing) / 2);
-    text-align: center;
+  --list-grid: repeat(2, 1fr);
+  grid-template-columns: var(--list-grid);
+  border-bottom: 1px solid var(--black);
+
+  @include screen-below($tablet) {
+    --list-grid: 1fr;
   }
 
-  &__post {
-    border: 1px solid var(--color-scheme-text-color);
+  &__item {
+    align-items: start;
 
-    h2 {
-      margin-top: 0;
-      margin: 0 0 10px;
-    }
+    @include screen-above($tablet) {
+      &:nth-of-type(odd) {
+        border-right: 1px solid var(--black);
+      }
 
-    a {
-      display: block;
-      padding: 40px;
-      height: 100%;
-    }
-
-    p {
-      margin: 0;
-    }
-  }
-
-  &__pagination {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 40ch;
-    margin: 80px auto auto;
-
-    li[aria-current="page"] {
-      outline: 1px solid var(--color-scheme-text-color);
-    }
-
-    li[aria-current="page"],
-    a {
-      padding: 4px 8px;
-    }
-
-    a {
-      display: block;
+      &:not(:nth-child(-1n+2)) {
+        border-top: 1px solid var(--black);
+      }
     }
   }
 }

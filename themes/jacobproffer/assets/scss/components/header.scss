@@ -1,44 +1,61 @@
 .main-header {
+  --logo-size: 50px;
+  --header-padding: 20px;
+  --nav-font-size: #{createFluidValue(18px, 32px)};
   @include size(100%, auto);
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 9;
-  padding: 25px 0;
-  overflow-y: visible;
-  transition: padding 300ms ease-in-out, transform 300ms ease-in-out, color 300ms ease-in-out;
-  will-change: transform;
+  z-index: 2;
+  padding: var(--header-padding) 0;
+  transition: padding 300ms ease-in-out;
 
-  a {
+  &--pinned {
+    --logo-size: 35px;
+    --header-padding: 10px;
+    --nav-font-size: #{createFluidValue(18px, 24px)};
+  }
+
+  @include screen-below($mobile) {
+    --logo-size: 35px;
+  }
+
+  &__grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    @include size(var(--logo-size));
     display: block;
+    transition: width 300ms ease-in-out, height 300ms ease-in-out, color 300ms ease-in-out;
 
-    &[aria-current="page"] {
-      text-decoration: underline;
+    @include hover {
+      color: var(--hit);
     }
   }
 
-  &.unpinned {
-    transform: translateY(-100px);
+  &__nav-list {
+    display: flex;
   }
 
-  &.pinned {
-    padding: 12px 0;
-    color: var(--white);
-    background-color: var(--black);
-    transform: translateY(0);
+  &__nav-item {
+    &:not(:last-of-type) {
+      margin-right: #{createFluidValue(20px, 40px)};
+    }
   }
 
-  &__skip-link {
-    position: fixed;
-    top: -10em;
-    left: 50%;
-    padding: 16px 24px;
-    border: 1px solid var(--color-scheme-text-color);
-    transform: translateX(-50%);
-    transition: top 300ms ease-in-out;
+  &__nav-link {
+    --underline-focus: var(--black);
+    position: relative;
+    display: block;
+    font-size: var(--nav-font-size);
+    transition: font-size 300ms ease-in-out;
 
-    &:focus {
-      top: 0;
+    &[aria-current="page"] {
+      --underline-opacity: 1;
+      --underline-color: var(--black);
     }
   }
 }

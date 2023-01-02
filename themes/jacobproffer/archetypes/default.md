@@ -2,10 +2,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 description: "Post description"
-images:
-  -
-thumbnail:
-  -
-categories: []
+images: [""]
+thumbnail: [""]
+categories: [""]
 draft: true
 ---

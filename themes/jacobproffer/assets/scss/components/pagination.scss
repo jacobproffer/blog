@@ -1,41 +1,31 @@
 .pagination {
-  position: relative;
-  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  max-width: max-content;
+  margin: 50px auto;
 
-  &--post {
-    &::before {
-      @include size(1px, 100%);
-      position: absolute;
-      top: 0;
-      left: 50%;
-      background-color: var(--border);
-      content: '';
-      transform: translateX(-50%);
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    &[aria-current="page"] {
+      @include size(50px);
+      color: var(--yellow);
+      background-color: var(--black);
+      border-radius: 50%;
     }
   }
-}
 
-.pagination-item {
-  padding: 45px 0;
-  font-family: var(--sans-serif);
-  font-size: 1.25rem;
-  font-weight: 700;
+  &__link {
+    @include size(50px);
+    border-radius: 50%;
 
-  &--prev {
-    padding-left: var(--container-gutter);
-  }
-
-  &--next {
-    padding-right: var(--container-gutter);
-    text-align: right;
-  }
-
-  span {
-    display: block;
-    font-family: var(--mono);
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 2;
-    color: var(--gray);
+    &:focus {
+      outline: 1px dashed var(--black);
+      outline-offset: 2px;
+    }
   }
 }

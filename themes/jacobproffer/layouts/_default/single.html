@@ -1,64 +1,103 @@
+{{ define "title" }}
+  {{ .Title }} - {{ .Site.Title }}
+{{ end }}
+
 {{ define "main" }}
 
-  <div class="spacing">
-    <main id="content">
-      <article class="post container container--small">
+  <main>
 
-        <header>
-          <h1>{{ .Title }}</h1>
-        </header>
+    <article class="single page-spacing">
 
-        <p class="post__date">
-          <strong>Posted: </strong>
-          <time class="post__date">{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-        </p>
+      <div class="container gsap-fade-in">
 
-        {{ .Content }}
+        <h1 class="text-shadow">{{ .Title }}</h1>
 
-        <footer class="post__footer">
+        <div class="single__grid grid">
 
-          <h2 class="subheading">Tags</h2>
+          <div class="single__content">
 
-          {{ if (.GetTerms "tags") }}
-            <ul class="tags unstyled-list">
+            {{ .Content }}
 
-              {{ range (.GetTerms "tags") }}
-                <li>
-                  <a class="category" href="{{ .Permalink }}">
-                    {{ .LinkTitle }}
-                  </a>
+          </div>
+
+          <footer class="single__footer">
+
+            <ul class="unstyled-list single__footer-list">
+
+              <li class="single__footer-item flex">
+
+                <h3>Date</h3>
+
+                <time class="single__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+
+              </li>
+
+              <li class="single__footer-item flex">
+
+                <h3>Series</h3>
+
+                {{ if (.GetTerms "series") }}
+
+                  <ul class="single__tags unstyled-list">
+
+                    {{ range (.GetTerms "series") }}
+
+                      <li class="single__tag">
+                        <a class="category" href="{{ .Permalink }}">
+                          {{ .LinkTitle }}
+                        </a>
+                      </li>
+
+                    {{ end }}
+
+                  </ul>
+
+                {{ end }}
+
+              </li>
+
+            </ul>
+
+          </footer>
+
+        </div>
+
+      </div>
+
+    </article>
+
+  </main>
+
+  {{ $related := .Site.RegularPages.Related . | first 4 }}
+
+  {{ if gt (len $related) 1 }}
+
+    <aside class="related page-spacing border-bottom">
+      <div class="container">
+        <div class="single__container">
+
+          {{ $related := .Site.RegularPages.Related . | first 4 }}
+
+          {{ with $related }}
+
+            <h2 class="related__headline gsap-fade-in">Related Posts</h2>
+
+            <ul class="unstyled-list grid border-grid border-top-bottom gsap-fade-in">
+
+              {{ range . }}
+                <li class="border-grid-item">
+                  {{ .Render "article-related" }}
                 </li>
               {{ end }}
 
             </ul>
+
           {{ end }}
 
-
-        </footer>
-
-      </article>
-    </main>
-
-    <aside class="container container--small">
-      {{ $related := .Site.RegularPages.Related . | first 4 }}
-
-      {{ with $related }}
-
-        <h2 class="subheading">Related Posts</h2>
-
-        <ul class="unstyled-list grid grid--list">
-
-          {{ range . }}
-            <li class="list__post gray-hover">
-              {{ .Render "article-related" }}
-            </li>
-          {{ end }}
-
-        </ul>
-
-      {{ end }}
+        </div>
+      </div>
     </aside>
 
-  </div>
+  {{ end }}
 
 {{ end }}

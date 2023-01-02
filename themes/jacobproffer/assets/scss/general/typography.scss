@@ -1,33 +1,26 @@
 h1,
 h2,
 h3 {
-  font-family: var(--sans-serif);
+  font-weight: var(--weight-medium);
 }
 
-h1 {
-  @include font-size($h1-font-sizes);
-  margin: 0;
-
-  & + span {
-    display: block;
-    margin-top: 10px;
-  }
+h1,
+.h1 {
+  --h1-sizes: clamp(2.00rem, calc(1.47rem + 2.25vw), 4.00rem);
+  font-size: var(--h1-sizes);
 }
 
-h2,
-.h2 {
-  @include font-size($h2-font-sizes);
+h2 {
+  --h2-sizes: clamp(1.50rem, calc(1.11rem + 1.68vw), 3.00rem);
+  margin: 1rem 0;
+  font-size: var(--h2-sizes);
 }
 
-.h2 {
-  margin: 0;
-}
-
+h1,
 h3 {
-  @include font-size($h3-font-sizes);
+  margin: 0;
 }
 
 p {
-  max-width: 80ch;
   line-height: 1.8;
 }

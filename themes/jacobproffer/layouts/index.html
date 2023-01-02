@@ -1,60 +1,64 @@
+{{ define "title" }}
+  {{ .Site.Title }} - Blog
+{{ end }}
+
 {{ define "main" }}
 
-  <div class="spacing">
-    <main id="content">
-      <article class="list container">
+{{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
 
-        <header class="list__header">
-          <h1>All Posts</h1>
-        </header>
+  <main>
 
-        <ul class="unstyled-list grid grid--list">
+    <section>
 
-          {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
+      <h1 class="visually-hide">Latest Posts</h1>
 
-          {{ range $index, $page := $paginator.Pages }}
+      <ul class="unstyled-list list grid">
 
-            <li class="list__post gray-hover">
+        {{ range $index, $page := $paginator.Pages }}
 
-              {{ .Render "article" }}
+          <li class="list__item grid relative">
 
-            </li>
+            {{ .Render "article" }}
 
-          {{ end }}
+          </li>
 
-        </ul>
+        {{ end }}
 
-        <footer>
-          <nav aria-label="pagination">
-            <ul class="unstyled-list list__pagination" class="unstyled-list">
+      </ul>
 
-              {{ range $paginator.Pagers }}
+      {{ if gt (len $paginator.Pagers) 1  }}
 
-                {{ if eq . $paginator}}
-                  <li aria-current="page">
-                    <span class="visually-hide">Page</span>
+        <nav class="border-bottom" aria-label="pagination">
+          <ul class="unstyled-list pagination gsap-stagger-in">
+
+            {{ range $paginator.Pagers }}
+
+              {{ if eq . $paginator}}
+                <li class="pagination__item flex-center border" aria-current="page">
+                  <span class="visually-hide">Page</span>
+                  {{ .PageNumber }}
+                </li>
+              {{ else }}
+                <li class="pagination__item flex-center">
+                  <a
+                    class="pagination__link link-hover flex-center"
+                    href="{{ .URL }}"
+                    aria-label="Go to page {{ .PageNumber }}."
+                  >
                     {{ .PageNumber }}
-                  </li>
-                {{ else }}
-                  <li>
-                    <a
-                      class="list__pagination-number"
-                      href="{{ .URL }}"
-                      aria-label="Go to page {{ .PageNumber }}."
-                    >
-                      {{ .PageNumber }}
-                    </a>
-                  </li>
-                {{ end }}
-
+                  </a>
+                </li>
               {{ end }}
 
-            </ul>
-          </nav>
-        </footer>
+            {{ end }}
 
-      </article>
-    </main>
-  </div>
+          </ul>
+        </nav>
+
+      {{ end }}
+
+    </section>
+
+  </main>
 
 {{ end }}

@@ -14,11 +14,7 @@ The destination for the day was Shibuya. Unlike Akihabara in the Chiyoda ward, S
 
 To get to the coffee shop, I had to cross the intersection myself. Which at nine in the morning, was not chaotic. There were only a few dozen people on the massive crosswalks. I ordered an ice coffee at Starbucks and found a lucky spot on the second floor. From my position, I had a wide view of the intersection. For two hours, I people watched while Shibuya came to life.
 
----
-
 {{< lazy src="/images/shibuya_crossing.jpg" alt="Shibuya crossing." >}}
-
----
 
 Around eleven, I walked over to a small boutique called Postalco. The store sells a variety of high quality paper products, wallets, rainwear and even bags. Since it was so early in the day, I was the only customer at the time. An employee came over and introduced himself. He asked me to write my name down on a piece of paper, so that he could pronounce it. We conversed and I explained to him how I had found out about Postalco through research on Shibuya. Afterwards, I browsed around the store and found a small yellow notebook that I wanted.
 
@@ -26,11 +22,7 @@ In the afternoon, I went to the Mandarake in Shibuya. Similar to the Akihabara l
 
 With a backpack on, it was difficult to navigate through an aisle. This is because the aisles in the Shibuya location are more narrow. If I wanted to bend down to view an item, I had to be careful to not hit any items behind me. It was a bit of a process. But I did manage to find a range of interests. There were Walking Dead comics in Japanese and a range of Zoid model kits. I was tempted to purchase a used Hot Toys xenomorph but I did not have enough yen on hand.
 
----
-
 {{< lazy src="/images/mandarake_xenomorph.jpg" alt="Xenomorph toy in Mandarake." >}}
-
----
 
 Once finished at Mandarake, I was on the hunt for food. The trouble was there were so many options in Shibuya. Whole streets were dedicated to restaurants. Oddly enough, I settled on pizza. More so because I wanted to try it in Japan. But there was no difference than the pizza back home. The pie was handmade, delicious and cost less than two-thousand yen. For desert, I had my first crepe at Dipper Dan for five-hundred yen. The booth was located next to Mandarake, tucked into a small food court. I chose the Oreo option, which was delightful.
 
@@ -38,11 +30,7 @@ With lunch paid for, I was low on yen. I had only brought around twenty-thousand
 
 But the great aspect of the Shibuya ward is that the majority of the sights around the city are free. High on my list to see was the Hachikō Memorial Statue, which is located near Shibuya Station. The statue is of an Akita dog, who is remembered for his absolute loyalty to his master. From what I've seen throughout Shibuya, it is by far the most popular attraction. There is a constant crowd in front of the statue in the afternoon, which makes it difficult to photograph.
 
----
-
 {{< lazy src="/images/shibuya_hachiko.jpg" alt="Hachikō Memorial Statue." >}}
-
----
 
 Around four in the afternoon, I returned to Shinjuku. I went straight to Tohoe Cinemas to see the new Godzilla movie. The theater ticket booths were automatic, which was unique. The downside, for me, was that there wasn't an English translation that I could find. Thankfully, as with Shinjuku Station, the service staff helped me. I purchased my ticket and walked around the lobby for a bit. There was a small gift shop with Godzilla merchandise and a row of gachapon machines. I tried one of the machines and received a small figurine of Godzilla.
 

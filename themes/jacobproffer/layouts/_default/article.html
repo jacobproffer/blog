@@ -1,14 +1,63 @@
-<article>
-  <a class="list__permalink" href="{{ .Permalink }}">
+<article class="article grid relative gsap-fade-in">
 
-    <h2>{{ .Title }}</h2>
+  <div class="article__copy">
 
-    {{ if .IsPage }}
-      <p>
-        <strong>Posted: </strong>
-        <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
-      </p>
+    <div class="relative grid border-top-bottom border-grid">
+
+      <div class="article__info-grid-item border-grid-item article__headline">
+
+        <h2 class="article__headline">{{ .Title }}</h2>
+
+      </div>
+
+      <div class="article__info-grid-item border-grid-item flex article__type">
+        <h3>Series</h3>
+        <span>{{ .Type | title }}</span>
+      </div>
+
+    </div>
+
+    {{ $linkText := "" }}
+
+    {{ if eq .Type "series" }}
+
+      {{ $linkText = "View series" }}
+
+    {{ else if or (eq .Type "tags") (eq .Type "categories") }}
+
+      {{ $linkText = "View articles" }}
+
+    {{ else }}
+
+      {{ $linkText = "View article" }}
+
     {{ end }}
 
-  </a>
+    <a class="article__link absolute-link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
+
+  </div>
+
+  {{ if isset .Params "images" }}
+
+    <div class="article__thumbnail border">
+
+      <div class="content bg-black">
+
+          {{ range .Params.images }}
+
+            <img
+              class="article__thumbnail-image"
+              src="{{ . }}"
+              alt=""
+              loading="lazy"
+            >
+
+          {{ end }}
+
+      </div>
+
+    </div>
+
+  {{ end }}
+
 </article>

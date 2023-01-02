@@ -1,22 +1,13 @@
 <nav aria-label="primary">
-  <ul class="unstyled-list navigation-list grid grid--two-column">
-
-    <li class="justify-start">
-      <a
-        href="{{ .Site.BaseURL }}"
-        {{ if .IsHome }}
-          aria-current="page"
-        {{ end }}
-      >
-        Home
-      </a>
-    </li>
+  <ul class="unstyled-list main-header__nav-list">
 
     {{ $currentPage := . }}
 
     {{ range .Site.Menus.main }}
+
       <li class="main-header__nav-item justify-end">
         <a
+          class="link-styling main-header__nav-link border-hover"
           href="{{ .URL }}"
           {{ if $currentPage.IsMenuCurrent "main" . }}
             aria-current="page"
@@ -25,6 +16,7 @@
           {{ .Name }}
         </a>
       </li>
+
     {{ end }}
 
   </ul>

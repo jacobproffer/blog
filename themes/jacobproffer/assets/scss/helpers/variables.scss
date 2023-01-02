@@ -1,0 +1,14 @@
+$desktop: 1800px;
+$desktopSm: 1600px;
+$laptop: 1440px;
+$laptopSm: 1260px;
+$tablet: 1080px;
+$portrait: 880px;
+$mobile: 767px;
+$mobile-sm: 580px;
+$mobile-x-sm: 470px;
+
+// Usage
+// The createFluidValue function defaults to these values for the min/max screen sizes
+$fluid-min-screen: 375px;
+$fluid-max-screen: 1800px;

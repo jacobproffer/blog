@@ -1,0 +1,67 @@
+.article {
+  --offset: -15px;
+  --background: var(--gray);
+  background-color: var(--background);
+  row-gap: 20px;
+  padding: 20px;
+  transition: background-color 300ms ease-in-out;
+
+  @include hover {
+    --background: var(--hit);
+
+    img {
+      filter: blur(2px);
+    }
+  }
+
+  &__headline {
+    margin: 0;
+  }
+
+  &__copy {
+    order: 2;
+  }
+
+  &__thumbnail {
+    @include ratio(3, 2);
+    order: 1;
+    border-radius: #{createFluidValue(15px, 30px)};
+    overflow: hidden;
+
+    .content {
+      inset: -1px;
+    }
+  }
+
+  &__thumbnail-image {
+    @include size(100%);
+    object-fit: cover;
+    transition: filter 300ms ease-in-out;
+  }
+
+  &__link {
+    &:focus {
+      outline: 2px dashed var(--black);
+      outline-offset: -4px;
+    }
+  }
+
+  &__headline {
+    order: 2;
+  }
+
+  &__type {
+    order: 1;
+    justify-content: space-between;
+  }
+
+  &__info-grid {
+    border-top: 2px solid var(--black);
+    border-bottom: 2px solid var(--black);
+  }
+
+  &__info-grid-item {
+    background-color: var(--background);
+    transition: background-color 300ms ease-in-out;
+  }
+}

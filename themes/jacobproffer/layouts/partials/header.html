@@ -1,11 +1,10 @@
-<header class="main-header">
+<header class="main-header bg-yellow border-bottom">
   <div class="container">
-
-    <a class="main-header__skip-link" href="#content">Skip to Main Content</a>
-
-    {{ if .Site.Menus.main }}
+    <div class="main-header__grid">
+      <a class="main-header__logo" href="/" aria-label="Go to home">
+        {{ partial "logo" }}
+      </a>
       {{ partial "navigation/main.html" . }}
-    {{ end }}
-
+    </div>
   </div>
 </header>

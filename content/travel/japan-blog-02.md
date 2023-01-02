@@ -20,11 +20,7 @@ Once through the door, I spotted a sign that directed me to customs. The sign wa
 
 After I cleared customs, I entered the airport lobby. This was the moment where it truly hit me that I was in Japan. I was off my on own, free to go wherever. I had an initial emotion of mixed panic and confusion. But I told to myself to calm down and to just think about what I needed to do first, which was to locate the railway. I saw a sign with a bus symbol that pointed downward and found the nearest escalator. On this floor, I found a range of ticket booths and counters for various different railways. I chose the Skyliner.
 
----
-
 {{< lazy src="/images/skyliner_ticket.jpg" alt="Skyliner Ticket." >}}
-
----
 
 Purchasing my ticket presented me with the first opportunity to spend a bit of the Yen that I had on hand. The ticket cost me a little over 3,000 Yen, which is about twenty seven dollars in US currency. At first, I was concerned that all ticket prices for the subway were going to be this high. But the ticket agent explained that the normal subway tickets for the JR Line are only a couple hundred Yen. The ticket for the Skyline is pricier due to trip length, which was to be about an hour or so. The agent also explained to me that I needed to get off at a certain station and transfer to the JR line for Shinjuku.
 

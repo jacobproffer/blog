@@ -1,10 +1,10 @@
 <nav aria-label="social">
-  <ul class="unstyled-list navigation-list">
+  <ul class="unstyled-list footer__list">
 
     {{ range .Site.Menus.social }}
-      <li class="footer__list-item">
+      <li class="footer__list-item relative">
         <a
-          class="footer__list-link"
+          class="footer__list-link border-hover"
           href="{{ .URL }}"
           target="_blank"
           rel=”noopener”

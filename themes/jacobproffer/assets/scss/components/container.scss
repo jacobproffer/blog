@@ -2,10 +2,4 @@
   max-width: var(--container);
   margin-left: auto;
   margin-right: auto;
-
-  &--small {
-    @include screen-above(1024px) {
-      max-width: 670px;
-    }
-  }
 }

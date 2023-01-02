@@ -1,29 +1,74 @@
+{{ define "title" }}
+
+  {{ if eq .Title "Japaneses" }}
+    Japanese - {{ .Site.Title }}
+  {{ else }}
+    {{ .Title | singularize  }} - {{ .Site.Title }}
+  {{ end }}
+
+{{ end }}
+
 {{ define "main" }}
 
-  <div class="spacing">
-    <main id="content">
-      <section class="list container">
+{{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") }}
 
-        <header class="list__header">
-          <h1>{{ .Title }}</h1>
-        </header>
+  <main>
 
-        <ul class="unstyled-list grid grid--list">
+    <section>
 
-          {{ range .Pages }}
+      {{ if eq .Title "Japaneses" }}
+        <h1 class="visually-hide">Japanese</h1>
+      {{ else }}
+        <h1 class="visually-hide">{{ .Title | singularize }}</h1>
+      {{ end }}
 
-            <li class="list__post gray-hover">
+      <ul class="unstyled-list list grid gsap-fade-in">
 
-              {{ .Render "article" }}
+        {{ range $index, $page := $paginator.Pages }}
 
-            </li>
+          <li class="list__item grid relative">
 
-          {{ end }}
+            {{ .Render "article" }}
 
-        </ul>
+          </li>
 
-      </section>
-    </main>
-  </div>
+        {{ end }}
+
+      </ul>
+
+      {{ if gt (len $paginator.Pagers) 1  }}
+
+        <nav class="border-bottom" aria-label="pagination">
+          <ul class="unstyled-list pagination gsap-stagger-in">
+
+            {{ range $paginator.Pagers }}
+
+              {{ if eq . $paginator}}
+                <li class="pagination__item flex-center border" aria-current="page">
+                  <span class="visually-hide">Page</span>
+                  {{ .PageNumber }}
+                </li>
+              {{ else }}
+                <li class="pagination__item flex-center">
+                  <a
+                    class="pagination__link link-hover flex-center"
+                    href="{{ .URL }}"
+                    aria-label="Go to page {{ .PageNumber }}."
+                  >
+                    {{ .PageNumber }}
+                  </a>
+                </li>
+              {{ end }}
+
+            {{ end }}
+
+          </ul>
+        </nav>
+
+      {{ end }}
+
+    </section>
+
+  </main>
 
 {{ end }}

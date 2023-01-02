@@ -1,6 +1,5 @@
-<article>
-  <a class="list__permalink" href="{{ .Permalink }}">
-    <h3 class="h2">{{ .Title }}</h3>
-    <small>{{ .ReadingTime }} minute read</small>
-  </a>
+<article class="single-related relative flex">
+  <h3 class="h2">{{ .Title }}</h3>
+  <small>{{ .ReadingTime }} minute read</small>
+  <a class="absolute-link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
 </article>
