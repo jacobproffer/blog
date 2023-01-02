@@ -38,13 +38,18 @@
 }
 
 body {
+  --body-offset: 91px;
   position: relative;
   margin: 0;
   color: var(--black);
   background-color: var(--gray);
-  margin-top: 91px;
+  margin-top: var(--body-offset);
   font-family: var(--body-copy-font);
   font-size: 16px;
+
+  @include screen-below($mobile) {
+    --body-offset: 76px;
+  }
 }
 
 img {
