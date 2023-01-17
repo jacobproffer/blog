@@ -2,18 +2,13 @@
 
   <div class="article__copy">
 
-    <div class="relative grid border-top-bottom border-grid">
+    <div class="relative grid">
 
-      <div class="article__info-grid-item border-grid-item article__headline">
-
-        <h2 class="article__headline">{{ .Title }}</h2>
-
-      </div>
+      <h3 class="article__headline">{{ .Title }}</h3>
 
       {{ if isset .Params "categories" }}
 
-        <div class="article__info-grid-item border-grid-item flex article__type">
-          <h3>Series</h3>
+        <div class="article__type">
           <span>{{ .Type | title }}</span>
         </div>
 
@@ -21,13 +16,13 @@
 
     </div>
 
-    <a class="article__link absolute-link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
+    <a class="article__link pseudo-link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
 
   </div>
 
   {{ if isset .Params "images" }}
 
-    <div class="article__thumbnail border">
+    <div class="article__thumbnail">
 
       <div class="content bg-black">
 

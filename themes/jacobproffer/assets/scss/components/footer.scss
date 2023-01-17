@@ -1,6 +1,5 @@
 .footer {
   padding: 40px 0;
-  color: var(--yellow);
   background-color: var(--black);
 
   &__grid {
@@ -26,9 +25,5 @@
     &:not(:last-of-type) {
       margin-right: 20px;
     }
-  }
-
-  &__list-link {
-    font-size: #{createFluidValue(18px, 24px)};
   }
 }

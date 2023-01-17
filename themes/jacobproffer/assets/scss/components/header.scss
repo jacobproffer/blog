@@ -1,19 +1,18 @@
 .main-header {
-  --logo-size: 50px;
   --header-padding: 20px;
-  --nav-font-size: #{createFluidValue(18px, 32px)};
+  --header-background: rgba(0, 0, 0, 0);
   @include size(100%, auto);
   position: fixed;
   top: 0;
   left: 0;
   z-index: 2;
   padding: var(--header-padding) 0;
+  background-color: var(--header-background);
   transition: padding 300ms ease-in-out;
 
   &--pinned {
-    --logo-size: 35px;
     --header-padding: 10px;
-    --nav-font-size: #{createFluidValue(18px, 24px)};
+    --header-background: rgba(0, 0, 0, 1);
   }
 
   @include screen-below($mobile) {
@@ -27,9 +26,9 @@
   }
 
   &__logo {
-    @include size(var(--logo-size));
     display: block;
-    transition: width 300ms ease-in-out, height 300ms ease-in-out, color 300ms ease-in-out;
+    font-weight: var(--weight-medium);
+    transition: color 300ms ease-in-out;
 
     @include hover {
       color: var(--hit);
@@ -47,15 +46,9 @@
   }
 
   &__nav-link {
-    --underline-focus: var(--black);
+    --underline-focus: var(--white);
     position: relative;
     display: block;
-    font-size: var(--nav-font-size);
-    transition: font-size 300ms ease-in-out;
-
-    &[aria-current="page"] {
-      --underline-opacity: 1;
-      --underline-color: var(--black);
-    }
+    font-size: rem(14);
   }
 }

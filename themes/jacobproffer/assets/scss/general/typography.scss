@@ -11,9 +11,8 @@ h1,
 }
 
 h2 {
-  --h2-sizes: clamp(1.50rem, calc(1.11rem + 1.68vw), 3.00rem);
   margin: 1rem 0;
-  font-size: var(--h2-sizes);
+  font-size: #{createFluidValue(24px, 32px)};
 }
 
 h1,

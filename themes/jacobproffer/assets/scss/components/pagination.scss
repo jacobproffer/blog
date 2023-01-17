@@ -1,11 +1,13 @@
 .pagination {
+  --pagination-color: var(--gray);
   display: flex;
   justify-content: space-evenly;
   gap: 20px;
   max-width: max-content;
-  margin: 50px auto;
+  margin: #{createFluidValue(50px, 100px)} auto #{createFluidValue(25px, 50px)};
 
   &__item {
+    --item-color: var(--gray);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,14 +15,15 @@
 
     &[aria-current="page"] {
       @include size(50px);
-      color: var(--yellow);
-      background-color: var(--black);
+      --pagination-color: var(--white);
+      background: var(--gradient-brown-to-green);
       border-radius: 50%;
     }
   }
 
   &__link {
     @include size(50px);
+    color: var(--pagination-color);
     border-radius: 50%;
 
     &:focus {

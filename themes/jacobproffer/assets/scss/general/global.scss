@@ -1,10 +1,12 @@
 :root {
   --container: 1440px;
   --container-gutter: calc((100vw - var(--container)) / 2);
-  --black: #231f20;
-  --gray: #c8cbcd;
+  --black: #000;
+  --white: #fff;
+  --gray: #7f7f7f;
   --yellow: #fbf9f3;
   --hit: #ac8c64;
+  --gradient-brown-to-green: linear-gradient(270deg,rgba(131, 235, 149, .6) -2.78%,rgba(255, 179, 64, .6) 99.99%,#ff8469);
 
   --body-copy-font: "Work Sans", sans-serif;
 
@@ -41,8 +43,8 @@ body {
   --body-offset: 91px;
   position: relative;
   margin: 0;
-  color: var(--black);
-  background-color: var(--gray);
+  color: var(--white);
+  background-color: var(--black);
   margin-top: var(--body-offset);
   font-family: var(--body-copy-font);
   font-size: 16px;

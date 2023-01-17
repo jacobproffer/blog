@@ -1,19 +1,17 @@
 .article {
   --offset: -15px;
-  --background: var(--gray);
+  --image-opacity: .8;
   @include size(100%);
   z-index: 1;
   row-gap: 20px;
-  padding: 20px;
-  background-color: var(--background);
   overflow: hidden;
-  transition: background-color 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
 
   @include hover {
-    --background: var(--hit);
+    --image-opacity: 1;
 
     img {
-      filter: blur(2px);
+      transform: scale(1.1);
     }
   }
 
@@ -28,9 +26,9 @@
   &__thumbnail {
     @include ratio(3, 2);
     order: 1;
-    border-radius: #{createFluidValue(15px, 30px)};
     pointer-events: none;
     overflow: hidden;
+    opacity: var(--image-opacity);
 
     .content {
       inset: -1px;
@@ -40,12 +38,13 @@
   &__thumbnail-image {
     @include size(100%);
     object-fit: cover;
-    transition: filter 300ms ease-in-out;
+    opacity: var(--image-opacity);
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
   }
 
   &__link {
     &:focus {
-      outline: 2px dashed var(--black);
+      outline: 2px dashed var(--white);
       outline-offset: -4px;
     }
   }
@@ -55,17 +54,9 @@
   }
 
   &__type {
-    order: 1;
-    justify-content: space-between;
-  }
-
-  &__info-grid {
-    border-top: 2px solid var(--black);
-    border-bottom: 2px solid var(--black);
-  }
-
-  &__info-grid-item {
-    background-color: var(--background);
-    transition: background-color 300ms ease-in-out;
+    order: 3;
+    margin-top: 10px;
+    color: var(--gray);
+    font-size: rem(14);
   }
 }

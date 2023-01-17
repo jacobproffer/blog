@@ -100,7 +100,7 @@
 
 .border-grid {
   row-gap: 1px;
-  background-color: var(--black);
+  background-color: var(--white);
 }
 
 .border-grid-item {
@@ -109,8 +109,8 @@
 }
 
 .border-top-bottom {
-  border-top: 2px solid var(--black);
-  border-bottom: 2px solid var(--black);
+  border-top: 2px solid var(--white);
+  border-bottom: 2px solid var(--white);
 }
 
 .gsap-fade-in {
@@ -123,29 +123,78 @@
   }
 }
 
-.border-hover {
-  --underline-opacity: 0;
-  --underline-color: rgba(0, 0, 0, 0);
-  --underline-focus: var(--yellow);
+.uppercase {
+  text-transform: uppercase;
+}
+
+.nav-item {
+  --item-width: 1ch;
+  --item-color: var(--gray);
+  position: relative;
+  display: block;
+  color: var(--item-color);
+  letter-spacing: .2rem;
+  text-transform: uppercase;
+  transition: color 300ms ease-in-out, outline 150ms ease-in-out;
 
   &::before {
-    @include size(100%, 2px);
     position: absolute;
+    bottom: -3px;
     left: 0;
-    bottom: -4px;
-    opacity: var(--underline-opacity);
-    background-color: var(--underline-color);
-    transition: background-color 300ms ease-in-out, opacity 300ms ease-in-out;
+    width: var(--item-width);
+    height: 1px;
+    background: var(--item-background, var(--white));
+    opacity: var(--item-border-opacity, 1);
+    transition: width 300ms ease-in-out;
     content: "";
   }
 
-  &:focus {
-    outline: 2px dashed var(--underline-focus);
-    outline-offset: -4px;
+  &[aria-current="page"] {
+    --item-width: 100%;
+    --item-background: var(--gradient-brown-to-green);
+    --item-color: var(--white);
   }
 
   @include hover {
-    --underline-opacity: 1;
-    --underline-color: var(--hit);
+    --item-width: 100%;
+    --item-background: var(--gradient-brown-to-green);
+    --item-color: var(--white);
+  }
+}
+
+.corner-border-wrap {
+  position: absolute;
+  inset: var(--border-offset, -.5px);
+  transition: inset 300ms ease-in-out;
+}
+
+.corner-border {
+  @include size(4px);
+  position: absolute;
+  z-index: 2;
+  border: 1px solid var(--white);
+
+  &--top-left,
+  &--top-right {
+    top: 0;
+    border-bottom: none;
+  }
+
+  &--bottom-left,
+  &--bottom-right {
+    bottom: 0;
+    border-top: none;
+  }
+
+  &--top-left,
+  &--bottom-left {
+    left: 0;
+    border-right: none;
+  }
+
+  &--top-right,
+  &--bottom-right {
+    right: 0;
+    border-left: none;
   }
 }

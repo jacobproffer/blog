@@ -8,23 +8,33 @@
 
   <main>
 
+    {{/*  <section>
+      <div class="container">
+        <h1>Jacob Proffer</h1>
+      </div>
+    </section>  */}}
+
     <section>
 
-      <h1 class="visually-hide">Latest Posts</h1>
+      <div class="container">
 
-      <ul class="unstyled-list list grid">
+        <h2 class="list__headline">Latest Posts</h2>
 
-        {{ range $index, $page := $paginator.Pages }}
+        <ul class="unstyled-list list grid">
 
-          <li class="list__item grid relative">
+          {{ range $index, $page := $paginator.Pages }}
 
-            {{ .Render "article" }}
+            <li class="list__item grid relative">
 
-          </li>
+              {{ .Render "article" }}
 
-        {{ end }}
+            </li>
 
-      </ul>
+          {{ end }}
+
+        </ul>
+
+      </div>
 
       {{ if gt (len $paginator.Pagers) 1  }}
 

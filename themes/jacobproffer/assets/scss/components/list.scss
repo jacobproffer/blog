@@ -1,23 +1,17 @@
 .list {
   --list-grid: repeat(2, 1fr);
   grid-template-columns: var(--list-grid);
-  border-bottom: 1px solid var(--black);
+  gap: #{createFluidValue(25px, 100px)} #{createFluidValue(32px, 64px)};
 
   @include screen-below($tablet) {
     --list-grid: 1fr;
   }
 
+  &__headline {
+    margin-bottom: #{createFluidValue(30px, 60px)};
+  }
+
   &__item {
     align-items: start;
-
-    @include screen-above($tablet) {
-      &:nth-of-type(odd) {
-        border-right: 1px solid var(--black);
-      }
-
-      &:not(:nth-child(-1n+2)) {
-        border-top: 1px solid var(--black);
-      }
-    }
   }
 }
