@@ -18,3 +18,13 @@
 .fade-in {
   animation-name: fade-in;
 }
+
+.gsap-fade-in {
+  visibility: hidden;
+}
+
+.gsap-stagger-in {
+  > * {
+    visibility: hidden;
+  }
+}

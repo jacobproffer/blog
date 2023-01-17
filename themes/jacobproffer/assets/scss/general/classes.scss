@@ -16,14 +16,6 @@
   text-align: center;
 }
 
-.border {
-  border: 1px solid var(--black);
-}
-
-.border-bottom {
-  border-bottom: 1px solid var(--black);
-}
-
 .spacing {
   padding: 20px;
 }
@@ -38,20 +30,8 @@
   text-align: center;
 }
 
-.bg-yellow {
-  background-color: var(--yellow);
-}
-
-.bg-gray {
-  background-color: var(--gray);
-}
-
 .bg-black {
   background-color: var(--black);
-}
-
-.b-radius-30 {
-  border-radius: 30px;
 }
 
 .pseudo-link {
@@ -96,31 +76,6 @@
 
 .flex {
   display: flex;
-}
-
-.border-grid {
-  row-gap: 1px;
-  background-color: var(--white);
-}
-
-.border-grid-item {
-  padding: 10px 0;
-  background-color: var(--background, var(--gray));
-}
-
-.border-top-bottom {
-  border-top: 2px solid var(--white);
-  border-bottom: 2px solid var(--white);
-}
-
-.gsap-fade-in {
-  visibility: hidden;
-}
-
-.gsap-stagger-in {
-  > * {
-    visibility: hidden;
-  }
 }
 
 .uppercase {
@@ -200,5 +155,50 @@
 }
 
 .hero {
-  padding: #{createFluidValue(125px, 250px)} 0 #{createFluidValue(113px, 225px)};
+  --hero-bottom-spacing: #{createFluidValue(75px, 150px)};
+  padding: #{createFluidValue(100px, 200px)} 0 var(--hero-bottom-spacing);
+  margin-bottom: var(--hero-bottom-spacing);
+  overflow: hidden;
+
+  &::before {
+    --bar-sizes: clamp(1.25rem, calc(-0.07rem + 5.63vw), 5.00rem);
+    position: absolute;
+    top: 0;
+    right: 8.5%;
+    z-index: 2;
+    width: var(--bar-sizes);
+    height: 100%;
+    background-color: var(--black);
+    mix-blend-mode: overlay;
+    pointer-events: none;
+    content: "";
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__graphic-wrap {
+    @include size(100%, 50%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    mix-blend-mode: hard-light;
+
+    &::before {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+      content: "";
+    }
+  }
+
+  &__graphic {
+    @include size(100%);
+    object-fit: cover;
+  }
+}
+
+.font-14 {
+  font-size: rem(14);
 }
