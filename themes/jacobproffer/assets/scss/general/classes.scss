@@ -198,3 +198,7 @@
     border-left: none;
   }
 }
+
+.hero {
+  padding: #{createFluidValue(125px, 250px)} 0 #{createFluidValue(113px, 225px)};
+}

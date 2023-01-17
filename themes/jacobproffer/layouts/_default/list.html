@@ -16,25 +16,29 @@
 
     <section>
 
-      {{ if eq .Title "Japaneses" }}
-        <h1 class="visually-hide">Japanese</h1>
-      {{ else }}
-        <h1 class="visually-hide">{{ .Title | singularize }}</h1>
-      {{ end }}
+      <div class="container">
 
-      <ul class="unstyled-list list grid gsap-fade-in">
-
-        {{ range $index, $page := $paginator.Pages }}
-
-          <li class="list__item grid relative">
-
-            {{ .Render "article" }}
-
-          </li>
-
+        {{ if eq .Title "Japaneses" }}
+          <h1 class="visually-hide">Japanese</h1>
+        {{ else }}
+          <h1 class="visually-hide">{{ .Title | singularize }}</h1>
         {{ end }}
 
-      </ul>
+        <ul class="unstyled-list list grid gsap-fade-in">
+
+          {{ range $index, $page := $paginator.Pages }}
+
+            <li class="list__item grid relative">
+
+              {{ .Render "article" }}
+
+            </li>
+
+          {{ end }}
+
+        </ul>
+
+      </div>
 
       {{ if gt (len $paginator.Pagers) 1  }}
 

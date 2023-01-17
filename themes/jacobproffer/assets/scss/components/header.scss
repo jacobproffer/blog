@@ -8,15 +8,11 @@
   z-index: 2;
   padding: var(--header-padding) 0;
   background-color: var(--header-background);
-  transition: padding 300ms ease-in-out;
+  transition: padding 300ms ease-in-out, background-color 300ms ease-in-out;
 
   &--pinned {
-    --header-padding: 10px;
+    --header-padding: 15px;
     --header-background: rgba(0, 0, 0, 1);
-  }
-
-  @include screen-below($mobile) {
-    --logo-size: 35px;
   }
 
   &__grid {
