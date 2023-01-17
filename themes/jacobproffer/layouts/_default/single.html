@@ -6,13 +6,19 @@
 
   <main>
 
-    <article class="single page-spacing">
+    <article class="single">
+
+      <div class="hero-top-spacing">
+        <div class="container gsap-fade-in">
+          <div class="single__container">
+            <h1>{{ .Title }}</h1>
+          </div>
+        </div>
+      </div>
 
       <div class="container gsap-fade-in">
 
         <div class="single__container">
-
-          <h1 class="text-shadow">{{ .Title }}</h1>
 
           <div class="single__grid grid">
 
@@ -21,46 +27,6 @@
               {{ .Content }}
 
             </div>
-
-            <footer class="single__footer">
-
-              <ul class="unstyled-list single__footer-list">
-
-                <li class="single__footer-item flex">
-
-                  <h3>Date</h3>
-
-                  <time class="single__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-
-                </li>
-
-                <li class="single__footer-item flex">
-
-                  <h3>Series</h3>
-
-                  {{ if (.GetTerms "series") }}
-
-                    <ul class="single__tags unstyled-list">
-
-                      {{ range (.GetTerms "series") }}
-
-                        <li class="single__tag">
-                          <a class="category" href="{{ .Permalink }}">
-                            {{ .LinkTitle }}
-                          </a>
-                        </li>
-
-                      {{ end }}
-
-                    </ul>
-
-                  {{ end }}
-
-                </li>
-
-              </ul>
-
-            </footer>
 
           </div>
 

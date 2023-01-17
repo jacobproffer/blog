@@ -14,17 +14,31 @@
 
   <main>
 
+    <section class="hero hero-top-spacing gsap-fade-in">
+      <div class="hero__image-wrap">
+
+        <h1 class="visually-hide">My Name is Jacob Proffer</h1>
+
+        <img class="hero__image" src="/images/jacob-proffer.svg" alt="" aria-hidden="true">
+
+      </div>
+
+      <div class="hero__graphic-wrap">
+        <img class="hero__graphic" src="/images/uploads/background.jpg" alt="" aria-hidden="true">
+      </div>
+    </section>
+
     <section>
 
       <div class="container">
 
         {{ if eq .Title "Japaneses" }}
-          <h1 class="visually-hide">Japanese</h1>
+          <h2 class="list__headline gsap-fade-in">Japanese</h2>
         {{ else }}
-          <h1 class="visually-hide">{{ .Title | singularize }}</h1>
+          <h2 class="list__headline gsap-fade-in">{{ .Title | singularize }}</h2>
         {{ end }}
 
-        <ul class="unstyled-list list grid gsap-fade-in">
+        <ul class="unstyled-list list grid">
 
           {{ range $index, $page := $paginator.Pages }}
 

@@ -154,9 +154,13 @@
   }
 }
 
+.hero-top-spacing {
+  padding-top: #{createFluidValue(100px, 200px)};
+}
+
 .hero {
   --hero-bottom-spacing: #{createFluidValue(75px, 150px)};
-  padding: #{createFluidValue(100px, 200px)} 0 var(--hero-bottom-spacing);
+  padding-bottom: var(--hero-bottom-spacing);
   margin-bottom: var(--hero-bottom-spacing);
   background: linear-gradient(180deg, rgba(255, 132, 105, .25) 0%, rgba(0, 0, 0, 0) 100%);
   overflow: hidden;
