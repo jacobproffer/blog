@@ -6,6 +6,7 @@ images: ["/images/japan_blog_01_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "travel"]
 series: ["Japan"]
+thumbnail: "/images/japan_blog_01_social.jpg"
 ---
 
 6265 miles. That's how far I had to travel to get to Tokyo, Japan. Thankfully, I managed to due so in comfort aboard an American Airlines Boeing 787 Dreamliner. The flight, spanning 13 hours and 15 minutes, took place on a Tuesday afternoon out of Chicago O'hare International Airport.

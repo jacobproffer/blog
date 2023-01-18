@@ -6,6 +6,7 @@ images: ["/images/norway_blog_02_social.jpg"]
 categories: ["travel"]
 tags: ["norway", "travel"]
 series: ["Norway"]
+thumbnail: "/images/norway_blog_02_social.jpg"
 ---
 
 Norway has a lot of tunnels. The majority are short, between a half mile to a few miles long. There are a few that surpass ten with the longest being fifteen miles long. The length depends on the location and the span of the fjord. The majority of these tunnels are two lane, fully lit with emergency telephones. Yet there are also tunnels that are so narrow that only one vehicle can pass through at a time. In these cases, a stop-light alerts drivers from either side when it's safe to pass through.

@@ -6,6 +6,7 @@ images: ["/images/iceland_blog_00_social.jpg"]
 categories: ["travel"]
 tags: ["iceland", "travel"]
 series: ["Iceland"]
+thumbnail: "/images/iceland_blog_00_social.jpg"
 ---
 
 This is it. Tomorrow morning, I embark on a trip to Iceland with my best friend and co-worker, Myles Kedrowski. Though we will fly separate airlines, both of our flights should touch down in Keflavik on Tuesday morning around the same time. Myles is fortunate to have a direct flight from Minnesota, via Iceland Air. I get to enjoy three separate Delta flights, with multi-hour layovers, which starts with a flight from K.I. Sawyer to Detroit. Fortunately for me, I love airports.

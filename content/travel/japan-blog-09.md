@@ -6,6 +6,7 @@ images: ["/images/narita_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "travel"]
 series: ["Japan"]
+thumbnail: "/images/narita_social.jpg"
 ---
 
 This is it. Tomorrow morning, I embark on my second trip to Japan. For the next week, I'll explore Osaka, Kyoto and Nara. Compared to Tokyo, I expect similarities but a much different experience. Primarily, I will be open to experiment with unfamiliar foods. At the top of my list is takoyaki, which is a ball-shaped Japanese snack. It's typically filled with octopus. There's also kushikatsu, which is basically fried food on a skewer. But I will also try okonomiyaki, which is a pancake made with a variety of ingredients.

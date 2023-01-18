@@ -6,6 +6,7 @@ images: ["/images/iceland_blog_05_social.jpg"]
 categories: ["travel"]
 tags: ["iceland", "travel"]
 series: ["Iceland"]
+thumbnail: "/images/iceland_blog_05_social.jpg"
 ---
 
 First and foremost, I should mention that I travel light. For the past year of travel, even to Japan, I've packed one pair of pants to cut down on space in my backpack. But Iceland taught me a valuable lesson about how denim does not survive in a wet environment. It started with a hike up to a waterfall called Glymur. Myles and I started the hike at ten in the morning. From the time of our arrival, the rain had been consistent for hours. Within a few minutes of the hike, my gloves and jeans were soaked through. Only my jacket was waterproof.

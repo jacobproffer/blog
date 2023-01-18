@@ -6,6 +6,7 @@ images: ["/images/akihabara_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "travel"]
 series: ["Japan"]
+thumbnail: "/images/akihabara_social.jpg"
 ---
 
 For the final full day in Tokyo, Japan, I wanted to visit Ikebukuro for the Pokémon Center and revisit Akihabara. Which meant that it was going to be a long day. But I still made time for breakfast at the Bonsalute Kabuki. I mixed it up this time and try some noodles and white rice. But I also had potatoes and sausages with orange juice. Even though the food was delicious and it was a buffet, the restaurant was pricey at nearly three-thousand yen.

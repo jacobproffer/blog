@@ -6,6 +6,7 @@ images: ["/images/norway_blog_00_social.jpg"]
 categories: ["travel"]
 tags: ["norway", "travel"]
 series: ["Norway"]
+thumbnail: "/images/norway_blog_00_social.jpg"
 ---
 
 This is it. The final night before I commence my trip to the beautiful country of Norway. For the next week, Myles Kedrowski and I will be staying in the city of Bergen. Similar to our venture to Iceland, Myles and I will fly separate flights but meet up at the airport. He should arrive a few hours after I do on Friday afternoon. Our itinerary consists of nearly non-stop hiking throughout the north and south west of Norway. Thankfully, we'll cover the great distances between locations by car.

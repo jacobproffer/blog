@@ -6,6 +6,7 @@ images: ["/images/japan_blog_03_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "travel"]
 series: ["Japan"]
+thumbnail: "/images/japan_blog_03_social.jpg"
 ---
 
 It was dark when the train pulled out of Narita. I did not expect this. In my mind, I had hopes to make it to Shinjuku and locate my hotel before nightfall. But it gets dark in Japan earlier than back home. It was six in the evening but it felt much later. I followed the progress of the train on my phone through Google Maps as the train snaked through small towns and past open fields. We pulled into Nippori Station roughly an hour later. This is where I had to make the switch from the Skyliner to the JR Line. The issue was that I had no idea how to get to the correct platform.

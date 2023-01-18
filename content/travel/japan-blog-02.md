@@ -6,6 +6,7 @@ images: ["/images/japan_blog_02_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "travel"]
 series: ["Japan"]
+thumbnail: "/images/japan_blog_02_social.jpg"
 ---
 
 Immigration is a strange place to be alone, especially if you don't speak the native language. I remember walking into Narita's immigration. There's a large green sign above the entrance that reads, "Quarantine". I'd never been through the immigration process before but I had an idea of what to expect. You fill out some paperwork, get your photo taken and your passport is reviewed. It's simple. The strange part was that everyone around me spoke a foreign language. It was the first time in my life that I felt foreign.

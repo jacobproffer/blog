@@ -6,6 +6,7 @@ images: ["/images/japan_blog_04_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "travel"]
 series: ["Japan"]
+thumbnail: "/images/japan_blog_04_social.jpg"
 ---
 
 I woke around three in the morning. Through the window in the hotel room, I could see that the night life was still active down the block. A group of people crossed the street, off to a hostess club or karaoke bar. A lone taxi cab weaved past them. An ambulance and firetruck were parked on a corner to their right with the sirens on but I couldn't see what for.

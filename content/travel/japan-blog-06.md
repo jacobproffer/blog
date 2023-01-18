@@ -6,6 +6,7 @@ images: ["/images/shibuya_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "travel"]
 series: ["Japan"]
+thumbnail: "/images/shibuya_social.jpg"
 ---
 
 Saturday in Tokyo was unique. I slept in for once, which provided an opportunity to seek breakfast somewhere other than Burger King. I tried out the breakfast buffet at the Bonsalute Kabuki, which was located on the ground floor of the hotel. The restaurant served Italian food throughout the day. But in the morning, there was a choice of Western or Japanese breakfast foods. I enjoyed a meal of potatoes, sausages and croissants with second helpings.

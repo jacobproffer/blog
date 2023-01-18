@@ -6,6 +6,7 @@ images: ["/images/uploads/img_0205.jpg"]
 categories: ["travel"]
 tags: ["romania", "travel"]
 series: ["Romania"]
+thumbnail: "/images/london.jpg"
 ---
 
 I touched down at Henri Coandă International Airport, Bucharest's primary airport, late on the fifth of November. We deplaned on the tarmac and boarded a shuttle bus. The shuttle took the passengers and I to a terminal nearby. As I was near the exit of the bus, I was one of the first to arrive at the immigration and customs station. A young agent took my passport and my boarding pass from Heathrow. Along with a superior, she went over my documents. With no questions asked, she stamped my passport.
