@@ -1,0 +1,46 @@
+{{ $thumbnail := "" }}
+
+{{ if isset .Params "thumbnail" }}
+
+  {{ $thumbnail = .Params.thumbnail }}
+
+{{ else }}
+
+  {{ $thumbnail = "/images/background.jpg" }}
+
+{{ end }}
+
+{{ $thumbnailSrc := resources.Get $thumbnail }}
+
+{{ $smallw := default "300x webp" }}
+{{ $mediumw := default "600x webp" }}
+{{ $largew := default "1200x webp" }}
+
+{{ $data := newScratch }}
+{{ $data.Set "small" ($thumbnailSrc.Resize $smallw) }}
+{{ $data.Set "medium" ($thumbnailSrc.Resize $mediumw) }}
+{{ $data.Set "large" ($thumbnailSrc.Resize $largew) }}
+
+{{ $small := $data.Get "small" }}
+{{ $medium := $data.Get "medium" }}
+{{ $large := $data.Get "large" }}
+
+<div class="single__thumbnail gsap-fade-in">
+  <div class="content">
+    <picture>
+      <source media="(max-width: 375px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">
+
+      <source media="(max-width: 577px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}">
+
+      <source media="(min-width: 770px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
+
+      <img
+        class="single__thumbnail-image"
+        src="{{ $thumbnailSrc.RelPermalink }}"
+        width="{{ $thumbnailSrc.Width }}"
+        height="{{ $thumbnailSrc.Height }}"
+        alt=""
+      >
+    </picture>
+  </div>
+</div>

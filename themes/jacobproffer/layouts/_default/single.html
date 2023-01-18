@@ -10,23 +10,23 @@
 
       <div class="hero-top-spacing">
         <div class="container gsap-fade-in">
+
           <div class="single__container">
             <h1>{{ .Title }}</h1>
           </div>
+
         </div>
       </div>
+
+      {{ partial "single/thumbnail" . }}
 
       <div class="container gsap-fade-in">
 
         <div class="single__container">
 
-          <div class="single__grid grid">
+          <div class="single__content">
 
-            <div class="single__content">
-
-              {{ .Content }}
-
-            </div>
+            {{ .Content }}
 
           </div>
 

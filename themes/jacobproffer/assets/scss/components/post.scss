@@ -10,23 +10,18 @@
   }
 
   &__container {
-    @include screen-below($tablet) {
-      max-width: 67ch;
-      margin: auto;
-    }
+    max-width: 70ch;
+    margin: auto;
   }
 
-  &__grid {
-    --single-grid: 2fr 1fr;
-    grid-template-columns: var(--single-grid);
-    gap: #{createFluidValue(45px, 90px)};
-    padding-top: 20px;
-    margin-top: 20px;
-    border-top: 2px solid var(--black);
+  &__thumbnail {
+    @include ratio(24, 10);
+    margin: #{createFluidValue(50px, 100px)} 0;
+  }
 
-    @include screen-below($tablet) {
-      --single-grid: 1fr;
-    }
+  &__thumbnail-image {
+    @include size(100%);
+    object-fit: cover;
   }
 
   &__content {
