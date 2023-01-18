@@ -1,10 +1,15 @@
 <header class="main-header">
   <div class="container">
     <div class="main-header__grid">
+
       <a class="main-header__logo uppercase" href="/" aria-label="Go to home">
         Jacob Proffer
       </a>
-      {{ partial "navigation/main.html" . }}
+
+      {{ partial "navigation/main" . }}
+
+      {{ partial "navigation/mobile" . }}
+
     </div>
   </div>
 </header>

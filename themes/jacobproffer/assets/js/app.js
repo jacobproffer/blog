@@ -1,4 +1,6 @@
-const mainHeader = document.querySelector(".main-header");
+const mainHeader = document.querySelector('.main-header');
+const mobileNavigationTrigger = document.querySelector('#mobile-navigation-trigger');
+const mobileNavigation = document.querySelector('#mobile-navigation');
 const fadeIns = document.querySelectorAll('.gsap-fade-in');
 const staggerIn = document.querySelectorAll('.gsap-stagger-in');
 
@@ -45,3 +47,15 @@ if (staggerIn.length > 0) {
     }
   });
 }
+
+mobileNavigationTrigger.addEventListener("click", function() {
+  mainHeader.classList.toggle('main-header--navigation-open');
+  mobileNavigation.classList.toggle("main-header__mobile-navigation--open")
+  this.classList.toggle("nav-open");
+
+  if (mobileNavigation.classList.contains('main-header__mobile-navigation--open')) {
+    this.setAttribute('aria-expanded', 'true');
+  } else {
+    this.setAttribute('aria-expanded', 'false');
+  }
+});

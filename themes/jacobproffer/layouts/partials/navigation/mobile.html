@@ -1,0 +1,44 @@
+<button
+  class="unstyled-button button main-header__mobile-navigation-trigger"
+  id="mobile-navigation-trigger"
+  aria-controls="mobile-navigation"
+  aria-expanded="false"
+>
+  <div class="corner-border-wrap">
+    <div class="corner-border corner-border--top-left"></div>
+    <div class="corner-border corner-border--top-right"></div>
+    <div class="corner-border corner-border--bottom-left"></div>
+    <div class="corner-border corner-border--bottom-right"></div>
+  </div>
+  <div class="button__copy">
+    Menu
+  </div>
+</button>
+
+<nav
+  class="main-header__mobile-navigation"
+  id="mobile-navigation"
+  aria-label="mobile"
+>
+  <ul class="unstyled-list grid main-header__mobile-navigation-list">
+
+    {{ $currentPage := . }}
+
+    {{ range .Site.Menus.main }}
+
+      <li>
+        <a
+          class="uppercase font-14"
+          href="{{ .URL }}"
+          {{ if $currentPage.IsMenuCurrent "main" . }}
+            aria-current="page"
+          {{ end }}
+        >
+          {{ .Name }}
+        </a>
+      </li>
+
+    {{ end }}
+
+  </ul>
+</nav>
