@@ -35,7 +35,8 @@
 
 * {
   &:focus {
-    outline: 2px dotted var(--white);
+    outline: 1px dashed var(--white);
+    outline-offset: 2px;
   }
 }
 

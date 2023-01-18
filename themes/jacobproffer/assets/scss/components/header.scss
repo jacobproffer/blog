@@ -68,7 +68,6 @@
   &__mobile-navigation {
     grid-column: 1 / -1;
     max-height: var(--navigation-height, 0);
-    margin-top: 40px;
     text-align: center;
     opacity: var(--navigation-opacity, 0);
     transition: height, 150ms ease-in-out, opacity 150ms ease-in-out;
@@ -83,5 +82,6 @@
 
   &__mobile-navigation-list {
     row-gap: #{createFluidValue(20px, 40px)};
+    margin-top: 40px;
   }
 }

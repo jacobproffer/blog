@@ -1,10 +1,8 @@
 .article {
-  --offset: -15px;
   --image-opacity: .8;
-  @include size(100%);
+  position: relative;
   z-index: 1;
   row-gap: 20px;
-  overflow: hidden;
   transition: opacity 300ms ease-in-out;
 
   @include hover {
@@ -29,10 +27,6 @@
     pointer-events: none;
     overflow: hidden;
     opacity: var(--image-opacity);
-
-    .content {
-      inset: -1px;
-    }
   }
 
   &__thumbnail-image {
@@ -40,13 +34,6 @@
     object-fit: cover;
     opacity: var(--image-opacity);
     transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
-  }
-
-  &__link {
-    &:focus {
-      outline: 2px dashed var(--white);
-      outline-offset: -4px;
-    }
   }
 
   &__headline {

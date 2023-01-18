@@ -43,8 +43,6 @@
 
     </div>
 
-    <a class="article__link pseudo-link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
-
   </div>
 
   {{ if isset .Params "images" }}
@@ -75,5 +73,7 @@
     </div>
 
   {{ end }}
+
+  <a class="article__link absolute-link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
 
 </article>
