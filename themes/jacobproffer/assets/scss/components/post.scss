@@ -10,7 +10,7 @@
   }
 
   &__container {
-    max-width: 70ch;
+    max-width: 1280px;
     margin: auto;
   }
 
@@ -22,6 +22,37 @@
   &__thumbnail-image {
     @include size(100%);
     object-fit: cover;
+  }
+
+  &__content-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    row-gap: 20px;
+
+    & > * {
+      --content-column: 4 / 10;
+      grid-column: var(--content-column);
+      margin: 0;
+
+      @include screen-below($laptop) {
+        --content-column: 3 / 11;
+      }
+
+      @include screen-below($laptopSm) {
+        --content-column: 2 / 12;
+      }
+    }
+
+    img {
+      margin: 40px 0;
+    }
+  }
+
+  &__two-column-image {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
   }
 
   &__content {

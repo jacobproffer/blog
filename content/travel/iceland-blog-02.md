@@ -23,8 +23,7 @@ Skógafoss had more foot traffic. There were large tour buses and a vast number 
 
 With an almost two hundred foot drop from the top, the base of Skógafoss is an impressive sight as well. From a short distance, the spray coated Myles and I's clothes and gear. We took in the sight, snapped a few photographs and walked back to the vehicle. It was early still but we decided to see if any food was available in the nearby village of Skógar. Luckily, a restaurant called Fossbúð was open. Myles and I both had burgers with complimentary water.
 
-{{< lazy src="/images/skogafoss_1.jpg" alt="Steps to the top of Skógafoss." >}}
-{{< lazy src="/images/skogafoss_2.jpg" alt="Skógafoss." >}}
+{{< images src1="skogafoss_1.jpg" src2="skogafoss_2.jpg" alt1="Steps to the top of Skógafoss." alt2="Skógafoss." >}}
 
 The Sólheimasandur plane wreck was next on the list. Similar to the drive from Seljalandsfoss to Skógafoss, Sólheimasandur took Myles and I twenty minutes further along Route 1 to the east. From the parking lot, the beach is visible in the far distance. But it is deceiving, as it took Myles and I roughly fifty minutes on foot to reach the wreck sight. As the landscape is barren, the crosswinds mixed with light rain made the walk seem endless. The plane was a welcome sight.
 
@@ -38,8 +37,7 @@ To get up to the lighthouse, Myles had to slowly drive up the winding path that 
 
 We walked towards the cliff edge near the right side of the lighthouse, which provides a wide view of the ocean and a beach of black sand. The winds were strong and turbulent, which made it difficult to steady my camera. But there was no rain, so the weather was bearable. Myles and I walked in a loop around the lighthouse and then took a questionable dirt path down towards another cliff far to the left of the parking left. The rocks along the path were damp, which made it difficult to move quickly with the wind on our backs.
 
-{{< lazy src="/images/dyrholaey_1.jpg" alt="Dyrhólaey." >}}
-{{< lazy src="/images/dyrholaey_2.jpg" alt="Dyrhólaey." >}}
+{{< images src1="dyrholaey_1.jpg" src2="dyrholaey_2.jpg" alt1="Dyrhólaey." >}}
 
 Myles and I returned to the vehicle not long after and made the slow drive down from the cliff. We wanted to move onward to Reynisfjara to see the black beach up close. But along the way, near Dyrhólaey, we spotted a cave. There is a turn off and an apparent parking spot, though no other vehicles or people were around. We got out of the vehicle and trekked up to the mouth of the cave. But there wasn't much to explore from within. As we were about to walk down back to the vehicle, I spotted footprints that snaked around the cave and up a ridgeline to the right.
 
@@ -51,7 +49,6 @@ Reynisfjara, as with every other location that day, was twenty minutes further t
 
 Out along the beach, the waves crashed along the shoreline as a light rain fell. The wind wasn't as extreme as it had been at Dyrhólaey, though it was colder this close to the ocean. Myles and I walked along the beach for twenty minutes, from left to right. We were mindful of the tide, as the water began to come more inward with the force of the waves. Once we were cold enough, we decided to call the day and have dinner at the nearby restaurant. I ordered pasta with a large slice of cake. By paying for our food, we were able to use the washroom without additional payment.
 
-{{< lazy src="/images/reynisfjara_1.jpg" alt="Myles Kedrowski at Reynisfjara." >}}
-{{< lazy src="/images/reynisfjara_2.jpg" alt="Reynisfjara." >}}
+{{< images src1="reynisfjara_1.jpg" src2="reynisfjara_2.jpg" alt1="Myles Kedrowski at Reynisfjara." alt2="Reynisfjara." >}}
 
 Myles and I finished dinner and returned to Reykjavik. We arrived back at the hotel around six in the evening. It had been a long day, with lots of walking but we had went to every planned location in the south center of Iceland. Though early, I took a long shower and stretched my legs. The heated towel rack was a real treat. Afterwards, I listed to music and an audio book for about an hour before I fell asleep. In the morning, we'd hit Þingvellir.
