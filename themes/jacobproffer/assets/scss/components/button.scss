@@ -15,30 +15,5 @@
   color: var(--button-color);
   text-align: center;
   padding: .5rem 1rem;
-  cursor: pointer;
   transition: color 150ms ease-in-out;
-
-  &__border {
-    position: absolute;
-    pointer-events: none;
-  }
-
-  &__border,
-  &__copy {
-    z-index: 2;
-  }
-
-  &__border {
-    inset: -.5px;
-  }
-
-  &[aria-expanded="true"] {
-    --border-offset: -2px;
-    --button-color: var(--white);
-  }
-
-  @include hover {
-    --border-offset: -2px;
-    --button-color: var(--white);
-  }
 }
