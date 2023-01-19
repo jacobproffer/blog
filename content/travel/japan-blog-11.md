@@ -15,13 +15,13 @@ That's where I spent Friday in Japan, with a full day in Dōtonbori. As a centra
 
 As it is legal to consume alcohol publicly in Japan, I enjoyed a drink by the canals after lunch. My choice was Suntory Holdings' Strong Zero, which I had purchased from a nearby Lawson. The cocktail is similar to a Mike's Hard Lemonade. At a low cost of around one hundred yen, it is popular with young adults throughout Japan. It's the type of drink where the alcohol is hard to taste and can sneak up on you.
 
-{{< lazy src="/images/dotonbori_01.jpg" alt="Canals of Dōtonbori." >}}
+{{< image src="/images/dotonbori_01.jpg" alt="Canals of Dōtonbori." >}}
 
 For sweets and souvenirs in Dōtonbori, I visited Glico-ya and Ichibirian. Both shops carry Glico and Kuidaore Taro merchandise. I purchased a yellow tin from Ichibirian. More so to collect the tin than for the delicious Kuidaore Taro shaped crackers inside. Be warned though that these shops are crammed with young school children, even early in the day. The lines can be long but are worth the wait.
 
 Anyone with an interest in anime or manga should check out Mandarake Grand Chaos. It is a short walk from Dōtonbori. There are floors of comics, toys and collectibles. I was on the hunt for Yotsuba&!. The manga series depicts the adventures of a young girl as she grows up. It's a recommended choice for anyone learning Japanese. The book features a reading aid called furigana, which are small kana characters next to complex kanji.
 
-{{< lazy src="/images/mandarake_grand_chaos.jpg" alt="Mandarake Grand Chaos advertisements." >}}
+{{< image src="/images/mandarake_grand_chaos.jpg" alt="Mandarake Grand Chaos advertisements." >}}
 
 I spent the remainder of the day in Shinsaibashi, which is located north of Dōtonbori. It is a fully roofed shopping district, which spans multiple streets. There are a number of fashion and drug stores, restaurants, pachinko parlors and even a Tohoe Cinemas. The area is also known for wagyu beef and beef cutlets. Due to the high cost of wagyu beef, I chose a beef cutlet for dinner. The meal was served with white rice, wasabi, Japanese salt &amp; pepper and a rich soy sauce. By far one of the best meals I've had in my life. Well worth the thousand yen I paid.
 

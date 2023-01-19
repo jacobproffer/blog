@@ -15,7 +15,7 @@ Most of the tunnels are deep enough to lose radio, WIFI and GPS signals. All Myl
 
 Temperature wise, it was a cold morning. I threw on my down jacket and gloves before making the short walk from the car to the base of Tvindefossen. To the right of the waterfall is a small boarded up cabin, which makes a great foreground. I only wish the trees still had leafs at the time. As Myles and I walked back to the car, a tour bus pulled up. A large group of Asian men emerged wearing leather jackets and light shirts, all of whom had lit cigarettes.
 
-{{< lazy src="/images/tvindefossen.jpg" alt="Abandoned cabin by Tvindefossen." >}}
+{{< image src="/images/tvindefossen.jpg" alt="Abandoned cabin by Tvindefossen." >}}
 
 We got back onto the road and drove to the trailhead for the Aurlandsdalen Valley. From Tvindefossen, the drive took an hour and a half. Similar to the waterfall, there were no other tourists in the area that we could see. We only found the entrance gate, which is located between a few farms, with a great number of sheep on the right side. It had a simple latch and was difficult to open in either direction. I assume it was placed there to keep the goats and other livestock out.
 
@@ -23,9 +23,9 @@ Trail conditions weren't the best. There was mud, water and even ice to navigate
 
 Two hours into the hike, we came across a waterfall coated with slabs of ice and snow. To the right of the waterfall is a narrow footbridge, which was completely frozen with ankle high snow. The only support for the bridge was a thin rope on the left side. Myles and I decided not to risk it and turn back, due to the steep drop-off on the right. On the trek back, we heard bells and spotted two sheep who had somehow gotten onto the trail. As we got closer, the sheep wondered off into the thick tree line where another five or so goats waited.
 
-{{< lazy src="/images/aurlandsdalen_4.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
-{{< lazy src="/images/aurlandsdalen_1.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
-{{< lazy src="/images/aurlandsdalen_2.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
-{{< lazy src="/images/aurlandsdalen_3.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
+{{< image src="/images/aurlandsdalen_4.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
+{{< image src="/images/aurlandsdalen_1.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
+{{< image src="/images/aurlandsdalen_2.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
+{{< image src="/images/aurlandsdalen_3.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
 
 The remainder of the afternoon was spent in an attempt to hike Nærøyfjord. The fjord is located in the municipality of Aurland, a short drive from the Aurlandsdalen Valley. We parked near an old church in the tiny village of Bakka. The trailhead was difficult to find and not all that clear. But the hike provides fantastic views of the fjord and Nærøydalselvi river. Unfortunately, Myles and I did not make it to the top as the sun began to drop. It was near dark when we returned to the vehicle.

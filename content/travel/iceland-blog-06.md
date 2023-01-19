@@ -15,9 +15,8 @@ As we got higher in elevation along a gravel road, we encountered a sudden blizz
 
 Towards the middle of Road 417, Myles and I came across a weathered neon orange emergency shelter. We pulled over and walked out towards it, mindful of the moss in the area. The shelter appeared well used, with the bunk bed broken. A woodland camouflage blanket hung loose on the frame. Trash was spread out amongst the floor with old candles lined up on the window sills. The boxes of food and wrappers were dated but there appeared to be some white rice still intact.
 
-{{< lazy src="/images/blafjallavegur_1.jpg" alt="Blafjallavegur." >}}
-{{< lazy src="/images/blafjallavegur_2.jpg" alt="Blafjallavegur." >}}
-{{< lazy src="/images/blafjallavegur_3.jpg" alt="Blafjallavegur." >}}
+{{< image src="/images/blafjallavegur_1.jpg" alt="Blafjallavegur." >}}
+{{< image src="/images/blafjallavegur_2.jpg" >}}
 
 Myles and I took photographs of the shack. Afterwards, we walked back to the vehicle and drove to Sambíó Egilshöll. The theater is located near the Engi district of Reykjavik and is attached to a multi-purpose sports facility. Prices were relatively cheap for tickets. I passed on snacks but Myles loaded up on popcorn and soda. Deadpool 2 was good as expected. But I found it slightly odd that Iceland has intermission in the middle of the movie for concession and bathroom breaks.
 

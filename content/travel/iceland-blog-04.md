@@ -17,9 +17,8 @@ In the ascent, snow mixed with rain pelted our bodies. It was an odd weather com
 
 Myles and I took a few photographs and proceed on a trail to higher elevation. We climbed up Sjónarsker and came across the view-dial, which shows the names of the surrounding mountains. The spot in which the dial is located provides phenomenal views of the surrounding area. I was able to take panoramic shots from the south east to west. It is an incredible view at that altitude. The trail was closed past that point due to poor conditions.
 
-{{< lazy src="/images/sjonarsker_1.jpg" alt="Sjónarsker inside of Skaftafell." >}}
-{{< lazy src="/images/sjonarsker_2.jpg" alt="Sjónarsker inside of Skaftafell." >}}
-{{< lazy src="/images/sjonarsker_3.jpg" alt="Sjónarsker inside of Skaftafell." >}}
+{{< image src="/images/sjonarsker_1.jpg" alt="Sjónarsker inside of Skaftafell." >}}
+{{< image src="/images/sjonarsker_2.jpg" >}}
 
 After Myles and I descended back to the visitor center, we bought lunch from a food cart called Glacier Goodies. There was a small selection of meals to choose from, which included lobster soup and baby back ribs. Although expected, the prices were high. I paid nearly three thousand Icelandic Króna for a Fanta and fish and chips. The meal was fine and delicious, especially after the morning hike. Though I wouldn't say it was worth close to thirty dollars.
 
@@ -29,7 +28,7 @@ Without the appropriate gear or experience for glacier walks, Myles and I could 
 
 We explored the terrain to the east of the glacier for another hour, with an extended walk out towards the base of a nearby mountain. We were completely alone in this area, with no real sense of direction. There weren't any designated paths either, which meant walking on top of boulders and baseball sized rocks. I had boots on but it was truly uncomfortable to walk on after awhile. I half expected to twist an ankle on one of the many rocky hills we climbed.
 
-{{< lazy src="/images/skaftafellsjokull.jpg" alt="Skaftafellsjökull." >}}
+{{< image src="/images/skaftafellsjokull.jpg" alt="Skaftafellsjökull." >}}
 
 The hike back was long and tedious. Both Myles and I were worn out by the time we arrived back at the visitor center. My feet were sore and I was hungry. We hit the center's cafeteria for lunch. I had a pizza panini with a slice of chocolate cake. Prices weren't the best but beggars can't be choosers this far out in Iceland. Though I was happy that the weather held out the entire afternoon. There wasn't even a drop of rain and the temperature stayed in the fifties.
 

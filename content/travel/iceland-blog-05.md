@@ -23,8 +23,8 @@ We left the hotel close to six in the evening for Hveragerði. The town is locat
 
 Even with the temperature in the fifties, there were dozens of people bathing in the river at the top. As the river is naturally heated, no one seemed to care. We even saw a few people run over to the river naked. Myles and I considered going in but the snow began to fall. Within minutes, the clouds opened up with a heavy rain. We immediately began our descent but were soaked for the second time that day. It was an absolute miserable hike down to the vehicle.
 
-{{< lazy src="/images/reykjadalur_1.jpg" alt="Reykjadalur valley." >}}
-{{< lazy src="/images/reykjadalur_2.jpg" alt="Reykjadalur valley." >}}
+{{< image src="/images/reykjadalur_1.jpg" alt="Reykjadalur valley." >}}
+{{< image src="/images/reykjadalur_2.jpg" >}}
 
 By that point, I was fed up with wet pants. I told Myles to drive me straight to Fjallakofinn, which is an outdoor store located in Reykjavik. From their sales rack, I found a pair of Marmot pants for over sixty percent off. Even though the pants still cost a little, the fit was perfect. It felt phenomenal to slip out of my soaked jeans into those new pants. I even asked if it was okay to wear the pants out of the store. The jeans went into a laundry bag for the rest of the trip.
 
