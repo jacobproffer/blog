@@ -10,28 +10,8 @@
   position: relative;
 }
 
-.list-heading {
-  --font-size: #{createFluidValue(50px, 200px)};
-  font-size: var(--font-size);
-  text-align: center;
-}
-
 .spacing {
   padding: 20px;
-}
-
-.page-spacing {
-  --page-spacing: #{createFluidValue(30px, 60px)};
-  padding-top: var(--page-spacing);
-  padding-bottom: var(--page-spacing);
-}
-
-.center {
-  text-align: center;
-}
-
-.bg-black {
-  background-color: var(--black);
 }
 
 .pseudo-link {
@@ -58,15 +38,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.link-hover {
-  transition: color 300ms ease-in-out, background-color 300ms ease-in-out;
-
-  @include hover {
-    color: var(--yellow);
-    background-color: var(--black);
-  }
 }
 
 .grid {

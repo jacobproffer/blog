@@ -4,7 +4,7 @@
   justify-content: space-evenly;
   gap: 20px;
   max-width: max-content;
-  margin: #{createFluidValue(50px, 100px)} auto #{createFluidValue(25px, 50px)};
+  margin: #{createFluidValue(75px, 150px)} auto #{createFluidValue(50px, 100px)};
 
   &__item {
     --item-color: var(--gray);

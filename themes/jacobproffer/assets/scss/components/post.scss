@@ -15,8 +15,11 @@
   }
 
   &__thumbnail {
+    --thumbnail-column: 1 / -1;
     @include ratio(24, 10);
-    margin: #{createFluidValue(50px, 100px)} 0;
+    grid-column: var(--thumbnail-column);
+    max-width: 1200px;
+    margin: #{createFluidValue(50px, 100px)} auto;
   }
 
   &__thumbnail-image {
@@ -41,6 +44,10 @@
       @include screen-below($laptopSm) {
         --content-column: 2 / 12;
       }
+
+      @include screen-below($mobile) {
+        --content-column: 1 / -1;
+      }
     }
   }
 
@@ -49,6 +56,7 @@
 
     img {
       @include size(100%);
+      display: block;
       margin: 0;
       object-fit: cover;
     }
