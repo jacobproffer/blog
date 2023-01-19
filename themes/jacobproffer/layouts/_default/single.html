@@ -52,10 +52,10 @@
 
             <h2 class="related__headline gsap-fade-in">Related Posts</h2>
 
-            <ul class="unstyled-list grid border-grid border-top-bottom gsap-fade-in">
+            <ul class="unstyled-list grid gsap-fade-in">
 
               {{ range . }}
-                <li class="border-grid-item">
+                <li>
                   {{ .Render "article-related" }}
                 </li>
               {{ end }}

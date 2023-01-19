@@ -76,13 +76,13 @@
 
       {{ if gt (len $paginator.Pagers) 1  }}
 
-        <nav class="border-bottom" aria-label="pagination">
+        <nav aria-label="pagination">
           <ul class="unstyled-list pagination gsap-stagger-in">
 
             {{ range $paginator.Pagers }}
 
               {{ if eq . $paginator}}
-                <li class="pagination__item flex-center border" aria-current="page">
+                <li class="pagination__item flex-center" aria-current="page">
                   <span class="visually-hide">Page</span>
                   {{ .PageNumber }}
                 </li>
