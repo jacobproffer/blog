@@ -122,7 +122,6 @@
   &__mobile-navigation {
     grid-column: 1 / -1;
     max-height: var(--navigation-height, 0);
-    text-align: center;
     opacity: var(--navigation-opacity, 0);
     transition: height, 150ms ease-in-out, opacity 150ms ease-in-out;
     pointer-events: none;
@@ -137,5 +136,10 @@
   &__mobile-navigation-list {
     row-gap: #{createFluidValue(20px, 40px)};
     margin-top: 40px;
+  }
+
+  &__mobile-navigation-link {
+    display: block;
+    font-size: #{createFluidValue(18px, 24px, 375px, 1080px)};
   }
 }
