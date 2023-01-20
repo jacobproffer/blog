@@ -21,15 +21,23 @@ I was up first for driving, which I admit I was somewhat skeptical about. More s
 
 Our first stop was the Blue Lagoon. We originally considered going into the geothermal spa but the price was nine-thousand Icelandic króna or eighty-five dollars. Instead, Myles and I had some coffee at the cafe, used the washroom and continued on towards the coast. Near the Blue Lagoon, we caught sight of Grindavík, which is a fishing town on the Southern Peninsula of Iceland. We pulled off the road near the top of a hill and had a panoramic view of the town.
 
+{{< images >}}
+
 {{< image src="/images/grindavikurbaer_1.jpg" alt="Grindavikurbaer." >}}
 {{< image src="/images/grindavikurbaer_2.jpg" >}}
+
+{{< /images >}}
 
 Near Grindavík, along Route 43, Myles spotted a dirt road that was in the direction of the ocean. We turned onto the path, with no real idea of the road conditions. The landscape was odd with black sand, moss and large chunks of rocks spread out for miles. There actually was somewhat of a parking lot about a mile or so down the road. It seemed more of a turnaround spot than anything. But Myles's and I exited the vehicle and walked down to the surf.
 
 Spread between the rocks and dirt were pieces of trash, kelp and driftwood. There wasn't much of a direct path to the water, so we just weaved through and stepped on an endless amount of rocks. As some parts of the beach were wet, the bottoms and toes of my boots turned black with the sand. I started taking pictures while Myles ventured closer to the surf. I'd read plenty of stories of people being swept out to sea in Iceland, so I kept a distance.
 
+{{< images >}}
+
 {{< image src="/images/grindavikurbaer_3.jpg" alt="Landscape of Grindavikurbaer" >}}
 {{< image src="/images/grindavikurbaer_4.jpg" alt="Beach near Grindavikurbaer." >}}
+
+{{< /images >}}
 
 After about thirty minutes on the beach, Myles and I got back onto the road. We took Route 427 towards Þorlákshöfn, which provides an almost endless view of the ocean and plenty of farm land. Throughout the drive, the radio station we selected had some of the most random music. Shaggy to Metallica or Kanye West to Icelandic Country. We also heard what appeared to be Icelandic Reggae. All stations in Iceland also appeared to be uncensored, which was strange.
 

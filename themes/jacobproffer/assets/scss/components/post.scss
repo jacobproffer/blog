@@ -75,23 +75,15 @@
     }
   }
 
-  &__footer {
-    align-content: start;
-  }
+  &__two-col {
+    --two-col-grid: repeat(2, 1fr);
+    grid-column: 1 / -1;
+    grid-template-columns: var(--two-col-grid);
+    gap: 20px;
+    margin: 20px 0;
 
-  &__footer-list {
-    @include screen-above($tablet) {
-      position: sticky;
-      top: 76px;
-    }
-  }
-
-  &__footer-item {
-    justify-content: space-between;
-    padding: 10px 0;
-
-    &:not(:last-of-type) {
-      border-bottom: 1px solid var(--black);
+    @include screen-below($mobile) {
+      --two-col-grid: 1fr;
     }
   }
 }

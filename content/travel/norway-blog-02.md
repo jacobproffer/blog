@@ -23,9 +23,11 @@ Trail conditions weren't the best. There was mud, water and even ice to navigate
 
 Two hours into the hike, we came across a waterfall coated with slabs of ice and snow. To the right of the waterfall is a narrow footbridge, which was completely frozen with ankle high snow. The only support for the bridge was a thin rope on the left side. Myles and I decided not to risk it and turn back, due to the steep drop-off on the right. On the trek back, we heard bells and spotted two sheep who had somehow gotten onto the trail. As we got closer, the sheep wondered off into the thick tree line where another five or so goats waited.
 
+{{< images >}}
+
 {{< image src="/images/aurlandsdalen_4.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
-{{< image src="/images/aurlandsdalen_1.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
-{{< image src="/images/aurlandsdalen_2.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
 {{< image src="/images/aurlandsdalen_3.jpg" alt="Myles Kedrowski in Aurlandsdalen." >}}
+
+{{< /images >}}
 
 The remainder of the afternoon was spent in an attempt to hike Nærøyfjord. The fjord is located in the municipality of Aurland, a short drive from the Aurlandsdalen Valley. We parked near an old church in the tiny village of Bakka. The trailhead was difficult to find and not all that clear. But the hike provides fantastic views of the fjord and Nærøydalselvi river. Unfortunately, Myles and I did not make it to the top as the sun began to drop. It was near dark when we returned to the vehicle.

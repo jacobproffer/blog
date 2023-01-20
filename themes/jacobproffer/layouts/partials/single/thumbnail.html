@@ -25,7 +25,7 @@
 {{ $medium := $data.Get "medium" }}
 {{ $large := $data.Get "large" }}
 
-<div class="single__thumbnail">
+<div class="single__thumbnail gsap-fade-in">
   <div class="content">
     <picture>
       <source media="(max-width: 375px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">

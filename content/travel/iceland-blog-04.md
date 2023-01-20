@@ -17,8 +17,12 @@ In the ascent, snow mixed with rain pelted our bodies. It was an odd weather com
 
 Myles and I took a few photographs and proceed on a trail to higher elevation. We climbed up Sjónarsker and came across the view-dial, which shows the names of the surrounding mountains. The spot in which the dial is located provides phenomenal views of the surrounding area. I was able to take panoramic shots from the south east to west. It is an incredible view at that altitude. The trail was closed past that point due to poor conditions.
 
+{{< images >}}
+
 {{< image src="/images/sjonarsker_1.jpg" alt="Sjónarsker inside of Skaftafell." >}}
 {{< image src="/images/sjonarsker_2.jpg" >}}
+
+{{< /images >}}
 
 After Myles and I descended back to the visitor center, we bought lunch from a food cart called Glacier Goodies. There was a small selection of meals to choose from, which included lobster soup and baby back ribs. Although expected, the prices were high. I paid nearly three thousand Icelandic Króna for a Fanta and fish and chips. The meal was fine and delicious, especially after the morning hike. Though I wouldn't say it was worth close to thirty dollars.
 

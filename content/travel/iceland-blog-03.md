@@ -17,8 +17,12 @@ Once at Þingvellir, Myles and I paid to park. The fee was cheap, less than one 
 
 Myles and I ventured through Almannagja next. The fault line marks the eastern boundary of the North American plate and is over four miles long. With sizable cliffs bordering the left and right sides of the marked foot path, it's the largest and most popular tectonic fissure in the park. Near the welcome center for Þingvellir are a few overlooks. From these wooden platforms, Myles and I could see the rift valley lake of Þingvallavatn to our right.
 
+{{< images >}}
+
 {{< image src="/images/thingvellir_1.jpg" alt="Þingvellir." >}}
 {{< image src="/images/thingvellir_2.jpg" >}}
+
+{{< /images >}}
 
 We left Þingvellir around ten in the morning and made the drive back to the outskirts of Reykjavik to get gas. Although necessary, the detour cost us a bit of time, around an hour total. On the way to Bláskógabyggð, Myles and I stopped for food at Restaurant Lindin in Laugarvatn. Down the road is the Laugarvatn Fontana, one of the thermal spas in Iceland with outdoor mineral pools. The restaurant is located between Þingvellir and Gullfoss, well within the Golden Circle. The staff were extremely friendly, spoke English and offered us seats immediately. For lunch, I ordered a cheeseburger with frites. Myles had the reindeer burger.
 
@@ -34,8 +38,12 @@ Parking was free but the washrooms were not. The entry fee for the washroom was 
 
 Unlike waterfalls such as Seljalandsfoss, there's an overlook for Gullfoss. The overlook provides an impressive view of the waterfall. At a height of over one hundred feet, Gullfoss has two drops with the longest being sixty eight feet. Although not visible from above, the water falls into a deep crevice below. From a distance, the mist from the waterfall coated Myles and I from head to toe. We spent ten minutes out at the overlook and then trekked back up to the vehicle.
 
+{{< images >}}
+
 {{< image src="/images/gullfoss_1.jpg" alt="Gullfoss." >}}
 {{< image src="/images/gullfoss_2.jpg" >}}
+
+{{< /images >}}
 
 Initially, Myles and I were set on driving to a volcanic crater called Kerið. But along the drive back through Bláskógabyggð, we spotted a trail up in the hills above the Geysir and Strokkur area. The foot path is accessible down the road from the lot we had parked in earlier. The highest point above offers a panoramic view, which is unobstructed for many miles to the north and north east. We only encountered two other people up top, which made the ascent and descent quick and personal.
 

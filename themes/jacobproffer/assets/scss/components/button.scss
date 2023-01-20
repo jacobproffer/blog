@@ -10,10 +10,16 @@
 }
 
 .button {
-  --button-color: var(--gray);
   position: relative;
-  color: var(--button-color);
+  color: var(--white);
   text-align: center;
   padding: .5rem 1rem;
-  transition: color 150ms ease-in-out;
+  border-radius: 50px;
+  overflow: hidden;
+  background: var(--gradient-brown-to-green);
+  transition: transform 150ms ease-in-out;
+
+  @include hover {
+    transform: scale(1.1);
+  }
 }
