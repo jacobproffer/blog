@@ -1,4 +1,7 @@
 .single {
+  --max-width: 1200px;
+  margin-bottom: #{createFluidValue(75px, 150px)};
+
   p {
     &:first-of-type {
       margin-top: 0;
@@ -9,8 +12,18 @@
     }
   }
 
+  ul {
+    display: grid;
+    row-gap: 10px;
+  }
+
+  li {
+    list-style: circle;
+    list-style-position: inside;
+  }
+
   &__container {
-    max-width: 1280px;
+    max-width: var(--max-width);
     margin: auto;
   }
 
@@ -18,7 +31,7 @@
     --thumbnail-column: 1 / -1;
     @include ratio(24, 10);
     grid-column: var(--thumbnail-column);
-    max-width: 1200px;
+    max-width: var(--max-width);
     margin: #{createFluidValue(50px, 100px)} auto;
   }
 
@@ -31,6 +44,7 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     row-gap: 20px;
+    justify-content: center;
 
     & > * {
       --content-column: 4 / 10;

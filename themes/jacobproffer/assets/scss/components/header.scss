@@ -1,6 +1,7 @@
 .main-header {
   --header-padding: 20px;
   --header-background: rgba(0, 0, 0, 0);
+  --mobile-navigation-color: var(--white);
   @include size(100%, auto);
   position: fixed;
   top: 0;
@@ -62,6 +63,59 @@
   &__mobile-navigation {
     @include screen-above($tablet) {
       display: none;
+    }
+  }
+
+  &__mobile-navigation-trigger {
+    @include size(44px, 22px);
+    position: relative;
+    cursor: pointer;
+
+    @include hover {
+      --mobile-navigation-color: var(--hit);
+    }
+
+    &:active {
+      --mobile-navigation-color: var(--gray);
+    }
+
+    &[aria-expanded="true"] {
+      span {
+        &::before {
+          transform: rotate(45deg) translate(7px, 7px);
+        }
+
+        &::after {
+          transform: rotate(-45deg) translate(7px, -7px);
+        }
+      }
+    }
+  }
+
+  &__mobile-navigation-icon {
+    @include size(44px, 1px);
+    position: relative;
+    background-color: transparent;
+    display: block;
+    pointer-events: none;
+    transform: translateY(10px);
+    transition: all 0.2s ease-in-out;
+
+    &::before,
+    &::after {
+      @include size(44px, 1px);
+      background-color: var(--mobile-navigation-color);
+      position: absolute;
+      content: "";
+      transition: all 0.2s ease-in-out;
+    }
+
+    &::before {
+      top: -10px;
+    }
+
+    &::after {
+      top: 10px;
     }
   }
 
