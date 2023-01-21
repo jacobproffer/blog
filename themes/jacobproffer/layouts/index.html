@@ -7,15 +7,18 @@
 {{ $src := resources.Get "/images/background.jpg" }}
 {{ $smallw := default "375x webp" }}
 {{ $mediumw := default "600x webp" }}
+{{ $tablet := default "1080x webp" }}
 {{ $largew := default "1200x webp" }}
 
 {{ $data := newScratch }}
 {{ $data.Set "small" ($src.Resize $smallw) }}
 {{ $data.Set "medium" ($src.Resize $mediumw) }}
+{{ $data.Set "tablet" ($src.Resize $tablet) }}
 {{ $data.Set "large" ($src.Resize $largew) }}
 
 {{ $small := $data.Get "small" }}
 {{ $medium := $data.Get "medium" }}
+{{ $tablet := $data.Get "tablet" }}
 {{ $large := $data.Get "large" }}
 
 {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
@@ -38,7 +41,9 @@
 
           <source media="(max-width: 580px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}">
 
-          <source media="(min-width: 1080px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
+          <source media="(max-width: 1080)" srcset="{{with $tablet.RelPermalink}}{{.}}{{ end }}">
+
+          <source media="(min-width: 1200px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
 
           <img
             class="hero__graphic"
