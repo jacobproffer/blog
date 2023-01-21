@@ -13,16 +13,13 @@
 {{ $thumbnailSrc := resources.Get $thumbnail }}
 
 {{ $smallw := default "480x webp" }}
-{{ $mediumw := default "600x webp" }}
-{{ $largew := default "1200x webp" }}
+{{ $largew := default "670x webp" }}
 
 {{ $data := newScratch }}
 {{ $data.Set "small" ($thumbnailSrc.Resize $smallw) }}
-{{ $data.Set "medium" ($thumbnailSrc.Resize $mediumw) }}
 {{ $data.Set "large" ($thumbnailSrc.Resize $largew) }}
 
 {{ $small := $data.Get "small" }}
-{{ $medium := $data.Get "medium" }}
 {{ $large := $data.Get "large" }}
 
 <article class="article grid relative gsap-fade-in">
@@ -53,8 +50,6 @@
 
         <picture>
           <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">
-
-          <source media="(max-width: 1280px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}">
 
           <source media="(min-width: 1440px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
 
