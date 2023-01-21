@@ -13,9 +13,9 @@
 {{ $thumbnailSrc := resources.Get $thumbnail }}
 
 {{ $smallw := default "370x webp" }}
-{{ $tabletw := default "381x webp" }}
-{{ $mediumw := default "452x webp" }}
-{{ $largew := default "612x webp" }}
+{{ $tabletw := default "389x webp" }}
+{{ $mediumw := default "464x webp" }}
+{{ $largew := default "616x webp" }}
 
 {{ $data := newScratch }}
 {{ $data.Set "small" ($thumbnailSrc.Resize $smallw) }}
@@ -55,19 +55,17 @@
       <div class="content">
 
         <picture>
-          <source media="(min-width: 320px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
-
-          <source media="(min-width: 810px)" srcset="{{with $tablet.RelPermalink }}{{.}}{{ end }}" width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
-
-          <source media="(min-width: 1120px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
 
           <source media="(min-width: 1440px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
+          <source media="(min-width: 1120px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
+          <source media="(min-width: 810px)" srcset="{{with $tablet.RelPermalink }}{{.}}{{ end }}" width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
+          <source media="(min-width: 320px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
 
           <img
             class="article__thumbnail-image"
             src="{{ $thumbnailSrc.RelPermalink }}"
-            width="612"
-            height="478"
+            width="616"
+            height="482"
             alt=""
             loading="lazy"
             decoding="async"

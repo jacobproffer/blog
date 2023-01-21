@@ -1,9 +1,22 @@
 .list {
   --list-grid: repeat(2, 1fr);
+  --list-vertical-gap: 100px;
+  --list-horizontal-gap: 64px;
   grid-template-columns: var(--list-grid);
-  gap: #{createFluidValue(25px, 100px)} #{createFluidValue(32px, 64px)};
+  gap: var(--list-vertical-gap) var(--list-horizontal-gap);
+
+  @include screen-below($desktopSm) {
+    --list-vertical-gap: 75px;
+    --list-horizontal-gap: 48px;
+  }
+
+  @include screen-below($laptop) {
+    --list-vertical-gap: 50px;
+    --list-horizontal-gap: 32px;
+  }
 
   @include screen-below($portrait) {
+    --list-vertical-gap: 25px;
     --list-grid: 1fr;
   }
 
