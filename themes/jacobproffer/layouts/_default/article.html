@@ -12,7 +12,7 @@
 
 {{ $thumbnailSrc := resources.Get $thumbnail }}
 
-{{ $smallw := default "375x webp" }}
+{{ $smallw := default "480x webp" }}
 {{ $mediumw := default "600x webp" }}
 {{ $largew := default "1200x webp" }}
 
@@ -52,7 +52,7 @@
       <div class="content">
 
         <picture>
-          <source media="(max-width: 375px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">
+          <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">
 
           <source media="(max-width: 1280px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}">
 
