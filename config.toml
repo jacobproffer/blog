@@ -5,7 +5,7 @@ theme = "jacobproffer"
 paginate = 10
 paginatePath = "posts"
 copyright = "2023"
-enableRobotsTXT: true
+enableRobotsTXT = true
 
 [taxonomies]
   category = "categories"
