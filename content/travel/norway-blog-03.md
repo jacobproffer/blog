@@ -6,13 +6,14 @@ images: ["/images/norway_blog_03_social.jpg"]
 categories: ["travel"]
 tags: ["norway", "travel"]
 series: ["Norway"]
+thumbnail: "/images/norway_blog_03_social.jpg"
 ---
 
 The ferry from Tørvikbygd to Jondal is a short but pleasant experience. With an average time of twenty minutes to cross, Myles and I were able to use the bathroom, take pictures and even grab food from the onboard deli. The only downside is that the ferry crosses once per hour. We arrived early Sunday morning to an empty dock with a single employee present. Although patient, Myles and I were concerned that the delay would cost us sunlight. Thankfully, we only had to wait a half hour.
 
 Our goal for the day was to hike the Åkrafjorden. The fjord is located over three hours to the south east of Bergen, so transit time was constantly monitored. We also had to budget in the four hour estimate to the reach the top of fjord with enough time to descend before nightfall. With the recent experience of ice in Aurlandsdalen, we expected similar conditions. That in mind, we expected our climb to be slow. It was a constant worry of not having enough time.
 
-{{< lazy src="/images/ferry_02.jpg" alt="Myles Kedrowski on the ferry from Tørvikbygd to Jondal." >}}
+{{< image src="/images/ferry_02.jpg" alt="Myles Kedrowski on the ferry from Tørvikbygd to Jondal." >}}
 
 Weather wise, the temperature was steady in the high thirties. High wind created a chill at the base of the fjord but became less of an issue as Myles and I began the ascent. From the parking lot, it is a complete incline to the top. We found the majority of the climb to involve navigating boulders and narrow ledges. As expected, most of the rocks had layers of ice and snow. When necessary, Myles and I had to find alternative routes. This involved awkward scrambles and belly crawls.
 
@@ -22,6 +23,6 @@ The rest of the ascent was tricky. The trail was less apparent with fewer marker
 
 Once at the top, Myles and I were greeted by an older couple who rested on the ground. They had a bottle of wine and smoked cigarettes. Both were Norwegian and said it was their second time up the fjord. To their left, the younger couple we had trailed were above on a ledge taking pictures. Myles and I both dropped our backpacks before taking a moment to rest. I felt exhausted but knew I had to work quickly to take pictures. The sun had already begun to drop.
 
-{{< lazy src="/images/akrafjorden_1.jpg" alt="View from the top of Åkrafjorden." >}}
+{{< image src="/images/akrafjorden_1.jpg" alt="View from the top of Åkrafjorden." >}}
 
 The descent worried me the most but I had an idea. To prepare for the wide range of ice patches, I slipped on waterproof pants and gloves. My plan was to slide down any ice I encountered on my butt. It worked well enough that Myles and I were able to cut our time in half on the way down. We were only slowed down occasionally by boulder fields and narrow ledges. Myles decided to not put on his waterproof pants and got a little wet. But we were able to reach the vehicle well before dark.

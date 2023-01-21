@@ -4,16 +4,18 @@
 
 {{ define "main" }}
 
-  <main id="content">
-    <section class="four-oh-four">
-      <div class="container">
+  <main>
+    <article class="single hero-top-spacing">
+      <div class="container gsap-fade-in">
+        <div class="single__container">
+          <div class="single__content-grid">
+            <h1>404</h1>
 
-        <h1>404</h1>
-
-        <p>The page was not found. <a href="{{ .Site.BaseURL }}">Go home</a>?</p>
-
+            <p>The page was not found. <a href="{{ .Site.BaseURL }}">Go home</a>?</p>
+          </div>
+        </div>
       </div>
-    </section>
+    </article>
   </main>
 
 {{ end }}

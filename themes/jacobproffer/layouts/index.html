@@ -4,37 +4,85 @@
 
 {{ define "main" }}
 
+{{ $src := resources.Get "/images/background.jpg" }}
+{{ $smallw := default "300x webp" }}
+{{ $mediumw := default "600x webp" }}
+{{ $largew := default "1200x webp" }}
+
+{{ $data := newScratch }}
+{{ $data.Set "small" ($src.Resize $smallw) }}
+{{ $data.Set "medium" ($src.Resize $mediumw) }}
+{{ $data.Set "large" ($src.Resize $largew) }}
+
+{{ $small := $data.Get "small" }}
+{{ $medium := $data.Get "medium" }}
+{{ $large := $data.Get "large" }}
+
 {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
 
   <main>
 
+    <section class="hero hero-top-spacing gsap-fade-in">
+      <div class="hero__image-wrap">
+
+        <h1 class="visually-hide">My Name is Jacob Proffer</h1>
+
+        <img class="hero__image" src="/images/jacob-proffer.svg" alt="" aria-hidden="true">
+
+      </div>
+
+      <div class="hero__graphic-wrap">
+
+        <picture>
+          <source media="(max-width: 375px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">
+
+          <source media="(max-width: 577px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}">
+
+          <source media="(min-width: 770px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
+
+          <img
+            class="hero__graphic"
+            src="{{ $src.RelPermalink }}"
+            width="{{ $src.Width }}"
+            height="{{ $src.Height }}"
+            alt=""
+          >
+        </picture>
+
+      </div>
+    </section>
+
     <section>
 
-      <h1 class="visually-hide">Latest Posts</h1>
+      <div class="container">
 
-      <ul class="unstyled-list list grid">
+        <h2 class="list__headline gsap-fade-in">Latest Posts</h2>
 
-        {{ range $index, $page := $paginator.Pages }}
+        <ul class="unstyled-list list grid">
 
-          <li class="list__item grid relative">
+          {{ range $index, $page := $paginator.Pages }}
 
-            {{ .Render "article" }}
+            <li class="list__item grid relative">
 
-          </li>
+              {{ .Render "article" }}
 
-        {{ end }}
+            </li>
 
-      </ul>
+          {{ end }}
+
+        </ul>
+
+      </div>
 
       {{ if gt (len $paginator.Pagers) 1  }}
 
-        <nav class="border-bottom" aria-label="pagination">
+        <nav aria-label="pagination">
           <ul class="unstyled-list pagination gsap-stagger-in">
 
             {{ range $paginator.Pagers }}
 
               {{ if eq . $paginator}}
-                <li class="pagination__item flex-center border" aria-current="page">
+                <li class="pagination__item flex-center" aria-current="page">
                   <span class="visually-hide">Page</span>
                   {{ .PageNumber }}
                 </li>

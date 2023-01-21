@@ -1,5 +1,12 @@
 .single {
+  --max-width: 1200px;
+  margin-bottom: #{createFluidValue(75px, 150px)};
+
   p {
+    & + .single__image {
+      margin: 20px 0;
+    }
+
     &:first-of-type {
       margin-top: 0;
     }
@@ -9,23 +16,71 @@
     }
   }
 
+  ul {
+    display: grid;
+    row-gap: 10px;
+  }
+
+  li {
+    list-style: circle;
+    list-style-position: inside;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
   &__container {
-    @include screen-below($tablet) {
-      max-width: 67ch;
-      margin: auto;
+    max-width: var(--max-width);
+    margin: auto;
+  }
+
+  &__thumbnail {
+    --thumbnail-column: 1 / -1;
+    @include ratio(24, 10);
+    grid-column: var(--thumbnail-column);
+    max-width: var(--max-width);
+    margin: #{createFluidValue(50px, 100px)} auto;
+  }
+
+  &__thumbnail-image {
+    @include size(100%);
+    object-fit: cover;
+  }
+
+  &__content-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    row-gap: 20px;
+    justify-content: center;
+
+    & > * {
+      --content-column: 4 / 10;
+      grid-column: var(--content-column);
+      margin: 0;
+
+      @include screen-below($laptop) {
+        --content-column: 3 / 11;
+      }
+
+      @include screen-below($laptopSm) {
+        --content-column: 2 / 12;
+      }
+
+      @include screen-below($mobile) {
+        --content-column: 1 / -1;
+      }
     }
   }
 
-  &__grid {
-    --single-grid: 2fr 1fr;
-    grid-template-columns: var(--single-grid);
-    gap: #{createFluidValue(45px, 90px)};
-    padding-top: 20px;
-    margin-top: 20px;
-    border-top: 2px solid var(--black);
+  &__image {
+    @include ratio(3, 2);
 
-    @include screen-below($tablet) {
-      --single-grid: 1fr;
+    img {
+      @include size(100%);
+      display: block;
+      margin: 0;
+      object-fit: cover;
     }
   }
 
@@ -42,23 +97,15 @@
     }
   }
 
-  &__footer {
-    align-content: start;
-  }
+  &__two-col {
+    --two-col-grid: repeat(2, 1fr);
+    grid-column: 1 / -1;
+    grid-template-columns: var(--two-col-grid);
+    gap: 20px;
+    margin: 20px 0;
 
-  &__footer-list {
-    @include screen-above($tablet) {
-      position: sticky;
-      top: 76px;
-    }
-  }
-
-  &__footer-item {
-    justify-content: space-between;
-    padding: 10px 0;
-
-    &:not(:last-of-type) {
-      border-bottom: 1px solid var(--black);
+    @include screen-below($mobile) {
+      --two-col-grid: 1fr;
     }
   }
 }

@@ -1,13 +1,13 @@
-<nav aria-label="primary">
+<nav class="main-header__navigation" aria-label="primary">
   <ul class="unstyled-list main-header__nav-list">
 
     {{ $currentPage := . }}
 
     {{ range .Site.Menus.main }}
 
-      <li class="main-header__nav-item justify-end">
+      <li class="main-header__nav-item">
         <a
-          class="link-styling main-header__nav-link border-hover"
+          class="link-styling main-header__nav-link nav-item uppercase font-14"
           href="{{ .URL }}"
           {{ if $currentPage.IsMenuCurrent "main" . }}
             aria-current="page"

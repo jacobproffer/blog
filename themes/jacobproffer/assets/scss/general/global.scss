@@ -1,10 +1,11 @@
 :root {
   --container: 1440px;
   --container-gutter: calc((100vw - var(--container)) / 2);
-  --black: #231f20;
-  --gray: #c8cbcd;
-  --yellow: #fbf9f3;
+  --black: #000;
+  --white: #fff;
+  --gray: #7f7f7f;
   --hit: #ac8c64;
+  --gradient-brown-to-green: linear-gradient(270deg,rgba(165,113,46,1) -2.78%,rgba(115,147,90,1) 99.99%,#ff8469);
 
   --body-copy-font: "Work Sans", sans-serif;
 
@@ -33,7 +34,8 @@
 
 * {
   &:focus {
-    outline: 2px dotted var(--black);
+    outline: 1px dashed var(--white);
+    outline-offset: 2px;
   }
 }
 
@@ -41,9 +43,8 @@ body {
   --body-offset: 91px;
   position: relative;
   margin: 0;
-  color: var(--black);
-  background-color: var(--gray);
-  margin-top: var(--body-offset);
+  color: var(--white);
+  background-color: var(--black);
   font-family: var(--body-copy-font);
   font-size: 16px;
 

@@ -6,6 +6,7 @@ images: ["/images/japan_blog_03_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "travel"]
 series: ["Japan"]
+thumbnail: "/images/japan_blog_03_social.jpg"
 ---
 
 It was dark when the train pulled out of Narita. I did not expect this. In my mind, I had hopes to make it to Shinjuku and locate my hotel before nightfall. But it gets dark in Japan earlier than back home. It was six in the evening but it felt much later. I followed the progress of the train on my phone through Google Maps as the train snaked through small towns and past open fields. We pulled into Nippori Station roughly an hour later. This is where I had to make the switch from the Skyliner to the JR Line. The issue was that I had no idea how to get to the correct platform.
@@ -20,7 +21,7 @@ As we neared Shinjuku station, an announcement came over the intercom. First in 
 
 The train made it to Shinjuku station in roughly twenty-two minutes. I had read prior to my trip that Shinjuku was the busiest subway station in the world. It provided service to over three million people each day. And it was obvious how that number was reached. Outside the windows of my car, I could see people everywhere. As I exited the car, I located a sign for the East exit. The East exit, I learned from prior research, would lead me to Kabukicho where my hotel was located. I weaved in and out of crowds, making my way down a large set of stairs to the base floor of the station. The downstairs was filled with even more people. It was almost shoulder to shoulder. I truly had to watch where I walked to avoid running into anyone. While I watched my surroundings, I also looked for the yellow overhead signs. There were signs for other exits, such as North and South and other platforms. The sign for Kabukicho, which I found after a few minutes, pointed up a set of stairs that lead to an exit.
 
-{{< lazy src="/images/kabukicho_sign.jpg" alt="Exit sign for Kabukicho." >}}
+{{< image src="/images/kabukicho_sign.jpg" alt="Exit sign for Kabukicho." >}}
 
 Outside, there were dozens of people gathered near the exit. Mostly young adults and teenagers. A lot of them sat or leaned on a guardrail that was positioned between the sidewalk and nearby street. I found an empty spot along the guardrail and brought up Google Maps on my phone. I typed in my hotel, the Hotel Gracery, to see which direction I had to head off to. Thankfully, it was a short walk North from the station. I crossed the street and headed down a side street into central Kabukicho.
 
@@ -30,7 +31,7 @@ The check-in process for Hotel Gracery was clear and simple. The receptionist, a
 
 I road the elevator alone. My hotel room was to the direct left of the elevator on floor twelve. I flashed my card at the sensor near the door handle and saw a green light light up. I twisted the handle and stepped inside the room. The room was pitch black. I felt along the wall and found a nearby switch. Yet even after I toggled the switch, no lights came on. I moved deeper into the room and felt along walls until I found another bank of switches near the bed. I pressed the first button I found and the interior light turned on within the bedroom portion of the room. I pushed the rest of the buttons and found various lights turn on around the bedroom. There was a small nightlight near the base of the bed, a reading light, desk and hallway light.
 
-{{< lazy src="/images/hotel_room.jpg" alt="Hotel Gracery hotel room." >}}
+{{< image src="/images/hotel_room.jpg" alt="Hotel Gracery hotel room." >}}
 
 I went back to the switch in the walkway. I could see with the light on that I was required to insert my key into the light switch panel in order for the switch to work. I slid my card in and the lights and fan in the bathroom came on. My guess is that this sort of switch was designed to ensure lower amounts of power consumption. But to my surprise, there were two sections in the bathroom. The first section includes a sink and a fancier toilet. The toilet had a multitude of buttons and a bidet. The second room, behind a glass door, had a full-sized bathtub and shower head. There was enough room to the right of the tub to stand on the rubber floor and shower.
 

@@ -6,6 +6,7 @@ images: ["/images/japan_blog_00_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "travel"]
 series: ["Japan"]
+thumbnail: "/images/japan_blog_00_social.jpg"
 ---
 
 This is it. Tonight is my last full night within the United States, at least for the next week. As of Wednesday morning, I will touch down at Narita International Airport. Which, if you didn't know, is in Tokyo, Japan.

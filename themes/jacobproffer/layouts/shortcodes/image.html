@@ -1,0 +1,37 @@
+{{ $img := "" }}
+
+{{ $img = .Get "src" }}
+
+{{ $imgSrc := resources.Get $img }}
+
+{{ $smallw := default "375x webp" }}
+{{ $largew := default "640x webp" }}
+
+{{ $data := newScratch }}
+{{ $data.Set "small" ($imgSrc.Resize $smallw) }}
+{{ $data.Set "large" ($imgSrc.Resize $largew) }}
+
+{{ $small := $data.Get "small" }}
+{{ $large := $data.Get "large" }}
+
+<div class="single__image">
+
+  <div class="content">
+
+    <picture>
+      <source media="(max-width: 375px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">
+
+      <source media="(max-width: 580px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
+
+      <img
+        src="{{ $imgSrc.RelPermalink }}"
+        width="{{ $imgSrc.Width }}"
+        height="{{ $imgSrc.Height }}"
+        alt="{{ .Get "alt" }}"
+        loading="lazy"
+      >
+    </picture>
+
+  </div>
+
+</div>

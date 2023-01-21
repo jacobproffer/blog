@@ -1,0 +1,37 @@
+<button
+  class="unstyled-button main-header__mobile-navigation-trigger grid"
+  id="mobile-navigation-trigger"
+  aria-controls="mobile-navigation"
+  aria-expanded="false"
+  aria-label="Toggle mobile navigation"
+>
+  <span class="main-header__mobile-navigation-icon"></span>
+</button>
+
+<nav
+  class="main-header__mobile-navigation"
+  id="mobile-navigation"
+  aria-label="mobile"
+>
+  <ul class="unstyled-list grid main-header__mobile-navigation-list">
+
+    {{ $currentPage := . }}
+
+    {{ range .Site.Menus.main }}
+
+      <li>
+        <a
+          class="main-header__mobile-navigation-link nav-item uppercase"
+          href="{{ .URL }}"
+          {{ if $currentPage.IsMenuCurrent "main" . }}
+            aria-current="page"
+          {{ end }}
+        >
+          {{ .Name }}
+        </a>
+      </li>
+
+    {{ end }}
+
+  </ul>
+</nav>

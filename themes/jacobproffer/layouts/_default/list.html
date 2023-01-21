@@ -14,37 +14,55 @@
 
   <main>
 
+    <section class="hero hero-top-spacing gsap-fade-in">
+      <div class="hero__image-wrap">
+
+        <h1 class="visually-hide">My Name is Jacob Proffer</h1>
+
+        <img class="hero__image" src="/images/jacob-proffer.svg" alt="" aria-hidden="true">
+
+      </div>
+
+      <div class="hero__graphic-wrap">
+        <img class="hero__graphic" src="/images/uploads/background.jpg" alt="" aria-hidden="true">
+      </div>
+    </section>
+
     <section>
 
-      {{ if eq .Title "Japaneses" }}
-        <h1 class="visually-hide">Japanese</h1>
-      {{ else }}
-        <h1 class="visually-hide">{{ .Title | singularize }}</h1>
-      {{ end }}
+      <div class="container">
 
-      <ul class="unstyled-list list grid gsap-fade-in">
-
-        {{ range $index, $page := $paginator.Pages }}
-
-          <li class="list__item grid relative">
-
-            {{ .Render "article" }}
-
-          </li>
-
+        {{ if eq .Title "Japaneses" }}
+          <h2 class="list__headline gsap-fade-in">Japanese</h2>
+        {{ else }}
+          <h2 class="list__headline gsap-fade-in">{{ .Title | singularize }}</h2>
         {{ end }}
 
-      </ul>
+        <ul class="unstyled-list list grid">
+
+          {{ range $index, $page := $paginator.Pages }}
+
+            <li class="list__item grid relative">
+
+              {{ .Render "article" }}
+
+            </li>
+
+          {{ end }}
+
+        </ul>
+
+      </div>
 
       {{ if gt (len $paginator.Pagers) 1  }}
 
-        <nav class="border-bottom" aria-label="pagination">
+        <nav aria-label="pagination">
           <ul class="unstyled-list pagination gsap-stagger-in">
 
             {{ range $paginator.Pagers }}
 
               {{ if eq . $paginator}}
-                <li class="pagination__item flex-center border" aria-current="page">
+                <li class="pagination__item flex-center" aria-current="page">
                   <span class="visually-hide">Page</span>
                   {{ .PageNumber }}
                 </li>

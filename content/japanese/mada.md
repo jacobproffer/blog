@@ -6,6 +6,7 @@ images: ["/images/uploads/background.jpg"]
 categories: ["japanese"]
 tags: ["japanese", "education"]
 series: ["japanese"]
+thumbnail: "/images/background.jpg"
 ---
 
 {{< japanese >}}まだ{{< /japanese >}} (mada) means "not yet" or "still". In a sentence, the meaning will depend on whether {{< japanese >}}まだ{{< /japanese >}} is used with negative or positive adjectives and verbs. Most commonly, {{< japanese >}}まだ{{< /japanese >}} is used with negative words to mean, "Not yet". However, with positive words, it means "still".

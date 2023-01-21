@@ -6,6 +6,7 @@ images: ["/images/iceland_blog_01_social.jpg"]
 categories: ["travel"]
 tags: ["iceland", "travel"]
 series: ["Iceland"]
+thumbnail: "/images/iceland_blog_01_social.jpg"
 ---
 
 The Boeing 757 touched down in Iceland around six thirty in the morning on Tuesday, May 15th. Off the plane, I was corralled towards the main terminal with the rest of the passengers. But unlike in Tokyo, Japan, I didn't have to immediately go through customs. I was able to link-up with Myles, my travel partner for the trip, near a small cafe in the airport. We attempted to get some coffee but all of the stores past security required an outgoing boarding pass.
@@ -20,15 +21,23 @@ I was up first for driving, which I admit I was somewhat skeptical about. More s
 
 Our first stop was the Blue Lagoon. We originally considered going into the geothermal spa but the price was nine-thousand Icelandic króna or eighty-five dollars. Instead, Myles and I had some coffee at the cafe, used the washroom and continued on towards the coast. Near the Blue Lagoon, we caught sight of Grindavík, which is a fishing town on the Southern Peninsula of Iceland. We pulled off the road near the top of a hill and had a panoramic view of the town.
 
-{{< lazy src="/images/grindavikurbaer_1.jpg" alt="Grindavikurbaer." >}}
-{{< lazy src="/images/grindavikurbaer_2.jpg" alt="Grindavikurbaer." >}}
+{{< images >}}
+
+{{< image src="/images/grindavikurbaer_1.jpg" alt="Grindavikurbaer." >}}
+{{< image src="/images/grindavikurbaer_2.jpg" >}}
+
+{{< /images >}}
 
 Near Grindavík, along Route 43, Myles spotted a dirt road that was in the direction of the ocean. We turned onto the path, with no real idea of the road conditions. The landscape was odd with black sand, moss and large chunks of rocks spread out for miles. There actually was somewhat of a parking lot about a mile or so down the road. It seemed more of a turnaround spot than anything. But Myles's and I exited the vehicle and walked down to the surf.
 
 Spread between the rocks and dirt were pieces of trash, kelp and driftwood. There wasn't much of a direct path to the water, so we just weaved through and stepped on an endless amount of rocks. As some parts of the beach were wet, the bottoms and toes of my boots turned black with the sand. I started taking pictures while Myles ventured closer to the surf. I'd read plenty of stories of people being swept out to sea in Iceland, so I kept a distance.
 
-{{< lazy src="/images/grindavikurbaer_3.jpg" alt="Landscape of Grindavikurbaer." >}}
-{{< lazy src="/images/grindavikurbaer_4.jpg" alt="Beach near Grindavikurbaer." >}}
+{{< images >}}
+
+{{< image src="/images/grindavikurbaer_3.jpg" alt="Landscape of Grindavikurbaer" >}}
+{{< image src="/images/grindavikurbaer_4.jpg" alt="Beach near Grindavikurbaer." >}}
+
+{{< /images >}}
 
 After about thirty minutes on the beach, Myles and I got back onto the road. We took Route 427 towards Þorlákshöfn, which provides an almost endless view of the ocean and plenty of farm land. Throughout the drive, the radio station we selected had some of the most random music. Shaggy to Metallica or Kanye West to Icelandic Country. We also heard what appeared to be Icelandic Reggae. All stations in Iceland also appeared to be uncensored, which was strange.
 
@@ -36,7 +45,7 @@ Past Þorlákshöfn, Myles and I took Route 39 for a few miles. The road eventua
 
 It was a stark contrast in traffic once we reached Reykjavik. There was a rush of traffic with plenty of two-lane roundabouts. But it didn't take long to locate Reykjavik Lights, our hotel for the trip. The hotel is located in the eastern part of Reykjavik, along a street called Suðurlandsbraut. It was only noon when Myles and I pulled into the parking lot. The hotel staff were nice enough to let us check in two hours early. Our rooms were side by side on the fifth floor with views of a large mountain.
 
-{{< lazy src="/images/road.jpg" alt="Road near Þorlákshöfn." >}}
+{{< image src="/images/road.jpg" alt="Road near Þorlákshöfn." >}}
 
 Part of me wanted to sleep. I'd been up for over 24 hours. But it was still afternoon in Iceland, so I didn't want to waste the day. I also didn't want to mess up my sleep schedule. So Myles and I freshened up and went out in search of dinner. We settled on an oriental restaurant and had mass portions of chicken and rice. Then we took a walk around Reykjavik. Within the city, Iceland didn't feel so different. There are plenty of hotels, residential buildings, highways, crosswalks and shops.
 

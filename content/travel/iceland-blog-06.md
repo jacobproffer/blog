@@ -6,6 +6,7 @@ images: ["/images/iceland_blog_06_social.jpg"]
 categories: ["travel"]
 tags: ["iceland", "travel"]
 series: ["Iceland"]
+thumbnail: "/images/iceland_blog_06_social.jpg"
 ---
 
 Myles and I did not have a lot planned for the final day in Iceland. It was a lazy day. We slept in and had breakfast at the hotel at eight. The only item on our itinerary was to go to the movies in the afternoon. We wanted to watch Deadpool 2, which had just been released. To kill time, we drove out to the south east of Reykjavik. From Route 1, we took a right onto Road 417, which snakes around a beautiful volcanic landscape with mossy hills.
@@ -14,9 +15,12 @@ As we got higher in elevation along a gravel road, we encountered a sudden blizz
 
 Towards the middle of Road 417, Myles and I came across a weathered neon orange emergency shelter. We pulled over and walked out towards it, mindful of the moss in the area. The shelter appeared well used, with the bunk bed broken. A woodland camouflage blanket hung loose on the frame. Trash was spread out amongst the floor with old candles lined up on the window sills. The boxes of food and wrappers were dated but there appeared to be some white rice still intact.
 
-{{< lazy src="/images/blafjallavegur_1.jpg" alt="Blafjallavegur." >}}
-{{< lazy src="/images/blafjallavegur_2.jpg" alt="Blafjallavegur." >}}
-{{< lazy src="/images/blafjallavegur_3.jpg" alt="Blafjallavegur." >}}
+{{< images >}}
+
+{{< image src="/images/blafjallavegur_1.jpg" alt="Blafjallavegur." >}}
+{{< image src="/images/blafjallavegur_2.jpg" >}}
+
+{{< /images >}}
 
 Myles and I took photographs of the shack. Afterwards, we walked back to the vehicle and drove to Sambíó Egilshöll. The theater is located near the Engi district of Reykjavik and is attached to a multi-purpose sports facility. Prices were relatively cheap for tickets. I passed on snacks but Myles loaded up on popcorn and soda. Deadpool 2 was good as expected. But I found it slightly odd that Iceland has intermission in the middle of the movie for concession and bathroom breaks.
 
