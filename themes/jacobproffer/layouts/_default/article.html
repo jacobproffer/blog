@@ -13,7 +13,7 @@
 {{ $thumbnailSrc := resources.Get $thumbnail }}
 
 {{ $smallw := default "480x webp" }}
-{{ $largew := default "670x webp" }}
+{{ $largew := default "688x webp" }}
 
 {{ $data := newScratch }}
 {{ $data.Set "small" ($thumbnailSrc.Resize $smallw) }}
@@ -49,15 +49,15 @@
       <div class="content">
 
         <picture>
-          <source media="(max-width: 480px)" width="{{ $small.Width }}" height="{{ $small.Height }}" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">
+          <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
 
-          <source media="(min-width: 640px)" width="{{ $large.Width }}" height="{{ $large.Height }}" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
+          <source media="(min-width: 640px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
 
           <img
             class="article__thumbnail-image"
             src="{{ $thumbnailSrc.RelPermalink }}"
-            width="670"
-            height="447"
+            width="688"
+            height="458"
             alt=""
             loading="lazy"
             decoding="async"
