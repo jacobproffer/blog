@@ -1,9 +1,12 @@
 .article {
-  --image-opacity: .8;
   position: relative;
   z-index: 1;
   row-gap: 20px;
   transition: opacity 300ms ease-in-out;
+
+  @include screen-above($portrait) {
+    --image-opacity: .8;
+  }
 
   @include hover {
     --image-opacity: 1;
@@ -26,13 +29,12 @@
     order: 1;
     pointer-events: none;
     overflow: hidden;
-    opacity: var(--image-opacity);
   }
 
   &__thumbnail-image {
     @include size(100%);
     object-fit: cover;
-    opacity: var(--image-opacity);
+    opacity: var(--image-opacity, 1);
     transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
   }
 
