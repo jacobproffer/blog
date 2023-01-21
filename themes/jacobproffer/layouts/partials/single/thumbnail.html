@@ -12,7 +12,7 @@
 
 {{ $thumbnailSrc := resources.Get $thumbnail }}
 
-{{ $smallw := default "375x webp" }}
+{{ $smallw := default "480x webp" }}
 {{ $mediumw := default "600x webp" }}
 {{ $largew := default "1200x webp" }}
 
@@ -28,11 +28,11 @@
 <div class="single__thumbnail gsap-fade-in">
   <div class="content">
     <picture>
-      <source media="(max-width: 375px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">
+      <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">
 
-      <source media="(max-width: 577px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}">
+      <source media="(max-width: 600px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}">
 
-      <source media="(min-width: 770px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
+      <source media="(min-width: 768px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
 
       <img
         class="single__thumbnail-image"

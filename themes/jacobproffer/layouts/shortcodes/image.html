@@ -4,7 +4,7 @@
 
 {{ $imgSrc := resources.Get $img }}
 
-{{ $smallw := default "375x webp" }}
+{{ $smallw := default "480x webp" }}
 {{ $largew := default "640x webp" }}
 
 {{ $data := newScratch }}
@@ -19,9 +19,9 @@
   <div class="content">
 
     <picture>
-      <source media="(max-width: 375px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">
+      <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">
 
-      <source media="(max-width: 580px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
+      <source media="(max-width: 600px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
 
       <img
         src="{{ $imgSrc.RelPermalink }}"
@@ -29,6 +29,7 @@
         height="{{ $imgSrc.Height }}"
         alt="{{ .Get "alt" }}"
         loading="lazy"
+        decoding="async"
       >
     </picture>
 
