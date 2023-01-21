@@ -12,14 +12,20 @@
 
 {{ $thumbnailSrc := resources.Get $thumbnail }}
 
-{{ $smallw := default "480x webp" }}
-{{ $largew := default "688x webp" }}
+{{ $smallw := default "370x webp" }}
+{{ $tabletw := default "381x webp" }}
+{{ $mediumw := default "452x webp" }}
+{{ $largew := default "612x webp" }}
 
 {{ $data := newScratch }}
 {{ $data.Set "small" ($thumbnailSrc.Resize $smallw) }}
+{{ $data.Set "tablet" ($thumbnailSrc.Resize $smallw) }}
+{{ $data.Set "medium" ($thumbnailSrc.Resize $mediumw) }}
 {{ $data.Set "large" ($thumbnailSrc.Resize $largew) }}
 
 {{ $small := $data.Get "small" }}
+{{ $tablet := $data.Get "tablet" }}
+{{ $medium := $data.Get "medium" }}
 {{ $large := $data.Get "large" }}
 
 <article class="article grid relative gsap-fade-in">
@@ -49,15 +55,19 @@
       <div class="content">
 
         <picture>
-          <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
+          <source media="(min-width: 320px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
 
-          <source media="(min-width: 640px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
+          <source media="(min-width: 810px)" srcset="{{with $tablet.RelPermalink }}{{.}}{{ end }}" width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
+
+          <source media="(min-width: 1120px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
+
+          <source media="(min-width: 1440px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
 
           <img
             class="article__thumbnail-image"
             src="{{ $thumbnailSrc.RelPermalink }}"
-            width="688"
-            height="458"
+            width="612"
+            height="478"
             alt=""
             loading="lazy"
             decoding="async"

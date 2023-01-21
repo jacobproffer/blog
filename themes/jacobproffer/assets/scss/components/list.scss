@@ -3,7 +3,7 @@
   grid-template-columns: var(--list-grid);
   gap: #{createFluidValue(25px, 100px)} #{createFluidValue(32px, 64px)};
 
-  @include screen-below($tablet) {
+  @include screen-below($portrait) {
     --list-grid: 1fr;
   }
 
