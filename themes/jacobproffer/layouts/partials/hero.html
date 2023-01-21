@@ -27,13 +27,13 @@
   <div class="hero__graphic-wrap">
 
     <picture>
-      <source media="(max-width: 450px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Width }}">
+      <source media="(max-width: 450px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
 
-      <source media="(max-width: 600px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}" width="{{ $medium.Width }}" height="{{ $medium.Width }}">
+      <source media="(max-width: 600px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
 
-      <source media="(max-width: 900px)" srcset="{{with $tablet.RelPermalink}}{{.}}{{ end }}" width="{{ $tablet.Width }}" height="{{ $tablet.Width }}">
+      <source media="(max-width: 900px)" srcset="{{with $tablet.RelPermalink}}{{.}}{{ end }}" width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
 
-      <source media="(min-width: 1200px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Width }}">
+      <source media="(min-width: 1200px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
 
       <img
         class="hero__graphic"

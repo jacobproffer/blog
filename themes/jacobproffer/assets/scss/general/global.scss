@@ -1,5 +1,5 @@
 :root {
-  --container: 1440px;
+  --container: 1280px;
   --container-gutter: calc((100vw - var(--container)) / 2);
   --black: #000;
   --white: #fff;
@@ -18,10 +18,14 @@
   }
 
   @include screen-below($laptop) {
-    --container: 1080px;
+    --container: 960px;
   }
 
-  @include screen-below(1120px) {
+  @include screen-below($tablet) {
+    --container: 810px;
+  }
+
+  @include screen-below($portrait) {
     --container: calc(100% - 40px);
   }
 }
