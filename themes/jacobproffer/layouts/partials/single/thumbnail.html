@@ -32,13 +32,11 @@
 
       <source media="(max-width: 600px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}">
 
-      <source media="(min-width: 768px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
+      <source media="(min-width: 1080px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
 
       <img
         class="single__thumbnail-image"
         src="{{ $thumbnailSrc.RelPermalink }}"
-        width="{{ $thumbnailSrc.Width }}"
-        height="{{ $thumbnailSrc.Height }}"
         alt=""
       >
     </picture>
