@@ -3,6 +3,10 @@
   margin-bottom: #{createFluidValue(75px, 150px)};
 
   p {
+    & + .single__image {
+      margin: 20px 0;
+    }
+
     &:first-of-type {
       margin-top: 0;
     }
