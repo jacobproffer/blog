@@ -4,58 +4,11 @@
 
 {{ define "main" }}
 
-{{ $src := resources.Get "/images/background.jpg" }}
-{{ $smallw := default "375x webp" }}
-{{ $mediumw := default "600x webp" }}
-{{ $tablet := default "1080x webp" }}
-{{ $largew := default "1200x webp" }}
-
-{{ $data := newScratch }}
-{{ $data.Set "small" ($src.Resize $smallw) }}
-{{ $data.Set "medium" ($src.Resize $mediumw) }}
-{{ $data.Set "tablet" ($src.Resize $tablet) }}
-{{ $data.Set "large" ($src.Resize $largew) }}
-
-{{ $small := $data.Get "small" }}
-{{ $medium := $data.Get "medium" }}
-{{ $tablet := $data.Get "tablet" }}
-{{ $large := $data.Get "large" }}
-
 {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
 
   <main>
 
-    <section class="hero hero-top-spacing gsap-fade-in">
-      <div class="hero__image-wrap">
-
-        <h1 class="visually-hide">My Name is Jacob Proffer</h1>
-
-        {{ partial "jacob-proffer" }}
-
-      </div>
-
-      <div class="hero__graphic-wrap">
-
-        <picture>
-          <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">
-
-          <source media="(max-width: 580px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}">
-
-          <source media="(max-width: 1080)" srcset="{{with $tablet.RelPermalink}}{{.}}{{ end }}">
-
-          <source media="(min-width: 1200px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
-
-          <img
-            class="hero__graphic"
-            src="{{ $src.RelPermalink }}"
-            width="{{ $src.Width }}"
-            height="{{ $src.Height }}"
-            alt=""
-          >
-        </picture>
-
-      </div>
-    </section>
+    {{ partial "hero" . }}
 
     <section>
 
