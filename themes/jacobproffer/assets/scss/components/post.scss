@@ -26,6 +26,10 @@
     list-style-position: inside;
   }
 
+  a {
+    text-decoration: underline;
+  }
+
   &__container {
     max-width: var(--max-width);
     margin: auto;
