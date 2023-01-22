@@ -49,10 +49,6 @@
   display: flex;
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-
 .nav-item {
   --item-width: 1ch;
   --item-color: var(--gray);
@@ -60,7 +56,6 @@
   display: block;
   color: var(--item-color);
   letter-spacing: .2rem;
-  text-transform: uppercase;
   transition: color 300ms ease-in-out, outline 150ms ease-in-out;
 
   &::before {
@@ -92,58 +87,20 @@
   padding-top: #{createFluidValue(100px, 200px)};
 }
 
-.hero {
-  --hero-bottom-spacing: #{createFluidValue(75px, 150px)};
-  padding-bottom: var(--hero-bottom-spacing);
-  margin-bottom: var(--hero-bottom-spacing);
-  background: linear-gradient(180deg, rgba(255, 132, 105, .25) 0%, rgba(0, 0, 0, 0) 100%);
-  overflow: hidden;
-
-  &::before {
-    --bar-sizes: clamp(1.25rem, calc(-0.07rem + 5.63vw), 5.00rem);
-    position: absolute;
-    top: 0;
-    right: 8.5%;
-    z-index: 2;
-    width: var(--bar-sizes);
-    height: 100%;
-    background-color: var(--black);
-    mix-blend-mode: overlay;
-    pointer-events: none;
-    content: "";
-  }
-
-  &__image-wrap {
-    background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
-  }
-
-  &__image {
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-
-  &__graphic-wrap {
-    @include size(100%, 50%);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    mix-blend-mode: hard-light;
-
-    &::before {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
-      content: "";
-    }
-  }
-
-  &__graphic {
-    @include size(100%);
-    object-fit: cover;
-  }
-}
-
 .font-14 {
   font-size: rem(14);
+}
+
+.subheading-wrap {
+  align-items: center;
+  gap: 20px;
+  margin-bottom: #{createFluidValue(30px, 60px)};
+
+  &__headline {
+    margin: 0;
+  }
+
+  &__count {
+    color: var(--gray);
+  }
 }

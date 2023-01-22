@@ -12,6 +12,9 @@
 
 {{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") }}
 
+{{ $japaneseLength := (where .Site.Pages "Section" "japanese" | len) }}
+{{ $travelLength := (where .Site.Pages "Section" "travel" | len) }}
+
   <main>
 
     {{ partial "hero" . }}
@@ -20,10 +23,24 @@
 
       <div class="container">
 
-        {{ if eq .Title "Japaneses" }}
-          <h2 class="list__headline gsap-fade-in">Japanese</h2>
+        {{ if or (eq .Type "japanese") (eq .Type "travel") }}
+
+          <div class="subheading-wrap flex gsap-fade-in">
+
+            {{ if eq .Type "japanese" }}
+              <h2 class="subheading-wrap__headline">Japanese</h2>
+              <span class="subheading-wrap__count font-14">{{ $japaneseLength }} Total Posts</span>
+            {{ else if eq .Type "travel" }}
+              <h2 class="subheading-wrap__headline">{{ .Title | singularize }}</h2>
+              <span class="subheading-wrap__count font-14">{{ $travelLength }} Total Posts</span>
+            {{ end }}
+
+          </div>
+
         {{ else }}
-          <h2 class="list__headline gsap-fade-in">{{ .Title | singularize }}</h2>
+
+          <h2 class="list__headline">{{ .Title |singularize }}</h2>
+
         {{ end }}
 
         <ul class="unstyled-list list grid">
