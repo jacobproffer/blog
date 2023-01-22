@@ -6,7 +6,7 @@
 
   <main>
 
-    <article class="single">
+    <article class="single bottom-spacing">
 
       <div class="hero-top-spacing">
         <div class="container gsap-fade-in">
@@ -50,27 +50,29 @@
 
     <aside class="related">
       <div class="container">
-        <div class="single__container">
 
-          {{ $related := .Site.RegularPages.Related . | first 4 }}
+        {{ $related := .Site.RegularPages.Related . | first 2 }}
 
-          {{ with $related }}
+        {{ with $related }}
 
-            <h2 class="related__headline gsap-fade-in">Related Posts</h2>
+          <h2 class="list__headline gsap-fade-in">Related Posts</h2>
 
-            <ul class="unstyled-list grid gsap-fade-in">
+          <ul class="unstyled-list list grid">
 
-              {{ range . }}
-                <li>
-                  {{ .Render "article-related" }}
-                </li>
-              {{ end }}
+            {{ range . }}
 
-            </ul>
+              <li class="list__item grid relative">
 
-          {{ end }}
+                {{ .Render "article" }}
 
-        </div>
+              </li>
+
+            {{ end }}
+
+          </ul>
+
+        {{ end }}
+
       </div>
     </aside>
 
