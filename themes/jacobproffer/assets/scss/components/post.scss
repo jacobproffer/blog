@@ -1,6 +1,5 @@
 .single {
   --max-width: 1200px;
-  margin-bottom: #{createFluidValue(75px, 150px)};
 
   p {
     & + .single__image {
@@ -40,7 +39,7 @@
     @include ratio(24, 10);
     grid-column: var(--thumbnail-column);
     max-width: var(--max-width);
-    margin: #{createFluidValue(50px, 100px)} auto;
+    margin: var(--size-50-100) auto;
   }
 
   &__thumbnail-image {

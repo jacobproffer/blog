@@ -7,6 +7,10 @@
   --hit: #ac8c64;
   --gradient-brown-to-green: linear-gradient(270deg,rgba(165,113,46,1) -2.78%,rgba(115,147,90,1) 99.99%,#ff8469);
 
+  --size-50-100: #{createFluidValue(50px, 100px)};
+  --size-75-150: #{createFluidValue(75px, 150px)};
+  --size-100-200: #{createFluidValue(100px, 200px)};
+
   --body-copy-font: "Work Sans", sans-serif;
 
   --weight-medium: 500;

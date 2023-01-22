@@ -11,9 +11,7 @@
 }
 
 .hero {
-  --hero-bottom-spacing: #{createFluidValue(75px, 150px)};
-  padding-bottom: var(--hero-bottom-spacing);
-  margin-bottom: var(--hero-bottom-spacing);
+  padding-bottom: var(--size-75-150);
   background: linear-gradient(180deg, rgba(255, 132, 105, .25), rgba(0, 0, 0, 0), rgba(255, 132, 105, .25));
   background-size: 150% 150%;
   animation: gradient 15s ease infinite;

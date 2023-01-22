@@ -80,7 +80,7 @@
 }
 
 .hero-top-spacing {
-  padding-top: #{createFluidValue(100px, 200px)};
+  padding-top: var(--size-100-200);
 }
 
 .font-14 {
@@ -99,4 +99,8 @@
   &__count {
     color: var(--gray);
   }
+}
+
+.bottom-spacing {
+  margin-bottom: var(--size-75-150);
 }
