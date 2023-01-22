@@ -6,6 +6,8 @@
 
 {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
 
+{{ $totalPosts := len .Site.RegularPages }}
+
   <main>
 
     {{ partial "hero" . }}
@@ -14,7 +16,10 @@
 
       <div class="container">
 
-        <h2 class="list__headline gsap-fade-in">Latest Posts</h2>
+        <div class="subheading-wrap flex gsap-fade-in">
+          <h2 class="subheading-wrap__headline">Latest Posts</h2>
+          <span class="subheading-wrap__count font-14">{{ $totalPosts }} Total Posts</span>
+        </div>
 
         <ul class="unstyled-list list grid">
 

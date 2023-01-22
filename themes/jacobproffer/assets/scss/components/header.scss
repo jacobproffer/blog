@@ -1,5 +1,4 @@
 .main-header {
-  --header-padding: 20px;
   --header-background: rgba(0, 0, 0, 0);
   --mobile-navigation-color: var(--white);
   @include size(100%, auto);
@@ -7,13 +6,9 @@
   top: 0;
   left: 0;
   z-index: 2;
-  padding: var(--header-padding) 0;
+  padding: 20px 0;
   background-color: var(--header-background);
-  transition: padding 150ms ease-in-out, background-color 150ms ease-in-out;
-
-  &--pinned {
-    --header-padding: 15px;
-  }
+  transition: background-color 150ms ease-in-out;
 
   &--pinned,
   &--navigation-open {
@@ -134,8 +129,9 @@
   }
 
   &__mobile-navigation-list {
-    row-gap: #{createFluidValue(20px, 40px)};
+    row-gap: #{createFluidValue(30px, 60px)};
     margin-top: 40px;
+    padding-bottom: 30px;
   }
 
   &__mobile-navigation-link {
