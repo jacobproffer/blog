@@ -109,4 +109,9 @@
       --two-col-grid: 1fr;
     }
   }
+
+  &__tags-list {
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
 }
