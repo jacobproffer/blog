@@ -4,7 +4,7 @@ date: 2018-09-03 14:00:00
 description: Third day in Iceland.
 images: ["/images/iceland_blog_03_social.jpg"]
 categories: ["travel"]
-tags: ["iceland", "travel"]
+tags: ["iceland", "drive", "road", "vehicle"]
 series: ["Iceland"]
 thumbnail: "/images/iceland_blog_03_social.jpg"
 ---

@@ -44,7 +44,7 @@
 
                   <ul class="unstyled-list flex">
 
-                    {{ range $index, $tag := . }}
+                    {{ range  $index, $tag := (. | sort) }}
 
                       {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
 

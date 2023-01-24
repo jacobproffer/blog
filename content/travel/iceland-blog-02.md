@@ -4,7 +4,7 @@ date: 2018-08-26 14:00:00
 description: "Second day in Iceland."
 images: ["/images/iceland_blog_02_social.jpg"]
 categories: ["travel"]
-tags: ["iceland", "travel"]
+tags: ["iceland", "travel", "trip", "drive", "vehicle"]
 series: ["Iceland"]
 thumbnail: "/images/iceland_blog_02_social.jpg"
 ---
