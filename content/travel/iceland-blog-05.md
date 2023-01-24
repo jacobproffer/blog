@@ -4,7 +4,7 @@ date: 2018-09-19 14:00:00
 description: "Fifth day in Iceland."
 images: ["/images/iceland_blog_05_social.jpg"]
 categories: ["travel"]
-tags: ["iceland", "travel"]
+tags: ["iceland", "travel", "hike", "drive", "restaurant"]
 series: ["Iceland"]
 thumbnail: "/images/iceland_blog_05_social.jpg"
 ---

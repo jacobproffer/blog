@@ -4,7 +4,7 @@ date: 2017-12-12 14:00:00
 description: "Getting to Tokyo, Japan."
 images: ["/images/japan_blog_01_social.jpg"]
 categories: ["travel"]
-tags: ["japan", "travel"]
+tags: ["japan", "travel", "airport", "narita"]
 series: ["Japan"]
 thumbnail: "/images/japan_blog_01_social.jpg"
 ---

@@ -4,7 +4,7 @@ date: 2020-01-01T14:27:41.434Z
 description: "Getting into Bucharest, Romania."
 images: ["/images/uploads/img_0205.jpg"]
 categories: ["travel"]
-tags: ["romania", "travel"]
+tags: ["romania", "airport", "hotel"]
 series: ["Romania"]
 thumbnail: "/images/london.jpg"
 ---

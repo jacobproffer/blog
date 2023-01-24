@@ -4,7 +4,7 @@ date: 2018-11-29 14:00:00
 description: "First full day in Norway, exploring Tvindefossen, Aurlandsdalen and Nærøyfjord."
 images: ["/images/norway_blog_02_social.jpg"]
 categories: ["travel"]
-tags: ["norway", "travel"]
+tags: ["norway", "hike", "vehicle", "drive"]
 series: ["Norway"]
 thumbnail: "/images/norway_blog_02_social.jpg"
 ---

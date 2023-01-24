@@ -4,7 +4,7 @@ date: 2018-10-10 14:00:00
 description: "Sixth day in Iceland."
 images: ["/images/iceland_blog_06_social.jpg"]
 categories: ["travel"]
-tags: ["iceland", "travel"]
+tags: ["iceland", "trip", "drive", "vehicle", "restaurant"]
 series: ["Iceland"]
 thumbnail: "/images/iceland_blog_06_social.jpg"
 ---

@@ -4,7 +4,7 @@ date: 2019-05-13T18:41:26-04:00
 description: "Back in Japan."
 images: ["/images/japan_blog_10_social.jpg"]
 categories: ["travel"]
-tags: ["japan", "travel"]
+tags: ["japan", "airport", "hotel", "osaka"]
 series: ["Japan"]
 thumbnail: "/images/japan_blog_10_social.jpg"
 ---

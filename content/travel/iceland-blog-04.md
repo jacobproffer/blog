@@ -4,7 +4,7 @@ date: 2018-09-16 14:00:00
 description: "Fourth day in Iceland."
 images: ["/images/iceland_blog_04_social.jpg"]
 categories: ["travel"]
-tags: ["iceland", "travel"]
+tags: ["iceland", "drive", "road", "vehicle", "hike"]
 series: ["Iceland"]
 thumbnail: "/images/iceland_blog_04_social.jpg"
 ---

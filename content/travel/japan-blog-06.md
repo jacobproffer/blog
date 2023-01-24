@@ -4,7 +4,7 @@ date: 2018-04-10 14:00:00
 description: "Jacob Proffer's time in Shibuya, Tokyo, Japan."
 images: ["/images/shibuya_social.jpg"]
 categories: ["travel"]
-tags: ["japan", "travel"]
+tags: ["japan", "shibuya", "akihabara", "mandarake", "restaurant"]
 series: ["Japan"]
 thumbnail: "/images/shibuya_social.jpg"
 ---

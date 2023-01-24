@@ -4,7 +4,7 @@ date: 2020-02-17T19:04:27-05:00
 description: "My first full day in Bucharest, Romania. A day of goulash, walking and more walking."
 images: ["/images/romania-blog-02-social.jpg"]
 categories: ["travel"]
-tags: ["romania", "travel"]
+tags: ["romania", "restaurant", "hotel"]
 series: ["Romania"]
 thumbnail: "/images/romania-blog-02-social.jpg"
 ---

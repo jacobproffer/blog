@@ -4,7 +4,7 @@ date: 2019-01-27 14:00:00
 description: "Eighth month progress report of studying Japanese."
 images: ["/images/i_love_japanese_social.jpg"]
 categories: ["japanese"]
-tags: ["japanese", "education"]
+tags: ["japanese", "hiragana", "katakana", "kanji"]
 series: ["Japanese"]
 aliases: ["/education/i-love-japanese/"]
 thumbnail: "/images/i_love_japanese_social.jpg"

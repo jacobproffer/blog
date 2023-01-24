@@ -4,7 +4,7 @@ date: 2018-05-13 14:00:00
 description: "The night before my trip to Iceland."
 images: ["/images/iceland_blog_00_social.jpg"]
 categories: ["travel"]
-tags: ["iceland", "travel"]
+tags: ["iceland", "travel", "trip", "hotel", "airport", "drive"]
 series: ["Iceland"]
 thumbnail: "/images/iceland_blog_00_social.jpg"
 ---

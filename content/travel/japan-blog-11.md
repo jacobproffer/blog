@@ -4,7 +4,7 @@ date: 2019-06-17T21:20:22-04:00
 description: "Jacob Proffer's time in the area of Dōtonbori."
 images: ["/images/japan_blog_11_social.jpg"]
 categories: ["travel"]
-tags: ["japan", "travel"]
+tags: ["japan", "osaka", "mandarake", "restaurant"]
 series: ["Japan"]
 thumbnail: "/images/japan_blog_11_social.jpg"
 ---

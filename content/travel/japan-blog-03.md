@@ -4,7 +4,7 @@ date: 2018-01-08 14:00:00
 description: "Jacob Proffer's time in Shinjuku, Tokyo, Japan."
 images: ["/images/japan_blog_03_social.jpg"]
 categories: ["travel"]
-tags: ["japan", "travel"]
+tags: ["japan", "narita", "shinjuku", "train", "hotel"]
 series: ["Japan"]
 thumbnail: "/images/japan_blog_03_social.jpg"
 ---

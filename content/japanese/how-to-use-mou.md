@@ -4,7 +4,7 @@ date: 2019-09-17T22:58:20.608Z
 description: "Learning about the different uses of Mou in Japanese."
 images: ["/images/uploads/background.jpg"]
 categories: ["japanese"]
-tags: ["japanese", "education"]
+tags: ["japanese", "verbs", "osaka"]
 series: ["Japanese"]
 thumbnail: "/images/background.jpg"
 ---

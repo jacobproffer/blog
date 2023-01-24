@@ -4,7 +4,7 @@ date: 2017-11-13 21:00:00
 description: The night before leaving for Tokyo, Japan.
 images: ["/images/japan_blog_00_social.jpg"]
 categories: ["travel"]
-tags: ["japan", "travel"]
+tags: ["japan", "airport", "shinjuku", "akihabara", "railway"]
 series: ["Japan"]
 thumbnail: "/images/japan_blog_00_social.jpg"
 ---

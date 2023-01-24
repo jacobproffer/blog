@@ -4,7 +4,7 @@ date: 2020-05-08T19:45:02-04:00
 description: "Find out what I've completed in two years while studying Japanese and my goal for year three."
 images: ["/images/hiragana_social.jpg"]
 categories: ["japanese"]
-tags: ["japanese", "education"]
+tags: ["japanese", "hiragana", "katakana", "kanji", "vocabulary"]
 series: ["japanese"]
 thumbnail: "/images/hiragana_social.jpg"
 ---
