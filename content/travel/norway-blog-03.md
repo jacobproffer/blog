@@ -4,7 +4,7 @@ date: 2018-12-06 14:00:00
 description: "Hiking up the Åkrafjorden."
 images: ["/images/norway_blog_03_social.jpg"]
 categories: ["travel"]
-tags: ["norway", "travel"]
+tags: ["norway", "vehicle", "hike", "trail", "waterproof"]
 series: ["Norway"]
 thumbnail: "/images/norway_blog_03_social.jpg"
 ---

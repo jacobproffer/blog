@@ -4,7 +4,7 @@ date: 2019-11-04T01:07:51.861Z
 description: The night before my trip to Romania.
 images: ["/images/uploads/background.jpg"]
 categories: ["travel"]
-tags: ["romania", "travel"]
+tags: ["romania", "trip"]
 series: ["Romania"]
 thumbnail: "/images/background.jpg"
 ---
