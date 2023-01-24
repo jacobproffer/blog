@@ -4,7 +4,7 @@ date: 2018-05-07 14:00:00
 description: "Leaving Tokyo, Japan."
 images: ["/images/narita_social.jpg"]
 categories: ["travel"]
-tags: ["japan", "travel"]
+tags: ["japan", "shinjuku", "hotel", "narita", "airport"]
 series: ["Japan"]
 thumbnail: "/images/narita_social.jpg"
 ---

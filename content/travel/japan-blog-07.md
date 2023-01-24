@@ -4,7 +4,7 @@ date: 2018-04-29 14:00:00
 description: "Jacob Proffer's time in Ikebukuro and Akihabara, Tokyo, Japan."
 images: ["/images/akihabara_social.jpg"]
 categories: ["travel"]
-tags: ["japan", "travel"]
+tags: ["japan", "shinjuku", "akihabara", "restaurant", "train"]
 series: ["Japan"]
 thumbnail: "/images/akihabara_social.jpg"
 ---

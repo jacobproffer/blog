@@ -4,7 +4,7 @@ date: 2019-04-23 14:00:00
 description: "The night before my 2019 trip to Japan."
 images: ["/images/narita_social.jpg"]
 categories: ["travel"]
-tags: ["japan", "travel"]
+tags: ["japan", "trip", "osaka", "kyoto", "nara"]
 series: ["Japan"]
 thumbnail: "/images/narita_social.jpg"
 ---

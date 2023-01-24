@@ -4,7 +4,7 @@ date: 2020-02-13T20:45:02-05:00
 description: "Mada means not yet or still depending upon if the word is used with negative or positive words."
 images: ["/images/uploads/background.jpg"]
 categories: ["japanese"]
-tags: ["japanese", "education"]
+tags: ["japanese", "adjective", "verbs"]
 series: ["japanese"]
 thumbnail: "/images/background.jpg"
 ---

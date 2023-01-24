@@ -4,7 +4,7 @@ date: 2017-12-28 14:00:00
 description: "Immigration and the train ride to Tokyo, Japan."
 images: ["/images/japan_blog_02_social.jpg"]
 categories: ["travel"]
-tags: ["japan", "travel"]
+tags: ["japan", "shinjuku", "airport", "narita"]
 series: ["Japan"]
 thumbnail: "/images/japan_blog_02_social.jpg"
 ---
