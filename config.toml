@@ -6,6 +6,8 @@ paginate = 10
 paginatePath = "posts"
 copyright = "2023"
 enableRobotsTXT = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
 
 [taxonomies]
   category = "categories"

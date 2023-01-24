@@ -16,13 +16,15 @@
   }
 
   ul {
-    display: grid;
-    row-gap: 10px;
-  }
+    &:not(.unstyled-list) {
+      display: grid;
+      row-gap: 10px;
 
-  li {
-    list-style: circle;
-    list-style-position: inside;
+      li {
+        list-style: circle;
+        list-style-position: inside;
+      }
+    }
   }
 
   a {

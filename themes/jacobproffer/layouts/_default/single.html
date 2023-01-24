@@ -34,6 +34,47 @@
 
             {{ .Content }}
 
+            <footer>
+
+              <h2>Tags</h2>
+
+              {{ $taxonomy := "tags" }}
+
+                {{ with .Param $taxonomy }}
+
+                  <ul class="unstyled-list flex">
+
+                    {{ range $index, $tag := . }}
+
+                      {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
+
+                        <li>
+
+                          {{ if $index }}
+                          ,
+                          {{ end }}
+
+                          <a
+                            href="{{ .Permalink }}"
+                            rel="tag"
+                          >
+
+                            {{ $tag | urlize }}
+
+                          </a>
+
+                        </li>
+
+                      {{ end }}
+
+                    {{ end }}
+
+                  </ul>
+
+                {{ end }}
+
+            </footer>
+
           </div>
 
         </div>
