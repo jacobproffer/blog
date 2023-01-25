@@ -64,6 +64,7 @@
   &__mobile-navigation-trigger {
     @include size(44px, 22px);
     position: relative;
+    color: var(--mobile-navigation-color, var(--white));
     overflow: hidden;
     cursor: pointer;
 
@@ -76,42 +77,7 @@
     }
 
     &[aria-expanded="true"] {
-      span {
-        &::before {
-          transform: rotate(45deg) translate(7px, 7px);
-        }
-
-        &::after {
-          transform: rotate(-45deg) translate(7px, -7px);
-        }
-      }
-    }
-  }
-
-  &__mobile-navigation-icon {
-    @include size(44px, 1px);
-    position: relative;
-    background-color: transparent;
-    display: block;
-    pointer-events: none;
-    transform: translateY(10px);
-    transition: all 0.2s ease-in-out;
-
-    &::before,
-    &::after {
-      @include size(44px, 1px);
-      background-color: var(--mobile-navigation-color);
-      position: absolute;
-      content: "";
-      transition: all 0.2s ease-in-out;
-    }
-
-    &::before {
-      top: -10px;
-    }
-
-    &::after {
-      top: 10px;
+      --mobile-navigation-color: var(--hit);
     }
   }
 
