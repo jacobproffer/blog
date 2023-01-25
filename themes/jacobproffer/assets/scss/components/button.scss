@@ -16,10 +16,25 @@
   padding: .5rem 1rem;
   border-radius: 50px;
   overflow: hidden;
-  background: var(--gradient-brown-to-green);
-  transition: transform 150ms ease-in-out;
+
+  &::before {
+    @include size(100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: var(--gradient-brown-to-green);
+    opacity: var(--button-background-opacity, 1);
+    border-radius: 50px;
+    transition: opacity 150ms ease-in-out;
+    content: "";
+  }
+
+  &[aria-expanded="true"] {
+    --button-background-opacity: .75;
+  }
 
   @include hover {
-    transform: scale(1.1);
+    --button-background-opacity: .75;
   }
 }
