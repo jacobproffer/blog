@@ -1,13 +1,18 @@
 .main-header {
   --header-background: rgba(0, 0, 0, 0);
   --mobile-navigation-color: var(--white);
+  --navigation-padding: 20px;
   @include size(100%, auto);
   position: fixed;
   z-index: 2;
-  padding: 20px 0;
+  padding: var(--navigation-padding) 0;
   background-color: var(--header-background);
+  transition: padding 150ms ease-in-out;
   overflow: hidden;
-  transition: background-color 150ms ease-in-out;
+
+  &--pinned {
+    --navigation-padding: 15px;
+  }
 
   &--pinned,
   &--navigation-open {
@@ -120,7 +125,6 @@
     grid-column: 1 / -1;
     opacity: var(--navigation-opacity, 0);
     height: 0;
-    transition: height, 150ms ease-in-out, opacity 150ms ease-in-out;
     pointer-events: none;
 
     &--open {
