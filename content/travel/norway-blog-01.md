@@ -7,6 +7,7 @@ categories: ["travel"]
 tags: ["norway", "vehicle", "airport", "iceland", "hike"]
 series: ["Norway"]
 thumbnail: "/images/norway_blog_01_social.jpg"
+thumbnailAlt: "Four men walking in Bergen, Norway."
 ---
 
 I touched down in Norway to a sunny view of distant fjords, islands and a fleet of helicopters. It was nine in the morning, four hours before Myles was due to fly in. Since I didn't have any luggage to claim, I bought a cup of coffee and relaxed in the main lounge. The Bergen airport is small in size, which left little to explore. But the nearby gates seemed to be busy. There were a range of flights going in and out for the first few hours and then it got real quiet.
