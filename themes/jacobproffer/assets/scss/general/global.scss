@@ -3,9 +3,8 @@
   --container-gutter: calc((100vw - var(--container)) / 2);
   --black: #000;
   --white: #fff;
-  --gray: #7f7f7f;
-  --hit: #ac8c64;
-  --gradient-brown-to-green: linear-gradient(270deg,rgba(165,113,46,1) -2.78%,rgba(115,147,90,1) 99.99%,#ff8469);
+  --gray: #d9d9d9;
+  --orange: #ff683f;
 
   --size-50-100: #{createFluidValue(50px, 100px)};
   --size-75-150: #{createFluidValue(75px, 150px)};
@@ -15,6 +14,8 @@
 
   --weight-medium: 500;
   --weight-normal: 400;
+
+  --transition-time: 300ms;
 
   @include screen-below($desktopSm) {
     --container: 1280px;
@@ -63,7 +64,7 @@ svg {
 a {
   color: inherit;
   text-decoration: none;
-  transition: color 300ms ease-in-out, outline 300ms ease-in-out;
+  transition: color var(--transition-time) ease-in-out, outline 300ms ease-in-out;
 }
 
 ul {

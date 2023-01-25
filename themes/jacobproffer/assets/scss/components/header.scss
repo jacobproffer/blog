@@ -24,10 +24,10 @@
   &__logo {
     display: block;
     font-weight: var(--weight-medium);
-    transition: color 150ms ease-in-out;
+    transition: color var(--transition-time) ease-in-out;
 
     @include hover {
-      color: var(--hit);
+      color: var(--orange);
     }
   }
 
@@ -62,8 +62,6 @@
 
   &__mobile-navigation-trigger {
     position: relative;
-    color: var(--mobile-navigation-color, var(--gray));
-    transition: color 150ms ease-in-out;
     cursor: pointer;
   }
 
