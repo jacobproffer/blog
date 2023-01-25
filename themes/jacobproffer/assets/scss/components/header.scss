@@ -14,6 +14,7 @@
   }
 
   &__grid {
+    position: relative;
     display: grid;
     align-items: center;
     grid-template-columns: max-content max-content;
@@ -60,9 +61,10 @@
   }
 
   &__mobile-navigation-trigger {
-    @include size(44px, 22px);
+    @include size(max-content, 44px);
     position: relative;
-    overflow: hidden;
+    color: var(--mobile-navigation-color, var(--gray));
+    transition: color 150ms ease-in-out;
     cursor: pointer;
 
     @include hover {
@@ -70,47 +72,11 @@
     }
 
     &:active {
-      --mobile-navigation-color: var(--gray);
+      --mobile-navigation-color: var(--white);
     }
 
     &[aria-expanded="true"] {
-      span {
-        --mobile-navigation-color: var(--hit);
-
-        &::before {
-          transform: rotate(45deg) translate(7px, 7px);
-        }
-
-        &::after {
-          transform: rotate(-45deg) translate(7px, -7px);
-        }
-      }
-    }
-  }
-
-  &__mobile-navigation-icon {
-    @include size(44px, 1px);
-    position: relative;
-    background-color: transparent;
-    display: block;
-    pointer-events: none;
-    transition: all 0.2s ease-in-out;
-
-    &::before,
-    &::after {
-      @include size(44px, 1px);
-      background-color: var(--mobile-navigation-color);
-      position: absolute;
-      content: "";
-      transition: all 0.2s ease-in-out;
-    }
-
-    &::before {
-      top: -10px;
-    }
-
-    &::after {
-      top: 10px;
+      --mobile-navigation-color: var(--hit);
     }
   }
 
