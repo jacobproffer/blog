@@ -7,6 +7,7 @@ categories: ["travel"]
 tags: ["japan", "osaka", "mandarake", "restaurant"]
 series: ["Japan"]
 thumbnail: "/images/japan_blog_11_social.jpg"
+thumbnailAlt: "A view of the canal in Osaka's Dōtonbori."
 ---
 
 My interest with Osaka started with an action-adventure game called Yakuza 0. The game takes place in 1988 and is set in Tokyo's Kabukichō and Osaka's Dōtonbori. The attention to detail in the game is superb, with stores such as Don Quijote, stray cats and the Tombori River walk. There is even a mission that spans the length of the Ebisu bridge, where you help defend a teen from thugs.
