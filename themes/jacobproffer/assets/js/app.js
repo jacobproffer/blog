@@ -55,9 +55,7 @@ mobileNavigationTrigger.addEventListener("click", function() {
 
   if (mobileNavigation.classList.contains('main-header__mobile-navigation--open')) {
     this.setAttribute('aria-expanded', 'true');
-    this.innerHTML = "Close"
   } else {
     this.setAttribute('aria-expanded', 'false');
-    this.innerHTML = "Menu"
   }
 });
