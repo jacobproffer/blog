@@ -15,7 +15,7 @@
   --weight-medium: 500;
   --weight-normal: 400;
 
-  --transition-time: 300ms;
+  --transition-time: 225ms;
 
   @include screen-below($desktopSm) {
     --container: 1280px;
