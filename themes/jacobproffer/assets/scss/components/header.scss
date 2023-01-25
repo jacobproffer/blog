@@ -1,18 +1,12 @@
 .main-header {
   --header-background: rgba(0, 0, 0, 0);
   --mobile-navigation-color: var(--white);
-  --navigation-padding: 20px;
   @include size(100%, auto);
   position: fixed;
   z-index: 2;
-  padding: var(--navigation-padding) 0;
+  padding: 15px 0;
   background-color: var(--header-background);
-  transition: padding 150ms ease-in-out;
   overflow: hidden;
-
-  &--pinned {
-    --navigation-padding: 15px;
-  }
 
   &--pinned,
   &--navigation-open {
