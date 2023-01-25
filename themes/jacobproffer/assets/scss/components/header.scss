@@ -6,6 +6,8 @@
   z-index: 2;
   padding: 15px 0;
   background-color: var(--header-background);
+  -webkit-overflow-scrolling: touch;
+  backface-visibility: hidden;
   overflow: hidden;
 
   &--pinned,
