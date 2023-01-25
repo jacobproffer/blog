@@ -64,6 +64,7 @@
   &__mobile-navigation-trigger {
     @include size(44px, 22px);
     position: relative;
+    overflow: hidden;
     cursor: pointer;
 
     @include hover {
