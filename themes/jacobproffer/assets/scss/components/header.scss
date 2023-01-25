@@ -62,7 +62,9 @@
 
   &__mobile-navigation-trigger {
     @include size(44px, 22px);
-    position: relative;
+    position: absolute;
+    top: 20px;
+    right: var(--container-gutter);
     overflow: hidden;
     cursor: pointer;
 
