@@ -2,7 +2,7 @@
   position: relative;
   z-index: 1;
   row-gap: 20px;
-  transition: opacity 300ms ease-in-out;
+  transition: opacity var(--transition-time) ease-in-out;
 
   @include screen-above($portrait) {
     --image-opacity: .8;
@@ -35,7 +35,7 @@
     @include size(100%);
     object-fit: cover;
     opacity: var(--image-opacity, 1);
-    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+    transition: opacity var(--transition-time) ease-in-out, transform var(--transition-time) ease-in-out;
   }
 
   &__headline {
