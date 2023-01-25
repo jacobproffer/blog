@@ -7,6 +7,7 @@ categories: ["travel"]
 tags: ["japan", "shibuya", "akihabara", "mandarake", "restaurant"]
 series: ["Japan"]
 thumbnail: "/images/shibuya_social.jpg"
+thumbnailAlt: "The Shibuya Crossing, a famous crosswalk."
 ---
 
 Saturday in Tokyo was unique. I slept in for once, which provided an opportunity to seek breakfast somewhere other than Burger King. I tried out the breakfast buffet at the Bonsalute Kabuki, which was located on the ground floor of the hotel. The restaurant served Italian food throughout the day. But in the morning, there was a choice of Western or Japanese breakfast foods. I enjoyed a meal of potatoes, sausages and croissants with second helpings.
