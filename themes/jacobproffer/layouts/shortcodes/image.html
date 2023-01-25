@@ -19,9 +19,9 @@
   <div class="content">
 
     <picture>
-      <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">
+      <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
 
-      <source media="(max-width: 600px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
+      <source media="(max-width: 600px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
 
       <img
         src="{{ $imgSrc.RelPermalink }}"
