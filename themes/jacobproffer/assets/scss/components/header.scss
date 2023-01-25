@@ -6,8 +6,6 @@
   z-index: 2;
   padding: 15px 0;
   background-color: var(--header-background);
-  -webkit-overflow-scrolling: touch;
-  backface-visibility: hidden;
   overflow: hidden;
 
   &--pinned,
@@ -96,7 +94,6 @@
     background-color: transparent;
     display: block;
     pointer-events: none;
-    transform: translateY(10px);
     transition: all 0.2s ease-in-out;
 
     &::before,
