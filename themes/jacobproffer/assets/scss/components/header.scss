@@ -62,9 +62,7 @@
 
   &__mobile-navigation-trigger {
     @include size(44px, 22px);
-    position: absolute;
-    top: 20px;
-    right: var(--container-gutter);
+    position: relative;
     overflow: hidden;
     cursor: pointer;
 
@@ -120,14 +118,14 @@
 
   &__mobile-navigation {
     grid-column: 1 / -1;
-    max-height: var(--navigation-height, 0);
     opacity: var(--navigation-opacity, 0);
+    height: 0;
     transition: height, 150ms ease-in-out, opacity 150ms ease-in-out;
     pointer-events: none;
 
     &--open {
-      --navigation-height: 1000px;
       --navigation-opacity: 1;
+      height: auto;
       pointer-events: auto;
     }
   }
