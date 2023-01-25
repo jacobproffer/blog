@@ -61,23 +61,10 @@
   }
 
   &__mobile-navigation-trigger {
-    @include size(max-content, 44px);
     position: relative;
     color: var(--mobile-navigation-color, var(--gray));
     transition: color 150ms ease-in-out;
     cursor: pointer;
-
-    @include hover {
-      --mobile-navigation-color: var(--hit);
-    }
-
-    &:active {
-      --mobile-navigation-color: var(--white);
-    }
-
-    &[aria-expanded="true"] {
-      --mobile-navigation-color: var(--hit);
-    }
   }
 
   &__mobile-navigation {
