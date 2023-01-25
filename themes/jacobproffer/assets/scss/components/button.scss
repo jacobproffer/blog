@@ -25,6 +25,7 @@
     z-index: -1;
     background: var(--gradient-brown-to-green);
     opacity: var(--button-background-opacity, 1);
+    border-radius: 50px;
     transition: opacity 150ms ease-in-out;
     content: "";
   }
