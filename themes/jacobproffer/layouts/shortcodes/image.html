@@ -4,8 +4,8 @@
 
 {{ $imgSrc := resources.Get $img }}
 
-{{ $smallw := default "480x webp" }}
-{{ $largew := default "640x webp" }}
+{{ $smallw := default "480x webp q75" }}
+{{ $largew := default "640x webp q75" }}
 
 {{ $data := newScratch }}
 {{ $data.Set "small" ($imgSrc.Resize $smallw) }}
