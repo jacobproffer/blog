@@ -21,23 +21,8 @@
   }
 }
 
-@keyframes slide-in-up {
-  from {
-    transform: translate3d(0, 100%, 0);
-    visibility: visible;
-  }
-
-  to {
-    transform: translate3d(0, 0, 0);
-  }
-}
-
 .fade-in {
   animation-name: fade-in;
-}
-
-.slide-in-up {
-  animation-name: slide-in-up;
 }
 
 .gsap-fade-in {
