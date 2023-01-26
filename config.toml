@@ -9,6 +9,13 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 
+[imaging]
+  anchor = "Smart"
+  bgColor = "#000000"
+  hint = "photo"
+  quality = 75
+  resampleFilter = "Box"
+
 [taxonomies]
   category = "categories"
   series = "series"
