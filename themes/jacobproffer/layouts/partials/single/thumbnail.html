@@ -12,9 +12,9 @@
 
 {{ $thumbnailSrc := resources.Get $thumbnail }}
 
-{{ $smallw := default "480x webp" }}
-{{ $mediumw := default "600x webp" }}
-{{ $largew := default "1200x webp" }}
+{{ $smallw := default "480x webp Linear" }}
+{{ $mediumw := default "600x webp Linear" }}
+{{ $largew := default "1200x webp Linear" }}
 
 {{ $data := newScratch }}
 {{ $data.Set "small" ($thumbnailSrc.Resize $smallw) }}
