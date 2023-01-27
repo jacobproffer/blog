@@ -11,6 +11,7 @@
 {{ end }}
 
 {{ $thumbnailSrc := resources.Get $thumbnail }}
+{{ $thumbnailAlt := .Params.thumbnailAlt }}
 
 {{ $smallw := default "370x webp" }}
 {{ $tabletw := default "389x webp" }}
@@ -28,7 +29,7 @@
 {{ $medium := $data.Get "medium" }}
 {{ $large := $data.Get "large" }}
 
-<article class="article grid relative gsap-fade-in">
+<article class="article grid relative">
 
   <div class="article__copy">
 
@@ -48,7 +49,7 @@
 
   </div>
 
-  {{ if isset .Params "images" }}
+  {{ if isset .Params "thumbnail" }}
 
     <div class="article__thumbnail">
 
@@ -66,9 +67,8 @@
             src="{{ $thumbnailSrc.RelPermalink }}"
             width="616"
             height="482"
-            alt=""
+            alt="{{ with $thumbnailAlt }}{{ . }}{{ end }}"
             loading="lazy"
-            decoding="async"
           >
         </picture>
 

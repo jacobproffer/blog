@@ -4,9 +4,10 @@ date: 2018-09-03 14:00:00
 description: Third day in Iceland.
 images: ["/images/iceland_blog_03_social.jpg"]
 categories: ["travel"]
-tags: ["iceland", "travel"]
+tags: ["iceland", "drive", "road", "vehicle"]
 series: ["Iceland"]
 thumbnail: "/images/iceland_blog_03_social.jpg"
+thumbnailAlt: "Panoramic view of distant hills from Þingvellir."
 ---
 
 There were still plenty of sites to see in Iceland, far too many. Thursday was dedicated to locations that Myles and I wanted to see towards the north east of Reykjavik. We got up around seven and were on the road again by eight. Though unlike Wednesday, we would not spend much time on Route 1 but a road called Road 36. The road is the main route from Reykjavik to a national park called Þingvellir, which was the first stop listed on our itinerary.

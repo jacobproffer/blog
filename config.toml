@@ -6,6 +6,15 @@ paginate = 10
 paginatePath = "posts"
 copyright = "2023"
 enableRobotsTXT = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[imaging]
+  anchor = "Smart"
+  bgColor = "#000000"
+  hint = "photo"
+  quality = 75
+  resampleFilter = "Box"
 
 [taxonomies]
   category = "categories"

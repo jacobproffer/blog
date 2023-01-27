@@ -5,7 +5,7 @@ description: "Progress with Hiragana and Russian."
 images: ["/images/hiragana_social.jpg"]
 series: ["Japanese"]
 categories: ["japanese"]
-tags: ["japanese", "education"]
+tags: ["japanese", "hiragana", "katakana", "kanji"]
 aliases: ["/education/hiragana-progress/"]
 thumbnail: "/images/hiragana_social.jpg"
 ---

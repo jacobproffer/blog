@@ -4,9 +4,10 @@ date: 2018-12-06 14:00:00
 description: "Hiking up the Åkrafjorden."
 images: ["/images/norway_blog_03_social.jpg"]
 categories: ["travel"]
-tags: ["norway", "travel"]
+tags: ["norway", "vehicle", "hike", "trail", "waterproof"]
 series: ["Norway"]
 thumbnail: "/images/norway_blog_03_social.jpg"
+thumbnailAlt: "A view of a ferry near the shoreline of Tørvikbygd."
 ---
 
 The ferry from Tørvikbygd to Jondal is a short but pleasant experience. With an average time of twenty minutes to cross, Myles and I were able to use the bathroom, take pictures and even grab food from the onboard deli. The only downside is that the ferry crosses once per hour. We arrived early Sunday morning to an empty dock with a single employee present. Although patient, Myles and I were concerned that the delay would cost us sunlight. Thankfully, we only had to wait a half hour.

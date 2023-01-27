@@ -34,6 +34,47 @@
 
             {{ .Content }}
 
+            <footer>
+
+              <h2>Tags</h2>
+
+              {{ $taxonomy := "tags" }}
+
+                {{ with .Param $taxonomy }}
+
+                  <ul class="unstyled-list flex single__tags-list">
+
+                    {{ range  $index, $tag := (. | sort) }}
+
+                      {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
+
+                        <li>
+
+                          {{ if $index }}
+                          ,
+                          {{ end }}
+
+                          <a
+                            href="{{ .Permalink }}"
+                            rel="tag"
+                          >
+
+                            {{ $tag | urlize }}
+
+                          </a>
+
+                        </li>
+
+                      {{ end }}
+
+                    {{ end }}
+
+                  </ul>
+
+                {{ end }}
+
+            </footer>
+
           </div>
 
         </div>
@@ -57,7 +98,7 @@
 
           <h2 class="list__headline gsap-fade-in">Related Posts</h2>
 
-          <ul class="unstyled-list list grid">
+          <ul class="unstyled-list list grid gsap-stagger-in">
 
             {{ range . }}
 

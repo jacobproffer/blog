@@ -4,9 +4,10 @@ date: 2017-11-13 21:00:00
 description: The night before leaving for Tokyo, Japan.
 images: ["/images/japan_blog_00_social.jpg"]
 categories: ["travel"]
-tags: ["japan", "travel"]
+tags: ["japan", "airport", "shinjuku", "akihabara", "railway"]
 series: ["Japan"]
 thumbnail: "/images/japan_blog_00_social.jpg"
+thumbnailAlt: "Woman with a rolling suitcase in the Narita airport."
 ---
 
 This is it. Tonight is my last full night within the United States, at least for the next week. As of Wednesday morning, I will touch down at Narita International Airport. Which, if you didn't know, is in Tokyo, Japan.

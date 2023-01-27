@@ -13,30 +13,37 @@
 {{ $thumbnailSrc := resources.Get $thumbnail }}
 
 {{ $smallw := default "480x webp" }}
-{{ $mediumw := default "600x webp" }}
-{{ $largew := default "1200x webp" }}
+{{ $tabletw := default "810x webp q50" }}
+{{ $mediumw := default "960x webp q50" }}
+{{ $largew := default "1200x webp q50" }}
 
 {{ $data := newScratch }}
 {{ $data.Set "small" ($thumbnailSrc.Resize $smallw) }}
+{{ $data.Set "tablet" ($thumbnailSrc.Resize $tabletw) }}
 {{ $data.Set "medium" ($thumbnailSrc.Resize $mediumw) }}
 {{ $data.Set "large" ($thumbnailSrc.Resize $largew) }}
 
 {{ $small := $data.Get "small" }}
+{{ $tablet := $data.Get "tablet" }}
 {{ $medium := $data.Get "medium" }}
 {{ $large := $data.Get "large" }}
 
 <div class="single__thumbnail gsap-fade-in">
   <div class="content">
     <picture>
-      <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}">
+      <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
 
-      <source media="(max-width: 600px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}">
+      <source media="(max-width: 1079px)" srcset="{{with $tablet.RelPermalink }}{{.}}{{ end }}" width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
 
-      <source media="(min-width: 1080px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}">
+      <source media="(max-width: 1259px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
+
+      <source media="(min-width: 1260px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
 
       <img
         class="single__thumbnail-image"
         src="{{ $thumbnailSrc.RelPermalink }}"
+        width="{{ $thumbnailSrc.Width }}"
+        height="{{ $thumbnailSrc.Height }}"
         alt=""
       >
     </picture>

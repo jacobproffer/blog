@@ -4,10 +4,11 @@ date: 2019-01-27 14:00:00
 description: "Eighth month progress report of studying Japanese."
 images: ["/images/i_love_japanese_social.jpg"]
 categories: ["japanese"]
-tags: ["japanese", "education"]
+tags: ["japanese", "hiragana", "katakana", "kanji"]
 series: ["Japanese"]
 aliases: ["/education/i-love-japanese/"]
 thumbnail: "/images/i_love_japanese_social.jpg"
+thumbnailAlt: "A sticker with Japanese katakana that reads wanikani."
 ---
 
 Regarded as one of the most difficult languages to learn, I never thought I'd study Japanese. But as of today, the language has been part of my daily life for eight months. I thought it would be a hobby for a short time and then I'd get bored or too frustrated. As of now, I've learned hiragana (ひりがな), katakana (カタカナ) and a vast number of kanji (漢字) characters and vocabulary. I can carry basic conversations, write, type and even read a little. It's a constant process but I absolutely love the language. I just take it a day at a time.

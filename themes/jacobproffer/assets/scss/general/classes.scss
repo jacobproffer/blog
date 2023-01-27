@@ -52,7 +52,7 @@
   display: block;
   color: var(--item-color);
   letter-spacing: .2rem;
-  transition: color 300ms ease-in-out, outline 150ms ease-in-out;
+  transition: color var(--transition-time) ease-in-out, outline var(--transition-time) ease-in-out;
 
   &::before {
     position: absolute;
@@ -62,19 +62,19 @@
     height: 1px;
     background: var(--item-background, var(--white));
     opacity: var(--item-border-opacity, 1);
-    transition: width 300ms ease-in-out;
+    transition: width var(--transition-time) ease-in-out;
     content: "";
   }
 
   &[aria-current="page"] {
     --item-width: 100%;
-    --item-background: var(--gradient-brown-to-green);
+    --item-background: var(--orange);
     --item-color: var(--white);
   }
 
   @include hover {
     --item-width: 100%;
-    --item-background: var(--gradient-brown-to-green);
+    --item-background: var(--orange);
     --item-color: var(--white);
   }
 }

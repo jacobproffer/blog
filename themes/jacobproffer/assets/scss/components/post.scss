@@ -16,13 +16,15 @@
   }
 
   ul {
-    display: grid;
-    row-gap: 10px;
-  }
+    &:not(.unstyled-list) {
+      display: grid;
+      row-gap: 10px;
 
-  li {
-    list-style: circle;
-    list-style-position: inside;
+      li {
+        list-style: circle;
+        list-style-position: inside;
+      }
+    }
   }
 
   a {
@@ -37,9 +39,15 @@
   &__thumbnail {
     --thumbnail-column: 1 / -1;
     @include ratio(24, 10);
+    position: relative;
     grid-column: var(--thumbnail-column);
     max-width: var(--max-width);
     margin: var(--size-50-100) auto;
+    overflow: hidden;
+
+    @include screen-below($laptopSm) {
+      max-width: var(--container);
+    }
   }
 
   &__thumbnail-image {
@@ -106,5 +114,10 @@
     @include screen-below($mobile) {
       --two-col-grid: 1fr;
     }
+  }
+
+  &__tags-list {
+    flex-wrap: wrap;
+    row-gap: 10px;
   }
 }

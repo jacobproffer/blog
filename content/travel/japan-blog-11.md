@@ -4,9 +4,10 @@ date: 2019-06-17T21:20:22-04:00
 description: "Jacob Proffer's time in the area of Dōtonbori."
 images: ["/images/japan_blog_11_social.jpg"]
 categories: ["travel"]
-tags: ["japan", "travel"]
+tags: ["japan", "osaka", "mandarake", "restaurant"]
 series: ["Japan"]
 thumbnail: "/images/japan_blog_11_social.jpg"
+thumbnailAlt: "A view of the canal in Osaka's Dōtonbori."
 ---
 
 My interest with Osaka started with an action-adventure game called Yakuza 0. The game takes place in 1988 and is set in Tokyo's Kabukichō and Osaka's Dōtonbori. The attention to detail in the game is superb, with stores such as Don Quijote, stray cats and the Tombori River walk. There is even a mission that spans the length of the Ebisu bridge, where you help defend a teen from thugs.

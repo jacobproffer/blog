@@ -4,7 +4,7 @@ date: 2019-09-25T20:13:51.839Z
 description: "How to express, 'Often' and 'Not often,' in Japanese."
 images: ["/images/uploads/background.jpg"]
 categories: ["japanese"]
-tags: ["japanese", "education"]
+tags: ["japanese", "verbs", "tokyo"]
 series: ["Japanese"]
 thumbnail: "/images/background.jpg"
 ---

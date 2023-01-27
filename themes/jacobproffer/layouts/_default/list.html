@@ -39,11 +39,11 @@
 
         {{ else }}
 
-          <h2 class="list__headline">{{ .Title |singularize }}</h2>
+          <h2 class="list__headline gsap-fade-in">{{ .Title |singularize }}</h2>
 
         {{ end }}
 
-        <ul class="unstyled-list list grid">
+        <ul class="unstyled-list list grid gsap-stagger-in">
 
           {{ range $index, $page := $paginator.Pages }}
 
