@@ -5,7 +5,7 @@ description: "A trip back to Tokyo, Japan in 2022."
 images: ["/images/post-covid-social.jpg"]
 categories: ["japan", "travel"]
 series: ["Japan"]
-tags: ["japan", "travel", "chicago", "flight", "airport", "plane"]
+tags: ["japan", "travel", "chicago", "flight", "airport", "akihabara"]
 thumbnail: "/images/post-covid-social.jpg"
 ---
 
@@ -15,9 +15,9 @@ The layout of Chicago's O'Hare airport is always the same. I walked from the G c
 
 Japan Airlines staff eventually arrived at the gate with a cardboard cut-out of a Japan Airlines flight attendant. The cut-out had a sign that asked for all passengers to wear masks. I noticed that passengers without masks were handed masks by the gate agents. I checked in with one of the gate agents and was asked if I had already completed the MySOS application for entry into Japan. I had not. Fortunately, I had already downloaded the application onto my phone before I left home.
 
-The MySOS application required a number of items to submit. Passport information and COVID-19 vaccination records were needed, along with photographs of both documents. Hotel contact information and travel details were asked, with a basic health questionnaire form to submit. The application turned red upon submission, which meant the information was ready to be reviewed. The gate agent told me that the application review could take hours to be completed. So it was wise to submit it prior to flight, so that it would be reviewed by the time of arrival in Japan.
+The MySOS application required passport information and COVID-19 vaccination records, along with photographs of both documents. Hotel contact information and travel details were asked, along with a basic health questionnaire form. The application turned red upon submission, which meant the information was ready to be reviewed. The gate agent told me that the application review could take hours to be completed. So it was wise to submit it prior to flight, so that it would be reviewed by the time of arrival in Japan.
 
-The flight to Narita was smooth. There were few movies to watch, such as The Shawshank Redemption and Ford v Ferrari. Otherwise, most of the films were foreign with limited subtitle availability. I ended up asleep most of the flight, unless food was served. Meals options included salads, curry, rice, chicken and ice cream. I would have enjoyed a mixed drink along with the meals but was I was sober. A few days after the flight would mark one year without alcohol, so water or apple juice were my choices. Thankfully, there were no screaming babies.
+The flight to Narita was smooth. There were few movies to watch, such as The Shawshank Redemption and Ford v Ferrari. Otherwise, most of the films were in Japanese, Chinese or Korean with limited subtitles. I ended up asleep most of the flight, unless food was served. Meals options included salads, curry, rice, chicken and ice cream. I would have enjoyed a mixed drink along with the meals but was I was sober. A few days after the flight would mark one year without alcohol, so water or apple juice were my choices. Thankfully, there were no screaming babies.
 
 The plane touched down in Narita around four in the afternoon on the twenty-second of October. The deboard process was quick, though I forgot how long of a walk it was from the gate to the customs and immigration checkpoints. Somewhere along the way, I saw that the MySOS application on my phone had turned blue. This indicated that I was approved for entry into Japan, after immigration and custom inspections. Towards the end of that long corridor, I was asked by an airport employee to scan the barcode within MySOS on a machine and then received an "all-access" pass. The pass basically just showed that I had passed the COVID-19 screening.
 
@@ -26,3 +26,7 @@ The customs and immigrations process was consistent with previous trips to Japan
 {{< image src="/images/nex-train-ride.jpg" alt="A night view of Narita, Japan from a train window." >}}
 
 The train ride from the Narita airport to Tokyo Station was longer than I had remembered. It took over an hour to arrive. Thankfully, the Skyliner has comfortable seats. Similar to my trip in 2017, it was dark by the time the train had departed Narita, so I couldn't see much outside of the windows. From Tokyo Station, I purchased a ticket to go to Akihabara Station. These transfer tickets are much cheaper and easy to purchase from the automated ticket machines. The ride from Tokyo Station to Akihabara Station only cost me 140 yen or about one dollar.
+
+JR-East's Hotel Mets Akihabara is built into the same structure as Akihabara Station. The stairs up to the hotel are located on the outside of the station, tucked into a corner. The check-in for the hotel was done via a touchscreen device built into the hotel lobby front desk. All I had to do was select check-in, scan my passport and the room key was deposited from the device. My room was located on the fifth floor, which faced a building that was shrouded with scaffolding. I worried that I would be able to hear or feel the trains due to the proximity. Yet the room was soundproofed well.
+
+Similar to the room I stayed in at the Hotel Gracery in 2017, the room had a bathroom with a separated shower room. The toilet was also similar, with a dashboard full of buttons to select different preferences. There were options for a bidet, which I accidently selected on first use. The seat could also be heated, which was too strange for me.
