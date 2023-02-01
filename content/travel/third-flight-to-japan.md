@@ -1,12 +1,13 @@
 ---
 title: "Back to Tokyo, Japan"
-date: 2023-01-12T17:45:02-05:00
+date: 2023-02-01T09:40:49-05:00
 description: "Traveling back to Tokyo, Japan in 2022."
 images: ["/images/post-covid-social.jpg"]
 categories: ["japan", "travel"]
 series: ["Japan"]
 tags: ["japan", "travel", "chicago", "flight", "airport", "akihabara"]
 thumbnail: "/images/post-covid-social.jpg"
+thumbnailAlt: "A Japan Airlines Boeing 787 at Chicago O'Hare."
 ---
 
 Back in October 2022, I booked a trip back to Tokyo when the Japanese government announced that the borders were soon to be reopened to tourists. It had been three years since I had flown but I was ready. In a span of two weeks, I planned out the trip and did a currency exchange through my local bank. As with any trip I take, I packed light. A simple 28-liter backpack with compression bags is all I travel with. The only addition was a small sling pouch to carry my passport and camera accessories.
@@ -25,7 +26,7 @@ The customs and immigrations process was consistent with previous trips to Japan
 
 {{< image src="/images/nex-train-ride.jpg" alt="A night view of Narita, Japan from a train window." >}}
 
-{{< image src="/images/nex-train.jpg" alt="" >}}
+{{< image src="/images/nex-train.jpg" alt="Seats inside of a Narita Express train." >}}
 
 {{< /images >}}
 
@@ -33,7 +34,7 @@ The train ride from the Narita airport to Tokyo Station was longer than I had re
 
 JR-East's Hotel Mets Akihabara is built into the same structure as Akihabara Station. The stairs up to the hotel are located on the outside of the station, tucked into a corner. The check-in for the hotel was done via a touchscreen device built into the hotel lobby front desk. All I had to do was select check-in, scan my passport and the room key was deposited from the device. My room was located on the fifth floor, which faced a building that was shrouded with scaffolding. I worried that I would be able to hear or feel the trains due to the proximity. Yet the room was soundproofed well.
 
-{{< image src="/images/jr-east-view.jpg" alt="" >}}
+{{< image src="/images/jr-east-view.jpg" alt="Darkened buildings inside of Akihabara, Japan." >}}
 
 Similar to the room I stayed in at the Hotel Gracery in 2017, the room had a bathroom with a separated shower room. There was a walk-in shower and a tub against the back wall. The toilet was also similar, with a dashboard to select different preferences. There were options for a bidet, which I accidentally selected on first use. The seat could even be heated, which was too strange for me. The rest of the room was typical with a large bed, television on the wall, humidifier and blackout curtains.
 
