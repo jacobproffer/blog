@@ -2,11 +2,11 @@
 
 {{ if isset .Params "thumbnail" }}
 
-  {{ $thumbnail = .Params.thumbnail }}
+{{ $thumbnail = .Params.thumbnail }}
 
 {{ else }}
 
-  {{ $thumbnail = "/images/background.jpg" }}
+{{ $thumbnail = "/images/background.jpg" }}
 
 {{ end }}
 
@@ -31,21 +31,20 @@
 <div class="single__thumbnail gsap-fade-in">
   <div class="content">
     <picture>
-      <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
+      <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}"
+        height="{{ $small.Height }}">
 
-      <source media="(max-width: 1079px)" srcset="{{with $tablet.RelPermalink }}{{.}}{{ end }}" width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
+      <source media="(max-width: 1079px)" srcset="{{with $tablet.RelPermalink }}{{.}}{{ end }}"
+        width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
 
-      <source media="(max-width: 1259px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
+      <source media="(max-width: 1259px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}"
+        width="{{ $medium.Width }}" height="{{ $medium.Height }}">
 
-      <source media="(min-width: 1260px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
+      <source media="(min-width: 1260px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}"
+        width="{{ $large.Width }}" height="{{ $large.Height }}">
 
-      <img
-        class="single__thumbnail-image"
-        src="{{ $thumbnailSrc.RelPermalink }}"
-        width="{{ $thumbnailSrc.Width }}"
-        height="{{ $thumbnailSrc.Height }}"
-        alt=""
-      >
+      <img class="single__thumbnail-image" src="{{ $thumbnailSrc.RelPermalink }}" width="{{ $thumbnailSrc.Width }}"
+        height="{{ $thumbnailSrc.Height }}" alt="">
     </picture>
   </div>
 </div>
