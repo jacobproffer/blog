@@ -4,7 +4,7 @@ date: 2023-02-02T09:19:50-05:00
 description: "Post description"
 images: ["/images/akihabara-social.jpg"]
 series: ["Japan"]
-tags: ["japan", "akihabara"]
+tags: ["japan", "akihabara", "diner", "hotel", "games"]
 categories: ["japan", "travel"]
 thumbnail: "/images/akihabara-social.jpg"
 thumbnailAlt: "Buildings in Akihabara."
@@ -16,8 +16,6 @@ Unlike the United States, most stores in Japan do not open until around 11 a.m. 
 
 {{< image src="/images/matsumoto-kiyoshi.jpg" alt="Matsumoto Kiyoshi storefront in Akihabara." >}}
 
-For a few hours, I walked around various streets to the left and right of Matsumoto Kiyoshi. I mostly experimented with my Ricoh camera to ensure I remembered how to use it properly. Around noon, I had my first meal at a small diner near the hotel. I decided on curry with rice. To order the meal, I purchased a ticket through a machine outside the business. Once inside, I handed the ticket to a worker behind the kitchen counter and found an empty booth with a stool to sit on. Each booth had dividers on either side of it for privacy. While the food was prepared, I grabbed a cup of water and wooden chopsticks. Once I sat down, a man approached me with a number of yen coins. I had apparently forgotten to grab my change from the machine outside. I was surprised but appreciative at the generosity. I thanked the man multiple times in Japanese with a slight bow before I grabbed my food from the counter.
+For a few hours, I walked around various streets to the left and right of Matsumoto Kiyoshi. I mostly experimented with my Ricoh camera to ensure I remembered how to use it properly. Around noon, I had my first meal at Nadai Fuji Soba, which is near the hotel. I decided on curry with rice. To order the meal, I purchased a ticket through a machine outside the business. Once inside, I handed the ticket to a worker behind the kitchen counter and found an empty booth with a stool to sit on. Each booth had dividers on either side of it for privacy. While the food was prepared, I grabbed a cup of water and wooden chopsticks. Once I sat down, a man approached me with a number of yen coins. I had apparently forgotten to grab my change from the machine outside. I was surprised but appreciative at the generosity. I thanked the man multiple times in Japanese with a slight bow before I grabbed my food from the counter.
 
-After I ate, I exited the diner and watched people drive by in red go-karts near a large electronics store called Bic Camera. Some of the drivers were dressed as characters from Mario Kart.
-
-Super Potato was another store I stopped into, which I had visited back in 2017. It's a narrow shop packed with retro games, systems and merchandise. On the floor dedicated to Playstation, I spotted a Japanese version of Alien Legacy for the original Playstation. The floor dedicated to Nintendo, with 8-bit style electronic music on the loudspeaker, had stacks of shrink wrapped N64 consoles behind the counter. The top floor of the store had a small arcade, which included an Atari Pong table. There was also a life size statue of Snake from Metal Gear Solid.
+After I ate, I exited the diner and watched people drive by in red go-karts near a large electronics store called Bic Camera. Some of the drivers were dressed as characters from Mario Kart. Super Potato was near by, a retro game store I had visited back in 2017. It's a narrow shop packed with video games, systems and merchandise. On the floor dedicated to Playstation, I spotted a Japanese version of Alien Legacy for the original Playstation. The floor dedicated to Nintendo, with 8-bit style electronic music on the loudspeaker, had stacks of shrink wrapped N64 consoles. The top floor of the store had a small arcade, which included an Atari Pong table. There was also a life size statue of Snake from Metal Gear Solid.
