@@ -14,7 +14,13 @@ I would argue that Japan has the best variety and quality when it comes to vendi
 
 Unlike the United States, most stores in Japan do not open until around 11 a.m. or noon. I had left the hotel early, so I had hours to wait. I decided to reorient myself with the layout of Akihabara. The one location that I remembered from my first trip was Matsumoto Kiyoshi. It's the largest drugstore chain in Japan and the storefront in Akihabara is hard to miss. The front side is bright yellow with blue trim. I decided it would be a landmark, since the hotel was nearly straight down the road in front of it.
 
+{{< images >}}
+
 {{< image src="/images/matsumoto-kiyoshi.jpg" alt="Matsumoto Kiyoshi storefront in Akihabara." >}}
+
+{{< image src="/images/akihabara-sign.jpg" alt="Road sign for Akihabara." >}}
+
+{{< /images >}}
 
 For a few hours, I walked around various streets to the left and right of Matsumoto Kiyoshi. I mostly experimented with my Ricoh camera to ensure I remembered how to use it properly. Around noon, I had my first meal at Nadai Fuji Soba, which is near the hotel. I decided on curry with rice. To order the meal, I purchased a ticket through a machine outside the business. Once inside, I handed the ticket to a worker behind the kitchen counter and found an empty booth with a stool to sit on. Each booth had dividers on either side of it for privacy. While the food was prepared, I grabbed a cup of water and wooden chopsticks. Once I sat down, a man approached me with a number of yen coins. I had apparently forgotten to grab my change from the machine outside. I was surprised but appreciative at the generosity. I thanked the man multiple times in Japanese with a slight bow before I grabbed my food from the counter.
 
