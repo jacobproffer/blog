@@ -16,9 +16,9 @@ Unlike the United States, most stores in Japan do not open until around eleven i
 
 {{< images >}}
 
-{{< image src="/images/matsumoto-kiyoshi.jpg" alt="Matsumoto Kiyoshi storefront in Akihabara." >}}
+{{< image-h src="/matsumoto-kiyoshi.jpg" alt="Matsumoto Kiyoshi storefront in Akihabara." >}}
 
-{{< image src="/images/akihabara-sign.jpg" alt="Road sign for Akihabara." >}}
+{{< image-h src="/akihabara-sign.jpg" alt="Road sign for Akihabara." >}}
 
 {{< /images >}}
 
@@ -34,9 +34,9 @@ On nearly every street corner, young women held advertisements for maid cafes. E
 
 {{< images >}}
 
-{{< image src="/images/chuo-dori.jpg" alt="Chuo Dori, the main road of Akihabara." >}}
+{{< image-h src="/chuo-dori.jpg" alt="Chuo Dori, the main road of Akihabara." >}}
 
-{{< image src="/images/akihabara-police.jpg" alt="Three police officers in Akihabara." >}}
+{{< image-h src="/akihabara-police.jpg" alt="Three police officers in Akihabara." >}}
 
 {{< /images >}}
 

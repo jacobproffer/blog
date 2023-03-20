@@ -1,3 +1,7 @@
+{{- $respSizes := slice "320" "640" "960" "1280" "1600" "1920" -}}
+
+{{- $imgBase := "/images/" -}}
+
 {{ $thumbnail := "" }}
 
 {{ if isset .Params "thumbnail" }}
@@ -10,27 +14,13 @@
 
 {{ end }}
 
-{{ $thumbnailSrc := resources.Get $thumbnail }}
-{{ $thumbnailAlt := .Params.thumbnailAlt }}
+{{ $src := resources.Get $thumbnail }}
+{{ $alt := .Params.thumbnailAlt }}
 
-{{ $smallw := default "370x webp" }}
-{{ $tabletw := default "389x webp" }}
-{{ $mediumw := default "464x webp" }}
-{{ $largew := default "616x webp" }}
-{{ $desktopw := default "608x webp" }}
+{{- $imgClass := "article__thumbnail-image" -}}
+{{- $dataSzes := "(min-width: 1024px) 100vw, 50vw" -}}
 
-{{ $data := newScratch }}
-{{ $data.Set "small" ($thumbnailSrc.Resize $smallw) }}
-{{ $data.Set "tablet" ($thumbnailSrc.Resize $tabletw) }}
-{{ $data.Set "medium" ($thumbnailSrc.Resize $mediumw) }}
-{{ $data.Set "large" ($thumbnailSrc.Resize $largew) }}
-{{ $data.Set "desktop" ($thumbnailSrc.Resize $desktopw) }}
-
-{{ $small := $data.Get "small" }}
-{{ $tablet := $data.Get "tablet" }}
-{{ $medium := $data.Get "medium" }}
-{{ $large := $data.Get "large" }}
-{{ $desktop := $data.Get "desktop" }}
+{{- $actualImg := $src.Resize "800x jpg" -}}
 
 <article class="article grid relative">
 
@@ -57,23 +47,22 @@
     <div class="article__thumbnail">
 
       <div class="content">
-
+        
         <picture>
-
-          <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
-          <source media="(max-width: 1079px)" srcset="{{with $tablet.RelPermalink }}{{.}}{{ end }}" width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
-          <source media="(max-width: 1439px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
-          <source media="(max-width: 1599px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
-          <source media="(min-width: 1600px)" srcset="{{with $desktop.RelPermalink }}{{.}}{{ end }}" width="{{ $desktop.Width }}" height="{{ $desktop.Height }}">
-
-          <img
-            class="article__thumbnail-image"
-            src="{{ $thumbnailSrc.RelPermalink }}"
-            width="616"
-            height="482"
-            alt="{{ with $thumbnailAlt }}{{ . }}{{ end }}"
-            loading="lazy"
-          >
+          <source type="image/webp" srcset="
+          {{- with $respSizes -}}
+            {{- range $i, $e := . -}}
+              {{- if ge $src.Width . -}}
+                {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " webp" ) ).RelPermalink }} {{ . }}w {{- end -}}
+            {{- end -}} {{- end -}}" sizes="{{ $dataSzes }}" />
+          <source type="image/jpeg" srcset="
+          {{- with $respSizes -}}
+            {{- range $i, $e := . -}}
+              {{- if ge $src.Width . -}}
+                {{- if $i }}, {{ end -}}{{- ($src.Resize (printf " %sx%s" . " jpg" ) ).RelPermalink }} {{ . }}w {{- end -}} {{-
+            end -}} {{- end -}}" sizes="{{ $dataSzes }}" />
+          <img class="{{ $imgClass }}" src="{{ $actualImg.RelPermalink }}" width="{{ $src.Width }}" height="{{ $src.Height }}"
+            alt="{{ $alt }}" loading="lazy" />
         </picture>
 
       </div>
