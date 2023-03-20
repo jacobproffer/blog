@@ -30,6 +30,14 @@ Down the road from Super Potato, I visited Mandarake. The Mandarake in Akihabara
 
 I spent the remainder of the afternoon in random stores throughout Akihabara. It was Sunday afternoon, which meant Chuo Dori, the main road in the district, was closed to vehicle traffic. Pedestrians were free to walk about the long road or to even sit down wherever they pleased. Police, security guards and barricades blocked most of the routes as a reminder to drivers. It made it easy to get to any shop or back alley on either side without the worry of crosswalks.
 
-A trend I started to catch onto again was that if a store had a lower level, there was a good chance that the floor was dedicated to adult content. Some of these shops had hundreds, if not thousands, of pornographic DVDs or computer games. These floors usually also included the adult versions of gachapon machines. For 500 yen, these machines output a black gachapon capsule with either used underwear (Supposedly), a sex toy or perhaps a nude photograph of a woman.
+{{< images >}}
+
+{{< image src="/images/chuo-dori.jpg" alt="Chuo Dori, the main road of Akihabara." >}}
+
+{{< image src="/images/akihabara-police.jpg" alt="Three police officers in Akihabara." >}}
+
+{{< /images >}}
+
+A trend I started to catch onto again was that if a store had a lower level, there was a good chance that the floor was dedicated to adult content. Some of these shops had hundreds, if not thousands, of pornographic DVDs or computer games. These floors usually also included at least one adult version of a gachapon machine. For 500 yen, these machines would output a black gachapon capsule with either used underwear (Supposedly), a sex toy or perhaps a nude photograph of a woman.
 
 For dinner, I went back to Nadai Fuji Soba and bought a ticket for egg fried tonkatsu on rice for 500 yen (Around four dollars). The rice was easy to eat with chopsticks but for some reason, I found it difficult to separate the pieces of pork cutlet. Together with the eggs though, the tonkatsu was delicious. Once finished with the meal, I returned my tray and headed outside to a nearby crêpe shop. I ordered a crêpe with peanuts that was covered with whipped cream.
