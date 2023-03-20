@@ -22,19 +22,25 @@ The plane touched down in Narita around four in the afternoon on the 22nd of Oct
 
 The customs and immigrations process was consistent with previous trips to Japan. Long lines, no questions and no issues. I exited the secured portion of the airport and was back in the lobby. I can remember the initial anxiety I had in this lobby when I first traveled to Japan in 2017. Over six thousand miles away from home, with no friends and not a clue what to do next. The fear was long gone on this third trip and I knew what to do. I located the escalator down to the lower level which housed a number of ticket counters for various train companies. I purchased an outgoing and return ticket for the Narita Express. Though I was uncertain about the departure time on the return ticket. It was about two hours prior to my flight out of Japan. In retrospect, I should not have accepted that time.
 
+<!-- {{< image src="/images/nex-train-ride.jpg" alt="A night view of Narita, Japan from a train window." >}} -->
+
 {{< images >}}
 
-{{< image src="/images/nex-train-ride.jpg" alt="A night view of Narita, Japan from a train window." >}}
+{{< image-h src="nex-train-ride.jpg" alt="A night view of Narita, Japan from a train window." >}}
 
-{{< image src="/images/nex-train.jpg" alt="Seats inside of a Narita Express train." >}}
+{{< image-h src="nex-train.jpg" alt="Seats inside of a Narita Express train." >}}
 
 {{< /images >}}
+
+<!-- {{< image src="/images/nex-train.jpg" alt="Seats inside of a Narita Express train." >}} -->
 
 The train ride from the Narita airport to Tokyo Station was longer than I had remembered. It took over an hour to arrive. Similar to my trip in 2017, it was dark by the time the train had departed Narita, so I couldn't see much outside of the windows. From Tokyo Station, I purchased a ticket to go to Akihabara Station. These transfer tickets are much cheaper and easy to purchase from the automated ticket machines. The ride from Tokyo Station to Akihabara Station only cost me 140 yen or about one dollar.
 
 JR-East's Hotel Mets Akihabara is built into the same structure as Akihabara Station. The stairs up to the hotel are located on the outside of the station, tucked into a corner. The check-in for the hotel was done via a touchscreen device built into the hotel lobby front desk. All I had to do was select check-in, scan my passport and the room key was deposited from the device. My room was located on the fifth floor, which faced a building that was shrouded with scaffolding. I worried that I would be able to hear or feel the trains due to the proximity. Yet the room was soundproofed well.
 
-{{< image src="/images/jr-east-view.jpg" alt="Darkened buildings inside of Akihabara, Japan." >}}
+<!-- {{< image src="/images/jr-east-view.jpg" alt="Darkened buildings inside of Akihabara, Japan." >}} -->
+
+{{< image-h src="jr-east-view.jpg" alt="Darkened buildings inside of Akihabara, Japan." >}}
 
 Similar to the room I stayed in at the Hotel Gracery in 2017, the room had a bathroom with a separated shower room. There was a walk-in shower and a tub against the back wall. The toilet was also similar, with a dashboard to select different preferences. There were options for a bidet, which I accidentally selected on first use. The seat could even be heated, which was too strange for me. The rest of the room was typical with a large bed, television on the wall, humidifier and blackout curtains.
 
