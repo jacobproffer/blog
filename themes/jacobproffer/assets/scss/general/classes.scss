@@ -1,8 +1,9 @@
 .visually-hide {
+  @include size(1px);
   position: absolute;
-  top: 0;
-  left: -9999px;
-  clip: rec(0, 0, 0, 0);
+  clip: rec(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+  overflow: hidden;
   pointer-events: none;
 }
 

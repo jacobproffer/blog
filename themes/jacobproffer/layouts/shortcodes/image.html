@@ -4,12 +4,12 @@
 
 {{ $imgSrc := resources.Get $img }}
 
-{{ $mobilew := default "335x webp Lanczos" }}
-{{ $smallw := default "480x webp Lanczos" }}
-{{ $tabletw := default "675x webp Lanczos" }}
-{{ $mediumw := default "800x webp Lanczos" }}
-{{ $largew := default "640x webp Lanczos" }}
-{{ $desktopw := default "600x webp Lanczos" }}
+{{ $mobilew := default "670x webp q100 Lanczos" }}
+{{ $smallw := default "480x webp q100 Lanczos" }}
+{{ $tabletw := default "675x webp q100 Lanczos" }}
+{{ $mediumw := default "800x webp q100 Lanczos" }}
+{{ $largew := default "640x webp q100 Lanczos" }}
+{{ $desktopw := default "600x webp q100 Lanczos" }}
 
 {{ $data := newScratch }}
 {{ $data.Set "mobile" ($imgSrc.Resize $mobilew) }}
@@ -26,31 +26,33 @@
 {{ $large := $data.Get "large" }}
 {{ $desktop := $data.Get "desktop" }}
 
+{{ $imageAlt := .Get "alt" }}
+
 <div class="single__image">
 
   <div class="content">
 
     <picture>
-      <source media="(max-width: 375px)" srcset="{{with $mobile.RelPermalink }}{{.}}{{ end }}" width="{{ $mobile.Width }}" height="{{ $mobile.Height }}">
+      <source media="(max-width: 375px)" srcset="{{with $mobile.RelPermalink }}{{.}}{{ end }}"
+        width="{{ $mobile.Width }}" height="{{ $mobile.Height }}">
 
-      <source media="(max-width: 600px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
+      <source media="(max-width: 600px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}"
+        height="{{ $small.Height }}">
 
-      <source media="(max-width: 1079px)" srcset="{{with $tablet.RelPermalink }}{{.}}{{ end }}" width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
+      <source media="(max-width: 1079px)" srcset="{{with $tablet.RelPermalink }}{{.}}{{ end }}"
+        width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
 
-      <source media="(max-width: 1259px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
+      <source media="(max-width: 1259px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}"
+        width="{{ $medium.Width }}" height="{{ $medium.Height }}">
 
-      <source media="(max-width: 1439px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
+      <source media="(max-width: 1439px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}"
+        width="{{ $large.Width }}" height="{{ $large.Height }}">
 
-      <source media="(min-width: 1440px)" srcset="{{with $desktop.RelPermalink }}{{.}}{{ end }}" width="{{ $desktop.Width }}" height="{{ $desktop.Height }}">
+      <source media="(min-width: 1440px)" srcset="{{with $desktop.RelPermalink }}{{.}}{{ end }}"
+        width="{{ $desktop.Width }}" height="{{ $desktop.Height }}">
 
-      <img
-        src="{{ $imgSrc.RelPermalink }}"
-        width="{{ $imgSrc.Width }}"
-        height="{{ $imgSrc.Height }}"
-        alt="{{ .Get "alt" }}"
-        decoding="async"
-        loading="lazy"
-      >
+      <img src="{{ $imgSrc.RelPermalink }}" width="{{ $imgSrc.Width }}" height="{{ $imgSrc.Height }}"
+        alt="{{ $imageAlt }}" decoding="async" loading="lazy">
     </picture>
 
   </div>

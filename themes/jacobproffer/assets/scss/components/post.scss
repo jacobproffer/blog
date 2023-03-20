@@ -87,7 +87,7 @@
       @include size(100%);
       display: block;
       margin: 0;
-      object-fit: cover;
+      object-fit: contain;
     }
   }
 
