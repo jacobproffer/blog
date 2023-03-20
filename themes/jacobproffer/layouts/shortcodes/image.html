@@ -4,10 +4,9 @@
 
 {{ $imgSrc := resources.Get $img }}
 
-{{ $mobilew := default "335x webp q100 Lanczos" }}
+{{ $mobilew := default "670x webp q100 Lanczos" }}
 {{ $smallw := default "480x webp q100 Lanczos" }}
 {{ $tabletw := default "675x webp q100 Lanczos" }}
-{{ $retinaw := default "670x webp q100 Lanczos" }}
 {{ $mediumw := default "800x webp q100 Lanczos" }}
 {{ $largew := default "640x webp q100 Lanczos" }}
 {{ $desktopw := default "600x webp q100 Lanczos" }}
@@ -16,7 +15,6 @@
 {{ $data.Set "mobile" ($imgSrc.Resize $mobilew) }}
 {{ $data.Set "small" ($imgSrc.Resize $smallw) }}
 {{ $data.Set "tablet" ($imgSrc.Resize $tabletw) }}
-{{ $data.Set "retina" ($imgSrc.Resize $retinaw) }}
 {{ $data.Set "medium" ($imgSrc.Resize $mediumw) }}
 {{ $data.Set "large" ($imgSrc.Resize $largew) }}
 {{ $data.Set "desktop" ($imgSrc.Resize $desktopw) }}
@@ -24,7 +22,6 @@
 {{ $mobile := $data.Get "mobile" }}
 {{ $small := $data.Get "small" }}
 {{ $tablet := $data.Get "tablet" }}
-{{ $retina := $data.Get "retina" }}
 {{ $medium := $data.Get "medium" }}
 {{ $large := $data.Get "large" }}
 {{ $desktop := $data.Get "desktop" }}
@@ -41,9 +38,6 @@
 
       <source media="(max-width: 600px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}"
         height="{{ $small.Height }}">
-
-      <source media="(max-width: 750px)" srcset="{{with $retina.RelPermalink}}{{.}}{{ end }}"
-        width="{{ $retina.Width }}" height="{{ $retina.Height }}">
 
       <source media="(max-width: 1079px)" srcset="{{with $tablet.RelPermalink }}{{.}}{{ end }}"
         width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
