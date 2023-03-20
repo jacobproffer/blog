@@ -4,7 +4,7 @@ date: 2023-02-02T09:19:50-05:00
 description: "Post description"
 images: ["/images/akihabara-social.jpg"]
 series: ["Japan"]
-tags: ["japan", "akihabara", "diner", "hotel"]
+tags: ["japan", "akihabara", "hotel", "diner", "mandarake"]
 categories: ["japan", "travel"]
 thumbnail: "/images/akihabara-social.jpg"
 thumbnailAlt: "Buildings in Akihabara."
@@ -12,7 +12,7 @@ thumbnailAlt: "Buildings in Akihabara."
 
 I would argue that Japan has the best variety and quality when it comes to vending machines. My first morning back in Akihabara started with a can of black coffee from one of the drink dispensers in an alley near the hotel. The upside was that the coffee was extremely hot. Most vending machines in Japan have options for both cold ({{< japanese >}}つめたい{{< /japanese >}}) and hot (あったかい) beverages. The same can be said for vending machines that offer soup or ramen. Most options are cheap too, some only 100 yen (Not even a dollar).
 
-Unlike the United States, most stores in Japan do not open until around 11 a.m. or noon. I had left the hotel early, so I had hours to wait. I decided to reorient myself with the layout of Akihabara. The one location that I remembered from my first trip was Matsumoto Kiyoshi. It's the largest drugstore chain in Japan and the storefront in Akihabara is hard to miss. The front side is bright yellow with blue trim. I decided it would be a landmark, since the hotel was nearly straight down the road in front of it.
+Unlike the United States, most stores in Japan do not open until around eleven in the morning or noon. I had left the hotel early, so I had hours to wait. I decided to reorient myself with the layout of Akihabara. The one location that I remembered from my first trip was Matsumoto Kiyoshi. It's the largest drugstore chain in Japan and the storefront in Akihabara is hard to miss. The front side is bright yellow with blue trim. I decided it would be a landmark, since the hotel was nearly straight down the road in front of it.
 
 {{< images >}}
 
@@ -29,6 +29,8 @@ After I ate, I exited the diner and watched people drive by in red go-karts near
 Down the road from Super Potato, I visited Mandarake. The Mandarake in Akihabara has eight floors, where each floor is dedicated to particular used goods. The first floor is primarily for registers and a help desk. The second floor is for cosplay goods and some artwork. There are a few floors above for different types of manga and then a floor for physical media, where I spotted a Zoids Blu-ray Box for 110,000 yen (Over $800). The top two floors are for toys, trading cards and stickers. I purchased a compendium of early Alien comics, which included a favorite of mine, Aliens: Nightmare Asylum.
 
 I spent the remainder of the afternoon in random stores throughout Akihabara. It was Sunday afternoon, which meant Chuo Dori, the main road in the district, was closed to vehicle traffic. Pedestrians were free to walk about the long road or to even sit down wherever they pleased. Police, security guards and barricades blocked most of the routes as a reminder to drivers. It made it easy to get to any shop or back alley on either side without the worry of crosswalks.
+
+On nearly every street corner, young women held advertisements for maid cafes. Even in late October, most of these women wore high skirts and fishnet stockings. Some were energetic, while most I saw were on their cellphone, holding the sign with a free hand. Their prime demographic were young Japanese men, who often stopped to chat. Similar to cities such as New York, these advertisers leave you alone as long as you don't make eye contact. I've never experienced a maid cafe but from what I've read, it is similar to Applebees but you are charged extra to be pampered.
 
 {{< images >}}
 
