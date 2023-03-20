@@ -26,7 +26,9 @@ The customs and immigrations process was consistent with previous trips to Japan
 
 {{< image src="/images/nex-train-ride.jpg" alt="A night view of Narita, Japan from a train window." >}}
 
-{{< image src="/images/nex-train.jpg" alt="Seats inside of a Narita Express train." >}}
+{{< image-h src="nex-train-ride.jpg" alt="Test image." >}}
+
+<!-- {{< image src="/images/nex-train.jpg" alt="Seats inside of a Narita Express train." >}} -->
 
 {{< /images >}}
 
