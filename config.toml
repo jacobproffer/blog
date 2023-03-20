@@ -6,6 +6,7 @@ paginate = 10
 paginatePath = "posts"
 copyright = "2023"
 enableRobotsTXT = true
+timeout = 60000
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 
