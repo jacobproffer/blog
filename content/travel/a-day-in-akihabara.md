@@ -1,6 +1,6 @@
 ---
 title: "A Day in Akihabara"
-date: 2023-02-02T09:19:50-05:00
+date: 2023-03-20T11:21:11-04:00
 description: "Post description"
 images: ["/images/akihabara-social.jpg"]
 series: ["Japan"]
