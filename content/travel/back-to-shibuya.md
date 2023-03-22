@@ -2,11 +2,11 @@
 title: "Back to Shibuya"
 date: 2023-03-21T09:20:02-04:00
 description: "I returned to Shibuya, a special ward in Tokyo, Japan."
-images: ["/images/background.jpg"]
+images: ["/images/shibuya-social.jpg"]
 series: ["Japan"]
-tags: ["japan", "shibuya", "mandarake"]
+tags: ["japan", "shibuya", "mandarake", "restaurant"]
 categories: ["japan", "travel"]
-thumbnail: "/images/background.jpg"
+thumbnail: "/images/shibuya-social.jpg"
 thumbnailAlt: ""
 ---
 
@@ -14,15 +14,33 @@ Shibuya reminds me of Manhattan. Skyscrapers, high-end shops and plenty of graff
 
 When the rain stopped, I walked outside to take photographs of the Shibuya Scramble Crossing. It is hard to grasp how large the crosswalk is unless you have walked across it. Once the cuckoo sound emits for the visually impaired, a sea of people from one side converge with another from the other side. Somehow, no one collides. It goes on all day long.
 
+{{< images >}}
+
+{{< image-h src="shibuya-crosswalk-2.jpg" alt="" >}}
+
+{{< image-h src="shibuya-crosswalk.jpg" alt="A large group of people crossing the Shibuya Scramble Crossing." >}}
+
+{{< /images >}}
+
 Afterward, I walked around various side streets and alleys to locate stores I wanted to visit that day. I mainly wanted to shop at Village Vanguard, Mandarake and Loft Shibuya. Village Vanguard in Shibuya was difficult to locate, as it is below ground. Google Maps had a weak signal in the city and I walked past the elevator multiple times. It amazed me how every alley was plastered with stickers and graffiti. The stickers covered nearly every surface, from phone booths to electrical units.
 
 The first attraction I visited was Shibuya Sky, an observation platform atop the roof of the Shibuya Scramble Square skyscraper. The elevator near the ground floor entrance took me up to the ticket counter for Shibuya Sky on the 45th floor. A single ticket for an adult cost 2,000 yen (Around fifteen dollars). While in line for an elevator up to the observation platform on the 46th floor, an older Japanese man handed me an origami boat. The paper was dark blue with thin golden lines, the folds creased tightly. I didn't know what to say at first but thanked the man multiple times in Japanese. He just smiled and waited for the elevator with me.
 
 On the observation floor, I had to put my backpack into a coin locker before allowed outside. A few hundred yen needed to be deposited into a slot on the locker before I was able to lock the door and retrieve the key. I followed the rest of the group that came up to an escalator just outside the locker room. There were tall glass panels on both sides of the escalator, all the way up to the top. It was overcast still and the light rain had returned by the time I was topside. I found that the roof had a groomed soccer field in the center, which also served as a helicopter pad. The glass panels surrounded the entire roof, along with security guards, who blocked certain portions of the rooftop. I was able to have a near 360-degree view of Shibuya and the greater Tokyo area.
 
+{{< images >}}
+
+{{< image-h src="shibuya-skyline.jpg" alt="A wide landscape view of the city of Shibuya." >}}
+
+{{< image-h src="shibuya-sky-roof.jpg" alt="A soccer field and helicopter landing pad on the roof of Shibuya Sky." >}}
+
+{{< /images >}}
+
 Loft Shibuya, a seven floor department store, was nearby. The front portion of the department store was dedicated to various street artists. Most artists had vinyl figurines, stickers and post-cards for sale. I purchased a black, ghost-like vinyl toy and a tan pouch with artwork of a cat dressed in a shark costume. I was tempted to buy more but didn't want to spend all of the cash that I had on hand.
 
 From Loft Shibuya, I wandered the streets until Mandarake opened at noon. I much prefer the Mandarake in Shibuya in comparison to the one in Akihabara, since all goods are on one large floor. It's a labyrinth, with lengthy aisles of manga, graphic novels, cosplay goods and lots of toys. I tried to find a manga called I Am a Hero but was unsuccessful. I'm sure it was there somewhere. I did, however, purchase a Mandarake shirt. The artwork for the shirt was done by Ran Akiyoshi, which featured a nude woman in some sort of twisted medieval fantasy scene.
+
+{{< image-h src="mandarake-shibuya.jpg" alt="Man with a face mask holding a black digital camera." >}}
 
 For lunch, I had a large bowl of ramen with an egg. It was another type of restaurant where I had to first purchase a ticket from a machine near the entrance. A woman asked for my help with a translation on the ticket machine before I sat down. I wasn't sure if I could help at first but I recognized the kanji for big ({{< japanese >}}大{{< /japanese >}}). The prompt asked if the user wanted a normal or large portion, both at different costs.
 
