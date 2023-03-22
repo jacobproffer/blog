@@ -24,9 +24,9 @@ The customs and immigrations process was consistent with previous trips to Japan
 
 {{< images >}}
 
-{{< image-h src="nex-train-ride.jpg" alt="A night view of Narita, Japan from a train window." >}}
+{{< image src="/images/nex-train-ride.jpg" alt="A night view of Narita, Japan from a train window." >}}
 
-{{< image-h src="nex-train.jpg" alt="Seats inside of a Narita Express train." >}}
+{{< image src="/images/nex-train.jpg" alt="Seats inside of a Narita Express train." >}}
 
 {{< /images >}}
 
@@ -34,7 +34,7 @@ The train ride from the Narita airport to Tokyo Station was longer than I had re
 
 JR-East's Hotel Mets Akihabara is built into the same structure as Akihabara Station. The stairs up to the hotel are located on the outside of the station, tucked into a corner. The check-in for the hotel was done via a touchscreen device built into the hotel lobby front desk. All I had to do was select check-in, scan my passport and the room key was deposited from the device. My room was located on the fifth floor, which faced a building that was shrouded with scaffolding. I worried that I would be able to hear or feel the trains due to the proximity. Yet the room was soundproofed well.
 
-{{< image-h src="jr-east-view.jpg" alt="Darkened buildings inside of Akihabara, Japan." >}}
+{{< image src="/images/jr-east-view.jpg" alt="Darkened buildings inside of Akihabara, Japan." >}}
 
 Similar to the room I stayed in at the Hotel Gracery in 2017, the room had a bathroom with a separated shower room. There was a walk-in shower and a tub against the back wall. The toilet was also similar, with a dashboard to select different preferences. There were options for a bidet, which I accidentally selected on first use. The seat could even be heated, which was too strange for me. The rest of the room was typical with a large bed, television on the wall, humidifier and blackout curtains.
 

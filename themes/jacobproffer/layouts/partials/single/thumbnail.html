@@ -12,16 +12,16 @@
 
 {{ $thumbnailSrc := resources.Get $thumbnail }}
 
-{{ $smallw := default "480x webp" }}
-{{ $tabletw := default "810x webp q75" }}
-{{ $mediumw := default "960x webp q75" }}
-{{ $largew := default "1200x webp q75" }}
+{{ $smallw := default "480x400 webp" }}
+{{ $tabletw := default "810x338 webp q75" }}
+{{ $mediumw := default "960x400 webp q75" }}
+{{ $largew := default "1200x500 webp q75" }}
 
 {{ $data := newScratch }}
-{{ $data.Set "small" ($thumbnailSrc.Resize $smallw) }}
-{{ $data.Set "tablet" ($thumbnailSrc.Resize $tabletw) }}
-{{ $data.Set "medium" ($thumbnailSrc.Resize $mediumw) }}
-{{ $data.Set "large" ($thumbnailSrc.Resize $largew) }}
+{{ $data.Set "small" ($thumbnailSrc.Fill $smallw) }}
+{{ $data.Set "tablet" ($thumbnailSrc.Fill $tabletw) }}
+{{ $data.Set "medium" ($thumbnailSrc.Fill $mediumw) }}
+{{ $data.Set "large" ($thumbnailSrc.Fill $largew) }}
 
 {{ $small := $data.Get "small" }}
 {{ $tablet := $data.Get "tablet" }}
