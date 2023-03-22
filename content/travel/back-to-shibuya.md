@@ -16,9 +16,9 @@ When the rain stopped, I walked outside to take photographs of the Shibuya Scram
 
 {{< images >}}
 
-{{< image-h src="shibuya-crosswalk-2.jpg" alt="" >}}
+{{< image src="/images/shibuya-crosswalk-2.jpg" alt="" >}}
 
-{{< image-h src="shibuya-crosswalk.jpg" alt="A large group of people crossing the Shibuya Scramble Crossing." >}}
+{{< image src="/images/shibuya-crosswalk.jpg" alt="A large group of people crossing the Shibuya Scramble Crossing." >}}
 
 {{< /images >}}
 
@@ -30,9 +30,9 @@ On the observation floor, I had to put my backpack into a coin locker before all
 
 {{< images >}}
 
-{{< image-h src="shibuya-skyline.jpg" alt="A wide landscape view of the city of Shibuya." >}}
+{{< image src="/images/shibuya-skyline.jpg" alt="A wide landscape view of the city of Shibuya." >}}
 
-{{< image-h src="shibuya-sky-roof.jpg" alt="A soccer field and helicopter landing pad on the roof of Shibuya Sky." >}}
+{{< image src="/images/shibuya-sky-roof.jpg" alt="A soccer field and helicopter landing pad on the roof of Shibuya Sky." >}}
 
 {{< /images >}}
 
@@ -40,7 +40,7 @@ Loft Shibuya, a seven floor department store, was nearby. The front portion of t
 
 From Loft Shibuya, I wandered the streets until Mandarake opened at noon. I much prefer the Mandarake in Shibuya in comparison to the one in Akihabara, since all goods are on one large floor. It's a labyrinth, with lengthy aisles of manga, graphic novels, cosplay goods and lots of toys. I tried to find a manga called I Am a Hero but was unsuccessful. I'm sure it was there somewhere. I did, however, purchase a Mandarake shirt. The artwork for the shirt was done by Ran Akiyoshi, which featured a nude woman in some sort of twisted medieval fantasy scene.
 
-{{< image-h src="mandarake-shibuya.jpg" alt="Man with a face mask holding a black digital camera." >}}
+{{< image src="/images/mandarake-shibuya.jpg" alt="Man with a face mask holding a black digital camera." >}}
 
 For lunch, I had a large bowl of ramen with an egg. It was another type of restaurant where I had to first purchase a ticket from a machine near the entrance. A woman asked for my help with a translation on the ticket machine before I sat down. I wasn't sure if I could help at first but I recognized the kanji for big ({{< japanese >}}大{{< /japanese >}}). The prompt asked if the user wanted a normal or large portion, both at different costs.
 
