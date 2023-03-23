@@ -18,10 +18,12 @@ Yuigahama Beach was mostly devoid of people when I arrived. The water was calm w
 
 Hasedera, a large buddhist temple, was around a half-mile to the northwest of Yuigahama Beach. I took a number of narrow alleys through a residential area to reach the entrance. An adult ticket cost 400 yen (Around three dollars). Inside the temple is the eleven-headed statue of Kannon, a thirty-foot tall wooden statue. The outside of the temple had an overlook that provided a wide view of Kamakura. Near the overlook was a sign that warned people about ravens (Referred to as "kites") and food.
 
-<!-- Went to Komachi-dori Street -->
+Nearly a mile and a half to the northeast from Hasedera is Komachi-dori Street, a lengthy street with vast amounts of gift and souvenir shops. I stopped into a small restaurant which sold dangos, a Japanese dumpling on a skewer. I had eaten mitarashi dangos in Osaka, so I wanted to try a new flavor. I chose matcha, which I found to be rather bland in taste.
 
-<!-- Tried matcha dongos and cup of chicken -->
+Afterwards, I walked over to Tsurugaoka Hachiman-gū, a Shinto shrine. It was by far the most popular area I had visited in Kamakura so far. School children were all over the grounds. There's a main hall with a museum, a garden, two ponds and a number of auxiliary buildings. Near one of the two ponds, I stopped on a small foot bridge to look at the water. Fish had gathered in a sizable group below the bridge and had their heads out of the water. It looked as if the fish were regularly fed and thought I had come to feed them. There were also a massive amount of pigeons around the area, who were often chased by the children.
 
-<!-- Went to Tsurugaoka Hachiman-gū -->
+From Tsurugaoka Hachiman-gū, I walked northeast to visit a Rinzai Zen temple called Meigetsu-in. However, I went to far and ended up at a Zen Buddhist temple called Engaku-ji. As I entered the grounds of the temple, a group of school children walked past and said, "Hello!". I greeted them back and walked past the large two story gate with a copper roof, which is called a Sanmon. In all, there are eighteen temples at Engaku-ji. There's a main hall, similar in size to Tsurugaoka Hachiman-gū, and a hall for meditation. I walked around for awhile and then headed back towards the main gate.
 
-<!-- Went to Meigetsu-in -->
+A heavy rain began to fall as I neared the entrance of Engaku-ji. I ducked under an awning to grab my rain jacket and placed a waterproof cover on my backpack. I was mostly protected from the rain as I made my way back towards Komachi-dori Street but started to get a little cold. I stopped into a covered strip mall to purchase a small cup of orange chicken. I absolutely burnt the roof of my mouth but the food was just what I needed.
+
+The weather report called for non-stop rain for the afternoon in Kamakura, so I decided to return to Akihabara.
