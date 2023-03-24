@@ -4,7 +4,7 @@ date: 2023-03-22T10:05:27-04:00
 description: "On my third day back in Japan, I visited a seaside city called Kamakura."
 images: ["/images/kamakura-social.jpg"]
 series: ["Japan"]
-tags: ["japan", "kamakura", "temple"]
+tags: ["japan", "kamakura", "akihabara", "temple"]
 categories: ["japan", "travel"]
 thumbnail: "/images/kamakura-social.jpg"
 thumbnailAlt: "A wide view of Kamakura, Japan."
@@ -42,6 +42,4 @@ Afterwards, I walked over to Tsurugaoka Hachiman-gū, a Shinto shrine. It was by
 
 From Tsurugaoka Hachiman-gū, I walked northeast to visit a Rinzai Zen temple called Meigetsu-in. However, I went to far and ended up at a Zen Buddhist temple called Engaku-ji. As I entered the grounds of the temple, a group of school children walked past and said, "Hello!". I greeted them back and walked past the large two story gate with a copper roof, which is called a Sanmon. In all, there are eighteen temples at Engaku-ji. There's a main hall, similar in size to Tsurugaoka Hachiman-gū, and a hall for meditation. I walked around for awhile and then headed back towards the main gate.
 
-A heavy rain began to fall as I neared the entrance of Engaku-ji. I ducked under an awning to grab my rain jacket and placed a waterproof cover on my backpack. I was mostly protected from the rain as I made my way back towards Komachi-dori Street but started to get a little cold. I stopped into a covered strip mall to purchase a small cup of orange chicken. I absolutely burnt the roof of my mouth but the food was just what I needed.
-
-The weather report called for non-stop rain for the afternoon in Kamakura, so I decided to return to Akihabara.
+A heavy rain began to fall as I neared the entrance of Engaku-ji. I ducked under an awning to grab my rain jacket and placed a waterproof cover on my backpack. I was mostly protected from the rain as I made my way back towards Komachi-dori Street but started to get a little cold. I stopped into a covered strip mall to purchase a small cup of orange chicken. I absolutely burnt the roof of my mouth but the food was just what I needed. After I finished with the food, I decided to return to Akihabara as the weather report called for non-stop rain throughout the day in Kamakura.
