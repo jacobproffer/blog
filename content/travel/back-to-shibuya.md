@@ -7,7 +7,7 @@ series: ["Japan"]
 tags: ["japan", "shibuya", "mandarake", "restaurant"]
 categories: ["japan", "travel"]
 thumbnail: "/images/shibuya-social.jpg"
-thumbnailAlt: ""
+thumbnailAlt: "Cityscape of Shibuya in Tokyo, Japan."
 ---
 
 Shibuya reminds me of Manhattan. Skyscrapers, high-end shops and plenty of graffiti. I arrived at Shibuya Station early via the JR-East subway line. To get out of the light rain, I walked over to the Starbucks that's near the infamous Shibuya Scramble Crossing. It was my first stop in Shibuya back in 2017 and I remembered that the coffee shop offered a panoramic view of the crosswalk. I had to sit at a back table for a few minutes before a spot opened up near the front window. A child behind me had a nasty cough, so I kept my mask on unless I wanted to take a sip of coffee.
