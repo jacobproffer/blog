@@ -1,7 +1,7 @@
 ---
-title: "Iceland Blog 02"
+title: "A Well Planned Day in Iceland"
 date: 2018-08-26 14:00:00
-description: "Second day in Iceland."
+description: "On the second day in Iceland, I traveled to Seljalandsfoss, Skógafoss and visited the Black Beach."
 images: ["/images/iceland_blog_02_social.jpg"]
 categories: ["travel"]
 tags: ["iceland", "travel", "trip", "drive", "vehicle"]

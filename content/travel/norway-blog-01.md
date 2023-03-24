@@ -1,5 +1,5 @@
 ---
-title: "Norway Blog 01"
+title: "First Time in Bergen, Norway"
 date: 2018-11-22 14:00:00
 description: "Traveling to Norway and exploring Bergen."
 images: ["/images/norway_blog_01_social.jpg"]

@@ -1,7 +1,7 @@
 ---
-title: "Iceland Blog 05"
+title: "Wet and Miserable in Iceland"
 date: 2018-09-19 14:00:00
-description: "Fifth day in Iceland."
+description: "Myles and I decided to hike around Glymur in a rain storm."
 images: ["/images/iceland_blog_05_social.jpg"]
 categories: ["travel"]
 tags: ["iceland", "travel", "hike", "drive", "restaurant"]

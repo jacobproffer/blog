@@ -1,5 +1,5 @@
 ---
-title: "Japan Blog 06"
+title: "A Full Day in Shibuya"
 date: 2018-04-10 14:00:00
 description: "Jacob Proffer's time in Shibuya, Tokyo, Japan."
 images: ["/images/shibuya_social.jpg"]

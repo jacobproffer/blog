@@ -1,5 +1,5 @@
 ---
-title: "Norway Blog 02"
+title: "Hiking in the Aurlandsdalen Valley"
 date: 2018-11-29 14:00:00
 description: "First full day in Norway, exploring Tvindefossen, Aurlandsdalen and Nærøyfjord."
 images: ["/images/norway_blog_02_social.jpg"]

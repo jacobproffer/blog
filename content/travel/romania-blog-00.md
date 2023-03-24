@@ -1,5 +1,5 @@
 ---
-title: "Romania Blog 00"
+title: "Night Before Romania"
 date: 2019-11-04T01:07:51.861Z
 description: The night before my trip to Romania.
 images: ["/images/uploads/background.jpg"]

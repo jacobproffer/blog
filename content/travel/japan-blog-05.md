@@ -1,5 +1,5 @@
 ---
-title: "Japan Blog 05"
+title: "First Time in Akihabara"
 date: 2018-04-01 14:00:00
 description: "Jacob Proffer's time in Akihabara."
 images: ["/images/japan_blog_05_social.jpg"]
