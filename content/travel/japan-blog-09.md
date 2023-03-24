@@ -1,5 +1,5 @@
 ---
-title: "Japan Blog 09"
+title: "Notes Before a Second Trip to Japan"
 date: 2019-04-23 14:00:00
 description: "The night before my 2019 trip to Japan."
 images: ["/images/narita_social.jpg"]

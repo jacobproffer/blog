@@ -1,5 +1,5 @@
 ---
-title: "Japan Blog 03"
+title: "Traveling From Narita to Shinjuku"
 date: 2018-01-08 14:00:00
 description: "Jacob Proffer's time in Shinjuku, Tokyo, Japan."
 images: ["/images/japan_blog_03_social.jpg"]

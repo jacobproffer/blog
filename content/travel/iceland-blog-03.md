@@ -1,5 +1,5 @@
 ---
-title: "Iceland Blog 03"
+title: "Travel in the Northeast of Iceland"
 date: 2018-09-03 14:00:00
 description: Third day in Iceland.
 images: ["/images/iceland_blog_03_social.jpg"]

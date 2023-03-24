@@ -1,7 +1,7 @@
 ---
-title: "Iceland Blog 07"
+title: "Leaving Iceland"
 date: 2018-10-15 14:00:00
-description: "Leaving Iceland."
+description: "Flying out of Iceland."
 images: ["/images/iceland_blog_07_social.jpg"]
 categories: ["travel"]
 tags: ["iceland", "hotel", "airport", "vehicle", "drive"]

@@ -1,5 +1,5 @@
 ---
-title: "Japan Blog 08"
+title: "Leaving Tokyo, Japan"
 date: 2018-05-07 14:00:00
 description: "Leaving Tokyo, Japan."
 images: ["/images/narita_social.jpg"]

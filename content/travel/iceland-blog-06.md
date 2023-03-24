@@ -1,5 +1,5 @@
 ---
-title: "Iceland Blog 06"
+title: "A Lazy Day in Iceland"
 date: 2018-10-10 14:00:00
 description: "Sixth day in Iceland."
 images: ["/images/iceland_blog_06_social.jpg"]

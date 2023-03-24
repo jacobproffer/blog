@@ -1,5 +1,5 @@
 ---
-title: "Iceland Blog 04"
+title: "Hiking Around Skaftafell in Iceland"
 date: 2018-09-16 14:00:00
 description: "Fourth day in Iceland."
 images: ["/images/iceland_blog_04_social.jpg"]

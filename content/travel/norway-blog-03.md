@@ -1,5 +1,5 @@
 ---
-title: "Norway Blog 03"
+title: "Climbing a Fjord in Norway"
 date: 2018-12-06 14:00:00
 description: "Hiking up the Åkrafjorden."
 images: ["/images/norway_blog_03_social.jpg"]

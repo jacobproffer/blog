@@ -1,5 +1,5 @@
 ---
-title: "Japan Blog 10"
+title: "Traveling to Osaka, Japan"
 date: 2019-05-13T18:41:26-04:00
 description: "Back in Japan."
 images: ["/images/japan_blog_10_social.jpg"]

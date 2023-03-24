@@ -1,5 +1,5 @@
 ---
-title: "Japan Blog 01"
+title: "First Flight to Tokyo, Japan"
 date: 2017-12-12 14:00:00
 description: "Getting to Tokyo, Japan."
 images: ["/images/japan_blog_01_social.jpg"]

@@ -1,5 +1,5 @@
 ---
-title: "Iceland Blog 00"
+title: "Night Before Iceland"
 date: 2018-05-13 14:00:00
 description: "The night before my trip to Iceland."
 images: ["/images/iceland_blog_00_social.jpg"]

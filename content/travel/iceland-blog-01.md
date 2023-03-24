@@ -1,5 +1,5 @@
 ---
-title: "Iceland Blog 01"
+title: "Arriving in Iceland"
 date: 2018-06-10 14:00:00
 description: "First day in Iceland."
 images: ["/images/iceland_blog_01_social.jpg"]

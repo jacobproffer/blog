@@ -1,5 +1,5 @@
 ---
-title: "Japan Blog 02"
+title: "Leaving the Narita Airport"
 date: 2017-12-28 14:00:00
 description: "Immigration and the train ride to Tokyo, Japan."
 images: ["/images/japan_blog_02_social.jpg"]

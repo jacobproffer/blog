@@ -1,5 +1,5 @@
 ---
-title: "Romania Blog 01"
+title: "Traveling to Bucharest, Romania"
 date: 2020-01-01T14:27:41.434Z
 description: "Getting into Bucharest, Romania."
 images: ["/images/uploads/img_0205.jpg"]
