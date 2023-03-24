@@ -1,7 +1,7 @@
 ---
 title: "Arriving in Iceland"
 date: 2018-06-10 14:00:00
-description: "First day in Iceland."
+description: "I flew into Keflavik Iceland and met up with my friend Myles before we traveled to Reykjavik together."
 images: ["/images/iceland_blog_01_social.jpg"]
 categories: ["travel"]
 tags: ["iceland", "travel", "trip", "airport", "vehicle"]
