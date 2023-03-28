@@ -28,9 +28,9 @@ The first attraction for the day was the Tokyo Metropolitan Government Building,
 
 {{< /images >}}
 
-Afterwards, I stopped at Kinokuniya's main book store in Shinjuku. There are six floors of books, manga, magazines and stationary. Initially I tried to see if I could find any manga for I Am a Hero or The Fable but was not lucky. On the language floor, I browsed through various common language book titles such as Genki and the Minna No Nihongo series. Since I already owned Genki 1, I purchased a Japanese language book that covered 60 Japanese conversational expressions by Yuka Murakami.
+It was a beautiful day outside, so I walked over to Shinjuku Central Park afterwards to relax. Shinjuku Central Park is the largest park in Shinjuku and was a short walk from the Tokyo Metropolitan Government Building. The park is not extremely large but had multiple areas for picnics. There was also a sizable basketball court. I purchased a bottle of orange juice from a vending machine and relaxed on a bench for awhile. Nearby, I could hear a man tuning his guitar.
 
-<!-- Shinjuku Central Park -->
+Afterwards, I walked back into the city to Kinokuniya's main book store. There were six floors of books, manga, magazines and stationary. Initially I tried to see if I could find any manga for I Am a Hero or The Fable but was not lucky. On the language floor, I browsed through various common language book titles such as Genki and the Minna No Nihongo series. Since I already owned Genki 1, I purchased a Japanese language book that covered 60 Japanese conversational expressions by Yuka Murakami.
 
 For a second lunch or rather an early dinner, I went to Hoshino Coffee for the thick fluffy pancakes I saw advertised in the window. It was a popular upscale restaurant with posh leather seats. I had to wait around twenty minutes for a table but it was well worth the wait. Two pancakes along with a glass of water was around 2,000 yen. I sat awhile to eat and began to read the book I had bought at the bookstore.
 
