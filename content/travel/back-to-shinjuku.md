@@ -38,7 +38,7 @@ Towards the late afternoon, I made my way to the Park Hyatt Tokyo hotel. I had r
 
 The moment the elevator doors opened on the 52nd floor, a hostess promptly asked if I wanted to go to the bar or the grill next door. I made sure to say bar as I knew there was a strict dress code for the restaurant side. As I was brought into the bar by the hostess, I thought that I would be seated away from the windows but the hostess placed me at a table closest to the main window of the New York Bar. The table provided an absolutely massive view of Shinjuku and the greater Tokyo area. It was spectacular and I had it all to myself.
 
-October marked a year that I was sober at the time, so I ordered an Asahi Super Dry, a non-alcoholic beer. While I waited for my drink, I looked up the day rate of the Park Hyatt Tokyo and was stunned to see costs in the range of eight hundred dollars a night. The bar, at least, was not that expensive. The single Asahi Super Dry I ordered cost nine dollars. Usually, I drink quickly but tried to take my time to enjoy the sunset. It truly was a fantastic experience that didn't cost a lot of money.
+October marked a year that I was sober at the time, so I ordered an Asahi Dry Zero, a non-alcoholic beer. While I waited for my drink, I looked up the day rate of the Park Hyatt Tokyo and was stunned to see costs in the range of eight hundred dollars a night. The bar, at least, was not that expensive. The single Asahi Dry Zero I ordered cost nine dollars. Usually, I drink quickly but tried to take my time to enjoy the sunset. It truly was a fantastic experience that didn't cost a lot of money.
 
 {{< images >}}
 
