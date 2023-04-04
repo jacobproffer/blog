@@ -32,7 +32,7 @@
 {{ $large := $data.Get "large" }}
 {{ $desktop := $data.Get "desktop" }}
 
-<article class="article grid relative">
+<div class="article grid relative" role="group" aria-label="article">
 
   <div class="article__copy">
 
@@ -84,4 +84,4 @@
 
   <a class="article__link absolute-link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
 
-</article>
+</div>
