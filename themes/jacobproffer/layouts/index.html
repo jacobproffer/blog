@@ -39,7 +39,7 @@
 
       {{ if gt (len $paginator.Pagers) 1  }}
 
-        <nav aria-label="pagination">
+        <div role="region" aria-label="pagination links">
           <ul class="unstyled-list pagination gsap-stagger-in">
 
             {{ range $paginator.Pagers }}
@@ -64,7 +64,7 @@
             {{ end }}
 
           </ul>
-        </nav>
+        </div>
 
       {{ end }}
 
