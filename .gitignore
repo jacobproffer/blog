@@ -2,8 +2,5 @@
 public/
 resources/
 
-# Node Modules
-node_modules/
-
 # OSX
 .DS_Store
