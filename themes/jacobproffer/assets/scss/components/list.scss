@@ -1,24 +1,8 @@
 .list {
-  --list-grid: repeat(2, 1fr);
-  --list-vertical-gap: 100px;
-  --list-horizontal-gap: 64px;
-  grid-template-columns: var(--list-grid);
+  --list-vertical-gap: #{createFluidValue(25px, 100px, 880px, 1800px)};
+  --list-horizontal-gap: #{createFluidValue(32px, 64px, 1440px, 1800px)};
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: var(--list-vertical-gap) var(--list-horizontal-gap);
-
-  @include screen-below($desktopSm) {
-    --list-vertical-gap: 75px;
-    --list-horizontal-gap: 48px;
-  }
-
-  @include screen-below($laptop) {
-    --list-vertical-gap: 50px;
-    --list-horizontal-gap: 32px;
-  }
-
-  @include screen-below($portrait) {
-    --list-vertical-gap: 25px;
-    --list-grid: 1fr;
-  }
 
   &__headline {
     margin-bottom: #{createFluidValue(30px, 60px)};

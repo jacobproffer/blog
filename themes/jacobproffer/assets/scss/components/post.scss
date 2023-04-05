@@ -32,6 +32,11 @@
     text-decoration: underline;
   }
 
+  &__posted-time {
+    color: var(--gray);
+    font-style: italic;
+  }
+
   &__container {
     max-width: var(--max-width);
     margin: auto;

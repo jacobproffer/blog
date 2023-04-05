@@ -1,6 +1,6 @@
 {{ define "title" }}
 
-  {{ .Site.Title }}
+  {{ .Site.Title }} - Web Developer, Writer and Traveler
 
 {{ end }}
 
@@ -10,9 +10,9 @@
 
 {{ $totalPosts := len .Site.RegularPages }}
 
-  <main>
+  {{ partial "hero" . }}
 
-    {{ partial "hero" . }}
+  <main>
 
     <section aria-labelledby="list-headline">
 
@@ -20,9 +20,9 @@
 
         <div class="subheading-wrap flex gsap-fade-in">
 
-          <h2 class="subheading-wrap__headline" id="list-headline">
+          <h1 class="subheading-wrap__headline h2" id="list-headline">
             Blog Posts
-          </h2>
+          </h1>
 
           <span class="subheading-wrap__count font-14">{{ $totalPosts }} Total Posts</span>
 

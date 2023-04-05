@@ -11,9 +11,15 @@ h1 {
   font-size: var(--h1-sizes);
 }
 
-h2 {
+h2,
+.h2 {
   margin: 1rem 0;
   font-size: #{createFluidValue(24px, 32px)};
+}
+
+h3,
+.h3 {
+  font-size: rem(20px);
 }
 
 p {

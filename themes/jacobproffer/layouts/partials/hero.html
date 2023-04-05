@@ -15,15 +15,11 @@
 {{ $tablet := $data.Get "tablet" }}
 {{ $large := $data.Get "large" }}
 
-<section
+<aside
   class="hero hero-top-spacing bottom-spacing overflow-hidden animated gsap-fade-in"
-  aria-labelledby="hero-headline"
+  aria-hidden="true"
 >
   <div class="hero__image-wrap">
-
-    <h1 class="visually-hide" id="hero-headline">
-      Jacob Proffer's Blog
-    </h1>
 
     {{ partial "jacob-proffer" }}
 
@@ -50,4 +46,4 @@
     </picture>
 
   </div>
-</section>
+</aside>
