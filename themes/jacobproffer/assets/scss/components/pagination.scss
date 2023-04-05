@@ -7,11 +7,6 @@
   margin: var(--size-75-150) auto var(--size-50-100);
 
   &__item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
     &[aria-current="page"] {
       @include size(50px);
       color: var(--black);

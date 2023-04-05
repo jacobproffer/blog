@@ -30,31 +30,27 @@
 
 <div class="single__image">
 
-  <div class="content">
+  <picture>
+    <source media="(max-width: 375px)" srcset="{{with $mobile.RelPermalink }}{{.}}{{ end }}"
+      width="{{ $mobile.Width }}" height="{{ $mobile.Height }}">
 
-    <picture>
-      <source media="(max-width: 375px)" srcset="{{with $mobile.RelPermalink }}{{.}}{{ end }}"
-        width="{{ $mobile.Width }}" height="{{ $mobile.Height }}">
+    <source media="(max-width: 600px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}"
+      height="{{ $small.Height }}">
 
-      <source media="(max-width: 600px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}"
-        height="{{ $small.Height }}">
+    <source media="(max-width: 1079px)" srcset="{{with $tablet.RelPermalink }}{{.}}{{ end }}"
+      width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
 
-      <source media="(max-width: 1079px)" srcset="{{with $tablet.RelPermalink }}{{.}}{{ end }}"
-        width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
+    <source media="(max-width: 1259px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}"
+      width="{{ $medium.Width }}" height="{{ $medium.Height }}">
 
-      <source media="(max-width: 1259px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}"
-        width="{{ $medium.Width }}" height="{{ $medium.Height }}">
+    <source media="(max-width: 1439px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}"
+      width="{{ $large.Width }}" height="{{ $large.Height }}">
 
-      <source media="(max-width: 1439px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}"
-        width="{{ $large.Width }}" height="{{ $large.Height }}">
+    <source media="(min-width: 1440px)" srcset="{{with $desktop.RelPermalink }}{{.}}{{ end }}"
+      width="{{ $desktop.Width }}" height="{{ $desktop.Height }}">
 
-      <source media="(min-width: 1440px)" srcset="{{with $desktop.RelPermalink }}{{.}}{{ end }}"
-        width="{{ $desktop.Width }}" height="{{ $desktop.Height }}">
-
-      <img src="{{ $imgSrc.RelPermalink }}" width="{{ $imgSrc.Width }}" height="{{ $imgSrc.Height }}"
-        alt="{{ $imageAlt }}" decoding="async" loading="lazy">
-    </picture>
-
-  </div>
+    <img src="{{ $imgSrc.RelPermalink }}" width="{{ $imgSrc.Width }}" height="{{ $imgSrc.Height }}"
+      alt="{{ $imageAlt }}" decoding="async" loading="lazy">
+  </picture>
 
 </div>

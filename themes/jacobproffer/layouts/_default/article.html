@@ -34,49 +34,41 @@
 
 <div class="article grid relative" role="group" aria-label="article">
 
-  <div class="article__copy">
+  <div class="article__copy grid">
 
-    <div class="relative grid">
+    <h3>{{ .Title }}</h3>
 
-      <h3 class="article__headline">{{ .Title }}</h3>
+    {{ if isset .Params "categories" }}
 
-      {{ if isset .Params "categories" }}
+      <div class="article__type">
+        <span class="font-14">{{ .Type | title }}</span>
+      </div>
 
-        <div class="article__type">
-          <span class="font-14">{{ .Type | title }}</span>
-        </div>
-
-      {{ end }}
-
-    </div>
+    {{ end }}
 
   </div>
 
   {{ if isset .Params "thumbnail" }}
 
-    <div class="article__thumbnail">
+    <div class="article__thumbnail overflow-hidden">
 
-      <div class="content">
+      <picture>
 
-        <picture>
+        <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
+        <source media="(max-width: 1079px)" srcset="{{with $tablet.RelPermalink }}{{.}}{{ end }}" width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
+        <source media="(max-width: 1439px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
+        <source media="(max-width: 1599px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
+        <source media="(min-width: 1600px)" srcset="{{with $desktop.RelPermalink }}{{.}}{{ end }}" width="{{ $desktop.Width }}" height="{{ $desktop.Height }}">
 
-          <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
-          <source media="(max-width: 1079px)" srcset="{{with $tablet.RelPermalink }}{{.}}{{ end }}" width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
-          <source media="(max-width: 1439px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
-          <source media="(max-width: 1599px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
-          <source media="(min-width: 1600px)" srcset="{{with $desktop.RelPermalink }}{{.}}{{ end }}" width="{{ $desktop.Width }}" height="{{ $desktop.Height }}">
-
-          <img
-            class="article__thumbnail-image"
-            src="{{ $thumbnailSrc.RelPermalink }}"
-            width="616"
-            height="482"
-            alt="{{ with $thumbnailAlt }}{{ . }}{{ end }}"
-            loading="lazy"
-          >
-        </picture>
-
-      </div>
+        <img
+          class="article__thumbnail-image"
+          src="{{ $thumbnailSrc.RelPermalink }}"
+          width="616"
+          height="482"
+          alt="{{ with $thumbnailAlt }}{{ . }}{{ end }}"
+          loading="lazy"
+        >
+      </picture>
 
     </div>
 

@@ -19,7 +19,7 @@
 
     {{ partial "hero" . }}
 
-    <section>
+    <section aria-labelledby="list-headline">
 
       <div class="container">
 
@@ -28,11 +28,23 @@
           <div class="subheading-wrap flex gsap-fade-in">
 
             {{ if eq .Type "japanese" }}
-              <h2 class="subheading-wrap__headline">Japanese</h2>
-              <span class="subheading-wrap__count font-14">{{ $japaneseLength }} Total Posts</span>
+
+              <h2 class="subheading-wrap__headline" id="list-headline">
+                Japanese
+              </h2>
+              <span class="subheading-wrap__count font-14">
+                {{ $japaneseLength }} Total Posts
+              </span>
+
             {{ else if eq .Type "travel" }}
-              <h2 class="subheading-wrap__headline">{{ .Title | singularize }}</h2>
-              <span class="subheading-wrap__count font-14">{{ $travelLength }} Total Posts</span>
+
+              <h2 class="subheading-wrap__headline" id="list-headline">
+                {{ .Title | singularize }}
+              </h2>
+              <span class="subheading-wrap__count font-14">
+                {{ $travelLength }} Total Posts
+              </span>
+
             {{ end }}
 
           </div>
