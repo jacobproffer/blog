@@ -6,7 +6,6 @@
   z-index: 2;
   padding: 15px 0;
   background-color: var(--header-background);
-  overflow: hidden;
 
   &--pinned,
   &--navigation-open {
@@ -14,8 +13,6 @@
   }
 
   &__grid {
-    position: relative;
-    display: grid;
     align-items: center;
     grid-template-columns: max-content max-content;
     justify-content: space-between;
@@ -49,7 +46,6 @@
 
   &__nav-link {
     --underline-focus: var(--white);
-    position: relative;
     display: block;
   }
 
@@ -61,7 +57,6 @@
   }
 
   &__mobile-navigation-trigger {
-    position: relative;
     cursor: pointer;
   }
 

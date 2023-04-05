@@ -1,5 +1,4 @@
 .article {
-  position: relative;
   z-index: 1;
   row-gap: 20px;
   transition: opacity var(--transition-time) ease-in-out;
@@ -16,19 +15,15 @@
     }
   }
 
-  &__headline {
-    margin: 0;
-  }
-
   &__copy {
     order: 2;
+    row-gap: 10px;
   }
 
   &__thumbnail {
-    @include ratio(67, 44);
+    aspect-ratio: 67/44;
     order: 1;
     pointer-events: none;
-    overflow: hidden;
   }
 
   &__thumbnail-image {
@@ -38,13 +33,7 @@
     transition: opacity var(--transition-time) ease-in-out, transform var(--transition-time) ease-in-out;
   }
 
-  &__headline {
-    order: 2;
-  }
-
   &__type {
-    order: 3;
-    margin-top: 10px;
     color: var(--gray);
   }
 }

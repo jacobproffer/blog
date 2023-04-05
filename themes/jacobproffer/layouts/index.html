@@ -1,5 +1,7 @@
 {{ define "title" }}
-  {{ .Site.Title }} - Blog
+
+  {{ .Site.Title }}
+
 {{ end }}
 
 {{ define "main" }}
@@ -12,13 +14,18 @@
 
     {{ partial "hero" . }}
 
-    <section>
+    <section aria-labelledby="list-headline">
 
       <div class="container">
 
         <div class="subheading-wrap flex gsap-fade-in">
-          <h2 class="subheading-wrap__headline">Blog Posts</h2>
+
+          <h2 class="subheading-wrap__headline" id="list-headline">
+            Blog Posts
+          </h2>
+
           <span class="subheading-wrap__count font-14">{{ $totalPosts }} Total Posts</span>
+
         </div>
 
         <ul class="unstyled-list list grid gsap-stagger-in">
@@ -45,11 +52,14 @@
             {{ range $paginator.Pagers }}
 
               {{ if eq . $paginator}}
+
                 <li class="pagination__item flex-center" aria-current="page">
                   <span class="visually-hide">Page</span>
                   {{ .PageNumber }}
                 </li>
+
               {{ else }}
+
                 <li class="pagination__item flex-center">
                   <a
                     class="pagination__link link-hover flex-center"
@@ -59,6 +69,7 @@
                     {{ .PageNumber }}
                   </a>
                 </li>
+
               {{ end }}
 
             {{ end }}

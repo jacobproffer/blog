@@ -1,6 +1,5 @@
 .footer {
   padding: 40px 0;
-  background-color: var(--black);
 
   &__grid {
     justify-content: space-evenly;
@@ -18,12 +17,7 @@
 
   &__list {
     flex: 1 1 0;
+    gap: 20px;
     display: flex;
-  }
-
-  &__list-item {
-    &:not(:last-of-type) {
-      margin-right: 20px;
-    }
   }
 }

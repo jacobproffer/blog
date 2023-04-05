@@ -32,9 +32,8 @@
 }
 
 .flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  place-content: center;
 }
 
 .grid {
@@ -104,4 +103,26 @@
 
 .bottom-spacing {
   margin-bottom: var(--size-75-150);
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.bg-black {
+  background-color: var(--black);
+}
+
+.image-cover {
+  @include size(100%);
+  object-fit: cover;
+}
+
+.unstyled-list {
+  padding: 0;
+  margin: 0;
+
+  li {
+    list-style: none;
+  }
 }

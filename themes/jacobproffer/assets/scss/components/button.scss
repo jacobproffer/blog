@@ -9,18 +9,6 @@
 	text-align: inherit;
 }
 
-@keyframes button-gradient {
-	0% {
-		background-position: 0 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
 .button {
   --button-color: var(--white);
   --button-background: rgba(0, 0, 0, 0);
@@ -33,7 +21,6 @@
   background-size: 150% 150%;
   border-radius: 50px;
   border: 1px solid var(--white);
-  overflow: hidden;
   transition: color var(--transition-time) ease-in-out, background-color var(--transition-time) ease-in-out, border-color var(--transition-time) ease-in-out;
 
   &[aria-expanded="true"] {

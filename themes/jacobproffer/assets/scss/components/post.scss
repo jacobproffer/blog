@@ -19,6 +19,7 @@
     &:not(.unstyled-list) {
       display: grid;
       row-gap: 10px;
+      padding: 0;
 
       li {
         list-style: circle;
@@ -38,21 +39,14 @@
 
   &__thumbnail {
     --thumbnail-column: 1 / -1;
-    @include ratio(24, 10);
-    position: relative;
+    aspect-ratio: 24/10;
     grid-column: var(--thumbnail-column);
     max-width: var(--max-width);
     margin: var(--size-50-100) auto;
-    overflow: hidden;
 
     @include screen-below($laptopSm) {
       max-width: var(--container);
     }
-  }
-
-  &__thumbnail-image {
-    @include size(100%);
-    object-fit: cover;
   }
 
   &__content-grid {
@@ -81,7 +75,7 @@
   }
 
   &__image {
-    @include ratio(3, 2);
+    aspect-ratio: 3/2;
 
     img {
       @include size(100%);
@@ -92,11 +86,7 @@
   }
 
   &__content {
-    font-size: rem(18);
-
-    @include screen-below($tablet) {
-      font-size: rem(16);
-    }
+    font-size: #{createFluidValue(16px, 18px)};
 
     li {
       list-style: disc;

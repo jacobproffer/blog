@@ -1,22 +1,9 @@
-@keyframes gradient {
-	0% {
-		background-position: 50% 0;
-	}
-	50% {
-		background-position: 50% 100%;
-	}
-	100% {
-		background-position: 50% 0%;
-	}
-}
-
 .hero {
   padding-bottom: var(--size-75-150);
   background: linear-gradient(180deg, rgba(255, 132, 105, .25), rgba(0, 0, 0, 0), rgba(255, 132, 105, .25));
   background-size: 150% 150%;
   animation-name: gradient;
   animation-duration: 15s;
-  overflow: hidden;
 
   &::before {
     --bar-sizes: clamp(1.25rem, calc(-0.07rem + 5.63vw), 5.00rem);
@@ -33,13 +20,12 @@
   }
 
   &__image-wrap {
-    background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(0deg, var(--black) 0%, rgba(0, 0, 0, 0) 100%);
   }
 
   &__image {
+    @include size(100%);
     display: block;
-    width: 100%;
-    height: 100%;
   }
 
   &__graphic-wrap {
@@ -52,13 +38,8 @@
     &::before {
       position: absolute;
       inset: 0;
-      background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+      background: linear-gradient(0deg, var(--black) 0%, rgba(0, 0, 0, 0) 100%);
       content: "";
     }
-  }
-
-  &__graphic {
-    @include size(100%);
-    object-fit: cover;
   }
 }
