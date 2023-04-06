@@ -14,17 +14,20 @@
 {{ $thumbnailAlt := .Params.thumbnailAlt }}
 
 {{ $smallw := default "370x webp" }}
+{{ $mobilew := default "670x webp" }}
 {{ $tabletw := default "389x webp" }}
 {{ $mediumw := default "464x webp" }}
 {{ $desktopw := default "384x webp" }}
 
 {{ $data := newScratch }}
 {{ $data.Set "small" ($thumbnailSrc.Resize $smallw) }}
+{{ $data.Set "mobile" ($thumbnailSrc.Resize $mobilew) }}
 {{ $data.Set "tablet" ($thumbnailSrc.Resize $tabletw) }}
 {{ $data.Set "medium" ($thumbnailSrc.Resize $mediumw) }}
 {{ $data.Set "desktop" ($thumbnailSrc.Resize $desktopw) }}
 
 {{ $small := $data.Get "small" }}
+{{ $mobile := $data.Get "mobile" }}
 {{ $tablet := $data.Get "tablet" }}
 {{ $medium := $data.Get "medium" }}
 {{ $desktop := $data.Get "desktop" }}
@@ -52,6 +55,7 @@
       <picture>
 
         <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
+        <source media="(max-width: 711px)" srcset="{{with $mobile.RelPermalink }}{{.}}{{ end }}" width="{{ $mobile.Width }}" height="{{ $mobile.Height }}">
         <source media="(max-width: 1079px)" srcset="{{with $tablet.RelPermalink }}{{.}}{{ end }}" width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
         <source media="(max-width: 1439px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
         <source media="(min-width: 1600px)" srcset="{{with $desktop.RelPermalink }}{{.}}{{ end }}" width="{{ $desktop.Width }}" height="{{ $desktop.Height }}">
