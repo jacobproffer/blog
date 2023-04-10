@@ -27,8 +27,6 @@
   }
 
   &__thumbnail-image {
-    @include size(100%);
-    object-fit: cover;
     opacity: var(--image-opacity, 1);
     transition: opacity var(--transition-time) ease-in-out, transform var(--transition-time) ease-in-out;
   }

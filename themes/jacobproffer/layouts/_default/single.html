@@ -15,10 +15,6 @@
 
               <h1>{{ .Title }}</h1>
 
-              <time class="visually-hide" datetime="{{ .PublishDate.Format "2006-01-02" }}">
-                {{ .PublishDate.Format "01/02/2006 15:04 EDT" }}
-              </time>
-
             </div>
           </div>
         </div>
@@ -32,17 +28,27 @@
 
           <div class="single__content-grid">
 
+            <time
+              class="single__posted-time font-14"
+              datetime="{{ .PublishDate.Format "2006-01-02" }}"
+            >
+              {{ .PublishDate.Format "January 2, 2006" }}
+            </time>
+
             {{ .Content }}
 
             <footer>
 
-              <h2>Tags</h2>
+              <h2 id="tag-headline">Tags</h2>
 
               {{ $taxonomy := "tags" }}
 
                 {{ with .Param $taxonomy }}
 
-                  <ul class="unstyled-list flex single__tags-list">
+                  <ul
+                    class="unstyled-list flex single__tags-list"
+                    aria-labelledby="tag-headline"
+                  >
 
                     {{ range  $index, $tag := (. | sort) }}
 
@@ -73,6 +79,44 @@
 
                 {{ end }}
 
+                {{ if or .PrevInSection .NextInSection }}
+
+                  <h2 class="other-posts__headline" id="other-posts-headline">Other Posts</h2>
+
+                  <div
+                    class="other-posts flex relative"
+                    role="region"
+                    aria-labelledby="other-posts-headline"
+                  >
+
+                    {{ with .PrevInSection }}
+
+                      <a
+                        class="other-posts__item other-posts__item--prev"
+                        href="{{ .Permalink }}"
+                        rel="prev"
+                      >
+                        {{ .Title }}
+                      </a>
+
+                    {{ end }}
+
+                    {{ with .NextInSection }}
+
+                      <a
+                        class="other-posts__item other-posts__item--next"
+                        href="{{ .Permalink }}"
+                        rel="next"
+                      >
+                        {{ .Title }}
+                      </a>
+
+                    {{ end }}
+
+                  </div>
+
+                {{ end }}
+
             </footer>
 
           </div>
@@ -84,39 +128,5 @@
     </article>
 
   </main>
-
-  {{ $related := .Site.RegularPages.Related . | first 4 }}
-
-  {{ if gt (len $related) 1 }}
-
-    <aside class="related">
-      <div class="container">
-
-        {{ $related := .Site.RegularPages.Related . | first 2 }}
-
-        {{ with $related }}
-
-          <h2 class="list__headline gsap-fade-in">Related Posts</h2>
-
-          <ul class="unstyled-list list grid gsap-stagger-in">
-
-            {{ range . }}
-
-              <li class="list__item grid relative">
-
-                {{ .Render "article" }}
-
-              </li>
-
-            {{ end }}
-
-          </ul>
-
-        {{ end }}
-
-      </div>
-    </aside>
-
-  {{ end }}
 
 {{ end }}

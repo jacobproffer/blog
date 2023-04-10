@@ -15,9 +15,9 @@
 {{ $japaneseLength := (where .Site.Pages "Section" "japanese" | len) }}
 {{ $travelLength := (where .Site.Pages "Section" "travel" | len) }}
 
-  <main>
+  {{ partial "hero" . }}
 
-    {{ partial "hero" . }}
+  <main>
 
     <section aria-labelledby="list-headline">
 
@@ -29,18 +29,18 @@
 
             {{ if eq .Type "japanese" }}
 
-              <h2 class="subheading-wrap__headline" id="list-headline">
+              <h1 class="subheading-wrap__headline h2" id="list-headline">
                 Japanese
-              </h2>
+              </h1>
               <span class="subheading-wrap__count font-14">
                 {{ $japaneseLength }} Total Posts
               </span>
 
             {{ else if eq .Type "travel" }}
 
-              <h2 class="subheading-wrap__headline" id="list-headline">
-                {{ .Title | singularize }}
-              </h2>
+              <h1 class="subheading-wrap__headline h2" id="list-headline">
+                {{ .Title | singularize }} Posts
+              </h1>
               <span class="subheading-wrap__count font-14">
                 {{ $travelLength }} Total Posts
               </span>
@@ -51,7 +51,12 @@
 
         {{ else }}
 
-          <h2 class="list__headline gsap-fade-in">{{ .Title |singularize }}</h2>
+          <h1
+            class="list__headline gsap-fade-in h2"
+            id="list-headline"
+          >
+            {{ .Title |singularize }} Posts
+          </h1>
 
         {{ end }}
 

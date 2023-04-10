@@ -14,29 +14,29 @@
 {{ $thumbnailAlt := .Params.thumbnailAlt }}
 
 {{ $smallw := default "370x webp" }}
+{{ $mobilew := default "670x webp" }}
 {{ $tabletw := default "389x webp" }}
 {{ $mediumw := default "464x webp" }}
-{{ $largew := default "616x webp" }}
-{{ $desktopw := default "608x webp" }}
+{{ $desktopw := default "384x webp" }}
 
 {{ $data := newScratch }}
 {{ $data.Set "small" ($thumbnailSrc.Resize $smallw) }}
+{{ $data.Set "mobile" ($thumbnailSrc.Resize $mobilew) }}
 {{ $data.Set "tablet" ($thumbnailSrc.Resize $tabletw) }}
 {{ $data.Set "medium" ($thumbnailSrc.Resize $mediumw) }}
-{{ $data.Set "large" ($thumbnailSrc.Resize $largew) }}
 {{ $data.Set "desktop" ($thumbnailSrc.Resize $desktopw) }}
 
 {{ $small := $data.Get "small" }}
+{{ $mobile := $data.Get "mobile" }}
 {{ $tablet := $data.Get "tablet" }}
 {{ $medium := $data.Get "medium" }}
-{{ $large := $data.Get "large" }}
 {{ $desktop := $data.Get "desktop" }}
 
 <div class="article grid relative" role="group" aria-label="article">
 
   <div class="article__copy grid">
 
-    <h3>{{ .Title }}</h3>
+    <h2 class="h3">{{ .Title }}</h2>
 
     {{ if isset .Params "categories" }}
 
@@ -55,13 +55,13 @@
       <picture>
 
         <source media="(max-width: 480px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
+        <source media="(max-width: 711px)" srcset="{{with $mobile.RelPermalink }}{{.}}{{ end }}" width="{{ $mobile.Width }}" height="{{ $mobile.Height }}">
         <source media="(max-width: 1079px)" srcset="{{with $tablet.RelPermalink }}{{.}}{{ end }}" width="{{ $tablet.Width }}" height="{{ $tablet.Height }}">
         <source media="(max-width: 1439px)" srcset="{{with $medium.RelPermalink }}{{.}}{{ end }}" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
-        <source media="(max-width: 1599px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
         <source media="(min-width: 1600px)" srcset="{{with $desktop.RelPermalink }}{{.}}{{ end }}" width="{{ $desktop.Width }}" height="{{ $desktop.Height }}">
 
         <img
-          class="article__thumbnail-image"
+          class="article__thumbnail-image image-cover"
           src="{{ $thumbnailSrc.RelPermalink }}"
           width="616"
           height="482"
