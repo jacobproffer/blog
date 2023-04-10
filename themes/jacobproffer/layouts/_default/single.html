@@ -47,7 +47,6 @@
 
                   <ul
                     class="unstyled-list flex single__tags-list"
-                    role="region"
                     aria-labelledby="tag-headline"
                   >
 
@@ -80,6 +79,44 @@
 
                 {{ end }}
 
+                {{ if or .PrevInSection .NextInSection }}
+
+                  <h2 class="other-posts__headline" id="other-posts-headline">Other Posts</h2>
+
+                  <div
+                    class="other-posts flex relative"
+                    role="region"
+                    aria-labelledby="other-posts-headline"
+                  >
+
+                    {{ with .PrevInSection }}
+
+                      <a
+                        class="other-posts__item other-posts__item--prev"
+                        href="{{ .Permalink }}"
+                        rel="prev"
+                      >
+                        {{ .Title }}
+                      </a>
+
+                    {{ end }}
+
+                    {{ with .NextInSection }}
+
+                      <a
+                        class="other-posts__item other-posts__item--next"
+                        href="{{ .Permalink }}"
+                        rel="next"
+                      >
+                        {{ .Title }}
+                      </a>
+
+                    {{ end }}
+
+                  </div>
+
+                {{ end }}
+
             </footer>
 
           </div>
@@ -91,39 +128,5 @@
     </article>
 
   </main>
-
-  {{ $related := .Site.RegularPages.Related . | first 4 }}
-
-  {{ if gt (len $related) 1 }}
-
-    <aside class="related">
-      <div class="container">
-
-        {{ $related := .Site.RegularPages.Related . | first 2 }}
-
-        {{ with $related }}
-
-          <h2 class="list__headline gsap-fade-in">Related Posts</h2>
-
-          <ul class="unstyled-list list grid gsap-stagger-in">
-
-            {{ range . }}
-
-              <li class="list__item grid relative">
-
-                {{ .Render "article" }}
-
-              </li>
-
-            {{ end }}
-
-          </ul>
-
-        {{ end }}
-
-      </div>
-    </aside>
-
-  {{ end }}
 
 {{ end }}

@@ -1,0 +1,31 @@
+.other-posts {
+    gap: 1rem;
+    
+    @include screen-above($mobile) {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    @include screen-below($mobile) {
+        flex-direction: column;
+    }
+
+    &__headline {
+        margin-top: 2rem;
+    }
+
+    &__item {
+        &--prev {
+            @include screen-above($mobile) {
+                margin-right: 1rem;
+            }
+        }
+
+        &--next {
+            @include screen-above($mobile) {
+                text-align: right;
+                margin-left: 1rem;
+            }
+        }
+    }
+}

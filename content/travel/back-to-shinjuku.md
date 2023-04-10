@@ -44,7 +44,7 @@ October marked a year that I was sober at the time, so I ordered an Asahi Dry Ze
 
 {{< image src="/images/new-york-bar.jpg" alt="Glass of beer next to a bowl of nuts on a table." >}}
 
-{{< image src="/images/new-york-bar-2.jpg" alt="Glass of beer next to a bowl of nuts on a table." >}}
+{{< image src="/images/new-york-bar-2.jpg" alt="View of Shinjuku from inside the Park Hyatt Tokyo bar." >}}
 
 {{< /images >}}
 
