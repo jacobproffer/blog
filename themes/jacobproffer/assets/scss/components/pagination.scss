@@ -6,20 +6,17 @@
   max-width: max-content;
   margin: var(--size-75-150) auto var(--size-50-100);
 
-  &__item {
-    &[aria-current="page"] {
-      @include size(50px);
-      color: var(--black);
-      background-color: var(--orange);
-      border-radius: 50%;
-    }
-  }
-
   &__link {
     @include size(50px);
     color: var(--pagination-color);
     border-radius: 50%;
     transition: color var(--transition-time) ease-in-out, background-color var(--transition-time) ease-in-out;
+
+    &[aria-current="page"] {
+      color: var(--black);
+      background-color: var(--orange);
+      border-radius: 50%;
+    }
 
     @include hover {
       --pagination-color: var(--black);
