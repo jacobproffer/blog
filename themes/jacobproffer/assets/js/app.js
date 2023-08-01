@@ -77,8 +77,10 @@ function handleEscape() {
 
     if(escape === 'Escape' && mobileNavigation.classList.contains('open')) {
       mobileNavigationTrigger.setAttribute('aria-expanded', 'false');
+      mobileNavigationTrigger.focus();
       mobileNavigation.classList.remove('open');
       mainHeader.classList.remove('main-header--navigation-open');
+      mobileNavigationTrigger.innerHTML = "Open Menu";
     }
   });
 }
