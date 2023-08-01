@@ -12,6 +12,10 @@
     --header-background: rgba(0, 0, 0, 1);
   }
 
+  &--navigation-open {
+    height: 100%;
+  }
+
   &__grid {
     align-items: center;
     grid-template-columns: max-content max-content;
@@ -28,14 +32,20 @@
     }
   }
 
-  &__navigation {
-    @include screen-below($tablet) {
-      display: none;
-    }
-  }
-
   &__nav-list {
     display: flex;
+
+    @include screen-below($tablet) {
+      display: none;
+      position: absolute;
+      top: 67px;
+      left: 0;
+      row-gap: #{createFluidValue(30px, 60px)};
+
+      &.open {
+        display: flex;
+      }
+    }
   }
 
   &__nav-item {
@@ -47,40 +57,18 @@
   &__nav-link {
     --underline-focus: var(--white);
     display: block;
+
+    @include screen-below($tablet) {
+      display: block;
+      font-size: #{createFluidValue(18px, 24px, 375px, 1080px)};
+    }
   }
 
-  &__mobile-navigation-trigger,
-  &__mobile-navigation {
+  &__navigation-toggle {
+    cursor: pointer;
+
     @include screen-above($tablet) {
       display: none;
     }
-  }
-
-  &__mobile-navigation-trigger {
-    cursor: pointer;
-  }
-
-  &__mobile-navigation {
-    grid-column: 1 / -1;
-    opacity: var(--navigation-opacity, 0);
-    height: 0;
-    pointer-events: none;
-
-    &--open {
-      --navigation-opacity: 1;
-      height: auto;
-      pointer-events: auto;
-    }
-  }
-
-  &__mobile-navigation-list {
-    row-gap: #{createFluidValue(30px, 60px)};
-    margin-top: 40px;
-    padding-bottom: 30px;
-  }
-
-  &__mobile-navigation-link {
-    display: block;
-    font-size: #{createFluidValue(18px, 24px, 375px, 1080px)};
   }
 }
