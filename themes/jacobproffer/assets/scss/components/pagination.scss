@@ -2,7 +2,7 @@
   --pagination-color: var(--white);
   display: flex;
   justify-content: space-evenly;
-  gap: 20px;
+  gap: var(--size-1);
   max-width: max-content;
   margin: var(--size-75-150) auto var(--size-50-100);
 

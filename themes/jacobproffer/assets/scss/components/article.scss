@@ -1,6 +1,6 @@
 .article {
   z-index: 1;
-  row-gap: 20px;
+  row-gap: var(--size-1);
   transition: opacity var(--transition-time) ease-in-out;
 
   @include screen-above($portrait) {
@@ -17,12 +17,13 @@
 
   &__copy {
     order: 2;
-    row-gap: 10px;
+    row-gap: var(--size-0);
   }
 
   &__thumbnail {
     aspect-ratio: 67/44;
     order: 1;
+    border-radius: var(--size-1);
     pointer-events: none;
   }
 
