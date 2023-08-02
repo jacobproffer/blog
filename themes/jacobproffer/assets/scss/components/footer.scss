@@ -1,9 +1,9 @@
 .footer {
-  padding: 40px 0;
+  padding: var(--size-3) 0;
 
   &__grid {
     justify-content: space-evenly;
-    row-gap: 20px;
+    row-gap: var(--size-1);
 
     @include screen-below($mobile) {
       flex-direction: column;
@@ -17,7 +17,7 @@
 
   &__list {
     flex: 1 1 0;
-    gap: 20px;
+    gap: var(--size-1);
     display: flex;
   }
 }

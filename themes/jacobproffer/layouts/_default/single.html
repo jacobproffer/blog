@@ -4,7 +4,10 @@
 
 {{ define "main" }}
 
-  <main>
+  <main
+    id="content"
+    tabindex="-1"
+  >
 
     <article class="single bottom-spacing">
 
@@ -45,7 +48,7 @@
 
                 {{ with .Param $taxonomy }}
 
-                  <ul
+                  <ol
                     class="unstyled-list flex single__tags-list"
                     aria-labelledby="tag-headline"
                   >
@@ -75,7 +78,7 @@
 
                     {{ end }}
 
-                  </ul>
+                  </ol>
 
                 {{ end }}
 

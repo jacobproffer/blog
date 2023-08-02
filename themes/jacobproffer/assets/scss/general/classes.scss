@@ -89,7 +89,7 @@
 
 .subheading-wrap {
   align-items: center;
-  gap: 20px;
+  gap: var(--size-1);
   margin-bottom: #{createFluidValue(30px, 60px)};
 
   &__headline {

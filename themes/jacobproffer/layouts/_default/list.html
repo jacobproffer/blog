@@ -17,7 +17,10 @@
 
   {{ partial "hero" . }}
 
-  <main>
+  <main
+    id="content"
+    tabindex="-1"
+  >
 
     <section aria-labelledby="list-headline">
 
@@ -60,7 +63,7 @@
 
         {{ end }}
 
-        <ul class="unstyled-list list grid gsap-stagger-in">
+        <ol class="unstyled-list list grid gsap-stagger-in">
 
           {{ range $index, $page := $paginator.Pages }}
 
@@ -72,7 +75,7 @@
 
           {{ end }}
 
-        </ul>
+        </ol>
 
       </div>
 
@@ -122,7 +125,7 @@
             {{ end }}
 
           </ol>
-          
+
         </nav>
 
       {{ end }}

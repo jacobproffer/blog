@@ -22,6 +22,18 @@
     justify-content: space-between;
   }
 
+  &__skip-link {
+    position: fixed;
+    top: -5em;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: top var(--transition-time) ease-in-out;
+
+    &:focus {
+      top: 0;
+    }
+  }
+
   &__logo {
     display: block;
     font-weight: var(--weight-medium);
