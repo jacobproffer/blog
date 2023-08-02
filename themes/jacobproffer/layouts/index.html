@@ -12,7 +12,10 @@
 
   {{ partial "hero" . }}
 
-  <main>
+  <main
+    id="content"
+    tabindex="-1"
+  >
 
     <section aria-labelledby="list-headline">
 
@@ -90,7 +93,7 @@
             {{ end }}
 
           </ol>
-          
+
         </nav>
 
       {{ end }}
