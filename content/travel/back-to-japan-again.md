@@ -2,7 +2,7 @@
 title: "Back to Japan, Again"
 date: 2023-10-08T09:46:21-04:00
 description: "Traveling back to Tokyo, Japan in 2023."
-images: ["/images/uploads/back-to-japan-social.jpg"]
+images: ["/images/haneda-sign.jpg"]
 series: ["Japan"]
 tags: ["japan", "travel", "flight", "airport", "akihabara"]
 categories: ["japan", "travel"]
