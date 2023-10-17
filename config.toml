@@ -12,10 +12,10 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 [imaging]
   anchor = "Smart"
-  bgColor = "#000000"
+  bgColor = "#ff683f"
   hint = "photo"
-  quality = 75
-  resampleFilter = "Box"
+  quality = 100
+  resampleFilter = "Lanczos"
 
 [taxonomies]
   category = "categories"
