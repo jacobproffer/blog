@@ -1,6 +1,10 @@
 .single {
   --max-width: 1200px;
 
+  &--runescape {
+    cursor: url('/images/rune-2h.png'), auto;
+  }
+
   p {
     & + .single__image {
       margin: var(--size-1) 0;

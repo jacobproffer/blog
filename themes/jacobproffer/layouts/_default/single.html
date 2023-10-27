@@ -4,12 +4,20 @@
 
 {{ define "main" }}
 
+{{ $classes := "" }}
+
+{{ if eq .Title "RuneScape Account Turns 20" }}
+  {{ $classes = "single single--runescape bottom-spacing" }}
+{{ else }}
+  {{ $classes = "single bottom-spacing" }}
+{{ end }}
+
   <main
     id="content"
     tabindex="-1"
   >
 
-    <article class="single bottom-spacing">
+    <article class="{{ $classes }}">
 
       <div class="hero-top-spacing">
         <div class="container gsap-fade-in">
