@@ -9,11 +9,15 @@ thumbnail: "/images/kamakura-social.jpg"
 thumbnailAlt: ""
 ---
 
-Twenty years ago, in the fall of 2003, my RuneScape character arrived on Tutorial Island. Twelve years old at the time, I had no clue that I had begun a journey that would carry on into my thirties. With over 5,000 hours played since, I've slayed Elvarg the dragon, been welcomed into the Heroes' Guild, and earned the cape of legends. Thousands of skill points have been gained. Wealth has been earned, lost and stolen. Many friendships made and ended. From 2D sprite graphics to 3D models, RuneScape has been a wonderful game to watch mature.
+Twenty years ago, in the fall of 2003, my RuneScape character arrived on Tutorial Island. Twelve years old at the time, I had no clue that I had begun a journey that would carry on into my thirties. With over 5,000 hours played since, I've slayed Elvarg the dragon, been welcomed into the Heroes' Guild, and earned the cape of legends. I've gained over a billion experience points, a virtual total level of over 3,000 and maxed two skills to 200 million experience. Wealth has been earned, lost and stolen. Many friendships made and ended. From 2D sprite graphics to 3D models, RuneScape has been a wonderful game to watch mature.
 
 ## Humble Beginning
 
-My first glimpse of RuneScape was at a friends house. His character was at the Black Knights' Fortress.
+2D Knights with black armor and guards with chainmail. It was late October and my friend Cody was in the middle of the Black Knights' Fortress quest. That night, I made my first account, Snoopde, named after the rapper Snoop Dogg. Though the adventures of Snoopde were not long. Within days, the account was locked. I had jokingly wrote that the account was for sale near a bank in Varrock and was banned the next day. Thus, Snoopde2, the account I still play today, was made.
+
+RuneScape became a daily escape throughout the next few months. I would spend hours engrossed with quests and skills, sometimes late into the night. My mother upgraded the account to membership, which unlocked even more content for the game. One of my first acts as a member was to buy up all of the gnome robes from Fine Fashions in the Grand Tree. There were a variety of colors to choose from, which was one of the few cheap fashion options at the time.
+
+Though membership also unlocked new risks and dangers. Through the quest Fight Arena, I unwittingly stepped into the arena with General Khazard without teleportation runes. I was unprepared for the fight and it was one of my first deaths. A hard lesson, as most of the items I had were dropped to the ground. Though with time, I learned how combat worked and took on one of the challenges for an early player, the Dragon Slayer quest in January of 2004. Though no longer a requirement today, the quests completion provided the ability to wield the Rune Plate Mail Body. In preparation for the quest, my mom printed off a quest guide from the now forgotten RuneVillage (Where RuneScaper's Escape).
 
 {{< images >}}
 
@@ -25,15 +29,15 @@ My first glimpse of RuneScape was at a friends house. His character was at the B
 
 ## Early Rares
 
-I purchased my first rare item in late 2003, a Red hallowe'en mask. I wore it everywhere I went in the game, even to places considered dangerous. As a low level player at the time, I was unfamiliar with Karamja and the North Brimhaven mine. Upon arrival, I was attacked by poisonous scorpions. Far from a bank and without Antipoison, my character would soon die. The Red hallowe'en mask, along with my other possessions, would drop to the ground. In a panic, I logged off and made a phone call to the friend. I begged for help. Thankfully, he agreed. Upon login, my character died but my friend was ready to grab the mask and the other items from the ground.
+I purchased my first rare item in early 2004, a Red hallowe'en mask. I wore it everywhere I went in the game, even to places considered dangerous. As a low level player at the time, I was unfamiliar with Karamja and the North Brimhaven mine. Upon arrival, I was attacked by poisonous scorpions. Far from a bank and without Antipoison, my character would soon die. The Red hallowe'en mask, along with my other possessions, would drop to the ground. In a panic, I logged off and made a phone call to the friend. I begged for help. Thankfully, he agreed. Upon login, my character died but my friend was ready to grab the mask and the other items from the ground.
 
 It was around this time that the RuneScape 2 beta was released, a massive update to the game engine. 2D sprites, which RuneScape was known for, were replaced with 3D models. In this process, a number of items became unobtainable. One of these items was the war ship, an item once found in Glough's house in the Gnome Stronghold, during the Grand Tree quest. The only way to acquire it was by transferring it from your Classic account when RuneScape 2 first came out. Because of this, the war ship is now considered one of the rarest items in the game. And since I was hoarder at the time, I still have one in my bank.
 
-Other rare discontinued items that I still have today include a yo-yo, RuneScape's first non-tradeable holiday item. It was given to players in December of 2004 by Father Christmas. Due to a glitch in the Wilderness at the time, many players lost the item for good. Because of this, the yo-yo is known as one of the rarer discontinued items. Though I also was fortunate enough to be around for the wieldable Rubber Chicken and Zombie Head.
+With this new version of RuneScape came the first non-tradeable holiday item in December of 2004. It was a yo-yo, given to players by Father Christmas near Catherby. Due to a glitch in the Wilderness at the time, many players lost the item for good. Because of this, the yo-yo is now known as one of the rarer discontinued items. Though I also was fortunate enough to be around for the wieldable Rubber Chicken and Zombie Head.
 
 ## End of RuneScape
 
-With the release of RuneScape 2, quests and skills were ignored as I spent hundreds of hours in Falador Park. With wavy text commands, I would repeatedly advertise trade and sell offers, sometimes without sleep. I can remember being at a friends house with a laptop, long after everyone went to bed, trading until the sun came up. I was focused on making enough gold to purchase a party hat. I cannot remember which color I purchased first, though I have printed screenshots of yellow and green party hats. My enjoyment of these items, however, would not last.
+Though I hardly explored the new content. Quests and skills were ignored as I spent hundreds of hours in Falador Park. With wavy text commands, I would repeatedly advertise trade and sell offers, sometimes without sleep. I can remember being at a friends house with a laptop, long after everyone went to bed, trading until the sun came up. I was focused on making enough gold to purchase a party hat. I cannot remember which color I purchased first, though I have printed screenshots of yellow and green party hats. My enjoyment of these items, however, would not last.
 
 In the summer of 2005, prior to the release of the bank pin system, my account was compromised. I logged in at Castle Wars, only to find my character to be wearing a quest item, a gold helmet from a quest called Between a Rock. I immediately checked my bank, only to find that all of my rare items, including gold, were gone. I had spent the better part of two years trading to acquire that wealth and bad password security was an easy downfall. On a yellow school folder where I kept printed screenshots of RuneScape, I wrote, "Retired". I even taped a screenshot onto the folder of my character holding a Fixed Device, from Mourning's End Part I, with the caption, "End of RuneScape". I decided to quit the game.
 
@@ -61,7 +65,7 @@ Player-owned farm, in my opinion, was one of the greatest additions to RuneScape
 
 {{< images >}}
 
-{{< image src="/images/achieving-120-farming.jpg" alt="" >}}
+{{< image src="/images/99-farming.jpg" alt="" >}}
 
 {{< image src="/images/master-farming-cape.jpg" alt="" >}}
 
