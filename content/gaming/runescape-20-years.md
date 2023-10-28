@@ -9,7 +9,7 @@ thumbnail: "/images/kamakura-social.jpg"
 thumbnailAlt: ""
 ---
 
-Twenty years ago, in the fall of 2003, my RuneScape character arrived on Tutorial Island. At twelve years, I had no clue that I had begun a journey that would carry on into my thirties. With nearly 5,000 hours played, I've slayed Elvarg the dragon, been welcomed into the Heroes' Guild, and earned the cape of legends. I've gained over a billion experience points, a virtual total level of 3,000 and maxed two skills to 200 million experience. Wealth has been earned, lost and stolen. Many friendships made and ended. Two decades of adventure in the realm of RuneScape, a virtual world that will forever hold a special place in my heart, have shaped me into the player and person I am today.
+Twenty years ago, in the fall of 2003, my RuneScape character arrived on Tutorial Island. At twelve years old, I had no clue that I had begun a journey that would carry on into my thirties. With nearly 5,000 hours played, I've slayed Elvarg the dragon, been welcomed into the Heroes' Guild, and earned the cape of legends. I've gained over a billion experience points, a virtual total level of 3,000 and maxed two skills to 200 million experience. Wealth has been earned, lost and stolen. Many friendships made and ended. Two decades of adventure in the realm of RuneScape, a virtual world that will forever hold a special place in my heart, have shaped me into the player and person I am today.
 
 ## Account Creation
 
@@ -33,8 +33,6 @@ I purchased my first rare item in early 2004, a Red hallowe'en mask. I wore it e
 
 It was around this time that the RuneScape 2 beta was released, which delivered a massive update to the game engine. 2D sprites, which RuneScape was known for, were replaced with 3D models. In this process, a number of items became unobtainable. One of these items was the war ship, an item once found in Glough's house in the Gnome Stronghold, during the Grand Tree quest. The only way to acquire it was by transferring it from your Classic account when RuneScape 2 first came out. Because of this, the war ship became one of the rarest items in the game. And since I was hoarder, I still have one in my bank. I keep it next to a sole burnt swordfish, which I've also kept in my bank since 2003.
 
-This new version of RuneScape also introduced the first non-tradeable holiday item in December of 2004. It was a yo-yo, given to players by Father Christmas near Catherby. Due to a glitch in the Wilderness, which caused players to lose the item permanently, the yo-yo is now known as one of the rarest discontinued items. I also was fortunate enough to be around for the Rubber Chicken and Zombie Head.
-
 ## End of RuneScape
 
 For the next year, quests and skills were ignored as I spent hundreds of hours in Falador Park. With wavy chat effects, I would repeatedly advertise trade and sell offers, sometimes without sleep. I can remember being at a friends house with a laptop, long after everyone went to bed, trading until the sun came up. I was focused on making enough gold to purchase a party hat. I cannot remember which color I purchased first, though I have printed screenshots of yellow and green party hats. My enjoyment of these items, however, would not last.
@@ -45,21 +43,23 @@ That lasted a few days. I changed my password, logged back on, and found a Black
 
 ## First 99
 
-In early summer of 2009, Woodcutting brought me back to the RuneScape. The skill was simple and required minimal input. The magic trees at the Sorcerer's Tower near Seer's Village was a favored spot. The tower had it's own social community. It was a great place to kill time and chat with other players. The anti-macro or random events provided comedic relief. One of my favorites was the Strange Plant. If a player failed to pick the fruit once it was fully grown, the plant would attack the player. It was common for many players to be away for the keyboard for too long and die. The Ent event, however, could be an annoyance. If your axe head broke off, you had to fetch it and travel to Bob's Axe shop in Lumbridge to fix it.
+In 2009, Woodcutting brought me back to the RuneScape. The skill was simple and required minimal input. The magic trees at the Sorcerer's Tower near Seer's Village was a favored spot. The tower had it's own social community. It was a great place to kill time and chat with other players. The anti-macro or random events provided comedic relief. One of my favorites was the Strange Plant. If a player failed to pick the fruit once it was fully grown, the plant would attack the player. It was common for many players to be away for the keyboard for too long and die. The Ent event, however, could be an annoyance. If your axe head broke off, you had to fetch it and travel to Bob's Axe shop in Lumbridge to fix it.
 
-Level 99 Woodcutting, the maximum level of the skill, became a reality in September of that year. Although I enjoyed the Sorcerer's Tower, a faster Woodcutting method had been released into the game, Ivy. I received no money in return but the experience per hour went up greatly in comparison to cutting magic logs. There was less conversation to be had along the walls of Falador or Varrock Palace but by the end of fall, I achieved my first 99. The last few chunks of experience points were gained back at the Sorcerer's Tower. It was the first time I was able to purchase a skillcape, also known as a Cape of Accomplishment.
+Level 99 Woodcutting, the maximum level of the skill, became a possible goal in September of that year. Although I enjoyed the Sorcerer's Tower, a faster Woodcutting method had been released into the game, Ivy. I received no money in return but the experience per hour went up greatly in comparison to cutting Magic Logs. There was less conversation to be had along the walls of Falador or Varrock Palace but by the end of fall, I achieved my first 99. The last few chunks of experience points were gained back at the Sorcerer's Tower. It was the first time I was able to purchase a skillcape, also known as a Cape of Accomplishment.
 
 {{< image src="/images/my99.jpg" alt="" >}}
 
 ## Second 99
 
-From the fall of 2010 until the summer of 2014, RuneScape was set aside. College became a priority, though I did return for the yearly Halloween and Christmas events. Deathcon II, the 2011 Halloween event, was most memorable. Players were required to aid Death in preparing the Grim Reaper's Citadel for a convention. One of the rewards for the event was a Deathcon t-shirt, which I've worn each Halloween since.
+From the fall of 2010 until the summer of 2014, RuneScape was mostly forgotten. College was a priority, though I did return for the yearly Halloween and Christmas events. Deathcon II, the 2011 Halloween event, was memorable. Players were required to aid Death in preparing the Grim Reaper's Citadel for a convention. One of the rewards for the event was a Deathcon t-shirt, which I've worn each Halloween since. I also participated in the Combat Beta in 2012, which introduced a revamped combat system, adding abilities and a greater emphasis on strategy in battle.
+
+RuneScape 3, upon its release in 2013, introduced a myriad of significant changes and innovations. One of the most notable transformations was the shift from the traditional Java-based client to a modern HTML5 game engine, resulting in enhanced graphics and improved performance. Microtransactions were also embraced with the introduction of the Squeal of Fortune and Solomon's General Store, which offered cosmetic and convenience items. Bonds as well were available to purchase, which was Jagex's solution to real world trading.
 
 ## Max
 
 ## First 120
 
-Player-owned farm, in my opinion, was one of the greatest additions to RuneScape. It's an activity that brought the Farming skill back to life.
+The Farming skill, released in 2005, was my lowest skill.
 
 {{< images >}}
 
@@ -71,13 +71,11 @@ Player-owned farm, in my opinion, was one of the greatest additions to RuneScape
 
 ## 200M Archaeology
 
-To this day, Archaeology is a favorite skill of mine. Upon the release in 2020, I was captivated. With a great number of dig sites, mysteries and collection logs, the skill provided much to do.
+Upon the release of Archaeology in 2020, dig sites, mysteries and new collection logs were added to RuneScape.
 
 ## 200M Thieving
 
-When it came time to tackle 99 Thieving, I was surprised to learn about safe cracking. The experience rate per hour, even with basic safes, was incredible. At level 90, I spent most nights at the Rogues' Castle in the Wilderness. With active safe cracking, the experience rate was above 500,000 experience per hour without bonus experience or double experience. Player killing in the Wilderness was uncommon but I did have to hop worlds every now and then.
-
-Once level 99 was achieved, the skill was technically finished. I had nothing else to unlock. However, with the experience rates in mind, I thought Thieving would be an easy skill to level to virtual level 120. To speed up the process, I wanted to have access to the additional hidden safes in Zemouregal's fort, along with the Glacor Cave teleportation. This, however, was easier said than done. There are a number of quests required to be completed first, all with individual requirements. I can remember thinking I was finished multiple times, only to discover another requirement. But overall, I would say the quests were worth doing since the experience rate per hour was around one million afterwards.
+With level 99 Thieving, the skill was technically finished. However, with the high experience per hour at the Rogues' Castle in the Wilderness, I thought Thieving would be an easy skill to level to virtual level 120. To increase the experience per hour even more, I wanted to have access to the additional hidden safes in Zemouregal's fort, along with the Glacor Cave teleportation. This, however, was easier said than done. There were a number of quests required to be completed first, all with individual requirements. I can remember thinking I was finished multiple times, only to discover another requirement. But overall, I would say the quests were worth doing since the experience rate per hour was around one million afterwards.
 
 Around the time I achieved virtual level 120, the Wilderness Rework had been implemented into the game. The project effectively removed threats from the Wilderness, which meant I could crack safes at the Rogues' Castle without concern. I decided to push forward to 200 million experience points in Thieving, the maximum amount of points for any skill in the game. I wouldn't receive any reward for doing so but my position on the high scores would be permanent. It took a little longer than I had hoped, due to a Wilderness safe reset timer increase that randomly came with an update to the Wilderness. But overall, it was not a horrible endeavour. I ended up receiving the Thieving pet, Ralph, around 180 million experience. My position as of this writing is 9,239 for Thieving.
 
