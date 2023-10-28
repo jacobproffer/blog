@@ -2,10 +2,10 @@
 title: "RuneScape Account Turns 20"
 date: 2023-10-23T09:24:38-04:00
 description: "Post description"
-images: ["/images/kamakura-social.jpg"]
+images: ["/images/runescape-cover.jpg"]
 tags: ["runescape", "gaming"]
 categories: ["gaming"]
-thumbnail: "/images/kamakura-social.jpg"
+thumbnail: "/images/runescape-cover.jpg"
 thumbnailAlt: ""
 ---
 
@@ -35,9 +35,13 @@ It was around this time that the RuneScape 2 beta was released, which delivered 
 
 ## End of RuneScape
 
-For the next year, quests and skills were ignored as I spent hundreds of hours in Falador Park. With wavy chat effects, I would repeatedly advertise trade and sell offers, sometimes without sleep. I can remember being at a friends house with a laptop, long after everyone went to bed, trading until the sun came up. I was focused on making enough gold to purchase a party hat. I cannot remember which color I purchased first, though I have printed screenshots of yellow and green party hats. My enjoyment of these items, however, would not last.
+For the next year, quests and skills were ignored as I spent hundreds of hours in Falador Park. With wavy chat effects, I would repeatedly advertise trade and sell offers, sometimes without sleep. I can remember being at a friends house with a laptop, long after everyone went to bed, trading until the sun came up. I was focused on making enough gold to purchase a party hat. I cannot remember which color I purchased first, though I have printed screenshots of yellow and white party hats. My enjoyment of these items, however, would not last.
+
+{{< image src="/images/party-hats.jpg" alt="" >}}
 
 In the summer of 2005, prior to the release of the bank pin system, my account was compromised. I logged in at Castle Wars, only to find my character to be wearing a quest item, a gold helmet from a quest called Between a Rock. I immediately checked my bank, only to find that all of my rare items, including gold, were gone. I had spent the better part of two years trading to acquire that wealth and bad password security was an easy downfall. On a yellow school folder where I kept printed screenshots of RuneScape, I wrote, "Retired". I even taped a screenshot onto the folder of my character holding a Fixed Device, from Mourning's End Part I, with the caption, "End of RuneScape". I decided to quit the game.
+
+{{< image src="/images/end-of-runescape.jpg" alt="" >}}
 
 That lasted a few days. I changed my password, logged back on, and found a Black Cavalier in my bank. By no means an expensive item at the time, the Black Cavalier was still worth a sizeable amount of gold in 2005. Since it was a fairly new item, I assume that the person who had compromised my account did not know what it was. I sold the item and re-bought all of my rune armor and dragon weapons that had been taken. That allowed for me to get back into quests and PVM content. Though my playtime per week dropped drastically for four years.
 
