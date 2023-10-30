@@ -63,7 +63,9 @@ RuneScape 3, upon its release in 2013, introduced a myriad of significant change
 
 ## First 120
 
-The Farming skill, released in 2005, was my lowest skill.
+Before the release of the Player-Owned Farm in 2018, Farming was my lowest skill in RuneScape. Farming was primarily passive, which required time and patience for crops to grow. There were also limited training options, along with low experience rates. Large amounts of seeds were required, along with tools and other farming supplies. There was also the added complexity of various crop types, disease management, and even special requirements for certain crops.
+
+The release of the Player-Owned Farm in 2018 brought a significant change to the Farming skill. It introduced a more engaging and interactive way to train Farming, making it more accessible and enjoyable for a wider range of players. The Player-Owned Farm allowed players to breed and raise animals, offering more dynamic gameplay. Additionally, it offered better experience rates, which motivated me to engage with the skill more actively.
 
 {{< images >}}
 
