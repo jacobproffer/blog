@@ -55,13 +55,15 @@ Level 99 Woodcutting, the maximum level of the skill, became a possible goal in 
 
 ## Second 99
 
-From the fall of 2010 until the summer of 2014, RuneScape was mostly forgotten. College was a priority, though I did return for the yearly Halloween and Christmas events. Deathcon II, the 2011 Halloween event, was memorable. Players were required to aid Death in preparing the Grim Reaper's Citadel for a convention. One of the rewards for the event was a Deathcon t-shirt, which I've worn each Halloween since. I also participated in the Combat Beta in 2012, which introduced a revamped combat system, adding abilities and a greater emphasis on strategy in battle.
+From the fall of 2010 until the summer of 2014, RuneScape was mostly forgotten. College was a priority, though I returned for the yearly Halloween and Christmas events. Deathcon II, the 2011 Halloween event, was memorable. Players were required to aid Death in preparing the Grim Reaper's Citadel for a convention. One of the rewards for the event was a Deathcon t-shirt, which I've worn each Halloween since. I also participated in the Combat Beta in 2012, which introduced a revamped combat system, adding abilities and a greater emphasis on strategy in battle.
 
 The Combat Beta was mainly a preview of what RuneScape 3 would deliver to RuneScape, which was rolled out in full in 2013. One of the most notable improvements was the introduction of a modern HTML 5 game engine, instead of the traditional Java-based client that Jagex had always used. The updated game engine resulted in enhanced graphics and improved performance. Microtransactions were also embraced with the introduction of the Squeal of Fortune and Solomon's General Store. Bonds as well were available for purchase, which could be sold for in-game currency.
 
 When I graduated college in the summer of 2014, I returned to this new version of RuneScape with the goal to reach level 99 Firemaking. I primarily chose this goal because the skill went along with Woodcutting, my first 99. It was through a clan I had joined that I learned of an efficient training method for Firemaking, which consisted of burning curly roots from the Jadinko Lair. These roots burned longer and awarded more experience than any other source of fire in the game at the time.
 
 I spent the remainder of that summer within the Jadinko Lair while I watched horror movies such as the 1978 classic Piranha. I had re-arranged my desk to face the television in my room, which helped pass the time burning curly roots. Elaine, one of the clan members who had been helpful throughout my return RuneScape, met me near the Seer's Village bank for the last thousand or so experience points.
+
+{{< image src="/images/99-firemaking.jpg" alt="" >}}
 
 ## Max
 
