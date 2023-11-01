@@ -65,15 +65,13 @@ I spent the remainder of that summer within the Jadinko Lair while I watched hor
 
 {{< image src="/images/99-firemaking.jpg" alt="" >}}
 
-## Max
+## Path to Max
 
 ## First 120
 
-Before the release of the Player-Owned Farm in 2018, Farming was my lowest skill in RuneScape. Farming was primarily passive upon release in 2005, which required time and patience for crops to grow. There were also limited training options, along with low experience rates. Large amounts of seeds were required, along with tools and other farming supplies. There was also the added complexity of various crop types, disease management, and even special requirements for certain crops.
+Farming was my lowest skill in RuneScape for many years. The skill was passive upon release in 2005, and required a great deal of time and patience. There were limited training options and lower experience rates compared to today. Even in 2014, nine years after the release of the skill, my Farming level was only 53. The release of the Player-Owned Farm in 2018 brought a significant change to Farming. The activity introduced more engaging and interactive ways to train Farming. Players could breed and raise a variety of animals, which offered more dynamic gameplay. Most importantly, the Player-Owned Farm offered better experience per hour. This motivated me to engage with Farming more actively.
 
-The release of the Player-Owned Farm brought a significant change to the Farming skill. It introduced a more engaging and interactive way to train Farming, making it more accessible and enjoyable for a wider range of players. The Player-Owned Farm allowed players to breed and raise animals, offering more dynamic gameplay. Additionally, it offered better experience rates, which motivated me to engage with the skill more actively.
-
-Though I did make use of tree patches in RuneScape as well, both for regular and fruit trees. Combined with Player-Owned Farm, trees provided large chunks of experience when fully grown. In addition, trees offered valuable resources, such as logs and fruit. The diversity of tree types, from willow to carambola trees, allowed players to tailor their skilling methods to their specific needs and goals. Though I only focused on magic trees and the highest level fruit tree I had unlocked at any given time.
+Though I did make use of tree patches in RuneScape as well, for regular and fruit trees, which provided large amounts of experience when fully grown. In addition, trees offered valuable resources, such as logs and fruit. The diversity of tree types, from willow to carambola trees, allowed players to tailor their skilling methods to their specific needs and goals. Though I only focused on magic trees after level 75 and the highest level fruit tree I had unlocked. With tree runs and the Player-Owned Farm activity, my Farming experience per week increased exponentially.
 
 When I made the decision to pursue Farming as my first 120 level skill, I continued the methods that I had utilized to reach level 99. I conducted daily magic tree runs, at least one fruit tree run per day, and always had ten Black Dragons in the three large pens at the regular Player Owned Farm. On top of those primarily three methods, I would also have salamanders and various dinosaurs in pens at the Ranch Out of Time on Anachronia. It was a system that delivered high rates of experience per week, within the millions. Though, it still took over three months of patience and daily routine for me to reach level 120 from level 99.
 
