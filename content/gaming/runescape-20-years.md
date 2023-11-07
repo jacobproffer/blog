@@ -11,6 +11,8 @@ thumbnailAlt: ""
 
 Twenty years ago, in the fall of 2003, my RuneScape character arrived on Tutorial Island. At twelve years old, I had no clue that I had begun a journey that would carry on into my thirties. With nearly 5,000 hours played, I've slayed Elvarg the dragon, been welcomed into the Heroes' Guild, and earned the cape of legends. I've gained over a billion experience points, a virtual total level of 3,000 and maxed two skills to 200 million experience. Wealth has been earned, lost and stolen. Many friendships made and ended. Two decades of adventure in the realm of RuneScape, a virtual world that will forever hold a special place in my heart, have shaped me into the player and person I am today.
 
+{{< image src="/images/20-year-cape.jpg" alt="" >}}
+
 ## Account Creation
 
 In October of 2003, I recall the moment my friend Cody was engrossed in the midst of the Black Knights' Fortress quest. It marked my introduction to the world of RuneScape. It wasn't long before I created my inaugural character, Snoopde. However, the escapades of Snoopde were short-lived. In a matter of days, the account was locked. The reason behind this was a jest gone awry; I had typed into the chat that the account was up for sale near a bank in Varrock, which promptly led to a permanent account ban. Consequently, I embarked on a new journey with Snoopde2, the account that I continue to play to this day.
@@ -67,6 +69,10 @@ I spent the remainder of that summer within the Jadinko Lair while I watched hor
 
 ## Path to Max
 
+Dungeoneering as a skill doesn't make sense to me. Although it requires strategy, it's vastly different in my opinion when compared to skills such as Crafting or Prayer. Dungeoneering requires the utilization of other skills, combat and the completion of puzzles. It's more of a drawn out mini-game, which is why I've always found the skill to be an annoyance to train. The Dungeoneering hole, released in 2019, was my lazy way to reach level 99. It requires minimal engagement, and it did not take a long time to level from 85 to 99 through the activity at the annual Beach event.
+
+My last skill to level to 99 before the release of Necromancy in 2023 was Invention. It was initially slow to level because I had already maxed all of my combat skills prior to the skills release. I ended up leveling the skill through Fishing, Archaeology, and Mining as I worked towards 99 in those skills.
+
 ## First 120
 
 Farming was my lowest skill in RuneScape for many years. The skill was passive upon release in 2005, and required a great deal of time and patience. There were limited training options and lower experience rates compared to today. Even in 2014, nine years after the release of the skill, my Farming level was only 53. The release of the Player-Owned Farm in 2018 brought a significant change to Farming. The activity introduced more engaging and interactive ways to train Farming. Players could breed and raise a variety of animals, which offered more dynamic gameplay. Most importantly, the Player-Owned Farm offered better experience per hour. This motivated me to engage with Farming more actively.
@@ -83,11 +89,17 @@ When I made the decision to pursue Farming as my first 120 level skill, I contin
 
 {{< /images >}}
 
-## 200M Archaeology
+### 200M Archaeology
 
-Upon the release of Archaeology in 2020, dig sites, mysteries and new collection logs were added to RuneScape.
+Archaeology was my second 120 skill, and is one of my favorite aspects of RuneScape. What initially drew me into the skill was the sheer depth and complexity. Archaeology wasn't a skill about combat but required exploration, discovery, and historical immersion. One of the key reasons I enjoyed Archaeology was the multitude of dig sites introduced around Gielinor. Each dig site had its own unique lore, history, and set of artifacts to uncover. The mysteries and collection logs also added an extra layer of depth to the skill. These challenges encouraged me to explore further into the game's lore and piece together puzzles.
 
-## 200M Thieving
+Once I reached level 108 Archaeology, I focused on Xolo City at the Orthen Dig Site on Anachronia. As there were no carts to deposit materials at the site, I made use of a pocket item called Sign of the porter VII. The item automatically deposited materials into the material storage container, which allowed for me to spend more time at the site. When I ran dry of porters, I would activate my premier artefact to act as a sign of the porter for an hour. It was an effective method that allowed me to focus on the acquirement of high level artifacts.
+
+Though when I achieved level 120 Archaeology, I took a break from Xolo City to acquire every Archaeology item from the guild shop and to complete every Archaeology collection and mystery. This venture required a great deal of time and sometimes luck. Though a magic skill I used twice daily helped guarantee certain artifacts that I needed from various hot spots. Each time I completed a collection, I would receive chronotes that I could spend at the Archaeology Guild Shop. It took over a million chronotes to unlock every item and upgrade in the shop.
+
+After I had completed my Archaeology achievement goals, I returned to Xolo City to finish off 200 million experience points. I amassed a large collection of damaged gold dishes and 'Raksha' idols. Around level 118 Archaeology, I started to fix these artifacts in mass batches, which resulted in experience rates far above two to three million per hour. It cost a lot of money to purchase the materials required to fix the artifacts but reduced the time commitment greatly. I finished off Archaeology outside of the Anachronia base camp by adding rex skeleton fragments to the Rex skeleton. My position on the HiScores for Archaeology is 13,708.
+
+### 200M Thieving
 
 With level 99 Thieving, the skill was technically finished. However, with the high experience per hour at the Rogues' Castle in the Wilderness, I thought Thieving would be an easy skill to level to virtual level 120. To increase the experience per hour even more, I wanted to have access to the additional hidden safes in Zemouregal's fort, along with the Glacor Cave teleportation. This, however, was easier said than done. There were a number of quests required to be completed first, all with individual requirements. I can remember thinking I was finished multiple times, only to discover another requirement. But overall, I would say the quests were worth doing since the experience rate per hour was around one million afterwards.
 
