@@ -11,8 +11,6 @@ thumbnailAlt: ""
 
 Twenty years ago, in the fall of 2003, my RuneScape character arrived on Tutorial Island. At twelve years old, I had no clue that I had begun a journey that would carry on into my thirties. With nearly 5,000 hours played, I've slayed Elvarg the dragon, been welcomed into the Heroes' Guild, and earned the cape of legends. I've gained over a billion experience points, a virtual total level of 3,000 and maxed two skills to 200 million experience. Wealth has been earned, lost and stolen. Many friendships made and ended. Two decades of adventure in the realm of RuneScape, a virtual world that will forever hold a special place in my heart, have shaped me into the player and person I am today.
 
-{{< image src="/images/20-year-cape.jpg" alt="" >}}
-
 ## Account Creation
 
 In October of 2003, I recall the moment my friend Cody was engrossed in the midst of the Black Knights' Fortress quest. It marked my introduction to the world of RuneScape. It wasn't long before I created my inaugural character, Snoopde. However, the escapades of Snoopde were short-lived. In a matter of days, the account was locked. The reason behind this was a jest gone awry; I had typed into the chat that the account was up for sale near a bank in Varrock, which promptly led to a permanent account ban. Consequently, I embarked on a new journey with Snoopde2, the account that I continue to play to this day.
@@ -106,3 +104,9 @@ With level 99 Thieving, the skill was technically finished. However, with the hi
 Around the time I achieved virtual level 120, the Wilderness Rework had been implemented into the game. The project effectively removed threats from the Wilderness, which meant I could crack safes at the Rogues' Castle without concern. I decided to push forward to 200 million experience points in Thieving, the maximum amount of points for any skill in the game. I wouldn't receive any reward for doing so but my position on the high scores would be permanent. It took a little longer than I had hoped, due to a Wilderness safe reset timer increase that randomly came with an update to the Wilderness. But overall, it was not a horrible endeavour. I ended up receiving the Thieving pet, Ralph, around 180 million experience. My position as of this writing is 9,239 for Thieving.
 
 ## Necromancy and the Future
+
+Currently, I've been focused on Necromancy, a new combat skill released in August 2023. Players can now summon the undead and perform various rituals for a variety of rewards. As with any skill, Necromancy was slow to level early on. But, now that I'm near level 90, the experience rate per hour has gone up greatly. My only annoyance with the skill has been weapon and armor upgrades every ten levels. Upgrades require tasks to be completed first, such as particular boss kills along with a certain number of normal monster kills. Afterwards, materials for the upgrades must be generated through rituals, which is expensive at higher levels. Yet outside of the upgrades, I have enjoyed the combat aspect of the skill.
+
+Along with the goal to reach level 99 Necromancy to re-obtain my max cape, I also want to reach 200 million Farming experience to finish off the skill within the next year. At the time of this writing, my Farming experience is around 160 million experience points. Although relatively close to my experience goal, I haven't been as active with Farming lately. I usually just have ten black dragons at the Player-Owned Farm, which is around 900,000 experience a week without any bonus experience.
+
+{{< image src="/images/20-year-cape.jpg" alt="" >}}
