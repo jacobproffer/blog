@@ -1,10 +1,10 @@
 ---
 title: "Hiking Mount Takao"
 date: 2023-12-07T17:51:42-05:00
-description: "Post description"
+description: "Traveling to and hiking Mount Takao, in Hachiōji, Tokyo, Japan."
 images: ["/images/uploads/background.jpg"]
 series: ["Japan"]
-tags: ["japan", "travel", "hiking"]
+tags: ["japan", "akihabara", "shinjuku", "train", "restaurant"]
 categories: ["japan", "travel"]
 thumbnail: "/images/background.jpg"
 ---
