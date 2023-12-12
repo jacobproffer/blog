@@ -13,9 +13,9 @@
 {{ $thumbnailSrc := resources.Get $thumbnail }}
 
 {{ $smallw := default "480x400 webp" }}
-{{ $tabletw := default "810x338 webp" }}
-{{ $mediumw := default "960x400 webp" }}
-{{ $largew := default "1200x500 webp" }}
+{{ $tabletw := default "675x450 webp" }}
+{{ $mediumw := default "900x600 webp" }}
+{{ $largew := default "1200x800 webp" }}
 
 {{ $data := newScratch }}
 {{ $data.Set "small" ($thumbnailSrc.Fill $smallw) }}
