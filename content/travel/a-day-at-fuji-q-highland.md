@@ -39,3 +39,9 @@ An alarm sounded, the floor lowered and the coaster left the station. I was prop
 <!-- Fujiyama ride -->
 
 For lunch, Fuji-Q Highland had a great number of options to choose from. There were multi-floor food courts and a Starbucks. Gourmet burgers were served by Village Vanguard, Belgian-style french fries were available by a specialty store called bintje, candy apples from Daikanyama, pizza from Pizza-LA, and crepes from Momi and Toy's. I chose takoyaki with diced octopus from a small booth in the center of the park called Laughing Octopus. It had been awhile since I had takoyaki but the octopus flavor was familiar. With chopsticks, I was able to open one of the ball-shaped snacks and see the pink colored tentacles inside.
+
+<!-- Paniclock ride -->
+
+At three in the afternoon, as the clouds darkened, I left the park. It was odd timing, as a crack of thunder sounded as I entered the gift store, followed by steady rain. The automatic doors slid open repeatedly as guests rushed inside. Each time the doors opened, the thunder grew louder as the rain increased in intensity. At the front of the store, a worker conveniently stocked a row of transparent umbrellas. Since the bus station required a short walk, and I had neglected to bring a rain jacket, I paid 500 yen for an umbrella. A small price to pay for the short walk to the bus terminal.
+
+<!-- Bus station / bus ride back -->
