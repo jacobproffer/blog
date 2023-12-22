@@ -22,7 +22,7 @@ Located near the entrance of Fuji-Q Highland, the Fuji-Q Bus Terminal is compara
 
 My first ride of the day was Eejanaika, a fourth dimension hypercoaster with rotatable seats. Mindful of long wait times at Fuji-Q Highland, I purchased an express pass for Eejanaika for 3,000 yen from an automated machine near a ride called Zokkon. The pass spared me from the prospect of a two-hour wait and gave permission to skip the standard line. The pass came with a catch - a limited time window. This caused for me to run from Zokkon to Eejanaika, a sizeable distance in the park. With the heat and high humidity of a Japanese summer, I was drenched in sweat upon arrival.
 
-After I climbed the stairs to the top of Eejanaika, I was assigned the first car. Shoes had to be removed and pockets emptied, deposited into a turn-key storage locker. After I was seated, a worker was required to secure me into the seat with a shoulder harness and lap belt. My legs, however, were free to dangle below the car. The worker made me prove I wasn't able to remove the harness or belt, and shouted, "Eejanaika!", while other riders screamed with fear or excitement. Though the coaster hadn't moved yet, I gripped the safety bars in anticipation.
+I climbed the stairs to the top of Eejanaika and was assigned a car towards the end of the coaster. Shoes had to be removed and pockets emptied, deposited into a turn-key storage locker. After I was seated, a worker was required to secure me into the seat with a shoulder harness and lap belt. My legs, however, were free to dangle below the car. The worker made me prove I wasn't able to remove the harness or belt, and shouted, "Eejanaika!", while other riders screamed with fear or excitement. Though the coaster hadn't moved yet, I gripped the safety bars in anticipation.
 
 An alarm sounded, the floor lowered and the coaster left the station. I was propelled backwards as the seat tilted when the coaster entered a 240 foot climb. In the ascent, Mount Fuji was visible, the top shrouded in clouds. At the top of the climb, a sudden dip in the track jolted me. Before I processed the jolt, the coaster dipped into a steep vertical dive. The acceleration brought the coaster quickly to the bottom of the track and into a lengthened loop as my individual seat rotated 360 degrees. The rest of the ride became a blur as I was tossed and turned at absurd speeds.
 
@@ -36,11 +36,15 @@ An alarm sounded, the floor lowered and the coaster left the station. I was prop
 
 <!-- Paniclock ride -->
 
-<!-- Fujiyama ride -->
+Next, I rode a steel rollercoaster called Fujiyama, referred to as the King of Coasters. Upon arrival, the line for Fujiyama spanned three floors. Though costly, at a machine in front of the ride, I paid 3,000 yen for a priority ticket to skip to the front. After a small wait for the assigned time slot, I ascended the towering structure of Fujiyama alone in the priority lane. At the top of the ride, a worker took my ticket and guided me to a lane for the first car of the rollercoaster. The car was painted solid gold, in the shape of a flame, and had two seats side by side. Since I was a lone rider, I was allowed to have the car to myself.
+
+Unlike Eejanaika, Fujiyama did not go upside-down. Instead, I experienced the tail of a dragon. After a steep climb and rapid drop, my body was shoved side to side as the coaster took constant hairpin corners at an aggressive speed. There were rapid ascents with vertical drops, expected in the traditional rollercoaster experience, but those corners were wicked. As the coaster returned to the platform, the person behind me screamed in excitement. When I turned to look, the person gave me a high five and shouted, {{< japanese >}}すごい！{{< /japanese >}} with a big grin on their face.
 
 For lunch, Fuji-Q Highland had a great number of options to choose from. There were multi-floor food courts and a Starbucks. Gourmet burgers were served by Village Vanguard, Belgian-style french fries were available by a specialty store called bintje, candy apples from Daikanyama, pizza from Pizza-LA, and crepes from Momi and Toy's. I chose takoyaki with diced octopus from a small booth in the center of the park called Laughing Octopus. It had been awhile since I had takoyaki but the octopus flavor was familiar. With chopsticks, I was able to open one of the ball-shaped snacks and see the pink colored tentacles inside.
 
-<!-- Paniclock ride -->
+<!-- Snack -->
+
+<!-- Tondemina ride -->
 
 At three in the afternoon, as the clouds darkened, I left the park. It was odd timing, as a crack of thunder sounded as I entered the gift store, followed by steady rain. The automatic doors slid open repeatedly as guests rushed inside. Each time the doors opened, the thunder grew louder as the rain increased in intensity. At the front of the store, a worker conveniently stocked a row of transparent umbrellas. Since the bus station required a short walk, and I had neglected to bring a rain jacket, I paid 500 yen for an umbrella. A small price to pay for the short walk to the bus terminal.
 
