@@ -5,7 +5,7 @@ description: "Post description"
 images: ["/images/fuji-q-highland.jpg"]
 series: ["Japan"]
 tags: ["japan", "shinjuku"]
-categories: ["japan", "travel"]
+categories: ["japan", "shibuya", "shinjuku", "train"]
 thumbnail: "/images/fuji-q-highland.jpg"
 thumbnailAlt: ""
 ---
@@ -34,18 +34,24 @@ An alarm sounded, the floor lowered and the coaster left the station. I was prop
 
 {{< /images >}}
 
-<!-- Paniclock ride -->
+<!-- Paniclock ride / Tondemina ride -->
+
+<!-- {{< image src="/images/paniclock.jpg" alt="" >}} -->
 
 Next, I rode a steel rollercoaster called Fujiyama, referred to as the King of Coasters. Upon arrival, the line for Fujiyama spanned three floors. Though costly, at a machine in front of the ride, I paid 3,000 yen for a priority ticket to skip to the front. After a small wait for the assigned time slot, I ascended the towering structure of Fujiyama alone in the priority lane. At the top of the ride, a worker took my ticket and guided me to a lane for the first car of the rollercoaster. The car was painted solid gold, in the shape of a flame, and had two seats side by side. Since I was a lone rider, I was allowed to have the car to myself.
 
 Unlike Eejanaika, Fujiyama did not go upside-down. Instead, I experienced the tail of a dragon. After a steep climb and rapid drop, my body was shoved side to side as the coaster took constant hairpin corners at an aggressive speed. There were rapid ascents with vertical drops, expected in the traditional rollercoaster experience, but those corners were wicked. As the coaster returned to the platform, the person behind me screamed in excitement. When I turned to look, the person gave me a high five and shouted, {{< japanese >}}すごい！{{< /japanese >}} with a big grin on their face.
 
+{{< images >}}
+
+{{< image src="/images/fujiyama-exterior.jpg" alt="" >}}
+
+{{< image src="/images/fujiyama-track.jpg" alt="" >}}
+
+{{< /images >}}
+
 For lunch, Fuji-Q Highland had a great number of options to choose from. There were multi-floor food courts and a Starbucks. Gourmet burgers were served by Village Vanguard, Belgian-style french fries were available by a specialty store called bintje, candy apples from Daikanyama, pizza from Pizza-LA, and crepes from Momi and Toy's. I chose takoyaki with diced octopus from a small booth in the center of the park called Laughing Octopus. It had been awhile since I had takoyaki but the octopus flavor was familiar. With chopsticks, I was able to open one of the ball-shaped snacks and see the pink colored tentacles inside.
 
-<!-- Snack -->
+Towards the end of the afternoon, as the clouds darkened, I left the park. It was odd timing, as a crack of thunder sounded as I entered the gift store at the front of the park, followed by steady rain. The automatic doors slid open repeatedly as guests rushed inside. Each time the doors opened, the thunder grew louder as the rain increased in intensity. At the front of the store, a worker conveniently stocked a row of umbrellas with transparent canopies. Since I had neglected to bring a rain jacket, I paid 500 yen for an umbrella and left the store. It was a small price to pay for the short walk to the bus terminal but the umbrella kept me dry.
 
-<!-- Tondemina ride -->
-
-At three in the afternoon, as the clouds darkened, I left the park. It was odd timing, as a crack of thunder sounded as I entered the gift store, followed by steady rain. The automatic doors slid open repeatedly as guests rushed inside. Each time the doors opened, the thunder grew louder as the rain increased in intensity. At the front of the store, a worker conveniently stocked a row of transparent umbrellas. Since the bus station required a short walk, and I had neglected to bring a rain jacket, I paid 500 yen for an umbrella. A small price to pay for the short walk to the bus terminal.
-
-<!-- Bus station / bus ride back -->
+At the bus terminal, I attempted to buy a return ticket for Shinjuku. The next available bus for Shinjuku, I was informed, wouldn't arrive for three hours. The worker advised to take the next available bus to Shibuya instead, which was to arrive in twenty minutes. What I didn't pay attention to was the arrival time in Shibuya. The bus ride took nearly three hours, as the bus took side roads instead of the highway and stopped at major bus stops. Once the bus arrived in Shibuya, I walked to Shibuya Station and hopped on a forty minute ride to Akihabara. The rest of the day was filled with shopping, followed by late night rounds of Typing of the Dead.
