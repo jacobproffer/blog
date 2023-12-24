@@ -7,7 +7,7 @@ series: ["Japan"]
 tags: ["japan", "shibuya", "shinjuku", "train"]
 categories: ["japan", "travel"]
 thumbnail: "/images/fuji-q-highland.jpg"
-thumbnailAlt: ""
+thumbnailAlt: "Wide view of Eejanaika, a rollercoaster at Fuji-Q Highland, with two people walking in foreground"
 ---
 
 After a day at Mount Takao, my plan was to hop on a train towards a national park called Hakone. A glance at the weather report revealed a forecast of heavy rain in the region throughout the day. I changed plans and went to Fuji-Q Highland instead, an amusement park located at the base of Mount Fuji, within the Yamanashi Prefecture of Japan. Before I left the hotel for Akihabara Station, I purchased a day pass for Fuji-Q Highland via an app called KKday on my phone. The e-ticket cost forty dollars and needed to be redeemed at the park entrance once I arrived.
@@ -20,9 +20,9 @@ Located near the entrance of Fuji-Q Highland, the Fuji-Q Bus Terminal is compara
 
 {{< images >}}
 
-{{< image src="/images/fuji-q-entrance.jpg" alt="" >}}
+{{< image src="/images/fuji-q-entrance.jpg" alt="Entrance to Fuji-Q Highland" >}}
 
-{{< image src="/images/fuji-q.jpg" alt="" >}}
+{{< image src="/images/fuji-q.jpg" alt="Security gate for Fuji-Q Highland" >}}
 
 {{< /images >}}
 
@@ -34,9 +34,9 @@ An alarm sounded, the floor lowered and the coaster left the station. I was prop
 
 {{< images >}}
 
-{{< image src="/images/eejanaika-interior.jpg" alt="" >}}
+{{< image src="/images/eejanaika-interior.jpg" alt="Red storage lockers in foreground with seated rider in background on Eejanaika at Fuji-Q Highland" >}}
 
-{{< image src="/images/eejanaika.jpg" alt="" >}}
+{{< image src="/images/eejanaika.jpg" alt="Wide view of Eejanaika in action with car in drop at Fuji-Q Highland" >}}
 
 {{< /images >}}
 
@@ -44,9 +44,9 @@ Afterwards, I returned to Zokkon, near where I had purchased the priority ticket
 
 {{< images >}}
 
-{{< image src="/images/paniclock-exterior.jpg" alt="" >}}
+{{< image src="/images/paniclock-exterior.jpg" alt="Exterior view of the Paniclock ride at Fuji-Q Highland" >}}
 
-{{< image src="/images/paniclock.jpg" alt="" >}}
+{{< image src="/images/paniclock.jpg" alt="Two people in front of the Paniclock ride at Fuji-Q Highland" >}}
 
 {{< /images >}}
 
@@ -56,9 +56,9 @@ Unlike Eejanaika, Fujiyama did not go upside-down. Instead, I experienced the ta
 
 {{< images >}}
 
-{{< image src="/images/fujiyama-exterior.jpg" alt="" >}}
+{{< image src="/images/fujiyama-exterior.jpg" alt="A wide view of Fujiyama, a rollercoaster at Fuji-Q Highland" >}}
 
-{{< image src="/images/fujiyama-track.jpg" alt="" >}}
+{{< image src="/images/fujiyama-track.jpg" alt="Roller coaster tracks with gold painted car near the edge of a steep drop" >}}
 
 {{< /images >}}
 
