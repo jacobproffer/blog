@@ -9,3 +9,19 @@ categories: ["japan", "travel"]
 thumbnail: "/images/lake-ashi-ship.jpg"
 thumbnailAlt: "With water on the left, a populated pirate ship sails through Lake Ashi in Hakone, Japan"
 ---
+
+<!-- Trains to Hakone -->
+
+<!-- Walking around the shores of Lake Ashi / Hakone-jinja Shrine -->
+
+<!-- Pirate ship across Lake Ashi -->
+
+<!-- Lunch -->
+
+<!-- Chairlift to Owakudani -->
+
+<!-- Black eggs in Owakudani -->
+
+<!-- Descending Owakudani / Leaving Hakone -->
+
+<!-- Night in Shinjuku / bar -->
