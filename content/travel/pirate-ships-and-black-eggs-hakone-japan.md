@@ -16,12 +16,31 @@ From Hakone-Yumoto Station, the bus went into the hills of Hakone. It was a narr
 
 The port, on arrival, was devoid of any boats or ships. The water was calm, with fishers on the docks. The Hakone-jinja Shrine was visible from the port, which stood out with red paint. I walked along the edge of the port until I came to a narrow footpath to the left of a two lane road behind the shrine. The path, shrouded in tall grass and foliage, brought me to the left side of the shrine. Although the shrine gave the impression it was empty from the viewpoint of the port, the trees hid the mass of people who awaited their individual turns to have their photo taken in front of the shrine. I took photos of the shrine from afar and returned to the port.
 
+{{< images >}}
+
+{{< image src="/images/shrine.jpg" alt="" >}}
+
+{{< image src="/images/shrine-people.jpg" alt="" >}}
+
+{{< /images >}}
+
 As I walked to Hakonemachi-ko, I spotted a pirate ship headed towards the port. Fit with tall sails, and a modern motor, the ship was fast. It anchored before I was able to arrive at the dock. I entered a nearby ticket station and bought a ticket to sail across Lake Ashi to the volcanic valley of Owakudani. A standard ticket cost 1,000 yen, with the downside of not being allowed on the first class side of the ship. Though the other side of the deck was fine and provided panoramic views of the lake. For the duration of the transit, I took photographs from an observation deck atop the ship. As the ship neared the port of Togendai, the smell of sulfur filled the air.
 
 Once at Togendai, I had lunch at a restaurant on the second floor of the ropeway station. Near a window which overlooked Lake Ashi, I had cooked sausages and a sweet drink made with peaches from the Nagano prefecture of Japan. After I finished lunch, I took an escalator to the third floor of the ropeway station and bought a ticket for the cable car to Owakudani. The cable car was spacious, with ample seating, but only two other people boarded with me. Along the sixteen minute ride to the top of Owakudani, the smell of sulfur increased greatly. Volcanic vents poked out of the side of the valley, which were active with columns of steam.
 
-<!-- Black eggs in Owakudani -->
-I bought a pack of black eggs for 500 yen, which didn't taste different than ordinary hard boiled eggs.
+{{< images >}}
+
+{{< image src="/images/lake-ashi-ship.jpg" alt="" >}}
+
+{{< image src="/images/togendai-lunch.jpg" alt="" >}}
+
+{{< /images >}}
+
+<!-- Owakudani -->
+
+At a gift shop atop Owakudani, I waited in line to buy a fresh bag of hard-boiled black eggs for 500 yen. The unique black color, I learned, comes from water in the valley which has sulfur and iron. Although different in color, the taste was no different than a standard hard-boiled egg. Yet the aroma of sulfur clung to each egg, with and without a shell. I ate three of the eggs, which, if the rumor is correct, added five to seven years to my life span per egg. I pocketed the other two eggs and relaxed in the sun for a half hour. Afterwards, I walked to a different ropeway station with cable cars which descend the other side of the valley.
+
+{{< image src="/images/black-egg.jpg" alt="" >}}
 
 <!-- Descending Owakudani / Leaving Hakone -->
 
