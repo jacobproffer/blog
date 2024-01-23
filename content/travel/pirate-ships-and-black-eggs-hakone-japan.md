@@ -37,6 +37,7 @@ Once at Togendai, I had lunch at a restaurant on the second floor of the ropeway
 {{< /images >}}
 
 <!-- Owakudani -->
+The cable car stopped at the top of the valley,
 
 At a gift shop atop Owakudani, I waited in line to buy a fresh bag of hard-boiled black eggs for 500 yen. The unique black color, I learned, comes from water in the valley which has sulfur and iron. Although different in color, the taste was no different than a standard hard-boiled egg. Yet the aroma of sulfur clung to each egg, with and without a shell. I ate three of the eggs, which, if the rumor is correct, added five to seven years to my life span per egg. I pocketed the other two eggs and relaxed in the sun for a half hour. Afterwards, I walked to a different ropeway station with cable cars which descend the other side of the valley.
 
@@ -44,4 +45,6 @@ At a gift shop atop Owakudani, I waited in line to buy a fresh bag of hard-boile
 
 <!-- Descending Owakudani / Leaving Hakone -->
 
-<!-- Night in Shinjuku / bar -->
+At first, I tried to go to a horror themed speakeasy. The door had minimal signage but there was a large graphic of Leatherface on the door. Unfortunately, the bar was closed. At random, I chose a nearby bar with a French cinema theme. The establishment was small, with less than ten seats. The bar and bartender were in the middle of the cramped room, with a narrow staircase on the back wall which led to a bathroom on the upper floor. The bar was quiet on arrival with two Frenchman and the bartender. I ordered an Asahi beer and sat near the door. My plan was to have a single beer and call it a night. But soon, a family from Italy arrived, followed by a small group of friends from South Korea.
+
+I normally am socially awkward but after a beer, I joined the conversations. For five hours, I ordered beer after beer while I spoke with both groups of people. The family from Italy was on their first trip to Japan and was interested on what to do while in the country. A person I spoke to from South Korea sounded as if they were from the United States. Their English was perfect, with no noticeable accent, which was an honest surprise.
