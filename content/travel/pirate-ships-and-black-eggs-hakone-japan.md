@@ -4,7 +4,7 @@ date: 2023-12-26T10:22:43-05:00
 description: "From trains to pirate ships, I traveled to Hakone, Japan to eat black eggs in Owakudani."
 images: ["/images/lake-ashi-ship.jpg"]
 series: ["Japan"]
-tags: ["japan"]
+tags: ["japan", "shinjuku", "hotel", "train", "restaurant"]
 categories: ["japan", "travel"]
 thumbnail: "/images/lake-ashi-ship.jpg"
 thumbnailAlt: "With water on the left, a populated pirate ship sails through Lake Ashi in Hakone, Japan"
@@ -18,9 +18,9 @@ The port, on arrival, was devoid of any boats or ships. The water was calm, with
 
 {{< images >}}
 
-{{< image src="/images/shrine.jpg" alt="" >}}
+{{< image src="/images/shrine.jpg" alt="The orange top of the Hakone-jinja Shrine behind lush foliage." >}}
 
-{{< image src="/images/shrine-people.jpg" alt="" >}}
+{{< image src="/images/shrine-people.jpg" alt="A crowd of people in front of the Hakone-jinja Shrine." >}}
 
 {{< /images >}}
 
@@ -30,23 +30,25 @@ Once at Togendai, I had lunch at a restaurant on the second floor of the ropeway
 
 {{< images >}}
 
-{{< image src="/images/lake-ashi-ship.jpg" alt="" >}}
+{{< image src="/images/lake-ashi-ship.jpg" alt="A wooden pirate ship on Lake Ashi with distant hills." >}}
 
-{{< image src="/images/togendai-lunch.jpg" alt="" >}}
+{{< image src="/images/togendai-lunch.jpg" alt="A cast iron skillet of sausages and a glass of juice on a wooden tray." >}}
 
 {{< /images >}}
 
 <!-- Owakudani -->
 The cable car stopped at the top of the valley,
 
-At a gift shop atop Owakudani, I waited in line to buy a fresh bag of hard-boiled black eggs for 500 yen. The unique black color, I learned, comes from water in the valley which has sulfur and iron. Although different in color, the taste was no different than a standard hard-boiled egg. Yet the aroma of sulfur clung to each egg, with and without a shell. I ate three of the eggs, which, if the rumor is correct, added five to seven years to my life span per egg. I pocketed the other two eggs and relaxed in the sun for a half hour. Afterwards, I walked to a different ropeway station with cable cars which descend the other side of the valley.
+At a gift shop atop Owakudani, I waited in line to buy a fresh bag of hard-boiled black eggs for 500 yen. The unique black color, I learned, comes from water in the valley which has sulfur and iron. Although different in color, the taste was no different than a standard hard-boiled egg. Yet the aroma of sulfur clung to each egg, with and without a shell. I ate three of the eggs, which, if the rumor is correct, added five to seven years to my life span per egg. I pocketed the other two eggs and relaxed in the sun for a half hour. Afterwards, I walked to a different ropeway station on the opposite side of where I arrived to descend the other side of the valley.
 
-{{< image src="/images/black-egg.jpg" alt="" >}}
+{{< image src="/images/black-egg.jpg" alt="A black egg held in hand with Owakudani in background." >}}
 
 <!-- Descending Owakudani / Leaving Hakone -->
+
+For dinner, I went to the newly opened Kabukichō Tower in Shinjuku. The first floor was a mimic of nearby narrow alleys with plenty of neon signs and bar tools. I chose a restaurant called Kanto Shokusai and ordered a whiskey sour with a plate of chicken wings. In my honest opinion, neither the drink or food were good. The whiskey was watered-down and the wings were greasy. I quickly paid the bill and walked the nearby side streets of Kabukichō until I spotted a sign for a yokocho. The yokocho I stumbled upon was quiet, with a maze of narrow alleys and plenty of izakayas.
 
 At first, I tried to go to a horror themed speakeasy. The door had minimal signage but there was a large graphic of Leatherface on the door. Unfortunately, the bar was closed. At random, I chose a nearby bar with a French cinema theme. The establishment was small, with less than ten seats. The bar and bartender were in the middle of the cramped room, with a narrow staircase on the back wall which led to a bathroom on the upper floor. The bar was quiet on arrival with two Frenchman and the bartender. I ordered an Asahi beer and sat near the door. My plan was to have a single beer and call it a night. But soon, a family from Italy arrived, followed by a small group of friends from South Korea.
 
 I normally am socially awkward but after a beer, I joined the conversations. For five hours, I ordered beer after beer while I spoke with both groups of people. The family from Italy was on their first trip to Japan and was interested on what to do while in the country. I gave them recommendations and we added each other on social media. A person I spoke to from South Korea sounded as if they were from the United States. Their English was perfect, with no noticeable accent, which was an honest surprise. We discussed methods of learning Japanese and I asked them for recommendations on where to travel in South Korea.
 
-At midnight, after eight beers, I checked my phone and had a moment of panic. I was not sure if I had missed the last train from Shinjuku to Akihabara. I paid my tab and stumbled out of the door towards the nearest train station. I did not return to Shinjuku Station but a smaller nearby station. From what I remember, my Suica card did not work. Thankfully, I had cash on hand and paid for a ticket to reach Akihabara. My last remembrance of the night was the stairwell to the hotel. I woke early in the morning in the hotel room with the lights on, dressed, with the smell of cigarettes on my clothes. I had made returned safely.
+At midnight, after eight beers, I checked my phone and had a moment of panic. I was not sure if I had missed the last train from Shinjuku to Akihabara for the day. I paid my tab and stumbled out of the door towards the nearest train station. I did not return to Shinjuku Station but a smaller nearby station. From what I remember, my Suica card did not work. Thankfully, I had cash on hand and paid for a paper ticket to reach Akihabara. My last remembrance of the night was the stairwell to the hotel. I woke early in the morning in the hotel room with the lights on, dressed in the same clothes, with the heavy smell of cigarettes.
