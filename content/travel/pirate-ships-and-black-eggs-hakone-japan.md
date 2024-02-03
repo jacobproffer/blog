@@ -7,7 +7,7 @@ series: ["Japan"]
 tags: ["japan", "shinjuku", "hotel", "train", "restaurant"]
 categories: ["japan", "travel"]
 thumbnail: "/images/owakudani.jpg"
-thumbnailAlt: ""
+thumbnailAlt: "The volcanic valley of Owakudani with columns of steam."
 ---
 
 After a day of bad weather at Fuji-Q Highland, I boarded a train destined for the mountainous region of Hakone. Along with a standard fair ticket at Shinjuku Station, I was required to buy a reserved seat for a unique service train called the Limited Express Romancecar. The Romancecar first brought me to Odawara Station, which is an hour away from Tokyo. At Odawara Station, the train paused to decouple before it continued onward for another hour to Hakone-Yumoto Station. Once at Hakone-Yumoto Station, I was quick to board the first bus I came across. I was uncertain where the bus was destined for but figured I'd learn along the way.
