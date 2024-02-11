@@ -21,8 +21,8 @@ The main displays of the World War II room were an Yokosuka D4Y bomber, a Type-9
 <!--- Train to Ginza Station -->
 {{< images >}}
 
-{{< image src="/images/a6m_aircraft.jpg" alt="" >}}
-{{< image src="/images/kaiten_torpedo.jpg" alt="" >}}
+{{< image src="/images/a6m_aircraft.jpg" alt="An A6M Zero fighter plane in the lobby of the Yushukan Museum." >}}
+{{< image src="/images/kaiten_torpedo.jpg" alt="Left side view of a 48-foot Kaiten torpedo in the Yushukan Museum." >}}
 
 {{< /images >}}
 
