@@ -2,11 +2,11 @@
 title: "Harry Potter Studio Tour in Tokyo, Japan"
 date: 2024-02-07T10:21:47-05:00
 description: "Post description"
-images: ["/images/fuji-q-highland.jpg"]
+images: ["/images/dumbledore_room.jpg"]
 series: ["Japan"]
-tags: ["japan"]
+tags: ["japan", "shinjuku", "train"]
 categories: ["japan", "travel"]
-thumbnail: "/images/fuji-q-highland.jpg"
+thumbnail: "/images/dumbledore_room.jpg"
 thumbnailAlt: ""
 ---
 
@@ -27,7 +27,7 @@ The main displays of the World War II room were an Yokosuka D4Y bomber, a Type-9
 
 Once finished at the Yushukan Museum, I rode a train from Iidabashi Station to Shinjuku. I had to be in Ginza in the afternoon to catch a bus ride to the newly opened Harry Potter Studio Tour. It was before noon when I arrived at Shinjuku Station, which gave me ample time to wonder the city. To kill time, I stopped into a bookstore called Kinokuniya. With eleven floors, there were thousands of books to browse. I favored the sixth floor, which was dedicated to foreign-language books. Though I desired to buy more than one book, I left the store with a single Japanese graded reader.
 
-<!--- Snack at METoA Cafe and Kitchen -->
+Afterwards, I walked to the METoA Cafe and Kitchen in Ginza to wait for the bus ride. The first floor cafe was upscale, and offered a variety of beverages and sweets. Normally, I stay away from sugared drinks but ordered a frappuccino with ice cream. It was another hot day, and although it melted quickly, the ice cream was a welcomed relief. The bus arrived soon after, and parked in front of the cafe. The driver requested my name and checked a printed list before I was allowed to board. As with the bus ride to Fuji-Q Highland, I chose a seat behind the driver.
 
 <!--- Bus to Harry Potter Studio Tour -->
 
