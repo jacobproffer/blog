@@ -18,7 +18,6 @@ The exhibits on the second floor covered the conflicts the Imperial Japanese Arm
 
 The main displays of the World War II room were an Yokosuka D4Y bomber, a Type-97 Chi-Ha tank, and a replica Ohka Model 11 single-person attack plane. The center of the room was divided by a 48-foot Kaiten torpedo, which was a crew-guided suicide craft. Anti-aircraft and artillery weapons, along with a variety of Imperial Japanese items filled the rest of the space. A nearby room contained the personal property and letters of deceased Japanese soldiers. Hundreds of portraits lined the walls, each with a date of when a soldier was killed in action. Both optimism and hopelessness were a common theme in the letters on display.
 
-<!--- Train to Ginza Station -->
 {{< images >}}
 
 {{< image src="/images/a6m_aircraft.jpg" alt="An A6M Zero fighter plane in the lobby of the Yushukan Museum." >}}
@@ -26,8 +25,10 @@ The main displays of the World War II room were an Yokosuka D4Y bomber, a Type-9
 
 {{< /images >}}
 
+Once finished at the Yushukan Museum, I rode a train from Iidabashi Station to Shinjuku. I had to be in Ginza in the afternoon to catch a bus ride to the newly opened Harry Potter Studio Tour. It was before noon when I arrived at Shinjuku Station, which gave me ample time to wonder the city. To kill time, I stopped into a bookstore called Kinokuniya. With eleven floors, there were thousands of books to browse. I favored the sixth floor, which was dedicated to foreign-language books. Though I desired to buy more than one book, I left the store with a single Japanese graded reader.
+
 <!--- Snack at METoA Cafe and Kitchen -->
 
-<!--- Bus Harry Potter Studio Tour -->
+<!--- Bus to Harry Potter Studio Tour -->
 
 <!--- Harry Potter Studio Tour -->
