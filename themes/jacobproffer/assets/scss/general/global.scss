@@ -4,6 +4,7 @@
   --white: #fff;
   --gray: #d9d9d9;
   --orange: #ff683f;
+  --border: rgba(255, 255, 255, .1);
 
   --size-0: #{createFluidValue(8px, 10px)};
   --size-1: #{createFluidValue(16px, 20px)};
