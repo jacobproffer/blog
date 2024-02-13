@@ -4,9 +4,9 @@
   height: 100%;
   align-content: start;
   padding: var(--size-1) var(--size-1) var(--size-2);
-  border: 1px solid var(--border);
+  border: 2px solid var(--article-border, var(--border));
   border-radius: var(--size-1);
-  transition: opacity var(--transition-time) ease-in-out;
+  transition: opacity var(--transition-time) ease-in-out, border-color var(--transition-time) ease-in-out;
 
   @include screen-above($portrait) {
     --image-opacity: .8;
@@ -14,6 +14,7 @@
 
   @include hover {
     --image-opacity: 1;
+    --article-border: var(--orange);
 
     img {
       transform: scale(1.02);
@@ -32,6 +33,7 @@
   }
 
   &__date {
+    color: var(--gray);
     justify-content: end;
   }
 
@@ -58,11 +60,7 @@
     align-items: center;
     justify-content: space-between;
     padding-top: var(--size-1);
-    border-top: 1px solid var(--border);
-  }
-
-  &__type {
-    color: var(--gray);
+    border-top: 2px solid var(--border);
   }
 
   &__icon {

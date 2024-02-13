@@ -60,10 +60,10 @@
 
   &::before {
     position: absolute;
-    bottom: -3px;
+    bottom: -4px;
     left: 0;
     width: var(--item-width);
-    height: 1px;
+    height: 2px;
     background: var(--item-background, var(--white));
     opacity: var(--item-border-opacity, 1);
     transition: width var(--transition-time) ease-in-out;
