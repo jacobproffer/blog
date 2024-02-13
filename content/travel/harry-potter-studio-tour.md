@@ -1,13 +1,13 @@
 ---
 title: "Harry Potter Studio Tour in Tokyo, Japan"
 date: 2024-02-07T10:21:47-05:00
-description: "Post description"
+description: "A day of history, visiting the Yushukan Museum and the Harry Potter Studio Tour in Tokyo, Japan."
 images: ["/images/dumbledore_room.jpg"]
 series: ["Japan"]
 tags: ["japan", "shinjuku", "train"]
 categories: ["japan", "travel"]
 thumbnail: "/images/dumbledore_room.jpg"
-thumbnailAlt: ""
+thumbnailAlt: "A mannequin of Dumbledore from Harry Potter rests his hand on a wood desk with a phoenix bird nearby."
 ---
 
 Hungover, I left the hotel in the morning for the Yushukan Museum. The museum is rumored to be owned by a far-right company, with exhibits and information in favor of Imperial Japan. Whether in favor or not, I was interested in the military items on display throughout the museum. Located in the Chiyoda ward of Tokyo, the museum was a short ride from Akihabara Station. I arrived before the museum opened, but was able to view the shrines and memorials throughout the museum property. A notable shrine was Yasukuni Jinja, which is in dedication to those who died in service for Japan. The shrine is controversial because the shrine was a symbol of dedication to Hirohito throughout World War II.
@@ -29,6 +29,6 @@ Once finished at the Yushukan Museum, I rode a train from Iidabashi Station to S
 
 Afterwards, I walked to the METoA Cafe and Kitchen in Ginza to wait for the bus ride. The first floor cafe was upscale, and offered a variety of beverages and sweets. Normally, I stay away from sugared drinks but ordered a frappuccino with ice cream. It was another hot day, and although it melted quickly, the ice cream was a welcomed relief. The bus arrived soon after, and parked in front of the cafe. The driver requested my name and checked a printed list before I was allowed to board. As with the bus ride to Fuji-Q Highland, I chose a seat behind the driver.
 
-<!--- Bus to Harry Potter Studio Tour -->
+From Ginza, the bus ride to the Harry Potter Studio Tour was an hour. A large billboard of Daniel Radcliffe, Emma Watson, and Rupert Grint depicted in Chamber of Secrets was on display near the entrance to the studio lot. People, in mass, walked towards the front doors as the bus came to a stop in the parking lot. The ticket I bought had a specified time of five o'clock. With a half hour to spare, I toured the walkway in front of the studio. There was an oversized pair of Harry Potter's glasses, along with an oversized snake, and statues of Hagrid and Harry.
 
 <!--- Harry Potter Studio Tour -->
