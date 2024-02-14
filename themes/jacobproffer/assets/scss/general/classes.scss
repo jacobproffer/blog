@@ -60,7 +60,7 @@
 
   &::before {
     position: absolute;
-    bottom: -4px;
+    bottom: calc((var(--size-1) + 3px) * -1);
     left: 0;
     width: var(--item-width);
     height: 2px;
@@ -111,6 +111,10 @@
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 .bg-black {

@@ -107,6 +107,17 @@
     }
   }
 
+  &__footer {
+    row-gap: var(--size-2);
+    margin-top: var(--size-1);
+  }
+
+  &__footer-item {
+    row-gap: var(--size-0);
+    padding-top: var(--size-1);
+    border-top: 2px solid var(--border);
+  }
+
   &__tags-list {
     flex-wrap: wrap;
     row-gap: 10px;

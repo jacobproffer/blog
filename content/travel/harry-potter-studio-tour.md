@@ -3,7 +3,7 @@ title: "Harry Potter Studio Tour in Tokyo, Japan"
 date: 2024-02-07T10:21:47-05:00
 description: "Visiting the Yushukan Museum and the Harry Potter Studio Tour in Tokyo, Japan."
 images: ["/images/dumbledore_room.jpg"]
-series: ["Japan"]
+series: ["Japan", "Japan 2023"]
 tags: ["japan", "shinjuku", "train"]
 categories: ["japan", "travel"]
 thumbnail: "/images/dumbledore_room.jpg"

@@ -40,13 +40,15 @@
 
             {{ .Content }}
 
-            <footer>
-
-              <h2 id="tag-headline">Tags</h2>
+            <footer class="single__footer grid">
 
               {{ $taxonomy := "tags" }}
 
-                {{ with .Param $taxonomy }}
+              {{ with .Param $taxonomy }}
+
+                <div class="single__footer-item grid">
+
+                  <h2 class="no-margin" id="tag-headline">Tags</h2>
 
                   <ol
                     class="unstyled-list flex single__tags-list"
@@ -80,11 +82,60 @@
 
                   </ol>
 
-                {{ end }}
+                </div>
 
-                {{ if or .PrevInSection .NextInSection }}
+              {{ end }}
 
-                  <h2 class="other-posts__headline" id="other-posts-headline">Other Posts</h2>
+              {{ $seriesTaxonomy := "series" }}
+
+              {{ with .Param $seriesTaxonomy }}
+
+                <div class="single__footer-item grid">
+
+                  <h2 class="no-margin" id="series-headline">
+                    Series
+                  </h2>
+
+                  <ol
+                    class="unstyled-list flex singles__tags-list"
+                    aria-labelledby="series-headline"
+                  >
+
+                    {{ range  $index, $series := (. | sort) }}
+
+                      {{ with $.Site.GetPage (printf "/%s/%s" $seriesTaxonomy ( $series | urlize )) }}
+
+                        <li>
+
+                          {{ if $index }}
+                            ,
+                          {{ end }}
+
+                          <a
+                            href="{{ .Permalink }}"
+                          >
+
+                            {{ $series }}
+
+                          </a>
+
+                        </li>
+
+                      {{ end }}
+
+                    {{ end }}
+
+                  </ol>
+
+                </div>
+
+              {{ end }}
+
+              {{ if or .PrevInSection .NextInSection }}
+
+                <div class="single__footer-item grid">
+
+                  <h2 class="no-margin" id="other-posts-headline">Other Posts</h2>
 
                   <div
                     class="other-posts flex relative"
@@ -118,7 +169,9 @@
 
                   </div>
 
-                {{ end }}
+                </div>
+
+              {{ end }}
 
             </footer>
 

@@ -3,7 +3,7 @@ title: "A Short Day at Fuji-Q Highland in Fujiyoshida, Japan"
 date: 2023-12-13T13:41:33-05:00
 description: "My short day at Fuji-Q Highland in Fujiyoshida, Japan, shortened by heavy rain and thunder."
 images: ["/images/fuji-q-highland.jpg"]
-series: ["Japan"]
+series: ["Japan", "Japan 2023"]
 tags: ["japan", "shibuya", "shinjuku", "train"]
 categories: ["japan", "travel"]
 thumbnail: "/images/fuji-q-highland.jpg"

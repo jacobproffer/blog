@@ -3,7 +3,7 @@ title: "Pirate Ships and Black Eggs in Hakone, Japan"
 date: 2023-12-26T10:22:43-05:00
 description: "From trains to pirate ships, I traveled to Hakone, Japan to eat black eggs in Owakudani."
 images: ["/images/owakudani.jpg"]
-series: ["Japan"]
+series: ["Japan", "Japan 2023"]
 tags: ["japan", "shinjuku", "hotel", "train", "restaurant"]
 categories: ["japan", "travel"]
 thumbnail: "/images/owakudani.jpg"
