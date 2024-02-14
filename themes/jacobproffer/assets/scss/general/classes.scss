@@ -15,6 +15,10 @@
   text-transform: uppercase;
 }
 
+.balance {
+  text-wrap: balance;
+}
+
 .pseudo-link {
 	text-decoration: none;
 
@@ -60,7 +64,7 @@
 
   &::before {
     position: absolute;
-    bottom: calc((var(--size-1) + 3px) * -1);
+    bottom: var(--pseudo-offset);
     left: 0;
     width: var(--item-width);
     height: 2px;

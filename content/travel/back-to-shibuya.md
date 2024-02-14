@@ -3,7 +3,7 @@ title: "Back to Shibuya"
 date: 2023-03-21T09:20:02-04:00
 description: "I returned to Shibuya, a special ward in Tokyo, Japan."
 images: ["/images/shibuya-social.jpg"]
-series: ["Japan"]
+series: ["Japan", "Japan 2022"]
 tags: ["japan", "shibuya", "mandarake", "restaurant"]
 categories: ["japan", "travel"]
 thumbnail: "/images/shibuya-social.jpg"

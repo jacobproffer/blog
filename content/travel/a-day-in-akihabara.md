@@ -3,7 +3,7 @@ title: "A Day in Akihabara"
 date: 2023-03-20T11:21:11-04:00
 description: "My first full day back in Akihabara, in the Chiyoda ward of Tokyo, Japan."
 images: ["/images/akihabara-social.jpg"]
-series: ["Japan"]
+series: ["Japan", "Japan 2022"]
 tags: ["japan", "akihabara", "hotel", "diner", "mandarake"]
 categories: ["japan", "travel"]
 thumbnail: "/images/akihabara-social.jpg"

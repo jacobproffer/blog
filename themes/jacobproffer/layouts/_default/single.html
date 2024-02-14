@@ -16,7 +16,7 @@
           <div class="single__container">
             <div class="single__content-grid">
 
-              <h1>{{ .Title }}</h1>
+              <h1 class="balance">{{ .Title }}</h1>
 
             </div>
           </div>
@@ -31,16 +31,21 @@
 
           <div class="single__content-grid">
 
-            <time
-              class="visually-hide"
-              datetime="{{ .PublishDate.Format "2006-01-02" }}"
-            >
-              {{ .PublishDate.Format "January 2, 2006" }}
-            </time>
-
             {{ .Content }}
 
             <footer class="single__footer grid">
+
+              <div class="single__footer-item grid">
+
+                <h2 class="no-margin">Post Date</h2>
+
+                <time
+                  datetime="{{ .PublishDate.Format "2006-01-02" }}"
+                >
+                  {{ .PublishDate.Format "January 2, 2006" }}
+                </time>
+
+              </div>
 
               {{ $taxonomy := "tags" }}
 
@@ -131,43 +136,31 @@
 
               {{ end }}
 
-              {{ if or .PrevInSection .NextInSection }}
+              {{ $related := .Site.RegularPages.Related . | first 4 }}
+
+              {{ with $related }}
 
                 <div class="single__footer-item grid">
 
-                  <h2 class="no-margin" id="other-posts-headline">Other Posts</h2>
+                  <h2 class="no-margin" id="other-posts-headline">Related Posts</h2>
 
-                  <div
-                    class="other-posts flex relative"
+                  <ul
+                    class="unstyled-list other-posts grid relative"
                     role="region"
                     aria-labelledby="other-posts-headline"
                   >
 
-                    {{ with .PrevInSection }}
+                    {{ range . }}
 
-                      <a
-                        class="other-posts__item other-posts__item--prev"
-                        href="{{ .Permalink }}"
-                        rel="prev"
-                      >
-                        {{ .Title }}
-                      </a>
+                      <li>
+                        <a href="{{ .RelPermalink }}">
+                          {{ .LinkTitle }}
+                        </a>
+                      </li>
 
                     {{ end }}
 
-                    {{ with .NextInSection }}
-
-                      <a
-                        class="other-posts__item other-posts__item--next"
-                        href="{{ .Permalink }}"
-                        rel="next"
-                      >
-                        {{ .Title }}
-                      </a>
-
-                    {{ end }}
-
-                  </div>
+                  </ul>
 
                 </div>
 

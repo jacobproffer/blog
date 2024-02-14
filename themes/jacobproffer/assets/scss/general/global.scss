@@ -14,6 +14,8 @@
   --size-75-150: #{createFluidValue(75px, 150px)};
   --size-100-200: #{createFluidValue(100px, 200px)};
 
+  --pseudo-offset: calc((var(--size-1) + 2px) * -1);
+
   --body-copy-font: "Work Sans", sans-serif;
 
   --weight-medium: 500;
