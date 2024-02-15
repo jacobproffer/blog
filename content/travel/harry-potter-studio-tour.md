@@ -35,6 +35,8 @@ Near five o'clock, I walked to the front entrance. As I approached, a group of p
 
 The entrance to the tour was more of a second lobby. The lights were dimmed, while the darkened walls were covered with dozens of LED screens. Each screen cycled through movie posters from the Harry Potter franchise. When the room filled, the doors closed. The movie posters faded from view and a video played. Cast and crew, along with staff and past guests, were perfectly framed within each screen. The video welcomed guests to the Harry Potter Studio Tour. After the video finished, nearby doors opened to a large auditorium with red seats.
 
+On a theatre screen in the auditorium, a second short-film played in which director Chris Columnbus discussed the creation of the first film. Cast members, along with J.K. Rowling, discussed their experiences throughout the franchises history. After the screen faded to black, guests were directed towards a doorway in the theme of the entrance to the Great Hall of the Hogwarts castle. Six people were asked to come to the sizeable wooden door to cast a spell. After a series of sound effects played, the door opened inward and revealed a recreation of the Great Hall.
+
 <!--- Great Hall / Moving Staircases -->
 
 <!--- Dormitories / Classrooms -->
