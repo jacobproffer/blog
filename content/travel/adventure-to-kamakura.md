@@ -3,7 +3,7 @@ title: "Adventure to Kamakura"
 date: 2023-03-22T10:05:27-04:00
 description: "On my third day back in Japan, I visited a seaside city called Kamakura."
 images: ["/images/kamakura-social.jpg"]
-series: ["Japan"]
+series: ["Japan", "Japan 2022"]
 tags: ["japan", "kamakura", "akihabara", "temple"]
 categories: ["japan", "travel"]
 thumbnail: "/images/kamakura-social.jpg"

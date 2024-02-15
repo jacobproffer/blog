@@ -11,6 +11,14 @@
   position: relative;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.balance {
+  text-wrap: balance;
+}
+
 .pseudo-link {
 	text-decoration: none;
 
@@ -56,10 +64,10 @@
 
   &::before {
     position: absolute;
-    bottom: -3px;
+    bottom: var(--pseudo-offset);
     left: 0;
     width: var(--item-width);
-    height: 1px;
+    height: 2px;
     background: var(--item-background, var(--white));
     opacity: var(--item-border-opacity, 1);
     transition: width var(--transition-time) ease-in-out;
@@ -107,6 +115,10 @@
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 .bg-black {

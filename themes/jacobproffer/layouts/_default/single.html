@@ -16,7 +16,7 @@
           <div class="single__container">
             <div class="single__content-grid">
 
-              <h1>{{ .Title }}</h1>
+              <h1 class="balance">{{ .Title }}</h1>
 
             </div>
           </div>
@@ -31,22 +31,29 @@
 
           <div class="single__content-grid">
 
-            <time
-              class="visually-hide"
-              datetime="{{ .PublishDate.Format "2006-01-02" }}"
-            >
-              {{ .PublishDate.Format "January 2, 2006" }}
-            </time>
-
             {{ .Content }}
 
-            <footer>
+            <footer class="single__footer grid">
 
-              <h2 id="tag-headline">Tags</h2>
+              <div class="single__footer-item grid">
+
+                <h2 class="no-margin">Post Date</h2>
+
+                <time
+                  datetime="{{ .PublishDate.Format "2006-01-02" }}"
+                >
+                  {{ .PublishDate.Format "January 2, 2006" }}
+                </time>
+
+              </div>
 
               {{ $taxonomy := "tags" }}
 
-                {{ with .Param $taxonomy }}
+              {{ with .Param $taxonomy }}
+
+                <div class="single__footer-item grid">
+
+                  <h2 class="no-margin" id="tag-headline">Tags</h2>
 
                   <ol
                     class="unstyled-list flex single__tags-list"
@@ -80,45 +87,84 @@
 
                   </ol>
 
-                {{ end }}
+                </div>
 
-                {{ if or .PrevInSection .NextInSection }}
+              {{ end }}
 
-                  <h2 class="other-posts__headline" id="other-posts-headline">Other Posts</h2>
+              {{ $seriesTaxonomy := "series" }}
 
-                  <div
-                    class="other-posts flex relative"
+              {{ with .Param $seriesTaxonomy }}
+
+                <div class="single__footer-item grid">
+
+                  <h2 class="no-margin" id="series-headline">
+                    Series
+                  </h2>
+
+                  <ol
+                    class="unstyled-list flex singles__tags-list"
+                    aria-labelledby="series-headline"
+                  >
+
+                    {{ range  $index, $series := (. | sort) }}
+
+                      {{ with $.Site.GetPage (printf "/%s/%s" $seriesTaxonomy ( $series | urlize )) }}
+
+                        <li>
+
+                          {{ if $index }}
+                            ,
+                          {{ end }}
+
+                          <a
+                            href="{{ .Permalink }}"
+                          >
+
+                            {{ $series }}
+
+                          </a>
+
+                        </li>
+
+                      {{ end }}
+
+                    {{ end }}
+
+                  </ol>
+
+                </div>
+
+              {{ end }}
+
+              {{ $related := .Site.RegularPages.Related . | first 4 }}
+
+              {{ with $related }}
+
+                <div class="single__footer-item grid">
+
+                  <h2 class="no-margin" id="other-posts-headline">Related Posts</h2>
+
+                  <ul
+                    class="unstyled-list other-posts grid relative"
                     role="region"
                     aria-labelledby="other-posts-headline"
                   >
 
-                    {{ with .PrevInSection }}
+                    {{ range . }}
 
-                      <a
-                        class="other-posts__item other-posts__item--prev"
-                        href="{{ .Permalink }}"
-                        rel="prev"
-                      >
-                        {{ .Title }}
-                      </a>
+                      <li>
+                        <a href="{{ .RelPermalink }}">
+                          {{ .LinkTitle }}
+                        </a>
+                      </li>
 
                     {{ end }}
 
-                    {{ with .NextInSection }}
+                  </ul>
 
-                      <a
-                        class="other-posts__item other-posts__item--next"
-                        href="{{ .Permalink }}"
-                        rel="next"
-                      >
-                        {{ .Title }}
-                      </a>
+                </div>
 
-                    {{ end }}
-
-                  </div>
-
-                {{ end }}
+              {{ end }}
 
             </footer>
 

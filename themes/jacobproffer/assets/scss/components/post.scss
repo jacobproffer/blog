@@ -43,6 +43,7 @@
     grid-column: var(--thumbnail-column);
     max-width: var(--max-width);
     margin: var(--size-50-100) auto;
+    border-radius: var(--size-0);
 
     @include screen-below($laptopSm) {
       max-width: var(--container);
@@ -104,6 +105,17 @@
     @include screen-below($mobile) {
       --two-col-grid: 1fr;
     }
+  }
+
+  &__footer {
+    row-gap: var(--size-2);
+    margin-top: var(--size-1);
+  }
+
+  &__footer-item {
+    row-gap: var(--size-0);
+    padding-top: var(--size-1);
+    border-top: 2px solid var(--border);
   }
 
   &__tags-list {

@@ -4,7 +4,7 @@ date: 2023-02-01T09:40:49-05:00
 description: "Traveling back to Tokyo, Japan in 2022."
 images: ["/images/post-covid-social.jpg"]
 categories: ["japan", "travel"]
-series: ["Japan"]
+series: ["Japan", "Japan 2022"]
 tags: ["japan", "travel", "chicago", "flight", "airport", "akihabara"]
 thumbnail: "/images/post-covid-social.jpg"
 thumbnailAlt: "A Japan Airlines Boeing 787 at Chicago O'Hare."

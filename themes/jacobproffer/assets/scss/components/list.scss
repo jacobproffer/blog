@@ -1,8 +1,6 @@
 .list {
-  --list-vertical-gap: #{createFluidValue(25px, 100px, 880px, 1800px)};
-  --list-horizontal-gap: #{createFluidValue(32px, 64px, 1440px, 1800px)};
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  gap: var(--list-vertical-gap) var(--list-horizontal-gap);
+  gap: var(--size-1);
 
   &__headline {
     margin-bottom: #{createFluidValue(30px, 60px)};

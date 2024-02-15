@@ -4,7 +4,7 @@
   justify-content: space-evenly;
   gap: var(--size-1);
   max-width: max-content;
-  margin: var(--size-75-150) auto var(--size-50-100);
+  margin: var(--size-75-150) auto 0;
 
   &__link {
     @include size(50px);

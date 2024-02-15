@@ -4,6 +4,7 @@
   --white: #fff;
   --gray: #d9d9d9;
   --orange: #ff683f;
+  --border: rgba(255, 255, 255, .1);
 
   --size-0: #{createFluidValue(8px, 10px)};
   --size-1: #{createFluidValue(16px, 20px)};
@@ -12,6 +13,8 @@
   --size-50-100: #{createFluidValue(50px, 100px)};
   --size-75-150: #{createFluidValue(75px, 150px)};
   --size-100-200: #{createFluidValue(100px, 200px)};
+
+  --pseudo-offset: -22px;
 
   --body-copy-font: "Work Sans", sans-serif;
 
