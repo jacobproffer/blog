@@ -8,6 +8,7 @@ tags: ["japan", "shinjuku", "train"]
 categories: ["japan", "travel"]
 thumbnail: "/images/dumbledore_room.jpg"
 thumbnailAlt: "A mannequin of Dumbledore from Harry Potter rests a hand on a wood desk."
+draft: true
 ---
 
 Hungover, I left the hotel in the morning for the Yushukan Museum. The museum is rumored to be owned by a far-right company, with exhibits and information in favor of Imperial Japan. Whether in favor or not, I was interested in the military items on display throughout the museum. Located in the Chiyoda ward of Tokyo, the museum was a short ride from Akihabara Station. I arrived before the museum opened, but was able to view the shrines and memorials throughout the museum property. A notable shrine was Yasukuni Jinja, which is in dedication to those who died in service for Japan. The shrine is controversial because the shrine was a symbol of dedication to Hirohito throughout World War II.
