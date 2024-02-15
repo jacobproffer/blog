@@ -8,7 +8,6 @@ tags: ["japan", "shinjuku", "train"]
 categories: ["japan", "travel"]
 thumbnail: "/images/dumbledore_room.jpg"
 thumbnailAlt: "A mannequin of Dumbledore from Harry Potter rests a hand on a wood desk."
-draft: true
 ---
 
 Hungover, I left the hotel in the morning for the Yushukan Museum. The museum is rumored to be owned by a far-right company, with exhibits and information in favor of Imperial Japan. Whether in favor or not, I was interested in the military items on display throughout the museum. Located in the Chiyoda ward of Tokyo, the museum was a short ride from Akihabara Station. I arrived before the museum opened, but was able to view the shrines and memorials throughout the museum property. A notable shrine was Yasukuni Jinja, which is in dedication to those who died in service for Japan. The shrine is controversial because the shrine was a symbol of dedication to Hirohito throughout World War II.
@@ -34,7 +33,7 @@ From Ginza, the bus ride to the Harry Potter Studio Tour was an hour. A large bi
 
 Near five o'clock, I walked to the front entrance. As I approached, a group of people were turned away from the nearby ticket counter. No tickets were available in-person. After I showed my ticket to a staff member, I was ushered inside of the massive lobby. The lobby had immaculate walls, with a quote from J.K. Rowling which welcomed guests in golden letters. As the score of Harry Potter played aloud, children, teenagers, and adults roamed in and out of the expansive gift shop. The tour entry was located straight ahead of the main entrance, the center of attention.
 
-<!--- Harry Potter Studio Tour Introduction / Auditorium -->
+The entrance to the tour was more of a second lobby. The lights were dimmed, while the darkened walls were covered with dozens of LED screens. Each screen cycled through movie posters from the Harry Potter franchise. When the room filled, the doors closed. The movie posters faded from view and a video played. Cast and crew, along with staff and past guests, were perfectly framed within each screen. The video welcomed guests to the Harry Potter Studio Tour. After the video finished, nearby doors opened to a large auditorium with red seats.
 
 <!--- Great Hall / Moving Staircases -->
 
