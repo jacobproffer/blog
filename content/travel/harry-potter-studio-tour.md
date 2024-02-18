@@ -35,9 +35,18 @@ Near five o'clock, I walked to the front entrance. As I approached, a group of p
 
 The entrance to the tour was more of a second lobby. The lights were dimmed, while the darkened walls were covered with dozens of LED screens. Each screen cycled through movie posters from the Harry Potter franchise. When the room filled, the doors closed. The movie posters faded from view and a video played. Cast and crew, along with staff and past guests, were perfectly framed within each screen. The video welcomed guests to the Harry Potter Studio Tour. After the video finished, nearby doors opened to a large auditorium with red seats.
 
+<!-- {{< image src="/images/tour_lobby.jpg" alt="" >}} -->
+
 On a theatre screen in the auditorium, a second short-film played in which director Chris Columnbus discussed the creation of the first film. Cast members, along with J.K. Rowling, discussed their experiences throughout the franchises history. After the screen faded to black, guests were directed towards a doorway in the theme of the entrance to the Great Hall of the Hogwarts castle. Six people were asked to come to the sizeable wooden door to cast a spell. After a series of sound effects played, the door opened inward and revealed a recreation of the Great Hall.
 
 The lights in the Great Hall were neon blue. Braziers spaced evenly along each walls held a deep orange glow. A mannequin of Dumbledore, at a podium, was the sole object in the room in white light. As other guests and I entered the Great Hall, the blue and orange lights dimmed and track lights high above the room resumed normal lighting. Along with other mannequins of characters, such as Snape and Hagrid, long wooden tables held dozens of silver plates and goblets along both sides of the room. A doorway at the end of the Great Hall opened, with the Grand Staircases beyond.
+
+{{< images >}}
+
+{{< image src="/images/great_hall_door.jpg" alt="Six people in front of a large wooden door." >}}
+{{< image src="/images/great_hall.jpg" alt="Guests within a recreation of Hogwart's Great Hall." >}}
+
+{{< /images >}}
 
 <!--- Moving Staircases -->
 
@@ -45,7 +54,7 @@ The lights in the Great Hall were neon blue. Braziers spaced evenly along each w
 
 <!--- Haunted Forest -->
 
-<!--- Butterbeer -->
+Midway through the tour, I came to a butterbeer cafe with rows of wooden tables. Each table had different pages of the Daily Prophet engrained. A mug of butterbeer cost 1,100 yen, which came with a thin plastic bag. I had experienced butterbeer before in Osaka, at the Wizarding World of Harry Potter. The taste was the same in Tokyo, reminiscent of root beer with cream. Though I was allowed to keep the mug this time. The plastic bag was intended to be used to store the mug after I washed it in one of the sinks concealed in a wall of butterbeer kegs.
 
 <!--- Privet Drive -->
 
