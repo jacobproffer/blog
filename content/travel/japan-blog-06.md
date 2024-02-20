@@ -5,7 +5,7 @@ description: "Jacob Proffer's time in Shibuya, Tokyo, Japan."
 images: ["/images/shibuya_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "shibuya", "akihabara", "mandarake", "restaurant"]
-series: ["Japan"]
+series: ["Japan", "Japan 2017"]
 thumbnail: "/images/shibuya_social.jpg"
 thumbnailAlt: "The Shibuya Crossing, a famous crosswalk."
 ---

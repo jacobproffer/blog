@@ -5,7 +5,7 @@ description: "Leaving Tokyo, Japan."
 images: ["/images/narita_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "shinjuku", "hotel", "narita", "airport"]
-series: ["Japan"]
+series: ["Japan", "Japan 2017"]
 thumbnail: "/images/narita_social.jpg"
 thumbnailAlt: "A view of the tarmac at the Narita airport."
 ---

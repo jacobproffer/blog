@@ -5,7 +5,7 @@ description: "Jacob Proffer's time in Akihabara."
 images: ["/images/japan_blog_05_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "travel", "shinjuku", "hotel", "train"]
-series: ["Japan"]
+series: ["Japan", "Japan 2017"]
 thumbnail: "/images/japan_blog_05_social.jpg"
 thumbnailAlt: "A drug store in Akihabara in Central Tokyo."
 ---

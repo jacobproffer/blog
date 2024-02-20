@@ -5,7 +5,7 @@ description: "Back in Japan."
 images: ["/images/japan_blog_10_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "airport", "hotel", "osaka"]
-series: ["Japan"]
+series: ["Japan", "Japan 2019"]
 thumbnail: "/images/japan_blog_10_social.jpg"
 thumbnailAlt: "A Japan Airlines Boeing 787-9 at the Narita airport."
 ---

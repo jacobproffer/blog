@@ -5,7 +5,7 @@ description: "Jacob Proffer's time in Shinjuku, Tokyo, Japan."
 images: ["/images/japan_blog_03_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "narita", "shinjuku", "train", "hotel"]
-series: ["Japan"]
+series: ["Japan", "Japan 2017"]
 thumbnail: "/images/japan_blog_03_social.jpg"
 thumbnailAlt: "A sign for Kabukicho in Shinjuku Station."
 ---

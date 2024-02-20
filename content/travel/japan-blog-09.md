@@ -5,7 +5,7 @@ description: "The night before my 2019 trip to Japan."
 images: ["/images/narita_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "trip", "osaka", "kyoto", "nara"]
-series: ["Japan"]
+series: ["Japan", "Japan 2019"]
 thumbnail: "/images/narita_social.jpg"
 ---
 
