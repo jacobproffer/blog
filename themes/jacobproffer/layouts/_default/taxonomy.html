@@ -20,13 +20,29 @@
 
           {{ $sortedPages := sort .Pages "Title" }}
 
-          {{ range $sortedPages }}
+          {{ if or ( eq .Type "series" ) ( eq .Type "tags" ) ( eq .Type "categories" ) }}
 
-            <li class="list__item grid relative">
+            {{ range $sortedPages }}
 
-              {{ .Render "article" }}
+              <li class="list__item grid relative">
 
-            </li>
+                {{ .Render "article" }}
+
+              </li>
+
+            {{ end }}
+
+          {{ else }}
+
+            {{ range .Pages }}
+
+              <li class="list__item grid relative">
+
+                {{ .Render "article" }}
+
+              </li>
+
+            {{ end }}
 
           {{ end }}
 

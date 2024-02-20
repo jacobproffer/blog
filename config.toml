@@ -34,13 +34,14 @@ ignoreErrors = ["error-disable-taxonomy"]
 
   [[menu.main]]
     identifier = "travel"
-    name = "Travel"
+    name = "Travel Posts"
     pageRef = "/travel/"
 
   [[menu.main]]
     identifier = "series"
     name = "Series"
     pageRef = "/series/"
+    weight = 1
 
   [[menu.social]]
     identifier = "dribbble"
