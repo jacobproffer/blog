@@ -54,7 +54,7 @@ The grandest room of the tour was the Haunted Forest. With fog, a dark ambience,
 
 Midway through the tour, I came to a butterbeer cafe with rows of wooden tables. Each table had different pages of the Daily Prophet engrained. A mug of butterbeer cost 1,100 yen, which came with a thin plastic bag. I had experienced butterbeer before in Osaka, at the Wizarding World of Harry Potter. The taste was the same in Tokyo, reminiscent of root beer with cream. Though I was allowed to keep the mug this time. The plastic bag was intended to be used to store the mug after I washed it in one of the sinks concealed in a wall of butterbeer kegs.
 
-<!--- Privet Drive -->
+The butterbeer cafe was next to a sizeable outdoor section of the tour. Notable was 4 Privet Drive, with the cupboard under the stairs. The upstairs was off-limits, though I was allowed to explore the rest of the home. The dining room was detailed with a cabinet of fine china, portraits of Dudley Dursey, and a ballooned Ms. Mason, body halfway out the window. Hagrid's motorcycle was parked near the front lawn, a popular display because guests were allowed to act as the driver and passenger. Nearby was the triple decker Knight Bus, and a replica wooden bridge from Hogwarts.
 
 <!--- Train Station -->
 
