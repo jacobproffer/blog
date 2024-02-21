@@ -56,9 +56,7 @@ Midway through the tour, I came to a butterbeer cafe with rows of wooden tables.
 
 The butterbeer cafe was next to a sizeable outdoor section of the tour. Notable was 4 Privet Drive, with the cupboard under the stairs. The upstairs was off-limits, though I was allowed to explore the rest of the home. The dining room was detailed with a cabinet of fine china, portraits of Dudley Dursey, and a ballooned Ms. Mason, body halfway out the window. Hagrid's motorcycle was parked near the front lawn, a popular display because guests were allowed to act as the driver and passenger. Nearby was the triple decker Knight Bus, and a replica wooden bridge from Hogwarts.
 
-<!--- Train Station -->
-
-<!--- Ministry of Magic -->
+Hogsmeade Station, with a steaming Olton Hall train, had the ambience of a train station. The sole carriage car, which was walkable, displayed Harry throughout the years on the way to Hogwarts. Each roomette was detailed with mannequins and props, such as an issue of the Quibbler. Moreover, the station served as a mid-tour gift shop. The Railway Shop sold shirts, stationary, and bags. An adjacent room was a recreation of the central square of the Ministry of Magic. A statue in the middle depicted Muggles being crushed under the weight of a marble column.
 
 <!--- Diagon Alley -->
 

@@ -13,14 +13,14 @@
           class="list__headline gsap-fade-in h2"
           id="list-headline"
         >
-          {{ .Title |singularize }}
+          {{ .Title }}
         </h1>
 
         <ol class="unstyled-list list grid gsap-stagger-in">
 
           {{ $sortedPages := sort .Pages "Title" }}
 
-          {{ if or ( eq .Type "series" ) ( eq .Type "tags" ) ( eq .Type "categories" ) }}
+          {{ if or ( eq .RelPermalink "/series/" ) ( eq .Type "tags" ) ( eq .Type "categories" ) }}
 
             {{ range $sortedPages }}
 
