@@ -4,7 +4,7 @@ date: 2024-02-07T10:21:47-05:00
 description: "Visiting the Yushukan Museum and the Harry Potter Studio Tour in Tokyo, Japan."
 images: ["/images/dumbledore_room.jpg"]
 series: ["Japan", "Japan 2023"]
-tags: ["japan", "shinjuku", "train"]
+tags: ["japan", "shinjuku", "train", "bus"]
 categories: ["japan", "travel"]
 thumbnail: "/images/dumbledore_room.jpg"
 thumbnailAlt: "A mannequin of Dumbledore from Harry Potter rests a hand on a wood desk."
@@ -56,9 +56,9 @@ Midway through the tour, I came to a butterbeer cafe with rows of wooden tables.
 
 The butterbeer cafe was next to a sizeable outdoor section of the tour. Notable was 4 Privet Drive, with the cupboard under the stairs. The upstairs was off-limits, though I was allowed to explore the rest of the home. The dining room was detailed with a cabinet of fine china, portraits of Dudley Dursey, and a ballooned Ms. Mason, body halfway out the window. Hagrid's motorcycle was parked near the front lawn, a popular display because guests were allowed to act as the driver and passenger. Nearby was the triple decker Knight Bus, and a replica wooden bridge from Hogwarts.
 
-Hogsmeade Station, with a steaming Olton Hall train, had the ambience of a train station. The sole carriage car, which was walkable, displayed Harry throughout the years on the way to Hogwarts. Each roomette was detailed with mannequins and props, such as an issue of the Quibbler. Moreover, the station served as a mid-tour gift shop. The Railway Shop sold shirts, stationary, and bags. An adjacent room was a recreation of the central square of the Ministry of Magic. A statue in the middle depicted Muggles being crushed under the weight of a marble column.
+Hogsmeade Station, with a steaming Olton Hall train, had the ambience of a train station. The sole carriage car, which was walkable, displayed Harry throughout the years on the way to Hogwarts. Each roomette was detailed with mannequins of Harry, issues of the Quibbler and snack wrappers. Moreover, the station served as a mid-tour gift shop. The Railway Shop sold shirts, stationary, and bags. An adjacent room was a recreation of the central square of the Ministry of Magic. A statue in the middle depicted Muggles being crushed under the weight of a marble column.
 
-<!--- Diagon Alley -->
+The second to last presentation was the main avenue of Diagon Alley. Although stores were not open to the public, windows and entryways were dressed with proper decorations. The upper windows of Ollivander's Wand Shop were full of wand boxes, while Weasleys' Wizard Wheezes entryway had a full size Puking Pastille display. The facade of Gringotts Wizarding Bank, with slanted pillars, was a popular spot for photographs, although the front door remained closed. The central walkway of Diagon Alley led into a long hallway with oversized printouts of the Daily Prophet, the majority of which depicted Harry Potter in a negative manor.
 
 <!--- End of tour / gift shop / food -->
 
