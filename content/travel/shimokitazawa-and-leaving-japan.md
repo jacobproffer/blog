@@ -4,7 +4,7 @@ date: 2023-03-29T13:43:48-04:00
 description: "For the final day in Japan, I visited Shimokiatazawa before returning to Akihabara to shop."
 images: ["/images/shimokitazawa-social.jpg"]
 series: ["Japan", "Japan 2022"]
-tags: ["japan", "akihabara", "mandarake", "airport"]
+tags: ["japan", "akihabara", "kamakura", "mandarake", "airport"]
 categories: ["japan", "travel"]
 thumbnail: "/images/shimokitazawa-social.jpg"
 thumbnailAlt: "A sign that says Shimokitazawa."

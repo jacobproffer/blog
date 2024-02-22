@@ -20,7 +20,7 @@
 
           {{ $sortedPages := sort .Pages "Title" }}
 
-          {{ if or ( eq .RelPermalink "/series/" ) ( eq .Type "tags" ) ( eq .Type "categories" ) }}
+          {{ if or ( eq .RelPermalink "/series/" ) ( eq .RelPermalink "/tags/" ) ( eq .RelPermalink "/categories/" ) }}
 
             {{ range $sortedPages }}
 

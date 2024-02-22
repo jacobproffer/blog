@@ -4,7 +4,7 @@ date: 2024-02-07T10:21:47-05:00
 description: "Visiting the Yushukan Museum and the Harry Potter Studio Tour in Tokyo, Japan."
 images: ["/images/dumbledore_room.jpg"]
 series: ["Japan", "Japan 2023"]
-tags: ["japan", "shinjuku", "train", "bus"]
+tags: ["japan", "shinjuku", "train", "bus", "kinokuniya"]
 categories: ["japan", "travel"]
 thumbnail: "/images/dumbledore_room.jpg"
 thumbnailAlt: "A mannequin of Dumbledore from Harry Potter rests a hand on a wood desk."
@@ -58,8 +58,8 @@ The butterbeer cafe was next to a sizeable outdoor section of the tour. Notable 
 
 Hogsmeade Station, with a steaming Olton Hall train, had the ambience of a train station. The sole carriage car, which was walkable, displayed Harry throughout the years on the way to Hogwarts. Each roomette was detailed with mannequins of Harry, issues of the Quibbler and snack wrappers. Moreover, the station served as a mid-tour gift shop. The Railway Shop sold shirts, stationary, and bags. An adjacent room was a recreation of the central square of the Ministry of Magic. A statue in the middle depicted Muggles being crushed under the weight of a marble column.
 
-The second to last presentation was the main avenue of Diagon Alley. Although stores were not open to the public, windows and entryways were dressed with proper decorations. The upper windows of Ollivander's Wand Shop were full of wand boxes, while Weasleys' Wizard Wheezes entryway had a full size Puking Pastille display. The facade of Gringotts Wizarding Bank, with slanted pillars, was a popular spot for photographs, although the front door remained closed. The central walkway of Diagon Alley led into a long hallway with oversized printouts of the Daily Prophet, the majority of which depicted Harry Potter in a negative manor.
+The second to last presentation was the main avenue of Diagon Alley. Although stores were not open to the public, windows and entryways were dressed with proper decorations. The upper windows of Ollivander's Wand Shop were full of wand boxes, while Weasleys' Wizard Wheezes entryway had a full size Puking Pastille display. The facade of Gringotts Wizarding Bank, with slanted pillars, was a popular spot for photographs, although the front door remained closed. The central walkway of Diagon Alley led into a long hallway with oversized printouts of the Daily Prophet, the majority of which depicted Harry Potter in a negative manor. The final display was a recreation of the Hogwarts Castle model used in the first film, which had 2,500 fiber-optic lights and spanned fifty feet in diameter.
 
-<!--- End of tour / gift shop / food -->
+After the tour was completed, I went to the gift shop. The store was massive, with each Hogwarts house represented in individual sections. There were robes, t-shirts, sweaters, mugs, stationary, and stickers. Wands, both cheap and premium models, were the popular items in the store. Expensive replicas, such as the Triwizard Cup, were for sale behind display cases. Every Harry Potter book was for sale, along with pop-up versions for children. I bought a Japanese edition of Harry Potter and the Philosopher's Stone, which came with a dust jacket unique to the studio tour.
 
 <!--- Returning to Ginza / Hotel -->
