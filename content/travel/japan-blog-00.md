@@ -5,7 +5,7 @@ description: The night before leaving for Tokyo, Japan.
 images: ["/images/japan_blog_00_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "airport", "shinjuku", "akihabara", "railway"]
-series: ["Japan"]
+series: ["Japan", "Japan 2017"]
 thumbnail: "/images/japan_blog_00_social.jpg"
 thumbnailAlt: "Woman with a rolling suitcase in the Narita airport."
 ---

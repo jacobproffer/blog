@@ -4,7 +4,7 @@ date: 2023-03-27T09:43:42-04:00
 description: "Five years later, I returned to Shinjuku to re-visit TOHO Cinemas and to have a drink at the Park Hyatt Tokyo's bar."
 images: ["/images/shinjuku-social.jpg"]
 series: ["Japan", "Japan 2022"]
-tags: ["japan", "shinjuku", "akihabara", "kabukicho"]
+tags: ["japan", "shinjuku", "akihabara", "kabukicho", "kinokuniya"]
 categories: ["japan", "travel"]
 thumbnail: "/images/shinjuku-social.jpg"
 thumbnailAlt: "Entrance to Shinjuku Station."

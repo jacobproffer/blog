@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+  {{ partial "hero" . }}
+
+  <main
+    id="content"
+    tabindex="-1"
+  >
+    <section aria-labelledby="list-headline">
+      <div class="container">
+
+        <h1
+          class="list__headline gsap-fade-in h2"
+          id="list-headline"
+        >
+          {{ .Title }}
+        </h1>
+
+        <ol class="unstyled-list list grid gsap-stagger-in">
+
+          {{ $sortedPages := sort .Pages "Title" }}
+
+          {{ if or ( eq .RelPermalink "/series/" ) ( eq .RelPermalink "/tags/" ) ( eq .RelPermalink "/categories/" ) }}
+
+            {{ range $sortedPages }}
+
+              <li class="list__item grid relative">
+
+                {{ .Render "article" }}
+
+              </li>
+
+            {{ end }}
+
+          {{ else }}
+
+            {{ range .Pages }}
+
+              <li class="list__item grid relative">
+
+                {{ .Render "article" }}
+
+              </li>
+
+            {{ end }}
+
+          {{ end }}
+
+        </ol>
+
+      </div>
+    </section>
+  </main>
+
+{{ end }}

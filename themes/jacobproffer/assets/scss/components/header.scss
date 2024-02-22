@@ -58,13 +58,17 @@
 
       &.open {
         display: flex;
+        flex-direction: column;
+        row-gap: var(--size-4);
       }
     }
   }
 
   &__nav-item {
     &:not(:last-of-type) {
-      margin-right: #{createFluidValue(20px, 40px)};
+      @include screen-above($tablet) {
+        margin-right: #{createFluidValue(20px, 40px)};
+      }
     }
   }
 

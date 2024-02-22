@@ -5,7 +5,7 @@ description: "Jacob Proffer's time in Ikebukuro and Akihabara, Tokyo, Japan."
 images: ["/images/akihabara_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "shinjuku", "akihabara", "restaurant", "train"]
-series: ["Japan"]
+series: ["Japan", "Japan 2017"]
 thumbnail: "/images/akihabara_social.jpg"
 thumbnailAlt: "Signage for maid cafes in an alley in Akihabara."
 ---

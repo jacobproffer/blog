@@ -5,7 +5,7 @@ description: "Immigration and the train ride to Tokyo, Japan."
 images: ["/images/japan_blog_02_social.jpg"]
 categories: ["travel"]
 tags: ["japan", "shinjuku", "airport", "narita"]
-series: ["Japan"]
+series: ["Japan", "Japan 2017"]
 thumbnail: "/images/japan_blog_02_social.jpg"
 thumbnailAlt: "Coin lockers in Shinjuku Station."
 ---

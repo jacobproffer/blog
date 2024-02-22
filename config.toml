@@ -7,7 +7,6 @@ paginatePath = "posts"
 copyright = "2024"
 enableRobotsTXT = true
 timeout = 60000
-disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 
 [imaging]
@@ -37,6 +36,22 @@ ignoreErrors = ["error-disable-taxonomy"]
     identifier = "travel"
     name = "Travel"
     pageRef = "/travel/"
+
+  [[menu.main]]
+    identifier = "series"
+    name = "Series"
+    pageRef = "/series/"
+    weight = 1
+
+  [[menu.internal]]
+    identifier = "tags"
+    name = "Tags"
+    pageRef = "/tags/"
+
+  [[menu.internal]]
+    identifier = "categories"
+    name = "Categories"
+    pageRef = "/categories/"
 
   [[menu.social]]
     identifier = "dribbble"

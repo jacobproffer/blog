@@ -4,7 +4,7 @@ date: 2023-12-13T13:41:33-05:00
 description: "My short day at Fuji-Q Highland in Fujiyoshida, Japan, shortened by heavy rain and thunder."
 images: ["/images/fuji-q-highland.jpg"]
 series: ["Japan", "Japan 2023"]
-tags: ["japan", "shibuya", "shinjuku", "train"]
+tags: ["japan", "shibuya", "shinjuku", "train", "bus"]
 categories: ["japan", "travel"]
 thumbnail: "/images/fuji-q-highland.jpg"
 thumbnailAlt: "Wide view of Eejanaika, a rollercoaster at Fuji-Q Highland, with two people walking in foreground"

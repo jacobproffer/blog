@@ -2,6 +2,8 @@
 
   {{ if eq .Title "Japaneses" }}
     Japanese - {{ .Site.Title }}
+  {{ else if eq .Title "Romanium" }}
+    Romania - {{ .Site.Title }}
   {{ else }}
     {{ .Title | singularize  }} - {{ .Site.Title }}
   {{ end }}
