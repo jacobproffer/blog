@@ -1,6 +1,6 @@
 ---
 title: "Harry Potter Studio Tour in Tokyo, Japan"
-date: 2024-02-07T10:21:47-05:00
+date: 2024-02-22T10:21:47-05:00
 description: "Visiting the Yushukan Museum and the Harry Potter Studio Tour in Tokyo, Japan."
 images: ["/images/dumbledore_room.jpg"]
 series: ["Japan", "Japan 2023"]
@@ -60,6 +60,13 @@ Hogsmeade Station, with a steaming Olton Hall train, had the ambience of a train
 
 The second to last presentation was the main avenue of Diagon Alley. Although stores were not open to the public, windows and entryways were dressed with proper decorations. The upper windows of Ollivander's Wand Shop were full of wand boxes, while Weasleys' Wizard Wheezes entryway had a full size Puking Pastille display. The facade of Gringotts Wizarding Bank, with slanted pillars, was a popular spot for photographs, although the front door remained closed. The central walkway of Diagon Alley led into a long hallway with oversized printouts of the Daily Prophet, the majority of which depicted Harry Potter in a negative manor. The final display was a recreation of the Hogwarts Castle model used in the first film, which had 2,500 fiber-optic lights and spanned fifty feet in diameter.
 
+{{< images >}}
+
+{{< image src="/images/haunted_forest_car.jpg" alt="A dented 1960 Ford Anglia 105E in a replica of the Haunted Forest." >}}
+{{< image src="/images/wand_shop.jpg" alt="The facade of Ollivander's Wand Shop made of brick." >}}
+
+{{< /images >}}
+
 After the tour was completed, I went to the gift shop. The store was massive, with each Hogwarts house represented in individual sections. There were robes, t-shirts, sweaters, mugs, stationary, and stickers. Wands, both cheap and premium models, were the popular items in the store. Expensive replicas, such as the Triwizard Cup, were for sale behind display cases. Every Harry Potter book was for sale, along with pop-up versions for children. I bought a Japanese edition of Harry Potter and the Philosopher's Stone, which came with a dust jacket unique to the studio tour.
 
-<!--- Returning to Ginza / Hotel -->
+Before I returned to the bus, I visited The Food Hall for a bite to eat. The cafeteria resembled the Great Hall, with rows of long wooden tables and banners for each Hogwarts house. For 2,200 yen, I ordered the Platform 9 ¾ All Day Breakfast. The dish contained sunny side eggs, baked beans, a sausage link, bacon, shiitake mushrooms, hash browns, and cheese toast with a 9 ¾ logo burnt into the bread. The breakfast tasted fantastic. In particular, I enjoyed the beans and hash browns. Though I had never ate cheese toast before. It was odd but tasteful.
