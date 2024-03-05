@@ -16,7 +16,9 @@ On arrival, I exited Yokohama Station and walked in the direction of a shopping 
 
 I arrived two hours before Aka-Renga Soko was due to open. Aka-Renga Soko opens at eleven each morning, which gave me ample time to explore the area. The warehouse complex consisted of two elongated multi-story red brick buildings. Near the two structures, a sizeable white painted Shikishima-class patrol vessel of the Japanese Coast Guard was docked. Next to the ship, members of the Japanese Coast Guard conducted repelling training off of a high building. As commands were sternly yelled, I laid on a shaded bench in an open area of the property and took a nap.
 
-<!-- Chinatown -->
+<!-- The city of Yokohama and Chinatown -->
+
+When Aka-Renga Soko opened at eleven, I walked back-and-forth through the first floor dining options. There were a variety of fast food and upscale restaurants to choose from. I selected popcorn shrimp and ginger ale from a seafood restaurant called Kua Aina. Afterwards, I explored every store of both buildings in the shopping complex. A shop which stood out to me was Kissora, which sold a variety of leather gamaguchi wallets, pouches, and bags. For a good ten minutes, I debated a dark green coin wallet since I had plenty of change. Regrettably, I told myself no.
 
 <!-- Returning to Akihabara -->
 
