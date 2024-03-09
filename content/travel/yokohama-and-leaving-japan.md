@@ -29,5 +29,6 @@ There were outlets for my favorite Japanese brands Montbell and Snow Peak. Beams
 <!-- Packing -->
 
 <!-- Leaving for Haneda -->
+For no particular reason other than to be early, I arrived at the Haneda Airport seven hours before my flight. I was beyond early. The Delta ticket counter was not open, which provided plenty of time to explore the unsecured part of the terminal. With sliding doors and wooden exteriors, the shops and restaurants on the level above the ticket counters were themed in the style of traditional Japanese architecture. For breakfast, I ordered a burger with fries from a Mos Burger. I had never been to a Mos Burger before, but the food was good.
 
 <!-- Haneda terminal -->
