@@ -26,9 +26,10 @@ There were outlets for my favorite Japanese brands Montbell and Snow Peak. Beams
 
 <!-- Returning to Akihabara -->
 
-<!-- Packing -->
+<!-- Packing / Remainder of time in Akihabara -->
 
 <!-- Leaving for Haneda -->
+
 For no particular reason other than to be early, I arrived at the Haneda Airport seven hours before my flight. I was beyond early. The Delta ticket counter was not open, which provided plenty of time to explore the unsecured part of the terminal. With sliding doors and wooden exteriors, the shops and restaurants on the level above the ticket counters were themed in the style of traditional Japanese architecture. For breakfast, I ordered a burger with fries from a Mos Burger. I had never been to a Mos Burger before, but the food was good.
 
-<!-- Haneda terminal -->
+After I finished the meal, I ventured onto the third level of the terminal, which was accessible via a bridge. The bridge had the appearance of old wood and beams, in theme with the nearby shops and restaurants. Past the bridge, there was a life size Japanese village, though the structures lacked windows or in-depth detail. I walked through the village and a long hallway, which led to an outdoor patio. The patio was spacious, with wide walkways and plenty of benches, and provided wide views of the tarmac and runways. I had never seen such a thing in an airport before.
