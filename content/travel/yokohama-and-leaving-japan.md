@@ -26,7 +26,8 @@ There were outlets for my favorite Japanese brands Montbell and Snow Peak. Beams
 
 <!-- Returning to Akihabara -->
 
-<!-- Packing / Remainder of time in Akihabara -->
+<!-- Remainder of time in Akihabara / Packing -->
+In the Moa Building in Akihabara, I explored two military surplus stores. The first store was S&Graf, a surplus store which focused on replica military uniforms. Although the bulk of the inventory was for modern military forces, S&Graf sold replica Axis World War II uniforms, gear, and music. There were racks of Imperial Japanese uniforms, German uniforms, and piles of Nazi officer caps and garrison covers. Expensive items, such as replica German medals and unique CDs were behind display cases. Due to the sensitive nature of the topics, no photographs were allowed.
 
 <!-- Leaving for Haneda -->
 
