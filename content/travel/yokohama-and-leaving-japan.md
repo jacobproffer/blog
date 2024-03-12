@@ -4,7 +4,7 @@ date: 2024-02-23T07:39:40-05:00
 description: "Before returning to the Haneda Airport for a flight home, I visited Yokohama for the first time."
 images: ["/images/uploads/red-brick-warehouse.jpg"]
 series: ["Japan", "Japan 2023"]
-tags: ["japan", "akihabara", "airport"]
+tags: ["japan", "akihabara", "airport", "weapon"]
 categories: ["japan", "travel"]
 thumbnail: "/images/red-brick-warehouse.jpg"
 thumbnailAlt: "The red brick facade of Aka-Renga Soko in Yokohama, Japan."
@@ -13,6 +13,13 @@ thumbnailAlt: "The red brick facade of Aka-Renga Soko in Yokohama, Japan."
 For the final day of my fourth trip to Japan, I intended to explore Lake Kawaguchiko. The itinerary included views of Mt. Fuji from Mt. Kachikachi, Tenjoyama Park, the Kawaguchiko Natural Living Center, and Ubuyagasaki Cape. Unfortunately, the weather forecast called for heavy rain throughout the entire region. As a fallback, with no plan, I visited the city of Yokohama for the first time. Located southwest of Tokyo, Yokohama is a port city, and is the capital of the Kanagawa Prefecture. From Akihabara Station, the city of Yokohama was located less than an hour away, a short train ride.
 
 On arrival, I exited Yokohama Station and walked in the direction of a shopping center in a former warehouse known as Aka-Renga Soko. From the station, the brick warehouse was located a half hour away on foot. But what I had not anticipated were the multilane highways with limited street crosswalks in the area which surrounded Yokohama Station. Instead, the crosswalks were overhead, above ground. The overhead crosswalks sped-up the walk but lacked shade. The sun was high in the sky and the temperature was above ninety degrees fahrenheit.
+
+{{< images >}}
+
+{{< image src="/images/yokohama_crosswalk.jpg" alt="Two people on a crosswalk in Yokohama, Japan." >}}
+{{< image src="/images/yokohama_highway.jpg" alt="An eight-lane highway in Yokohama, Japan." >}}
+
+{{< /images >}}
 
 The city of Yokohama was clean and quiet. There were no discarded cans of Strong Zero, or crumpled flyers for maid cafes. People walked in silence, with relaxed postures. Yokohama's Chinatown was no different, with the decorated streets devoid of any people in the early morning. I came across one open business, with fresh produce, fruits, and sweets displayed openly. The shop keeper greeted me and I paid 500 yen for a moon cake, which I had never had before. The outside of the cake was a hardened yolk, with a sweet paste in the center. Careful not to get crumbs on the ground, I ate the pastry on a nearby Coca-Cola bench.
 
@@ -26,14 +33,24 @@ There were outlets for my favorite Japanese brands Montbell and Snow Peak. Beams
 
 <!-- Returning to Akihabara -->
 
+In the Tamtam Hobby Shop in Akihabara, I explored two military surplus stores. The first store was S&Graf, a surplus store which focused on replica military uniforms. Although the bulk of the inventory was for modern military forces, S&Graf sold replica Axis World War II uniforms, gear, and music. There were racks of Imperial Japanese uniforms, German uniforms, and piles of Nazi officer caps and garrison covers. Expensive items, such as replica German medals and unique CDs were behind display cases. Due to the sensitive nature of the topics, no photographs were allowed.
+
+On a lower floor was the Repmart Military Shop, which sold realistic airsoft weapons. There were full-size .30 caliber belt-fed machine guns, Russian PKMs, MK-48 light-machine guns, gatling guns, grenade launchers, and every handgun, rifle, and sub-machine gun imaginable. The larger weapons, such as a hand-held gatling gun, cost more than a thousand dollars. Near the front door, floor models were allowed to be picked-up and handled. Asides from strictly firing pellets, each weapon contained authentic components and was similar in weight to it's genuine counterpart.
+
 <!-- Remainder of time in Akihabara / Packing -->
-In the Moa Building in Akihabara, I explored two military surplus stores. The first store was S&Graf, a surplus store which focused on replica military uniforms. Although the bulk of the inventory was for modern military forces, S&Graf sold replica Axis World War II uniforms, gear, and music. There were racks of Imperial Japanese uniforms, German uniforms, and piles of Nazi officer caps and garrison covers. Expensive items, such as replica German medals and unique CDs were behind display cases. Due to the sensitive nature of the topics, no photographs were allowed.
 
 <!-- Leaving for Haneda -->
 
 For no particular reason other than to be early, I arrived at the Haneda Airport seven hours before my flight. I was beyond early. The Delta ticket counter was not open, which provided plenty of time to explore the unsecured part of the terminal. With sliding doors and wooden exteriors, the shops and restaurants on the level above the ticket counters were themed in the style of traditional Japanese architecture. For breakfast, I ordered a burger with fries from a Mos Burger. I had never been to a Mos Burger before, but the food was good.
 
 After I finished the meal, I ventured onto the third level of the terminal, which was accessible via a bridge. The bridge had the appearance of old wood and beams, in theme with the nearby shops and restaurants. Past the bridge, there was a life size Japanese village, though the structures lacked windows or in-depth detail. I walked through the village and a long hallway, which led to an outdoor patio. The patio was spacious, with wide walkways and plenty of benches, and provided wide views of the tarmac and runways. I had never seen such a thing in an airport before.
+
+{{< images >}}
+
+{{< image src="/images/haneda_patio.jpg" alt="An outdoor patio with a sign which reads Tokyo International Airport." >}}
+{{< image src="/images/haneda_patio_view.jpg" alt="The tarmac of Tokyo International Airport with parked planes." >}}
+
+{{< /images >}}
 
 After I explored the patio, I returned to the first floor of the terminal and used an automated machine to check-in for my flight. I oddly had to manually enter my information after I scanned my passport. Though I received my tickets from the machine and was able to go through security without issue. I walked to a secluded part of the terminal afterwards and attempted to nap on an empty bench. Though airports are never quiet. The distant sounds of printers, electronic beeps, voices, vacuums, door alarms, and other noises kept me in the present.
 
