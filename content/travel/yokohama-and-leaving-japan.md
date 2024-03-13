@@ -4,7 +4,7 @@ date: 2024-02-23T07:39:40-05:00
 description: "Before returning to the Haneda Airport for a flight home, I visited Yokohama for the first time."
 images: ["/images/uploads/red-brick-warehouse.jpg"]
 series: ["Japan", "Japan 2023"]
-tags: ["japan", "akihabara", "airport", "weapon"]
+tags: ["japan", "akihabara", "airport", "weapon", "mandarake"]
 categories: ["japan", "travel"]
 thumbnail: "/images/red-brick-warehouse.jpg"
 thumbnailAlt: "The red brick facade of Aka-Renga Soko in Yokohama, Japan."
@@ -37,7 +37,7 @@ In the Tamtam Hobby Shop in Akihabara, I explored two military surplus stores. T
 
 On a lower floor was the Repmart Military Shop, which sold realistic airsoft weapons. There were full-size .30 caliber belt-fed machine guns, Russian PKMs, MK-48 light-machine guns, gatling guns, grenade launchers, and every handgun, rifle, and sub-machine gun imaginable. The larger weapons, such as a hand-held gatling gun, cost more than a thousand dollars. Near the front door, floor models were allowed to be picked-up and handled. Asides from strictly firing pellets, each weapon contained authentic components and was similar in weight to it's genuine counterpart.
 
-<!-- Remainder of time in Akihabara / Packing -->
+After I left the Tamtam Hobby Shop, I went to Gigo 3 to play The Typing of the Dead. As I played the game, I became curious if any of the nearby retro game stores had a copy of the game for sale. Super Potato, a staple retro game store in Akihabara, was my first candidate. I walked to the store and scanned every Sega Dreamcast shelf with no luck. Next, I checked Mandarake and although there were plenty of Dreamcast games, The Typing of the Dead was not there. Lastly, I went to a store called Retro Game Camp and was happy to locate two copies on the second floor.
 
 <!-- Leaving for Haneda -->
 
