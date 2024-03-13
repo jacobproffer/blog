@@ -2,7 +2,7 @@
 title: "Yokohama and Leaving Japan"
 date: 2024-03-13T07:39:40-05:00
 description: "Before returning to the Haneda Airport for a flight home, I visited Yokohama for the first time."
-images: ["/images/uploads/red-brick-warehouse.jpg"]
+images: ["/images/red-brick-warehouse.jpg"]
 series: ["Japan", "Japan 2023"]
 tags: ["japan", "akihabara", "train", "airport", "weapon", "mandarake"]
 categories: ["japan", "travel"]
