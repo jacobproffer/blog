@@ -10,6 +10,8 @@
 
 {{ $totalPosts := len .Site.RegularPages }}
 
+{{ $context := dict "IsHome" .IsHome }}
+
   {{ partial "hero" . }}
 
   <main
@@ -17,39 +19,85 @@
     tabindex="-1"
   >
 
-    <section aria-labelledby="list-headline">
+    <h1 class="visually-hide">Personal Blog of Jacob Proffer</h1>
+
+    <section>
 
       <div class="container">
 
-        <div class="subheading-wrap flex gsap-fade-in">
+        <div class="grid row-gap">
 
-          <h1 class="subheading-wrap__headline h2" id="list-headline">
-            Blog Posts
-          </h1>
+          {{ if lt .Paginator.PageNumber 2 }}
 
-          <span class="subheading-wrap__count font-14">{{ $totalPosts }} Total Posts</span>
+            <div>
 
-        </div>
+              <div class="subheading-wrap flex gsap-fade-in">
 
-        <ol class="unstyled-list list grid gsap-stagger-in">
+                <h2 class="subheading-wrap__headline">
+                  Series
+                </h2>
 
-          {{ range $index, $page := $paginator.Pages }}
+              </div>
 
-            <li class="list__item grid relative">
+              <ol class="unstyled-list flex series-list gsap-stagger-in">
 
-              {{ .Render "article" }}
+                {{ range .Site.Taxonomies.series }}
 
-            </li>
+                  <li>
+
+                    <a class="series-item" href="{{ .Page.RelPermalink }}">
+                      {{ .Page.Title }}
+                    </a>
+
+                  </li>
+
+                {{ end }}
+
+              </ol>
+
+            </div>
 
           {{ end }}
 
-        </ol>
+          <div>
+
+            <div class="subheading-wrap flex gsap-fade-in">
+
+              <h2 class="subheading-wrap__headline">
+                Posts
+              </h2>
+
+              <span class="subheading-wrap__count font-14">{{ $totalPosts }} Total Posts</span>
+
+            </div>
+
+            <ol class="unstyled-list list grid gsap-stagger-in">
+
+              {{ range $index, $page := $paginator.Pages }}
+
+                <li class="list__item grid relative">
+
+                  {{ .Render "article" }}
+
+                </li>
+
+              {{ end }}
+
+            </ol>
+
+          </div>
+
+        </div>
 
       </div>
 
       {{ if gt (len $paginator.Pagers) 1  }}
 
-        <nav aria-labelledby="pagination-label">
+        <h2 class="visually-hide" id="pagination-headline">
+          Pagination Links
+        </h2>
+
+        <nav aria-labelledby="pagination-headline">
 
           <span id="pagination-label" hidden>Blog</span>
           <span id="pagination-prefix" hidden>Page</span>

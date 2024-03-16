@@ -36,12 +36,6 @@ ignoreErrors = ["error-disable-taxonomy"]
     name = "Travel"
     pageRef = "/travel/"
 
-  [[menu.main]]
-    identifier = "series"
-    name = "Series"
-    pageRef = "/series/"
-    weight = 1
-
   [[menu.internal]]
     identifier = "tags"
     name = "Tags"
@@ -51,6 +45,11 @@ ignoreErrors = ["error-disable-taxonomy"]
     identifier = "categories"
     name = "Categories"
     pageRef = "/categories/"
+
+  [[menu.internal]]
+    identifier = "series"
+    name = "Series"
+    pageRef = "/series/"
 
   [[menu.social]]
     identifier = "dribbble"

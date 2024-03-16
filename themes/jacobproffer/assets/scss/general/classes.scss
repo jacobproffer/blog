@@ -139,3 +139,25 @@
     list-style: none;
   }
 }
+
+.series-list {
+  flex-wrap: wrap;
+  gap: var(--size-1);
+}
+
+.series-item {
+  display: block;
+  width: fit-content;
+  padding: var(--size-0) var(--size-1);
+  border: 2px solid var(--article-border, var(--border));
+  border-radius: 50px;
+  transition: border-color var(--transition-time) ease-in-out;
+
+  @include hover {
+    --article-border: var(--orange);
+  }
+}
+
+.row-gap {
+  row-gap: var(--size-5);
+}
