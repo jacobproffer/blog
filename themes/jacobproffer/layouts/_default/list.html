@@ -24,6 +24,8 @@
     tabindex="-1"
   >
 
+    <h1 class="visually-hide">{{ .Title | singularize }}</h1>
+
     <section aria-labelledby="list-headline">
 
       <div class="container">
@@ -34,18 +36,18 @@
 
             {{ if eq .Type "japanese" }}
 
-              <h1 class="subheading-wrap__headline h2" id="list-headline">
-                Japanese
-              </h1>
+              <h2 class="subheading-wrap__headline h2" id="list-headline">
+                Japanese Posts
+              </h2>
               <span class="subheading-wrap__count font-14">
                 {{ $japaneseLength }} Total Posts
               </span>
 
             {{ else if eq .Type "travel" }}
 
-              <h1 class="subheading-wrap__headline h2" id="list-headline">
+              <h2 class="subheading-wrap__headline h2" id="list-headline">
                 {{ .Title | singularize }} Posts
-              </h1>
+              </h2>
               <span class="subheading-wrap__count font-14">
                 {{ $travelLength }} Total Posts
               </span>
@@ -56,12 +58,12 @@
 
         {{ else }}
 
-          <h1
+          <h2
             class="list__headline gsap-fade-in h2"
             id="list-headline"
           >
-            {{ .Title |singularize }} Posts
-          </h1>
+            {{ .Title | singularize }} Posts
+          </h2>
 
         {{ end }}
 

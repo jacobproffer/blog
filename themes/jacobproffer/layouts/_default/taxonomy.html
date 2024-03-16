@@ -16,23 +16,29 @@
           {{ .Title }}
         </h1>
 
-        <ol class="unstyled-list list grid gsap-stagger-in">
+        {{ $sortedPages := sort .Pages "Title" }}
 
-          {{ $sortedPages := sort .Pages "Title" }}
+        {{ if or ( eq .RelPermalink "/series/" ) ( eq .RelPermalink "/tags/" ) ( eq .RelPermalink "/categories/" ) }}
 
-          {{ if or ( eq .RelPermalink "/series/" ) ( eq .RelPermalink "/tags/" ) ( eq .RelPermalink "/categories/" ) }}
+          <ol class="unstyled-list flex series-list gsap-stagger-in">
 
             {{ range $sortedPages }}
 
-              <li class="list__item grid relative">
+              <li>
 
-                {{ .Render "article" }}
+                <a class="series-item" href="{{ .Page.RelPermalink }}">
+                  {{ .Page.Title }}
+                </a>
 
               </li>
 
             {{ end }}
 
-          {{ else }}
+          </ol>
+
+        {{ else }}
+
+          <ol class="unstyled-list list grid gsap-stagger-in">
 
             {{ range .Pages }}
 
@@ -44,9 +50,9 @@
 
             {{ end }}
 
-          {{ end }}
+          </ol>
 
-        </ol>
+        {{ end }}
 
       </div>
     </section>

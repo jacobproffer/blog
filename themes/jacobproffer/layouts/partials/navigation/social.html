@@ -1,15 +1,22 @@
 <nav aria-label="social">
   <ul class="unstyled-list footer__list">
 
+    {{ $currentPage := . }}
+
     {{ range .Site.Menus.internal }}
+
       <li class="footer__list-item relative">
         <a
           class="footer__list-link nav-item font-14"
           href="{{ .URL }}"
+          {{ if $currentPage.IsMenuCurrent "internal" . }}
+            aria-current="page"
+          {{ end }}
         >
           {{ .Name }}
         </a>
       </li>
+
     {{ end }}
 
   </ul>
