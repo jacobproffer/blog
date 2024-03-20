@@ -43,7 +43,7 @@
     grid-column: var(--thumbnail-column);
     max-width: var(--max-width);
     margin: var(--size-50-100) auto;
-    border-radius: var(--size-0);
+    border-radius: 8px;
 
     @include screen-below($laptopSm) {
       max-width: var(--container);

@@ -20,7 +20,7 @@
   backdrop-filter: 15px;
   background-size: 150% 150%;
   border-radius: 50px;
-  border: 1px solid var(--white);
+  border: 2px solid var(--white);
   transition: color var(--transition-time) ease-in-out, background-color var(--transition-time) ease-in-out, border-color var(--transition-time) ease-in-out;
 
   &[aria-expanded="true"] {

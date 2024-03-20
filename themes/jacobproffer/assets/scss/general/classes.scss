@@ -58,6 +58,7 @@
   --item-color: var(--gray);
   position: relative;
   display: block;
+  padding: 22px 0;
   color: var(--item-color);
   letter-spacing: .2rem;
   transition: color var(--transition-time) ease-in-out, outline var(--transition-time) ease-in-out;
@@ -148,13 +149,16 @@
 .series-item {
   display: block;
   width: fit-content;
-  padding: var(--size-0) var(--size-1);
-  border: 2px solid var(--article-border, var(--border));
+  padding: var(--size-1) var(--size-1);
+  background-color: var(--tag-bg, var(--off-black));
+  border: 2px solid var(--tag-border, var(--border));
   border-radius: 50px;
-  transition: border-color var(--transition-time) ease-in-out;
+  line-height: 1;
+  transition: background-color var(--transition-time) ease-in-out,  var(--transition-time) ease-in-out;
 
   @include hover {
-    --article-border: var(--orange);
+    --tag-bg: var(--black);
+    --tag-border: var(--orange);
   }
 }
 

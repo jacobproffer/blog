@@ -1,6 +1,7 @@
 :root {
   --container: 1280px;
   --black: #000;
+  --off-black: #120907;
   --white: #fff;
   --gray: #d9d9d9;
   --orange: #ff683f;
@@ -16,7 +17,7 @@
   --size-75-150: #{createFluidValue(75px, 150px)};
   --size-100-200: #{createFluidValue(100px, 200px)};
 
-  --pseudo-offset: -22px;
+  --pseudo-offset: -2px;
 
   --body-copy-font: "Work Sans", sans-serif;
 
@@ -64,7 +65,6 @@ body {
   margin: 0;
   color: var(--white);
   font-family: var(--body-copy-font);
-  font-size: 16px;
 }
 
 :is(a, button) {
