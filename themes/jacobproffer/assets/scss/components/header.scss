@@ -20,6 +20,10 @@
     grid-template-columns: max-content max-content;
     justify-content: space-between;
     border-bottom: 2px solid var(--border);
+
+    @include screen-below($tablet) {
+      padding: var(--size-1) 0;
+    }
   }
 
   &__skip-link {
@@ -50,7 +54,7 @@
     @include screen-below($tablet) {
       display: none;
       position: absolute;
-      top: 67px;
+      top: 100px;
       left: 0;
       row-gap: #{createFluidValue(30px, 60px)};
 

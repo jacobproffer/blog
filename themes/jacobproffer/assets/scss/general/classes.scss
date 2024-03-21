@@ -56,16 +56,33 @@
 .nav-item {
   --item-width: 1ch;
   --item-color: var(--gray);
+  --primary-offset: -3px;
+  --footer-offset: -22px;
   position: relative;
   display: block;
-  padding: 22px 0;
   color: var(--item-color);
   letter-spacing: .2rem;
   transition: color var(--transition-time) ease-in-out, outline var(--transition-time) ease-in-out;
 
+  &--primary {
+    &::before {
+      bottom: var(--primary-offset);
+    }
+  }
+
+  &--footer {
+    &::before {
+      top: var(--footer-offset);
+    }
+  }
+
+  @include screen-below($mobile) {
+    --primary-offset: 0;
+    --footer-offset: 0;
+  }
+
   &::before {
     position: absolute;
-    bottom: var(--pseudo-offset);
     left: 0;
     width: var(--item-width);
     height: 2px;
@@ -164,4 +181,8 @@
 
 .row-gap {
   row-gap: var(--size-5);
+}
+
+.link-padding {
+  padding: 22px 0;
 }
