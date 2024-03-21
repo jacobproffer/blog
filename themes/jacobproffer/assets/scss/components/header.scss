@@ -4,7 +4,6 @@
   @include size(100%, auto);
   position: fixed;
   z-index: 2;
-  padding: 15px 0;
   background-color: var(--header-background);
 
   &--pinned,
@@ -20,8 +19,11 @@
     align-items: center;
     grid-template-columns: max-content max-content;
     justify-content: space-between;
-    padding-bottom: 20px;
     border-bottom: 2px solid var(--border);
+
+    @include screen-below($tablet) {
+      padding: var(--size-1) 0;
+    }
   }
 
   &__skip-link {
@@ -52,7 +54,7 @@
     @include screen-below($tablet) {
       display: none;
       position: absolute;
-      top: 67px;
+      top: 100px;
       left: 0;
       row-gap: #{createFluidValue(30px, 60px)};
 

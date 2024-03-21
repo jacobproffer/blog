@@ -3,14 +3,12 @@
   margin-top: var(--size-50-100);
 
   &__grid {
-    --pseudo-offset: 38px;
     justify-content: space-evenly;
     gap: var(--size-2) var(--size-1);
     padding-top: 20px;
     border-top: 2px solid var(--border);
 
     @include screen-below($mobile) {
-      --pseudo-offset: 28px;
       flex-direction: column;
     }
   }

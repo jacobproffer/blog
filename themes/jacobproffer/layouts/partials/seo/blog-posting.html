@@ -1,0 +1,27 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "url": {{ .Permalink }},
+  "headline": {{ .Title }},
+  "name": "{{ .Title }}",
+  "mainEntityOfPage": {{ .Permalink }},
+  "articleBody": {{ htmlUnescape .Plain | plainify }},
+  "image": {{ .Params.thumbnail }},
+  "description": {{ .Params.description }},
+  "wordCount": {{ .WordCount }},
+  "datePublished": {{ .PublishDate }},
+  "dateModified": {{ .Params.lastmod }},
+  "author": {
+    "@type": "Person",
+    "name": "Jacob Proffer",
+    "url": "https://proffer.dev/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jacobproffer.com/",
+    "name": "Personal Blog of Jacob Proffer"
+  },
+  "keywords": {{ .Params.tags }}
+}
+</script>

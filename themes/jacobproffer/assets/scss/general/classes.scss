@@ -56,15 +56,33 @@
 .nav-item {
   --item-width: 1ch;
   --item-color: var(--gray);
+  --primary-offset: -3px;
+  --footer-offset: -22px;
   position: relative;
   display: block;
   color: var(--item-color);
   letter-spacing: .2rem;
   transition: color var(--transition-time) ease-in-out, outline var(--transition-time) ease-in-out;
 
+  &--primary {
+    &::before {
+      bottom: var(--primary-offset);
+    }
+  }
+
+  &--footer {
+    &::before {
+      top: var(--footer-offset);
+    }
+  }
+
+  @include screen-below($mobile) {
+    --primary-offset: 0;
+    --footer-offset: 0;
+  }
+
   &::before {
     position: absolute;
-    bottom: var(--pseudo-offset);
     left: 0;
     width: var(--item-width);
     height: 2px;
@@ -148,16 +166,23 @@
 .series-item {
   display: block;
   width: fit-content;
-  padding: var(--size-0) var(--size-1);
-  border: 2px solid var(--article-border, var(--border));
+  padding: var(--size-1) var(--size-1);
+  background-color: var(--tag-bg, var(--off-black));
+  border: 2px solid var(--tag-border, var(--border));
   border-radius: 50px;
-  transition: border-color var(--transition-time) ease-in-out;
+  line-height: 1;
+  transition: background-color var(--transition-time) ease-in-out,  var(--transition-time) ease-in-out;
 
   @include hover {
-    --article-border: var(--orange);
+    --tag-bg: var(--black);
+    --tag-border: var(--orange);
   }
 }
 
 .row-gap {
   row-gap: var(--size-5);
+}
+
+.link-padding {
+  padding: 22px 0;
 }
