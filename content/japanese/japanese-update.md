@@ -12,7 +12,15 @@ thumbnailAlt: ""
 
 Four years have gone by without a Japanese post. Since I wrote [Two Years Studying Japanese]({{< ref "/japanese/two-years-studying-japanese.md" >}}) in 2020, I've continued to study Japanese every day.
 
-## Anki
+## WaniKani
+
+A variety of methods exit to learn kanji today. [WaniKani](https://www.wanikani.com/), which utilizes spaced repetition and mnemonics, has been my favorite since 2018. Each level on WaniKani introduces new radicals, kanji, and associated vocabulary. When a new kanji or vocabulary word is presented for the first time, a mnemonic is introduced. Each mnemonic act as a short story, which aids in remembering the meaning. For example, the on'yomi reading for "lose" is {{< japanese >}}ふ{{< /japanese >}} (fu). The kanji for lose, {{< japanese >}}負{{< /japanese >}}, is constructed with two radicals, prison and shellfish. The mnemonic for lose is, "If you lose, you're a fool ({{< japanese >}}ふ{{< /japanese >}})."
+
+With this system, I've learned hundreds of kanji and vocabulary words. To reduce burnout, I recently set my new lessons for each day to five. Although the reduction slows daily progress, I use the extra time to work on Wanikani reviews, Anki decks and reading with Satori Reader.
+
+## Satori Reader
+
+Recently, I came across Satori Reader, an application which focuses on reading Japanese stories. The majority of the stories come packaged within individual series. I've been reading through a series called Spring, which follows a family of birds. If I'm unfamiliar with a word in a story, the application allows for me to click the word to receive the dictionary form, along with the word's usage in context. Furthermore, Satori Reader has a review system, which behaves similarly to WaniKani with spaced repetiton. When setting-up my account, I synced Satori Reader with my WaniKani account, which makes sure Satori Reader strictly shows kanji I've learned. Otherwise, the application shows hirgana or hiragana with furigana.
 
 ## Crystal Hunters
 
@@ -20,10 +28,8 @@ An invaluable resource I came across for reading Japanese is a manga series call
 
 Although not required, I recommend to have knowledge of hiragana and katakana before reading Crystal Hunters. A kana chart is provided for free on the Crystal Hunters website but the series does not solely teach either part of the Japanese writing system. Each panel of the manga is in Japanese, with kanji, with no on-page translation. Though as mentioned, furigana is available in the standard Japanese version.
 
+## Anki
+
+For daily vocabulary review, I use a flashcard application called Anki. Although a desktop version exists, I use the mobile application for ease-of-use. Each day, I complete reviews and lessons from three unique flashcard decks. The first deck covers vocabulary from Genki 1, the second deck covers vocabulary from book three of Japanese From Zero, and the third deck covers vocubulary from a series called TheMoeWay Tango N5. Although these decks cover vocabulary between an N4 and N5 level, I run into the common issue of not knowing a kanji within individual reviews. Furigina is present within the answer card but not the question card. I wish I had the ability to sync Anki with WaniKani to change when kanji is displayed.
+
 ## From Zero
-
-## WaniKani
-
-A variety of methods exit to learn kanji today. [WaniKani](https://www.wanikani.com/), which utilizes spaced repetition and mnemonics, has been my favorite since 2018. Each level on WaniKani introduces new radicals, kanji, and associated vocabulary. When a new kanji or vocabulary word is presented for the first time, a mnemonic is introduced. Each mnemonic act as a short story, which aids in remembering the meaning. For example, the on'yomi reading for "lose" is {{< japanese >}}ふ{{< /japanese >}} (fu). The kanji for lose, {{< japanese >}}負{{< /japanese >}}, is constructed with two radicals, prison and shellfish. The mnemonic for lose is, "If you lose, you're a fool ({{< japanese >}}ふ{{< /japanese >}})."
-
-With this system, I've learned hundreds of kanji and vocabulary words. To reduce burnout, I recently set my new lessons for each day to five. Although the reduction slows daily progress, I use the extra time to work on Wanikani reviews, Anki decks and reading with Satori Reader.
