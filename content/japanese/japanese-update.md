@@ -10,7 +10,7 @@ thumbnail: "/images/hiragana_social.jpg"
 thumbnailAlt: ""
 ---
 
-Within the four years since I wrote Two Years Studying Japanese, I've been to Japan twice and have continously studied Japanese every day.
+Within the four years since I wrote [Two Years Studying Japanese]({{< ref "/japanese/two-years-studying-japanese" >}}), I've been to Japan twice and have continously studied Japanese every day.
 
 ## WaniKani
 
