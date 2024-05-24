@@ -1,7 +1,7 @@
 ---
-title: "2024 Japanese Update"
-date: 2024-03-25T06:02:54-04:00
-description: "Post description"
+title: "Six Years Studying Japanese"
+date: 2024-05-24T06:02:54-04:00
+description: "An overview of the applications, books, and games which I use to study Japanese in 2024."
 images: ["/images/hiragana_social.jpg"]
 series: ["japanese"]
 tags: ["japanese", "kanji", "vocabulary"]
@@ -10,7 +10,7 @@ thumbnail: "/images/hiragana_social.jpg"
 thumbnailAlt: ""
 ---
 
-Within the four years since I wrote [Two Years Studying Japanese]({{< ref "/japanese/two-years-studying-japanese" >}}), I've been to Japan twice and have continously studied Japanese every day.
+Within the four years since I wrote [Two Years Studying Japanese]({{< ref "/japanese/two-years-studying-japanese" >}}), I have studied Japanese every day. This commitment has helped me reach my goal of perusing stories and manga in Japanese. I've been able to use this knowledge on two further trips to Japan, which provided the opportunity to practice Japanese in real-world scenarios. In this post, I cover the tools which have aided me to reach this point with Japanese.
 
 ## WaniKani
 
@@ -20,7 +20,7 @@ With this system, I've learned hundreds of kanji and vocabulary words. To reduce
 
 ## Satori Reader
 
-Recently, I came across [Satori Reader](https://satorireader.com/), an application which focuses on reading Japanese stories. The majority of the stories come packaged within individual series. I've been reading through a series called Spring, which follows a family of birds. If I'm unfamiliar with a word in a story, the application allows for me to click the word to receive the dictionary form, along with the word's usage in context. Furthermore, Satori Reader has a review system, which behaves similarly to WaniKani with spaced repetiton. When setting-up my account, I synced Satori Reader with my WaniKani account, which makes sure Satori Reader strictly shows kanji I've learned. Otherwise, the application shows hirgana or hiragana with furigana.
+Recently, I came across [Satori Reader](https://satorireader.com/), an application which focuses on reading Japanese stories. The majority of the stories come packaged within individual series. I've been reading through a series called Spring, which follows a family of birds. If I'm unfamiliar with a word in a story, the application allows for me to click the word to receive the dictionary form, along with the word's usage in context. Furthermore, Satori Reader has a review system, which behaves similarly to WaniKani with spaced repetiton. When setting-up my account, I synced Satori Reader with my WaniKani account, which makes sure Satori Reader strictly shows kanji I've learned. Otherwise, the application shows hirgana or kanji with furigana.
 
 ## Crystal Hunters
 
@@ -39,3 +39,7 @@ For daily vocabulary review, I use a flashcard application called [Anki](https:/
 ## Learn Japanese To Survive!
 
 The [Learn Japanese to Survive](https://store.steampowered.com/bundle/7746/Learn_Japanese_To_Survive_Trilogy/) series on Steam is fantastic for learning the Japanese alphabetical system. Individual games exist for hiragana, katakana, and kanji. At the moment, I am playing through Kanji Combat, which is the third entry in the series. The game blends traditional role-playing-game elements with language learning. Kanji Combat takes characters through explorable environments to complete quests through turn-based combat. In battle, players are required to correctly use kanji characters to defeat enemies (In the form of individual kanji).
+
+## Podcasts
+
+A weak area for me with Japanese is the ability to effectivly listen to Japanese at a natural pace. To help with this issue, I've recently incorporated Japanese podcasts into my daily studying routine. A favorite of mine is [Japanese with Shun](https://open.spotify.com/show/0TWRqowC0TPhXlG79M0qzv). The podcast episodes are short in length, and use vocabulary and grammar from the Genki textbook series. At the end of each episode, Shun covers the words and phrases used. Topics include daily routines, travel, and work.
