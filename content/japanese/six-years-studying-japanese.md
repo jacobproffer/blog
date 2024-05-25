@@ -1,20 +1,20 @@
 ---
 title: "Six Years Studying Japanese"
-date: 2024-05-24T06:02:54-04:00
+date: 2024-05-25T06:02:54-04:00
 description: "An overview of the applications, books, and games which I use to study Japanese in 2024."
-images: ["/images/hiragana_social.jpg"]
+images: ["/images/japanese_books.jpg"]
 series: ["japanese"]
 tags: ["japanese", "kanji", "vocabulary"]
 categories: ["japanese"]
-thumbnail: "/images/hiragana_social.jpg"
-thumbnailAlt: ""
+thumbnail: "/images/japanese_books.jpg"
+thumbnailAlt: "Stacked Japanese textbooks and graded readers."
 ---
 
-Within the four years since I wrote [Two Years Studying Japanese]({{< ref "/japanese/two-years-studying-japanese" >}}), I have studied Japanese every day. This commitment has helped me reach my goal of perusing stories and manga in Japanese. I've been able to use this knowledge on two further trips to Japan, which provided the opportunity to practice Japanese in real-world scenarios. In this post, I cover the tools which have aided me to reach this point with Japanese.
+Within the four years since I wrote [Two Years Studying Japanese]({{< ref "/japanese/two-years-studying-japanese" >}}), I've studied Japanese every day. This dedication has helped me reach my goal to enjoy short stories and manga in Japanese. I've been fortunate to use this knowledge on two further trips to Japan, which provided the opportunity to practice Japanese in real-world scenarios. Although I have used physical Japanese media to reach this point with the language, I have incorporated web applications and digital media. In this post, I cover the tools which have been beneficial to me.
 
 ## WaniKani
 
-A variety of methods exit to learn kanji today. [WaniKani](https://www.wanikani.com/), which utilizes spaced repetition and mnemonics, has been my favorite since 2018. Each level on WaniKani introduces new radicals, kanji, and associated vocabulary. When a new kanji or vocabulary word is presented for the first time, a mnemonic is introduced. Each mnemonic act as a short story, which aids in remembering the meaning. For example, the on'yomi reading for "lose" is {{< japanese >}}ふ{{< /japanese >}} (fu). The kanji for lose, {{< japanese >}}負{{< /japanese >}}, is constructed with two radicals, prison and shellfish. The mnemonic for lose is, "If you lose, you're a fool ({{< japanese >}}ふ{{< /japanese >}})."
+A variety of methods exit to learn kanji today. [WaniKani](https://www.wanikani.com/), which utilizes spaced repetition and mnemonics, has been my favorite since 2018. Each level on WaniKani introduces new radicals, kanji, and associated vocabulary. When a new kanji or vocabulary word is presented for the first time, a mnemonic is introduced. Each mnemonic act as a short story, which aids in remembering the meaning. For example, the on'yomi reading for "lose" is {{< japanese >}}ふ{{< /japanese >}} (fu). The kanji for lose, {{< japanese >}}負{{< /japanese >}}, is constructed with two radicals, prison and shellfish. The mnemonic for lose is, "When you're in prison, the person who has the shellfish loses. If you lose, you're a fool ({{< japanese >}}ふ{{< /japanese >}})."
 
 With this system, I've learned hundreds of kanji and vocabulary words. To reduce burnout, I recently set my new lessons for each day to five. Although the reduction slows daily progress, I use the extra time to work on Wanikani reviews, Anki decks and reading with Satori Reader.
 
