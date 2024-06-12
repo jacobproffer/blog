@@ -1,10 +1,10 @@
 ---
-title: "Failure to Launch"
+title: "Our Return to Iceland was Delayed by a Day"
 date: 2024-06-06T09:41:32-04:00
-description: "Mechanical problems and bad weather delay my return to Iceland in May 2024."
+description: "Mechanical problems and bad weather delayed Myles and I's return to Iceland in May 2024."
 images: ["/images/iceland_blog_00_social.jpg"]
 series: ["Iceland", "Iceland 2024"]
-tags: ["iceland"]
+tags: ["iceland", "airport", "hotel"]
 categories: ["travel"]
 thumbnail: "/images/iceland_blog_00_social.jpg"
 thumbnailAlt: ""
@@ -19,3 +19,5 @@ Myles and I were not alone on the shuttle. The shuttle bus filled with passenger
 As our check-in time for the hotel in Iceland was delayed by twenty-four hours, I had to get in touch with the hotel. Initially, I attempted to contact Expedia support. There was no phone number to call. Instead, I had to talk to a person through a chat dialogue window. The support agent, however, was no help. They attempted to seek an alternative room at the hotel instead of asking to extend the check-in time. Thankfully, the support agent was unable to contact the hotel. After Myles called the hotel direct and was able to extend the check-in time in under a minute, I followed suit.
 
 Next, I had to contact the car rental company, Europcar. Unlike the hotel in Iceland, Europcar at the Keflavik airport did not take calls until eight in the morning. After repeated attempts to reach a support representaive, I finally was able to extend the pick-up time by twenty-four hours. With the hotel and car taken care of, I set an alarm for the morning and fell asleep. Though I was awake hours later. I had coffee, showered, and re-packed my bag. Myles and I did not have to check-out until noon but we checked out in the morning. We caught a shuttle to the airport at ten and were through airport security within twenty minutes.
+
+As Myles and I had arrived ten hours before our rescheduled flight to Iceland, we had time to kill. After a quick breakfast at McDonalds, we walked from A concourse to B concourse. We bought coffee at Starbucks and sat at a table at the end of the concourse for hours. To my surprise, no flights arrived or departed from this part of the terminal. I got halfway through a new book on the Vietnam War and went through stories in Japanese on Satori Reader. In the afternoon, Myles and I returned to A concourse for lunch at P.F. Chang's. After we finished our food, we walked to every end of A, B, and C concourse. It was a long day full of boredom.
