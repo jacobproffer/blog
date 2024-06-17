@@ -10,6 +10,8 @@ thumbnail: "/images/iceland_blog_00_social.jpg"
 thumbnailAlt: ""
 ---
 
+Myles and I arrived in Detroit at five o'clock on a Sunday. At the time of arrival, the weather was beautiful with blue skies and the occassional cloud. With three hours till our flight to Iceland, we had dinner at P.F. Chang's. Afterwards, we walked to different ends of each concourse within the airport to kill time.
+
 Dark clouds formed above the airport two hours before boarding. Myles and I were by the gate at the time. I checked my phone for the weather forecast to see a thunderstorm was immminent. Soon after, the gate agent announced the plan was delayed. To my surprise, the issue was mechanical and not weather related. Initially, the delay was twenty minutes but was soon extended by three hours. I remained optimistic but figured Myles and I were stranded in Detroit for the night.
 
 The flight cancellation was not announced. Myles and I happened to be near the gate past ten thirty when we spotted the cancellation notice on the board behind the gate. Minutes later, I received an alert via the Delta app to alert me of the cancellation. The notice was followed by hotel and meal vouchers. As Delta had one flight a day to Iceland, we accepted the offers. Our flight was rescheduled for the same time the following night. I called the hotel listed on the offer and requested a pick-up.
