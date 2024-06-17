@@ -5,7 +5,7 @@ description: "Myles and I decided to hike around Glymur in a rain storm."
 images: ["/images/iceland_blog_05_social.jpg"]
 categories: ["travel"]
 tags: ["iceland", "travel", "hike", "drive", "restaurant"]
-series: ["Iceland"]
+series: ["Iceland", "Iceland 2018"]
 thumbnail: "/images/iceland_blog_05_social.jpg"
 thumbnailAlt: "Hotsprings inside of the Reykjadalur valley."
 ---

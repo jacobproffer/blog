@@ -5,7 +5,7 @@ description: "Flying out of Iceland."
 images: ["/images/iceland_blog_07_social.jpg"]
 categories: ["travel"]
 tags: ["iceland", "hotel", "airport", "vehicle", "drive"]
-series: ["Iceland"]
+series: ["Iceland", "Iceland 2018"]
 thumbnail: "/images/iceland_blog_07_social.jpg"
 thumbnailAlt: "Man standing next to a car in Iceland."
 ---

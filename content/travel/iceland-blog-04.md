@@ -5,7 +5,7 @@ description: "After a long drive from Reykjavik, Myles and I hiked around Skafta
 images: ["/images/iceland_blog_04_social.jpg"]
 categories: ["travel"]
 tags: ["iceland", "drive", "road", "vehicle", "hike"]
-series: ["Iceland"]
+series: ["Iceland", "Iceland 2018"]
 thumbnail: "/images/iceland_blog_04_social.jpg"
 thumbnailAlt: "A panoramic view of a distant glacier near Skaftafell."
 ---

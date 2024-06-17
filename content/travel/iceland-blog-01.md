@@ -5,7 +5,7 @@ description: "I flew into Keflavik Iceland and met up with my friend Myles befor
 images: ["/images/iceland_blog_01_social.jpg"]
 categories: ["travel"]
 tags: ["iceland", "travel", "trip", "airport", "vehicle"]
-series: ["Iceland"]
+series: ["Iceland", "Iceland 2018"]
 thumbnail: "/images/iceland_blog_01_social.jpg"
 thumbnailAlt: "A panoramic view of Grindavík from a hilltop."
 ---
