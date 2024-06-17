@@ -5,7 +5,7 @@ description: "The night before my trip to Iceland."
 images: ["/images/iceland_blog_00_social.jpg"]
 categories: ["travel"]
 tags: ["iceland", "travel", "trip", "hotel", "airport", "drive"]
-series: ["Iceland"]
+series: ["Iceland", "Iceland 2018"]
 thumbnail: "/images/iceland_blog_00_social.jpg"
 thumbnailAlt: "A man in a car in Iceland."
 ---

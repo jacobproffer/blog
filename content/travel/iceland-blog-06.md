@@ -5,7 +5,7 @@ description: "Without a plan, Myles and I ventured around Iceland before visitin
 images: ["/images/iceland_blog_06_social.jpg"]
 categories: ["travel"]
 tags: ["iceland", "trip", "drive", "vehicle", "restaurant"]
-series: ["Iceland"]
+series: ["Iceland", "Iceland 2018"]
 thumbnail: "/images/iceland_blog_06_social.jpg"
 thumbnailAlt: "Mountain range near Blafjallavegur."
 ---

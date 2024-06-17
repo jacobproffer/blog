@@ -5,7 +5,7 @@ description: "On the second day in Iceland, I traveled to Seljalandsfoss, Skóga
 images: ["/images/iceland_blog_02_social.jpg"]
 categories: ["travel"]
 tags: ["iceland", "travel", "trip", "drive", "vehicle"]
-series: ["Iceland"]
+series: ["Iceland", "Iceland 2018"]
 thumbnail: "/images/iceland_blog_02_social.jpg"
 thumbnailAlt: "A man sitting atop a hill near Reynisfjara."
 ---
