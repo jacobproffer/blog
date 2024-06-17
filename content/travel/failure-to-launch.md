@@ -7,7 +7,7 @@ series: ["Iceland", "Iceland 2024"]
 tags: ["iceland", "airport", "hotel"]
 categories: ["travel"]
 thumbnail: "/images/myles_detroit.jpg"
-thumbnailAlt: ""
+thumbnailAlt: "Man with blue hat and sweater, carrying a jacket with closed eyes."
 ---
 
 Dark clouds formed above the Detroit Metro Airport an hour before my friend Myles and I were to board our flight to Iceland. We were by the gate at the time. I checked my phone for the weather forecast to see a thunderstorm was immminent. Soon after, the gate agent announced the plan was delayed. To my surprise, the issue was mechanical and not weather related. Initially, the delay was twenty minutes but was soon extended by three hours. I remained optimistic but figured we were stranded in Detroit for the night.
