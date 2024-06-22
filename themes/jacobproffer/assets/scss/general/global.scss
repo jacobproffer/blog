@@ -1,5 +1,5 @@
 :root {
-  --container: 1280px;
+  --container: 1800px;
   --black: #000;
   --off-black: #120907;
   --white: #fff;
@@ -18,7 +18,7 @@
   --size-125-175: #{createFluidValue(125px, 175px)};
   --size-100-200: #{createFluidValue(125px, 200px)};
 
-  --body-copy-font: "Work Sans", sans-serif;
+  --body-copy-font: "Noto Sans Mono", monospace;
 
   --weight-medium: 500;
   --weight-normal: 400;
@@ -31,22 +31,6 @@
 
   @media (prefers-reduced-motion: reduce) {
     --transition-time: .01ms;
-  }
-
-  @include screen-below($desktopSm) {
-    --container: 1280px;
-  }
-
-  @include screen-below($laptop) {
-    --container: 960px;
-  }
-
-  @include screen-below($tablet) {
-    --container: 810px;
-  }
-
-  @include screen-below($portrait) {
-    --container: calc(100% - 40px);
   }
 
   @include screen-below($mobile) {

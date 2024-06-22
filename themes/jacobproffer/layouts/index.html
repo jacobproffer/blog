@@ -8,8 +8,6 @@
 
 {{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
 
-{{ $totalPosts := len .Site.RegularPages }}
-
 {{ $context := dict "IsHome" .IsHome }}
 
   {{ partial "hero" . }}
@@ -31,13 +29,9 @@
 
             <div>
 
-              <div class="subheading-wrap flex gsap-fade-in">
-
-                <h2 class="subheading-wrap__headline">
-                  Series
-                </h2>
-
-              </div>
+              <h2 class="visually-hide">
+                Series
+              </h2>
 
               <ol class="unstyled-list flex series-list gsap-stagger-in">
 
@@ -61,15 +55,9 @@
 
           <div>
 
-            <div class="subheading-wrap flex gsap-fade-in">
-
-              <h2 class="subheading-wrap__headline">
-                Posts
-              </h2>
-
-              <span class="subheading-wrap__count font-14">{{ $totalPosts }} Total Posts</span>
-
-            </div>
+            <h2 class="visually-hide">
+              Posts
+            </h2>
 
             <ol class="unstyled-list list grid gsap-stagger-in">
 

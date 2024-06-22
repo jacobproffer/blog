@@ -1,6 +1,6 @@
 .list {
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  gap: var(--size-1);
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--size-3);
 
   &__headline {
     margin-bottom: #{createFluidValue(30px, 60px)};

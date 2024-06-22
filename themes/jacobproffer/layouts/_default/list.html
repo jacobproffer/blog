@@ -14,9 +14,6 @@
 
 {{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") }}
 
-{{ $japaneseLength := (where .Site.Pages "Section" "japanese" | len) }}
-{{ $travelLength := (where .Site.Pages "Section" "travel" | len) }}
-
   {{ partial "hero" . }}
 
   <main
@@ -39,18 +36,12 @@
               <h2 class="subheading-wrap__headline h2" id="list-headline">
                 Japanese Posts
               </h2>
-              <span class="subheading-wrap__count font-14">
-                {{ $japaneseLength }} Total Posts
-              </span>
 
             {{ else if eq .Type "travel" }}
 
               <h2 class="subheading-wrap__headline h2" id="list-headline">
                 {{ .Title | singularize }} Posts
               </h2>
-              <span class="subheading-wrap__count font-14">
-                {{ $travelLength }} Total Posts
-              </span>
 
             {{ end }}
 

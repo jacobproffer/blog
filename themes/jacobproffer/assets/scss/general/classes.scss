@@ -167,14 +167,12 @@
   display: block;
   width: fit-content;
   padding: var(--size-1) var(--size-1);
-  background-color: var(--tag-bg, var(--off-black));
   border: 2px solid var(--tag-border, var(--border));
   border-radius: 50px;
   line-height: 1;
   transition: background-color var(--transition-time) ease-in-out,  var(--transition-time) ease-in-out;
 
   @include hover {
-    --tag-bg: var(--black);
     --tag-border: var(--orange);
   }
 }
