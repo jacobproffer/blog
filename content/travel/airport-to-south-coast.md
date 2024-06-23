@@ -19,7 +19,10 @@ Unlike in [2018]({{< ref "/travel/iceland-blog-01" >}}), Myles and I were unable
 The hotel, Reykjavik Lights, was located on the eastern side of Rejykvaik. From the airport, the drive took forty minutes. Myles and I stayed at the hotel in 2018, and were familiar with the area. As Myles and I had paid for our rooms in advance, the check-in process was quick. Unfortunately, unlike the earlier stay, our rooms faced the opposite side of Rejykvaik. My view was of nearby buildings instead of Mount Esja. The room, however, was immaculate as before with a full-size couch and large bed. My favorite aspect of the room was the sizeable bathroom, which had a heated towel rack and a walk-in rainfall style shower.
 
 <!-- Þingvellir -->
+After a shower, I unpacked my bag and changed into my hiking clothes. Myles, in an adjacent room, did the same. We met in the hallway and took the stairs to the front entrance of the hotel. Once in the rental vehicle, I typed Þingvellir National Park into the onboard GPS. From the hotel, Þingvellir was less than an hour away. The drive took us along multi-lane highways until Myles turned off on a two-lane road away from the city. On this road, Myles and I drove for miles without another vehicle in sight. As the national park neared, Myles pulled off the highway for an overlook which provided a panoramic view of Lake Þingvallavatn.
 
 <!-- Reykjadalur valley -->
+
+<!-- Lindin -->
 
 <!-- Gullfoss -->
