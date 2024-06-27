@@ -21,6 +21,8 @@ The hotel, Reykjavik Lights, was located on the eastern side of Rejykvaik. From 
 <!-- Þingvellir -->
 After a shower, I unpacked my bag and changed into my hiking clothes. Myles, in an adjacent room, did the same. We met in the hallway and took the stairs to the front entrance of the hotel. Once in the rental vehicle, I typed Þingvellir National Park into the onboard GPS. From the hotel, Þingvellir was less than an hour away. The drive took us along multi-lane highways until Myles turned off on a two-lane road away from the city. On this road, Myles and I drove for miles without another vehicle in sight. As the national park neared, Myles pulled off the highway for an overlook which provided a panoramic view of Lake Þingvallavatn.
 
+After Myles and I took in the view of the lake, we drove the rest of the way to Þingvellir National Park. We arrived to a parking lot crammed with campers, SUVs, cars, one dark green Suzuki Jimny, and a tour bus. The fee to park was 1,000 Icelandic Króna, or seven dollars. After I paid the fee at an automated machine in the parking lot, Myles and I walked to the eastern half of the park to reach Öxarárfoss. The waterfall, surrounded by moss-covered rocks and lush greenery, had a constant source of water from the Öxara river. From atop a nearby boulder, I took time to photograph Öxarárfoss and the rapid runoff downstream.
+
 <!-- Reykjadalur valley -->
 
 <!-- Lindin -->
