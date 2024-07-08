@@ -1,12 +1,12 @@
 ---
-title: "From the Airport to the South Coast of Iceland"
+title: "A Perfect Day in Iceland: Hiking Thingvellir and Reykjadalur Valley"
 date: 2024-06-19T13:37:48-04:00
-description: "Post description"
-images: ["/images/myles_detroit.jpg"]
+description: "Discover the perfect day in Iceland, starting with a landing at the airport and unforgettable hikes in Thingvellir National Park and Reykjadalur Valley."
+images: ["/images/reykjadalur_steam.jpg"]
 series: ["Iceland", "Iceland 2024"]
 tags: ["iceland", "airport", "hotel", "reykjadalur"]
 categories: ["travel"]
-thumbnail: "/images/myles_detroit.jpg"
+thumbnail: "/images/reykjadalur_steam.jpg"
 thumbnailAlt: ""
 ---
 
@@ -26,11 +26,23 @@ From Öxarárfoss, Myles and I walked to the Hakid viewpoint on the western half
 
 At the Hakid viewport, Myles and I had a panoramic view of the lower half of the Öxara river and Lake Þingvallavatn. The lake, with distant mountains, was dotted with lush inlets and keys. After Myles and I took photographs of the lake, we stepped into the nearby gift shop behind the viewpoint. The shop sold cheaply made souvenirs, along with drinks and junk food. I bought an electrolyte drink and a pack of gummies. Afterwards, Myles and I returned to the rental car. We took a minute to punch in the GPS coordinates for the Reykjadalur valley. As we did, two vehicles parked across the sole exit of Þingvellir. Myles had to reverse the vehicle and go out the entrance. It was a mad house.
 
+{{< images >}}
+
+{{< image src="/images/thingvellir_fault_line.jpg" alt="The moss covered fault line of Þingvellir National Park." >}}
+
+{{< image src="/images/thingvellir_fault_line_myles.jpg" alt="A crouched person with a camera in a fault line of Þingvellir National Park." >}}
+
+{{< /images >}}
+
 The Reykjadalur valley was less than an hour from Þingvellir National Park. Since Myles and I visited the valley in 2018, the entryway had been upgraded extensively. There was now a paved parking lot, with paid parking, instead of a gravel lot with a vacant structure. An immaculate cafe had been installed, which had bathrooms. A zipline was installed behind the cafe, which spanned a kilometer upwards to a tower along the nearby highway. Myles and I parked on the outskirts. Before we left the vehicle for the hike into the valley, I emptied my backpack asides from my GORE-TEX jacket, swim trunks, and a microfiber towel.
 
 Another addition to the Reykjadalur valley were horseback rides. The paddock was past the zipline. From the paddock, a trail of horse manure followed Myles and I into the valley. The ascent took us through steep switchbacks, until we arrived at an overlook of a distant waterfall and wide canyon. Myles and I stopped off the path and took photographs of the waterfall from a ledge. As with the majority of places in Iceland, there were no safety ropes or fences. I set-up my field recorder on the overhang and captured the sound of the waterfall. From afar, the audio was muted but decipherable. I did, however, capture the laughter of nearby hikers.
 
 Near the top of the valley, board pathways with steps shadowed the thermal river. Divided plank walls were available along the pathways to change behind. Myles didn't want to go into the river but I did. I walked across a small bridge to the opposite side of the river and changed behind a vacant wall. As the temperature hovered in the forties, I quickly stripped three layers of gear, pulled on my trunks, and got into the river. The bed of the river was rocky, with beds of moss. The depth of the water was shallow, which caused my chest to be above the waterline. To my surprise, the water was similar in temperature to an average Jacuzzi.
+
+Next to strangers, I sat in the water for ten minutes until I spotted Myles on a hill. With a chill, I exited the water and changed behind the nearby wall where I dropped my gear. With no bench to sit on, it was awkward to slip on wool baselayers. Once I was dressed, I walked to the upper ridge where Myles was. We followed a gravel path, which bordered the river, to the end of the valley. In 2018, the last time Myles and I had reached the end of the Reykjadalur valley, a layer of snow covered the area. The snow had masked a waterfall, which was tucked into a rocky gulley. We were able to get near the waterfall this time by crossing an eroded footpath.
+
+Before we descended, Myles and I explored the head of the valley. A ledge with a steep drop off, accessible by a narrow footpath, provided a near panoramic view of the lush ridges, interspersed with beds of loose rocks. The footpath continued into a nearby range of hills, but Myles and I didn't want to push our luck with the weather. The descent was slow, but without issue. Though on occassion, mounds of horse manure had to be side stepped. Before we returned to the vehicle, I paid the parking fee at an automated machine near the cafe. The fee was cheap, less than 1,000 Icelandic Króna, as the cost was 250 Icelandic Króna per hour.
 
 For lunch, Myles and I revisted Lindin, a restaurant in the quiet town of Laugarvatn. A server seated us near the door, with a view of Lake Laugarvatn. The tables, chairs, wallpaper, and aged frames along the walls painted a picture of home. I ordered a reindeer burger, with an espresso martini and a glass of ginger ale. Minus the martini, Myles placed the same order. After a day of travel and the onset of exploration, it was a welcomed meal. The martini, too, offset jet lag and the lack of sleep. Before we departed Lindin, Baldur Öxdal, the head chef, discussed food with Myles and I, and provided recommendations for hiking in Iceland.
 
