@@ -4,7 +4,7 @@ date: 2018-10-10 14:00:00
 description: "Without a plan, Myles and I ventured around Iceland before visiting a movie theater."
 images: ["/images/iceland_blog_06_social.jpg"]
 categories: ["travel"]
-tags: ["iceland", "trip", "drive", "vehicle", "restaurant"]
+tags: ["iceland", "trip", "drive", "vehicle", "restaurant", "reykjadalur"]
 series: ["Iceland", "Iceland 2018"]
 thumbnail: "/images/iceland_blog_06_social.jpg"
 thumbnailAlt: "Mountain range near Blafjallavegur."
