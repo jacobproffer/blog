@@ -4,10 +4,10 @@ date: 2024-06-19T13:37:48-04:00
 description: "Discover the perfect day in Iceland, starting with a landing at the airport and unforgettable hikes in Thingvellir National Park and Reykjadalur Valley."
 images: ["/images/reykjadalur_steam.jpg"]
 series: ["Iceland", "Iceland 2024"]
-tags: ["iceland", "airport", "hotel", "reykjadalur"]
+tags: ["iceland", "airport", "hotel", "reykjadalur", "gullfoss"]
 categories: ["travel"]
 thumbnail: "/images/reykjadalur_steam.jpg"
-thumbnailAlt: ""
+thumbnailAlt: "Pockets of geothermal steam rise in the Reykjadalur valley."
 ---
 
 With an early arrival into Keflavik, Myles and I arrived in Iceland at five in the morning. As with my [latest trip to Japan]({{< ref "/travel/back-to-japan-again" >}}), the plane, a Boeing 757, parked on the tarmac away from the terminal. Since there was no jet bridge, buses were required to reach a nearby terminal. I was in the rear of the plane, which meant I was on the last bus. Myles and I met in the arrival terminal, and waited together in line for the immigration checkpoint. The line moved faster than expected, and we were both through within minutes with fresh arrival stamps in our passports.
@@ -46,4 +46,4 @@ Before we descended, Myles and I explored the head of the valley. A ledge with a
 
 For lunch, Myles and I revisted Lindin, a restaurant in the quiet town of Laugarvatn. A server seated us near the door, with a view of Lake Laugarvatn. The tables, chairs, wallpaper, and aged frames along the walls painted a picture of home. I ordered a reindeer burger, with an espresso martini and a glass of ginger ale. Minus the martini, Myles placed the same order. After a day of travel and the onset of exploration, it was a welcomed meal. The martini, too, offset jet lag and the lack of sleep. Before we departed Lindin, Baldur Öxdal, the head chef, discussed food with Myles and I, and provided recommendations for hiking in Iceland.
 
-<!-- Gullfoss -->
+Although late in the evening, Myles and I drove a half hour from Laugarvatn to Gullfoss before we returned to the hotel for the night. Situated east of the Golden Circle, Gullfoss is renowed as one of Iceland's iconic waterfalls. The waterfall has two separate cascades, with a total drop of 105 feet. To our surprise, the parking area for Gullfoss was nearly deserted, with nearly no tourists or vehicles in sight. Parking near the closed gift shop, we descended 110 stairs to reach a footpath shrouded in constant mist. This path led to the lower lookout of the waterfall, where we observed the Hvítá river cascade to the plunge pool of Gullfoss.
