@@ -1,10 +1,10 @@
 ---
-title: "A Perfect Day in Iceland: Hiking Thingvellir and Reykjadalur Valley"
-date: 2024-06-19T13:37:48-04:00
+title: "A Perfect Day in Iceland: Hiking Thingvellir and the Reykjadalur Valley"
+date: 2024-07-10T13:37:48-04:00
 description: "Discover the perfect day in Iceland, starting with a landing at the airport and unforgettable hikes in Thingvellir National Park and Reykjadalur Valley."
 images: ["/images/reykjadalur_steam.jpg"]
 series: ["Iceland", "Iceland 2024"]
-tags: ["iceland", "airport", "hotel", "reykjadalur", "gullfoss"]
+tags: ["iceland", "airport", "hotel", "reykjadalur", "gullfoss", "lindin"]
 categories: ["travel"]
 thumbnail: "/images/reykjadalur_steam.jpg"
 thumbnailAlt: "Pockets of geothermal steam rise in the Reykjadalur valley."

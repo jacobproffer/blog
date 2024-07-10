@@ -4,7 +4,7 @@ date: 2018-09-03 14:00:00
 description: "Myles and I traveled to Þingvellir and Gullfoss in Iceland"
 images: ["/images/iceland_blog_03_social.jpg"]
 categories: ["travel"]
-tags: ["iceland", "drive", "road", "vehicle", "gullfoss"]
+tags: ["iceland", "drive", "road", "vehicle", "gullfoss", "lindin"]
 series: ["Iceland", "Iceland 2018"]
 thumbnail: "/images/iceland_blog_03_social.jpg"
 thumbnailAlt: "Panoramic view of distant hills from Þingvellir."
