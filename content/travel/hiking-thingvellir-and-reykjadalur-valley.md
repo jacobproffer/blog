@@ -54,9 +54,9 @@ Before we descended, Myles and I explored the head of the valley. A ledge with a
 
 {{< images >}}
 
-{{< image src="/images/reykjadalur_valley_river.jpg" alt="" >}}
+{{< image src="/images/reykjadalur_valley_river.jpg" alt="Groups of people bathing in a shallow river with board walk." >}}
 
-{{< image src="/images/reykjadalur_valley.jpg" alt="" >}}
+{{< image src="/images/reykjadalur_valley.jpg" alt="Panoramic view of the lush mossy switchbacks of the Reykjadalur Valley with cloudy sky." >}}
 
 {{< /images >}}
 
