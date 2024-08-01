@@ -24,6 +24,8 @@ Before Myles and I departed Kvernufoss, I stopped into the Skógar Museum to bro
 
 The next destination was the Sólheimasandur plane crash, located a half hour to the east of Skógar. Myles and I visited the C-117D in 2018, which has remained along the southern coast since 1973. The earthen car park for the crash site is along the edge of Route 1, marked by a thin wire fence. We were surprised to see a paid shuttle bus, a service not available in 2018. Myles and I elected to walk the two miles to the plane. The foot path is flat and marked with yellow poles. Due to the absence of trees, boulders, and hills, wind flowed freely. Gusts constantly pushed me from the west, which made the two mile walk feel lengthened.
 
+Upon arrival to the crash site, Myles and I had the plane to ourselves for a short period of time. In comparison to our last visit, the fuselage was in rough shape. Weather and people had not been kind. Large pieces of the nose and cockpit had been removed. What remained of the cockpit was covered in graffiti, hundreds of stickers, and pellet sized holes in a splatter pattern. Although the port side remained intact, new holes had been punctured on the starboard side. Before a group of tourists converged on the plane, Myles and I took photographs from the starboard side, as it blocked the wind and concealed the shuttle bus with tourists.
+
 <!-- Dyrhólaey -->
 
 <!-- Reynisfjara Beach / Black beach burger -->
