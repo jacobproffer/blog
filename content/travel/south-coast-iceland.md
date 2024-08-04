@@ -26,7 +26,9 @@ The next destination was the Sólheimasandur plane crash, located a half hour to
 
 Upon arrival to the crash site, Myles and I had the plane to ourselves for a short period of time. In comparison to our last visit, the fuselage was in rough shape. Weather and people had not been kind. Large pieces of the nose and cockpit had been removed. What remained of the cockpit was covered in graffiti, hundreds of stickers, and pellet sized holes in a splatter pattern. Although the port side remained intact, new holes had been punctured on the starboard side. Before a group of tourists converged on the plane, Myles and I took photographs from the starboard side, as it blocked the wind and concealed the shuttle bus with tourists.
 
-<!-- Dyrhólaey -->
+Beyond the plane to the south was the North Atlantic coast. The beach went on for miles to the east and west. Amongst the dunes was a dead seal, half buried in the sand. The body was located farther than the tide went. It was an odd sight. The torso was intact with undamaged skin but the skull was exposed. There was no blood or visible flesh. An old thick rope was nearby, washed in long ago. It was coiled in and out of the sand. Exposure to weather had hardened the rope to a solid texture. As I photographed the seal and rope, the wind carried sheets of sand into the air, which pelted my outer jacket. It was a rough area.
+
+Dyrhólaey, a small promontory on the south coast of Iceland, was next on the itinerary. Located a half hour to the east of the Sólheimasandur plane crash, Dyrhólaey provides a comprehensive overlook of the coastline with black sand, the rock formations of Reynisdrangar, and the wide mass of Mýrdalsjökull. In comparison to 2018, a two lane road had been paved with guard rails. A dirt path once ran to the top, without safety barriers amongst the steep drop-offs. What remained was wind. On a good day, wind speeds average at twenty to thirty miles per hour near the light house. On our particular day, the wind speed approached fifty miles per hour.
 
 <!-- Reynisfjara Beach / Black beach burger -->
 
