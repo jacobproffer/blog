@@ -1,5 +1,4 @@
 .footer {
-  padding-bottom: var(--size-3);
   margin-top: var(--size-50-100);
 
   &__grid {
@@ -22,5 +21,9 @@
     flex: 1 1 0;
     gap: var(--size-1);
     display: flex;
+  }
+
+  &__graphic {
+    margin-top: var(--size-75-150);
   }
 }
