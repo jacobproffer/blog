@@ -23,7 +23,11 @@
     display: flex;
   }
 
-  &__graphic {
+  &__graphic-wrap {
     margin-top: var(--size-75-150);
+  }
+
+  &__graphic {
+    display: block;
   }
 }
