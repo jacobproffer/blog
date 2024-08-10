@@ -180,9 +180,28 @@
 }
 
 .row-gap {
-  row-gap: var(--size-5);
+  row-gap: var(--size-125-175);
 }
 
 .link-padding {
   padding: 22px 0;
+}
+
+.large-text {
+  max-width: 60ch;
+  font-size: rem(20);
+  line-height: 1.4;
+  text-wrap: balance;
+
+  a {
+    text-decoration: underline;
+  }
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 }
