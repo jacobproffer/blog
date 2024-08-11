@@ -22,6 +22,7 @@
   border-radius: 50px;
   border: 2px solid var(--white);
   transition: color var(--transition-time) ease-in-out, background-color var(--transition-time) ease-in-out, border-color var(--transition-time) ease-in-out;
+  cursor: pointer;
 
   &[aria-expanded="true"] {
     --button-color: var(--black);
