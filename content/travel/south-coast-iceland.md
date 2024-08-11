@@ -18,6 +18,14 @@ From the N1 gas station, Myles and I stayed on Route 41 until we connected with 
 
 Eastward on Route 1, Seljalandsfoss is visible from afar. The waterfall plunges two hundred feet from a cliff, and is served water from the Seljalands river, a side-effect of the melting glacier Eyjafjallajökull. Myles and I parked near a gift shop in the style of a cabin. As we had circled behind [Seljalandsfoss in 2018]({{< ref "/travel/iceland-blog-02" >}}), we walked a half mile to the north to visit Gljúfrabúi. The waterfall is overlooked, tucked into a wet cleft along the same rock face of Seljalandsfoss. Inside the canyon, in front of Gljúfrabúi, is a climbable boulder. Myles took a photograph of me atop the boulder in an upward angle, which exposed the 131 foot cliff.
 
+{{< images >}}
+
+{{< image src="/images/Gljufrabui.jpg" alt="" >}}
+
+{{< image src="/images/Seljalandsfoss_myles.jpg" alt="" >}}
+
+{{< /images >}}
+
 Myles and I kept our time at Seljalandsfoss and Gljúfrabúi short to maximize the day along the coast. We drove thirty minutes to the east of Seljalandsfoss to Kvernufoss, one more waterfall which receives infrequent attention. In comparison to the swarm of tourists at Seljalandsfoss, we were able to walk behind Kvernufoss by ourselves. The waterfall is tucked into a gorge, and is shrouded in constant mist, which blankets the area and nearby organic overlook. As the canyon was devoid of people at the time, I scrambled atop the overlook and used my field recorder to sample the white noise of water as it fell one hundred feet.
 
 Before Myles and I departed Kvernufoss, I stopped into the Skógar Museum to browse souvenirs. In a display case was a miniature white sheep made of glass. As Myles and I had passed hundreds of sheep along Route 1, I chose the sheep as my token, or symbolic trinket, for the trip. I've bought a sole token for each trip since 2017. In my collection are toy taxi cabs from Manhattan and Kyoto, a troll from Norway, a wax Godzilla figure from a movie premiere in Tokyo, a JR-East subway car from Tokyo, a ceramic Romanian house, and a scale Mount Fuji from Yamanashi Japan. My token for Iceland in 2018 was a metal figurine of the god Thor.
@@ -27,6 +35,14 @@ The next destination was the Sólheimasandur plane crash, located a half hour to
 Upon arrival to the crash site, Myles and I had the plane to ourselves for a short period of time. In comparison to our last visit, the fuselage was in rough shape. Weather and people had not been kind. Large pieces of the nose and cockpit had been removed. What remained of the cockpit was covered in graffiti, hundreds of stickers, and pellet sized holes in a splatter pattern. Although the port side remained intact, new holes had been punctured on the starboard side. Before a group of tourists converged on the plane, Myles and I took photographs from the starboard side, as it blocked the wind and concealed the shuttle bus with tourists.
 
 Beyond the plane to the south was the North Atlantic coast. The beach went on for miles to the east and west. Amongst the dunes was a dead seal, half buried in the sand. The body was located farther than the tide went. It was an odd sight. The torso was intact with undamaged skin but the skull was exposed. There was no blood or visible flesh. An old thick rope was nearby, washed in long ago. It was coiled in and out of the sand. Exposure to weather had hardened the rope to a solid quality. As I photographed the seal and rope, the wind carried sheets of sand into the air, which pelted my outer jacket. It was a rough area.
+
+{{< images >}}
+
+{{< image src="/images/plane_crash.jpg" alt="" >}}
+
+{{< image src="/images/myles_beach.jpg" alt="" >}}
+
+{{< /images >}}
 
 Dyrhólaey, a small promontory on the south coast of Iceland, was next on the itinerary. Located a half hour to the east of the Sólheimasandur plane crash, Dyrhólaey provides a comprehensive overlook of the coastline, the rock formations of Reynisdrangar, and a mass of Mýrdalsjökull. In comparison to 2018, a two lane road had been paved with guard rails. A dirt path once ran to the top, without safety barriers amongst the steep drop-offs. What remained was wind. On a good day, wind speeds average twenty to thirty miles per hour near the light house. On our particular day, the wind speed approached fifty miles per hour.
 
