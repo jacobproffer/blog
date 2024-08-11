@@ -1,0 +1,55 @@
+.form {
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--size-2);
+  max-width: 80ch;
+  margin: auto;
+
+  input,
+  textarea {
+    width: 100%;
+    margin: 0;
+    color: var(--white);
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    border: 1px solid var(--border);
+    border-radius: 0;
+    box-shadow: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    &:focus {
+      outline: 1px solid var(--orange);
+    }
+
+    &::placeholder {
+      color: var(--white);
+      opacity: 1;
+    }
+  }
+
+  input,
+  textarea {
+    padding: var(--size-1) 25px;
+  }
+
+  button {
+    grid-column: span 1;
+    padding: var(--size-1);
+  }
+
+  &__input-wrap {
+    row-gap: var(--size-1);
+  }
+
+  &__span-two {
+    @include screen-above($tablet) {
+      grid-column: span 2;
+    }
+  }
+
+  @include screen-below($tablet) {
+    grid-template-columns: 1fr;
+    max-width: unset;
+  }
+}
