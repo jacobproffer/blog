@@ -4,7 +4,7 @@ date: 2018-08-26 14:00:00
 description: "On the second day in Iceland, I traveled to Seljalandsfoss, Skógafoss and visited the Black Beach."
 images: ["/images/iceland_blog_02_social.jpg"]
 categories: ["travel"]
-tags: ["iceland", "travel", "trip", "drive", "vehicle"]
+tags: ["iceland", "trip", "drive", "vehicle", "seljalandsfoss", "plane", "reynisfjara"]
 series: ["Iceland", "Iceland 2018"]
 thumbnail: "/images/iceland_blog_02_social.jpg"
 thumbnailAlt: "A man sitting atop a hill near Reynisfjara."

@@ -1,10 +1,10 @@
 ---
 title: "Exploring Iceland's South Coast: Seljalandsfoss, Dyrhólaey, and Reynisfjara Beach"
-date: 2024-07-20T21:13:56-04:00
+date: 2024-08-13T13:13:56-04:00
 description: "Explore Iceland's south coast with visits to Seljalandsfoss, Dyrhólaey, and Reynisfjara Beach. Discover breathtaking landscapes and hidden gems."
 images: ["/images/reykjadalur_steam.jpg"]
 series: ["Iceland", "Iceland 2024"]
-tags: ["iceland", "hotel"]
+tags: ["iceland", "hotel", "seljalandsfoss", "plane", "reynisfjara"]
 categories: ["travel"]
 thumbnail: "/images/reykjadalur_steam.jpg"
 thumbnailAlt: ""
@@ -54,4 +54,14 @@ Our next stop was Reynisfjara Beach, known for black sand and sneaker waves. Myl
 
 Reynisfjara Beach is a place where the line between beauty and danger is thin. With black sand underneath a sky with heavy clouds, Reynisfjara Beach was otherworldly. Seabirds called out from the blackened cliffs, their cries muted by the sea and wind. Waves crashed against the shoreline with a white foam which contrasted with the dark ground. These waves, however, are unpredictable and swift, and have powerful undercurrents. The tide recedes deceptively and returns suddenly in force. In years past, visitors have walked beyond the recommended safe zone and have been dragged out to sea. The last fatality was in 2022.
 
-<!-- Hjörleifshöfði Cave -->
+After Reynisfjara Beach, Myles and I made our way to Hjörleifshöfði to visit the Yoda cave. The cave, naturally carved into the side of the mountain, bears a resemblance to the iconic Star Wars character. The approach to the cave required a short hike across rocky terrain, with wind a persistent force. The distinct shape is more pronounced from within the cave, with casted shadows which highlighted the rock formations. The entrance frames the landscape outside, which creates a dramatic view of the surrounding plains. Despite the cave's connection to popular culture, the site is not a tourist attraction and remains quiet.
+
+We explored the area outside of the cave and were surrounded by stark contrasts of black sands and lush greenery. Low vegetation dotted the slopes of the mountain, with seabirds nested among the high cliffs. The view of the Mýrdalssandur outwash plain stretched out for miles, an expanse shaped by volcanic activity and glacial rivers. Within the plains near the cave, Myles and I walked a half mile to two large boulders, one of which resembled a troll. The boulders were unclimbable but were picturesque from each side. The solitude of the area, however, was eerie, with an absence of people and structure. Wind was the sole audible noise. We did, however, locate beach glass scattered on the ground.
+
+{{< images >}}
+
+{{< image src="/images/plains_boulder.jpg" alt="" >}}
+
+{{< image src="/images/plains_myles.jpg" alt="" >}}
+
+{{< /images >}}
