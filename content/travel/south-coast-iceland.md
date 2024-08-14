@@ -1,13 +1,13 @@
 ---
 title: "Exploring Iceland's South Coast: Seljalandsfoss, Dyrhólaey, and Reynisfjara Beach"
-date: 2024-08-13T13:13:56-04:00
+date: 2024-08-14T13:13:56-04:00
 description: "Explore Iceland's south coast with visits to Seljalandsfoss, Dyrhólaey, and Reynisfjara Beach. Discover breathtaking landscapes and hidden gems."
-images: ["/images/reykjadalur_steam.jpg"]
+images: ["/images/myles_reynisfjara.jpg"]
 series: ["Iceland", "Iceland 2024"]
 tags: ["iceland", "hotel", "seljalandsfoss", "plane", "reynisfjara"]
 categories: ["travel"]
-thumbnail: "/images/reykjadalur_steam.jpg"
-thumbnailAlt: ""
+thumbnail: "/images/myles_reynisfjara.jpg"
+thumbnailAlt: "Photographer kneeling on the black sand beach of Reynisfjara, Iceland, with a camera raised to take a picture."
 ---
 
 Before Myles and I departed for the south coast of Iceland, we had breakfast in the lobby of Reykjavik Lights. The dining area was beyond the bar, in a part of the hotel with no windows. There were rows of white tables with white chairs, next to a white table which held fresh cantaloupe, grapes, oranges, and watermelon on white plates. Warm bread was placed alongside peanut butter and Nutella. Sweets were nearby the bread, with a tower of muffins, croissants, cookies, and donut holes. Self-serve containers of coffee, tea, orange juice, cereal, and milk were behind the table of food, with a pot of hot oatmeal.
@@ -18,15 +18,15 @@ From the N1 gas station, Myles and I stayed on Route 41 until we connected with 
 
 Eastward on Route 1, Seljalandsfoss is visible from afar. The waterfall plunges two hundred feet from a cliff, and is served water from the Seljalands river, a side-effect of the melting glacier Eyjafjallajökull. Myles and I parked near a gift shop in the style of a cabin. As we had circled behind [Seljalandsfoss in 2018]({{< ref "/travel/iceland-blog-02" >}}), we walked a half mile to the north to visit Gljúfrabúi. The waterfall is overlooked, tucked into a wet cleft along the same rock face of Seljalandsfoss. Inside the canyon, in front of Gljúfrabúi, is a climbable boulder. Myles took a photograph of me atop the boulder in an upward angle, which exposed the 131 foot cliff.
 
+Myles and I kept our time at Seljalandsfoss and Gljúfrabúi short to maximize the day along the coast. We drove thirty minutes to the east of Seljalandsfoss to Kvernufoss, one more waterfall which receives infrequent attention. In comparison to the swarm of tourists at Seljalandsfoss, we were able to walk behind Kvernufoss by ourselves. The waterfall is tucked into a gorge, and is shrouded in constant mist, which blankets the area and nearby organic overlook. As the canyon was devoid of people at the time, I scrambled atop the overlook and used my field recorder to sample the white noise of water as it fell one hundred feet.
+
 {{< images >}}
 
-{{< image src="/images/Gljufrabui.jpg" alt="" >}}
+{{< image src="/images/gljufrabui.jpg" alt="An upward angle view from inside a moss-covered canyon below the Gljúfrabúi waterfall." >}}
 
-{{< image src="/images/Seljalandsfoss_myles.jpg" alt="" >}}
+{{< image src="/images/kvernufoss.jpg" alt="Kvernufoss waterfall in Iceland as water plunges into a rocky stream surrounded by lush green hills." >}}
 
 {{< /images >}}
-
-Myles and I kept our time at Seljalandsfoss and Gljúfrabúi short to maximize the day along the coast. We drove thirty minutes to the east of Seljalandsfoss to Kvernufoss, one more waterfall which receives infrequent attention. In comparison to the swarm of tourists at Seljalandsfoss, we were able to walk behind Kvernufoss by ourselves. The waterfall is tucked into a gorge, and is shrouded in constant mist, which blankets the area and nearby organic overlook. As the canyon was devoid of people at the time, I scrambled atop the overlook and used my field recorder to sample the white noise of water as it fell one hundred feet.
 
 Before Myles and I departed Kvernufoss, I stopped into the Skógar Museum to browse souvenirs. In a display case was a miniature white sheep made of glass. As Myles and I had passed hundreds of sheep along Route 1, I chose the sheep as my token, or symbolic trinket, for the trip. I've bought a sole token for each trip since 2017. In my collection are toy taxi cabs from Manhattan and Kyoto, a troll from Norway, a wax Godzilla figure from a movie premiere in Tokyo, a JR-East subway car from Tokyo, a ceramic Romanian house, and a scale Mount Fuji from Yamanashi Japan. My token for Iceland in 2018 was a metal figurine of the god Thor.
 
@@ -38,9 +38,9 @@ Beyond the plane to the south was the North Atlantic coast. The beach went on fo
 
 {{< images >}}
 
-{{< image src="/images/plane_crash.jpg" alt="" >}}
+{{< image src="/images/plane_crash.jpg" alt="Port side view of a crashed C-117D plane in Iceland." >}}
 
-{{< image src="/images/myles_beach.jpg" alt="" >}}
+{{< image src="/images/myles_beach.jpg" alt="Person photographing tangled rope in sand near a beach." >}}
 
 {{< /images >}}
 
@@ -54,14 +54,24 @@ Our next stop was Reynisfjara Beach, known for black sand and sneaker waves. Myl
 
 Reynisfjara Beach is a place where the line between beauty and danger is thin. With black sand underneath a sky with heavy clouds, Reynisfjara Beach was otherworldly. Seabirds called out from the blackened cliffs, their cries muted by the sea and wind. Waves crashed against the shoreline with a white foam which contrasted with the dark ground. These waves, however, are unpredictable and swift, and have powerful undercurrents. The tide recedes deceptively and returns suddenly in force. In years past, visitors have walked beyond the recommended safe zone and have been dragged out to sea. The last fatality was in 2022.
 
+{{< images >}}
+
+{{< image src="/images/dyrholaey.jpg" alt="Black sand coast line stretching into the distance." >}}
+
+{{< image src="/images/reynisfjara.jpg" alt="People walking along the black sand beach of Reynisfjara." >}}
+
+{{< /images >}}
+
 After Reynisfjara Beach, Myles and I made our way to Hjörleifshöfði to visit the Yoda cave. The cave, naturally carved into the side of the mountain, bears a resemblance to the iconic Star Wars character. The approach to the cave required a short hike across rocky terrain, with wind a persistent force. The distinct shape is more pronounced from within the cave, with casted shadows which highlighted the rock formations. The entrance frames the landscape outside, which creates a dramatic view of the surrounding plains. Despite the cave's connection to popular culture, the site is not a tourist attraction and remains quiet.
 
 We explored the area outside of the cave and were surrounded by stark contrasts of black sands and lush greenery. Low vegetation dotted the slopes of the mountain, with seabirds nested among the high cliffs. The view of the Mýrdalssandur outwash plain stretched out for miles, an expanse shaped by volcanic activity and glacial rivers. Within the plains near the cave, Myles and I walked a half mile to two large boulders, one of which resembled a troll. The boulders were unclimbable but were picturesque from each side. The solitude of the area, however, was eerie, with an absence of people and structure. Wind was the sole audible noise. We did, however, locate beach glass scattered on the ground.
 
 {{< images >}}
 
-{{< image src="/images/plains_boulder.jpg" alt="" >}}
+{{< image src="/images/plains_boulder.jpg" alt="A colossal boulder on an empty plain with a distant boulder in the background." >}}
 
-{{< image src="/images/plains_myles.jpg" alt="" >}}
+{{< image src="/images/plains_myles.jpg" alt="Photographer standing next to a moss covered mountain with camera in hand." >}}
 
 {{< /images >}}
+
+After we left Hjörleifshöfði, Myles and I returned to Reykjavik Lights. It was a long drive, which took four hours. Traffic was non-existent for miles at a time, which allowed for us to keep a consistent speed the entire way. Vehicles we came across were headed in the same direction. The journey took us westward across the southern coast on Route 1. We passed through dimly lit villages and wide stretches of empty plains. Despite how late it was, the midnight sun cast an eerie glow across the landscape. By the time we reached the hotel, the clock had passed midnight, yet daylight persisted, a reminder of Iceland's uniqueness.

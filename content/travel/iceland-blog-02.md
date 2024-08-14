@@ -45,8 +45,8 @@ We walked towards the cliff edge near the right side of the lighthouse, which pr
 
 {{< images >}}
 
-{{< image src="/images/dyrholaey_1.jpg" alt="Dyrhólaey." >}}
-{{< image src="/images/dyrholaey_2.jpg" alt="Dyrhólaey." >}}
+{{< image src="/images/dyrholaey_1.jpg" alt="" >}}
+{{< image src="/images/dyrholaey_2.jpg" alt="" >}}
 
 {{< /images >}}
 
