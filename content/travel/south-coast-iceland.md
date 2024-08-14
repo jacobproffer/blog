@@ -22,7 +22,7 @@ Myles and I kept our time at Seljalandsfoss and Gljúfrabúi short to maximize t
 
 {{< images >}}
 
-{{< image src="/images/gljufrabui.jpg" alt="An upward angle view from inside a moss-covered canyon below the Gljúfrabúi waterfall." >}}
+{{< image src="/images/gljufrabui.jpg" alt="An upward angle view from inside a moss-covered canyon below the Gljufrabui waterfall." >}}
 
 {{< image src="/images/kvernufoss.jpg" alt="Kvernufoss waterfall in Iceland as water plunges into a rocky stream surrounded by lush green hills." >}}
 
