@@ -23,7 +23,6 @@ Myles and I kept our time at Seljalandsfoss and Gljúfrabúi short to maximize t
 {{< images >}}
 
 {{< image src="/images/gljufrabui.jpg" alt="An upward angle view from inside a moss-covered canyon below Gljufrabui." >}}
-
 {{< image src="/images/kvernufoss.jpg" alt="Upward angle of Kvernufoss in Iceland as water plunges into a rocky stream surrounded by lush green hills." >}}
 
 {{< /images >}}
@@ -39,7 +38,6 @@ Beyond the plane to the south was the North Atlantic coast. The beach went on fo
 {{< images >}}
 
 {{< image src="/images/plane_crash.jpg" alt="Port side view of a crashed C-117D plane in Iceland." >}}
-
 {{< image src="/images/myles_beach.jpg" alt="Person photographing tangled rope in sand near a beach." >}}
 
 {{< /images >}}
@@ -57,7 +55,6 @@ Reynisfjara Beach is a place where the line between beauty and danger is thin. W
 {{< images >}}
 
 {{< image src="/images/dyrholaey.jpg" alt="Black sand coast line stretching into the distance." >}}
-
 {{< image src="/images/reynisfjara.jpg" alt="People walking along the black sand beach of Reynisfjara." >}}
 
 {{< /images >}}
@@ -69,7 +66,6 @@ We explored the area outside of the cave and were surrounded by stark contrasts 
 {{< images >}}
 
 {{< image src="/images/plains_boulder.jpg" alt="A colossal boulder on an empty plain with a distant boulder in the background." >}}
-
 {{< image src="/images/plains_myles.jpg" alt="Photographer standing next to a moss covered mountain with camera in hand." >}}
 
 {{< /images >}}
