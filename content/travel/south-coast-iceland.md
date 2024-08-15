@@ -20,13 +20,6 @@ Eastward on Route 1, Seljalandsfoss is visible from afar. The waterfall plunges 
 
 Myles and I kept our time at Seljalandsfoss and Gljúfrabúi short to maximize the day along the coast. We drove thirty minutes to the east of Seljalandsfoss to Kvernufoss, one more waterfall which receives infrequent attention. In comparison to the swarm of tourists at Seljalandsfoss, we were able to walk behind Kvernufoss by ourselves. The waterfall is tucked into a gorge, and is shrouded in constant mist, which blankets the area and nearby organic overlook. As the canyon was devoid of people at the time, I scrambled atop the overlook and used my field recorder to sample the white noise of water as it fell one hundred feet.
 
-{{< images >}}
-
-{{< image src="/images/gljufrabui.jpg" alt="An upward angle view from inside a moss-covered canyon below Gljufrabui." >}}
-{{< image src="/images/kvernufoss.jpg" alt="Upward angle of Kvernufoss in Iceland as water plunges into a rocky stream surrounded by lush green hills." >}}
-
-{{< /images >}}
-
 Before Myles and I departed Kvernufoss, I stopped into the Skógar Museum to browse souvenirs. In a display case was a miniature white sheep made of glass. As Myles and I had passed hundreds of sheep along Route 1, I chose the sheep as my token, or symbolic trinket, for the trip. I've bought a sole token for each trip since 2017. In my collection are toy taxi cabs from Manhattan and Kyoto, a troll from Norway, a wax Godzilla figure from a movie premiere in Tokyo, a JR-East subway car from Tokyo, a ceramic Romanian house, and a scale Mount Fuji from Yamanashi Japan. My token for Iceland in 2018 was a metal figurine of the god Thor.
 
 The next destination was the Sólheimasandur plane crash, located a half hour to the east of Skógar. Myles and I visited the C-117D in 2018, which has remained along the southern coast since 1973. The earthen car park for the crash site is along the edge of Route 1, marked by a thin wire fence. We were surprised to see a shuttle bus, a paid service not available in 2018. Myles and I elected to walk the two miles to the plane. The foot path is flat and marked with yellow poles. Due to the absence of trees, boulders, and hills, wind flowed freely. Gusts constantly pushed me from the west, which made the two mile walk feel lengthened.
