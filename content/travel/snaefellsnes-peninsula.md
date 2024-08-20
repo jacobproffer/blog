@@ -1,7 +1,7 @@
 ---
-title: "Snaefellsnes Peninsula"
+title: "Exploring Snaefellsnes Peninsula: Rauðfeldsgjá Gorge, Hiking From Arnarstapi to Hellnar, and Kirkjufell"
 date: 2024-08-17T08:54:59-04:00
-description: "Post description"
+description: "Discover the best of Iceland's Snaefellsnes Peninsula with a visit to Rauðfeldsgjá Gorge, a scenic hike from Arnarstapi to Hellnar, a climb up Saxhóll Crater, and views of Kirkjufell and Kirkjufellfoss."
 images: ["/images/myles_reynisfjara.jpg"]
 series: ["Iceland", "Iceland 2024"]
 tags: ["iceland"]
@@ -9,6 +9,8 @@ categories: ["travel"]
 thumbnail: "/images/myles_reynisfjara.jpg"
 thumbnailAlt: "Photographer kneeling on the black sand beach of Reynisfjara, Iceland, with a camera raised to take a picture."
 ---
+
+After an early breakfast, Myles and I set out towards the Snaefellsnes Peninsula. The drive took us through landscapes which shifted from farmlands to desolate lava fields. Nearing the peninsula, jagged peaks and volcanic formations rose against the horizon. The route remained quiet, with scattered farmhouses, and small villages along the way.
 
 The first stop of the day was the Rauðfeldsgjá Gorge, a narrow fissure carved into a steep mountainside. Myles and I missed the turnoff initially as we drove by, noticing a cluster of parked vehicles below a slope of gravel, jagged rocks, and moss. Once we parked, we hiked a short trail to the gorge. Thick snow blanketed parts of the trail, and the melting ice made conditions dangerous to venture deeper into the gorge where the stream flowed from. Instead, I cross the stream to explore the opposite side, where I climbed a hill for a vantage point. From the elevated perch was a panoramic view of expansive terrain and distant mountain ranges.
 
