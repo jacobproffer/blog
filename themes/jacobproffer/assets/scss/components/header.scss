@@ -6,12 +6,14 @@
   z-index: 2;
   background-color: var(--header-background);
 
-  &--pinned,
-  &--navigation-open {
-    --header-background: rgba(0, 0, 0, 1);
+  &--faded {
+    opacity: 0;
+    transition: opacity var(--transition-time) ease-in-out;
+    pointer-events: none;
   }
 
   &--navigation-open {
+    --header-background: rgba(0, 0, 0, 1);
     height: 100%;
   }
 
@@ -30,6 +32,9 @@
     position: fixed;
     top: -5em;
     left: 50%;
+    z-index: 1;
+    width: max-content;
+    background-color: var(--black);
     transform: translateX(-50%);
     transition: top var(--transition-time) ease-in-out;
 

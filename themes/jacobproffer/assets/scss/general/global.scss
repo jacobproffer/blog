@@ -27,7 +27,7 @@
 
   --outline-size: max(2px, .08em);
   --outline-style: dashed;
-  --outline-color: currentColor;
+  --outline-color: var(--orange);
 
   @media (prefers-reduced-motion: reduce) {
     --transition-time: .01ms;
@@ -66,7 +66,12 @@ body {
   font-family: var(--body-copy-font);
 }
 
+main {
+  scroll-margin-top: 20px;
+}
+
 :is(a, button) {
+
   &:focus,
   &:focus-visible {
     outline: var(--outline-size) var(--outline-style) var(--outline-color);
