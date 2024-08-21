@@ -21,7 +21,10 @@
     align-items: center;
     grid-template-columns: max-content max-content;
     justify-content: space-between;
-    border-bottom: 2px solid var(--border);
+
+    @include screen-above($tablet) {
+      border-bottom: 2px solid var(--border);
+    }
 
     @include screen-below($tablet) {
       padding: var(--size-1) 0;
@@ -85,7 +88,6 @@
 
     @include screen-below($tablet) {
       display: block;
-      font-size: #{createFluidValue(18px, 24px, 375px, 1080px)};
     }
   }
 
