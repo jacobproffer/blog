@@ -2,10 +2,7 @@
 
   {{ partial "hero" . }}
 
-  <main
-    id="content"
-    tabindex="-1"
-  >
+  <main id="content">
     <section aria-labelledby="list-headline">
       <div class="container">
 
@@ -20,7 +17,7 @@
 
         {{ if or ( eq .RelPermalink "/series/" ) ( eq .RelPermalink "/tags/" ) ( eq .RelPermalink "/categories/" ) }}
 
-          <ol class="unstyled-list flex series-list gsap-stagger-in">
+          <ol class="unstyled-list flex series-list gsap-fade-in">
 
             {{ range $sortedPages }}
 
@@ -38,7 +35,7 @@
 
         {{ else }}
 
-          <ol class="unstyled-list list grid gsap-stagger-in">
+          <ol class="unstyled-list list grid gsap-fade-in">
 
             {{ range .Pages }}
 

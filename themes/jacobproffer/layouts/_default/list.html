@@ -17,14 +17,11 @@
 {{ $japaneseLength := (where .Site.Pages "Section" "japanese" | len) }}
 {{ $travelLength := (where .Site.Pages "Section" "travel" | len) }}
 
-  {{ partial "hero" . }}
-
-  <main
-    id="content"
-    tabindex="-1"
-  >
+  <main id="content">
 
     <h1 class="visually-hide">{{ .Title | singularize }}</h1>
+
+    {{ partial "hero" . }}
 
     <section aria-labelledby="list-headline">
 
@@ -67,7 +64,7 @@
 
         {{ end }}
 
-        <ol class="unstyled-list list grid gsap-stagger-in">
+        <ol class="unstyled-list list grid gsap-fade-in">
 
           {{ range $index, $page := $paginator.Pages }}
 
@@ -91,7 +88,7 @@
           <span id="pagination-prefix" hidden>Page</span>
 
           <ol
-            class="unstyled-list pagination gsap-stagger-in"
+            class="unstyled-list pagination gsap-fade-in"
             role="list"
           >
 

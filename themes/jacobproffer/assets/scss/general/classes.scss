@@ -20,16 +20,16 @@
 }
 
 .pseudo-link {
-	text-decoration: none;
+  text-decoration: none;
 
-	&::before {
-		@include size(100%);
+  &::before {
+    @include size(100%);
     position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
-		content: "";
-	}
+    content: "";
+  }
 }
 
 .absolute-link {
@@ -171,7 +171,7 @@
   border: 2px solid var(--tag-border, var(--border));
   border-radius: 50px;
   line-height: 1;
-  transition: background-color var(--transition-time) ease-in-out,  var(--transition-time) ease-in-out;
+  transition: background-color var(--transition-time) ease-in-out, var(--transition-time) ease-in-out;
 
   @include hover {
     --tag-bg: var(--black);

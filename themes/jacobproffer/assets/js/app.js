@@ -3,7 +3,6 @@ const mainNavigation = document.querySelector('[data-navigation]');
 const mobileNavigationTrigger = document.querySelector('[data-navigation-toggle]');
 const mobileNavigation = document.querySelector('[data-navigation-list]');
 const fadeIns = document.querySelectorAll('.gsap-fade-in');
-const staggerIn = document.querySelectorAll('.gsap-stagger-in');
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -11,43 +10,9 @@ ScrollTrigger.create({
   trigger: 'main',
   start: 'top top',
   end: 'max',
-  onEnter: () => mainHeader.classList.add('main-header--pinned'),
-  onLeaveBack: () => mainHeader.classList.remove('main-header--pinned'),
+  onEnter: () => mainHeader.classList.add('main-header--faded'),
+  onLeaveBack: () => mainHeader.classList.remove('main-header--faded'),
 });
-
-if (fadeIns.length > 0) {
-  fadeIns.forEach((fadeIn) => {
-    gsap.from(fadeIn, {
-      y: 30,
-      autoAlpha: 0,
-      scrollTrigger: {
-        trigger: fadeIn,
-        start: 'top 90%',
-        end: 'bottom top',
-        once: true,
-      }
-    })
-  });
-}
-
-if (staggerIn.length > 0) {
-  staggerIn.forEach((staggers) => {
-    const staggerElements = staggers.children;
-
-    if (staggerElements.length > 0) {
-      ScrollTrigger.batch(staggerElements, {
-        start: 'top 90%',
-        end: 'bottom top',
-        once: true,
-        onEnter: batch => gsap.from(batch, {
-          y: 30,
-          autoAlpha: 0,
-          stagger: 0.1,
-        }),
-      });
-    }
-  });
-}
 
 /**
  * Trap focus within navigation
@@ -57,7 +22,7 @@ function navigationFocus() {
   const firstFocusableElement = focusableElements[0];
   const lastFocusableElement = focusableElements[focusableElements.length - 1];
 
-  mainNavigation.addEventListener('keydown', function(e) {
+  mainNavigation.addEventListener('keydown', function (e) {
     if (e.target === firstFocusableElement && e.key === 'Tab' && e.shiftKey) {
       e.preventDefault();
       lastFocusableElement.focus();
@@ -72,10 +37,10 @@ function navigationFocus() {
  * Close navigation if escape key is pressed
  */
 function handleEscape() {
-  document.addEventListener('keyup', function(e) {
+  document.addEventListener('keyup', function (e) {
     const escape = e.key;
 
-    if(escape === 'Escape' && mobileNavigation.classList.contains('open')) {
+    if (escape === 'Escape' && mobileNavigation.classList.contains('open')) {
       mobileNavigationTrigger.setAttribute('aria-expanded', 'false');
       mobileNavigationTrigger.focus();
       mobileNavigation.classList.remove('open');
@@ -85,7 +50,7 @@ function handleEscape() {
   });
 }
 
-mobileNavigationTrigger.addEventListener("click", function() {
+mobileNavigationTrigger.addEventListener("click", function () {
   mainHeader.classList.toggle('main-header--navigation-open');
   mobileNavigation.classList.toggle("open")
   this.classList.toggle("nav-open");
@@ -101,3 +66,46 @@ mobileNavigationTrigger.addEventListener("click", function() {
     this.innerHTML = "Open Menu";
   }
 });
+
+// Ensure GSAP and ScrollTrigger are loaded
+gsap.registerPlugin(ScrollTrigger);
+
+// Function to trigger the fade-in animation
+const triggerFadeInAnimation = (element) => {
+  gsap.to(element, {
+    opacity: 1,
+    y: 0,
+    duration: 1,
+    ease: 'power1.out'
+  });
+};
+
+// Function to setup fade-in animations on scroll
+const setupFadeInAnimation = (element) => {
+  // Set initial state
+  gsap.set(element, { opacity: 0, y: 30 });
+
+  // Create ScrollTrigger instance
+  const trigger = ScrollTrigger.create({
+    trigger: element,
+    start: 'top 90%',
+    end: 'bottom top',
+    once: true,
+    onEnter: () => triggerFadeInAnimation(element)
+  });
+
+  // Handle focus for focusable child elements
+  const focusableChildren = element.querySelectorAll('a, button, input, select, textarea, [tabindex]:not([tabindex="-1"])');
+  focusableChildren.forEach((child) => {
+    child.addEventListener('focus', () => {
+      if (!trigger.isActive) {
+        triggerFadeInAnimation(element);
+      }
+    });
+  });
+};
+
+// Initialize animations for fade-in elements
+if (fadeIns.length > 0) {
+  fadeIns.forEach(setupFadeInAnimation);
+}
