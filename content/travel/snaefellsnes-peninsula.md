@@ -1,5 +1,5 @@
 ---
-title: "Exploring Snaefellsnes Peninsula: Rauðfeldsgjá Gorge, Arnarstapi to Hellnar Hike, and Kirkjufell"
+title: "Exploring Snaefellsnes Peninsula: Rauðfeldsgjá Gorge, Arnarstapi to Hellnar, and Kirkjufell"
 date: 2024-08-17T08:54:59-04:00
 description: "Discover the best of Iceland's Snaefellsnes Peninsula with a visit to Rauðfeldsgjá Gorge, a scenic hike from Arnarstapi to Hellnar, a climb up Saxhóll Crater, and views of Kirkjufell and Kirkjufellfoss."
 images: ["/images/myles_reynisfjara.jpg"]
@@ -14,7 +14,7 @@ After an early breakfast, Myles and I set out towards the Snaefellsnes Peninsula
 
 The first stop of the day was the Rauðfeldsgjá Gorge, a narrow fissure carved into a steep mountainside. Myles and I missed the turnoff initially as we drove by, noticing a cluster of parked vehicles below a slope of gravel, jagged rocks, and moss. Once we parked, we hiked a short trail to the gorge. Thick snow blanketed parts of the trail, and the melting ice made conditions dangerous to venture deeper into the gorge where the stream flowed from. Instead, I cross the stream to explore the opposite side, where I climbed a hill for a vantage point. From the elevated perch was a panoramic view of expansive terrain and distant mountain ranges.
 
-<!-- Need connection between the two locations -->
+After Myles and I descended Rauðfeldsgjá, we returned to the car and headed further west towards Arnarstapi. The road took us through stretches of lava fields, and coastal views as the mountains gradually gave way to open plains. The landscape was increasingly remote, with rough terrain and distant cliffs. The jagged coastline drew closer, which signaled our approach to the small village tucked near the water's edge. The village of Arnarstapi rests quietly between the mountains and the sea, marked by a cluster of small, weathered buildings. Traditional Icelandic houses with turf roofs and brightly painted facades dot the area, which stand out against the rugged cliffs and darkened coastline.
 
 Myles and I stopped for lunch at the Snjófell Restaurant in Arnarstapi. The restaurant exuded an elegant atmosphere, which made me feel out of place in a neon red Arc'teryx jacket and headband. The place was empty upon arrival but filled with a tour group, comprised of old folks with binoculars hung on their necks. We both ordered lamb chops, priced at 4900 Icelandic Króna each. The meal was satisfying, with tender meat served alongside potatoes and a salad. After the meal, we lingered with cups of coffee before we left. The quiet atmosphere contrasted with the busyness outside, where the tour group prepared to move on to their next stop.
 
