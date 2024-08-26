@@ -22,7 +22,7 @@ After lunch, Myles and I hiked from Arnarstapi to Hellnar along the coast. The h
 
 Near the bed of kelp were a group of children on a school trip. Their voices echoed off the cliffs as they explored a nearby cave with a narrow opening at the top. After the kids moved on, Myles and I trudged through the kelp to reach the cave. With slimy strands clinging to my boots, each step proved difficult. The slippery surface made it hard to keep balance, and I slipped more than once. After making our way across, we reached the cave entrance and climbed to the top. The top side of the cave was a grassy knoll, which offered a view of the cove below. We descended through tall grass and slowly retraced our route towards Arnarstapi.
 
-<!-- Saxhóll Crater -->
+After leaving Arnarstapi, Myles and I continued our journey northwest towards the Saxhóll Crater. The drive provided sweeping views of distant peaks, and the expansive Snaefellsnes Peninsula. The roads led us through stretches of desolate land, where volcanic remnants broke the horizon. Jagged lava fields flanked us on either side, with patches of moss which softened the otherwise harsh environment. As we approached the base of Saxhóll, the crater's rust-colored slopes stood out against the landscape and sky. A small gravel lot came into view, tucked along the sloping terrain. Amongst the parked vehicles was a Suzuki Jimny.
 
 <!-- Kirkjufell and Kirkjufellfoss -->
 
