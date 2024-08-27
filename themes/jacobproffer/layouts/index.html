@@ -1,162 +1,127 @@
-{{ define "title" }}
+{{ define "title" }} {{ .Site.Title }} - Web Developer, Writer and Traveler {{
+end }} {{ define "main" }} {{ $paginator := .Paginate (where .Site.RegularPages
+".Params.type" "!=" "page") }} {{ $totalPosts := len .Site.RegularPages }} {{
+$context := dict "IsHome" .IsHome }}
 
-  {{ .Site.Title }} - Web Developer, Writer and Traveler
+<main id="content">
+  <h1 class="visually-hide">Personal Blog of Jacob Proffer</h1>
 
-{{ end }}
+  {{ partial "hero" . }}
 
-{{ define "main" }}
+  <section>
+    <div class="container">
+      <div class="grid row-gap">
+        {{ if lt .Paginator.PageNumber 2 }}
 
-{{ $paginator := .Paginate (where .Site.RegularPages ".Params.type" "!=" "page") }}
+        <div class="fade-in">
+          <p class="large-text">
+            I'm Jacob Proffer. I'm a front-end developer with nine years of
+            experience in delivering inclusive digital experiences.
+          </p>
 
-{{ $totalPosts := len .Site.RegularPages }}
+          <p class="large-text">
+            I'm invested in learning Japanese, writing, running trails, and
+            advocating for accessibility in all aspects of life.
+          </p>
 
-{{ $context := dict "IsHome" .IsHome }}
+          <p class="large-text">
+            Currently working at
+            <a href="https://www.elegantseagulls.com/" target="_blank"
+              >Elegant Seagulls</a
+            >.
+          </p>
 
-  <main id="content">
-
-    <h1 class="visually-hide">Personal Blog of Jacob Proffer</h1>
-
-    {{ partial "hero" . }}
-
-    <section>
-
-      <div class="container">
-
-        <div class="grid row-gap">
-
-          {{ if lt .Paginator.PageNumber 2 }}
-
-            <div class="fade-in">
-
-              <p class="large-text">I'm Jacob Proffer. I'm a <a href="https://proffer.dev/" target="_blank">front-end developer</a> with nine years of experience in delivering inclusive digital experiences.</p>
-
-              <p class="large-text">I'm invested in learning Japanese, writing, running trails, and advocating for accessibility in all aspects of life.</p>
-
-              <p class="large-text">Currently working at <a href="https://www.elegantseagulls.com/" target="_blank">Elegant Seagulls</a>.</p>
-
-              <p class="large-text">Based in the beautiful city of Marquette, Michigan.</p>
-
-            </div>
-
-            <div>
-
-              <div class="subheading-wrap flex gsap-fade-in">
-
-                <h2 class="subheading-wrap__headline">
-                  Series
-                </h2>
-
-              </div>
-
-              <ol class="unstyled-list flex series-list gsap-fade-in">
-
-                {{ range .Site.Taxonomies.series }}
-
-                  <li>
-
-                    <a class="series-item" href="{{ .Page.RelPermalink }}">
-                      {{ .Page.Title }}
-                    </a>
-
-                  </li>
-
-                {{ end }}
-
-              </ol>
-
-            </div>
-
-          {{ end }}
-
-          <div>
-
-            <div class="subheading-wrap flex">
-
-              <h2 class="subheading-wrap__headline">
-                Posts
-              </h2>
-
-              <span class="subheading-wrap__count font-14">{{ $totalPosts }} Total Posts</span>
-
-            </div>
-
-            <ol class="unstyled-list list grid gsap-fade-in">
-
-              {{ range $index, $page := $paginator.Pages }}
-
-                <li class="list__item grid relative">
-
-                  {{ .Render "article" }}
-
-                </li>
-
-              {{ end }}
-
-            </ol>
-
-          </div>
-
+          <p class="large-text">
+            Based in the beautiful city of Marquette, Michigan.
+          </p>
         </div>
 
-      </div>
+        <div>
+          <div class="subheading-wrap flex gsap-fade-in">
+            <h2 class="subheading-wrap__headline">Series</h2>
+          </div>
 
-      {{ if gt (len $paginator.Pagers) 1  }}
+          <ol class="unstyled-list flex series-list gsap-fade-in">
+            {{ range .Site.Taxonomies.series }}
 
-        <h2 class="visually-hide" id="pagination-headline">
-          Pagination Links
-        </h2>
-
-        <nav aria-labelledby="pagination-headline">
-
-          <span id="pagination-label" hidden>Blog</span>
-          <span id="pagination-prefix" hidden>Page</span>
-
-          <ol
-            class="unstyled-list pagination gsap-fade-in"
-            role="list"
-          >
-
-            {{ range $paginator.Pagers }}
-
-              {{ if eq . $paginator}}
-
-                <li>
-                  <a
-                    class="pagination__link link-hover flex-center"
-                    id="link-{{ .PageNumber }}"
-                    href="{{ .URL }}"
-                    aria-current="page"
-                    aria-labelledby="pagination-prefix link-{{ .PageNumber }}"
-                  >
-                    {{ .PageNumber }}
-                  </a>
-                </li>
-
-              {{ else }}
-
-                <li>
-                  <a
-                    class="pagination__link link-hover flex-center"
-                    id="link-{{ .PageNumber }}"
-                    href="{{ .URL }}"
-                    aria-labelledby="pagination-prefix link-{{ .PageNumber }}"
-                  >
-                    {{ .PageNumber }}
-                  </a>
-                </li>
-
-              {{ end }}
+            <li>
+              <a
+                class="series-item"
+                href="{{ .Page.RelPermalink }}"
+                aria-label="View {{ .Page.Title }} series"
+              >
+                {{ .Page.Title }}
+              </a>
+            </li>
 
             {{ end }}
-
           </ol>
+        </div>
 
-        </nav>
+        {{ end }}
 
-      {{ end }}
+        <div>
+          <div class="subheading-wrap flex">
+            <h2 class="subheading-wrap__headline">Posts</h2>
 
-    </section>
+            <span class="subheading-wrap__count font-14"
+              >{{ $totalPosts }} Total Posts</span
+            >
+          </div>
 
-  </main>
+          <ol class="unstyled-list list grid gsap-fade-in">
+            {{ range $index, $page := $paginator.Pages }}
+
+            <li class="list__item grid relative">{{ .Render "article" }}</li>
+
+            {{ end }}
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    {{ if gt (len $paginator.Pagers) 1 }}
+
+    <h2 class="visually-hide" id="pagination-headline">Pagination Links</h2>
+
+    <nav aria-labelledby="pagination-headline">
+      <span id="pagination-label" hidden>Blog</span>
+      <span id="pagination-prefix" hidden>Page</span>
+
+      <ol class="unstyled-list pagination gsap-fade-in" role="list">
+        {{ range $paginator.Pagers }} {{ if eq . $paginator}}
+
+        <li>
+          <a
+            class="pagination__link link-hover flex-center"
+            id="link-{{ .PageNumber }}"
+            href="{{ .URL }}"
+            aria-current="page"
+            aria-labelledby="pagination-prefix link-{{ .PageNumber }}"
+          >
+            {{ .PageNumber }}
+          </a>
+        </li>
+
+        {{ else }}
+
+        <li>
+          <a
+            class="pagination__link link-hover flex-center"
+            id="link-{{ .PageNumber }}"
+            href="{{ .URL }}"
+            aria-labelledby="pagination-prefix link-{{ .PageNumber }}"
+          >
+            {{ .PageNumber }}
+          </a>
+        </li>
+
+        {{ end }} {{ end }}
+      </ol>
+    </nav>
+
+    {{ end }}
+  </section>
+</main>
 
 {{ end }}
