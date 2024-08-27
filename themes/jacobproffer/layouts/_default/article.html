@@ -23,80 +23,82 @@
 {{ $small := $data.Get "small" }}
 {{ $large := $data.Get "large" }}
 
-<div class="article grid relative" role="group" aria-label="article">
+<div role="group" aria-label="article">
 
-  <div class="article__copy grid">
+  <a class="article grid relative" href="{{ .Permalink }}" aria-label="View {{ .Title }}">
 
-    <div>
+    <div class="article__copy grid">
 
-      <h3 class="article__headline">{{ .Title }}</h3>
+      <div>
+
+        <h3 class="article__headline">{{ .Title }}</h3>
+
+      </div>
+
+      {{ if isset .Params "description" }}
+
+        <p class="article__description font-14">
+          {{ .Description }}
+        </p>
+
+      {{ end }}
+
+      <div class="article__type-wrap">
+
+        {{ if isset .Params "categories" }}
+
+          <div class="article__type">
+            <span class="font-14">{{ .Type | title }}</span>
+          </div>
+
+        {{ end }}
+
+        <svg class="article__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path fill="#ff683f" fill-rule="evenodd" d="M12 1.25c5.937 0 10.75 4.813 10.75 10.75S17.937 22.75 12 22.75 1.25 17.937 1.25 12 6.063 1.25 12 1.25Zm1.78 13.78 2.5-2.5a.75.75 0 0 0 0-1.06l-2.5-2.5a.75.75 0 1 0-1.06 1.06l1.22 1.22H8.25a.75.75 0 0 0 0 1.5h5.69l-1.22 1.22a.75.75 0 1 0 1.06 1.06Z" clip-rule="evenodd"/>
+        </svg>
+
+      </div>
 
     </div>
 
-    {{ if isset .Params "description" }}
+    <div class="article__thumbnail-wrap grid">
 
-      <p class="article__description font-14">
-        {{ .Description }}
-      </p>
+      {{ if isset .Params "thumbnail" }}
 
-    {{ end }}
+        <div class="article__thumbnail overflow-hidden">
 
-    <div class="article__type-wrap">
+          <picture>
 
-      {{ if isset .Params "categories" }}
+            <source media="(max-width: 374px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
+            <source media="(min-width: 375px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
 
-        <div class="article__type">
-          <span class="font-14">{{ .Type | title }}</span>
+            <img
+              class="article__thumbnail-image image-cover"
+              src="{{ $thumbnailSrc.RelPermalink }}"
+              width="100"
+              height="100"
+              alt="{{ with $thumbnailAlt }}{{ . }}{{ end }}"
+              loading="lazy"
+            >
+          </picture>
+
         </div>
 
       {{ end }}
 
-      <svg class="article__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-        <path fill="#ff683f" fill-rule="evenodd" d="M12 1.25c5.937 0 10.75 4.813 10.75 10.75S17.937 22.75 12 22.75 1.25 17.937 1.25 12 6.063 1.25 12 1.25Zm1.78 13.78 2.5-2.5a.75.75 0 0 0 0-1.06l-2.5-2.5a.75.75 0 1 0-1.06 1.06l1.22 1.22H8.25a.75.75 0 0 0 0 1.5h5.69l-1.22 1.22a.75.75 0 1 0 1.06 1.06Z" clip-rule="evenodd"/>
-      </svg>
+      {{ if .PublishDate }}
+
+        <time
+          class="article__date font-14 grid"
+          datetime="{{ .PublishDate.Format "2006-01-02" }}"
+        >
+          {{ .PublishDate.Format "January 2, 2006" }}
+        </time>
+
+      {{ end }}
 
     </div>
 
-  </div>
-
-  <div class="article__thumbnail-wrap grid">
-
-    {{ if isset .Params "thumbnail" }}
-
-      <div class="article__thumbnail overflow-hidden">
-
-        <picture>
-
-          <source media="(max-width: 374px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
-          <source media="(min-width: 375px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
-
-          <img
-            class="article__thumbnail-image image-cover"
-            src="{{ $thumbnailSrc.RelPermalink }}"
-            width="100"
-            height="100"
-            alt="{{ with $thumbnailAlt }}{{ . }}{{ end }}"
-            loading="lazy"
-          >
-        </picture>
-
-      </div>
-
-    {{ end }}
-
-    {{ if .PublishDate }}
-
-      <time
-        class="article__date font-14 grid"
-        datetime="{{ .PublishDate.Format "2006-01-02" }}"
-      >
-        {{ .PublishDate.Format "January 2, 2006" }}
-      </time>
-
-    {{ end }}
-
-  </div>
-
-  <a class="article__link absolute-link" href="{{ .Permalink }}" aria-label="View {{ .Title }}"></a>
+  </a>
 
 </div>
