@@ -23,9 +23,9 @@
 {{ $small := $data.Get "small" }}
 {{ $large := $data.Get "large" }}
 
-<div role="group" aria-label="article">
+<div class="h-full" role="group" aria-label="article">
 
-  <a class="article grid relative" href="{{ .Permalink }}" aria-label="View {{ .Title }}">
+  <a class="article h-full grid relative" href="{{ .Permalink }}" aria-label="View {{ .Title }}">
 
     <div class="article__copy grid">
 
