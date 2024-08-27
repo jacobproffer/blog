@@ -38,12 +38,6 @@ ignoreErrors = ["error-disable-taxonomy"]
     pageRef = "/travel/"
     weight = 2
 
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    pageRef = "/contact/"
-    weight = 3
-
   [[menu.internal]]
     identifier = "tags"
     name = "Tags"
