@@ -2,7 +2,7 @@
   --max-width: 1200px;
 
   p {
-    &+.single__image {
+    & + .single__image {
       margin: var(--size-1) 0;
     }
 
@@ -56,11 +56,7 @@
     row-gap: var(--size-1);
     justify-content: center;
 
-    &--form {
-      row-gap: var(--size-4);
-    }
-
-    &>* {
+    & > * {
       --content-column: 4 / 10;
       grid-column: var(--content-column);
       margin: 0;
@@ -109,11 +105,6 @@
     @include screen-below($mobile) {
       --two-col-grid: 1fr;
     }
-  }
-
-  &__form {
-    grid-column: 1 / -1;
-    width: 100%;
   }
 
   &__footer {
