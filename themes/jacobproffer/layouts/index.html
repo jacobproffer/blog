@@ -6,9 +6,9 @@ $context := dict "IsHome" .IsHome }}
 <main id="content">
   <h1 class="visually-hide">Personal Blog of Jacob Proffer</h1>
 
-  {{ partial "hero" . }}
+  {{/* {{ partial "hero" . }} */}}
 
-  <section>
+  <section class="hero-top-spacing">
     <div class="container">
       <div class="subheading-wrap flex">
         <h2 class="subheading-wrap__headline">
@@ -24,7 +24,8 @@ $context := dict "IsHome" .IsHome }}
           <li
             class="featured-grid__item grid relative {{ if eq $index 0 }}featured-grid__item--featured{{ end }}"
           >
-            {{ $page.Render "article" }}
+            {{ if eq $index 0 }} {{ $page.Render "featured-article" }} {{ else
+            }} {{ $page.Render "article" }} {{ end }}
           </li>
 
           {{ end }}

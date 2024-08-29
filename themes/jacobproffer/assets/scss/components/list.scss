@@ -12,18 +12,25 @@
 }
 
 .featured-grid {
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(6, auto);
+  --gap: var(--size-1);
   align-items: start;
-  gap: var(--size-0);
+  gap: var(--gap);
+
+  @include screen-above($tablet) {
+    --gap: var(--size-0);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, auto);
+  }
 
   &__item {
-    grid-column: 9 / span 4;
-    grid-row: auto;
+    @include screen-above($tablet) {
+      grid-column: 9 / span 4;
+      grid-row: auto;
 
-    &--featured {
-      grid-column: 1 / span 8;
-      grid-row: 1 / span 6;
+      &--featured {
+        grid-column: 1 / span 8;
+        grid-row: 1 / span 6;
+      }
     }
   }
 }

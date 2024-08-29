@@ -47,6 +47,7 @@
   }
 
   &__logo-wrap {
+    --primary-offset: -2px;
     display: grid;
     grid-template-columns: 32px 1fr;
     align-items: center;

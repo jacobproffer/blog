@@ -1,46 +1,45 @@
 {{ $thumbnail := "" }}
 
 {{ if isset .Params "thumbnail" }}
-
   {{ $thumbnail = .Params.thumbnail }}
-
 {{ else }}
-
   {{ $thumbnail = "/images/background.jpg" }}
-
 {{ end }}
 
 {{ $thumbnailSrc := resources.Get $thumbnail }}
 {{ $thumbnailAlt := .Params.thumbnailAlt }}
 
-{{ $smallw := default "75x75 webp" }}
-{{ $largew := default "124x124 webp" }}
+{{ $smallw := default "375x272 webp" }}
+{{ $mediumw := default "576x378 webp" }}
+{{ $largew := default "792x525 webp" }}
 
 {{ $data := newScratch }}
 {{ $data.Set "small" ($thumbnailSrc.Fill $smallw) }}
+{{ $data.Set "medium" ($thumbnailSrc.Fill $mediumw) }}
 {{ $data.Set "large" ($thumbnailSrc.Fill $largew) }}
 
 {{ $small := $data.Get "small" }}
+{{ $medium := $data.Get "medium" }}
 {{ $large := $data.Get "large" }}
 
 <div class="h-full" role="group" aria-label="article">
 
-  <a class="article h-full grid relative" href="{{ .Permalink }}" aria-label="View {{ .Title }}">
+  <a class="article article--featured h-full grid relative" href="{{ .Permalink }}" aria-label="View {{ .Title }}">
 
     {{ if isset .Params "thumbnail" }}
 
-      <div class="article__thumbnail overflow-hidden">
+      <div class="article__thumbnail article__thumbnail--featured overflow-hidden">
 
         <picture>
-
-          <source media="(max-width: 374px)" srcset="{{with $small.RelPermalink }}{{.}}{{ end }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
-          <source media="(min-width: 375px)" srcset="{{with $large.RelPermalink }}{{.}}{{ end }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
+          <source media="(max-width: 575px)" srcset="{{ $small.RelPermalink }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
+          <source media="(min-width: 576px) and (max-width: 1279px)" srcset="{{ $medium.RelPermalink }}" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
+          <source media="(min-width: 1280px)" srcset="{{ $large.RelPermalink }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
 
           <img
             class="article__thumbnail-image image-cover"
             src="{{ $thumbnailSrc.RelPermalink }}"
-            width="100"
-            height="100"
+            width="792"
+            height="auto"
             alt="{{ with $thumbnailAlt }}{{ . }}{{ end }}"
             loading="lazy"
           >
@@ -63,7 +62,7 @@
 
     {{ end }}
 
-    <h3 class="h6 article__headline">{{ .Title }}</h3>
+    <h3 class="article__headline">{{ .Title }}</h3>
 
     </div>
 

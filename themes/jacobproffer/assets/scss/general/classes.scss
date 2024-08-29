@@ -56,7 +56,7 @@
 .nav-item {
   --item-width: 1ch;
   --item-color: var(--gray);
-  --primary-offset: -3px;
+  --primary-offset: -9px;
   --footer-offset: -22px;
   position: relative;
   display: block;
@@ -101,12 +101,12 @@
   @include hover {
     --item-width: 100%;
     --item-background: var(--orange);
-    --item-color: var(--white);
+    --item-color: var(--orange);
   }
 }
 
 .hero-top-spacing {
-  padding-top: var(--size-100-200);
+  padding-top: var(--size-125-175);
 }
 
 .font-14 {

@@ -1,138 +1,94 @@
-{{ define "title" }}
+{{ define "title" }} {{ if eq .Title "Japaneses" }} Japanese - {{ .Site.Title }}
+{{ else if eq .Title "Romanium" }} Romania - {{ .Site.Title }} {{ else }} {{
+.Title | singularize }} - {{ .Site.Title }} {{ end }} {{ end }} {{ define "main"
+}} {{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") }} {{
+$japaneseLength := (where .Site.Pages "Section" "japanese" | len) }} {{
+$travelLength := (where .Site.Pages "Section" "travel" | len) }}
 
-  {{ if eq .Title "Japaneses" }}
-    Japanese - {{ .Site.Title }}
-  {{ else if eq .Title "Romanium" }}
-    Romania - {{ .Site.Title }}
-  {{ else }}
-    {{ .Title | singularize  }} - {{ .Site.Title }}
-  {{ end }}
+<main id="content">
+  <section class="hero-top-spacing" aria-labelledby="list-headline">
+    <div class="container">
+      <h1>{{ .Title | singularize }}</h1>
 
-{{ end }}
+      {{ if or (eq .Type "japanese") (eq .Type "travel") }}
 
-{{ define "main" }}
+      <div class="subheading-wrap flex gsap-fade-in">
+        {{ if eq .Type "japanese" }}
 
-{{ $paginator := .Paginate (where .Pages ".Params.type" "!=" "page") }}
+        <h2 class="subheading-wrap__headline h2" id="list-headline">Posts</h2>
+        <span class="subheading-wrap__count font-14">
+          {{ $japaneseLength }} Total Posts
+        </span>
 
-{{ $japaneseLength := (where .Site.Pages "Section" "japanese" | len) }}
-{{ $travelLength := (where .Site.Pages "Section" "travel" | len) }}
+        {{ else if eq .Type "travel" }}
 
-  <main id="content">
-
-    <h1 class="visually-hide">{{ .Title | singularize }}</h1>
-
-    {{ partial "hero" . }}
-
-    <section aria-labelledby="list-headline">
-
-      <div class="container">
-
-        {{ if or (eq .Type "japanese") (eq .Type "travel") }}
-
-          <div class="subheading-wrap flex gsap-fade-in">
-
-            {{ if eq .Type "japanese" }}
-
-              <h2 class="subheading-wrap__headline h2" id="list-headline">
-                Japanese Posts
-              </h2>
-              <span class="subheading-wrap__count font-14">
-                {{ $japaneseLength }} Total Posts
-              </span>
-
-            {{ else if eq .Type "travel" }}
-
-              <h2 class="subheading-wrap__headline h2" id="list-headline">
-                {{ .Title | singularize }} Posts
-              </h2>
-              <span class="subheading-wrap__count font-14">
-                {{ $travelLength }} Total Posts
-              </span>
-
-            {{ end }}
-
-          </div>
-
-        {{ else }}
-
-          <h2
-            class="list__headline gsap-fade-in h2"
-            id="list-headline"
-          >
-            {{ .Title | singularize }} Posts
-          </h2>
+        <h2 class="subheading-wrap__headline h2" id="list-headline">
+          {{ .Title | singularize }} Posts
+        </h2>
+        <span class="subheading-wrap__count font-14">
+          {{ $travelLength }} Total Posts
+        </span>
 
         {{ end }}
-
-        <ol class="unstyled-list list grid gsap-fade-in">
-
-          {{ range $index, $page := $paginator.Pages }}
-
-            <li class="list__item grid relative">
-
-              {{ .Render "article" }}
-
-            </li>
-
-          {{ end }}
-
-        </ol>
-
       </div>
 
-      {{ if gt (len $paginator.Pagers) 1  }}
+      {{ else }}
 
-        <nav aria-labelledby="pagination-label">
-
-          <span id="pagination-label" hidden>Blog</span>
-          <span id="pagination-prefix" hidden>Page</span>
-
-          <ol
-            class="unstyled-list pagination gsap-fade-in"
-            role="list"
-          >
-
-            {{ range $paginator.Pagers }}
-
-              {{ if eq . $paginator}}
-
-                <li>
-                  <a
-                    class="pagination__link link-hover flex-center"
-                    id="link-{{ .PageNumber }}"
-                    href="{{ .URL }}"
-                    aria-current="page"
-                    aria-labelledby="pagination-prefix link-{{ .PageNumber }}"
-                  >
-                    {{ .PageNumber }}
-                  </a>
-                </li>
-
-              {{ else }}
-
-                <li>
-                  <a
-                    class="pagination__link link-hover flex-center"
-                    id="link-{{ .PageNumber }}"
-                    href="{{ .URL }}"
-                    aria-labelledby="pagination-prefix link-{{ .PageNumber }}"
-                  >
-                    {{ .PageNumber }}
-                  </a>
-                </li>
-
-              {{ end }}
-
-            {{ end }}
-
-          </ol>
-
-        </nav>
+      <h2 class="list__headline gsap-fade-in h2" id="list-headline">
+        {{ .Title | singularize }} Posts
+      </h2>
 
       {{ end }}
 
-    </section>
+      <ol class="unstyled-list list grid gsap-fade-in">
+        {{ range $index, $page := $paginator.Pages }}
 
-  </main>
+        <li class="list__item grid relative">{{ .Render "article" }}</li>
+
+        {{ end }}
+      </ol>
+    </div>
+
+    {{ if gt (len $paginator.Pagers) 1 }}
+
+    <nav aria-labelledby="pagination-label">
+      <span id="pagination-label" hidden>Blog</span>
+      <span id="pagination-prefix" hidden>Page</span>
+
+      <ol class="unstyled-list pagination gsap-fade-in" role="list">
+        {{ range $paginator.Pagers }} {{ if eq . $paginator}}
+
+        <li>
+          <a
+            class="pagination__link link-hover flex-center"
+            id="link-{{ .PageNumber }}"
+            href="{{ .URL }}"
+            aria-current="page"
+            aria-labelledby="pagination-prefix link-{{ .PageNumber }}"
+          >
+            {{ .PageNumber }}
+          </a>
+        </li>
+
+        {{ else }}
+
+        <li>
+          <a
+            class="pagination__link link-hover flex-center"
+            id="link-{{ .PageNumber }}"
+            href="{{ .URL }}"
+            aria-labelledby="pagination-prefix link-{{ .PageNumber }}"
+          >
+            {{ .PageNumber }}
+          </a>
+        </li>
+
+        {{ end }} {{ end }}
+      </ol>
+    </nav>
+
+    {{ end }}
+  </section>
+</main>
 
 {{ end }}

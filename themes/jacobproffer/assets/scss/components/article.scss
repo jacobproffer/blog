@@ -5,15 +5,25 @@
   align-items: start;
   row-gap: var(--size-1);
   align-content: start;
+  color: var(--color, var(--white));
   background-color: var(--card-bg, var(--black));
   border-radius: 8px;
   transition: background-color var(--transition-time) ease-in-out, var(--transition-time) ease-in-out, border-color var(--transition-time) ease-in-out;
+
+  &--featured {
+    grid-template-columns: 1fr;
+
+    @include screen-below($tablet) {
+      margin-bottom: var(--size-1);
+    }
+  }
 
   @include screen-above($portrait) {
     --image-opacity: .8;
   }
 
   @include hover {
+    --color: var(--orange);
     --image-opacity: 1;
     --article-border: var(--orange);
 
@@ -27,13 +37,17 @@
   }
 
   &__date {
-    color: var(--gray);
+    color: var(--orange);
   }
 
   &__thumbnail {
     border-radius: var(--size-0);
     pointer-events: none;
     aspect-ratio: 1;
+
+    &--featured {
+      aspect-ratio: 1200 / 795;
+    }
   }
 
   &__thumbnail-image {
