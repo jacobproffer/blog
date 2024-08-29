@@ -10,3 +10,20 @@
     align-items: start;
   }
 }
+
+.featured-grid {
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, auto);
+  align-items: start;
+  gap: var(--size-0);
+
+  &__item {
+    grid-column: 9 / span 4;
+    grid-row: auto;
+
+    &--featured {
+      grid-column: 1 / span 8;
+      grid-row: 1 / span 6;
+    }
+  }
+}

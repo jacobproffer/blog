@@ -33,22 +33,6 @@
     --transition-time: .01ms;
   }
 
-  @include screen-below($desktopSm) {
-    --container: 1280px;
-  }
-
-  @include screen-below($laptop) {
-    --container: 960px;
-  }
-
-  @include screen-below($tablet) {
-    --container: 810px;
-  }
-
-  @include screen-below($portrait) {
-    --container: calc(100% - 40px);
-  }
-
   @include screen-below($mobile) {
     --pseudo-offset: -16px;
   }

@@ -1,0 +1,21 @@
+<div>
+  <div class="subheading-wrap flex gsap-fade-in">
+    <h2 class="subheading-wrap__headline">Series</h2>
+  </div>
+
+  <ol class="unstyled-list flex series-list gsap-fade-in">
+    {{ range .Site.Taxonomies.series }}
+
+    <li>
+      <a
+        class="series-item"
+        href="{{ .Page.RelPermalink }}"
+        aria-label="View {{ .Page.Title }} series"
+      >
+        {{ .Page.Title }}
+      </a>
+    </li>
+
+    {{ end }}
+  </ol>
+</div>

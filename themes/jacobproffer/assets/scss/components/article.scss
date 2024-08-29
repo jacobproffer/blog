@@ -1,10 +1,11 @@
 .article {
   z-index: 1;
+  grid-template-columns: 1fr 2fr;
+  gap: var(--size-1);
+  align-items: start;
   row-gap: var(--size-1);
   align-content: start;
-  padding: var(--size-1) var(--size-1) var(--size-2);
-  background-color: var(--card-bg, var(--off-black));
-  border: 2px solid var(--article-border, var(--border));
+  background-color: var(--card-bg, var(--black));
   border-radius: 8px;
   transition: background-color var(--transition-time) ease-in-out, var(--transition-time) ease-in-out, border-color var(--transition-time) ease-in-out;
 
@@ -14,7 +15,6 @@
 
   @include hover {
     --image-opacity: 1;
-    --card-bg: var(--black);
     --article-border: var(--orange);
 
     img {
@@ -22,38 +22,23 @@
     }
   }
 
-  &__description {
-    margin-top: 0;
-    color: var(--gray);
-    line-height: 1.5;
-  }
-
-  &__copy {
-    order: 2;
+  &__headline-wrap {
     row-gap: var(--size-0);
   }
 
   &__date {
     color: var(--gray);
-    justify-content: end;
-  }
-
-  &__thumbnail-wrap {
-    order: 1;
-    grid-template-columns: 100px 1fr;
-    column-gap: var(--size-0);
-    align-items: center;
   }
 
   &__thumbnail {
     border-radius: var(--size-0);
     pointer-events: none;
+    aspect-ratio: 1;
   }
 
   &__thumbnail-image {
     opacity: var(--image-opacity, 1);
     transition: opacity var(--transition-time) ease-in-out, transform var(--transition-time) ease-in-out;
-    object-fit: contain;
   }
 
   &__type-wrap {
@@ -61,7 +46,6 @@
     align-items: center;
     justify-content: space-between;
     padding-top: var(--size-1);
-    border-top: 2px solid var(--border);
   }
 
   &__icon {
