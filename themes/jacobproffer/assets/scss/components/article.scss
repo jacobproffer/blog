@@ -36,10 +36,6 @@
     row-gap: var(--size-0);
   }
 
-  &__date {
-    color: var(--orange);
-  }
-
   &__thumbnail {
     border-radius: var(--size-0);
     pointer-events: none;
@@ -53,16 +49,5 @@
   &__thumbnail-image {
     opacity: var(--image-opacity, 1);
     transition: opacity var(--transition-time) ease-in-out, transform var(--transition-time) ease-in-out;
-  }
-
-  &__type-wrap {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: var(--size-1);
-  }
-
-  &__icon {
-    max-width: 24px;
   }
 }
