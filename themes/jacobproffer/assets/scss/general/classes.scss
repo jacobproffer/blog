@@ -163,6 +163,29 @@
   gap: var(--size-1);
 }
 
+.series-grid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--size-3) var(--size-1);
+
+  @include screen-below($tablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include screen-below($mobile) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.series-grid-item {
+  row-gap: var(--size-1);
+
+  &__thumbnail {
+    border-radius: var(--size-0);
+    background-color: var(--orange);
+    aspect-ratio: 1;
+  }
+}
+
 .series-item {
   display: block;
   width: fit-content;
@@ -180,7 +203,7 @@
 }
 
 .row-gap {
-  row-gap: var(--size-125-175);
+  row-gap: var(--size-50-100);
 }
 
 .link-padding {
@@ -208,4 +231,8 @@
 
 .h-full {
   height: 100%;
+}
+
+.statement {
+  max-width: 80ch;
 }

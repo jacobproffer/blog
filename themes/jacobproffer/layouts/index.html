@@ -1,38 +1,11 @@
-{{ define "title" }} {{ .Site.Title }} - Web Developer, Writer and Traveler {{
-end }} {{ define "main" }} {{ $paginator := .Paginate (where .Site.RegularPages
-".Params.type" "!=" "page") }} {{ $totalPosts := len .Site.RegularPages }} {{
-$context := dict "IsHome" .IsHome }}
-
+{{ define "title" }} {{ .Site.Title }} - Web Developer, Writer and Traveler
+{{end }} {{ define "main" }}
 <main id="content">
   <h1 class="visually-hide">Personal Blog of Jacob Proffer</h1>
 
-  {{/* {{ partial "hero" . }} */}}
-
-  <section class="hero-top-spacing">
-    <div class="container">
-      <div class="subheading-wrap flex">
-        <h2 class="subheading-wrap__headline">
-          Recent Travel and Language Blog Posts
-        </h2>
-      </div>
-
-      <div>
-        <ol class="unstyled-list featured-grid grid gsap-fade-in">
-          {{ $pages := first 6 .Site.RegularPages }} {{ range $index, $page :=
-          $pages }}
-
-          <li
-            class="featured-grid__item grid relative {{ if eq $index 0 }}featured-grid__item--featured{{ end }}"
-          >
-            {{ if eq $index 0 }} {{ $page.Render "featured-article" }} {{ else
-            }} {{ $page.Render "article" }} {{ end }}
-          </li>
-
-          {{ end }}
-        </ol>
-      </div>
-    </div>
-  </section>
+  <div class="grid row-gap">
+    {{ partial "home/posts" . }} {{ partial "home/series" . }}
+  </div>
 </main>
 
 {{ end }}

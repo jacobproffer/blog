@@ -1,0 +1,24 @@
+<section>
+  <div class="container">
+    <div class="subheading-wrap flex gsap-fade-in">
+      <h2 class="subheading-wrap__headline">Favorite Series</h2>
+    </div>
+
+    <ol class="unstyled-list grid series-grid gsap-fade-in">
+      {{ range .Site.Taxonomies.series }}
+        {{ if or (eq .Page.Title "Japan") (eq .Page.Title "Iceland") (eq .Page.Title "Japan 2022") (eq .Page.Title "Japan 2023") }}
+          <li>
+            <a
+              class="series-grid-item grid"
+              href="{{ .Page.RelPermalink }}"
+              aria-label="View {{ .Page.Title }} series"
+            >
+              <div class="series-grid-item__thumbnail"></div>
+              <h3 class="h6">{{ .Page.Title }}</h3>
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ol>
+  </div>
+</section>
