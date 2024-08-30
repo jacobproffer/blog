@@ -10,24 +10,18 @@ $travelLength := (where .Site.Pages "Section" "travel" | len) }}
     <div class="container">
       {{ if or (eq .Type "japanese") (eq .Type "travel") }}
 
-      <div class="subheading-wrap flex gsap-fade-in">
+      <div class="subheading-wrap gsap-fade-in">
         {{ if eq .Type "japanese" }}
 
         <h1 class="subheading-wrap__headline" id="list-headline">
           Japanese Posts
         </h1>
-        <span class="subheading-wrap__count font-14">
-          {{ $japaneseLength }} Total Posts
-        </span>
 
         {{ else if eq .Type "travel" }}
 
         <h1 class="subheading-wrap__headline" id="list-headline">
           {{ .Title | singularize }} Posts
         </h1>
-        <span class="subheading-wrap__count font-14">
-          {{ $travelLength }} Total Posts
-        </span>
 
         {{ end }}
       </div>

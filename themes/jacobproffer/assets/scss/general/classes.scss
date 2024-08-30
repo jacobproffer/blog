@@ -129,6 +129,29 @@
   }
 }
 
+.card-hover {
+  color: var(--color, var(--white));
+
+  img {
+    transition: opacity var(--transition-time) ease-in-out, transform var(--transition-time) ease-in-out, filter var(--transition-time) ease-in-out;
+  }
+
+  @include screen-above($portrait) {
+    --image-opacity: .8;
+  }
+
+  @include hover {
+    --color: var(--orange);
+    --image-opacity: 1;
+
+    img {
+      opacity: var(--image-opacity, 1);
+      transform: scale(1.02);
+      filter: blur(1px);
+    }
+  }
+}
+
 .series-list {
   flex-wrap: wrap;
   gap: var(--size-1);
@@ -141,10 +164,6 @@
   @include screen-below($tablet) {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  @include screen-below($mobile) {
-    grid-template-columns: 1fr;
-  }
 }
 
 .series-grid-item {
@@ -154,6 +173,10 @@
     border-radius: var(--size-0);
     background-color: var(--orange);
     aspect-ratio: 1;
+
+    @include screen-below($tablet) {
+      aspect-ratio: 1200 / 795;
+    }
   }
 }
 

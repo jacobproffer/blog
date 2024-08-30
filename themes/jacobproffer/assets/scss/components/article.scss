@@ -5,30 +5,14 @@
   align-items: start;
   row-gap: var(--size-1);
   align-content: start;
-  color: var(--color, var(--white));
   background-color: var(--card-bg, var(--black));
   border-radius: 8px;
-  transition: background-color var(--transition-time) ease-in-out, var(--transition-time) ease-in-out, border-color var(--transition-time) ease-in-out;
 
   &--featured {
     grid-template-columns: 1fr;
 
     @include screen-below($tablet) {
       margin-bottom: var(--size-1);
-    }
-  }
-
-  @include screen-above($portrait) {
-    --image-opacity: .8;
-  }
-
-  @include hover {
-    --color: var(--orange);
-    --image-opacity: 1;
-    --article-border: var(--orange);
-
-    img {
-      transform: scale(1.02);
     }
   }
 
@@ -44,10 +28,5 @@
     &--featured {
       aspect-ratio: 1200 / 795;
     }
-  }
-
-  &__thumbnail-image {
-    opacity: var(--image-opacity, 1);
-    transition: opacity var(--transition-time) ease-in-out, transform var(--transition-time) ease-in-out;
   }
 }

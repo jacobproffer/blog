@@ -1,10 +1,10 @@
-<section class="hero-top-spacing">
+<section class="hero-top-spacing gsap-fade-in">
   <div class="container">
     <div class="subheading-wrap grid">
       <h2 class="subheading-wrap__headline">
         Recent Travel and Language Posts
       </h2>
-      <p class="statement">
+      <p class="statement m-0">
         Dive into recent stories from my travels across Japan and Iceland.
         Whether you're passionate about language or adventure, you'll find
         inspiration for your own travels and language-learning journey.
@@ -12,8 +12,8 @@
     </div>
 
     <div>
-      <ol class="unstyled-list featured-grid grid gsap-fade-in">
-        {{ $pages := first 6 .Site.RegularPages }} {{ range $index, $page :=
+      <ol class="unstyled-list featured-grid grid">
+        {{ $pages := first 5 .Site.RegularPages }} {{ range $index, $page :=
         $pages }}
 
         <li
