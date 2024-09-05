@@ -28,4 +28,6 @@ Myles and I parked near the base of 396 rusted steps which led to the top of the
 
 <!-- Kirkjufell and Kirkjufellfoss -->
 
-<!-- Pizza at Kaffi 59 in Grundarfjörður -->
+Grundarfjörður was a small coastal town, sat in the shadow of Kirkjufell, a famous mountain which served as a backdrop for Game of Thrones in the sixth and seventh seasons. The town was quiet and remote, with colorful houses set against the backdrop of steep mountains and the sea. After a long day, Myles and I went to Kaffi 59 for dinner. The restaurant had a welcome atmosphere, with wooden tables and large counter near the entrance. Our server, tanned to a burnt orange color, moved efficiently between tables. Myles and I ordered a pizza called Eyrarfjall, which came topped with Pitsusósa, ostur, nautahakk, skinka, and pepperoni.
+
+<!-- Driving back -->
