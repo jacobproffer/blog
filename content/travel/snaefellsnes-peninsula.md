@@ -38,9 +38,11 @@ Near the bed of kelp were a group of children on a school trip. Their voices ech
 
 {{< /images >}}
 
-After leaving Arnarstapi, Myles and I continued our journey northwest towards the Saxhóll Crater. The drive provided sweeping views of distant peaks, and the expansive Snaefellsnes Peninsula. The roads led us through stretches of desolate land, where volcanic remnants broke the horizon. Uneven fields of blackened rock flanked us on either side, with patches of moss which softened the otherwise harsh environment. As we approached the base of Saxhóll, the crater's rust-colored slopes stood out against the landscape and sky. A small gravel lot came into view, tucked along the sloping terrain. Amongst the parked vehicles was a Suzuki Jimny.
+After leaving Arnarstapi, Myles and I continued our journey northwest towards the Saxhóll Crater. The drive provided sweeping views of distant peaks, and the expansive Snaefellsnes Peninsula. The roads led us through stretches of empty land, where volcanic remnants broke the horizon. Uneven fields of blackened rock flanked us on either side, with patches of moss which softened the harsh environment. As we approached the base of Saxhóll, the crater's rust-colored slopes stood out against the landscape and sky. A small gravel lot came into view, tucked along the sloping terrain. Amongst the parked vehicles was a Suzuki Jimny.
 
 Myles and I parked near the base of 396 rusted steps which led to the top of the crater. The width of the steps provided room for people to walk side by side, but there were no guardrails or safety ropes in place. The ascent was slowed by other tourists, but we were in no rush and I had a good leg workout. We had a panoramic view of the coastline, where the ocean met the land in a jagged, unbroken line. The wind became stronger closer to the top but was mild in comparison to Dyrhólaey. Once at the summit, the full scope of the crater came into view, which was in the shape of a wide bowl surrounded by remnants of ancient lava flows.
+
+<!-- Could expand here -->
 
 {{< images >}}
 
@@ -50,7 +52,11 @@ Myles and I parked near the base of 396 rusted steps which led to the top of the
 
 {{< /images >}}
 
-After we left Saxhóll Crater, Myles and I continued along Route 54 towards Kirkjufell, which is referred to as the wizards hat. The mountain is one of Iceland's iconic landmarks. From the crater, it took us a half hour to reach Kirkjufell. It was a gorgeous drive, with coastal views. Along a bend in the road, the distinct conical shape of Kirkjufell came into view, with the slopes framed by the sea and sky. Despite its beauty, the area was crowded with tourists. The parking lot was overflowed with cars, and large groups gathered near the base of the nearby waterfall Kirkjufoss for the perfect photograph of the mountain.
+After we left Saxhóll Crater, Myles and I continued along Route 54 towards Kirkjufell, which is referred to as the wizards hat. The mountain is one of Iceland's iconic landmarks. From the crater, it took us a half hour to reach Kirkjufell. It was a gorgeous drive, with consistent coastal views. Along a bend in the road, the distinct conical shape of Kirkjufell came into view, with the slopes framed by the sea and sky. Despite its unique shape and beauty, the area was crowded with tourists. The parking lot was overflowed with cars, adventure vans, and large groups of tourists. A payment system was present in the parking lot but didn't accept payments.
+
+Myles and I explored the area in front of Kirkjufell after we parked. A trail led from the parking lot towards Kirkjufellfoss, a nearby waterfall. As the base of the waterfall provides a perfect vantage point for photographs of Kirkjufell, the path was well-worn from years of tourism. The viewpoint was stunning, with the mountain rising sharply against the sky. The mountain is next to Route 54, however, which made it difficult to photograph without vehicles being in the frame. Tourists were constantly leaving and arriving. After we finished with photographs, Myles and I returned to the vehicle and continued on the road to Grundarfjörður.
+
+<!-- Could expand here -->
 
 {{< images >}}
 
@@ -60,6 +66,6 @@ After we left Saxhóll Crater, Myles and I continued along Route 54 towards Kirk
 
 {{< /images >}}
 
-Grundarfjörður was a small coastal town, sat in the shadow of Kirkjufell, a famous mountain which served as a backdrop for Game of Thrones in the sixth and seventh seasons. The town was quiet and remote, with colorful houses set against the backdrop of steep mountains and the sea. After a long day, Myles and I went to Kaffi 59 for dinner. The restaurant had a welcome atmosphere, with wooden tables and large counter near the entrance. Our server, tanned to a burnt orange color, moved efficiently between tables. Myles and I ordered a pizza called Eyrarfjall, which came topped with Pitsusósa, ostur, nautahakk, skinka, and pepperoni.
+Grundarfjörður was a small coastal town, sat in the shadow of Kirkjufell, a famous mountain which served as a backdrop for Game of Thrones in the sixth and seventh seasons. The town was quiet and remote, with colorful houses set against the backdrop of steep mountains and the sea. After a long day, Myles and I went to Kaffi 59 for dinner. The restaurant had a welcome atmosphere, with wooden tables and large counter near the entrance. Myles and I ordered a pizza called Eyrarfjall, which came topped with Pitsusósa, ostur, nautahakk, skinka, and pepperoni. Though I burnt the roof of my mouth, it was a delicious pizza.
 
 After we paid the bill, Myles and I left Grundarfjörður and returned to Reykjavik. We stayed on Route 54, and passed familiar scenery of lava fields and mountains. We turned off on Route 56 for a shortcut, which was a rolling road with views of wide valleys and hills. Eventually, Route 56 reconnected with Route 54, which we stayed on until we reconnected with Route 1. It was a long drive, with two stops. Myles and I stopped for coffee at the Hotel Snaefellsnes and a bathroom break at an N1 station in the town of Borgarnes. By the time we arrived at our hotel, the sky was a deep blue, and the streets were near empty.
