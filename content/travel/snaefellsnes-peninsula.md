@@ -2,11 +2,11 @@
 title: "Exploring Snaefellsnes Peninsula: Rauðfeldsgjá Gorge, Arnarstapi to Hellnar, and Kirkjufell"
 date: 2024-08-17T08:54:59-04:00
 description: "Discover the best of Iceland's Snaefellsnes Peninsula with a visit to Rauðfeldsgjá Gorge, a scenic hike from Arnarstapi to Hellnar, a climb up Saxhóll Crater, and views of Kirkjufell and Kirkjufellfoss."
-images: ["/images/myles_reynisfjara.jpg"]
+images: ["/images/kirkjufell_myles.jpg"]
 series: ["Iceland", "Iceland 2024"]
 tags: ["iceland"]
 categories: ["travel"]
-thumbnail: "/images/myles_reynisfjara.jpg"
+thumbnail: "/images/kirkjufell_myles.jpg"
 thumbnailAlt: "Photographer kneeling on the black sand beach of Reynisfjara, Iceland, with a camera raised to take a picture."
 ---
 
@@ -16,17 +16,49 @@ The first stop of the day was the Rauðfeldsgjá Gorge, a narrow fissure carved 
 
 After Myles and I descended Rauðfeldsgjá, we returned to the car and headed further west towards Arnarstapi. The road took us through stretches of more lava fields, and coastal views as the mountains gradually gave way to open plains. The landscape was increasingly remote, with rough terrain and sharpened cliffs. The jagged coastline drew closer as we approached the small village tucked near the water's edge. The village of Arnarstapi rests quietly between the mountains and the sea, marked by a cluster of small, weathered buildings. Traditional Icelandic houses with turf roofs and brightly painted facades dot the area, which stand out against the rugged cliffs and darkened coastline.
 
+{{< images >}}
+
+{{< image src="/images/gorge_1.jpg" alt="" >}}
+
+{{< image src="/images/gorge_2.jpg" alt="" >}}
+
+{{< /images >}}
+
 Myles and I stopped for lunch at the Snjófell Restaurant in Arnarstapi. The restaurant exuded an elegant atmosphere, which made me feel out of place in a neon red Arc'teryx jacket and headband. The place was empty upon arrival but filled with a tour group, comprised of people with binoculars hung on their necks. We both ordered lamb chops, priced at 4,900 Icelandic Króna each. The meal was satisfying, with tender meat served alongside potatoes and a salad. After the meal, we lingered with cups of coffee before we left. The quiet atmosphere contrasted with the busyness outside, where the tour group prepared to move on to their next stop.
 
 After lunch, Myles and I hiked from Arnarstapi to Hellnar along the coast. The hike offered dramatic views of the jagged coastline. The trail meandered along rocky outcrops, where waves crashed against volcanic stone. In the distance were sea arches and natural formations shaped by centuries of wind and water. As we neared Hellnar, the rugged terrain gave way to gentler slopes with wildflowers. The village presented a quaint scene, with colorful houses nestled against the backdrop of dramatic cliffs. We walked to the sea and encountered a mass of kelp. It was my first experience with kelp, and it was unpleasant with a horrible smell.
 
 Near the bed of kelp were a group of children on a school trip. Their voices echoed off the cliffs as they explored a nearby cave with a narrow opening at the top. After the kids moved on, Myles and I trudged through the kelp to reach the cave with slimy strands clinging to our boots. The slippery surface, along with the loose rocks, made it hard to keep balance, and I slipped more than once. After making our way across, we reached the cave entrance and climbed to the top. The top side of the cave was a grassy knoll, which offered a view of the cove below. We descended through tall grass and slowly retraced our route towards Arnarstapi.
 
+{{< images >}}
+
+{{< image src="/images/hellnar.jpg" alt="" >}}
+
+{{< image src="/images/arnarstapi_myles.jpg" alt="" >}}
+
+{{< /images >}}
+
 After leaving Arnarstapi, Myles and I continued our journey northwest towards the Saxhóll Crater. The drive provided sweeping views of distant peaks, and the expansive Snaefellsnes Peninsula. The roads led us through stretches of desolate land, where volcanic remnants broke the horizon. Uneven fields of blackened rock flanked us on either side, with patches of moss which softened the otherwise harsh environment. As we approached the base of Saxhóll, the crater's rust-colored slopes stood out against the landscape and sky. A small gravel lot came into view, tucked along the sloping terrain. Amongst the parked vehicles was a Suzuki Jimny.
 
 Myles and I parked near the base of 396 rusted steps which led to the top of the crater. The width of the steps provided room for people to walk side by side, but there were no guardrails or safety ropes in place. The ascent was slowed by other tourists, but we were in no rush and I had a good leg workout. We had a panoramic view of the coastline, where the ocean met the land in a jagged, unbroken line. The wind became stronger closer to the top but was mild in comparison to Dyrhólaey. Once at the summit, the full scope of the crater came into view, which was in the shape of a wide bowl surrounded by remnants of ancient lava flows.
 
-After we left Saxhóll Crater, Myles and I continued along Route 54 towards Kirkjufell, which is referred to as the wizards hat. The mountain is one of Iceland's iconic landmarks. From the crater, it took us a half hour to reach Kirkjufell. It was a gorgeous drive, with coastal views. Along a bend in the road, the distinct conical shape of Kirkjufell came into view, with the slopes framed by the sea and sky. Despite its beauty, the area was crowded with tourists. The parking lot overflowed with cars, and large groups gathered near the base of the nearby waterfall Kirkjufoss for the perfect photograph of the mountain.
+{{< images >}}
+
+{{< image src="/images/crater_1.jpg" alt="" >}}
+
+{{< image src="/images/crater_2.jpg" alt="" >}}
+
+{{< /images >}}
+
+After we left Saxhóll Crater, Myles and I continued along Route 54 towards Kirkjufell, which is referred to as the wizards hat. The mountain is one of Iceland's iconic landmarks. From the crater, it took us a half hour to reach Kirkjufell. It was a gorgeous drive, with coastal views. Along a bend in the road, the distinct conical shape of Kirkjufell came into view, with the slopes framed by the sea and sky. Despite its beauty, the area was crowded with tourists. The parking lot was overflowed with cars, and large groups gathered near the base of the nearby waterfall Kirkjufoss for the perfect photograph of the mountain.
+
+{{< images >}}
+
+{{< image src="/images/kirkjufell.jpg" alt="" >}}
+
+{{< image src="/images/kirkjufell_myles_2.jpg" alt="" >}}
+
+{{< /images >}}
 
 Grundarfjörður was a small coastal town, sat in the shadow of Kirkjufell, a famous mountain which served as a backdrop for Game of Thrones in the sixth and seventh seasons. The town was quiet and remote, with colorful houses set against the backdrop of steep mountains and the sea. After a long day, Myles and I went to Kaffi 59 for dinner. The restaurant had a welcome atmosphere, with wooden tables and large counter near the entrance. Our server, tanned to a burnt orange color, moved efficiently between tables. Myles and I ordered a pizza called Eyrarfjall, which came topped with Pitsusósa, ostur, nautahakk, skinka, and pepperoni.
 
