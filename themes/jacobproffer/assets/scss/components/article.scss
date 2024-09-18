@@ -20,6 +20,10 @@
     row-gap: var(--size-0);
   }
 
+  &__headline {
+    margin: 0;
+  }
+
   &__thumbnail {
     border-radius: var(--size-0);
     pointer-events: none;

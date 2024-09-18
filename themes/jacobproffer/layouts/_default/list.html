@@ -37,7 +37,7 @@ $travelLength := (where .Site.Pages "Section" "travel" | len) }}
       <ol class="unstyled-list list grid gsap-fade-in">
         {{ range $index, $page := $paginator.Pages }}
 
-        <li class="list__item grid relative">{{ .Render "article" }}</li>
+        <li class="list__item grid relative">{{ .Render "listing-article" }}</li>
 
         {{ end }}
       </ol>
