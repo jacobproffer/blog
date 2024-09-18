@@ -1,0 +1,71 @@
+{{ $thumbnail := "" }}
+
+{{ if isset .Params "thumbnail" }}
+  {{ $thumbnail = .Params.thumbnail }}
+{{ else }}
+  {{ $thumbnail = "/images/background.jpg" }}
+{{ end }}
+
+{{ $thumbnailSrc := resources.Get $thumbnail }}
+{{ $thumbnailAlt := .Params.thumbnailAlt }}
+
+{{ $smallw := default "375x272 webp" }}
+{{ $mediumw := default "576x378 webp" }}
+{{ $largew := default "792x525 webp" }}
+
+{{ $data := newScratch }}
+{{ $data.Set "small" ($thumbnailSrc.Fill $smallw) }}
+{{ $data.Set "medium" ($thumbnailSrc.Fill $mediumw) }}
+{{ $data.Set "large" ($thumbnailSrc.Fill $largew) }}
+
+{{ $small := $data.Get "small" }}
+{{ $medium := $data.Get "medium" }}
+{{ $large := $data.Get "large" }}
+
+<div class="h-full" role="group" aria-label="article">
+
+  <a class="article article--featured h-full grid relative card-hover" href="{{ .Permalink }}" aria-label="View {{ .Title }}">
+
+    {{ if isset .Params "thumbnail" }}
+
+      <div class="article__thumbnail article__thumbnail--featured overflow-hidden">
+
+        <picture>
+          <source media="(max-width: 575px)" srcset="{{ $small.RelPermalink }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
+          <source media="(min-width: 576px) and (max-width: 1279px)" srcset="{{ $medium.RelPermalink }}" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
+          <source media="(min-width: 1280px)" srcset="{{ $large.RelPermalink }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
+
+          <img
+            class="article__thumbnail-image image-cover"
+            src="{{ $thumbnailSrc.RelPermalink }}"
+            width="792"
+            height="auto"
+            alt="{{ with $thumbnailAlt }}{{ . }}{{ end }}"
+            loading="lazy"
+          >
+        </picture>
+
+      </div>
+
+    {{ end }}
+
+    <div class="article__headline-wrap grid">
+
+    {{ if .PublishDate }}
+
+      <time
+        class="article__date font-14 grid"
+        datetime="{{ .PublishDate.Format "2006-01-02" }}"
+      >
+        {{ .PublishDate.Format "January 2, 2006" }}
+      </time>
+
+    {{ end }}
+
+    <h3 class="article__headline">{{ .Title }}</h3>
+
+    </div>
+
+  </a>
+
+</div>

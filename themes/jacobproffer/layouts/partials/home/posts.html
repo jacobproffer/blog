@@ -1,0 +1,30 @@
+<section class="hero-top-spacing gsap-fade-in">
+  <div class="container">
+    <div class="subheading-wrap grid">
+      <h2 class="subheading-wrap__headline">
+        Recent Travel and Language Posts
+      </h2>
+      <p class="statement m-0">
+        Dive into recent stories from my travels across Japan and Iceland.
+        Whether you're passionate about language or adventure, you'll find
+        inspiration for your own travels and language-learning journey.
+      </p>
+    </div>
+
+    <div>
+      <ol class="unstyled-list featured-grid grid">
+        {{ $pages := first 5 .Site.RegularPages }} {{ range $index, $page :=
+        $pages }}
+
+        <li
+          class="featured-grid__item grid relative {{ if eq $index 0 }}featured-grid__item--featured{{ end }}"
+        >
+          {{ if eq $index 0 }} {{ $page.Render "featured-article" }} {{ else }}
+          {{ $page.Render "article" }} {{ end }}
+        </li>
+
+        {{ end }}
+      </ol>
+    </div>
+  </div>
+</section>

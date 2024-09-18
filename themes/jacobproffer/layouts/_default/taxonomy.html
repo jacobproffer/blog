@@ -1,58 +1,41 @@
 {{ define "main" }}
 
-  {{ partial "hero" . }}
+<main id="content">
+  <section class="hero-top-spacing" aria-labelledby="list-headline">
+    <div class="container">
+      <h1 class="list__headline gsap-fade-in" id="list-headline">
+        {{ .Title }}
+      </h1>
 
-  <main id="content">
-    <section aria-labelledby="list-headline">
-      <div class="container">
+      {{ $sortedPages := sort .Pages "Title" }} {{ if or ( eq .RelPermalink
+      "/series/" ) ( eq .RelPermalink "/tags/" ) ( eq .RelPermalink
+      "/categories/" ) }}
 
-        <h1
-          class="list__headline gsap-fade-in h2"
-          id="list-headline"
-        >
-          {{ .Title }}
-        </h1>
+      <ol class="unstyled-list flex series-list gsap-fade-in">
+        {{ range $sortedPages }}
 
-        {{ $sortedPages := sort .Pages "Title" }}
-
-        {{ if or ( eq .RelPermalink "/series/" ) ( eq .RelPermalink "/tags/" ) ( eq .RelPermalink "/categories/" ) }}
-
-          <ol class="unstyled-list flex series-list gsap-fade-in">
-
-            {{ range $sortedPages }}
-
-              <li>
-
-                <a class="series-item" href="{{ .Page.RelPermalink }}">
-                  {{ .Page.Title }}
-                </a>
-
-              </li>
-
-            {{ end }}
-
-          </ol>
-
-        {{ else }}
-
-          <ol class="unstyled-list list grid gsap-fade-in">
-
-            {{ range .Pages }}
-
-              <li class="list__item grid relative">
-
-                {{ .Render "article" }}
-
-              </li>
-
-            {{ end }}
-
-          </ol>
+        <li>
+          <a class="series-item" href="{{ .Page.RelPermalink }}">
+            {{ .Page.Title }}
+          </a>
+        </li>
 
         {{ end }}
+      </ol>
 
-      </div>
-    </section>
-  </main>
+      {{ else }}
+
+      <ol class="unstyled-list list grid gsap-fade-in">
+        {{ range .Pages }}
+
+        <li class="list__item grid relative">{{ .Render "listing-article" }}</li>
+
+        {{ end }}
+      </ol>
+
+      {{ end }}
+    </div>
+  </section>
+</main>
 
 {{ end }}

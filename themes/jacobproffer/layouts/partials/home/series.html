@@ -1,0 +1,83 @@
+<section>
+  <div class="container">
+    <div class="subheading-wrap flex gsap-fade-in">
+      <h2 class="subheading-wrap__headline">Select Series</h2>
+    </div>
+
+    <ol class="unstyled-list grid series-grid gsap-fade-in">
+      {{ $thumbnail := "" }}
+      {{ range .Site.Taxonomies.series }}
+        {{ if or (eq .Page.Title "Japan") (eq .Page.Title "Iceland") (eq .Page.Title "Japan 2022") (eq .Page.Title "Japan 2023") }}
+          <li>
+          <a
+            class="series-grid-item card-hover grid"
+            href="{{ .Page.RelPermalink }}"
+            aria-label="View {{ .Page.Title }} series"
+          >
+
+            {{ if eq .Page.Title "Japan" }}
+              {{ $thumbnail = "/images/japan_blog_04_social.jpg" }}
+            {{ else if eq .Page.Title "Japan 2022" }}
+              {{ $thumbnail = "/images/tokyo-government-building.jpg" }}
+            {{ else if eq .Page.Title  "Japan 2023" }}
+              {{ $thumbnail = "/images/lake-ashi-ship.jpg" }}
+            {{ else if eq .Page.Title  "Iceland" }}
+              {{ $thumbnail = "/images/reykjadalur_valley.jpg" }}
+            {{ else }}
+              {{ $thumbnail = "/images/background.jpg" }}
+            {{ end }}
+
+            {{ $thumbnailSrc := resources.Get $thumbnail }}
+            {{ $thumbnailAlt := "" }}
+
+            {{ $smallw := default "156x103 webp" }}
+            {{ $mediumw := default "504x334 webp" }}
+            {{ $largew := default "1200x795 webp" }}
+            {{ $xlw := default "284x284 webp" }}
+
+            {{ $data := newScratch }}
+            {{ $data.Set "small" ($thumbnailSrc.Fill $smallw) }}
+            {{ $data.Set "medium" ($thumbnailSrc.Fill $mediumw) }}
+            {{ $data.Set "large" ($thumbnailSrc.Fill $largew) }}
+            {{ $data.Set "xl" ($thumbnailSrc.Fill $xlw) }}
+
+            {{ $small := $data.Get "small" }}
+            {{ $medium := $data.Get "medium" }}
+            {{ $large := $data.Get "large" }}
+            {{ $xl := $data.Get "xl" }}
+
+              <!-- Series thumbnail container -->
+              <div class="series-grid-item__thumbnail overflow-hidden">
+                <picture>
+
+                  <!-- Small screens -->
+                  <source media="(max-width: 375px)" srcset="{{ $small.RelPermalink }}" width="{{ $small.Width }}" height="{{ $small.Height }}">
+
+                  <!-- Medium screens -->
+                  <source media="(min-width: 376px) and (max-width: 1079px)" srcset="{{ $medium.RelPermalink }}" width="{{ $medium.Width }}" height="{{ $medium.Height }}">
+
+                  <!-- Large screens -->
+                  <source media="(min-width: 1080px)" srcset="{{ $large.RelPermalink }}" width="{{ $large.Width }}" height="{{ $large.Height }}">
+
+                  <!-- Extra Large screens -->
+                  <source media="(min-width: 1440px)" srcset="{{ $xl.RelPermalink }}" width="{{ $xl.Width }}" height="{{ $xl.Height }}">
+
+                  <img
+                    class="image-cover"
+                    src="{{ $thumbnailSrc.RelPermalink }}"
+                    width="100"
+                    height="100"
+                    alt="{{ with $thumbnailAlt }}{{ . }}{{ end }}"
+                    loading="lazy"
+                  >
+                </picture>
+              </div>
+              <h3 class="h6">{{ .Page.Title }}</h3>
+            </a>
+
+          </li>
+        {{ end }}
+      {{ end }}
+    </ol>
+  </div>
+</section>

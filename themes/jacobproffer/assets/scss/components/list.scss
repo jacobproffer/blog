@@ -10,3 +10,41 @@
     align-items: start;
   }
 }
+
+.featured-grid {
+  --gap: var(--size-1);
+  align-items: start;
+  gap: var(--gap);
+
+  @include screen-above($tablet) {
+    --gap: var(--size-0);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, auto);
+  }
+
+  @include screen-below($tablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include screen-below($mobile) {
+    grid-template-columns: 1fr;
+  }
+
+  &__item {
+    @include screen-above($tablet) {
+      grid-column: 9 / span 4;
+      grid-row: auto;
+    }
+
+    &--featured {
+      @include screen-above($tablet) {
+        grid-column: 1 / span 8;
+        grid-row: 1 / span 6;
+      }
+
+      @include screen-below($tablet) {
+        grid-column: 1 / -1;
+      }
+    }
+  }
+}
