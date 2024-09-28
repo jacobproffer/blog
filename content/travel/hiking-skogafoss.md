@@ -16,9 +16,9 @@ The atmosphere of Grái Kötturinn is comparable to an old library. The dim ligh
 
 As the food arrived, I quickly learned large meant large at Grái Kötturinn. What I pictured in my head as normal-sized pancakes turned out to be a towering stack. The pancakes were fluffy and rich, soaked with maple syrup, which paired perfectly with the salty crunch of the bacon. Despite my best efforts, I managed to eat half of the enormous stack. Though the meal was expensive, and I did not finish the pancakes, it was one of those meals which made me regret nothing.
 
-<!-- Handknitters Association of Iceland -->
+After our breakfast, Myles and I made our way to the Handknitters Association of Iceland, a quaint shop brimming with traditional Icelandic craftsmanship. The shelves were lined with handmade sweaters, hats, gloves, and more. I had an eye on a beautiful wool sweater, its intricate design a testament to the skill of the artisans. The cost was steep, though understandable given the craftsmanship involved. In the end, I opted for a handmade red and blue beanie instead.
 
-<!-- 66 North Outlet -->
+From there, we headed to a 66 North Outlet, a stark contrast to the traditional charm of the Handknitters Association. The store had a sleek, modern design with neatly arranged racks of outdoor gear, perfect for Iceland's unpredictable weather. I couldn't resist a neon orange hoodie, emblazoned with a map of Iceland on the rear side. It was a splurge, but more affordable than a handmade sweater. With the store nearly empty, the checkout process was smooth. I opted for duty-free, of which I later had to handle at the airport before leaving Iceland.
 
 <!-- Drive to Skógafoss -->
 
