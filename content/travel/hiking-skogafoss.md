@@ -4,10 +4,10 @@ date: 2024-09-22T13:45:33-04:00
 description: "Start your day in Reykjavík with breakfast at Grái Kötturinn, shop at local favorites like the Handknitters Association and 66 North, then drive to the breathtaking Skógafoss for an unforgettable hike. Cap off the day with lamb burgers and a movie in the heart of Reykjavík."
 images: ["/images/skogafoss_upward_view.jpg"]
 series: ["Iceland", "Iceland 2024"]
-tags: ["iceland", "hotel", "drive", "hike"]
+tags: ["iceland", "hotel", "drive", "hike", "skogafoss"]
 categories: ["travel"]
 thumbnail: "/images/skogafoss_upward_view.jpg"
-thumbnailAlt: ""
+thumbnailAlt: "A dramatic upward view of the Skogafoss waterfall cascading down a sheer cliff."
 ---
 
 On the fourth day in Iceland, Myles and I ventured into Grái Kötturinn, a cozy cafe in downtown Reykjavik. Known as The Grey Cat, this hidden gem was a short drive from Reykjavik Lights, though finding parking downtown proved to be an adventure in itself. After weaving through side streets, we finally located a spot within walking distance and made our way to the cafe after paying a parking fee of 1,800 ISK.
@@ -32,12 +32,10 @@ Despite the rain, the hike was stunning. Beyond the main falls, we explored the 
 
 {{< images >}}
 
-{{< image src="/images/skogafoss.jpg" alt="" >}}
+{{< image src="/images/skogafoss.jpg" alt="The Skogafoss waterfall plunging into a pool below, surrounded by green mossy cliffs." >}}
 
-{{< image src="/images/skogafoss_trail.jpg" alt="" >}}
+{{< image src="/images/skogafoss_trail.jpg" alt="A hiking trail beyond the Skogafoss waterfall, surrounded by lush green hills." >}}
 
 {{< /images >}}
 
 Once we reached the base of Skógafoss, we peeled off our rain layers and hopped into the car, ready for a warm meal. We drove to the nearby Hotel Skógafoss, where we both ordered lamb burgers and ginger ale. The restaurant's elegant setting was a welcome contrast to our damp, muddied boots, though no one complained since we kept our clothes were dry. The lamb was tender, and flavorful, the perfect end to an unforgettable, rain-soaked adventure on the south coast of Iceland.
-
-<!-- Furiosa movie -->
