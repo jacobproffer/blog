@@ -2,11 +2,11 @@
 title: "From Reykjavík to Skógafoss: A Perfect Day of Café Culture, Icelandic Shopping, and Scenic Hiking"
 date: 2024-09-22T13:45:33-04:00
 description: "Start your day in Reykjavík with breakfast at Grái Kötturinn, shop at local favorites like the Handknitters Association and 66 North, then drive to the breathtaking Skógafoss for an unforgettable hike. Cap off the day with lamb burgers and a movie in the heart of Reykjavík."
-images: ["/images/kirkjufell_myles.jpg"]
+images: ["/images/skogafoss_upward_view.jpg"]
 series: ["Iceland", "Iceland 2024"]
 tags: ["iceland", "hotel", "drive", "hike"]
 categories: ["travel"]
-thumbnail: "/images/kirkjufell_myles.jpg"
+thumbnail: "/images/skogafoss_upward_view.jpg"
 thumbnailAlt: ""
 ---
 
@@ -29,6 +29,14 @@ After leaving the 66 North Outlet, Myles and I returned briefly to the hotel to 
 We parked and donned our Gor-tex gear, ensuring everything was zipped, sealed, and covered to combat the rain. With the sound of rushing water growing louder, we walked toward the base of the waterfall. The sheer size of Skógafoss is breathtaking, an unrelenting cascade of water plummeting into a misty pool below. I managed to snap photos without drenching my camera, though keeping it dry was a feat in itself. After soaking in the sight, and plenty of rain, we ascended the staircase which leads to the observation deck above the waterfall.
 
 Despite the rain, the hike was stunning. Beyond the main falls, we explored the trail system, which meanders past smaller waterfalls and steep natural overlooks. As we continued the hike, the crowd thinned, which left Myles and I along the rain-slicked trail. The hike was near perfect, but Myles had a miscalculation. Myles wore low-top waterproof hiking shoes. The constant rain, coupled with the wind and movement, allowed for water to seep into the shoes and socks. After toughing it out for a mile, Myles asked to return to the parking lot. Aside from wet hands, I stayed dry.
+
+{{< images >}}
+
+{{< image src="/images/skogafoss.jpg" alt="" >}}
+
+{{< image src="/images/skogafoss_trail.jpg" alt="" >}}
+
+{{< /images >}}
 
 Once we reached the base of Skógafoss, we peeled off our rain layers and hopped into the car, ready for a warm meal. We drove to the nearby Hotel Skógafoss, where we both ordered lamb burgers and ginger ale. The restaurant's elegant setting was a welcome contrast to our damp, muddied boots, though no one complained since we kept our clothes were dry. The lamb was tender, and flavorful, the perfect end to an unforgettable, rain-soaked adventure on the south coast of Iceland.
 
