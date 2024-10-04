@@ -16,6 +16,8 @@ Once through customs, Myles and I went to pick-up the keys for the vehicle we re
 
 Unlike in [2018]({{< ref "/travel/iceland-blog-01" >}}), Myles and I were unable to take the scenic route along the coast to the south of the airport to reach Rejykvaik. Due to recent volcanic activity in the region, the town of Grindavik and nearby roads were closed off. The Blue Lagoon was open to the public but Myles and I skipped the lagoon as we had lost a complete day due to the flight delay. We took the highway into Rejykvaik, which was busier than I remembered from the past trip. Once at the hotel, our plan was to unpack, shower, and go straight out to Þingvellir National Park after we changed.
 
+## Reykjavik Lights
+
 The hotel, Reykjavik Lights, was located on the eastern side of Rejykvaik. From the airport, the drive took forty minutes. Myles and I stayed at the hotel in 2018, and were familiar with the area. As Myles and I had paid for our rooms in advance, the check-in process was quick. Unfortunately, unlike the earlier stay, our rooms faced the opposite side of Rejykvaik. My view was of nearby buildings instead of Mount Esja. The room, however, was immaculate as before with a full-size couch and large bed. My favorite aspect of the room was the sizeable bathroom, which had a heated towel rack and a walk-in rainfall style shower.
 
 {{< images >}}
@@ -25,6 +27,8 @@ The hotel, Reykjavik Lights, was located on the eastern side of Rejykvaik. From 
 {{< image src="/images/rejykvaik_lights_room.jpg" alt="A bed next to a double pane window with a city view." >}}
 
 {{< /images >}}
+
+## Þingvellir National Park
 
 After a shower, I unpacked my bag and changed into my hiking clothes. Myles, in an adjacent room, did the same. We met in the hallway and took the stairs to the front entrance of the hotel. Once in the rental vehicle, I typed Þingvellir National Park into the onboard GPS. From the hotel, Þingvellir was less than an hour away. The drive took us along multi-lane highways until Myles turned off on a two-lane road away from the city. On this road, Myles and I drove for miles without another vehicle in sight. As the national park neared, Myles pulled off the highway for an overlook which provided a panoramic view of Lake Þingvallavatn.
 
@@ -41,6 +45,8 @@ At the Hakid viewport, Myles and I had a panoramic view of the lower half of the
 {{< image src="/images/thingvellir_fault_line_myles.jpg" alt="A crouched person with a camera in a fault line of Þingvellir National Park." >}}
 
 {{< /images >}}
+
+## Reykjadalur Valley Hike
 
 The Reykjadalur valley was less than an hour from Þingvellir National Park. Since Myles and I visited the valley in 2018, the entryway had been upgraded extensively. There was now a paved parking lot, with paid parking, instead of a gravel lot with a vacant structure. An immaculate cafe had been installed, which had bathrooms. A zipline was installed behind the cafe, which spanned a kilometer upwards to a tower along the nearby highway. Myles and I parked on the outskirts. Before we left the vehicle for the hike into the valley, I emptied my backpack asides from my GORE-TEX jacket, swim trunks, and a microfiber towel.
 
@@ -59,6 +65,8 @@ Before we descended, Myles and I explored the head of the valley. A ledge with a
 {{< image src="/images/reykjadalur_valley.jpg" alt="Panoramic view of the lush mossy switchbacks of the Reykjadalur Valley with cloudy sky." >}}
 
 {{< /images >}}
+
+## Lunch at Lindin
 
 For lunch, Myles and I revisted Lindin, a restaurant in the quiet town of Laugarvatn. A server seated us near the door, with a view of Lake Laugarvatn. The tables, chairs, wallpaper, and aged frames along the walls painted a picture of home. I ordered a reindeer burger, with an espresso martini and a glass of ginger ale. Minus the martini, Myles placed the same order. After a day of travel and the onset of exploration, it was a welcomed meal. The martini, too, offset jet lag and the lack of sleep. Before we departed Lindin, Baldur Öxdal, the head chef, discussed food with Myles and I, and provided recommendations for hiking in Iceland.
 
