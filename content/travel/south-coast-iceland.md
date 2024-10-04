@@ -16,6 +16,8 @@ The first attraction for the day was Seljalandsfoss, a waterfall located seventy
 
 From the N1 gas station, Myles and I stayed on Route 41 until we connected with Route 1, or the Ring Road. The Ring Road, as the name implies, circles the entire country of Iceland. Past the town of Hveragerði, which is near the [Reykjadalur Valley]({{< ref "/travel/hiking-thingvellir-and-reykjadalur-valley" >}}), Route 1 snakes through rural farms, nestled below snowcapped mountains and volcanos. Alongside the slopes were loose rocks and colossal boulders. Sheep were everywhere, behind dug trenches and side by side with the road. The North Atlantic was nearly visible from the passenger side, beyond plains of nothingness.
 
+## Seljalandsfoss and Kvernufoss: Iconic Waterfalls Along the Ring Road
+
 Eastward on Route 1, Seljalandsfoss is visible from afar. The waterfall plunges two hundred feet from a cliff, and is served water from the Seljalands river, a side-effect of the melting glacier Eyjafjallajökull. Myles and I parked near a gift shop in the style of a cabin. As we had circled behind [Seljalandsfoss in 2018]({{< ref "/travel/iceland-blog-02" >}}), we walked a half mile to the north to visit Gljúfrabúi. The waterfall is overlooked, tucked into a wet cleft along the same rock face of Seljalandsfoss. Inside the canyon, in front of Gljúfrabúi, is a climbable boulder. Myles took a photograph of me atop the boulder in an upward angle, which exposed the 131 foot cliff.
 
 Myles and I kept our time at Seljalandsfoss and Gljúfrabúi short to maximize the day along the coast. We drove thirty minutes to the east of Seljalandsfoss to Kvernufoss, one more waterfall which receives infrequent attention. In comparison to the swarm of tourists at Seljalandsfoss, we were able to walk behind Kvernufoss by ourselves. The waterfall is tucked into a gorge, and is shrouded in constant mist, which blankets the area and nearby organic overlook. As the canyon was devoid of people at the time, I scrambled atop the overlook and used my field recorder to sample the white noise of water as it fell one hundred feet.
@@ -29,6 +31,8 @@ Myles and I kept our time at Seljalandsfoss and Gljúfrabúi short to maximize t
 
 Before Myles and I departed Kvernufoss, I stopped into the Skógar Museum to browse souvenirs. In a display case was a miniature white sheep made of glass. As Myles and I had passed hundreds of sheep along Route 1, I chose the sheep as my token, or symbolic trinket, for the trip. I've bought a sole token for each trip since 2017. In my collection are toy taxi cabs from Manhattan and Kyoto, a troll from Norway, a wax Godzilla figure from a movie premiere in Tokyo, a JR-East subway car from Tokyo, a ceramic Romanian house, and a scale Mount Fuji from Yamanashi Japan. My token for Iceland in 2018 was a metal figurine of the god Thor.
 
+## Walking to the Sólheimasandur Plane Crash
+
 The next destination was the Sólheimasandur plane crash, located a half hour to the east of Skógar. Myles and I visited the C-117D in 2018, which has remained along the southern coast since 1973. The earthen car park for the crash site is along the edge of Route 1, marked by a thin wire fence. We were surprised to see a shuttle bus, a paid service not available in 2018. Myles and I elected to walk the two miles to the plane. The foot path is flat and marked with yellow poles. Due to the absence of trees, boulders, and hills, wind flowed freely. Gusts constantly pushed me from the west, which made the two mile walk feel lengthened.
 
 Upon arrival to the crash site, Myles and I had the plane to ourselves for a short period of time. In comparison to our last visit, the fuselage was in rough shape. Weather and people had not been kind. Large pieces of the nose and cockpit had been removed. What remained of the cockpit was covered in graffiti, hundreds of stickers, and pellet sized holes in a splatter pattern. Although the port side remained intact, new holes had been punctured on the starboard side. Before a group of tourists converged on the plane, Myles and I took photographs from the starboard side, as it blocked the wind and concealed the shuttle bus with tourists.
@@ -41,6 +45,8 @@ Beyond the plane to the south was the North Atlantic coast. The beach went on fo
 {{< image src="/images/myles_beach.jpg" alt="Person photographing tangled rope in sand near a beach." >}}
 
 {{< /images >}}
+
+## Exploring Dyrhólaey and Reynisfjara Beach
 
 Dyrhólaey, a small promontory on the south coast of Iceland, was next on the itinerary. Located a half hour to the east of the Sólheimasandur plane crash, Dyrhólaey provides a comprehensive overlook of the coastline, the rock formations of Reynisdrangar, and a mass of Mýrdalsjökull. In comparison to 2018, a two lane road had been paved with guard rails. A dirt path once ran to the top, without safety barriers amongst the steep drop-offs. What remained was wind. On a good day, wind speeds average twenty to thirty miles per hour near the light house. On our particular day, the wind speed approached fifty miles per hour.
 
@@ -58,6 +64,8 @@ Reynisfjara Beach is a place where the line between beauty and danger is thin. W
 {{< image src="/images/reynisfjara.jpg" alt="People walking along the black sand beach of Reynisfjara." >}}
 
 {{< /images >}}
+
+## Inside the Yoda Cave: Shadows and Scenic Views
 
 After Reynisfjara Beach, Myles and I made our way to Hjörleifshöfði to visit the Yoda cave. The cave, naturally carved into the side of the mountain, bears a resemblance to the iconic Star Wars character. The approach to the cave required a short hike across rocky terrain, with wind a persistent force. The distinct shape is more pronounced from within the cave, with casted shadows which highlighted the rock formations. The entrance frames the landscape outside, which creates a dramatic view of the surrounding plains. Despite the cave's connection to popular culture, the site is not a tourist attraction and remains quiet.
 

@@ -24,7 +24,9 @@ After Myles and I descended Rauðfeldsgjá, we returned to the car and headed fu
 
 {{< /images >}}
 
-Myles and I stopped for lunch at the Snjófell Restaurant in Arnarstapi. The restaurant exuded an elegant atmosphere, which made me feel out of place in a neon red Arc'teryx jacket and headband. The place was empty upon arrival but filled with a tour group, comprised of people with binoculars hung on their necks. We both ordered lamb chops, priced at 4,900 Icelandic Króna each. The meal was satisfying, with tender meat served alongside potatoes and a salad. After the meal, we lingered with cups of coffee before we left. The quiet atmosphere contrasted with the busyness outside, where the tour group prepared to move on to their next stop.
+## Arnarstapi and Hellnar
+
+Myles and I stopped for lunch at the Snjófell Restaurant in Arnarstapi. The restaurant exuded an elegant atmosphere, which made me feel out of place in a red Arc'teryx jacket and headband. The place was empty upon arrival but filled with a tour group, comprised of people with binoculars hung on their necks. We both ordered lamb chops, priced at 4,900 Icelandic Króna each. The meal was satisfying, with tender meat served alongside potatoes and a salad. After the meal, we lingered with coffee before we left. The quiet atmosphere contrasted with the busyness outside, where the tour group prepared to move on to their next stop.
 
 After lunch, Myles and I hiked from Arnarstapi to Hellnar along the coast. The hike offered dramatic views of the coastline. The trail meandered along rocky outcrops, where waves crashed against volcanic stone. In the distance were sea arches and natural formations shaped by centuries of wind and water. As we neared Hellnar, the rugged terrain gave way to gentler slopes with wildflowers. The village presented a quaint scene, with colorful houses nestled against the backdrop of dramatic cliffs. We walked to the sea and encountered a mass of kelp. It was my first experience with kelp, and it was unpleasant with a horrible smell.
 
@@ -38,6 +40,8 @@ Near the bed of kelp were a group of children on a school trip. Their voices ech
 
 {{< /images >}}
 
+## Saxhóll Crater
+
 After leaving Arnarstapi, Myles and I continued our journey northwest towards the Saxhóll Crater. The drive provided sweeping views of distant peaks, and the expansive Snaefellsnes Peninsula. Uneven fields of blackened rock flanked us on either side, with patches of moss which softened the harsh environment. As we approached the base of Saxhóll, the crater's rust-colored slopes stood out against the landscape and sky. A small gravel lot came into view, tucked along the sloping terrain. The wind increased as we neared the crater, which carried a scent of damp earth. Despite the isolation of the area, a steady flow of visitors were at the summit of the crater upon our arrival.
 
 Myles and I parked near the base of 396 rusted steps which led to the top of the crater. The width of the steps provided room for people to walk side by side, but there were no guardrails or safety ropes in place. Our ascent was slowed by other tourists, but we were in no rush and I had a good leg workout. We had a panoramic view of the coastline, where the ocean met the land in a jagged, unbroken line. The wind became stronger closer to the top but was mild in comparison to Dyrhólaey. Once at the summit, the full scope of the crater came into view, which was in the shape of a wide bowl surrounded by remnants of ancient lava flows.
@@ -49,6 +53,8 @@ Myles and I parked near the base of 396 rusted steps which led to the top of the
 {{< image src="/images/crater_2.jpg" alt="A side view of the wide bowl of the Saxholl Crater in Iceland." >}}
 
 {{< /images >}}
+
+## Kirkjufell and Pizza in Grundarfjörður
 
 After we left Saxhóll Crater, Myles and I continued along Route 54 towards Kirkjufell, which is referred to as the wizards hat. The mountain is one of Iceland's iconic landmarks. From the crater, it took us a half hour to reach Kirkjufell. It was a gorgeous drive, with consistent coastal views. Along a bend in the road, the distinct conical shape of Kirkjufell came into view, with the slopes framed by the sea and sky. Despite its unique shape and beauty, the area was crowded with tourists. The parking lot was overflowed with cars, adventure vans, and large groups of tourists. A payment system was present in the parking lot but didn't accept payments.
 
