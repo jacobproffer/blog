@@ -29,6 +29,8 @@ Once finished at the Yushukan Museum, I rode a train from Iidabashi Station to S
 
 Afterwards, I walked to the METoA Cafe and Kitchen in Ginza to wait for the bus ride. The first floor cafe was upscale, and offered a variety of beverages and sweets. Normally, I stay away from sugared drinks but ordered a frappuccino with ice cream. It was another hot day, and although it melted quickly, the ice cream was a welcomed relief. The bus arrived soon after, and parked in front of the cafe. The driver requested my name and checked a printed list before I was allowed to board. As with the bus ride to Fuji-Q Highland, I chose a seat behind the driver.
 
+## Getting to the Harry Potter Studio Tour
+
 From Ginza, the bus ride to the Harry Potter Studio Tour was an hour. A large billboard of Daniel Radcliffe, Emma Watson, and Rupert Grint depicted in Chamber of Secrets was on display near the entrance to the studio lot. People, in mass, walked towards the front doors as the bus came to a stop in the parking lot. The ticket I bought had a specified time of five o'clock. With a half hour to spare, I toured the walkway in front of the studio. There was an oversized pair of Harry Potter's glasses, along with an oversized snake, and statues of Hagrid and Harry.
 
 Near five o'clock, I walked to the front entrance. As I approached, a group of people were turned away from the nearby ticket counter. No tickets were available in-person. After I showed my ticket to a staff member, I was ushered inside of the massive lobby. The lobby had immaculate walls, with a quote from J.K. Rowling which welcomed guests in golden letters. As the score of Harry Potter played aloud, children, teenagers, and adults roamed in and out of the expansive gift shop. The tour entry was located straight ahead of the main entrance, the center of attention.
@@ -36,6 +38,8 @@ Near five o'clock, I walked to the front entrance. As I approached, a group of p
 The entrance to the tour was more of a second lobby. The lights were dimmed, while the darkened walls were covered with dozens of LED screens. Each screen cycled through movie posters from the Harry Potter franchise. When the room filled, the doors closed. The movie posters faded from view and a video played. Cast and crew, along with staff and past guests, were perfectly framed within each screen. The video welcomed guests to the Harry Potter Studio Tour. After the video finished, nearby doors opened to a large auditorium with red seats.
 
 On a theatre screen in the auditorium, a second short-film played in which director Chris Columbus discussed the creation of the first film. Cast members, along with J.K. Rowling, discussed their experiences throughout the franchises history. After the screen faded to black, guests were directed towards a doorway in the theme of the entrance to the Great Hall of the Hogwarts castle. Six people were asked to come to the sizeable wooden door to cast a spell. After a series of sound effects played, the door opened inward and revealed a recreation of the Great Hall.
+
+## Entering Hogwarts
 
 The lights in the Great Hall were neon blue. Braziers spaced evenly along each walls held a deep orange glow. A mannequin of Dumbledore, at a podium, was the sole object in the room in white light. As other guests and I entered the Great Hall, the blue and orange lights dimmed and track lights high above the room resumed normal lighting. Along with other mannequins of characters, such as Snape and Hagrid, long wooden tables held dozens of silver plates and goblets along both sides of the room. A doorway at the end of the Great Hall opened, with the Grand Staircases beyond.
 
@@ -52,9 +56,13 @@ In the same hall, quidditch props, the Triwizard Cup, and the Golden Egg were lo
 
 The grandest room of the tour was the Haunted Forest. With fog, a dark ambience, and thick realistic trees, iconic characters and objects were displayed throughout the synthetic forest. Hagrid, Buckbeat, and Arthur Weasley's enchanted Flying Ford Anglia were my favorite. The beaten car was tucked between trees, with bright yellow lights which cut through the fog. An interactive part of the forest allowed guests to fend off dementors with a patronus spell. I regrettably rushed through the rest of the forest, which made me miss the display of Aragog and other arachnids.
 
+## Butterbeer and 4 Privet Drive
+
 Midway through the tour, I came to a butterbeer cafe with rows of wooden tables. Each table had different pages of the Daily Prophet engrained. A mug of butterbeer cost 1,100 yen, which came with a thin plastic bag. I had experienced butterbeer before in Osaka, at the Wizarding World of Harry Potter. The taste was the same in Tokyo, reminiscent of root beer with cream. Though I was allowed to keep the mug this time. The plastic bag was intended to be used to store the mug after I washed it in one of the sinks concealed in a wall of butterbeer kegs.
 
 The butterbeer cafe was next to a sizeable outdoor section of the tour. Notable was 4 Privet Drive, with the cupboard under the stairs. The upstairs was off-limits, though I was allowed to explore the rest of the home. The dining room was detailed with a cabinet of fine china, portraits of Dudley Dursey, and a ballooned Ms. Mason, body halfway out the window. Hagrid's motorcycle was parked near the front lawn, a popular display because guests were allowed to act as the driver and passenger. Nearby was the triple decker Knight Bus, and a replica wooden bridge from Hogwarts.
+
+## Hogsmeade Station and Diagon Alley
 
 Hogsmeade Station, with a steaming Olton Hall train, had the ambience of a train station. The sole carriage car, which was walkable, displayed Harry throughout the years on the way to Hogwarts. Each roomette was detailed with mannequins of Harry, issues of the Quibbler and snack wrappers. Moreover, the station served as a mid-tour gift shop. The Railway Shop sold shirts, stationary, and bags. An adjacent room was a recreation of the central square of the Ministry of Magic. A statue in the middle depicted Muggles being crushed under the weight of a marble column.
 
@@ -66,6 +74,8 @@ The second to last presentation was the main avenue of Diagon Alley. Although st
 {{< image src="/images/wand_shop.jpg" alt="The facade of Ollivander's Wand Shop made of brick." >}}
 
 {{< /images >}}
+
+## Gift Shop and Food Hall
 
 After the tour was completed, I went to the gift shop. The store was massive, with each Hogwarts house represented in individual sections. There were robes, t-shirts, sweaters, mugs, stationary, and stickers. Wands, both cheap and premium models, were the popular items in the store. Expensive replicas, such as the Triwizard Cup, were for sale behind display cases. Every Harry Potter book was for sale, along with pop-up versions for children. I bought a Japanese edition of Harry Potter and the Philosopher's Stone, which came with a dust jacket unique to the studio tour.
 

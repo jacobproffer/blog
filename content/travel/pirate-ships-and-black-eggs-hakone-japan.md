@@ -24,6 +24,8 @@ The port, on arrival, was devoid of any boats or ships. The water was calm, with
 
 {{< /images >}}
 
+## Taking a Pirate Ship Across Lake Ashi
+
 As I walked to Hakonemachi-ko, I spotted a pirate ship headed towards the port. Fit with tall sails, and a modern motor, the ship was fast. It anchored before I was able to arrive at the dock. I entered a nearby ticket station and bought a ticket to sail across Lake Ashi to the volcanic valley of Owakudani. A standard ticket cost 1,000 yen, with the downside of not being allowed on the first class side of the ship. The other side of the deck was fine, with panoramic views of the lake. For the duration of the transit, I took photographs from an observation deck atop the ship. As the ship neared the port of Togendai, the smell of sulfur filled the air.
 
 Once at Togendai, I had lunch at a restaurant on the second floor of the ropeway station. Near a window which overlooked Lake Ashi, I had cooked sausages and a sweet drink made with peaches from the Nagano prefecture of Japan. After I finished lunch, I took an escalator to the third floor of the ropeway station and bought a ticket for the cable car to Owakudani. The cable car was spacious, with ample seating, though the majority of the seats were empty asides from two other people. Along the sixteen minute ride to the top of Owakudani, the smell of sulfur increased greatly. Volcanic vents poked out of the side of the valley, which were active with columns of steam.
@@ -35,6 +37,8 @@ Once at Togendai, I had lunch at a restaurant on the second floor of the ropeway
 {{< image src="/images/togendai-lunch.jpg" alt="A cast iron skillet of sausages and a glass of juice on a wooden tray." >}}
 
 {{< /images >}}
+
+## Eating Black Eggs at Owakudani
 
 The cable car stopped at the top of the valley, with a view of the active volcanic region on the left. The landscape was reminiscent of Iceland, with a mixture of sand and lush green hills. Steam billowed from the valley floor, which was dotted with construction equipment and tan colored shacks covered in thick layers of sand. There were no workers present, which made the area look abandoned. From the exit of the cable car, I walked to the entrance of the Owakudani walking trail, which was unfortunately closed due to an increase in volcanic activity. Beyond the entrance, hard hats and other hiking equipment were organized neatly along a wall.
 
@@ -49,6 +53,8 @@ At a nearby restaurant and gift shop called Gokuraku Chaya, I waited in line to 
 {{< /images >}}
 
 Once at Sōunzan Station, I boarded the Hakone Tozan Train to return to Hakone-Yumoto Station. Though the seats on the train faced inward, the views were picturesque. The railway snaked through hills, foliage, and across an expansive bridge with a steep vertical drop. At Hakone-Yumoto Station, I bought a standard train ticket to return to Shinjuku Station. The return trip had wide views of rural areas of Japan, along with smaller towns with distant mountains. After the train arrived in Shinjuku, I left the station to locate food before I returned to Akihabara for the night.
+
+## Dinner and Drinks in Kabukichō
 
 For dinner, I went to the newly opened Kabukichō Tower in Shinjuku. The first floor was a mimic of nearby narrow alleys with plenty of neon signs and bar tools. I chose a restaurant called Kanto Shokusai and ordered a whiskey sour with a plate of chicken wings. In my honest opinion, neither the drink or food were good. The whiskey was watered-down and the wings were greasy. I quickly paid the bill and walked the nearby side streets of Kabukichō until I spotted a sign for a yokocho. The yokocho I stumbled upon was quiet, with a maze of narrow alleys and plenty of izakayas.
 

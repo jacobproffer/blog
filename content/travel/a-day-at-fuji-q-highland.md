@@ -12,6 +12,8 @@ thumbnailAlt: "Wide view of Eejanaika, a rollercoaster at Fuji-Q Highland, with 
 
 After a day at Mount Takao, my plan was to hop on a train towards a national park called Hakone. A glance at the weather report revealed a forecast of heavy rain in the region throughout the day. I changed plans and went to Fuji-Q Highland instead, an amusement park located at the base of Mount Fuji, within the Yamanashi Prefecture of Japan. Before I left the hotel for Akihabara Station, I purchased a day pass for Fuji-Q Highland via an app called KKday on my phone. The e-ticket cost forty dollars and needed to be redeemed at the park entrance once I arrived.
 
+## Getting to Fuji-Q Highland From Tokyo
+
 From Akihabara Station, I took a train to Shinjuku Station and walked to the Shinjuku Expressway Bus Terminal. Via an automated ticket machine on an upper floor of the bus terminal, I purchased a one-way bus ticket to Fuji-Q Highland. The ticket cost 2,200 yen, which was half of the cost of a train ride towards Fuji-Q. After I purchased the ticket, I sat on an uncomfortable chair next to the assigned exit for my bus. Other buses came and went every five minutes to the same exit, which made me anxious.
 
 The bus, a double decker, arrived on time. I was first to board, my seat located behind the driver on the first floor. There wasn't spacious leg room but the seat was comfortable. The bus driver took a good hour to exit the city limits of Tokyo. The endless rows of houses and structures of Tokyo faded behind as we passed through hills and distant mountains. On the highway, the bus was passed by Japanese Self Defense Force vehicles. There were olive drab Type-73 trucks with camouflaged soldiers seated on benches in the bed. Though I had been to Japan three times prior, it was my first time seeing the Japanese Self Defense Force.
@@ -25,6 +27,8 @@ Located near the entrance of Fuji-Q Highland, the Fuji-Q Bus Terminal is compara
 {{< image src="/images/fuji-q.jpg" alt="Security gate for Fuji-Q Highland" >}}
 
 {{< /images >}}
+
+## Eejanaika - a Fourth Dimension Hypercoaster
 
 My first ride of the day was Eejanaika, a fourth dimension hypercoaster with rotatable seats. Mindful of long wait times at Fuji-Q Highland, I purchased an express pass for Eejanaika for 3,000 yen from an automated machine near a ride called Zokkon. The pass spared me from the prospect of a two-hour wait and gave permission to skip the standard line. The pass came with a catch - a limited time window. This caused for me to run from Zokkon to Eejanaika, a sizeable distance in the park. With the heat and high humidity of a Japanese summer, I was drenched in sweat upon arrival.
 
@@ -40,6 +44,8 @@ An alarm sounded, the floor lowered and the coaster left the station. I was prop
 
 {{< /images >}}
 
+## Paniclock
+
 Afterwards, I returned to Zokkon, near where I had purchased the priority ticket for Eejanaika. I waited in the normal line for ten minutes before I grew impatient and exited. Nearby, Paniclock had no line. The clock-style ride resembled a giant pendulum in the theme of an old clock and mimicked the intricate movements of a clock's hand. Comparable to Eejanaika, shoes had to be removed and pockets emptied. After I sat into a seat towards the end of the ride, a worker came by to fasten the shoulder harness and lap belt. The worker soon stepped off of the platform before the floor lowered. The ride swung counterclockwise in a labored climb, with a sudden drop clockwise. This pattern was repeated until the car was able to go upside-down at a rapid pace, a reference to the passage of time.
 
 {{< images >}}
@@ -49,6 +55,8 @@ Afterwards, I returned to Zokkon, near where I had purchased the priority ticket
 {{< image src="/images/paniclock.jpg" alt="Two people in front of the Paniclock ride at Fuji-Q Highland" >}}
 
 {{< /images >}}
+
+## Fujiyama - The King of Coasters
 
 Next, I rode a steel rollercoaster called Fujiyama, referred to as the King of Coasters. Upon arrival, the line for Fujiyama spanned three floors. Though costly, at a machine in front of the ride, I paid 3,000 yen for a priority ticket to skip to the front. After a small wait for the assigned time slot, I ascended the towering structure of Fujiyama alone in the priority lane. At the top of the ride, a worker took my ticket and guided me to a lane for the first car of the rollercoaster. The car was painted solid gold, in the shape of a flame, and had two seats side by side. Since I was a lone rider, I was allowed to have the car to myself.
 
@@ -62,7 +70,11 @@ Unlike Eejanaika, Fujiyama did not go upside-down. Instead, I experienced the ta
 
 {{< /images >}}
 
+## Lunch at Fuji-Q Highland
+
 For lunch, Fuji-Q Highland had a great number of options to choose from. There were multi-floor food courts and a Starbucks. Gourmet burgers were served by Village Vanguard, Belgian-style french fries were available by a specialty store called Bintje, candy apples from Daikanyama, pizza from Pizza-LA, and crepes from Momi and Toy's. I chose takoyaki with diced octopus from a small booth in the center of the park called Laughing Octopus. It had been awhile since I had takoyaki but the octopus flavor was familiar. With chopsticks, I was able to open one of the ball-shaped snacks and see the pink colored tentacles inside.
+
+## Leaving the Park
 
 Towards the end of the afternoon, as the clouds darkened, I left the park. It was odd timing, as a crack of thunder sounded as I entered the gift store at the front of the park, followed by steady rain. The automatic doors slid open repeatedly as guests rushed inside. Each time the doors opened, the thunder grew louder as the rain increased in intensity. At the front of the store, a worker conveniently stocked a row of umbrellas with transparent canopies. Since I had neglected to bring a rain jacket, I paid 500 yen for an umbrella and left the store. It was a small price to pay for the short walk to the bus terminal but the umbrella kept me dry.
 
