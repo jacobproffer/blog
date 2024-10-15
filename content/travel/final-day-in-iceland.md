@@ -11,7 +11,9 @@ thumbnailAlt: ""
 draft: true
 ---
 
-## Lamb Hot Dogs and Shopping in Reykjavík
+The rain continued steadily across southern Iceland on our final day. Myles and I spent the morning in Reykjavik, heading downtown for an early lunch. We made our way to Bæjarins Beztu Pylsur, a famous hot dog stand known for serving Iceland's best lamb hot dogs. Despite the long line, we waited patiently, watching as tourists and locals alike queued for the same reason. When it was our turn, I ordered mine loaded with everything: Icelandic ketchup, mustard, raw onions, crispy fried onions, and Remolaði sauce. It was satisfying.
+
+After lunch, Myles and I wandered through the nearby shops to pass the time. One store, 66 North, had a sleek shirt which caught my eye, but the high price tag convinced me to leave it behind. We ducked into a shop which sold Icewear apparel, where I bought souvenirs for friends and family. Our last stop was 12 Tónar, a legendary record store, where I sifted through stacks of CDs before settling on an Icelandic jazz album. It was a fitting souvenir to remember the trip, which reminded of the rainy streets of Reykjavik.
 
 ## Erupting Volcano on the Reykjanes Peninsula
 
