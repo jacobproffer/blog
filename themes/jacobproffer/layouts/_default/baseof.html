@@ -13,7 +13,7 @@
 >
   {{ $sass := resources.Get "scss/main.scss" }} {{ $options := (dict
   "targetPath" "css/style.css" "outputStyle" "compressed" "includePaths"
-  (slice)) }} {{ $style := $sass | resources.ToCSS $options }}
+  (slice)) }} {{ $style := $sass | css.Sass $options }}
 
   <head>
     <meta charset="utf-8" />
