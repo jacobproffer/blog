@@ -10,4 +10,10 @@ thumbnail: "/images/japan_blog_02_social.jpg"
 thumbnailAlt: ""
 ---
 
-In the fall of 2024, I returned to Japan for the fifth time. Choosing Japan Airlines once again, I landed at Haneda Airport in Tokyo, Japan, which I've found far more convenient than Narita. Completing the arrival paperwork during the flight made my journey through immigration and customs seamless. Once in the arrivals area, I picked up a Welcome Suica card near the Tokyo Monorail gates, loading it with 5,000 yen.
+In the fall of 2024, I returned to Japan for the fifth time. Choosing Japan Airlines once again, I landed at Haneda Airport in Tokyo, which I've found more convenient than Narita due to the proximity to central Tokyo. By completing the arrival paperwork during the flight, immigration and customs were a blur. Once in the arrivals area of Haneda, I picked up a new Welcome Suica card near the Tokyo Monorail gates, loading it with 5,000 yen. Before I departed the airport, I went down to the second floor of the terminal to locate one of two eki stamps available.
+
+As with my trip in 2023, I opted for the Tokyo Monorail to travel from Haneda Airport to Hamamatsuchō Station. The ride lasted around thirty minutes, and offered glimpses of nearby hangars, ports, Tokyo Bay, and the sprawling cityscape of Tokyo. Once at Hamamatsuchō Station, I transferred to the Yamanote Line for a fourteen minute ride in the direction of Akihabara. On the previous trip, I made the mistake of taking the train in the opposite direction, which extended the journey by an hour.
+
+The JR-East Hotel Mets Akihabara check-in process was as simple as the previous year. No human interaction was required. I scanned my passport on a touch screen panel, entered basic travel information, and received my room key from a machine within five minutes of arrival. My room was on the eighth floor, and overlooked the southern entrance to Akihabara Station and nearby shops. It was my third time staying at the hotel in three years but it felt good to have the view once again so soon.
+
+<!-- Shopping / First night --->
