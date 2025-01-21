@@ -16,4 +16,4 @@ As with my trip in 2023, I opted for the Tokyo Monorail to travel from Haneda Ai
 
 The JR-East Hotel Mets Akihabara check-in process was as simple as the previous year. No human interaction was required. I scanned my passport on a touch screen panel, entered basic travel information, and received my room key from a machine within five minutes of arrival. My room was on the eighth floor, and overlooked the southern entrance to Akihabara Station and nearby shops. It was my third time staying at the hotel in three years but it felt good to have the view once again so soon.
 
-<!-- Shopping / First night --->
+After a shower and a change of clothes, I stepped out into the streets of Akihabara. Just down the block from the hotel, I made my way to Nadai Fuji Soba, my go-to spot to eat. I ordered a bowl of white rice, topped with tonkatsu and fried egg. To my surprise, the price had dropped since my last visit. The flavors, however, remained unchanged. The crisp tonkatsu paired well with the rich egg, which offered the nostalgia and comfort I had come to expect from Nadai the past few years.
