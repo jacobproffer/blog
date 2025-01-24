@@ -3,15 +3,13 @@
 <main id="content">
   <section class="hero-top-spacing" aria-labelledby="list-headline">
     <div class="container">
-      <h1 class="list__headline gsap-fade-in" id="list-headline">
-        {{ .Title }}
-      </h1>
+      <h1 class="list__headline" id="list-headline">{{ .Title }}</h1>
 
       {{ $sortedPages := sort .Pages "Title" }} {{ if or ( eq .RelPermalink
       "/series/" ) ( eq .RelPermalink "/tags/" ) ( eq .RelPermalink
       "/categories/" ) }}
 
-      <ol class="unstyled-list flex series-list gsap-fade-in">
+      <ol class="unstyled-list flex series-list">
         {{ range $sortedPages }}
 
         <li>
@@ -25,10 +23,12 @@
 
       {{ else }}
 
-      <ol class="unstyled-list list grid gsap-fade-in">
+      <ol class="unstyled-list list grid">
         {{ range .Pages }}
 
-        <li class="list__item grid relative">{{ .Render "listing-article" }}</li>
+        <li class="list__item grid relative">
+          {{ .Render "listing-article" }}
+        </li>
 
         {{ end }}
       </ol>

@@ -1,10 +1,10 @@
 <section>
   <div class="container">
-    <div class="subheading-wrap flex gsap-fade-in">
+    <div class="subheading-wrap flex">
       <h2 class="subheading-wrap__headline">Select Series</h2>
     </div>
 
-    <ol class="unstyled-list grid series-grid gsap-fade-in">
+    <ol class="unstyled-list grid series-grid">
       {{ $thumbnail := "" }}
       {{ range .Site.Taxonomies.series }}
         {{ if or (eq .Page.Title "Japan") (eq .Page.Title "Iceland") (eq .Page.Title "Japan 2022") (eq .Page.Title "Japan 2023") }}
