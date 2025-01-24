@@ -2,7 +2,6 @@ const mainHeader = document.querySelector('[data-header]');
 const mainNavigation = document.querySelector('[data-navigation]');
 const mobileNavigationTrigger = document.querySelector('[data-navigation-toggle]');
 const mobileNavigation = document.querySelector('[data-navigation-list]');
-const fadeIns = document.querySelectorAll('.gsap-fade-in');
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -15,7 +14,15 @@ ScrollTrigger.create({
 });
 
 /**
- * Trap focus within navigation
+ * Sets up keyboard navigation focus trapping within the main navigation.
+ * Ensures that when tabbing through the navigation, focus wraps around
+ * from the last focusable element back to the first, and vice versa.
+ *
+ * The function assumes that `mainNavigation` is a global variable
+ * representing the main navigation element.
+ *
+ * It adds an event listener for the 'keydown' event on the `mainNavigation`
+ * element to handle the focus trapping logic.
  */
 function navigationFocus() {
   const focusableElements = mainNavigation.querySelectorAll('a[href], button');
@@ -34,7 +41,10 @@ function navigationFocus() {
 }
 
 /**
- * Close navigation if escape key is pressed
+ * Adds an event listener to the document that listens for the 'keyup' event.
+ * When the 'Escape' key is pressed, it checks if the mobile navigation menu is open.
+ * If the menu is open, it closes the menu, updates the aria-expanded attribute,
+ * focuses on the mobile navigation trigger, and updates the trigger's inner HTML.
  */
 function handleEscape() {
   document.addEventListener('keyup', function (e) {
@@ -66,46 +76,3 @@ mobileNavigationTrigger.addEventListener("click", function () {
     this.innerHTML = "Open Menu";
   }
 });
-
-// Ensure GSAP and ScrollTrigger are loaded
-gsap.registerPlugin(ScrollTrigger);
-
-// Function to trigger the fade-in animation
-const triggerFadeInAnimation = (element) => {
-  gsap.to(element, {
-    opacity: 1,
-    y: 0,
-    duration: 1,
-    ease: 'power1.out'
-  });
-};
-
-// Function to setup fade-in animations on scroll
-const setupFadeInAnimation = (element) => {
-  // Set initial state
-  gsap.set(element, { opacity: 0, y: 30 });
-
-  // Create ScrollTrigger instance
-  const trigger = ScrollTrigger.create({
-    trigger: element,
-    start: 'top 90%',
-    end: 'bottom top',
-    once: true,
-    onEnter: () => triggerFadeInAnimation(element)
-  });
-
-  // Handle focus for focusable child elements
-  const focusableChildren = element.querySelectorAll('a, button, input, select, textarea, [tabindex]:not([tabindex="-1"])');
-  focusableChildren.forEach((child) => {
-    child.addEventListener('focus', () => {
-      if (!trigger.isActive) {
-        triggerFadeInAnimation(element);
-      }
-    });
-  });
-};
-
-// Initialize animations for fade-in elements
-if (fadeIns.length > 0) {
-  fadeIns.forEach(setupFadeInAnimation);
-}

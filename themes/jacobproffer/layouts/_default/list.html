@@ -10,7 +10,7 @@ $travelLength := (where .Site.Pages "Section" "travel" | len) }}
     <div class="container">
       {{ if or (eq .Type "japanese") (eq .Type "travel") }}
 
-      <div class="subheading-wrap gsap-fade-in">
+      <div class="subheading-wrap">
         {{ if eq .Type "japanese" }}
 
         <h1 class="subheading-wrap__headline" id="list-headline">
@@ -28,16 +28,18 @@ $travelLength := (where .Site.Pages "Section" "travel" | len) }}
 
       {{ else }}
 
-      <h1 class="list__headline gsap-fade-in" id="list-headline">
+      <h1 class="list__headline" id="list-headline">
         {{ .Title | singularize }} Posts
       </h1>
 
       {{ end }}
 
-      <ol class="unstyled-list list grid gsap-fade-in">
+      <ol class="unstyled-list list grid">
         {{ range $index, $page := $paginator.Pages }}
 
-        <li class="list__item grid relative">{{ .Render "listing-article" }}</li>
+        <li class="list__item grid relative">
+          {{ .Render "listing-article" }}
+        </li>
 
         {{ end }}
       </ol>
@@ -49,7 +51,7 @@ $travelLength := (where .Site.Pages "Section" "travel" | len) }}
       <span id="pagination-label" hidden>Blog</span>
       <span id="pagination-prefix" hidden>Page</span>
 
-      <ol class="unstyled-list pagination gsap-fade-in" role="list">
+      <ol class="unstyled-list pagination" role="list">
         {{ range $paginator.Pagers }} {{ if eq . $paginator}}
 
         <li>

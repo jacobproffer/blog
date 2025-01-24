@@ -1,23 +1,20 @@
-{{ define "title" }}
-  Page Not Found - {{ .Site.Title }}
-{{ end }}
+{{ define "title" }} Page Not Found - {{ .Site.Title }} {{ end }} {{ define
+"main" }}
 
-{{ define "main" }}
+<main id="content">
+  <article class="single hero-top-spacing">
+    <div class="container">
+      <div class="single__container">
+        <div class="single__content-grid">
+          <h1>404</h1>
 
-  <main id="content">
-
-    <article class="single hero-top-spacing">
-      <div class="container gsap-fade-in">
-        <div class="single__container">
-          <div class="single__content-grid">
-            <h1>404</h1>
-
-            <p>The page was not found. <a href="{{ .Site.BaseURL }}">Go home</a>?</p>
-          </div>
+          <p>
+            The page was not found. <a href="{{ .Site.BaseURL }}">Go home</a>?
+          </p>
         </div>
       </div>
-    </article>
-
-  </main>
+    </div>
+  </article>
+</main>
 
 {{ end }}
