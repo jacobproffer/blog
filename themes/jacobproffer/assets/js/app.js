@@ -14,7 +14,15 @@ ScrollTrigger.create({
 });
 
 /**
- * Trap focus within navigation
+ * Sets up keyboard navigation focus trapping within the main navigation.
+ * Ensures that when tabbing through the navigation, focus wraps around
+ * from the last focusable element back to the first, and vice versa.
+ *
+ * The function assumes that `mainNavigation` is a global variable
+ * representing the main navigation element.
+ *
+ * It adds an event listener for the 'keydown' event on the `mainNavigation`
+ * element to handle the focus trapping logic.
  */
 function navigationFocus() {
   const focusableElements = mainNavigation.querySelectorAll('a[href], button');
@@ -33,7 +41,10 @@ function navigationFocus() {
 }
 
 /**
- * Close navigation if escape key is pressed
+ * Adds an event listener to the document that listens for the 'keyup' event.
+ * When the 'Escape' key is pressed, it checks if the mobile navigation menu is open.
+ * If the menu is open, it closes the menu, updates the aria-expanded attribute,
+ * focuses on the mobile navigation trigger, and updates the trigger's inner HTML.
  */
 function handleEscape() {
   document.addEventListener('keyup', function (e) {
@@ -65,6 +76,3 @@ mobileNavigationTrigger.addEventListener("click", function () {
     this.innerHTML = "Open Menu";
   }
 });
-
-// Ensure GSAP and ScrollTrigger are loaded
-gsap.registerPlugin(ScrollTrigger);
