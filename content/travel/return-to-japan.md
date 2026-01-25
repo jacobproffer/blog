@@ -7,7 +7,7 @@ series: ["Japan", "Japan 2024"]
 tags: ["japan", "airport", "flight"]
 categories: ["travel"]
 thumbnail: "/images/2024-japan-return.jpg"
-thumbnailAlt: ""
+thumbnailAlt: "Side view of a Japan Airlines Boeing-787 with ground crew nearby."
 ---
 
 In the fall of 2024, I returned to Japan for the fifth time. Choosing Japan Airlines once again, I landed at Haneda Airport in Tokyo, which I've found more convenient than Narita due to the proximity to central Tokyo. By completing the arrival paperwork during the flight, immigration and customs were a blur. Once in the arrivals area of Haneda, I picked up a new Welcome Suica card near the Tokyo Monorail gates, loading it with 5,000 yen. Before I departed the airport, I went down to the second floor of the terminal to locate one of two eki stamps available.
@@ -30,12 +30,10 @@ Before I returned to the hotel for the night, I walked from Mandarake to a favor
 
 {{< images >}}
 
-{{< image src="/images/2024-japan-mandarake.jpg" alt="" >}}
+{{< image src="/images/2024-japan-mandarake.jpg" alt="Japanese version of an Alien versus Predator graphic novel." >}}
 
-{{< image src="/images/2024-japan-gigo.jpg" alt="" >}}
+{{< image src="/images/2024-japan-gigo.jpg" alt="Aliens 3 arcade game with plastic gun controls." >}}
 
 {{< /images >}}
 
 After a few rounds of The Typing of the Dead, I played a round of The Keisatsukan 2 before I wandered the arcade's other floors. Each floor offered something unique, from rhythm games with flashing lights and booming soundtracks to claw machines stacked with plush toys and limited-edition prizes. On the fifth floor, I spent a few minutes watching a group of players challenge each other at a row of fighting games.
-
-<!-- With my legs beginning to tire, I decided to call it a night with a beer -->
