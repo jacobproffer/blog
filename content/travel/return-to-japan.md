@@ -1,12 +1,12 @@
 ---
 title: "Returning to Japan: My Fifth Adventure Exploring Tokyo and Beyond"
-date: 2025-01-18T00:00:00Z
-description: "Discover the highlights of my fifth trip to Japan, including seamless travel through Haneda Airport, using the Welcome Suica card, and exploring Tokyo's top attractions."
-images: ["/images/japan_blog_02_social.jpg"]
+date: 2026-01-25T00:00:00Z
+description: "Discover the highlights of my fifth trip to Japan, including travel through Haneda Airport, using the Welcome Suica card, and exploring Tokyo's top attractions."
+images: ["/images/2024-japan-return.jpg"]
 series: ["Japan", "Japan 2024"]
 tags: ["japan", "airport", "flight"]
 categories: ["travel"]
-thumbnail: "/images/japan_blog_02_social.jpg"
+thumbnail: "/images/2024-japan-return.jpg"
 thumbnailAlt: ""
 ---
 
@@ -20,12 +20,22 @@ The JR-East Hotel Mets Akihabara check-in process was as simple as the previous 
 
 After a shower and a change of clothes, I stepped out into the streets of Akihabara. Just down the block from the hotel, I made my way to Nadai Fuji Soba, my go-to spot to eat. I ordered a bowl of white rice, topped with tonkatsu and fried egg. To my surprise, the price had dropped since my last visit. The flavors, however, remained unchanged. The crisp tonkatsu paired well with the rich egg, which offered the nostalgia and comfort I had come to expect from Nadai the past few years.
 
+{{< image src="/images/2024-japan-akihabara.jpg" alt="" >}}
+
 With a full stomach, I continued the tradition of visiting Mandarake on the first night in Japan. Mandarake has eight floors full of merchandise, which I love to browse. Each floor has an abundance of a certain type of merchandise, such as manga, physical media, and even dolls. The top two floors are dedicated to toys, which is where I decided to start. Per a tip I had read online, I skipped the staircase and took an elevator to the eighth floor. I was on the lookout for new and old Zoids kits.
 
 Unlike previous years, the Zoids selection at Mandarake was limited. Of note was the Desert Type Shield Liger, which was a rare variant. I passed on the Shield Liger and walked down to a lower floor of Mandarake which sold manga and comics. Although Dark Horse lost the rights to Alien and Predator, I wanted to see if there were older Japanese versions being sold that I had not bought previously. Both collections of Aliens: Defiance in Japanese were available but I decided to leave empty handed.
 
 Before I returned to the hotel for the night, I walked from Mandarake to a favored arcade in Akihabara called GiGO 3. The building, once operated by Sega, had transitioned ownership in recent years but still retained vibrant energy and a familiar layout. My favorite game, The Typing of the Dead, was tucked away on the sixth floor. One match cost 100 yen, and usually lasted ten minutes or more. To stay alive in the game, I was required to type words and characters before zombies were able to damage me.
 
+{{< images >}}
+
+{{< image src="/images/2024-japan-mandarake.jpg" alt="" >}}
+
+{{< image src="/images/2024-japan-gigo.jpg" alt="" >}}
+
+{{< /images >}}
+
 After a few rounds of The Typing of the Dead, I played a round of The Keisatsukan 2 before I wandered the arcade's other floors. Each floor offered something unique, from rhythm games with flashing lights and booming soundtracks to claw machines stacked with plush toys and limited-edition prizes. On the fifth floor, I spent a few minutes watching a group of players challenge each other at a row of fighting games.
 
-With my legs beginning to tire, I decided to call it a night. Before I returned to the hotel, I walked over to a convenience store on the ground level of Radio Kaikan.
+<!-- With my legs beginning to tire, I decided to call it a night with a beer -->
