@@ -76,8 +76,6 @@
   }
 
   &__image {
-    aspect-ratio: 3/2;
-
     img {
       @include size(100%);
       display: block;
