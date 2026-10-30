@@ -1,5 +1,5 @@
 baseURL = "https://jacobproffer.com/"
-languageCode = "en-us"
+locale = "en-us"
 title = "Jacob Proffer"
 theme = "jacobproffer"
 pagination.pagerSize = 12
@@ -11,9 +11,18 @@ ignoreErrors = ["error-disable-taxonomy"]
 [imaging]
   anchor = "Smart"
   bgColor = "#ff683f"
+  resampleFilter = "Lanczos"
+
+[imaging.jpeg]
+  quality = 100
+
+[imaging.webp]
   hint = "photo"
   quality = 100
-  resampleFilter = "Lanczos"
+
+[imaging.avif]
+  hint = "photo"
+  quality = 100
 
 [taxonomies]
   category = "categories"
