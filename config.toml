@@ -31,7 +31,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 [params]
   description = "Travel and language study blog of Jacob Proffer."
-  images = ["images/jacobproffer-social.jpg"]
+  images = ["images/jacobproffer-og.jpg"]
 
 [menu]
 
